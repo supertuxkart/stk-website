@@ -1,0 +1,70 @@
+.header_wrapper {
+    background-image: url('../images/header.jpg');
+    position: relative;
+    height: 130px;
+    background-size: cover;
+
+    @media (max-width: $screen-high-res){
+        height: 100px;
+        background-image: url('../images/header-small.jpg');
+    }
+
+    @media (max-width: $screen-small-res){
+        height: 80px;
+        background-image: url('../images/header-small.jpg');
+    }
+
+    .header_color_wrapper_outer {
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+
+        .header_color_wrapper_inner {
+            background-color: rgba(0, 0, 0, 0.8);
+            height: $nav-bar-height;
+            @include size-dependend-margin;
+        }
+    }
+}
+
+.navigation-tools {
+    position: relative;
+    height: 100%;
+    max-width: $max-content-width;
+    margin: 0 auto;
+
+    nav {
+        bottom: 0px;
+        margin-left: 120px;
+        display: block;
+        height: 100%;
+        max-width: $max-content-width;
+
+        @media screen and (min-width: $screen-small-res) and (max-width: $screen-medium-res) {
+            margin-left: 130px;
+        }
+    }
+
+    .logo {
+        position: absolute;
+        left: -90px;
+        bottom: -40px;
+        width: $logo-width;
+
+        > img {
+            width: 100%;
+        }
+
+        @media (max-width: $screen-high-res) {
+            left: -20px;
+            bottom: -30px;
+            width: $logo-width * 0.75;
+        }
+
+        @media (max-width: $screen-small-res) {
+            left: 0px;
+            bottom: -20px;
+            width: $logo-width * 0.6;
+        }
+    }
+}

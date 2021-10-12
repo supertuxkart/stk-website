@@ -1,0 +1,163 @@
+/* inspired by http: //css-tricks.com/targetting-menu-elements-submenus-navigation-bar/ */
+.nav {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+
+    > li {
+        position: relative;
+        float: left;
+        height: 26px;
+        padding: 12px 0px;
+
+        &:before {
+            content: '|';
+            color: white;
+         }
+
+        &:first-child:before {
+           content: '';
+        }
+
+        > a {
+            color: white;
+            margin: 0px 10px;
+            padding: 16px 0px;
+
+            &:hover {
+                text-decoration: none;
+                color: orange;
+            }
+        }
+
+        .donate-top-menu-link{
+            color: #f34ae4;
+        }
+
+        a:first-child:nth-last-child(2):before {
+            position: absolute;
+            top: 50%;
+            height: 0px;
+            width: 0px;
+            content: '';
+        }
+    }
+}
+
+ul.nav {
+    display: inline;
+}
+
+nav {
+    input[type=checkbox] {
+        display: none;
+    }
+
+    input[type=checkbox]:checked.dropdown-trigger ~ .dropdown-target {
+        display: block !important;
+    }
+}
+
+/* Searchbox at the top right */
+.nav > li.searchform {
+    float: right;
+    width: $searchform-width;
+    margin: 12px;
+    margin-left: 35px; // For the tools-icon
+    padding: 0px 5px;
+    border-radius: 4px;
+    background-color: #ADADAD;
+
+    button.fa-search {
+        position: absolute;
+        right: 8px;
+        top: 3px;
+        background: none;
+        margin: 0px;
+        padding: 0px;
+        border: none;
+        color: #4D4D4D;
+    }
+
+    input {
+        height: 20px;
+        width: $searchform-width - 25px;
+        /* clean defaults */
+        background: transparent;
+        border: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    &:before {
+        content: '';
+    }
+}
+
+
+/* mobile navbar */
+
+.dropdown-target {
+    display: none;
+}
+
+.toggle-mobile-navbar {
+    display: none;
+}
+
+@media screen and (max-width: $screen-medium-res) {
+    .nav {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, $nav-bar-height);
+        width: 210px;
+        background-color: #111;
+        z-index: 1;
+
+        > li {
+            width: 100%;
+
+            &:before {
+                content: '';
+            }
+        }
+    }
+
+    ul.nav {
+        display: none; // The dropdown is hidden by default
+    }
+
+    .toggle-mobile-navbar {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0px);
+        display: flex;
+        align-items: center;
+        color: white;
+        height: 100%;
+    }
+
+    ul.nav > li.searchform {
+        width: $searchform-width - 20px;
+        height: 36px;
+        margin: 10px;
+        padding: 0px;
+        border-radius: 4px;
+        margin-right: 40px;
+
+        input {
+            height: 36px;
+            margin-left: 5px;
+            font-size: 16px;
+        }
+
+        button.fa-search {
+            right: 0px;
+            top: 3px;
+            padding: 5px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+ul#pagehistory {
+    li {
+        padding: 2px 0px;
+        border: none;
+        border-bottom: 1px solid $dark-grey;
+        list-style: outside none none;
+
+        &:last-child.after {
+            border: none;
+        }
+    }
+
+    li.selected {
+        background-color: inherit;
+        border: none;
+        border-bottom: 1px solid $dark-grey;
+    }
+}

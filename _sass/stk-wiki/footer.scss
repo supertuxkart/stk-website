@@ -1,0 +1,54 @@
+footer {
+    @include size-dependend-margin;
+    @include size-dependend-padding;
+    background-color: rgba(10, 10, 10, 0.9);
+    color: #ddd;
+}
+
+.footer-links {
+    max-width: $max-content-width;
+    margin: 0 auto;
+
+    a {
+        color: orange;
+
+        &:hover {
+            color: #111;
+            background-color: orange;
+        }
+    }
+
+    div {
+        float: left;
+        padding-bottom: 20px;
+        width: 25%;
+
+        @media (max-width: $screen-small-res) {
+            width: 100%;
+        }
+
+        p {
+            margin: 0px;
+            font-weight: bold;
+        }
+
+        ul {
+            margin: 0px;
+            list-style: none;
+            padding-left: 10px;
+        }
+    }
+
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+.footer-copyright {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #888;
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+body {
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+}
+
+@mixin size-dependend-margin {
+    margin: 0px 3%;
+
+    @media (max-width: $screen-high-res) {
+        margin: 0px 20px;
+    }
+
+    @media (max-width: $screen-small-res) {
+        margin: 0px;
+    }
+}
+
+@mixin size-dependend-padding {
+     padding: 30px;
+
+     @media (max-width: $screen-high-res) {
+        padding-left: 20px;
+        padding-right: 20px;
+     }
+
+     @media (max-width: $screen-small-res) {
+        padding-left: 10px;
+        padding-right: 10px;
+     }
+}
+
+.main-content-wrapper {
+    @include size-dependend-margin;
+    @include size-dependend-padding;
+    background-color: #ddd;
+}
+
+.content_wrapper {
+    max-width: $max-content-width;
+    margin: 0px auto;
+    position: relative;
+}
+
+.article-title {
+    margin-top: 0px;
+}
+
+.mw-editsection-bracket {
+    display: none;
+}
+
+ul + .popup-code {
+    margin-left: 1.6em;
+}

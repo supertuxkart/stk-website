@@ -1,0 +1,78 @@
+/** declarations affecting the whole layout, e.g. fonts and variables **/
+$max-content-width: 1000px;
+$nav-bar-height: 50px;
+$searchform-width: 180px;
+
+$screen-small-res:  600px;
+$screen-medium-res: 1000px;
+$screen-high-res:   1200px;
+
+$logo-width: 200px;
+
+$dark-grey: #999;
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans-Regular.woff2'),
+         url('../fonts/OpenSans-Regular.woff'),
+         url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Open Sans Light";
+    src: url('../fonts/OpenSans-Light.woff2'),
+         url('../fonts/OpenSans-Light.woff'),
+         url('../fonts/OpenSans-Light.ttf');
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    margin: 0px;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #2d9f00;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Open Sans Light", sans-serif;
+}
+
+h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+code {
+    white-space: pre;
+}
+
+.mw-ui-container {
+    overflow: hidden;
+}
+
+/* Override some default MediaWiki values and some built-in values to make tables mobile-friendly */
+table.wikitable
+{
+    display: block;
+    border-width: 0px !important;
+    background-color: transparent;
+    max-width: 100%;
+    overflow: auto;
+}
+
+table.wikitable tbody
+{
+    background-color: #eff0f1;
+}
