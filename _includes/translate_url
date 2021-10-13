@@ -1,0 +1,5 @@
+{%- if page.lang == 'en' -%}
+    '{{- site.baseurl -}}/{{- include.url -}}'
+{%- else -%}
+    '{{- site.baseurl -}}/{{- page.lang -}}/{{- include.url -}}'
+{%- endif -%}

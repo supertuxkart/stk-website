@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html class="client-nojs" lang="en" dir="ltr">
+<html class="client-nojs" lang="{{ page.lang | replace: '_', '-' }}" dir="ltr">
 <head>
 <meta charset="UTF-8"/>
-<title>SuperTuxKart</title>
+<title>{{ page.title }}</title>
 <link rel="stylesheet" href="{{ '/assets/css/supertuxkart.css?v=' | prepend: site.baseurl }}">
 <link rel="stylesheet" href="{{ '/assets/css/fontawesome.css?v=' | prepend: site.baseurl }}">
 <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | prepend: site.baseurl }}">
@@ -16,19 +16,19 @@
 <div class="header_color_wrapper_inner size-dependend-margin">
 <div class="navigation-tools">
 <nav>
-    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i>Menu</label>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i>{% include translate id="menu" %}</label>
     <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
     <ul class="nav noselect dropdown-target">
-        <li><a href="/Discover" >Discover </a></li>
-        <li><a href="/Download" >Download </a></li>
-        <li><a href="/FAQ"      >FAQ      </a></li>
-        <li><a href="/Community">Get Involved</a></li>
-        <li><a href="https://blog.supertuxkart.net/">Blog</a></li>
-        <li><a class="donate-top-menu-link" href="/Donate">Donate <i class="fa fa-heart"></i></a></li>
+        <li><a href={% include translate_url url="Discover" %}>{% include translate id="discover" %}</a></li>
+        <li><a href={% include translate_url url="Download" %}>{% include translate id="download" %}</a></li>
+        <li><a href={% include translate_url url="FAQ" %}>{% include translate id="faq" %}</a></li>
+        <li><a href={% include translate_url url="Community" %}>{% include translate id="get_involved" %}</a></li>
+        <li><a href="https://blog.supertuxkart.net/">{% include translate id="blog" %}</a></li>
+        <li><a class="donate-top-menu-link" href={% include translate_url url="Donate" %}>{% include translate id="donate" %} <i class="fa fa-heart"></i></a></li>
     </ul>
 </nav>
 
-<a class="logo noselect" href="/Main_Page" title="Visit the main page">
+<a class="logo noselect" href={% include translate_url url="Main_Page" %} title="{% include translate id="visit_mainpage" %}">
     <img src="{{ '/assets/images/logo.png' | prepend: site.baseurl }}" alt="SuperTuxKart"/>
 </a>
 
@@ -48,35 +48,36 @@
 
 <footer class="size-dependend-margin ">
 <div class="footer-links">
-    <div><p> Community </p>
+    <div><p>{% include translate id="community" %}</p>
     <ul>
-            <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'> Forum </a></li>
-            <li><a href='https://blog.supertuxkart.net/'> Blog </a></li>
-            <li><a href='https://twitter.com/supertuxkart'> Twitter </a></li>
-            <li><a href='https://online.supertuxkart.net/'> Addons </a></li>
-            <li><a href='https://web.libera.chat/?channels=#supertuxkart'> irc: #supertuxkart@libera </a></li>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'>{% include translate id="forum" %}</a></li>
+        <li><a href='https://blog.supertuxkart.net/'>{% include translate id="blog" %}</a></li>
+        <li><a href='https://twitter.com/supertuxkart'>{% include translate id="twitter" %}</a></li>
+        <li><a href='https://online.supertuxkart.net/'>{% include translate id="addons" %}</a></li>
+        <li><a href='https://t.me/STKInternational/'>{% include translate id="telegram" %}</a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
     </ul>
     </div>
-    <div><p> Media </p>
+    <div><p>{% include translate id="media" %}</p>
     <ul>
-            <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'> YouTube </a></li>
-            <li><a href='/Gallery'> Pictures </a></li>
-            <li><a href='/Posters'> Posters </a></li>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'>{% include translate id="youtube" %}</a></li>
+        <li><a href={% include translate_url url="Gallery" %}>{% include translate id="gallery" %}</a></li>
+        <li><a href={% include translate_url url="Posters" %}>{% include translate id="posters" %}</a></li>
     </ul>
     </div>
-    <div><p> Development </p>
+    <div><p>{% include translate id="development" %}</p>
     <ul>
-            <li><a href='/Community'> Modding </a></li>
-            <li><a href='https://github.com/supertuxkart/stk-code'> GitHub </a></li>
-            <li><a href='https://doxygen.supertuxkart.net/'> Documentation </a></li>
+        <li><a href={% include translate_url url="Community" %}>{% include translate id="modding" %}</a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'>{% include translate id="github" %}</a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'>{% include translate id="documentation" %}</a></li>
     </ul>
     </div>
-    <div><p> About us </p>
+    <div><p>{% include translate id="about_us" %}</p>
     <ul>
-            <li><a href='/FAQ'> FAQ </a></li>
-            <li><a href='/Team'> Who we are </a></li>
-            <li><a href='/Discover'> About SuperTuxKart </a></li>
-            <li><a href='/Projects'> Projects using SuperTuxKart </a></li>
+        <li><a href={% include translate_url url="FAQ" %}>{% include translate id="faq" %}</a></li>
+        <li><a href={% include translate_url url="Team" %}>{% include translate id="about_the_team" %}</a></li>
+        <li><a href={% include translate_url url="Discover" %}>{% include translate id="about_stk" %}</a></li>
+        <li><a href={% include translate_url url="Projects" %}>{% include translate id="projects_using_stk" %}</a></li>
     </ul>
     </div>
 </div>

@@ -68,7 +68,14 @@ defaults:
     scope:
       path: "wiki"
     values:
+      lang: "en"
       permalink: /:basename
+ -
+    scope:
+      path: "wiki_translations/zh_TW"
+    values:
+      lang: "zh_TW"
+      permalink: /zh_TW/:basename
  -
     scope:
       path: "" # an empty string here means all files in the project
