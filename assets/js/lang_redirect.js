@@ -36,6 +36,12 @@ try
     {
         sessionStorage.setItem('detected_lang', 'true');
 
+        // Skip redirect if en is supplied
+        var site_url = '{{ site.url }}' + '{{ site.baseurl }}' + '/';
+        var site_url_en = site_url + 'en';
+        if (document.referrer.search(site_url_en) != -1)
+            throw 'English page';
+
         var user_language = (((navigator.userLanguage || navigator.language).replace('-', '_')).toLowerCase()).split('_');
         var lang = user_language[0];
         var locale = '';
@@ -50,8 +56,8 @@ try
         var suitable_lang = getSuitableLang(lang, locale, supported_languages)
         if (suitable_lang == null)
             throw 'No suitable language';
+
         // Only redirect in pages without language prefix
-        var site_url = '{{ site.url }}' + '{{ site.baseurl }}' + '/';
         var page = window.location.href.substring(site_url.length);
         if (page.search('/') == -1)
             window.location.replace('{{ site.baseurl }}' + '/' + suitable_lang + '/' + page);
