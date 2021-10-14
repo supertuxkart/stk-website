@@ -72,6 +72,18 @@ defaults:
       permalink: /:basename
  -
     scope:
+      path: "wiki_translations/pl"
+    values:
+      lang: "pl"
+      permalink: /pl/:basename
+ -
+    scope:
+      path: "wiki_translations/zh_CN"
+    values:
+      lang: "zh_CN"
+      permalink: /zh_CN/:basename
+ -
+    scope:
       path: "wiki_translations/zh_TW"
     values:
       lang: "zh_TW"

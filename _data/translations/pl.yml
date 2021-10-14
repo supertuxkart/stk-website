@@ -1,0 +1,35 @@
+pl:
+  # Don't literally translate the string English, enter your language name in its own lanuage. For example, 繁體中文 if you are translating for zh_TW, Polski for pl, Русский for ru, etc.
+  language_name: Polski
+  # Drop down menu when viewing SuperTuxKart homepage in mobile device
+  menu: Menu
+  discover: Odkryj
+  download: Pobierz
+  faq: FAQ
+  get_involved: Zaangażuj się
+  community: Społeczność
+  blog: Blog
+  donate: Darowizny
+  visit_mainpage: Przejdź na stronę główną
+  forum: Forum
+  twitter: Twitter
+  # Clicking Addons will go to online.supertuxkart.net
+  addons: Dodatki
+  telegram: Telegram
+  media: Multimedia
+  youtube: YouTube
+  gallery: Galeria
+  posters: Plakaty
+  development: Rozwój
+  # Clicking Modding will go to Commuity page
+  modding: Modowanie
+  github: GitHub
+  # Clicking Documentation will go to SuperTuxKart doxygen
+  documentation: Dokumentacja
+  about_us: O nas
+  # Clicking About the team will go to a page which show SuperTuxKart team member infos
+  about_the_team: Zespół gry SuperTuxKart
+  about_stk: O grze SuperTuxKart
+  projects_using_stk: Projekty używające gry SuperTuxKart
+  stk: SuperTuxKart
+  description: SuperTuxKart to trójwymiarowa zręcznościowa gra wyścigowa open-source z wieloma postaciami, trasami i trybami gry.

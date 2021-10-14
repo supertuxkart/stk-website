@@ -1,0 +1,35 @@
+zh_CN:
+  # Don't literally translate the string English, enter your language name in its own lanuage. For example, 繁體中文 if you are translating for zh_TW, Polski for pl, Русский for ru, etc.
+  language_name: 简体中文
+  # Drop down menu when viewing SuperTuxKart homepage in mobile device
+  menu: 菜单
+  discover: 探索
+  download: 下载
+  faq: 常问问题
+  get_involved: 参与
+  community: 社区
+  blog: 博客
+  donate: 捐款
+  visit_mainpage: 访问主页
+  forum: 论坛
+  twitter: 推特
+  # Clicking Addons will go to online.supertuxkart.net
+  addons: 附加组件
+  telegram: Telegram
+  media: 媒体
+  youtube: YouTube
+  gallery: 画廊
+  posters: 海报
+  development: 开发
+  # Clicking Modding will go to Commuity page
+  modding: 改装
+  github: GitHub
+  # Clicking Documentation will go to SuperTuxKart doxygen
+  documentation: 文件
+  about_us: 关于我们
+  # Clicking About the team will go to a page which show SuperTuxKart team member infos
+  about_the_team: 关于团队
+  about_stk: 关于 SuperTuxKart
+  projects_using_stk: 使用 SuperTuxKart 的项目
+  stk: SuperTuxKart
+  description: SuperTuxKart是一个开源三维赛车游戏，您可以选择多种赛车手、赛道和游戏模式。
