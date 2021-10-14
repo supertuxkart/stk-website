@@ -8,6 +8,12 @@
 <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | prepend: site.baseurl }}">
 <meta name="viewport" content="user-scalable = yes">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:site_name" content="{% include translate id="stk" %}">
+<meta property="og:description" content="{% include translate id="description" %}">
+<meta property="og:locale" content="{{ page.lang }}">
+<meta property="og:image" content="{{ '/assets/images/logo.png' | prepend: site.baseurl }}"/>
 </head>
 
 <body>
