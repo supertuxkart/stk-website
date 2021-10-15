@@ -7,7 +7,7 @@ This is the source code of the SuperTuxKart main website, it is based on [Git-wi
 ### With [docker-compose](https://docs.docker.com/compose/install/)
 
 1. install [docker-compose](https://docs.docker.com/compose/install/)
-2. run `docker-compose up github-stk-website`
+2. run `docker-compose up stk-website`
 3. the website will be ready on `http://127.0.0.1:4000/`
 
 ### Without docker compose

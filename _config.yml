@@ -103,23 +103,8 @@ defaults:
 sass:
     style: compressed
 plugins:
-  - jekyll-avatar
-  - jekyll-coffeescript
-  - jekyll-default-layout
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-mentions
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
   - jekyll-redirect-from
-  - jekyll-remote-theme
-  - jekyll-relative-links
-  - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-titles-from-headings
-  - jemoji
-
-
 #
 # INCLUDING HOOKS
 # They are optional, change them only if you need

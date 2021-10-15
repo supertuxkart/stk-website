@@ -1,0 +1,30 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.3.4
+      - name: Set GitHub variables
+        run: |
+          export STK_URL="https://$(echo $GITHUB_REPOSITORY | cut -d '/' -f1 | tr '[:upper:]' '[:lower:]').github.io"
+          export STK_BASEURL="/$(basename $GITHUB_REPOSITORY)"
+          echo "url: $STK_URL" >> _config.yml
+          echo "baseurl: $STK_BASEURL" >> _config.yml
+          echo "github:" >> _config.yml
+          echo "  repository_url: https://github.com/$GITHUB_REPOSITORY" >> _config.yml
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - uses: jeffreytse/jekyll-deploy-action@v0.3.1
+        with:
+          provider: 'github'
+          token: ${{ secrets.GITHUB_TOKEN }}

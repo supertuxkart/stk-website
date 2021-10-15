@@ -6,6 +6,6 @@ ADD . /srv/jekyll
 
 WORKDIR /srv/jekyll
 
-RUN bundle install --gemfile=.env-files/Gemfile.gitlab
+RUN bundle install --gemfile=Gemfile
 
 EXPOSE 4000

@@ -1,31 +1,17 @@
 version: '3.7'
 services:
-  github-stk-website:
+  stk-website:
     build:
       context: .
-      dockerfile: .env-files/Dockerfile.github
+      dockerfile: Dockerfile
     ports:
      - 4000:4000
      - 35729:35729
     environment: 
-     - BUNDLE_GEMFILE=.env-files/Gemfile.github
+     - BUNDLE_GEMFILE=Gemfile
     volumes:
      - .:/srv/jekyll
-     - github_site:/srv/jekyll/_site
+     - website:/srv/jekyll/_site
     command: bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload
-  gitlab-stk-website:
-    build:
-      context: .
-      dockerfile: .env-files/Dockerfile.gitlab
-    ports:
-      - 4000:4000
-      - 35729:35729
-    environment:
-     - BUNDLE_GEMFILE=.env-files/Gemfile.gitlab
-    volumes:
-     - .:/srv/jekyll
-     - gitlab_site:/srv/jekyll/_site
-    command: 'bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload'
 volumes:
-  github_site:
-  gitlab_site:
+  website:
