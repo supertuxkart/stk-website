@@ -1,0 +1,14 @@
+{%- for translation in site.data.translations -%}
+    {%- if translation[0] == page.lang -%}
+        {%- assign result = translation[1][page.lang][include.id] -%}
+    {%- endif -%}
+{%- endfor -%}
+{%- if result != blank -%}
+    <span class="translate">{{- result -}}</span>
+{%- else -%}
+    {%- for translation in site.data.translations -%}
+        {%- if translation[0] == 'en' -%}
+            <span class="translate">{{- translation[1]['en'][include.id] -}}</span>
+        {%- endif -%}
+    {%- endfor -%}
+{%- endif -%}

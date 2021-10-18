@@ -16,6 +16,14 @@ footer {
             color: #111;
             background-color: orange;
         }
+        span {
+            color: orange;
+
+            &:hover {
+                color: #111;
+                background-color: orange;
+            }
+        }
     }
 
     div {
