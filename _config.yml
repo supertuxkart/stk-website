@@ -68,34 +68,15 @@ defaults:
     scope:
       path: "wiki"
     values:
-      lang: "en"
       permalink: /:basename
  -
     scope:
-      path: "wiki_translations/pl"
+      path: "wiki_translations"
     values:
-      lang: "pl"
-      permalink: /pl/:basename
- -
-    scope:
-      path: "wiki_translations/zh_CN"
-    values:
-      lang: "zh_CN"
-      permalink: /zh_CN/:basename
- -
-    scope:
-      path: "wiki_translations/zh_TW"
-    values:
-      lang: "zh_TW"
-      permalink: /zh_TW/:basename
+      permalink: /:basename
  -
     scope:
       path: "" # an empty string here means all files in the project
-    values:
-      layout: "stk-wiki"
- -
-    scope:
-      path: ""
       type: "pages"
     values:
       layout: "stk-wiki"

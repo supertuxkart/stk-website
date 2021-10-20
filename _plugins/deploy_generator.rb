@@ -10,16 +10,23 @@ module STKWebsite
             end
             page_translations = {}
             for page in site.pages do
-                if File.extname(page.name) != '.md' then
-                    next
-                end
-                basename = File.basename(page.name, '.md')
-                lang = page.data['lang']
-                if lang and lang != 'en' then
-                    if page_translations.include?(basename) then
-                        page_translations[basename].push(lang)
-                    else
-                        page_translations[basename] = [ lang ]
+                if page.path.start_with?('wiki') and File.extname(page.name) == '.md' then
+                    lang = 'en'
+                    page.data['lang'] = lang
+                    basename = File.basename(page.name, '.md')
+                    for supported_language in supported_languages do
+                        if page.path == 'wiki_translations/' + supported_language + '/' + page.name then
+                            lang = page.data['lang'] = supported_language
+                            page.data['permalink'] = '/' + lang + '/:basename'
+                            break
+                        end
+                    end
+                    if lang != 'en' then
+                        if page_translations.include?(basename) then
+                            page_translations[basename].push(lang)
+                        else
+                            page_translations[basename] = [ lang ]
+                        end
                     end
                 end
             end
