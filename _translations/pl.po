@@ -1,0 +1,85 @@
+msgid "SuperTuxKart"
+msgstr "SuperTuxKart"
+
+msgid "SuperTuxKart is a 3D open-source arcade racer with a variety characters, tracks, and modes to play."
+msgstr "SuperTuxKart to trójwymiarowa zręcznościowa gra wyścigowa open-source z wieloma postaciami, trasami i trybami gry."
+
+# Drop down menu when viewing SuperTuxKart homepage in mobile device
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Discover"
+msgstr "Odkryj"
+
+msgid "Download"
+msgstr "Pobierz"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Get Involved"
+msgstr "Zaangażuj się"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Donate"
+msgstr "Darowizny"
+
+msgid "Visit the main page"
+msgstr "Przejdź na stronę główną"
+
+msgid "Community"
+msgstr "Społeczność"
+
+msgid "Forum"
+msgstr "Forum"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+# Clicking Addons will go to online.supertuxkart.net
+msgid "Addons"
+msgstr "Dodatki"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "Media"
+msgstr "Multimedia"
+
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "Gallery"
+msgstr "Galeria"
+
+msgid "Posters"
+msgstr "Plakaty"
+
+msgid "Development"
+msgstr "Rozwój"
+
+# Clicking Modding will go to Commuity page
+msgid "Modding"
+msgstr "Modowanie"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+# Clicking Documentation will go to SuperTuxKart doxygen
+msgid "Documentation"
+msgstr "Dokumentacja"
+
+msgid "About us"
+msgstr "O nas"
+
+# Clicking About the team will go to a page which show SuperTuxKart team member infos
+msgid "About the team"
+msgstr "Zespół gry SuperTuxKart"
+
+msgid "About SuperTuxKart"
+msgstr "O grze SuperTuxKart"
+
+msgid "Projects using SuperTuxKart"
+msgstr "Projekty używające gry SuperTuxKart"

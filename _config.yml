@@ -86,6 +86,11 @@ sass:
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+
+# This file will be written everytime page updated
+exclude:
+  - _translations/stk-website.pot
+
 #
 # INCLUDING HOOKS
 # They are optional, change them only if you need

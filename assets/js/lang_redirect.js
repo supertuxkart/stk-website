@@ -1,9 +1,10 @@
 ---
 layout: null
 ---
+// var translations will be added by _plugins/translate.rb
 {%- assign supported_languages = '' | split: ',' -%}
-{%- for translation in site.data.translations -%}
-    {%- if translation[0] != 'en' -%}
+{%- for translation in site.data.po -%}
+    {%- if translation[0] != 'stk-website' -%}
         {%- assign supported_languages = supported_languages | push: translation[0] -%}
     {%- endif -%}
 {%- endfor %}
@@ -31,7 +32,6 @@ var link_translations = {
     ],
 {%- endfor -%}
 };
-var translations = {{ site.data.translations | jsonify }};
 
 function getSuitableLang(lang, locale)
 {
@@ -124,28 +124,17 @@ if (doc_lang == 'en' && doc_lang != preferred_lang)
     if (!success && doc_lang == 'en')
     {
         var logo = document.getElementsByClassName('logo noselect')[0];
-        var logo_translated = false;
+        var logo_text = logo.getAttribute('title');
+        if (translations.hasOwnProperty(logo_text) &&
+            translations[logo_text].hasOwnProperty(preferred_lang))
+            logo.setAttribute('title', translations[logo_text][preferred_lang]);
         var elements = document.getElementsByClassName("translate");
-        var en_strings = translations.en.en;
         for (var i = 0; i < elements.length; i++)
         {
-            for (var key in en_strings)
-            {
-                if (!translations.hasOwnProperty(preferred_lang) ||
-                    !translations[preferred_lang].hasOwnProperty(preferred_lang) ||
-                    !translations[preferred_lang][preferred_lang].hasOwnProperty(key))
-                    continue;
-                var translation = translations[preferred_lang][preferred_lang][key];
-                if (!logo_translated && logo.getAttribute('title') == en_strings[key])
-                {
-                    logo_translated = true;
-                    logo.setAttribute('title', translation);
-                }
-                else if (elements[i].textContent == en_strings[key])
-                {
-                    elements[i].textContent = translation;
-                }
-            }
+            var element_text = elements[i].textContent;
+            if (translations.hasOwnProperty(element_text) &&
+                translations[element_text].hasOwnProperty(preferred_lang))
+                elements[i].textContent = translations[element_text][preferred_lang];
         }
         var links = document.links;
         for (var i = 0; i < links.length; i++)

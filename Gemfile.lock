@@ -1,6 +1,8 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    PoParser (3.2.5)
+      simple_po_parser (~> 1.1.2)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
@@ -57,6 +59,7 @@ GEM
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
+    simple_po_parser (1.1.5)
     terminal-table (2.0.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode-display_width (1.8.0)
@@ -66,6 +69,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  PoParser
   jekyll
   jekyll-redirect-from
   jekyll-sitemap

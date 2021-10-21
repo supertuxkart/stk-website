@@ -1,12 +1,18 @@
+require 'poparser'
+
 module STKWebsite
     class DeployGenerator < Jekyll::Generator
         priority :highest
         def generate(site)
             supported_languages = []
-            for lang in site.data['translations'] do
-                if lang[0] != 'en'
-                    supported_languages.push(lang[0])
-                end
+            site.data['js_translations'] = {}
+            site.data['po'] = {}
+            site.data['po']['stk-website'] = PoParser.parse('')
+            Dir.foreach('_translations') do |po_file|
+            next if po_file == '.' or po_file == '..' or po_file == 'en.po' or po_file == 'stk-website.pot'
+                lang = File.basename(po_file, '.po')
+                supported_languages.push(lang)
+                site.data['po'][lang] = PoParser.parse_file('_translations/' + po_file)
             end
             page_translations = {}
             for page in site.pages do

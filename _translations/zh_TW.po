@@ -1,0 +1,85 @@
+msgid "SuperTuxKart"
+msgstr "SuperTuxKart"
+
+msgid "SuperTuxKart is a 3D open-source arcade racer with a variety characters, tracks, and modes to play."
+msgstr "SuperTuxKart 是一款 3D 開源卡丁車賽車遊戲，具有多種角色，賽道和遊戲模式。"
+
+# Drop down menu when viewing SuperTuxKart homepage in mobile device
+msgid "Menu"
+msgstr "目錄"
+
+msgid "Discover"
+msgstr "探索"
+
+msgid "Download"
+msgstr "下載"
+
+msgid "FAQ"
+msgstr "常見問題解答"
+
+msgid "Get Involved"
+msgstr "參與"
+
+msgid "Blog"
+msgstr "網誌"
+
+msgid "Donate"
+msgstr "捐款"
+
+msgid "Visit the main page"
+msgstr "訪問主頁"
+
+msgid "Community"
+msgstr "社區"
+
+msgid "Forum"
+msgstr "論壇"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+# Clicking Addons will go to online.supertuxkart.net
+msgid "Addons"
+msgstr "附加元件"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "Media"
+msgstr "媒體"
+
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "Gallery"
+msgstr "畫廊"
+
+msgid "Posters"
+msgstr "海報"
+
+msgid "Development"
+msgstr "開發"
+
+# Clicking Modding will go to Commuity page
+msgid "Modding"
+msgstr "改裝"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+# Clicking Documentation will go to SuperTuxKart doxygen
+msgid "Documentation"
+msgstr "文件"
+
+msgid "About us"
+msgstr "關於我們"
+
+# Clicking About the team will go to a page which show SuperTuxKart team member infos
+msgid "About the team"
+msgstr "關於團隊"
+
+msgid "About SuperTuxKart"
+msgstr "關於 SuperTuxKart"
+
+msgid "Projects using SuperTuxKart"
+msgstr "使用 SuperTuxKart 的項目"

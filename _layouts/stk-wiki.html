@@ -10,8 +10,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ page.title }}">
-<meta property="og:site_name" content="{% include translate id="stk" %}">
-<meta property="og:description" content="{% include translate id="description" %}">
+<meta property="og:site_name" content="{%translate SuperTuxKart%}">
+<meta property="og:description" content="{%translate "SuperTuxKart is a 3D open-source arcade racer with a variety characters, tracks, and modes to play."%}">
 <meta property="og:locale" content="{{ page.lang }}">
 <meta property="og:image" content="{{ '/assets/images/logo.png' | prepend: site.baseurl }}"/>
 </head>
@@ -22,19 +22,19 @@
 <div class="header_color_wrapper_inner size-dependend-margin">
 <div class="navigation-tools">
 <nav>
-    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i>{% include translate_span id="menu" %}</label>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i>{%translate_span Menu,Drop down menu when viewing SuperTuxKart homepage in mobile device%}</label>
     <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
     <ul class="nav noselect dropdown-target">
-        <li><a href={% include translate_url url="Discover" %}>{% include translate_span id="discover" %}</a></li>
-        <li><a href={% include translate_url url="Download" %}>{% include translate_span id="download" %}</a></li>
-        <li><a href={% include translate_url url="FAQ" %}>{% include translate_span id="faq" %}</a></li>
-        <li><a href={% include translate_url url="Community" %}>{% include translate_span id="get_involved" %}</a></li>
-        <li><a href="https://blog.supertuxkart.net/">{% include translate_span id="blog" %}</a></li>
-        <li><a class="donate-top-menu-link" href={% include translate_url url="Donate" %}>{% include translate_span id="donate" %} <i class="fa fa-heart"></i></a></li>
+        <li><a href={% include translate_url url="Discover" %}>{%translate_span Discover%}</a></li>
+        <li><a href={% include translate_url url="Download" %}>{%translate_span Download%}</a></li>
+        <li><a href={% include translate_url url="FAQ" %}>{%translate_span FAQ%}</a></li>
+        <li><a href={% include translate_url url="Community" %}>{%translate_span Get Involved%}</a></li>
+        <li><a href="https://blog.supertuxkart.net/">{%translate_span Blog%}</a></li>
+        <li><a class="donate-top-menu-link" href={% include translate_url url="Donate" %}>{%translate_span Donate%} <i class="fa fa-heart"></i></a></li>
     </ul>
 </nav>
 
-<a class="logo noselect" href={% include translate_url url="Main_Page" %} title="{% include translate id="visit_mainpage" %}">
+<a class="logo noselect" href={% include translate_url url="Main_Page" %} title="{%translate Visit the main page%}">
     <img src="{{ '/assets/images/logo.png' | prepend: site.baseurl }}" alt="SuperTuxKart"/>
 </a>
 
@@ -54,36 +54,36 @@
 
 <footer class="size-dependend-margin ">
 <div class="footer-links">
-    <div><p>{% include translate_span id="community" %}</p>
+    <div><p>{%translate_span Community%}</p>
     <ul>
-        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'>{% include translate_span id="forum" %}</a></li>
-        <li><a href='https://blog.supertuxkart.net/'>{% include translate_span id="blog" %}</a></li>
-        <li><a href='https://twitter.com/supertuxkart'>{% include translate_span id="twitter" %}</a></li>
-        <li><a href='https://online.supertuxkart.net/'>{% include translate_span id="addons" %}</a></li>
-        <li><a href='https://t.me/STKInternational/'>{% include translate_span id="telegram" %}</a></li>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'>{%translate_span Forum%}</a></li>
+        <li><a href='https://blog.supertuxkart.net/'>{%translate_span Blog%}</a></li>
+        <li><a href='https://twitter.com/supertuxkart'>{%translate_span Twitter%}</a></li>
+        <li><a href='https://online.supertuxkart.net/'>{%translate_span Addons,Clicking Addons will go to online.supertuxkart.net%}</a></li>
+        <li><a href='https://t.me/STKInternational/'>{%translate_span Telegram%}</a></li>
         <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
     </ul>
     </div>
-    <div><p>{% include translate_span id="media" %}</p>
+    <div><p>{%translate_span Media%}</p>
     <ul>
-        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'>{% include translate_span id="youtube" %}</a></li>
-        <li><a href={% include translate_url url="Gallery" %}>{% include translate_span id="gallery" %}</a></li>
-        <li><a href={% include translate_url url="Posters" %}>{% include translate_span id="posters" %}</a></li>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'>{%translate_span YouTube%}</a></li>
+        <li><a href={% include translate_url url="Gallery" %}>{%translate_span Gallery%}</a></li>
+        <li><a href={% include translate_url url="Posters" %}>{%translate_span Posters%}</a></li>
     </ul>
     </div>
-    <div><p>{% include translate_span id="development" %}</p>
+    <div><p>{%translate_span Development%}</p>
     <ul>
-        <li><a href={% include translate_url url="Community" %}>{% include translate_span id="modding" %}</a></li>
-        <li><a href='https://github.com/supertuxkart/stk-code'>{% include translate_span id="github" %}</a></li>
-        <li><a href='https://doxygen.supertuxkart.net/'>{% include translate_span id="documentation" %}</a></li>
+        <li><a href={% include translate_url url="Community" %}>{%translate_span Modding,Clicking Modding will go to Commuity page%}</a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'>{%translate_span GitHub%}</a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'>{%translate_span Documentation,Clicking Documentation will go to SuperTuxKart doxygen%}</a></li>
     </ul>
     </div>
-    <div><p>{% include translate_span id="about_us" %}</p>
+    <div><p>{%translate_span About us%}</p>
     <ul>
-        <li><a href={% include translate_url url="FAQ" %}>{% include translate_span id="faq" %}</a></li>
-        <li><a href={% include translate_url url="Team" %}>{% include translate_span id="about_the_team" %}</a></li>
-        <li><a href={% include translate_url url="Discover" %}>{% include translate_span id="about_stk" %}</a></li>
-        <li><a href={% include translate_url url="Projects" %}>{% include translate_span id="projects_using_stk" %}</a></li>
+        <li><a href={% include translate_url url="FAQ" %}>{%translate_span FAQ%}</a></li>
+        <li><a href={% include translate_url url="Team" %}>{%translate_span About the team,Clicking About the team will go to a page which show SuperTuxKart team member infos%}</a></li>
+        <li><a href={% include translate_url url="Discover" %}>{%translate_span About SuperTuxKart%}</a></li>
+        <li><a href={% include translate_url url="Projects" %}>{%translate_span Projects using SuperTuxKart%}</a></li>
     </ul>
     </div>
 </div>
