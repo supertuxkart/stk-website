@@ -76,6 +76,11 @@ defaults:
       permalink: /:basename
  -
     scope:
+      path: "wiki_untranslated"
+    values:
+      permalink: /:basename
+ -
+    scope:
       path: "" # an empty string here means all files in the project
       type: "pages"
     values:

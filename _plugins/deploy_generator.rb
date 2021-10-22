@@ -1,4 +1,5 @@
 require 'poparser'
+require_relative 'po_utils'
 
 module STKWebsite
     class DeployGenerator < Jekyll::Generator
@@ -19,9 +20,11 @@ module STKWebsite
                 supported_languages.push(lang)
             end
             page_translations = {}
+            extra_page = []
             site.pages.reverse_each do |page|
             next if not page.path.start_with?('wiki/') and
-            not page.path.start_with?('wiki_translations/')
+            not page.path.start_with?('wiki_translations/') and
+            not page.path.start_with?('wiki_untranslated/')
                 if File.extname(page.name) != '.md' then
                     page.data['layout'] = nil
                     next
@@ -38,6 +41,36 @@ module STKWebsite
                         site.pages.delete(page)
                         next
                     end
+                elsif page.path.start_with?('wiki_untranslated/') then
+                    # Handle wiki_untranslated pages
+                    if page.content.include? '{%translate ' then
+                        # If any translate liquid tag is included, expand the
+                        # page to all supported languages, translate the title
+                        # too
+                        pot_file = site.data['po']['stk-website']
+                        orig_title = page.data['title']
+                        PoUtils::add_string_to_pot(pot_file, orig_title, '')
+                        for lang in supported_languages do
+                            new_page = page.dup
+                            new_page.data = page.data.dup
+                            translated_title =
+                                PoUtils::po_translate(site.data['po'][lang],
+                                orig_title)
+                            if translated_title != '' then
+                                new_page.data['title'] = translated_title
+                            end
+                            new_page.data['lang'] = lang
+                            new_page.data['permalink'] = '/' + lang + '/:basename'
+                            extra_page.push(new_page)
+                            if page_translations.include?(basename) then
+                                page_translations[basename].push(lang)
+                            else
+                                page_translations[basename] = [ lang ]
+                            end
+                        end
+                    end
+                    lang = 'en'
+                    page.data['lang'] = lang
                 else
                     lang = 'en'
                     page.data['lang'] = lang
@@ -50,6 +83,7 @@ module STKWebsite
                     end
                 end
             end
+            site.pages.concat(extra_page)
             for page in site.pages do
                 if File.extname(page.name) != '.md' then
                     next
