@@ -1,0 +1,63 @@
+---
+---
+ul#get-involved-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+ul#get-involved-list > li {
+    display: block;
+    margin: 5px;
+}
+
+ul#get-involved-list > li > div {
+    display: table;
+    margin: 0px auto;
+    padding: 0px 5px;
+}
+
+.get-involved-icon {
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.get-involved-name {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.community-link {
+    color: black;
+}
+
+.community-link .fa {
+    font-size: 100px;
+}
+
+.community-link .get-involved-icons
+{
+    font-size: 125px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.get-involved-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.get-involved-panel
+{
+    min-width: 50%;
+}
