@@ -21,7 +21,11 @@ module STKWebsite
             page_translations = {}
             site.pages.reverse_each do |page|
             next if not page.path.start_with?('wiki/') and
-            not page.path.start_with?('wiki_translations/') and File.extname(page.name) != '.md'
+            not page.path.start_with?('wiki_translations/')
+                if File.extname(page.name) != '.md' then
+                    page.data['layout'] = nil
+                    next
+                end
                 basename = File.basename(page.name, '.md')
                 if page.path.start_with?('wiki_translations/') then
                     # Remove first 18 characters and extract string before /
