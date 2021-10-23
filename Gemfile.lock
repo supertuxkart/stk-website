@@ -73,6 +73,7 @@ DEPENDENCIES
   jekyll
   jekyll-redirect-from
   jekyll-sitemap
+  rouge
   webrick
 
 BUNDLED WITH
