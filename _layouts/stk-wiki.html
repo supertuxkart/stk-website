@@ -48,6 +48,9 @@
 
 <div class="main-content-wrapper size-dependend-margin">
 <div class="content_wrapper">
+{% if page.toc -%}
+<h1 class="article-title">{{ page.title }}</h1>
+{%- endif -%}
 <article>
 {% include git-wiki/components/search/index.html %}
 {{ content }}

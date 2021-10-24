@@ -128,6 +128,21 @@ if (doc_lang == 'en' && doc_lang != preferred_lang)
         if (translations.hasOwnProperty(logo_text) &&
             translations[logo_text].hasOwnProperty(preferred_lang))
             logo.setAttribute('title', translations[logo_text][preferred_lang]);
+
+        // Table of contents markdown toggle [Show] / [Hide] handling
+        var markdown_toggle = document.getElementById('markdown-toggle');
+        if (markdown_toggle != null)
+        {
+            var show_text = markdown_toggle.getAttribute('data-show-text');
+            if (translations.hasOwnProperty(show_text) &&
+                translations[show_text].hasOwnProperty(preferred_lang))
+                markdown_toggle.setAttribute('data-show-text', translations[show_text][preferred_lang]);
+            var hide_text = markdown_toggle.getAttribute('data-hide-text');
+            if (translations.hasOwnProperty(hide_text) &&
+                translations[hide_text].hasOwnProperty(preferred_lang))
+                markdown_toggle.setAttribute('data-hide-text', translations[hide_text][preferred_lang]);
+        }
+
         var elements = document.getElementsByClassName("translate");
         for (var i = 0; i < elements.length; i++)
         {

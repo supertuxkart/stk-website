@@ -97,3 +97,41 @@ color: #232627;
 .os_link_container :hover{
     background-color: #9ccbd8;
 }
+
+/* css for table of contents toggle */
+input[id="markdown-callback"] { display: none; }
+input[id="markdown-callback"] + #markdown-toggle:after { content: attr(data-hide-text); }
+input[id="markdown-callback"]:checked + #markdown-toggle:after { content: attr(data-show-text); }
+input[id="markdown-callback"]:checked + #markdown-toggle + span + #markdown-toc {
+    font-size: 0;
+    opacity: 0;
+    transition: opacity 0.1s, font-size 0.25s 0.1s;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+#markdown-toc {
+    margin: 0;
+    transition: font-size 0.1s, opacity 0.25s 0.1s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+span[id="markdown-opening-bracket"]:before {
+    content: '[';
+}
+
+span[id="markdown-closing-bracket"]:before {
+    content: ']';
+}
+
+#markdown-toggle {
+    cursor: pointer;
+    color: #2d9f00;
+}
