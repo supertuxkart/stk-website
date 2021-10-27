@@ -37,7 +37,22 @@ module STKWebsite
             "<span class=\"translate\">#{super}</span>"
         end
     end
+    class TranslateSentence < Translate
+        def initialize(tag_name, variables, tokens)
+            super
+        end
+        def render(context)
+            result = super
+            no_space = [ '、', '，', '：', '。', '？', '！', '；' ]
+            if not no_space.include? result[-1] then
+                result += ' '
+            end
+            return result
+        end
+    end
 end
 
 Liquid::Template.register_tag('translate', STKWebsite::Translate)
 Liquid::Template.register_tag('translate_span', STKWebsite::TranslateSpan)
+# translate_sentence adds space if not chinese punctuation in the end
+Liquid::Template.register_tag('translate_sentence', STKWebsite::TranslateSentence)

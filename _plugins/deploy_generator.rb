@@ -43,7 +43,7 @@ module STKWebsite
                     end
                 elsif page.path.start_with?('wiki_untranslated/') then
                     # Handle wiki_untranslated pages
-                    if page.content.include? '{%translate ' then
+                    if page.content.include? '{%translate ' or page.content.include? '{%translate_sentence ' then
                         # If any translate liquid tag is included, expand the
                         # page to all supported languages, translate the title
                         # too
