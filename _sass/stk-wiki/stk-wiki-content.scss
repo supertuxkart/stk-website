@@ -135,3 +135,34 @@ span[id="markdown-closing-bracket"]:before {
     cursor: pointer;
     color: #2d9f00;
 }
+
+/* css for qa (question and answer) tag */
+.qa-question {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    padding: 3px;
+    background-color: transparent;
+    color: #414141;
+    border-bottom: 5px solid #bdd3a8;
+    border-top: 5px solid transparent;
+}
+
+.qa-question:hover {
+    border-bottom: 5px solid #88b675;
+    border-top: 5px solid #88b675;
+    background-color: #88b675;
+}
+
+.qa-answer {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    opacity: 0;
+    transition: opacity 0.25s, font-size 0.25s 0.25s, padding 0.25s 0.25s, margin 0.25s 0.25s;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}

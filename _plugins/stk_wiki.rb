@@ -58,8 +58,57 @@ PoUtils::translate_string(context['site'], context['page']['lang'], 'You should 
             return result
         end
     end
+
+    class QA < Liquid::Tag
+        def render(context)
+            question = @markup.split("\n").first
+            answer = @markup[question.length + 2..]
+            context['qa-callback'] = 0 if not context['qa-callback']
+            id = context['qa-callback']
+            context['qa-callback'] += 1
+            input_id = 'qa' + id.to_s + '-callback'
+            result =
+'<div>
+<input type="checkbox" id="' + input_id + '"><label class="qa-question" for="' + input_id + '">' + question + '</label>
+<div class="qa-answer" markdown="1">
+' + answer +
+'</div>
+</div>'
+            site = context['site']
+            page = context['page']
+            # Only need to append css for original (in English) post
+            if page['lang'] == 'en' then
+                css_name = File.basename(page['name'], File.extname(page['name'])) + '.css'
+                css_page = site.pages.select {|p| p.name == css_name}
+                if css_page.length > 0 then
+                    css_page[0].content +=
+'
+input[id="' + input_id + '"] {
+    display: none;
+}
+
+input[id="' + input_id + '"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+'
+                end
+            end
+            return result
+        end
+    end
 end
 
 Liquid::Template.register_tag('popup_code', STKWebsite::PopupCode)
 Liquid::Template.register_tag('popup_info', STKWebsite::PopupInfo)
 Liquid::Template.register_tag('popup_prerequisite', STKWebsite::PopupPrerequisite)
+Liquid::Template.register_tag('qa', STKWebsite::QA)

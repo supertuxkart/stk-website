@@ -84,9 +84,25 @@ module STKWebsite
                 end
             end
             site.pages.concat(extra_page)
-            for page in site.pages do
+            site.pages.reverse_each do |page|
+                # Move css to the last so content can be added based on previously rendered pages
+                if File.extname(page.name) == '.css' then
+                    site.pages.delete(page)
+                    site.pages << page
+                    next
+                end
                 if File.extname(page.name) != '.md' then
                     next
+                end
+                # Add css page if page contains qa tag and page specific css doesn't exist
+                css_name = File.basename(page.name, File.extname(page.name)) + '.css'
+                css_page = site.pages.select {|p| p.name == css_name}
+                if page.content.include?('{%qa') and css_page.length == 0 then
+                    site.pages << Jekyll::PageWithoutAFile.new(site, site.source, '.', css_name).tap do |css_page|
+                        css_page.content = ''
+                        css_page.output = ''
+                        css_page.data['layout'] = nil
+                    end
                 end
                 basename = File.basename(page.name, '.md')
                 lang = page.data['lang']
