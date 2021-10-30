@@ -91,6 +91,7 @@ sass:
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll_picture_tag
 
 # This file will be written everytime page updated
 exclude:

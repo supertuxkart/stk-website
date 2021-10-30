@@ -28,3 +28,5 @@ jobs:
         with:
           provider: 'github'
           token: ${{ secrets.GITHUB_TOKEN }}
+          # For jekyll_picture_tag
+          pre_build_commands: pacman -S --noconfirm libvips

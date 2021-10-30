@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 gem 'PoParser'
 gem 'jekyll'
+gem 'jekyll_picture_tag'
 gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
 gem 'rouge'
