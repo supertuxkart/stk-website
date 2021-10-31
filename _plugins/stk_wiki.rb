@@ -74,14 +74,11 @@ PoUtils::translate_string(context['site'], context['page']['lang'], 'You should 
 ' + answer +
 '</div>
 </div>'
-            site = context['site']
             page = context['page']
             # Only need to append css for original (in English) post
             if page['lang'] == 'en' then
-                css_name = File.basename(page['name'], File.extname(page['name'])) + '.css'
-                css_page = site.pages.select {|p| p.name == css_name}
-                if css_page.length > 0 then
-                    css_page[0].content +=
+                css_page = STKWebsite::get_css_page(context)
+                css_page.content +=
 '
 input[id="' + input_id + '"] {
     display: none;
@@ -101,7 +98,6 @@ input[id="' + input_id + '"]:checked + .qa-question + .qa-answer {
     -ms-user-select: text;
 }
 '
-                end
             end
             return result
         end
