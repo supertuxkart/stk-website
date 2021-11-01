@@ -1,0 +1,13 @@
+media_queries:
+    desktop: 'min-width: 768px'
+presets:
+  default:
+    formats: [original]
+    fallback_width: 800
+    fallback_format: original
+    widths: [400, 800]
+    sizes:
+      desktop: 800px
+    size: 400px
+    link_source: true
+    nomarkdown: false
