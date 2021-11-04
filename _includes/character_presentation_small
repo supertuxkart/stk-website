@@ -1,0 +1,20 @@
+<td class="character_presentation_small">
+<table class="character_container">
+<caption>{{ include.name }}</caption>
+<tr>
+{%- if include.type == "odd" -%}
+<td markdown="1">
+![{{ include.name }}]({{ include.icon | prepend: site.baseurl }})
+</td><td class="character_description" markdown="1">
+{{ include.description }}
+</td>
+{%- else -%}
+<td class="character_description" markdown="1">
+{{ include.description }}
+</td><td markdown="1">
+![{{ include.name }}]({{ include.icon | prepend: site.baseurl }})
+</td>
+{%- endif -%}
+</tr>
+</table>
+</td>
