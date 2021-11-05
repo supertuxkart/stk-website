@@ -102,9 +102,29 @@ input[id="' + input_id + '"]:checked + .qa-question + .qa-answer {
             return result
         end
     end
+
+    class BlogArticle < Liquid::Tag
+        def render(context)
+            data = Liquid::Template.parse(@markup).render(context)
+            title = data.split("\n").first
+            date = data.split("\n").last
+            content = data[title.length + 2... - date.length - 2]
+            result =
+'<div class="article_main_title" markdown="1">
+## ..:: ' + title + ' ::..
+</div>
+' + content + '
+<div class="article_date" markdown="1">
+' + date + '
+</div>
+'
+            return result
+        end
+    end
 end
 
 Liquid::Template.register_tag('popup_code', STKWebsite::PopupCode)
 Liquid::Template.register_tag('popup_info', STKWebsite::PopupInfo)
 Liquid::Template.register_tag('popup_prerequisite', STKWebsite::PopupPrerequisite)
 Liquid::Template.register_tag('qa', STKWebsite::QA)
+Liquid::Template.register_tag('blog_article', STKWebsite::BlogArticle)
