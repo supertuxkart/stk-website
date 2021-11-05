@@ -1,0 +1,83 @@
+{%- capture trailer_1_3 -%}
+{%- include html5_video url="https://trailer.supertuxkart.net/1.3/trailer.mp4" thumbnail="https://trailer.supertuxkart.net/1.3/trailer.jpg" -%}
+{%- endcapture -%}
+
+{% blog_article
+SuperTuxKart 1.3 is ready!
+
+Hi everyone,
+
+STK 1.3 is now available:
+
+{{ trailer_1_3 }}
+
+For details read our [blog post](https://blog.supertuxkart.net/2021/09/supertuxkart-13-release.html)
+
+Download now [here](https://github.com/supertuxkart/stk-code/releases/tag/1.3)
+
+September 28, 2021 by [Benau](https://github.com/Benau)
+%}
+
+{% blog_article
+SuperTuxKart 1.3 release candidate is out!
+
+Hi everyone,
+
+First release candidate of STK 1.3 is now available:
+
+For details read our [blog post](https://blog.supertuxkart.net/2021/08/supertuxkart-13-release-candiate.html)
+
+Download now [here](https://github.com/supertuxkart/stk-code/releases/tag/1.3-rc1)
+
+August 31, 2021 by [Benau](https://github.com/Benau)
+%}
+
+{%- capture trailer_1_2 -%}
+{%- include html5_video url="https://trailer.supertuxkart.net/1.2/trailer.mp4" thumbnail="https://trailer.supertuxkart.net/1.2/trailer.jpg" -%}
+{%- endcapture -%}
+
+{% blog_article
+SuperTuxKart 1.2 is ready!
+
+Hi everyone,
+
+STK 1.2 is now available:
+
+{{ trailer_1_2 }}
+
+For details read our [blog post](https://blog.supertuxkart.net/2020/08/supertuxkart-12-release.html)
+
+Download now [here](https://github.com/supertuxkart/stk-code/releases/tag/1.2)
+
+August 28, 2020 by [Benau](https://github.com/Benau)
+%}
+
+{% blog_article
+SuperTuxKart 1.1 is ready!
+
+Hi everyone,
+
+STK 1.1 is now available:
+
+For details read our [blog post](https://blog.supertuxkart.net/2020/01/supertuxkart-11-released.html)
+
+Download now [here](https://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/1.1/)
+
+January 5, 2020 by [Benau](https://github.com/Benau)
+%}
+
+{%- capture trailer_1_0 -%}
+{%- include html5_video url="https://trailer.supertuxkart.net/1.0/trailer.mp4" thumbnail="https://trailer.supertuxkart.net/1.0/trailer.jpg" -%}
+{%- endcapture -%}
+
+{% blog_article
+SuperTuxKart 1.0 is out!
+
+The long awaited 1.0 release of SuperTuxKart, supporting online multiplayer for the first time, along with many other improvements, is out!
+
+{{ trailer_1_0 }}
+
+For details visit [our blog](https://blog.supertuxkart.net/2019/04/supertuxkart-10-release.html), download it now [here](https://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/1.0/)
+
+April 20, 2019 by [Benau](https://github.com/Benau)
+%}
