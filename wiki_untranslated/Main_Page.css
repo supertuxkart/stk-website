@@ -1,0 +1,27 @@
+---
+---
+.landing-page-download {
+    position: absolute;
+    top: -20px;
+    right: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .landing-page-download {
+        position: static;
+        margin-bottom: 10px;
+    }
+}
+
+.landing-page-download p {
+    margin: 0px;
+}
+
+.landing-page-download-link {
+    font-size: 28px;
+}
+
+.landing-page-download-link a {
+    color: green;
+}
