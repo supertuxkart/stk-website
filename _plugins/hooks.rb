@@ -53,4 +53,26 @@ PoUtils::translate_string(site, lang, 'Hide', 'Toggle for table of contents', tr
     pot_file = site.data['po']['stk-website']
     pot_file.path = '_translations/stk-website.pot'
     pot_file.save_file
+
+    search_json = []
+    for page in site.pages do
+    next if not page.data['lang']
+        # Remove tabs, replace newlines with whitespace so we can get content in article tag
+        article = page.output.delete("\t").gsub("\n", " ").match(/<article>(.*)<\/article>/)[1]
+        # Remove all HTML tags, leading and trailing whitespaces
+        article_content = article.gsub(/<\/?[^>]*>/, "").squeeze(" ").lstrip.rstrip
+        url = page.url
+        if site.baseurl then
+            url = site.baseurl + url
+        end
+        data =
+        {
+            :title => page.data['title'],
+            :url => url,
+            :content => article_content
+        }
+        search_json.push(data)
+    end
+    searchdata = site.pages.select {|page| page.name == 'searchdata.js'}[0]
+    searchdata.output = 'var jsondata = ' + search_json.to_json + ";\n" + searchdata.output
 end

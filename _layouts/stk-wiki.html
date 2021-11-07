@@ -34,6 +34,9 @@
         <li><a href={% include translate_url url="Community" %}>{%translate_span Get Involved%}</a></li>
         <li><a href="https://blog.supertuxkart.net/">{%translate_span Blog%}</a></li>
         <li><a class="donate-top-menu-link" href={% include translate_url url="Donate" %}>{%translate_span Donate%} <i class="fa fa-heart"></i></a></li>
+        <li class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </li>
     </ul>
 </nav>
 
@@ -52,7 +55,10 @@
 <h1 class="article-title">{{ page.title }}</h1>
 {%- endif -%}
 <article>
-{% include git-wiki/components/search/index.html %}
+<ul id="results-container"></ul>
+{%- if page.toc == Nil or page.toc == false -%}
+<br/>
+{%- endif -%}
 {{ content }}
 </article>
 </div>
@@ -103,5 +109,7 @@ SuperTuxKart Team © {{ site.time | date: '%Y' }}
 </footer>
 
 <script src="{{ '/assets/js/lang_redirect.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/simple-jekyll-search.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/searchdata.js' | relative_url }}" async></script>
 </body>
 </html>
