@@ -74,5 +74,6 @@ PoUtils::translate_string(site, lang, 'Hide', 'Toggle for table of contents', tr
         search_json.push(data)
     end
     searchdata = site.pages.select {|page| page.name == 'searchdata.js'}[0]
-    searchdata.output = 'var jsondata = ' + search_json.to_json + ";\n" + searchdata.output
+    searchdata.output = 'var jsondata = ' + search_json.to_json + ";\n" +
+        'var translations = ' + site.data['searchdata_translations'].to_json + ";\n" + searchdata.output
 end

@@ -7,8 +7,17 @@ module STKWebsite
         def generate(site)
             supported_languages = []
             site.data['js_translations'] = {}
+            site.data['searchdata_translations'] = {}
             site.data['po'] = {}
-            site.data['po']['stk-website'] = PoParser.parse('')
+            # Make 'No results found' in searchdata.js translatable
+            searchdata_string = 'No results found'
+            pot_file =
+'
+# Shown if empty search result
+msgid "' + searchdata_string + '"
+msgstr ""
+'
+            site.data['po']['stk-website'] = PoParser.parse(pot_file)
             Dir.foreach('_translations') do |po_file|
             next if po_file == '.' or po_file == '..' or po_file == 'en.po' or po_file == 'stk-website.pot'
                 lang = File.basename(po_file, '.po')
@@ -18,6 +27,12 @@ module STKWebsite
                 end
                 site.data['po'][lang] = po
                 supported_languages.push(lang)
+            end
+            for lang in supported_languages do
+                t = PoUtils::translate_string(site, lang, searchdata_string, '', false)
+                if t != searchdata_string then
+                    site.data['searchdata_translations'][lang] = t
+                end
             end
             page_translations = {}
             extra_page = []
