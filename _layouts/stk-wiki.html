@@ -57,12 +57,17 @@
 
 <div class="main-content-wrapper size-dependend-margin">
 <div class="content_wrapper">
-{% if page.toc -%}
-<h1 class="article-title">{{ page.title }}</h1>
+{%- if page.toc or page.display_title -%}
+{%- assign display_page_title = true -%}
+{%- else -%}
+{%- assign display_page_title = false -%}
 {%- endif -%}
+{%- if display_page_title -%}
+<h1 class="article-title">{{ page.title }}</h1>
+{%- endif %}
 <article>
 <ul id="results-container"></ul>
-{%- if page.toc == Nil or page.toc == false -%}
+{%- if display_page_title == false -%}
 <br/>
 {%- endif -%}
 {{ content }}
