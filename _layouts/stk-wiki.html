@@ -2,7 +2,13 @@
 <html class="client-nojs" lang="{{ page.lang | replace: '_', '-' }}" dir="ltr">
 <head>
 <meta charset="UTF-8"/>
-<title>{{ page.title }}</title>
+<title>
+{%- if page.name == 'Main_Page.md' -%}
+{{ page.title }}
+{%- else -%}
+{{ page.title }} - {%translate SuperTuxKart%}
+{%- endif -%}
+</title>
 <link rel="stylesheet" href="{{ '/assets/css/supertuxkart.css?v=' | prepend: site.baseurl }}">
 <link rel="stylesheet" href="{{ '/assets/css/fontawesome.css?v=' | prepend: site.baseurl }}">
 <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | prepend: site.baseurl }}">
