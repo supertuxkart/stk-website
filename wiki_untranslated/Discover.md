@@ -199,4 +199,4 @@ Additional Characters
 
 {%translate If you are interested you can take a look at the [community](Community) page.%}
 
-{%translate [Terms and conditions](Terms)%}
+[{%translate Terms and conditions%}](Terms)
