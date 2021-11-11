@@ -1,13 +1,13 @@
 ---
 title: Posters
 ---
-{%translate On this page you will find our official posters. Click on pictures to enlarge them.%}
+On this page you will find our official posters. Click on pictures to enlarge them.
 
-{% capture heading -%}
-{%translate Archived posters%}
-{%- endcapture %}
+{%main_title
 
-{% include article_main_title t=heading %}
+Archived posters
+
+%}
 
 {% gallery widths=48%
 /assets/wiki/OfficialPoster_093.jpg,0.9.3

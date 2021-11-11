@@ -2,9 +2,6 @@
 msgid "No results found"
 msgstr ""
 
-msgid "Posters"
-msgstr ""
-
 msgid "SuperTuxKart"
 msgstr ""
 
@@ -71,6 +68,9 @@ msgid "YouTube"
 msgstr ""
 
 msgid "Gallery"
+msgstr ""
+
+msgid "Posters"
 msgstr ""
 
 msgid "Development"
@@ -421,10 +421,4 @@ msgid "Discover more..."
 msgstr ""
 
 msgid "Latest Blog Post"
-msgstr ""
-
-msgid "On this page you will find our official posters. Click on pictures to enlarge them."
-msgstr ""
-
-msgid "Archived posters"
 msgstr ""
