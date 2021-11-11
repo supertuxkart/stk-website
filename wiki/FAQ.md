@@ -1,7 +1,11 @@
 ---
 title: FAQ
 ---
-{% include article_main_title t="General Questions" %}
+{%main_title
+
+General Questions
+
+%}
 
 {%qa
 
@@ -124,7 +128,11 @@ Before you start, you should contact the current developers and artists through 
 
 %}
 
-{% include article_main_title t="Gameplay Questions" %}
+{%main_title
+
+Gameplay Questions
+
+%}
 
 {%qa
 
@@ -188,7 +196,11 @@ Yes! See the [Wiimote](Wiimote) page for details.
 
 %}
 
-{% include article_main_title t="Technical Questions" %}
+{%main_title
+
+Technical Questions
+
+%}
 
 {%qa
 

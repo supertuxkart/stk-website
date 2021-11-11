@@ -1,1 +1,0 @@
-<h2 class="article_main_title">{{ include.t }}</h2>

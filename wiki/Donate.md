@@ -1,7 +1,11 @@
 ---
 title: Donate
 ---
-{% include article_main_title t="..:: Donating to SuperTuxKart ::.." %}
+{%main_title
+
+..:: Donating to SuperTuxKart ::..
+
+%}
 
 If you enjoyed SuperTuxKart and would like to help the project, or just to say thank you, you may donate to help the project! You can donate from this page or "purchase" the game via our homepage on [Itch.io](https://supertuxkart.itch.io/supertuxkart).
 

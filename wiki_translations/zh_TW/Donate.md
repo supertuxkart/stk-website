@@ -1,7 +1,11 @@
 ---
 title: 捐款
 ---
-{% include article_main_title t="..:: 捐款給 SuperTuxKart ::.." %}
+{%main_title
+
+..:: 捐款給 SuperTuxKart ::..
+
+%}
 
 如果你喜歡 SuperTuxKart 並想幫助這個項目，或只是為了表示感謝，你可以捐款來幫助這個項目！你可以從這個頁面捐款，或者通過我們在 [Itch.io](https://supertuxkart.itch.io/supertuxkart) 的主頁「購買 」游戲。
 

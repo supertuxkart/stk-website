@@ -4,7 +4,7 @@ title: Discover
 {% capture heading -%}
 ..:: {%translate Welcome to the Mascot Kingdom!,Page title of discover page%} ::..
 {%- endcapture %}
-{% include article_main_title t=heading %}
+{%main_title {{ heading }}%}
 
 {% gallery widths=32%
 /assets/wiki/STK1.3_1.jpg
@@ -25,7 +25,7 @@ title: Discover
 {% capture main_characters -%}
 Main Characters
 {%- endcapture %}
-{% include article_main_title t=main_characters %}
+{%main_title {{ main_characters }}%}
 
 {% capture tux -%}
 {%translate Tux%}
@@ -54,7 +54,7 @@ Main Characters
 {% capture additional_characters -%}
 Additional Characters
 {%- endcapture %}
-{% include article_main_title t=additional_characters %}
+{%main_title {{ additional_characters }}%}
 
 <table>
 <tr>
@@ -193,7 +193,7 @@ Additional Characters
 {% capture many_more -%}
 ...And many more!
 {%- endcapture %}
-{% include article_main_title t=many_more %}
+{%main_title {{ many_more }}%}
 
 {%translate "You can create your own characters, tracks, and arenas and share them with the SuperTuxKart community! You can do this by going to [online.supertuxkart.net](https://online.supertuxkart.net)."%}
 

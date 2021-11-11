@@ -88,7 +88,7 @@ https://github.com/supertuxkart/stk-code/releases/download/{{ site.stk_version }
 {%- capture github_title -%}
 ..:: {%translate Download from GitHub%} ::..
 {%- endcapture -%}
-{%- include article_main_title t=github_title -%}
+{%- main_title {{ github_title }}-%}
 
 {%- include_relative _Download.inc main_link=linux_link
 os="linux" name="Linux" content=linux_content
@@ -122,7 +122,7 @@ os="source" name=source_code content=source_content
 {% capture itch_title -%}
 ..:: {%translate Get SuperTuxKart on Itch.io%} ::..
 {%- endcapture %}
-{% include article_main_title t=itch_title %}
+{% main_title {{ itch_title }}%}
 <div class="download-content" style="font-size: 1rem; opacity: 1.0;">
 <div class="download-left" style="text-align: center;">
 {%- include donation_frame -%}
