@@ -121,6 +121,26 @@ input[id="' + input_id + '"]:checked + .qa-question + .qa-answer {
             return result
         end
     end
+
+    class MainTitle < Liquid::Tag
+        def render(context)
+            data = Liquid::Template.parse(@markup.delete("\n")).render(context)
+            result =
+'<h2 class="article_main_title">' + data + '</h2>
+'
+            return result
+        end
+    end
+
+    class MinorTitle < Liquid::Tag
+        def render(context)
+            data = Liquid::Template.parse(@markup.delete("\n")).render(context)
+            result =
+'<h4 class="article_minor_title">' + data + '</h4>
+'
+            return result
+        end
+    end
 end
 
 Liquid::Template.register_tag('popup_code', STKWebsite::PopupCode)
@@ -128,3 +148,5 @@ Liquid::Template.register_tag('popup_info', STKWebsite::PopupInfo)
 Liquid::Template.register_tag('popup_prerequisite', STKWebsite::PopupPrerequisite)
 Liquid::Template.register_tag('qa', STKWebsite::QA)
 Liquid::Template.register_tag('blog_article', STKWebsite::BlogArticle)
+Liquid::Template.register_tag('main_title', STKWebsite::MainTitle)
+Liquid::Template.register_tag('minor_title', STKWebsite::MinorTitle)
