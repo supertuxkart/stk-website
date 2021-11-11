@@ -168,7 +168,7 @@ Additional Characters
 {%- capture puffy_desc -%}
 {%translate "Puffy races mainly to earn enough money to accomplish his dream: to buy a submarine. He is the mascot of the OpenBSD project."%}
 {%- endcapture -%}
-{% include character_presentation_small name=xue type="odd" description=puffy_desc icon="/assets/wiki/Character_puffy_icon.png" %}
+{% include character_presentation_small name=puffy type="odd" description=puffy_desc icon="/assets/wiki/Character_puffy_icon.png" %}
 
 {%- capture wilber -%}
 {%translate Wilber%}
