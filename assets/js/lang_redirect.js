@@ -2,36 +2,8 @@
 layout: null
 ---
 // var translations will be added by _plugins/translate.rb
-{%- assign supported_languages = '' | split: ',' -%}
-{%- for translation in site.data.po -%}
-    {%- if translation[0] != 'stk-website' -%}
-        {%- assign supported_languages = supported_languages | push: translation[0] -%}
-    {%- endif -%}
-{%- endfor %}
-var supported_languages = {{ supported_languages | jsonify }};
-{% assign link_translations = "" | split: ',' %}
-{%- assign full_url =  site.url | append: site.baseurl -%}
-{%- for post in site.pages -%}
-    {%- if post.lang == 'en' -%}
-        {%- assign link = full_url | append: post.url -%}
-        {%- assign link_translations = link_translations | push: link -%}
-    {%- endif -%}
-{%- endfor -%}
-var link_translations = {
-{%- for link in link_translations -%}
-    '{{- link -}}' : [
-    {%- for post in site.pages -%}
-        {%- if supported_languages contains post.lang -%}
-            {%- assign substr = post.url | split: '/' -%}
-            {%- assign orig_url = full_url | append: '/' | append: substr[2] -%}
-            {%- if link ==  orig_url -%}
-                '{{- post.lang -}}',
-            {%- endif -%}
-        {%- endif -%}
-    {%- endfor -%}
-    ],
-{%- endfor -%}
-};
+var supported_languages = {{ site.data.supported_languages | jsonify }};
+var page_translations = {{ site.data.page_translations | jsonify }};
 
 function getSuitableLang(lang, locale)
 {
@@ -108,9 +80,9 @@ if (doc_lang == 'en' && doc_lang != preferred_lang)
     // texts and links
     var page = window.location.href.substring(site_url.length).split("/").pop();
     var success = false;
-    if (link_translations.hasOwnProperty(site_url + page))
+    if (page_translations.hasOwnProperty(page))
     {
-        var arr = link_translations[site_url + page];
+        var arr = page_translations[page];
         for (var i = 0; i < arr.length; i++)
         {
             if (preferred_lang == arr[i])
@@ -154,15 +126,17 @@ if (doc_lang == 'en' && doc_lang != preferred_lang)
         var links = document.links;
         for (var i = 0; i < links.length; i++)
         {
-            if (!link_translations.hasOwnProperty(links[i].href))
+            if (!links[i].href.startsWith(site_url))
                 continue;
-            var arr = link_translations[links[i].href];
+            var link_page = links[i].href.split("/").pop();
+            if (!page_translations.hasOwnProperty(link_page))
+                continue;
+            var arr = page_translations[link_page];
             for (var j = 0; j < arr.length; j++)
             {
                 if (preferred_lang == arr[j])
                 {
-                    var page = links[i].href.split("/").pop();
-                    links[i].href = site_url + preferred_lang + '/' + page;
+                    links[i].href = site_url + preferred_lang + '/' + link_page;
                     break;
                 }
             }

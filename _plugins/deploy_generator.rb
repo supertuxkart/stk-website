@@ -6,6 +6,7 @@ module STKWebsite
         priority :highest
         def generate(site)
             supported_languages = []
+            site.data['supported_languages'] = supported_languages
             site.data['js_translations'] = {}
             site.data['searchdata_translations'] = {}
             site.data['page_translations'] = {}
