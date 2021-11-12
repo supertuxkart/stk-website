@@ -88,7 +88,7 @@ title: Gallery
 
 {%main_title 0.8.1%}
 
-{%minor_title Video%}%}
+{%minor_title Video%}
 
 [Trailer](https://www.youtube.com/watch?v=WutAN4i98_o)
 
