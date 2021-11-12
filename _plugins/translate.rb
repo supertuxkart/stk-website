@@ -1,6 +1,7 @@
 require 'json'
 require 'csv'
 require_relative 'po_utils'
+require_relative 'utils'
 
 module STKWebsite
     class Translate < Liquid::Tag
@@ -50,9 +51,22 @@ module STKWebsite
             return result
         end
     end
+    class TranslateURL < Liquid::Tag
+        def render(context)
+            lang = context['page']['lang']
+            if lang == nil then
+                return url
+            end
+            url = @markup.strip
+            baseurl = context['site']['baseurl']
+            page_translations = context['site'].data['page_translations']
+            return STKWebsite::translate_url(url, lang, baseurl, page_translations)
+        end
+    end
 end
 
 Liquid::Template.register_tag('translate', STKWebsite::Translate)
 Liquid::Template.register_tag('translate_span', STKWebsite::TranslateSpan)
 # translate_sentence adds space if not chinese punctuation in the end
 Liquid::Template.register_tag('translate_sentence', STKWebsite::TranslateSentence)
+Liquid::Template.register_tag('translate_url', STKWebsite::TranslateURL)

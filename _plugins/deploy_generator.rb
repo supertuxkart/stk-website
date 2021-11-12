@@ -8,6 +8,7 @@ module STKWebsite
             supported_languages = []
             site.data['js_translations'] = {}
             site.data['searchdata_translations'] = {}
+            site.data['page_translations'] = {}
             site.data['po'] = {}
             # Make 'No results found' in searchdata.js translatable
             searchdata_string = 'No results found'
@@ -46,7 +47,7 @@ msgstr ""
                     site.data['searchdata_translations'][lang] = t
                 end
             end
-            page_translations = {}
+            page_translations = site.data['page_translations']
             extra_page = []
             site.pages.reverse_each do |page|
             next if not page.path.start_with?('wiki/') and

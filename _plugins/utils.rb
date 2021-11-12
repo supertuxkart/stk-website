@@ -19,6 +19,15 @@ module STKWebsite
         end
         return css_page[0]
     end
+    def STKWebsite::translate_url(url, lang, baseurl, page_translations)
+        if lang != 'en' and page_translations.include?(url) and page_translations[url].include?(lang) then
+            result = '/' + lang + '/' + url
+        else
+            result = '/' + url
+        end
+        result = baseurl + result if baseurl
+        return result
+    end
     class GetImage < Liquid::Tag
         def render(context)
             content = Liquid::Template.parse('{{ content }}').render(context)

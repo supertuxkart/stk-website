@@ -41,7 +41,7 @@ title: Community
 </ul>
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 10px">
-<a href={% include translate_url url="Donate" %} style="color: red;">
+<a href="Donate" style="color: red;">
 <h2><i class="fa fa-heart"></i> {%translate Support Us%}</h2>
 <p>{%translate Donations help us keep servers running and more!%}</p>
 </a>
