@@ -39,6 +39,7 @@ module GalleryUtils
             if param_exists then
                 @images.delete(@images[0])
             end
+            @images.each do |img| img.strip! end
             @total_images = @images.length.to_s
             if @widths == '0' and @heights == '0' then
                 @widths = 'auto_min120'
