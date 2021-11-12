@@ -17,9 +17,9 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="{{ page.title }}">
 <meta property="og:site_name" content="{%translate SuperTuxKart%}">
-<meta property="og:description" content="{%translate "SuperTuxKart is a 3D open-source arcade racer with a variety characters, tracks, and modes to play."%}">
+<meta property="og:description" content="{% og_get_description %}">
 <meta property="og:locale" content="{{ page.lang }}">
-<meta property="og:image" content="{{ '/assets/images/logo.png' | prepend: site.baseurl }}"/>
+<meta property="og:image" content="{% og_get_image %}"/>
 <style>
 /* Add Page_Name.css with Page_Name.md */
 </style>
