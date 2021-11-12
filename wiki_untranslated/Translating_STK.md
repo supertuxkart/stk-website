@@ -30,9 +30,9 @@ You can start translating SuperTuxKart by first clicking the "Languages" tab in 
 
 From time to time, you will meet some **format strings**:
 
-* <TT>%s</TT>, <TT>%i</TT>, <TT>%d</TT>: something will be inserted instead of the %x, simply add the same format strings in the translation. Note that these format strings do not specify order, so they need to appear in your translation in the same order as in the original string
-* <TT>%0</TT>, <TT>%1</TT>, etc.: Those are like the above ones, but are ordered (%0 is the first inserted value, %1 is the second inserted value, etc.). The advantage of those is that the translation does not need to insert the values in the same order as the original string. Note that you can use these format strings in your translation even if the original string uses the first (unordered) format string.
-* <TT>%1$s</TT>, <TT>%2$s</TT>, etc.: Those are like the above ones, but are ordered (%1$s is the first inserted value, %2$s is the second inserted value, etc.). %1$s is equivalent to %0, %2$s is equivalent to %1, etc. The reason this syntax is supported is simply because it's more standard than the %0 syntax described above.
+* `%s`, `%i`, `%d`: something will be inserted instead of the `%x`, simply add the same format strings in the translation. Note that these format strings do not specify order, so they need to appear in your translation in the same order as in the original string
+* `%0`, `%1`, etc.: Those are like the above ones, but are ordered (`%0` is the first inserted value, `%1` is the second inserted value, etc.). The advantage of those is that the translation does not need to insert the values in the same order as the original string. Note that you can use these format strings in your translation even if the original string uses the first (unordered) format string.
+* `%1$s`, `%2$s`, etc.: Those are like the above ones, but are ordered (`%1$s` is the first inserted value, `%2$s` is the second inserted value, etc.). `%1$s` is equivalent to `%0`, `%2$s` is equivalent to `%1`, etc. The reason this syntax is supported is simply because it's more standard than the `%0` syntax described above.
 
 ## Special plural forms
 
