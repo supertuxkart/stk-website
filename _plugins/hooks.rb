@@ -1,3 +1,4 @@
+require 'cgi'
 require 'poparser'
 require_relative 'po_utils'
 
@@ -34,7 +35,8 @@ Jekyll::Hooks.register :pages, :post_convert do |page|
     {
         :title => page.data['title'],
         :url => url,
-        :content => article_content
+        # Convert escaped entities
+        :content => CGI.unescapeHTML(article_content)
     }
     site.data['searchdata'].push(data)
 end
