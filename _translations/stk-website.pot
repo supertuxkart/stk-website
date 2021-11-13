@@ -435,3 +435,6 @@ msgstr ""
 
 msgid "Latest Blog Post"
 msgstr ""
+
+msgid "Click here if you are not redirected."
+msgstr ""
