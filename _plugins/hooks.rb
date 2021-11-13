@@ -3,6 +3,15 @@ require 'poparser'
 require_relative 'po_utils'
 
 Jekyll::Hooks.register :site, :pre_render do |site|
+    # Add page lang properties to redirection pages
+    # So translate tag can be used on them
+    for page in site.pages do
+    next if page.data['layout'] != 'redirect'
+        page.data['lang'] = 'en'
+        page_lang = page.data['permalink'].split('/')[1]
+        page.data['lang'] = page_lang if page_lang
+    end
+
     for page in site.pages do
     next if not page.data.include?('toc') or page.data['toc'] == false
         toc_include =
@@ -19,7 +28,7 @@ Jekyll::Hooks.register :site, :pre_render do |site|
 end
 
 Jekyll::Hooks.register :pages, :post_convert do |page|
-    if not page.data['lang'] then
+    if page.data['layout'] != 'stk-wiki' or not page.data['lang'] then
         next
     end
     site = page.site
