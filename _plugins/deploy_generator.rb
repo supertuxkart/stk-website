@@ -11,6 +11,7 @@ module STKWebsite
             site.data['searchdata_translations'] = {}
             site.data['page_translations'] = {}
             site.data['po'] = {}
+            site.data['searchdata'] = []
             # Make 'No results found' in searchdata.js translatable
             searchdata_string = 'No results found'
             pot_file =

@@ -17,6 +17,28 @@ Jekyll::Hooks.register :site, :pre_render do |site|
     end
 end
 
+Jekyll::Hooks.register :pages, :post_convert do |page|
+    if not page.data['lang'] then
+        next
+    end
+    site = page.site
+    # Remove tabs, replace newlines with whitespace, so paragraph is separated with whitespace
+    article = page.content.delete("\t").gsub("\n", " ")
+    # Remove all HTML tags, leading and trailing whitespaces
+    article_content = article.gsub(/<\/?[^>]*>/, "").squeeze(" ").lstrip.rstrip
+    url = page.url
+    if site.baseurl then
+        url = site.baseurl + url
+    end
+    data =
+    {
+        :title => page.data['title'],
+        :url => url,
+        :content => article_content
+    }
+    site.data['searchdata'].push(data)
+end
+
 Jekyll::Hooks.register :site, :post_render do |site|
     # Put css inside each page, do it in post_render so liquid syntax can be
     # used in .css files too
@@ -54,26 +76,7 @@ PoUtils::translate_string(site, lang, 'Hide', 'Toggle for table of contents', tr
     pot_file.path = '_translations/stk-website.pot'
     pot_file.save_file
 
-    search_json = []
-    for page in site.pages do
-    next if not page.data['lang']
-        # Remove tabs, replace newlines with whitespace so we can get content in article tag
-        article = page.output.delete("\t").gsub("\n", " ").match(/<article>(.*)<\/article>/)[1]
-        # Remove all HTML tags, leading and trailing whitespaces
-        article_content = article.gsub(/<\/?[^>]*>/, "").squeeze(" ").lstrip.rstrip
-        url = page.url
-        if site.baseurl then
-            url = site.baseurl + url
-        end
-        data =
-        {
-            :title => page.data['title'],
-            :url => url,
-            :content => article_content
-        }
-        search_json.push(data)
-    end
     searchdata = site.pages.select {|page| page.name == 'searchdata.js'}[0]
-    searchdata.output = 'var jsondata = ' + search_json.to_json + ";\n" +
+    searchdata.output = 'var jsondata = ' + site.data['searchdata'].to_json + ";\n" +
         'var translations = ' + site.data['searchdata_translations'].to_json + ";\n" + searchdata.output
 end
