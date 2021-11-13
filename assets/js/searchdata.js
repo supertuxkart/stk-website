@@ -3,11 +3,15 @@ layout: null
 ---
 // var translations will be added by _plugins/hooks.rb
 var text = 'No results found';
-preferred_lang = sessionStorage.getItem('preferred_lang');
-if (preferred_lang != null && translations.hasOwnProperty(preferred_lang))
+try
 {
-    text = translations[preferred_lang];
-}
+    // Prevent error when cookies disabled
+    preferred_lang = sessionStorage.getItem('preferred_lang');
+    if (preferred_lang != null && translations.hasOwnProperty(preferred_lang))
+    {
+        text = translations[preferred_lang];
+    }
+} catch (error) {}
 
 var sjs = SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
