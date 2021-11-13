@@ -9,6 +9,7 @@ module STKWebsite
             site.data['supported_languages'] = supported_languages
             site.data['js_translations'] = {}
             site.data['searchdata_translations'] = {}
+            site.data['all_pages'] = []
             site.data['page_translations'] = {}
             site.data['po'] = {}
             site.data['searchdata'] = []
@@ -125,6 +126,7 @@ msgstr ""
                     next
                 end
                 basename = File.basename(page.name, '.md')
+                site.data['all_pages'].push(basename) if not site.data['all_pages'].include?(basename)
                 lang = page.data['lang']
                 if lang then
                     if basename == 'Main_Page' then

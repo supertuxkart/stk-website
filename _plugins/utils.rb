@@ -20,7 +20,9 @@ module STKWebsite
         return css_page[0]
     end
     def STKWebsite::translate_url(url, lang, baseurl, page_translations)
-        if lang != 'en' and page_translations.include?(url) and page_translations[url].include?(lang) then
+        # Skip translating url if there is a number sign inside, because each language will have different content
+        if not url.include?('#') and
+            lang != 'en' and page_translations.include?(url) and page_translations[url].include?(lang) then
             result = '/' + lang + '/' + url
         else
             result = '/' + url

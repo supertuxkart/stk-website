@@ -39,6 +39,24 @@ Jekyll::Hooks.register :pages, :post_convert do |page|
         :content => CGI.unescapeHTML(article_content)
     }
     site.data['searchdata'].push(data)
+    # Mark missing page link as red and translate URL
+    # This removes unneeded redirection in pages
+    lang = page.data['lang']
+    page_translations = site.data['page_translations']
+    all_pages = site.data['all_pages']
+    page.content.gsub!(/<a href=\"(.*?)\"/).each do |link|
+        url = link[/"(.*?)"/].delete('"')
+        url_without_number_sign = url.split("#")[0]
+        missing_page = false
+        if all_pages.include?(url_without_number_sign) then
+            result = 'href="' + STKWebsite::translate_url(url, lang, site.baseurl, page_translations) + '"'
+        else
+            missing_page = true if not url.start_with?('#') and not url.include?('/')
+            result = 'href="' + url + '"'
+        end
+        result = 'style="color: #ba0000;" ' + result if missing_page
+        '<a ' + result
+    end
 end
 
 Jekyll::Hooks.register :site, :post_render do |site|
