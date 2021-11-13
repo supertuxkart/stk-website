@@ -41,7 +41,7 @@ The team has to keep the quality of code and artwork up. This does mean that som
 * Discuss with the team while it is still work-in-progress to get feedback.
 * Be clear whether your contribution is complete or work-in-progress.
 
-###  When making a suggestion for STK
+### When making a suggestion for STK
 
 This is a sensitive topic. Of course we need to accept criticism and suggestions—if we don't, then it is contrary to an open-source ideal: that the software is for everyone's benefit. But where does a request become too much? For that we must also watch for conflicts with an open-source ideal: that everyone should contribute where possible. So when making a suggestion for STK, please ask yourself these questions:
 
@@ -51,4 +51,4 @@ This is a sensitive topic. Of course we need to accept criticism and suggestions
 * Do I understand the effort needed to perform this task?
 * Do I at the very least express support for the team and the work they do?
 * Have I made a lot of feature requests lately?
- * This may sound mundane, but it is really a sign of whether you respect the team's work. If you respect their work, you're a lot less likely to complain.
+  * This may sound mundane, but it is really a sign of whether you respect the team's work. If you respect their work, you're a lot less likely to complain.
