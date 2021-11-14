@@ -3,6 +3,16 @@ require 'poparser'
 require_relative 'po_utils'
 
 Jekyll::Hooks.register :site, :pre_render do |site|
+    # Replace start_liquid and end_liquid tag: they are used to hide STK liquid tags from transifex
+    # See https://github.com/transifex/openformats/issues/69#issuecomment-966003024
+    for page in site.pages do
+        new_content = page.content.gsub(/{%(.*?)start_liquid(.*?)%}/).each do |sl|
+            '{% ' + sl.scan(/start_liquid (.*?)%/)[0][0].strip
+        end
+        new_content.gsub!(/{%(.*?)end_liquid(.*?)%}/, '%}')
+        page.content = new_content
+    end
+
     # Add page lang properties to redirection pages
     # So translate tag can be used on them
     for page in site.pages do
