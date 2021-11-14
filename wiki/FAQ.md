@@ -1,13 +1,13 @@
 ---
 title: FAQ
 ---
-{%main_title
+{% start_liquid main_title %}
 
 General Questions
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 What is SuperTuxKart?
 
@@ -21,17 +21,17 @@ The game also features additional game modes besides normal races: time trials, 
 
 [Find more here](Discover)!
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 Who is behind SuperTuxKart?
 
 See our [Team](Team) page for information about the people behind SuperTuxKart!
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 What are the hardware requirements?
 
@@ -58,17 +58,17 @@ The CPU performance might be the limitation depending on graphics card and graph
 
 * (If you prefer playing with a joystick) A joystick with at least 6 buttons.
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 My computer is too old to run SuperTuxKart. What should I do?
 
 You can try your luck and run the game. STK features a fallback renderer which uses only OpenGL 2.1 / GLES 2 / DirectX 9 which should work on most devices, but it has no modern rendering pipeline.
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 What is the history of SuperTuxKart?
 
@@ -104,9 +104,9 @@ In September 2021, the most recent version, 1.3, has been released. It contains 
 
 For more details, please see the [changelog](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), the [blog posts](https://blog.supertuxkart.net) or the list of resolved issues on STK's GitHub.
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 Is SuperTuxKart a Mario Kart clone?
 
@@ -116,9 +116,9 @@ Some very old versions of STK tried to mimic Mario Kart, but this hasn't been th
 
 Not only are there many significant differences in gameplay, but SuperTuxKart is evolving its own way and we are not trying to make it any closer to Mario Kart.
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 I want to help! What can I do?
 
@@ -126,23 +126,23 @@ First, have a look at the [Get involved](Community) page. It should contain all 
 
 Before you start, you should contact the current developers and artists through the [IRC](https://web.libera.chat/?channels=#supertuxkart), [Telegram channel](https://t.me/STKInternational) or the [forum](https://forum.freegamedev.net/viewforum.php?f=16) and tell us what you want to achieve. This will greatly improve the chance that you contribution will be accepted.
 
-%}
+{% end_liquid %}
 
-{%main_title
+{% start_liquid main_title %}
 
 Gameplay Questions
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 The AI (computer kart) shot backwards—how can I do this?
 
 Most items (bowling ball, cake, plunger) can be used backwards. Just fire them while looking backwards.
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 Is the AI cheating?
 
@@ -154,63 +154,63 @@ The AI can sometimes have superhuman reflexes to use powerups, but if a human pr
 
 If you struggle to beat the AI, focus on improving your driving to crash as little as possible while going fast, and learn to use skidding. On higher difficulties, skidding is essential to beat the AI.
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 Can I play STK on the internet?
 
 Yes! After creating an online STK account inside the game and connecting with it, select Select the "Online" button in the main menu then "Global networking" to access networked gameplay through the internet. You can host your own server for others to play on, or join community-hosted servers. For the best experience, a stable connection and a low ping to the server are important.
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 Why don't some keyboard keys work when pressed simultaneously?
 
 When playing with a keyboard, you may experience issues when pressing multiple keys simultaneously, for instance trying to use nitro while accelerating and turning. In such situations, some keypress may not register. This is however not a bug of SuperTuxKart, but a phyiscal limitation of your keyboard, most keyboards can only handle so many keys pressed at the same time (for more detailed information, please check [here](https://www.sjbaker.org/wiki/index.php?title=Keyboards_Are_Evil)). The solution is to use a gaming input device (gamepad, or gaming keyboard), or tweak the keys configuration to find keys that your keyboard will be able to register simultaneously.
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 I've got weird input issues
 
 This could include the kart always going left, or randomly braking, or other similar weirdness where the game seems to believe you pressed a key but you did not. If this happens, try going in the options menu, on the input screen, and check if you have gamepads there. Try to disable all gamepads except the device you are using. Sometimes, bogus input can be received from gamepads or other similar devices that the OS sees as a gamepad.
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 I suddenly got a big red circle on my screen, what's that?
 
 If there's a penguin in the middle of the circle, someone's shot a plunger at your face. You can do that to others by shooting the plunger backwards (see the FAQ entry about throwing items backwards).
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 Can I use my Wii remote with STK?
 
 Yes! See the [Wiimote](Wiimote) page for details.
 
-%}
+{% end_liquid %}
 
-{%main_title
+{% start_liquid main_title %}
 
 Technical Questions
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 I found a bug, how should I contact you?
 
 First, look at the [STK bug tracker](https://github.com/supertuxkart/stk-code/issues) and open a new issue if your problem hasn't been reported yet.
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 Where is the configuration stored?
 
@@ -220,17 +220,17 @@ Where is the configuration stored?
 
 You can also watch the output in the terminal to see if there is a note on where the config files are stored or search for a file called "config.xml".
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 The Git version won't compile. What should I do?
 
 This happens sometimes; The developers should be aware of that and it should be fixed soon. If [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) says that the current Git version compiles, but it doesn't do so for you, then propably something is wrong with your compiler setup. (Check if you have all dependencies, re-run CMake, ...)
 
-%}
+{% end_liquid %}
 
-{%qa
+{% start_liquid qa %}
 
 How do I unlock all tracks?
 
@@ -238,4 +238,4 @@ The intended in-game way is to play story mode and beat all challenges.
 
 If however you want to unlock everything without playing story mode, you can also cheat by editing a config file. Open the folder mentioned above in question "Where does STK store the user config file". From there, open the folder "config-0.10" then open the file "players.xml". Replace all occurrences of "none" with "hard" (or "easy" or "medium", indicating the highest level at which you have solved a challenge).
 
-%}
+{% end_liquid %}

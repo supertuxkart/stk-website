@@ -3,11 +3,11 @@ title: Posters
 ---
 On this page you will find our official posters. Click on pictures to enlarge them.
 
-{%main_title
+{% start_liquid main_title %}
 
 Archived posters
 
-%}
+{% end_liquid %}
 
 {% gallery widths=48%
 /assets/wiki/OfficialPoster_093.jpg,0.9.3

@@ -1,11 +1,11 @@
 ---
 title: Donation Policy
 ---
-{%main_title
+{% start_liquid main_title %}
 
 Donation Policy
 
-%}
+{% end_liquid %}
 
 This page documents our policy concerning donations and what we do with money received. These policies might change at any time depending on the requirements and the priorities of the project. However, you may rest assured that the team will not spend money on inconsequential things. All spending decisions are fully discussed among the members of the team ahead of time in order to avoid disagreements.
 

@@ -3,11 +3,11 @@ title: Plakáty
 ---
 Na této stránce najdete naše oficiální plakáty. Kliknutím na obrázky je zvětšíte.
 
-{%main_title
+{% start_liquid main_title %}
 
 Archivované plakáty
 
-%}
+{% end_liquid %}
 
 {% gallery widths=48%
 /assets/wiki/OfficialPoster_093.jpg,0.9.3

@@ -3,11 +3,11 @@ title: Julisteet
 ---
 Tältä sivulta löydät viralliset julisteet. Napsauta kuvaa suurentaaksesi sen.
 
-{%main_title
+{% start_liquid main_title %}
 
 Arkistoidut julisteet
 
-%}
+{% end_liquid %}
 
 {% gallery widths=48%
 /assets/wiki/OfficialPoster_093.jpg,0.9.3
