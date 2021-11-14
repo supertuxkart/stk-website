@@ -14,7 +14,7 @@ title: Discover
 
 {%translate "Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a variety of characters, tracks, and modes to play. Our aim is to create a game that is more fun than realistic, and provide an enjoyable experience for all ages."%}
 
-{%translate "In Story mode, you must face the evil Nolok, and defeat him in order to make the Mascot Kingdom safe once again! You can race by yourself against the computer, compete in several Grand Prix cups, or try to beat your fastest time in Time Trial mode. You can also race or battle with up to eight friends on a single computer, play on a local network or play online with other players all over the world."%}
+{%translate "In Story mode, you must face the evil Nolok, and defeat him in order to make the Mascot Kingdom safe once again! You can race by yourself against the computer, compete in several Grand Prix cups, or try to beat your fastest time in Time Trial mode. You can also race, battle or play soccer with up to eight friends on a single computer, play on a local network or play online with other players all over the world."%}
 
 {% gallery widths=32%
 /assets/wiki/STK1.3_4.jpg
@@ -96,7 +96,7 @@ Additional Characters
 {%translate Beastie%}
 {%- endcapture -%}
 {%- capture beastie_desc -%}
-{%translate "Always ready to take part in an epic race, Beastie lives in Ravenbridge mansion with his friend Gavroche. He is the mascot of the BSD project."%}
+{%translate "Always ready to take part in an epic race, Beastie lives in Ravenbridge mansion with his friend Gavroche. Beastie is the mascot of the BSD project."%}
 
 [{%translate BSD Daemon used with permission%}](https://www.mckusick.com/copyright.html)
 {%- endcapture -%}
