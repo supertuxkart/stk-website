@@ -111,7 +111,7 @@ PoUtils::translate_string(site, lang, 'Hide', 'Toggle for table of contents', tr
         page.output = 'var translations = ' +
             site.data['js_translations'].to_json + ";\n" + page.output
     end
-    pot_file = site.data['po']['stk-website']
+    pot_file = site.data['po']['stk-website']['pot']
     pot_file.path = '_translations/stk-website.pot'
     pot_file.save_file
 

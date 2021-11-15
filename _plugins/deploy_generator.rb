@@ -33,7 +33,11 @@ msgstr ""
 msgid "' + searchdata_string + '"
 msgstr ""
 '
-            site.data['po']['stk-website'] = PoParser.parse(pot_file)
+            site.data['po']['stk-website'] = {}
+            pot = PoParser.parse(pot_file)
+            site.data['po']['stk-website']['pot'] = pot
+            site.data['po']['stk-website']['entries'] = {}
+            site.data['po']['stk-website']['entries'][searchdata_string] = pot.entries[0]
             Dir.foreach('_translations') do |po_file|
             next if po_file == '.' or po_file == '..' or po_file == 'en.po' or po_file == 'stk-website.pot'
                 lang = File.basename(po_file, '.po')
@@ -41,7 +45,12 @@ msgstr ""
                 if po.stats[:translated] == 0 then
                     next
                 end
-                site.data['po'][lang] = po
+                po_hash = {}
+                po.find_all do |entry|
+                next if entry.msgstr.to_s == '' or entry.msgid.to_s == entry.msgstr.to_s
+                    po_hash[entry.msgid.to_s] = entry.msgstr.to_s
+                end
+                site.data['po'][lang] = po_hash
                 supported_languages.push(lang)
             end
             for lang in supported_languages do
@@ -78,9 +87,9 @@ msgstr ""
                         # If any translate liquid tag is included, expand the
                         # page to all supported languages, translate the title
                         # too
-                        pot_file = site.data['po']['stk-website']
+                        pot_data = site.data['po']['stk-website']
                         orig_title = page.data['title']
-                        PoUtils::add_string_to_pot(pot_file, orig_title, '')
+                        PoUtils::add_string_to_pot(pot_data, orig_title, '')
                         for lang in supported_languages do
                             new_page = page.dup
                             new_page.data = page.data.dup
