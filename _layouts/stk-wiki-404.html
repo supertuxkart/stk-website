@@ -1,0 +1,32 @@
+---
+title: Redirect
+permalink: /404.html
+---
+<script type="text/javascript">
+    var page = window.location.pathname.split('/').pop();
+    var all_pages = {{ site.data.all_pages | jsonify }};
+
+    var url = '';
+    var exists_page = false;
+    for (var i = 0; i < all_pages.length; i++)
+    {
+        if (page == all_pages[i])
+        {
+            exists_page = true;
+            break;
+        }
+    }
+    if (exists_page)
+    {
+        url = '{{ site.url }}' + '{{ site.baseurl }}' + '/' + page;
+    }
+    else
+    {
+        if (!page.endsWith('.md'))
+            page += '.md';
+        <!-- redirect to page creator if not exists -->
+        url = '{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.wiki_folder | default: 'wiki' }}/' + page;
+    }
+    window.location.replace(url);
+</script>
+<noscript>Enable javascript for redirection</noscript>

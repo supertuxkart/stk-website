@@ -278,19 +278,6 @@ msgstr ""
                         else
                             page.data["redirect_from"] = [ '/' + lang]
                         end
-                    elsif lang == 'en' then
-                        page.data["redirect_from"] = [ '/en/' + basename]
-                    end
-                    if lang == 'en' then
-                        missing = supported_languages.dup
-                        if page_translations.include?(basename) then
-                            for page_translation in page_translations[basename] do
-                                missing.delete_if {|i| i == page_translation }
-                            end
-                        end
-                        for missing_translation in missing do
-                            page.data["redirect_from"].push(missing_translation + '/' + basename)
-                        end
                     end
                 end
             end
