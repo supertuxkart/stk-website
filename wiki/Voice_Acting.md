@@ -11,7 +11,7 @@ Naturally, we won't need voice acting all the time, but feel free to check the [
 * **Hardware:** Generally you will need a decent microphone to record. Phone and tablet microphones are usually of low quality and probably won't be good enough. Laptop microphones are also usually quite bad, especially on lower-end machines. You don't need equipment that costs thousands of dollars, however. Most headsets that include a microphone will be high-enough quality.
 * **Software:** You will need software capable of recording audio, such as Audacity.
 * **Language ability:** You will need to be able to fluently read/recite the given script, which will usually be in English. SuperTuxKart's localization (l10n) system does not currently support localized audio.
-* **Speaking ability:** Depending on the requirements of the person needing voice acting, it may be necessary to imitate special accents. This adds to the complexity of speaking for non-native speakers, unfortunately.
+* **Speaking ability:** Depending on the requirements of the character needing voice acting, it may be necessary to imitate special accents. This adds to the complexity of speaking for non-native speakers, unfortunately.
 
 ## General Information
 
