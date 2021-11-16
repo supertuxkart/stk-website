@@ -13,6 +13,6 @@ Donations help us improve the game, as they may be used for purchasing hardware,
 
 **Do not hesitate to contact us if you have any questions or problems!**
 
-SuperTuxKart uses now itch.io to receive donations. Click on the "Download Now" button and you will be able to select your donation amount.
+SuperTuxKart now uses itch.io to receive donations. Click on the "Download Now" button and you will be able to select your donation amount.
 
 {% include donation_frame %}
