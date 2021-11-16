@@ -58,6 +58,25 @@ msgstr ""
 msgid "Donate"
 msgstr ""
 
+# Dropdown menu which shows language selection, etc.
+msgid "Tools"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Management"
+msgstr ""
+
+msgid "New page"
+msgstr ""
+
+msgid "Edit page"
+msgstr ""
+
+msgid "Page history"
+msgstr ""
+
 msgid "Visit the main page"
 msgstr ""
 

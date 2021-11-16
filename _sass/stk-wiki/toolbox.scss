@@ -23,8 +23,9 @@
     position: absolute;
     left: -80px;
     top: 30px;
-    width: 180px;
+    width: auto;
     background-color: #aaa;
+    white-space: nowrap;
 
     p {
         margin: 0px;

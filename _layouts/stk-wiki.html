@@ -42,6 +42,33 @@
         <li><a class="donate-top-menu-link" href='{% translate_url Donate %}'>{%translate_span Donate%} <i class="fa fa-heart"></i></a></li>
         <li class="searchform">
             <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+            <div class="toolbox-container">
+            <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+            <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+            <div class="toolbox dropdown-target">
+            <p class="toolbox-title">{%translate_span Tools,"Dropdown menu which shows language selection, etc."%}</p>
+            <div class="toolbox-section"><p>{%translate_span Language%}</p>
+            <ul style="overflow-y: auto; max-height: 10rem;">
+            {%- assign en = 'en' | split: ',' -%}
+            {%- assign supported_languages = en | concat: site.data.supported_languages | sort -%}
+            {%- for lang in supported_languages -%}
+                {%- assign langname = site.data.language_names[lang] -%}
+                {%- unless langname -%}
+                    {%- assign langname = lang -%}
+                {%- endunless -%}
+                <li><a href='{{ '/' | append: lang | append: '/' | append: page.name | remove: ".md" | prepend: site.baseurl }}'>{{ langname }}</a></li>
+            {%- endfor -%}
+            </ul>
+            </div>
+            <div class="toolbox-section"><p>{%translate_span Management%}</p>
+            <ul>
+                <li><a href='{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.wiki_folder | default: "wiki" }}/'>{%translate_span New page%}</a></li>
+                <li><a href='{{ site.github.repository_url }}/edit/{{site.git_branch | escape}}/{{ page.path }}'>{%translate_span Edit page%}</a></li>
+                <li><a href='{{ site.github.repository_url }}/commits/{{site.git_branch | escape}}/{{ page.path }}'>{%translate_span Page history%}</a></li>
+            </ul>
+            </div>
+            </div>
+            </div>
         </li>
     </ul>
 </nav>
