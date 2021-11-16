@@ -15,8 +15,15 @@ if (!String.prototype.startsWith)
 }
 
 // var translations will be added by _plugins/translate.rb
-var supported_languages = {{ site.data.supported_languages | jsonify }};
+{% assign en = 'en' | split: ',' -%}
+{%- assign supported_languages = en | concat: site.data.supported_languages | sort -%}
+var supported_languages = {{ supported_languages | jsonify }};
 var page_translations = {{ site.data.page_translations | jsonify }};
+var language_names = {
+{%- for lang in supported_languages -%}
+    "{{- lang -}}":"{{- site.data.language_names[lang] -}}",
+{%- endfor -%}
+};
 
 function getSuitableLang(lang, locale)
 {
@@ -46,8 +53,54 @@ function getSuitableLang(lang, locale)
     return null;
 }
 
-var preferred_lang = document.documentElement.lang.replace("-", "_");
 var site_url = '{{ site.url }}' + '{{ site.baseurl }}' + '/';
+var page = window.location.href.substring(site_url.length).split("/").pop();
+var page_only = page.split('#')[0];
+
+function changeLanguage(lang)
+{
+    try
+    {
+        sessionStorage.setItem('overridden_lang', lang);
+        if (page_translations.hasOwnProperty(page_only) &&
+            page_translations[page_only].indexOf(lang) != -1)
+        {
+            window.location.replace(site_url + lang + '/' + page_only);
+        }
+        else
+        {
+            window.location.replace(site_url + page_only);
+        }
+    } catch (error) {}
+}
+
+var lis = [];
+for (var i = 0; i < supported_languages.length; i++)
+{
+    var cur_lang = supported_languages[i];
+    var new_node = document.getElementById('language-selector-en').cloneNode(true);
+    new_node.id = 'language-selector-' + cur_lang;
+    var ahref = new_node.getElementsByTagName('A')[0];
+    if (cur_lang != 'en' && page_translations.hasOwnProperty(page_only) &&
+        page_translations[page_only].indexOf(cur_lang) != -1)
+    {
+        ahref.href = site_url + cur_lang + '/' + page_only;
+    }
+    else
+    {
+        ahref.href = 'javascript:changeLanguage("' + cur_lang + '");';
+    }
+    ahref.textContent = language_names[cur_lang];
+    lis.push(new_node);
+}
+
+document.getElementById('language-selector').innerHTML = '';
+for (var i = 0; i < lis.length; i++)
+{
+    document.getElementById('language-selector').appendChild(lis[i]);
+}
+
+var preferred_lang = document.documentElement.lang.replace("-", "_");
 try
 {
     // Prevent error when cookies disabled
@@ -65,25 +118,32 @@ try
             sessionStorage.setItem('preferred_lang', suitable_lang);
     }
 
-    // Override preferred language if language tag is supplied in url
-    // or the referrer
-    var all_lang = supported_languages;
-    all_lang.push('en');
-    for (var i = 0; i < all_lang.length; i++)
+    if (sessionStorage.getItem('overridden_lang'))
     {
-        var site_url_lang = site_url + all_lang[i];
-        if (window.location.href.search(site_url_lang) != -1)
-        {
-            sessionStorage.setItem('preferred_lang', all_lang[i]);
-            break;
-        }
-        else if (document.referrer.search(site_url_lang) != -1)
-        {
-            sessionStorage.setItem('preferred_lang', all_lang[i]);
-            break;
-        }
+        preferred_lang = sessionStorage.getItem('overridden_lang');
+        sessionStorage.setItem('preferred_lang', preferred_lang);
+        sessionStorage.removeItem('overridden_lang');
     }
-    preferred_lang = sessionStorage.getItem('preferred_lang');
+    else
+    {
+        // Override preferred language if language tag is supplied in url
+        // or the referrer
+        for (var i = 0; i < supported_languages.length; i++)
+        {
+            var site_url_lang = site_url + supported_languages[i];
+            if (window.location.href.search(site_url_lang) != -1)
+            {
+                sessionStorage.setItem('preferred_lang', supported_languages[i]);
+                break;
+            }
+            else if (document.referrer.search(site_url_lang) != -1)
+            {
+                sessionStorage.setItem('preferred_lang', supported_languages[i]);
+                break;
+            }
+        }
+        preferred_lang = sessionStorage.getItem('preferred_lang');
+    }
 } catch (error) {}
 
 var doc_lang = document.documentElement.lang.replace("-", "_");
@@ -91,7 +151,6 @@ if (doc_lang == 'en' && doc_lang != preferred_lang)
 {
     // Only redirect if page translation exists, other translate the layout
     // texts and links
-    var page = window.location.href.substring(site_url.length).split("/").pop();
     var success = false;
     if (page_translations.hasOwnProperty(page))
     {

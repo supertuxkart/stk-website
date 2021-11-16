@@ -48,7 +48,7 @@
             <div class="toolbox dropdown-target">
             <p class="toolbox-title">{%translate_span Tools,"Dropdown menu which shows language selection, etc."%}</p>
             <div class="toolbox-section"><p>{%translate_span Language%}</p>
-            <ul style="overflow-y: auto; max-height: 10rem;">
+            <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;">
             {%- assign page_translations = '' | split: ',' -%}
             {%- assign page_name = page.name | remove: ".md" -%}
             {%- for translation in site.data.page_translations[page_name] -%}
@@ -65,7 +65,7 @@
                 {%- if lang != 'en' -%}
                     {%- assign lang_tag = lang | prepend: '/' -%}
                 {%- endif -%}
-                <li><a href='{{ lang_tag | append: '/' | append: page_name | prepend: site.baseurl }}'>{{ langname }}</a></li>
+                <li id="language-selector-{{ lang }}"><a href='{{ lang_tag | append: '/' | append: page_name | prepend: site.baseurl }}'>{{ langname }}</a></li>
             {%- endfor -%}
             </ul>
             </div>
