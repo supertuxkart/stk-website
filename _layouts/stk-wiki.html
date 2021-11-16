@@ -49,14 +49,23 @@
             <p class="toolbox-title">{%translate_span Tools,"Dropdown menu which shows language selection, etc."%}</p>
             <div class="toolbox-section"><p>{%translate_span Language%}</p>
             <ul style="overflow-y: auto; max-height: 10rem;">
+            {%- assign page_translations = '' | split: ',' -%}
+            {%- assign page_name = page.name | remove: ".md" -%}
+            {%- for translation in site.data.page_translations[page_name] -%}
+                {%- assign page_translations = page_translations | push: translation -%}
+            {%- endfor -%}
             {%- assign en = 'en' | split: ',' -%}
-            {%- assign supported_languages = en | concat: site.data.supported_languages | sort -%}
+            {%- assign supported_languages = en | concat: page_translations | sort -%}
             {%- for lang in supported_languages -%}
                 {%- assign langname = site.data.language_names[lang] -%}
                 {%- unless langname -%}
                     {%- assign langname = lang -%}
                 {%- endunless -%}
-                <li><a href='{{ '/' | append: lang | append: '/' | append: page.name | remove: ".md" | prepend: site.baseurl }}'>{{ langname }}</a></li>
+                {%- assign lang_tag = '' -%}
+                {%- if lang != 'en' -%}
+                    {%- assign lang_tag = lang | prepend: '/' -%}
+                {%- endif -%}
+                <li><a href='{{ lang_tag | append: '/' | append: page_name | prepend: site.baseurl }}'>{{ langname }}</a></li>
             {%- endfor -%}
             </ul>
             </div>
