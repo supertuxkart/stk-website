@@ -218,7 +218,8 @@ msgstr ""
                     end
                 elsif page.path.start_with?('wiki_untranslated/') then
                     # Handle wiki_untranslated pages
-                    if page.content.include? '{%translate ' or page.content.include? '{%translate_sentence ' then
+                    if page.content.match(/{%(-)?(\s*)?translate\s/) or
+                        page.content.match(/{%(-)?(\s*)?translate_sentence\s/) then
                         # If any translate liquid tag is included, expand the
                         # page to all supported languages, translate the title
                         # too
