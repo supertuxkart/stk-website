@@ -203,6 +203,7 @@ msgstr ""
                     page.data['layout'] = nil
                     next
                 end
+                page.data['orig_path'] = page.path
                 basename = File.basename(page.name, '.md')
                 if page.path.start_with?('wiki_translations/') then
                     # Remove first 18 characters and extract string before /
@@ -225,8 +226,12 @@ msgstr ""
                         orig_title = page.data['title']
                         PoUtils::add_string_to_pot(pot_data, orig_title, '')
                         for lang in supported_languages do
-                            new_page = page.dup
+                            new_page = Jekyll::PageWithoutAFile.new(site,
+                                page.instance_variable_get('@base'), '/wiki_untranslated/' + lang,
+                                page.name)
                             new_page.data = page.data.dup
+                            # Source content needs to be different to avoid collision
+                            new_page.content = '<!-- ' + lang + ' -->' + page.content
                             translated_title =
                                 PoUtils::po_translate(site.data['po'][lang],
                                 orig_title)

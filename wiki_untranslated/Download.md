@@ -90,22 +90,22 @@ https://github.com/supertuxkart/stk-code/releases/download/{{ site.stk_version }
 {%- endcapture -%}
 {%- main_title {{ github_title }}-%}
 
-{%- include_relative _Download.inc main_link=linux_link
+{%- include_relative_untranslated _Download.inc main_link=linux_link
 os="linux" name="Linux" content=linux_content
 -%}
-{%- include_relative _Download.inc main_link=windows_link
+{%- include_relative_untranslated _Download.inc main_link=windows_link
 os="windows" name="Windows" content=windows_content
 -%}
-{%- include_relative _Download.inc main_link=apple_link
+{%- include_relative_untranslated _Download.inc main_link=apple_link
 os="apple" name="macOS" content=apple_content
 -%}
-{%- include_relative _Download.inc main_link=android_link
+{%- include_relative_untranslated _Download.inc main_link=android_link
 os="android" name="Android" content=android_content
 -%}
-{%- include_relative _Download.inc main_link=switch_link
+{%- include_relative_untranslated _Download.inc main_link=switch_link
 os="switch" name="Switch Homebrew" content=switch_content
 -%}
-{%- include_relative _Download.inc main_link=source_link
+{%- include_relative_untranslated _Download.inc main_link=source_link
 os="source" name=source_code content=source_content
 -%}
 

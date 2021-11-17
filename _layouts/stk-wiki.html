@@ -72,8 +72,8 @@
             <div class="toolbox-section"><p>{%translate_span Management%}</p>
             <ul>
                 <li><a href='{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.wiki_folder | default: "wiki" }}/'>{%translate_span New page%}</a></li>
-                <li><a href='{{ site.github.repository_url }}/edit/{{site.git_branch | escape}}/{{ page.path }}'>{%translate_span Edit page%}</a></li>
-                <li><a href='{{ site.github.repository_url }}/commits/{{site.git_branch | escape}}/{{ page.path }}'>{%translate_span Page history%}</a></li>
+                <li><a href='{{ site.github.repository_url }}/edit/{{site.git_branch | escape}}/{{ page.orig_path }}'>{%translate_span Edit page%}</a></li>
+                <li><a href='{{ site.github.repository_url }}/commits/{{site.git_branch | escape}}/{{ page.orig_path }}'>{%translate_span Page history%}</a></li>
             </ul>
             </div>
             </div>

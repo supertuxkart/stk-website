@@ -58,8 +58,16 @@ module STKWebsite
             return CGI.escapeHTML(content.delete("\t").gsub("\n", " ").gsub(/<\/?[^>]*>/, "").squeeze(" ").lstrip.rstrip)
         end
     end
+    class IncludeRelativeUntranslated < Jekyll::Tags::IncludeRelativeTag
+        def page_path(context)
+            page, site = context.registers.values_at(:page, :site)
+            return site.source unless page
+            site.in_source_dir '/wiki_untranslated'
+        end
+    end
 end
 
 # Get image and description for open graph metadata
 Liquid::Template.register_tag('og_get_image', STKWebsite::GetImage)
 Liquid::Template.register_tag('og_get_description', STKWebsite::GetDescription)
+Liquid::Template.register_tag('include_relative_untranslated', STKWebsite::IncludeRelativeUntranslated)
