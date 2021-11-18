@@ -1,11 +1,8 @@
 
 .toolbox-container {
-    position: absolute;
-    left: -35px;
-    top: 0px;
-    z-index: 1;
-
     .toolbox-gear-label {
+        position: relative;
+        top: 12px;
         color: $dark-grey;
     }
 
@@ -14,15 +11,19 @@
     }
 
     @media screen and (max-width: $screen-medium-res){
-        left: $searchform-width - 10px;
-        top: 5px;
+        .toolbox-gear-label {
+            left: 4px;
+        }
+        .toolbox {
+            transform: translate(0, 24px);
+        }
     }
 }
 
 .toolbox {
+    z-index: 1;
     position: absolute;
-    left: -80px;
-    top: 30px;
+    transform: translate(-100%, 24px);
     width: auto;
     background-color: #aaa;
     white-space: nowrap;

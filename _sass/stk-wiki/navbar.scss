@@ -1,15 +1,41 @@
-/* inspired by http: //css-tricks.com/targetting-menu-elements-submenus-navigation-bar/ */
-.nav {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    display: inline-block;
-    width: 100%;
-    font-size: 18px;
+/* inspired by https://css-tricks.com/targetting-menu-elements-submenus-navigation-bar/ */
 
-    > li {
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    // IE 11 workaround
+    // https://github.com/philipwalton/flexbugs#flexbug-7
+    // https://github.com/philipwalton/flexbugs#flexbug-8
+    //flex-basis: calc(100% - #{$right-tools-width});
+    flex-basis: auto;
+}
+
+.left-nav > ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.right-nav {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: $right-tools-width;
+}
+
+.nav {
+    font-size: 18px;
+    white-space: nowrap;
+
+    > .left-nav li {
         position: relative;
-        float: left;
         height: 26px;
         padding: 12px 0px;
 
@@ -47,8 +73,8 @@
     }
 }
 
-ul.nav {
-    display: inline;
+div.nav {
+    display: flex;
 }
 
 nav {
@@ -62,35 +88,25 @@ nav {
 }
 
 /* Searchbox at the top right */
-.nav > li.searchform {
-    float: right;
-    width: $searchform-width;
-    margin: 12px;
-    margin-left: 35px; // For the tools-icon
-    padding: 0px 5px;
+.nav .right-nav > div.searchform {
+    margin: 10px;
     border-radius: 4px;
     background-color: #ADADAD;
 
     button.fa-search {
-        position: absolute;
         font-size: 18px;
-        right: 8px;
-        top: 3px;
         background: none;
-        margin: 0px;
-        padding: 0px;
         border: none;
         color: #4D4D4D;
     }
 
     input {
         height: 20px;
-        width: $searchform-width - 25px;
+        width: calc(100% - 40px);
         /* clean defaults */
         background: transparent;
         border: none;
-        padding: 0px;
-        margin: 0px;
+        margin: 4px;
     }
 
     &:before {
@@ -110,15 +126,22 @@ nav {
 }
 
 @media screen and (max-width: $screen-medium-res) {
+    .left-nav {
+        flex-direction: column;
+    }
+    .left-nav > ul {
+        flex-direction: column;
+    }
+
     .nav {
         position: absolute;
         left: 50%;
         transform: translate(-50%, $nav-bar-height);
-        width: 210px;
+        width: auto;
         background-color: #111;
         z-index: 1;
 
-        > li {
+        > .left-nav li {
             width: 100%;
 
             &:before {
@@ -127,7 +150,7 @@ nav {
         }
     }
 
-    ul.nav {
+    div.nav {
         display: none; // The dropdown is hidden by default
     }
 
@@ -141,24 +164,9 @@ nav {
         height: 100%;
     }
 
-    ul.nav > li.searchform {
-        width: $searchform-width - 20px;
-        height: 36px;
-        margin: 10px;
-        padding: 0px;
-        border-radius: 4px;
-        margin-right: 40px;
-
-        input {
-            height: 36px;
-            margin-left: 5px;
-            font-size: 16px;
-        }
-
-        button.fa-search {
-            right: 0px;
-            top: 3px;
-            padding: 5px;
-        }
+    .nav .right-nav > div.searchform {
+        display: flex;
+        flex-grow: 1;
+        max-width: 100%;
     }
 }

@@ -33,53 +33,59 @@
 <nav>
     <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i>{%translate_span Menu,Drop down menu when viewing SuperTuxKart homepage in mobile device%}</label>
     <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
-    <ul class="nav noselect dropdown-target">
-        <li><a href='{% translate_url Discover %}'>{%translate_span Discover%}</a></li>
-        <li><a href='{% translate_url Download %}'>{%translate_span Download%}</a></li>
-        <li><a href='{% translate_url FAQ %}'>{%translate_span FAQ%}</a></li>
-        <li><a href='{% translate_url Community %}'>{%translate_span Get Involved%}</a></li>
-        <li><a href="https://blog.supertuxkart.net/">{%translate_span Blog%}</a></li>
-        <li><a class="donate-top-menu-link" href='{% translate_url Donate %}'>{%translate_span Donate%} <i class="fa fa-heart"></i></a></li>
-        <li class="searchform">
+    <div class="nav noselect dropdown-target">
+    <div class="left-nav">
+        <ul>
+            <li><a href='{% translate_url Discover %}'>{%translate_span Discover%}</a></li>
+            <li><a href='{% translate_url Download %}'>{%translate_span Download%}</a></li>
+            <li><a href='{% translate_url FAQ %}'>{%translate_span FAQ%}</a></li>
+            <li><a href='{% translate_url Community %}'>{%translate_span Get Involved%}</a></li>
+            <li><a href="https://blog.supertuxkart.net/">{%translate_span Blog%}</a></li>
+            <li><a class="donate-top-menu-link" href='{% translate_url Donate %}'>{%translate_span Donate%} <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox dropdown-target">
+        <p class="toolbox-title">{%translate_span Tools,"Dropdown menu which shows language selection, etc."%}</p>
+        <div class="toolbox-section"><p>{%translate_span Language%}</p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;">
+        {%- assign page_translations = '' | split: ',' -%}
+        {%- assign page_name = page.name | remove: ".md" -%}
+        {%- for translation in site.data.page_translations[page_name] -%}
+            {%- assign page_translations = page_translations | push: translation -%}
+        {%- endfor -%}
+        {%- assign en = 'en' | split: ',' -%}
+        {%- assign supported_languages = en | concat: page_translations | sort -%}
+        {%- for lang in supported_languages -%}
+            {%- assign langname = site.data.language_names[lang] -%}
+            {%- unless langname -%}
+                {%- assign langname = lang -%}
+            {%- endunless -%}
+            {%- assign lang_tag = '' -%}
+            {%- if lang != 'en' -%}
+                {%- assign lang_tag = lang | prepend: '/' -%}
+            {%- endif -%}
+            <li id="language-selector-{{ lang }}"><a href='{{ lang_tag | append: '/' | append: page_name | prepend: site.baseurl }}'>{{ langname }}</a></li>
+        {%- endfor -%}
+        </ul>
+        </div>
+        <div class="toolbox-section"><p>{%translate_span Management%}</p>
+        <ul>
+            <li><a href='{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.wiki_folder | default: "wiki" }}/'>{%translate_span New page%}</a></li>
+            <li><a href='{{ site.github.repository_url }}/edit/{{site.git_branch | escape}}/{{ page.orig_path }}'>{%translate_span Edit page%}</a></li>
+            <li><a href='{{ site.github.repository_url }}/commits/{{site.git_branch | escape}}/{{ page.orig_path }}'>{%translate_span Page history%}</a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
             <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
-            <div class="toolbox-container">
-            <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
-            <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
-            <div class="toolbox dropdown-target">
-            <p class="toolbox-title">{%translate_span Tools,"Dropdown menu which shows language selection, etc."%}</p>
-            <div class="toolbox-section"><p>{%translate_span Language%}</p>
-            <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;">
-            {%- assign page_translations = '' | split: ',' -%}
-            {%- assign page_name = page.name | remove: ".md" -%}
-            {%- for translation in site.data.page_translations[page_name] -%}
-                {%- assign page_translations = page_translations | push: translation -%}
-            {%- endfor -%}
-            {%- assign en = 'en' | split: ',' -%}
-            {%- assign supported_languages = en | concat: page_translations | sort -%}
-            {%- for lang in supported_languages -%}
-                {%- assign langname = site.data.language_names[lang] -%}
-                {%- unless langname -%}
-                    {%- assign langname = lang -%}
-                {%- endunless -%}
-                {%- assign lang_tag = '' -%}
-                {%- if lang != 'en' -%}
-                    {%- assign lang_tag = lang | prepend: '/' -%}
-                {%- endif -%}
-                <li id="language-selector-{{ lang }}"><a href='{{ lang_tag | append: '/' | append: page_name | prepend: site.baseurl }}'>{{ langname }}</a></li>
-            {%- endfor -%}
-            </ul>
-            </div>
-            <div class="toolbox-section"><p>{%translate_span Management%}</p>
-            <ul>
-                <li><a href='{{ site.github.repository_url }}/new/{{site.git_branch | escape}}?filename={{ site.wiki_folder | default: "wiki" }}/'>{%translate_span New page%}</a></li>
-                <li><a href='{{ site.github.repository_url }}/edit/{{site.git_branch | escape}}/{{ page.orig_path }}'>{%translate_span Edit page%}</a></li>
-                <li><a href='{{ site.github.repository_url }}/commits/{{site.git_branch | escape}}/{{ page.orig_path }}'>{%translate_span Page history%}</a></li>
-            </ul>
-            </div>
-            </div>
-            </div>
-        </li>
-    </ul>
+        </div>
+    </div>
+    </div>
 </nav>
 
 <a class="logo noselect" href='{% translate_url Main_Page %}' title="{%translate Visit the main page%}">

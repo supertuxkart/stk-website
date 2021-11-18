@@ -30,24 +30,19 @@
 .navigation-tools {
     position: relative;
     height: 100%;
-    max-width: $max-content-width;
     margin: 0 auto;
 
     nav {
-        bottom: 0px;
-        margin-left: 120px;
-        display: block;
+        margin-left: $logo-width * 0.85;
         height: 100%;
-        max-width: $max-content-width;
-
-        @media screen and (min-width: $screen-small-res) and (max-width: $screen-medium-res) {
-            margin-left: 130px;
+        @media (max-width: $screen-high-res) {
+            margin-left: $logo-width * 0.6;
         }
     }
 
     .logo {
         position: absolute;
-        left: -90px;
+        left: -20px;
         bottom: -40px;
         width: $logo-width;
 
