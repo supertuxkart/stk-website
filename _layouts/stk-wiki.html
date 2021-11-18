@@ -33,7 +33,7 @@
 <nav>
     <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i>{%translate_span Menu,Drop down menu when viewing SuperTuxKart homepage in mobile device%}</label>
     <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
-    <div class="nav noselect dropdown-target">
+    <div class="nav-menu noselect">
     <div class="left-nav">
         <ul>
             <li><a href='{% translate_url Discover %}'>{%translate_span Discover%}</a></li>
@@ -48,7 +48,7 @@
         <div class="toolbox-container">
         <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
         <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
-        <div class="toolbox dropdown-target">
+        <div class="toolbox">
         <p class="toolbox-title">{%translate_span Tools,"Dropdown menu which shows language selection, etc."%}</p>
         <div class="toolbox-section"><p>{%translate_span Language%}</p>
         <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;">
