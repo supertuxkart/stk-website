@@ -23,7 +23,7 @@ title: Discover
 %}
 
 {% capture main_characters -%}
-Main Characters
+{%translate Main Characters%}
 {%- endcapture %}
 {%main_title {{ main_characters }}%}
 
@@ -52,7 +52,7 @@ Main Characters
 {% include character_presentation name=nolok type="odd" description=nolok_desc icon="/assets/wiki/Character_nolok_icon.png" %}
 
 {% capture additional_characters -%}
-Additional Characters
+{%translate Additional Characters%}
 {%- endcapture %}
 {%main_title {{ additional_characters }}%}
 
@@ -66,30 +66,30 @@ Additional Characters
 {%- endcapture -%}
 {% include character_presentation_small name=sara type="odd" description=sara_desc icon="/assets/wiki/Character_sara_icon.png" %}
 
-{%- capture adiumy -%}
-{%translate Adiumy%}
+{%- capture wilber -%}
+{%translate Wilber%}
 {%- endcapture -%}
-{%- capture adiumy_desc -%}
-{%translate "Adiumy is an adorable duckling, and rides a three-wheeled, wind-up kart. He is the mascot of Adium."%}
+{%- capture wilber_desc -%}
+{%translate "Wilber is the official cameraman who works for WTXB-TV to record kart races, which are very popular in the Mascot Kingdom. He is the mascot of GIMP."%}
 {%- endcapture -%}
-{% include character_presentation_small name=adiumy type="even" description=adiumy_desc icon="/assets/wiki/Character_adiumy_icon.png" %}
+{% include character_presentation_small name=wilber type="even" description=wilber_desc icon="/assets/wiki/Character_wilber_icon.png" %}
 </tr>
 <tr>
-{%- capture konqi -%}
-{%translate Konqi%}
+{%- capture puffy -%}
+{%translate Puffy%}
 {%- endcapture -%}
-{%- capture konqi_desc -%}
-{%translate "While Konqi's ancient ancestors were dangerous and feared, dragons today are harmless... mostly. He is the mascot of the KDE project."%}
+{%- capture puffy_desc -%}
+{%translate "Puffy races mainly to earn enough money to accomplish his dream: to buy a submarine. He is the mascot of the OpenBSD project."%}
 {%- endcapture -%}
-{% include character_presentation_small name=konqi type="odd" description=konqi_desc icon="/assets/wiki/Character_konqi_icon.png" %}
+{% include character_presentation_small name=puffy type="odd" description=puffy_desc icon="/assets/wiki/Character_puffy_icon.png" %}
 
-{%- capture kiki -%}
-{%translate Kiki%}
+{%- capture pidgin -%}
+{%translate Pidgin%}
 {%- endcapture -%}
-{%- capture kiki_desc -%}
-{%translate "A Krita user first drew Kiki for a training manual, but as soon as the manual was printed, Kiki decided to jump off the pages and race around the world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital painting program."%}
+{%- capture pidgin_desc -%}
+{%translate "Pidgin's ability to fly makes him perfect to deliver the results of the Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."%}
 {%- endcapture -%}
-{% include character_presentation_small name=kiki type="even" description=kiki_desc icon="/assets/wiki/Character_kiki_icon.png" %}
+{% include character_presentation_small name=pidgin type="even" description=pidgin_desc icon="/assets/wiki/Character_pidgin_icon.png" %}
 </tr>
 <tr>
 {%- capture beastie -%}
@@ -153,30 +153,30 @@ Additional Characters
 {%- endcapture -%}
 {% include character_presentation_small name=xue type="odd" description=xue_desc icon="/assets/wiki/Character_xue_icon.png" %}
 
-{%- capture pidgin -%}
-{%translate Pidgin%}
+{%- capture konqi -%}
+{%translate Konqi%}
 {%- endcapture -%}
-{%- capture pidgin_desc -%}
-{%translate "Pidgin's ability to fly makes him perfect to deliver the results of the Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."%}
+{%- capture konqi_desc -%}
+{%translate "While Konqi's ancient ancestors were dangerous and feared, dragons today are harmless... mostly. He is the mascot of the KDE project."%}
 {%- endcapture -%}
-{% include character_presentation_small name=pidgin type="even" description=pidgin_desc icon="/assets/wiki/Character_pidgin_icon.png" %}
+{% include character_presentation_small name=konqi type="even" description=konqi_desc icon="/assets/wiki/Character_konqi_icon.png" %}
 </tr>
 <tr>
-{%- capture puffy -%}
-{%translate Puffy%}
+{%- capture adiumy -%}
+{%translate Adiumy%}
 {%- endcapture -%}
-{%- capture puffy_desc -%}
-{%translate "Puffy races mainly to earn enough money to accomplish his dream: to buy a submarine. He is the mascot of the OpenBSD project."%}
+{%- capture adiumy_desc -%}
+{%translate "Adiumy is an adorable duckling who started kart racing when he realized his legs are too short to become a soccer star. Although the other mascots sometimes make fun of his waddling gait, he is respected as one of the most talented racing drivers in the kingdom. Adiumy is the mascot of Adium."%}
 {%- endcapture -%}
-{% include character_presentation_small name=puffy type="odd" description=puffy_desc icon="/assets/wiki/Character_puffy_icon.png" %}
+{% include character_presentation_small name=adiumy type="odd" description=adiumy_desc icon="/assets/wiki/Character_adiumy_icon.png" %}
 
-{%- capture wilber -%}
-{%translate Wilber%}
+{%- capture kiki -%}
+{%translate Kiki%}
 {%- endcapture -%}
-{%- capture wilber_desc -%}
-{%translate "Wilber is the official cameraman who works for WTXB-TV to record kart races, which are very popular in the Mascot Kingdom. He is the mascot of GIMP."%}
+{%- capture kiki_desc -%}
+{%translate "A Krita user first drew Kiki for a training manual, but as soon as the manual was printed, Kiki decided to jump off the pages and race around the world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital painting program."%}
 {%- endcapture -%}
-{% include character_presentation_small name=wilber type="even" description=wilber_desc icon="/assets/wiki/Character_wilber_icon.png" %}
+{% include character_presentation_small name=kiki type="even" description=kiki_desc icon="/assets/wiki/Character_kiki_icon.png" %}
 </tr>
 <tr>
 {%- capture pepper -%}
@@ -191,7 +191,7 @@ Additional Characters
 </table>
 
 {% capture many_more -%}
-...And many more!
+{%translate ...And many more!%}
 {%- endcapture %}
 {%main_title {{ many_more }}%}
 

@@ -271,6 +271,9 @@ msgstr ""
 msgid "In Story mode, you must face the evil Nolok, and defeat him in order to make the Mascot Kingdom safe once again! You can race by yourself against the computer, compete in several Grand Prix cups, or try to beat your fastest time in Time Trial mode. You can also race, battle or play soccer with up to eight friends on a single computer, play on a local network or play online with other players all over the world."
 msgstr ""
 
+msgid "Main Characters"
+msgstr ""
+
 msgid "Tux"
 msgstr ""
 
@@ -289,28 +292,31 @@ msgstr ""
 msgid "The villain of SuperTuxKart, Nolok is always concocting some sort of malevolent plan inside his fiery lava castle."
 msgstr ""
 
+msgid "Additional Characters"
+msgstr ""
+
 msgid "Sara"
 msgstr ""
 
 msgid "Sara is a powerful magician, and the ruler of the Mascot Kingdom. She races using a specialised snowmobile. She is the mascot of the OpenGameArt website."
 msgstr ""
 
-msgid "Adiumy"
+msgid "Wilber"
 msgstr ""
 
-msgid "Adiumy is an adorable duckling, and rides a three-wheeled, wind-up kart. He is the mascot of Adium."
+msgid "Wilber is the official cameraman who works for WTXB-TV to record kart races, which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
 msgstr ""
 
-msgid "Konqi"
+msgid "Puffy"
 msgstr ""
 
-msgid "While Konqi's ancient ancestors were dangerous and feared, dragons today are harmless... mostly. He is the mascot of the KDE project."
+msgid "Puffy races mainly to earn enough money to accomplish his dream: to buy a submarine. He is the mascot of the OpenBSD project."
 msgstr ""
 
-msgid "Kiki"
+msgid "Pidgin"
 msgstr ""
 
-msgid "A Krita user first drew Kiki for a training manual, but as soon as the manual was printed, Kiki decided to jump off the pages and race around the world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital painting program."
+msgid "Pidgin's ability to fly makes him perfect to deliver the results of the Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
 msgstr ""
 
 msgid "Beastie"
@@ -358,28 +364,31 @@ msgstr ""
 msgid "Xue likes to stand out from the crowd, and her unusual kart reflects this. She races a special hovercraft, which is small enough to be driven by a mouse. She is the mascot of XFCE."
 msgstr ""
 
-msgid "Pidgin"
+msgid "Konqi"
 msgstr ""
 
-msgid "Pidgin's ability to fly makes him perfect to deliver the results of the Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
+msgid "While Konqi's ancient ancestors were dangerous and feared, dragons today are harmless... mostly. He is the mascot of the KDE project."
 msgstr ""
 
-msgid "Puffy"
+msgid "Adiumy"
 msgstr ""
 
-msgid "Puffy races mainly to earn enough money to accomplish his dream: to buy a submarine. He is the mascot of the OpenBSD project."
+msgid "Adiumy is an adorable duckling who started kart racing when he realized his legs are too short to become a soccer star. Although the other mascots sometimes make fun of his waddling gait, he is respected as one of the most talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
 msgstr ""
 
-msgid "Wilber"
+msgid "Kiki"
 msgstr ""
 
-msgid "Wilber is the official cameraman who works for WTXB-TV to record kart races, which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
+msgid "A Krita user first drew Kiki for a training manual, but as soon as the manual was printed, Kiki decided to jump off the pages and race around the world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital painting program."
 msgstr ""
 
 msgid "Pepper"
 msgstr ""
 
 msgid "Pepper is a little witch who loves playing with her cat Carrot. Her enthusiasm for racing ignited when her friend Kiki helped her to tune her broom with a nitro injection system and custom exhaust tips. Pepper is the main character of the Pepper & Carrot project."
+msgstr ""
+
+msgid "...And many more!"
 msgstr ""
 
 msgid "You can create your own characters, tracks, and arenas and share them with the SuperTuxKart community! You can do this by going to [online.supertuxkart.net](https://online.supertuxkart.net)."
