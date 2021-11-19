@@ -44,7 +44,7 @@ The GPU is usually the limitation for STK's performance. Cards meeting the minim
 
 **CPU**
 
-The CPU performance might be the limitation depending on graphics card and graphics setting, mostly for online play which is more CPU-intensive. Good CPU performance helps insure high framerate and more importantly smoothness. For STK, single-thread performance is paramount.
+The CPU performance might be the limitation depending on graphics card and graphics setting, mostly for online play which is more CPU-intensive. Good CPU performance helps ensure high framerate and more importantly smoothness. For STK, single-thread performance is paramount.
 
 * **Recommended**: Core i5-2400 single-thread performance or higher. This includes AMD Ryzen desktop CPUs, most Intel desktop CPUs since 2012 and recent mid-to-high end mobile CPUs.
 * **Minimal**: Any Intel or AMD dual-cores processors. Very old models and low-clocked mobile parts may struggle, especially in online play.
@@ -100,7 +100,7 @@ In January 2020, version 1.1 was released. The gameplay was not changed, as all 
 
 In August 2020, version 1.2, was released. It improved gamepad support via SDL2 which supports hotplugging and gamepad mappings.
 
-In September 2021, the most recent version, 1.3, has been released. It contains update for lots of official karts.
+In September 2021, the most recent version, 1.3, has been released. It contains updates for many official karts.
 
 For more details, please see the [changelog](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), the [blog posts](https://blog.supertuxkart.net) or the list of resolved issues on STK's GitHub.
 
