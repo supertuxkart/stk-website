@@ -29,6 +29,10 @@ PoUtils::translate_string(context['site'], context['page']['lang'], 'Info', 'Tit
                 # Use CGI.escapeHTML so < > can be displayed inside code popup
                 @content = CGI.escapeHTML(markup)
             end
+            # Make url clickable in code popup
+            @content.gsub!(/(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])/).each do |url|
+                '<a href="' + url + '">' + url + '</a>'
+            end
         end
         def render(context)
             result =
