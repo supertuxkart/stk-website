@@ -95,6 +95,7 @@ module GalleryUtils
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    text-align: center;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -131,7 +132,7 @@ module GalleryUtils
 }
 
 .' + get_css_class() + ' img {
-    display: block;
+    display: inline-block;
     margin: auto;
     width: auto;
     height: auto;
