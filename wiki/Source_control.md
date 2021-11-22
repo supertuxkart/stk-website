@@ -26,7 +26,7 @@ These two repositories should be downloaded in the same folder, so that folders 
 
 The media repository is **not required to play the game**. It contains the source files for assets (.blend files, lossless music and sound files, etc.) and is meant for artists. It is around 3.2GB in download size.
 
-The media repository is hosted on sourceforge and uses SVN. Example checkout command:
+The media repository is hosted on SourceForge and uses SVN. Example checkout command:
 
 {%popup_code
 svn checkout https://svn.code.sf.net/p/supertuxkart/code/media/trunk stk-media-repo%}
@@ -35,7 +35,7 @@ Also see [the Media repository page](Media_Repo).
 
 ## Guidelines
 
-Here are some guidelines for developers who have write access to git/SVN:
+Here are some guidelines for developers who have write access to Git/SVN:
 
 * Join our IRC or Telegram channel (see [Community](Community)). Developers usually post what they are working on there, so that the likelihood of conflicts can be decreased. Additionally, known high-profile bugs are discussed there, too.
 * It might be worth subscribing to the supertuxkart-commit email list (see [Community](Community)). All commit messages are automatically sent to this address, so you will always be aware of what is happening, and if your work interferes with what other people are doing.
