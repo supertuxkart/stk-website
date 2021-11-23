@@ -57,6 +57,16 @@ var site_url = '{{ site.url }}' + '{{ site.baseurl }}' + '/';
 var page = window.location.href.substring(site_url.length).split("/").pop();
 var page_only = page.split('#')[0];
 
+function getURLLanguage(url)
+{
+    if (!url.startsWith(site_url))
+        return '';
+    var sl = url.slice(site_url.length).split('/')[0];
+    if (supported_languages.indexOf(sl) != -1)
+        return sl;
+    return '';
+}
+
 function changeLanguage(lang)
 {
     try
@@ -128,20 +138,11 @@ try
     {
         // Override preferred language if language tag is supplied in url
         // or the referrer
-        for (var i = 0; i < supported_languages.length; i++)
-        {
-            var site_url_lang = site_url + supported_languages[i];
-            if (window.location.href.search(site_url_lang) != -1)
-            {
-                sessionStorage.setItem('preferred_lang', supported_languages[i]);
-                break;
-            }
-            else if (document.referrer.search(site_url_lang) != -1)
-            {
-                sessionStorage.setItem('preferred_lang', supported_languages[i]);
-                break;
-            }
-        }
+        var site_url_lang = getURLLanguage(window.location.href);
+        if (site_url_lang == '')
+            site_url_lang = getURLLanguage(document.referrer);
+        if (site_url_lang != '')
+            sessionStorage.setItem('preferred_lang', site_url_lang);
         preferred_lang = sessionStorage.getItem('preferred_lang');
     }
 } catch (error) {}
