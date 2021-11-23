@@ -70,9 +70,30 @@ table.wikitable
     background-color: transparent;
     max-width: 100%;
     overflow: auto;
+    border-collapse: collapse;
+    color: #222;
 }
 
 table.wikitable tbody
 {
     background-color: #eff0f1;
+}
+
+/* From MediaWiki */
+table.wikitable > tr > th,
+table.wikitable > tr > td,
+table.wikitable > * > tr > th,
+table.wikitable > * > tr > td {
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em
+}
+
+table.wikitable > tr > th,
+table.wikitable > * > tr > th {
+    background-color: #eaecf0;
+    text-align: center
+}
+
+table.wikitable > caption {
+    font-weight: bold
 }

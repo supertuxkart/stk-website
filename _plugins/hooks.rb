@@ -10,6 +10,12 @@ Jekyll::Hooks.register :site, :pre_render do |site|
             '{% ' + sl.scan(/start_liquid (.*?)%/)[0][0].strip
         end
         new_content.gsub!(/{%(-)?(\s*)?end_liquid(.*?)%}/, '%}')
+        # Use {% wikitable %} in .md file to make transifex parser happy
+        # Usage (notice newline after):
+        # {% wikitable %}
+        #
+        # | column | column |
+        new_content.gsub!(/{%(-)?(\s*)?wikitable(.*?)%}/, '<!-- wikitable -->')
         page.content = new_content
     end
 
@@ -42,6 +48,9 @@ Jekyll::Hooks.register :pages, :post_convert do |page|
         next
     end
     site = page.site
+    # Add wikitable class to table if needed
+    page.content.sub!("<!-- wikitable -->\n\n<table>", "<table class=\"wikitable\">")
+
     # Remove tabs, replace newlines with whitespace, so paragraph is separated with whitespace
     article = page.content.delete("\t").gsub("\n", " ")
     # Remove all HTML tags, leading and trailing whitespaces
