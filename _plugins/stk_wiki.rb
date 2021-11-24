@@ -26,12 +26,19 @@ PoUtils::translate_string(context['site'], context['page']['lang'], 'Info', 'Tit
                 formatter = Rouge::Formatters::HTMLInline.new('thankful_eyes')
                 @content = formatter.format(lexer.lex(markup[lang.length + 1..]))
             else
+                # Extract urls first so it's not affected by CGI.escapeHTML
+                urls = {}
+                markup.gsub!(/(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])/).each do |url|
+                    key = '{{ url_' + urls.length.to_s + ' }}'
+                    urls[key] = url
+                    key
+                end
                 # Use CGI.escapeHTML so < > can be displayed inside code popup
                 @content = CGI.escapeHTML(markup)
-            end
-            # Make url clickable in code popup
-            @content.gsub!(/(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])/).each do |url|
-                '<a href="' + url + '">' + url + '</a>'
+                # Make url clickable in code popup
+                urls.each do |key, value|
+                    @content.sub!(key, '<a href="' + value + '">' + CGI.escapeHTML(value) + '</a>')
+                end
             end
         end
         def render(context)
