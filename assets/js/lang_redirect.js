@@ -18,25 +18,55 @@ if (!String.prototype.startsWith)
 {% assign en = 'en' | split: ',' -%}
 {%- assign supported_languages = en | concat: site.data.supported_languages | sort -%}
 var supported_languages = {{ supported_languages | jsonify }};
+{%- assign fallback_languages = '' | split: ',' -%}
+{%- for fallback in site.data.locale_dict -%}
+    {%- assign lang = fallback[0] | split: "-" -%}
+    {%- if supported_languages contains lang[0] -%}
+        {%- assign supported_languages = fallback[0] | concat: supported_languages | sort -%}
+        {%- assign fallback_languages = lang[0] | concat: fallback_languages | sort | uniq -%}
+    {%- endif -%}
+{%- endfor %}
+var fallback_languages = {{ fallback_languages | jsonify }};
 var page_translations = {{ site.data.page_translations | jsonify }};
 var language_names = {
 {%- for lang in supported_languages -%}
-    "{{- lang -}}":"{{- site.data.language_names[lang] -}}",
+    {%- if site.data.language_names contains lang -%}
+        "{{- lang -}}":"{{- site.data.language_names[lang] -}}",
+    {%- else -%}
+        {%- assign country = lang | split: '-' -%}
+        {%- assign country_only = country[1] | upcase -%}
+        {%- assign language_only = country[0] | split: '_' -%}
+        {%- assign language_country = language_only[0] | append: '_' | append: country_only -%}
+        "{{- lang -}}":"{{- site.data.language_names[language_country] -}}",
+    {%- endif -%}
 {%- endfor -%}
 };
 
 function getSuitableLang(lang, locale)
 {
+    var real_locale = locale;
     // Special handling for possible tranditional chinese locales to avoid
     // displaying simplified chinese for those users
     if (lang == 'zh')
     {
-        if (locale.search('hk') != -1 || locale.search('mo') != -1 ||
-            locale.search('tw') != -1 || locale.search('hant') != -1)
+        if (locale.search('hk') != -1 || locale.search('mo') != -1)
+        {
+            real_locale = 'hk';
             locale = 'TW';
+        }
+        else if (locale.search('tw') != -1 || locale.search('hant') != -1)
+        {
+            real_locale = 'tw';
+            locale = 'TW';
+        }
         else
+        {
+            real_locale = 'cn';
             locale = 'CN';
+        }
     }
+    sessionStorage.setItem('preferred_locale', real_locale);
+
     locale = locale.toUpperCase();
     for (var i = 0; i < supported_languages.length; i++)
     {
@@ -69,6 +99,12 @@ function getURLLanguage(url)
 
 function changeLanguage(lang)
 {
+    var lang_locale = lang.split('-');
+    lang = lang_locale[0];
+    var locale = '';
+    if (lang_locale.length == 2)
+        locale = lang_locale[1];
+    sessionStorage.setItem('preferred_locale', locale);
     try
     {
         sessionStorage.setItem('overridden_lang', lang);
@@ -85,13 +121,13 @@ function changeLanguage(lang)
 }
 
 var lis = [];
-for (var i = 0; i < supported_languages.length; i++)
+for (cur_lang in language_names)
 {
-    var cur_lang = supported_languages[i];
     var new_node = document.getElementById('language-selector-en').cloneNode(true);
     new_node.id = 'language-selector-' + cur_lang;
     var ahref = new_node.getElementsByTagName('A')[0];
-    if (cur_lang != 'en' && page_translations.hasOwnProperty(page_only) &&
+    if (cur_lang != 'en' && fallback_languages.indexOf(cur_lang) == -1 &&
+        page_translations.hasOwnProperty(page_only) &&
         page_translations[page_only].indexOf(cur_lang) != -1)
     {
         ahref.href = site_url + cur_lang + '/' + page_only;
@@ -111,6 +147,7 @@ for (var i = 0; i < lis.length; i++)
 }
 
 var preferred_lang = document.documentElement.lang.replace("-", "_");
+var preferred_locale = '';
 try
 {
     // Prevent error when cookies disabled
@@ -127,6 +164,8 @@ try
         if (suitable_lang != null)
             sessionStorage.setItem('preferred_lang', suitable_lang);
     }
+    if (sessionStorage.getItem('preferred_locale'))
+        preferred_locale = sessionStorage.getItem('preferred_locale');
 
     if (sessionStorage.getItem('overridden_lang'))
     {
@@ -168,6 +207,8 @@ if (doc_lang == 'en' && doc_lang != preferred_lang)
     }
     if (!success && doc_lang == 'en')
     {
+        // Special locale handling in the end
+        doc_lang = preferred_lang;
         var logo = document.getElementsByClassName('logo noselect')[0];
         var logo_text = logo.getAttribute('title');
         if (translations.hasOwnProperty(logo_text) &&
@@ -213,6 +254,31 @@ if (doc_lang == 'en' && doc_lang != preferred_lang)
                     break;
                 }
             }
+        }
+    }
+}
+
+var locale_key = preferred_lang + '-' + preferred_locale;
+var locale_dict = {{ site.data.locale_dict | jsonify }};
+if (doc_lang == preferred_lang && locale_dict.hasOwnProperty(locale_key))
+{
+    var walker = document.createTreeWalker(
+        document.body,
+        NodeFilter.SHOW_TEXT,
+        function acceptNode(node)
+        {
+            return NodeFilter.FILTER_ACCEPT;
+        },
+        false);
+    var n;
+    while (n = walker.nextNode())
+    {
+        if (n.textContent.trim().length == 0)
+            continue;
+        var locale_data = locale_dict[locale_key];
+        for (key in locale_data)
+        {
+            n.textContent = n.textContent.replace(key, locale_data[key]);
         }
     }
 }

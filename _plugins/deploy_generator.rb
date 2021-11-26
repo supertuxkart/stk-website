@@ -137,8 +137,9 @@ module STKWebsite
                 "vi" => "Tiếng Việt",
                 "yi" => "ייִדיש",
                 "zh" => "中文",
-                "zh_CN" => "简体中文",
-                "zh_TW" => "繁體中文"
+                "zh_CN" => "中文（简体）",
+                "zh_HK" => "中文（香港）",
+                "zh_TW" => "中文（繁體）"
             }
             site.data['supported_languages'] = supported_languages
             site.data['js_translations'] = {}
