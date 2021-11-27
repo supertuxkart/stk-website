@@ -148,8 +148,16 @@ for (var i = 0; i < lis.length; i++)
 
 var preferred_lang = document.documentElement.lang.replace("-", "_");
 var preferred_locale = '';
+var redirect = false;
 try
 {
+    if (!sessionStorage.getItem('first_visit'))
+    {
+        sessionStorage.setItem('first_visit', true);
+        redirect = document.referrer.length == 0 ||
+            document.referrer == site_url;
+    }
+
     // Prevent error when cookies disabled
     if (!sessionStorage.getItem('preferred_lang'))
     {
@@ -189,10 +197,11 @@ try
 var doc_lang = document.documentElement.lang.replace("-", "_");
 if (doc_lang == 'en' && doc_lang != preferred_lang)
 {
-    // Only redirect if page translation exists, other translate the layout
-    // texts and links
+    // Only redirect if page translation exists and first time visit the page
+    // without referrer (so search engine clicking is not affected),
+    // otherwise translate the layout texts and links
     var success = false;
-    if (page_translations.hasOwnProperty(page))
+    if (redirect && page_translations.hasOwnProperty(page))
     {
         var arr = page_translations[page];
         for (var i = 0; i < arr.length; i++)
