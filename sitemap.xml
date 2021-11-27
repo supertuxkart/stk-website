@@ -1,0 +1,29 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for page in site.data.all_pages %}
+<url>
+    <loc>{{ site.url | append: site.baseurl | append: '/' | append: page }}</loc>
+    {%- for lang in site.data.page_translations[page] %}
+    {%- assign lang_name = lang | replace: '_', '-' | downcase %}
+    <xhtml:link rel="alternate" hreflang="{{ lang_name }}" href="{{ site.url | append: site.baseurl | append: '/' | append: lang | append: '/' | append: page }}" />
+    {%- endfor %}
+</url>
+{%- for lang in site.data.page_translations[page] %}
+<url>
+    <loc>{{ site.url | append: site.baseurl | append: '/' | append: lang | append: '/' | append: page }}</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="{{ site.url | append: site.baseurl | append: '/' | append: page }}" />
+    {%- for sub_lang in site.data.page_translations[page] %}
+    {%- if sub_lang == lang -%}
+        {% continue %}
+    {%- endif -%}
+    {%- assign lang_name = sub_lang | replace: '_', '-' | downcase %}
+    <xhtml:link rel="alternate" hreflang="{{ lang_name }}" href="{{ site.url | append: site.baseurl | append: '/' | append: lang | append: '/' | append: page }}" />
+    {%- endfor %}
+</url>
+{%- endfor %}
+{%- endfor %}
+</urlset>
