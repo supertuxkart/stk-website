@@ -59,6 +59,10 @@ Jekyll::Hooks.register :pages, :post_convert do |page|
 
     # Remove tabs, replace newlines with whitespace, so paragraph is separated with whitespace
     article = page.content.delete("\t").gsub("\n", " ")
+    first_paragraph = article.index('</p>')
+    if first_paragraph != nil then
+        article = article[0 .. first_paragraph + 4]
+    end
     # Remove all HTML tags, leading and trailing whitespaces
     article_content = article.gsub(/<\/?[^>]*>/, "").squeeze(" ").lstrip.rstrip
     url = page.url
