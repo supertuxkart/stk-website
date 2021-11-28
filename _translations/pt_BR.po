@@ -1,0 +1,614 @@
+# 
+# Translators:
+# Maximilian Weiss-Föder, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: stk-website\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-11-10 17:58+0000\n"
+"Last-Translator: Maximilian Weiss-Föder, 2021\n"
+"Language-Team: Portuguese (Brazil) (https://www.transifex.com/supertuxkart/teams/36024/pt_BR/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+# Shown if empty search result
+msgid "No results found"
+msgstr "Nenhum resultado encontrado"
+
+msgid "SuperTuxKart"
+msgstr "SuperTuxKart"
+
+msgid "Download"
+msgstr "Baixar"
+
+msgid "Discover"
+msgstr "O Jogo"
+
+msgid "Community"
+msgstr "Comunidade"
+
+# Table of contents which display near the top of each page
+msgid "Contents"
+msgstr "Conteúdo"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Código"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Informações"
+
+msgid ""
+"SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
+"tracks, and modes to play."
+msgstr ""
+"O SuperTuxKart é um jogo de corrida de código aberto, com grande variedade "
+"de personagens, pistas e modalidades."
+
+# Drop down menu when viewing SuperTuxKart homepage in mobile device
+msgid "Menu"
+msgstr "Menu"
+
+msgid "FAQ"
+msgstr "Perguntas Frequentes"
+
+msgid "Get Involved"
+msgstr "Contribua"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Donate"
+msgstr "Doações"
+
+# Dropdown menu which shows language selection, etc.
+msgid "Tools"
+msgstr "Ferramentas"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Management"
+msgstr "Gerenciamento"
+
+msgid "New page"
+msgstr "Nova página"
+
+msgid "Edit page"
+msgstr "Editar página"
+
+msgid "Page history"
+msgstr "Histórico"
+
+msgid "Visit the main page"
+msgstr "Voltar à página inicial"
+
+msgid "Forum"
+msgstr "Fórum"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+# Clicking Addons will go to online.supertuxkart.net
+msgid "Addons"
+msgstr "Complementos"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "Media"
+msgstr "Vídeos e Imagens"
+
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "Gallery"
+msgstr "Galeria"
+
+msgid "Posters"
+msgstr "Posters"
+
+msgid "Development"
+msgstr "Desenvolvimento"
+
+# Clicking Modding will go to Commuity page
+msgid "Modding"
+msgstr "Modificação"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+# Clicking Documentation will go to SuperTuxKart doxygen
+msgid "Documentation"
+msgstr "Documentação"
+
+msgid "About us"
+msgstr "Quem somos"
+
+# Clicking About the team will go to a page which show SuperTuxKart team
+# member infos
+msgid "About the team"
+msgstr "Nossa equipe"
+
+msgid "About SuperTuxKart"
+msgstr "Sobre o SuperTuxKart"
+
+msgid "Projects using SuperTuxKart"
+msgstr "Projetos que usam o SuperTuxKart"
+
+msgid "IRC"
+msgstr "IRC"
+
+msgid "Mailing List"
+msgstr "Lista de e-mails"
+
+msgid "Reddit"
+msgstr "Reddit"
+
+msgid "Support Us"
+msgstr "Ajude-nos!"
+
+msgid "Donations help us keep servers running and more!"
+msgstr "Sua doação cobre nossas despesas com servidores e muito mais!"
+
+# In Community page
+msgid "For Programmers"
+msgstr "Para programadores"
+
+# In Community page
+msgid "Programming"
+msgstr "Programação"
+
+msgid "Source control"
+msgstr "Controle de código-fonte"
+
+msgid "Building from source"
+msgstr "Compilação"
+
+msgid "Coding style guidelines"
+msgstr "Diretrizes de programação"
+
+msgid "Doxygen documentation"
+msgstr "Documentação do Doxygen"
+
+msgid "Tasks for beginners"
+msgstr "Tarefas para principiantes"
+
+msgid "Scripting"
+msgstr "Elaboração de scripts"
+
+# In Community page
+msgid "Misc"
+msgstr "Outras informações"
+
+msgid "Making challenges"
+msgstr "Desafios personalizados"
+
+msgid "About releasing new versions"
+msgstr "Sobre o lançamento de novas versões"
+
+msgid "About player rankings"
+msgstr "O ranking mundial"
+
+# In Community page
+msgid "For Everyone"
+msgstr "Para todos"
+
+msgid "Connecting your Wiimote"
+msgstr "Como jogar com o Wiimote"
+
+msgid "Translating SuperTuxKart"
+msgstr "Para traduzir o SuperTuxKart"
+
+msgid "Reporting Problems"
+msgstr "Comunicação de problemas"
+
+msgid "Voice Acting"
+msgstr "Dublagem"
+
+msgid "Terms and conditions"
+msgstr "Termos de uso"
+
+msgid "Privacy policy"
+msgstr "Política de privacidade"
+
+# In Community page
+msgid "For Artists"
+msgstr "Para artistas"
+
+# In Community page
+msgid "General Information"
+msgstr "Informações gerais"
+
+msgid "Installing Tools"
+msgstr "Ferramentas suplementares"
+
+# Page links to art style documentaion of STK
+msgid "Style"
+msgstr "Estilo"
+
+msgid "Licensing"
+msgstr "Licenças"
+
+msgid "Artist Debug Mode"
+msgstr "Depuração Artística"
+
+# In Community page
+msgid "Guidelines"
+msgstr "Diretrizes"
+
+msgid "Texture Guidelines"
+msgstr "Diretrizes para texturas"
+
+msgid "3D Model Guidelines"
+msgstr "Diretrizes para modelos 3D"
+
+msgid "Music and SFX Guidelines"
+msgstr "Diretrizes musicais e sonoras"
+
+msgid "File naming conventions"
+msgstr "Nomes dos arquivos"
+
+# In Community page
+msgid "Creating"
+msgstr "Criação"
+
+msgid "Making Textures"
+msgstr "Texturas"
+
+msgid "Making Library Nodes"
+msgstr "Nós de bibliotecas"
+
+msgid "Making Karts"
+msgstr "Karts"
+
+msgid "Making Tracks"
+msgstr "Pistas"
+
+# Page title of discover page
+msgid "Welcome to the Mascot Kingdom!"
+msgstr "Boas-vindas ao reino mágico dos mascotes!"
+
+msgid ""
+"Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a "
+"variety of characters, tracks, and modes to play. Our aim is to create a "
+"game that is more fun than realistic, and provide an enjoyable experience "
+"for all ages."
+msgstr ""
+"Karts! Nitro! Ação! O SuperTuxKart é um jogo de corrida tridimensional e de "
+"código aberto, com grande variedade de personagens, pistas e modalidades. A "
+"prioridade não é o realismo, mas sim a sua diversão e a de todas as faixas "
+"etárias."
+
+msgid ""
+"In Story mode, you must face the evil Nolok, and defeat him in order to make"
+" the Mascot Kingdom safe once again! You can race by yourself against the "
+"computer, compete in several Grand Prix cups, or try to beat your fastest "
+"time in Time Trial mode. You can also race, battle or play soccer with up to"
+" eight friends on a single computer, play on a local network or play online "
+"with other players all over the world."
+msgstr ""
+"No Modo História, você enfrenta o maléfico vilão Nolok para salvar o Reino "
+"dos Mascotes! No modo de um jogador, você encara corridas sozinho ou contra "
+"o computador, em corridas individuais e campeonatos, ou tenta diminuir ainda"
+" mais seu tempo em corridas cronometradas. Para se divertir com seus amigos,"
+" compartilhe o dispositivo diretamente, com até oito jogadores, ou jogue em "
+"rede local ou pela internet, onde alguns dos melhores jogadores do mundo "
+"aguardam pelo seu desafio."
+
+msgid "Main Characters"
+msgstr "Protagonistas"
+
+msgid "Tux"
+msgstr "Tux"
+
+msgid ""
+"The hero of SuperTuxKart. Tux is a brave penguin who must save his friend, "
+"Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
+msgstr ""
+"Este corajoso pinguinzinho é o herói do SuperTuxKart. Com sua bravura e "
+"astúcia, procura libertar seu amigo Gnu das garras do maléfico Nolok. Tux é "
+"o mascote do Linux."
+
+msgid "Gnu"
+msgstr "Gnu"
+
+msgid ""
+"Tux's wise mentor, Gnu rides a flying carpet and lives peacefully in a "
+"pagoda. When Nolok captures him, the entire kingdom will try to save him. "
+"Gnu is the mascot of the GNU Project."
+msgstr ""
+"O sábio guru de Tux, e mascote do Projeto Gnu. Ele se locomove pacificamente"
+" em seu tapete voador e mora em um templo budista. Após ser capturado por "
+"Nolok, todo o reino se mobiliza em seu resgate."
+
+msgid "Nolok"
+msgstr "Nolok"
+
+msgid ""
+"The villain of SuperTuxKart, Nolok is always concocting some sort of "
+"malevolent plan inside his fiery lava castle."
+msgstr ""
+"O poderoso vilão do SuperTuxKart, sempre elaborando planos insidiosos em sua"
+" inexpugnável fortaleza magmática."
+
+msgid "Additional Characters"
+msgstr "Outros personagens"
+
+msgid "Sara"
+msgstr "Sara"
+
+msgid ""
+"Sara is a powerful magician, and the ruler of the Mascot Kingdom. She races "
+"using a specialised snowmobile. She is the mascot of the OpenGameArt "
+"website."
+msgstr ""
+"Feiticeira e rainha do Reino dos Mascotes. Nas corridas, usa um veículo "
+"especializado para a neve. Ela é a mascote do site OpenGameArt."
+
+msgid "Wilber"
+msgstr "Wilber"
+
+msgid ""
+"Wilber is the official cameraman who works for WTXB-TV to record kart races,"
+" which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
+msgstr ""
+"Wilber é o cinegrafista oficial do KarTV. As corridas de kart são "
+"extremamente populares em todo o reino, e ele filma todas elas ao vivo. Ele "
+"é o mascote do GIMP."
+
+msgid "Puffy"
+msgstr "Puffy"
+
+msgid ""
+"Puffy races mainly to earn enough money to accomplish his dream: to buy a "
+"submarine. He is the mascot of the OpenBSD project."
+msgstr ""
+"Puffy entrou no mundo das corridas para realizar seu grande sonho: comprar "
+"um submarino. Ele é o mascote do OpenBSD."
+
+msgid "Pidgin"
+msgstr "Pidgin"
+
+msgid ""
+"Pidgin's ability to fly makes him perfect to deliver the results of the "
+"Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
+msgstr ""
+"Com sua capacidade de voo, se tornou o mensageiro oficial do Reino dos "
+"Mascotes, desempenhando papel importantíssimo na divulgação dos resultados "
+"dos campeonatos automobilísticos. Ele é o mascote do aplicativo de mensagens"
+" Pidgin."
+
+msgid "Beastie"
+msgstr "Beastie"
+
+msgid ""
+"Always ready to take part in an epic race, Beastie lives in Ravenbridge "
+"mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
+msgstr ""
+"Sempre disposto a participar de uma corrida superacirrada, Beastie mora "
+"junto com o Gavroche na tenebrosa mansão do Pontal dos Corvos. Ele é o "
+"mascote do projeto BSD."
+
+msgid "BSD Daemon used with permission"
+msgstr "Mascote utilizado com o devido consentimento."
+
+msgid "Amanda"
+msgstr "Amanda"
+
+msgid ""
+"Amanda was rescued by monks when they found her in a basket as a cub. She "
+"now teaches the ancient art of racing in a monastery. She is the mascot of "
+"Window Maker."
+msgstr ""
+"Amanda é a mascote do Window Maker e foi abandonada ainda bebê, em um "
+"cestinho na frente de um mosteiro. Os monges a adotaram e lhe ensinaram "
+"todas as técnicas milenares da corrida."
+
+msgid "Emule"
+msgstr "Emule"
+
+msgid ""
+"Emule's superior knowledge of mechanical engineering allowed him to build "
+"his own kart with a turbocharged engine. He is the mascot of eMule."
+msgstr ""
+"Com seus grandes conhecimentos de engenharia mecânica, construiu seu próprio"
+" kart, com um motor turbinado. Ele é o mascote do eMule."
+
+msgid "Suzanne"
+msgstr "Suzanne"
+
+msgid ""
+"Racing has been Suzanne's dream since childhood. She began her racing career"
+" in the prestigious Kart Academy of Val Verde. She is the mascot of Blender."
+msgstr ""
+"Tornar-se pilota foi seu sonho de infância, realizado logo após se formar na"
+" Academia Automobilística de Val Verde. Ela é a mascote do Blender."
+
+msgid "Gavroche"
+msgstr "Gavroche"
+
+msgid ""
+"Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes"
+" he makes scary noises, tricking people into thinking the house is haunted. "
+"He is the mascot of MediaGoblin."
+msgstr ""
+"O Gavroche é um duende que mora junto com o Beastie no Pontal dos Corvos. "
+"Ele é o mascote do MediaGoblin e gosta de fazer barulhos para amedrontar as "
+"pessoas. Por causa disso, acreditam que a mansão é assombrada."
+
+msgid "Hexley"
+msgstr "Hexley"
+
+msgid ""
+"Hexley's ancestors started kart racing many years ago, and generation after "
+"generation, they became very good at it. He is the mascot of Darwin."
+msgstr ""
+"O Hexley vem de uma longa linhagem de pilotos desportivos, cuja família tem "
+"repassado e aprimorado seus conhecimentos de geração em geração. Ele é o "
+"mascote do sistema operacional Darwin."
+
+msgid "Xue"
+msgstr "Xue"
+
+msgid ""
+"Xue likes to stand out from the crowd, and her unusual kart reflects this. "
+"She races a special hovercraft, which is small enough to be driven by a "
+"mouse. She is the mascot of XFCE."
+msgstr ""
+"A Xue é a mascote do XFCE e adora chamar a atenção. Por isso usa um kart "
+"diferente de todos os demais: um hovercraft especializado, sob medida para "
+"ratinhas como ela."
+
+msgid "Konqi"
+msgstr "Konqi"
+
+msgid ""
+"While Konqi's ancient ancestors were dangerous and feared, dragons today are"
+" harmless... mostly. He is the mascot of the KDE project."
+msgstr ""
+"O mascote do KDE, embora adorável, é descendente de dragões ferozes e "
+"imponentes."
+
+msgid "Adiumy"
+msgstr "Adiumy"
+
+msgid ""
+"Adiumy is an adorable duckling who started kart racing when he realized his "
+"legs are too short to become a soccer star. Although the other mascots "
+"sometimes make fun of his waddling gait, he is respected as one of the most "
+"talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
+msgstr ""
+"Este adorável patinho é o mascote do aplicativo de mensagens Adium. Ele "
+"entrou no mundo das corridas depois de se decepcionar no futebol, por suas "
+"patinhas serem pequenas demais. Elas também o forçam a andar de um jeito "
+"engraçado, sendo por isso alvo de chacotas e brincadeirinhas maldosas. No "
+"entanto, em seu kart ele é um dos corredores mais respeitados e temidos de "
+"todo o reino."
+
+msgid "Kiki"
+msgstr "Kiki"
+
+msgid ""
+"A Krita user first drew Kiki for a training manual, but as soon as the "
+"manual was printed, Kiki decided to jump off the pages and race around the "
+"world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital "
+"painting program."
+msgstr ""
+"Certa vez, um usuário do Krita desenhou uma esquilinha para inserir em uma "
+"apostila de exercícios práticos. No entanto, quando o material começou a ser"
+" impresso na gráfica, ela ganhou vida e saltou do papel. Ela é a mascote do "
+"Krita, um programa de design digital, e vagueia pelo mundo em seu kart que "
+"lembra uma caneta e um aeroplano."
+
+msgid "Pepper"
+msgstr "Pepper"
+
+msgid ""
+"Pepper is a little witch who loves playing with her cat Carrot. Her "
+"enthusiasm for racing ignited when her friend Kiki helped her to tune her "
+"broom with a nitro injection system and custom exhaust tips. Pepper is the "
+"main character of the Pepper & Carrot project."
+msgstr ""
+"Pepper é uma bruxinha que adora brincar com o Carrot, seu gato. Sua paixão "
+"pelo automobilismo se despertou quando Kiki, sua amiga, a ajudou a instalar "
+"escapamentos e um injetor de nitro em sua vassoura. Pepper é a protagonista "
+"do projeto Pepper & Carrot."
+
+msgid "...And many more!"
+msgstr "...e muitos outros!"
+
+msgid ""
+"You can create your own characters, tracks, and arenas and share them with "
+"the SuperTuxKart community! You can do this by going to "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+msgstr ""
+"Acesse [online.supertuxkart.net](https://online.supertuxkart.net) para saber"
+" como criar novos personagens, pistas e campos de batalha, bem como para "
+"compartilhar suas criações com toda a comunidade do SuperTuxKart."
+
+msgid ""
+"If you are interested you can take a look at the [community](Community) "
+"page."
+msgstr "A aba [Comunidade](Community) contém muitas informações relacionadas."
+
+# Full game installer / packages for STK
+msgid "Full game"
+msgstr "Jogo Completo"
+
+msgid "Intel / AMD 32-bit"
+msgstr "Intel / AMD 32-bit"
+
+msgid "Intel / AMD 64-bit"
+msgstr "Intel / AMD 64-bit"
+
+msgid "ARM 32-bit"
+msgstr "ARM 32-bit"
+
+msgid "ARM 64-bit"
+msgstr "ARM 64-bit"
+
+# All-in-one architectures for STK installer / packages
+msgid "all architectures"
+msgstr "Todas as arquiteturas"
+
+msgid "Extract and run **run_game.sh** inside the folder."
+msgstr "Extraia o conteúdo do pacote e execute o script **run_game.sh**."
+
+msgid "Installer-less archive"
+msgstr "Arquivo sem instalador"
+
+msgid "Get on Google Play Store"
+msgstr "Instalar pelo Google Play"
+
+msgid "Get the APK"
+msgstr "Baixar o APK"
+
+msgid "Unzip the archive to microSD root to install."
+msgstr "Extraia o conteúdo do arquivo ZIP para o diretório raiz do microSD."
+
+msgid "Source Code"
+msgstr "Código Fonte"
+
+msgid ""
+"To get the very latest code, see the page [Source control](Source_control)."
+msgstr ""
+"Para saber como obter a versão mais recente do código fonte, acesse a página"
+" [Controle de código-fonte](Source_control)."
+
+msgid "Download from GitHub"
+msgstr "Baixar do GitHub"
+
+# Toggle for table of contents
+msgid "Show"
+msgstr "Exibir"
+
+# Toggle for table of contents
+msgid "Hide"
+msgstr "Ocultar"
+
+msgid ""
+"Preview release is available [here](https://github.com/supertuxkart/stk-"
+"code/releases/preview)."
+msgstr ""
+"Para obter a versão para testes, clique "
+"[aqui](https://github.com/supertuxkart/stk-code/releases/preview)."
+
+msgid "Get the latest release candidate:"
+msgstr "Baixar a última versão para testes:"
+
+msgid "Get SuperTuxKart on Itch.io"
+msgstr "Baixar o SuperTuxKart em Itch.io"
+
+msgid "Discover more..."
+msgstr "Mais informações..."
+
+msgid "Latest Blog Post"
+msgstr "Última notícia do blog"
+
+msgid "Click here if you are not redirected."
+msgstr "Clique aqui se você não for redirecionado."
