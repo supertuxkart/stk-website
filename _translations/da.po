@@ -1,0 +1,610 @@
+# 
+# Translators:
+# Lars Lyngby <larslyngby@hotmail.com>, 2021
+# Benau, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: stk-website\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-11-10 17:58+0000\n"
+"Last-Translator: Benau, 2021\n"
+"Language-Team: Danish (https://www.transifex.com/supertuxkart/teams/36024/da/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Shown if empty search result
+msgid "No results found"
+msgstr "Ingen resultater fundet"
+
+msgid "SuperTuxKart"
+msgstr "SuperTuxKart"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Discover"
+msgstr "Opdag"
+
+msgid "Community"
+msgstr "Fællesskab"
+
+# Table of contents which display near the top of each page
+msgid "Contents"
+msgstr "Indhold"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Kode"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Information"
+
+msgid ""
+"SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
+"tracks, and modes to play."
+msgstr ""
+"SuperTuxKart er et 3D open-source arkaderacerspil med en bred vifte af "
+"karakterer, baner og måder at spille på."
+
+# Drop down menu when viewing SuperTuxKart homepage in mobile device
+msgid "Menu"
+msgstr "Menu"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Get Involved"
+msgstr "Hjælp med"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Donate"
+msgstr "Donér"
+
+# Dropdown menu which shows language selection, etc.
+msgid "Tools"
+msgstr "Værktøjer"
+
+msgid "Language"
+msgstr "Sprog"
+
+msgid "Management"
+msgstr "Behandling"
+
+msgid "New page"
+msgstr "Ny side"
+
+msgid "Edit page"
+msgstr "Redigér side"
+
+msgid "Page history"
+msgstr "Sidehistorik"
+
+msgid "Visit the main page"
+msgstr "Besøg hjemmesiden"
+
+msgid "Forum"
+msgstr "Forum"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+# Clicking Addons will go to online.supertuxkart.net
+msgid "Addons"
+msgstr "Tilføjelser"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "Media"
+msgstr "Medier"
+
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "Gallery"
+msgstr "Galleri"
+
+msgid "Posters"
+msgstr "Plakater"
+
+msgid "Development"
+msgstr "Udvikling"
+
+# Clicking Modding will go to Commuity page
+msgid "Modding"
+msgstr "Modding"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+# Clicking Documentation will go to SuperTuxKart doxygen
+msgid "Documentation"
+msgstr "Dokumentation"
+
+msgid "About us"
+msgstr "Om os"
+
+# Clicking About the team will go to a page which show SuperTuxKart team
+# member infos
+msgid "About the team"
+msgstr "Om teamet"
+
+msgid "About SuperTuxKart"
+msgstr "Om SuperTuxKart"
+
+msgid "Projects using SuperTuxKart"
+msgstr "Projekter der bruger SuperTuxKart"
+
+msgid "IRC"
+msgstr "IRC"
+
+msgid "Mailing List"
+msgstr "Mailliste"
+
+msgid "Reddit"
+msgstr "Reddit"
+
+msgid "Support Us"
+msgstr "Støt os"
+
+msgid "Donations help us keep servers running and more!"
+msgstr "Donationer hjælper os med at holde servere kørende og mere!"
+
+# In Community page
+msgid "For Programmers"
+msgstr "For programmører"
+
+# In Community page
+msgid "Programming"
+msgstr "Programmering"
+
+msgid "Source control"
+msgstr "Kildekodestyring"
+
+msgid "Building from source"
+msgstr "Byg fra kildekode"
+
+msgid "Coding style guidelines"
+msgstr "Retningslinjer til kildekodeformattering"
+
+msgid "Doxygen documentation"
+msgstr "Doxygen dokumentation"
+
+msgid "Tasks for beginners"
+msgstr "Opgaver for begyndere"
+
+msgid "Scripting"
+msgstr "Scripting"
+
+# In Community page
+msgid "Misc"
+msgstr "Diverse"
+
+msgid "Making challenges"
+msgstr "Oprette udfordringer"
+
+msgid "About releasing new versions"
+msgstr "Om at frigive nye versioner"
+
+msgid "About player rankings"
+msgstr "Om spillerplaceringer"
+
+# In Community page
+msgid "For Everyone"
+msgstr "For Alle"
+
+msgid "Connecting your Wiimote"
+msgstr "Tilslut din Wiimote"
+
+msgid "Translating SuperTuxKart"
+msgstr "Oversæt SuperTuxKart"
+
+msgid "Reporting Problems"
+msgstr "Indrapportér problemer"
+
+msgid "Voice Acting"
+msgstr "Stemmeskuespil"
+
+msgid "Terms and conditions"
+msgstr "Vilkår og betingelser"
+
+msgid "Privacy policy"
+msgstr "Privatlivspolitik"
+
+# In Community page
+msgid "For Artists"
+msgstr "For kunstnere"
+
+# In Community page
+msgid "General Information"
+msgstr "Generel information"
+
+msgid "Installing Tools"
+msgstr "Installation af værktøjer"
+
+# Page links to art style documentaion of STK
+msgid "Style"
+msgstr "Formattering"
+
+msgid "Licensing"
+msgstr "Licensering"
+
+msgid "Artist Debug Mode"
+msgstr "Kunstner debugtilstand"
+
+# In Community page
+msgid "Guidelines"
+msgstr "Retningslinjer"
+
+msgid "Texture Guidelines"
+msgstr "Strukturelle retningslinjer"
+
+msgid "3D Model Guidelines"
+msgstr "3D modelretningslinjer"
+
+msgid "Music and SFX Guidelines"
+msgstr "Musik- og SFX-retningslinjer"
+
+msgid "File naming conventions"
+msgstr "Filnavngivningskonventioner"
+
+# In Community page
+msgid "Creating"
+msgstr "Skabende"
+
+msgid "Making Textures"
+msgstr "Fremstille strukturer"
+
+msgid "Making Library Nodes"
+msgstr "Fremstille biblioteksknudepunkter"
+
+msgid "Making Karts"
+msgstr "Fremstille Karts"
+
+msgid "Making Tracks"
+msgstr "Fremstille baner"
+
+# Page title of discover page
+msgid "Welcome to the Mascot Kingdom!"
+msgstr "Velkommen til Maskot kongeriget!"
+
+msgid ""
+"Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a "
+"variety of characters, tracks, and modes to play. Our aim is to create a "
+"game that is more fun than realistic, and provide an enjoyable experience "
+"for all ages."
+msgstr ""
+"Karts. Nitro. Action! SuperTuxKart e et 3D open-source arkaderacerspil med "
+"en bred vifte af karakterer, baner og måder at spille på. Vores mål er at "
+"skabe et spil, der er mere er sjovt end det er realistisk, og det samtidig "
+"giver en fornøjelig oplevelse for personer i alle aldre."
+
+msgid ""
+"In Story mode, you must face the evil Nolok, and defeat him in order to make"
+" the Mascot Kingdom safe once again! You can race by yourself against the "
+"computer, compete in several Grand Prix cups, or try to beat your fastest "
+"time in Time Trial mode. You can also race, battle or play soccer with up to"
+" eight friends on a single computer, play on a local network or play online "
+"with other players all over the world."
+msgstr ""
+"I historietilstand skal du konfrontere den onde Nolok og overvinde ham for "
+"at gøre Maskot kongedømmet sikkert igen! Du kan køre alene, mod computeren, "
+"konkurrere i flere Grand Prix Cups eller prøve at slå din bedste tid i "
+"tidskørsel. Du kan også køre, kæmpe eller spille fodbold med op til otte "
+"venner på en enkelt computer, spille på lokalnettet eller spille online med "
+"spillere fra hele verden."
+
+msgid "Main Characters"
+msgstr "Hovedroller"
+
+msgid "Tux"
+msgstr "Tux"
+
+msgid ""
+"The hero of SuperTuxKart. Tux is a brave penguin who must save his friend, "
+"Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
+msgstr ""
+"Helten i SuperTuxKart. Tux er en modig pingvin, der skal redde sin ven Gnu "
+"fra Noloks onde kløer. Tux er Linux maskotten."
+
+msgid "Gnu"
+msgstr "Gnu"
+
+msgid ""
+"Tux's wise mentor, Gnu rides a flying carpet and lives peacefully in a "
+"pagoda. When Nolok captures him, the entire kingdom will try to save him. "
+"Gnu is the mascot of the GNU Project."
+msgstr ""
+"Tux's vise mentor Gnu rider på et flyvende tæppe, og lever fredeligt i en "
+"pagode. Når Nolok fanger ham, vil hele kongeriget forsøge at redde ham. Gnu "
+"er maskotten for GNU-projektet."
+
+msgid "Nolok"
+msgstr "Nolok"
+
+msgid ""
+"The villain of SuperTuxKart, Nolok is always concocting some sort of "
+"malevolent plan inside his fiery lava castle."
+msgstr ""
+"Skurken i SuperTuxKart Nolok brygger altid på en ondsindet plan i sit "
+"brændende lavaslot."
+
+msgid "Additional Characters"
+msgstr "Biroller"
+
+msgid "Sara"
+msgstr "Sara"
+
+msgid ""
+"Sara is a powerful magician, and the ruler of the Mascot Kingdom. She races "
+"using a specialised snowmobile. She is the mascot of the OpenGameArt "
+"website."
+msgstr ""
+"Sara er en mægtig magiker og hersker i Maskot kongeriget. Hun racer i en "
+"specialbygget snescooter. Hun er maskotten for OpenGameArt websiderne."
+
+msgid "Wilber"
+msgstr "Wilber"
+
+msgid ""
+"Wilber is the official cameraman who works for WTXB-TV to record kart races,"
+" which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
+msgstr ""
+"Wilber er den officielle kameramand, der arbejder for WTXB-TV med at optage "
+"kartracerløb. Det er meget populært i Maskot kongeriget. Han er maskot for "
+"GIMP."
+
+msgid "Puffy"
+msgstr "Puffy"
+
+msgid ""
+"Puffy races mainly to earn enough money to accomplish his dream: to buy a "
+"submarine. He is the mascot of the OpenBSD project."
+msgstr ""
+"Puffy racer hovedsagelig for at tjene nok penge til at nå sin drøm: At købe "
+"en undervandsbåd. Han er maskotten for OpenBSD-projektet."
+
+msgid "Pidgin"
+msgstr "Pidgin"
+
+msgid ""
+"Pidgin's ability to fly makes him perfect to deliver the results of the "
+"Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
+msgstr ""
+"Pidgin's evne til at flyve gør ham perfekt til at aflevere resulaterne af "
+"Grand Prix'et til Maskot kongeriget. Han er maskotten for Pidgin."
+
+msgid "Beastie"
+msgstr "Beastie"
+
+msgid ""
+"Always ready to take part in an epic race, Beastie lives in Ravenbridge "
+"mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
+msgstr ""
+"Altid parat til at deltage i et episk løb. Beastie lever i Ravenbridge palæ "
+"med sin ven Gavroche. Beastie er maskot for BSD-projektet."
+
+msgid "BSD Daemon used with permission"
+msgstr "BSD Daemon brugt med tilladelse"
+
+msgid "Amanda"
+msgstr "Amanda"
+
+msgid ""
+"Amanda was rescued by monks when they found her in a basket as a cub. She "
+"now teaches the ancient art of racing in a monastery. She is the mascot of "
+"Window Maker."
+msgstr ""
+"Amanda blev reddet af munke, der fandt hende som unge i en kurv. Nu "
+"underviser hun i den gamle racerkunst i klosteret. Hun er maskotten for "
+"Window Maker."
+
+msgid "Emule"
+msgstr "Emule"
+
+msgid ""
+"Emule's superior knowledge of mechanical engineering allowed him to build "
+"his own kart with a turbocharged engine. He is the mascot of eMule."
+msgstr ""
+"Emule's overlegne viden om mekanisk ingeniørarbejde gør det muligt for ham "
+"at bygge sin egen kart med en turboladet motor. Han er maskotten for eMule."
+
+msgid "Suzanne"
+msgstr "Suzanne"
+
+msgid ""
+"Racing has been Suzanne's dream since childhood. She began her racing career"
+" in the prestigious Kart Academy of Val Verde. She is the mascot of Blender."
+msgstr ""
+"Racerløb har været Suzanne's drøm siden barndommen. Hun begyndte sin "
+"racerkariere i det prestigefyldte Kart Academy i Val Verde. Hun er maskotten"
+" for Blender."
+
+msgid "Gavroche"
+msgstr "Gavroche"
+
+msgid ""
+"Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes"
+" he makes scary noises, tricking people into thinking the house is haunted. "
+"He is the mascot of MediaGoblin."
+msgstr ""
+"Gavroche er en nisse, der deler Ravenbridge-palæet med Beastie. Af og til "
+"kommer han med skræmmende lyde, der narrer folk til at tro, at huset er "
+"hjemsøgt. Han er maskotten for MediaGoblin."
+
+msgid "Hexley"
+msgstr "Hexley"
+
+msgid ""
+"Hexley's ancestors started kart racing many years ago, and generation after "
+"generation, they became very good at it. He is the mascot of Darwin."
+msgstr ""
+"Hexley's forfædre begyndte at race med karts for mange år siden. Generation "
+"efter generation blev de rigtig gode til det. Han er maskotten for Darwin."
+
+msgid "Xue"
+msgstr "Xue"
+
+msgid ""
+"Xue likes to stand out from the crowd, and her unusual kart reflects this. "
+"She races a special hovercraft, which is small enough to be driven by a "
+"mouse. She is the mascot of XFCE."
+msgstr ""
+"Xue kan lide at skille sig ud fra mængden, og hendes usædvanlige kart "
+"afspejler det. Hun racer i en speciel hovercraft, der er lille nok til, at "
+"en mus kan køre den. Hun er maskotten for XFCE."
+
+msgid "Konqi"
+msgstr "Konqi"
+
+msgid ""
+"While Konqi's ancient ancestors were dangerous and feared, dragons today are"
+" harmless... mostly. He is the mascot of the KDE project."
+msgstr ""
+"Mens Konqi's fjerne forfædre var farlige og frygtede, er nutidens drager "
+"harmløse - for det meste! Han er maskotten for KDE-projektet."
+
+msgid "Adiumy"
+msgstr "Adiumy"
+
+msgid ""
+"Adiumy is an adorable duckling who started kart racing when he realized his "
+"legs are too short to become a soccer star. Although the other mascots "
+"sometimes make fun of his waddling gait, he is respected as one of the most "
+"talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
+msgstr ""
+"Adiumy er en yndig ælling, der startede med at køre kart, da han forstod, at"
+" hans ben var for korte til, at han kunne blive fodboldstjerne. Selvom de "
+"andre maskotter undertiden gør nar af hans vralten, er han respekteret som "
+"en af de mest talentfulde racerkørere i kongedømmet. Adiumy er maskot for "
+"Adium."
+
+msgid "Kiki"
+msgstr "Kiki"
+
+msgid ""
+"A Krita user first drew Kiki for a training manual, but as soon as the "
+"manual was printed, Kiki decided to jump off the pages and race around the "
+"world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital "
+"painting program."
+msgstr ""
+"En Krita-bruger var den første, der tegnede Kiki til en træningsmanuel. Men "
+"så snart manuelen var skrevet, besluttede Kikki at hoppe ud af siderne og "
+"race i hele verden på hendes tegnependrevne flyvemaskine. Kiki er maskotten "
+"for det digitale tegneprogram Krita."
+
+msgid "Pepper"
+msgstr "Pepper"
+
+msgid ""
+"Pepper is a little witch who loves playing with her cat Carrot. Her "
+"enthusiasm for racing ignited when her friend Kiki helped her to tune her "
+"broom with a nitro injection system and custom exhaust tips. Pepper is the "
+"main character of the Pepper & Carrot project."
+msgstr ""
+"Pepper er en lille heks, der elsker at lege med sin kat Carrot. Hendes "
+"entusiasme for at køre racerløb blev tændt, da hendes ven Kiki hjalp med at "
+"tune hendes kost med et nitro-indsprøjtningssystem og med "
+"specialfremstillede udstødningstips. Pepper er hovedkarakteren i Pepper & "
+"Carrot-projektet."
+
+msgid "...And many more!"
+msgstr "...Og mange flere!"
+
+msgid ""
+"You can create your own characters, tracks, and arenas and share them with "
+"the SuperTuxKart community! You can do this by going to "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+msgstr ""
+"Du kan skabe dine egne karakterer, baner og arenaer og dele dem med "
+"SuperTuxKart-fællesskabet! Du kan gøre det via "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+
+msgid ""
+"If you are interested you can take a look at the [community](Community) "
+"page."
+msgstr ""
+"Hvis du er interesseret, kan du se på [fællesskabs](Community) websiden."
+
+# Full game installer / packages for STK
+msgid "Full game"
+msgstr "Hele spillet"
+
+msgid "Intel / AMD 32-bit"
+msgstr "Intel / AMD 32-bit"
+
+msgid "Intel / AMD 64-bit"
+msgstr "Intel / AMD 64-bit"
+
+msgid "ARM 32-bit"
+msgstr "ARM 32-bit"
+
+msgid "ARM 64-bit"
+msgstr "ARM 64-bit"
+
+# All-in-one architectures for STK installer / packages
+msgid "all architectures"
+msgstr "Alle arkitekturer"
+
+msgid "Extract and run **run_game.sh** inside the folder."
+msgstr "Uddrag og udfør **run_game.sh** i folderen."
+
+msgid "Installer-less archive"
+msgstr "Arkiv uden installation"
+
+msgid "Get on Google Play Store"
+msgstr "Hent på Google Play Store"
+
+msgid "Get the APK"
+msgstr "Hent APK pakken"
+
+msgid "Unzip the archive to microSD root to install."
+msgstr "Pak arkivet ud på mikroSD i roden for at installere."
+
+msgid "Source Code"
+msgstr "Kildekode."
+
+msgid ""
+"To get the very latest code, see the page [Source control](Source_control)."
+msgstr ""
+"For at få den helt nyeste kode se på websiden "
+"[Kildekodestyring](Source_control)."
+
+msgid "Download from GitHub"
+msgstr "Hent fra GitHub"
+
+# Toggle for table of contents
+msgid "Show"
+msgstr "Vis"
+
+# Toggle for table of contents
+msgid "Hide"
+msgstr "Skjul"
+
+msgid ""
+"Preview release is available [here](https://github.com/supertuxkart/stk-"
+"code/releases/preview)."
+msgstr ""
+"Previewudgave kan hentes [her](https://github.com/supertuxkart/stk-"
+"code/releases/preview)."
+
+msgid "Get the latest release candidate:"
+msgstr "Hent den nyeste frigivelseskandidat:"
+
+msgid "Get SuperTuxKart on Itch.io"
+msgstr "Hent SuperTuxKart på Itch.io"
+
+msgid "Discover more..."
+msgstr "Opdag mere..."
+
+msgid "Latest Blog Post"
+msgstr "Seneste blogindlæg"
+
+msgid "Click here if you are not redirected."
+msgstr "Klik her, hvis du ikke bliver omdirigeret."
