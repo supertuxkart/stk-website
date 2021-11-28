@@ -1,0 +1,611 @@
+# 
+# Translators:
+# Любомир Василев, 2021
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: stk-website\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-11-10 17:58+0000\n"
+"Last-Translator: Любомир Василев, 2021\n"
+"Language-Team: Bulgarian (https://www.transifex.com/supertuxkart/teams/36024/bg/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Shown if empty search result
+msgid "No results found"
+msgstr "Няма намерени резултати"
+
+msgid "SuperTuxKart"
+msgstr "Супер Тъкс Карт"
+
+msgid "Download"
+msgstr "Сваляне"
+
+msgid "Discover"
+msgstr "Разгледайте"
+
+msgid "Community"
+msgstr "Общност"
+
+# Table of contents which display near the top of each page
+msgid "Contents"
+msgstr "Съдържание"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Код"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Информация"
+
+msgid ""
+"SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
+"tracks, and modes to play."
+msgstr ""
+"Супер Тъкс Карт е 3-измерна аркадна състезателна игра с отворен код, която "
+"включва разнообразие от герои, писти и режими на игра."
+
+# Drop down menu when viewing SuperTuxKart homepage in mobile device
+msgid "Menu"
+msgstr "Меню"
+
+msgid "FAQ"
+msgstr "ЧЗВ"
+
+msgid "Get Involved"
+msgstr "Включете се"
+
+msgid "Blog"
+msgstr "Блог"
+
+msgid "Donate"
+msgstr "Даряване"
+
+# Dropdown menu which shows language selection, etc.
+msgid "Tools"
+msgstr "Инструменти"
+
+msgid "Language"
+msgstr "Език"
+
+msgid "Management"
+msgstr "Управление"
+
+msgid "New page"
+msgstr "Нова страница"
+
+msgid "Edit page"
+msgstr "Редактиране на страницата"
+
+msgid "Page history"
+msgstr "История на страницата"
+
+msgid "Visit the main page"
+msgstr "Към главната страница"
+
+msgid "Forum"
+msgstr "Форум"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+# Clicking Addons will go to online.supertuxkart.net
+msgid "Addons"
+msgstr "Добавки"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "Media"
+msgstr "Медии"
+
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "Gallery"
+msgstr "Галерия"
+
+msgid "Posters"
+msgstr "Плакати"
+
+msgid "Development"
+msgstr "Разработка"
+
+# Clicking Modding will go to Commuity page
+msgid "Modding"
+msgstr "Модификации"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+# Clicking Documentation will go to SuperTuxKart doxygen
+msgid "Documentation"
+msgstr "Документация"
+
+msgid "About us"
+msgstr "За нас"
+
+# Clicking About the team will go to a page which show SuperTuxKart team
+# member infos
+msgid "About the team"
+msgstr "За екипа"
+
+msgid "About SuperTuxKart"
+msgstr "За Супер Тъкс Карт"
+
+msgid "Projects using SuperTuxKart"
+msgstr "Проекти, използващи Супер Тъкс Карт"
+
+msgid "IRC"
+msgstr "IRC"
+
+msgid "Mailing List"
+msgstr "Пощенски списък"
+
+msgid "Reddit"
+msgstr "Reddit"
+
+msgid "Support Us"
+msgstr "Подкрепете ни"
+
+msgid "Donations help us keep servers running and more!"
+msgstr ""
+"Даренията ни помагат да поддържаме сървърите работещи, както и за много "
+"други неща!"
+
+# In Community page
+msgid "For Programmers"
+msgstr "За програмисти"
+
+# In Community page
+msgid "Programming"
+msgstr "Програмиране"
+
+msgid "Source control"
+msgstr "Хранилища за изходния код"
+
+msgid "Building from source"
+msgstr "Компилиране на изходния код"
+
+msgid "Coding style guidelines"
+msgstr "Стилови правила за кода"
+
+msgid "Doxygen documentation"
+msgstr "Документация чрез Doxygen"
+
+msgid "Tasks for beginners"
+msgstr "Задачи за начинаещи"
+
+msgid "Scripting"
+msgstr "Скриптиране"
+
+# In Community page
+msgid "Misc"
+msgstr "Разни"
+
+msgid "Making challenges"
+msgstr "Създаване на предизвикателства"
+
+msgid "About releasing new versions"
+msgstr "Относно издаването на нови версии"
+
+msgid "About player rankings"
+msgstr "Относно класациите на играчите"
+
+# In Community page
+msgid "For Everyone"
+msgstr "За всички"
+
+msgid "Connecting your Wiimote"
+msgstr "Свързване на Wiimote"
+
+msgid "Translating SuperTuxKart"
+msgstr "Превод на Супер Тъкс Карт"
+
+msgid "Reporting Problems"
+msgstr "Докладване на проблеми"
+
+msgid "Voice Acting"
+msgstr "Гласово озвучение"
+
+msgid "Terms and conditions"
+msgstr "Условия за ползване"
+
+msgid "Privacy policy"
+msgstr "Политика на поверителност"
+
+# In Community page
+msgid "For Artists"
+msgstr "За графика и звук"
+
+# In Community page
+msgid "General Information"
+msgstr "Обща информация"
+
+msgid "Installing Tools"
+msgstr "Инсталиране на инструментите"
+
+# Page links to art style documentaion of STK
+msgid "Style"
+msgstr "Стил"
+
+msgid "Licensing"
+msgstr "Лиценз"
+
+msgid "Artist Debug Mode"
+msgstr "Режим за дебъгване на ресурсите"
+
+# In Community page
+msgid "Guidelines"
+msgstr "Насоки"
+
+msgid "Texture Guidelines"
+msgstr "Насоки за текстурите"
+
+msgid "3D Model Guidelines"
+msgstr "Насоки за 3-измерните модели"
+
+msgid "Music and SFX Guidelines"
+msgstr "Насоки за музиката и звука"
+
+msgid "File naming conventions"
+msgstr "Правила за именуване на файловете"
+
+# In Community page
+msgid "Creating"
+msgstr "Създаване"
+
+msgid "Making Textures"
+msgstr "Създаване на текстури"
+
+msgid "Making Library Nodes"
+msgstr "Създаване на обекти от вида „Library Node“"
+
+msgid "Making Karts"
+msgstr "Създаване на колички"
+
+msgid "Making Tracks"
+msgstr "Създаване на писти"
+
+# Page title of discover page
+msgid "Welcome to the Mascot Kingdom!"
+msgstr "Добре дошли в Царството на талисманите!"
+
+msgid ""
+"Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a "
+"variety of characters, tracks, and modes to play. Our aim is to create a "
+"game that is more fun than realistic, and provide an enjoyable experience "
+"for all ages."
+msgstr ""
+"Колички, азот, надпревара! Супер Тъкс Карт е 3-измерна аркадна състезателна "
+"игра с отворен код, която включва разнообразие от герои, писти и режими на "
+"игра. Целта ни е да създадем игра, която е повече забавна, отколкото "
+"реалистична, и на която да могат да се насладят хора на всякаква възраст."
+
+msgid ""
+"In Story mode, you must face the evil Nolok, and defeat him in order to make"
+" the Mascot Kingdom safe once again! You can race by yourself against the "
+"computer, compete in several Grand Prix cups, or try to beat your fastest "
+"time in Time Trial mode. You can also race, battle or play soccer with up to"
+" eight friends on a single computer, play on a local network or play online "
+"with other players all over the world."
+msgstr ""
+"В режим История трябва да се изправите срещу злия Нолок и да го победите, за"
+" да възстановите мира в царството! Можете да се състезавате самостоятелно, "
+"да участвате в няколко турнира за Голяма награда или да опитате да победите "
+"най-доброто си време в режима на Състезание за време. Освен това можете да "
+"се състезавате, биете или играете футбол с до осем приятели на един "
+"компютър, както и в локална мрежа или по Интернет с играчи от целия свят."
+
+msgid "Main Characters"
+msgstr "Основни персонажи"
+
+msgid "Tux"
+msgstr "Тъкс"
+
+msgid ""
+"The hero of SuperTuxKart. Tux is a brave penguin who must save his friend, "
+"Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
+msgstr ""
+"Героят на Супер Тъкс Карт. Тъкс е смел пингвин, който трябва да спаси "
+"приятеля си Гну от злите нокти на Нолок. Тъкс е талисманът на Линукс."
+
+msgid "Gnu"
+msgstr "Гну"
+
+msgid ""
+"Tux's wise mentor, Gnu rides a flying carpet and lives peacefully in a "
+"pagoda. When Nolok captures him, the entire kingdom will try to save him. "
+"Gnu is the mascot of the GNU Project."
+msgstr ""
+"Мъдрият учител на на Тъкс, Гну, живее мирно в своята пагода и обича да се "
+"вози на летящото си килимче. Когато Нолок го хваща, цялото царство се зарича"
+" да го спаси. Гну е талисманът на проекта ГНУ."
+
+msgid "Nolok"
+msgstr "Нолок"
+
+msgid ""
+"The villain of SuperTuxKart, Nolok is always concocting some sort of "
+"malevolent plan inside his fiery lava castle."
+msgstr ""
+"Злодеят на Супер Тъкс Карт. Нолок постоянно крои злобно планове в своя замък"
+" от лава."
+
+msgid "Additional Characters"
+msgstr "Допълнителни персонажи"
+
+msgid "Sara"
+msgstr "Сара"
+
+msgid ""
+"Sara is a powerful magician, and the ruler of the Mascot Kingdom. She races "
+"using a specialised snowmobile. She is the mascot of the OpenGameArt "
+"website."
+msgstr ""
+"Сара е могъща магьосница и владетел на царството. Тя се състезава със "
+"специална моторна шейна. Сара е талисманът на уеб сайта OpenGameArt."
+
+msgid "Wilber"
+msgstr "Уилбър"
+
+msgid ""
+"Wilber is the official cameraman who works for WTXB-TV to record kart races,"
+" which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
+msgstr ""
+"Уилбър е главният оператор на XTXB-TV и работата му е да снима състезанията,"
+" които са изключително популярни в цялото царство. Той е талисманът на GIMP."
+
+msgid "Puffy"
+msgstr "Пъфи"
+
+msgid ""
+"Puffy races mainly to earn enough money to accomplish his dream: to buy a "
+"submarine. He is the mascot of the OpenBSD project."
+msgstr ""
+"Пъфи се състезава основно, за да спечели достатъчно пари за мечтата си – да "
+"си купи подводница. Той е талисманът на проекта OpenBSD."
+
+msgid "Pidgin"
+msgstr "Пидгин"
+
+msgid ""
+"Pidgin's ability to fly makes him perfect to deliver the results of the "
+"Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
+msgstr ""
+"Тъй като Пидгин може да лети, той разнася резултатите от състезанията за "
+"Голяма награда из цялото царство. Пидгин е талисманът на Pidgin."
+
+msgid "Beastie"
+msgstr "Бийсти"
+
+msgid ""
+"Always ready to take part in an epic race, Beastie lives in Ravenbridge "
+"mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
+msgstr ""
+"Бийсти живее в имението Рейвънбридж със своя приятел Гаврош и е винаги готов"
+" за епично състезание. Той е талисманът на проекта BSD."
+
+msgid "BSD Daemon used with permission"
+msgstr "Имаме разрешение за ползването на демона на BSD"
+
+msgid "Amanda"
+msgstr "Аманда"
+
+msgid ""
+"Amanda was rescued by monks when they found her in a basket as a cub. She "
+"now teaches the ancient art of racing in a monastery. She is the mascot of "
+"Window Maker."
+msgstr ""
+"Аманда била спасена от монаси, които я намерили оставена в кошница като "
+"малко мече. Сега тя преподава в манастира древното изкуство на "
+"състезаването. Аманда е талисманът на Window Maker."
+
+msgid "Emule"
+msgstr "Емуле"
+
+msgid ""
+"Emule's superior knowledge of mechanical engineering allowed him to build "
+"his own kart with a turbocharged engine. He is the mascot of eMule."
+msgstr ""
+"Изключителните познания на Емуле по машиностроене му позволили да построи "
+"сам своята количка и да я оборудва с турбокомпресор. Той е талисманът на "
+"eMule."
+
+msgid "Suzanne"
+msgstr "Сузане"
+
+msgid ""
+"Racing has been Suzanne's dream since childhood. She began her racing career"
+" in the prestigious Kart Academy of Val Verde. She is the mascot of Blender."
+msgstr ""
+"Състезаването е мечта на Сузане още от най-ранно детство. Тя започва "
+"състезателната си кариера в престижната Академия за картинг на Вал Верде. "
+"Сузане е талисманът на Blender."
+
+msgid "Gavroche"
+msgstr "Гаврош"
+
+msgid ""
+"Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes"
+" he makes scary noises, tricking people into thinking the house is haunted. "
+"He is the mascot of MediaGoblin."
+msgstr ""
+"Гаврош е гоблин, който живее в имението Рейвънбридж заедно с Бийсти. "
+"Понякога той издава страшни звуци и кара хората да си мислят, че къщата е "
+"обладана от духове. Гаврош е талисманът на MediaGoblin."
+
+msgid "Hexley"
+msgstr "Хексли"
+
+msgid ""
+"Hexley's ancestors started kart racing many years ago, and generation after "
+"generation, they became very good at it. He is the mascot of Darwin."
+msgstr ""
+"Предците на Хексли са се състезавали още преди много много години, и "
+"поколение след поколение са ставали все по-добри. Той е талисманът на "
+"Darwin."
+
+msgid "Xue"
+msgstr "Ксю"
+
+msgid ""
+"Xue likes to stand out from the crowd, and her unusual kart reflects this. "
+"She races a special hovercraft, which is small enough to be driven by a "
+"mouse. She is the mascot of XFCE."
+msgstr ""
+"Ксю обича да се отличава от тълпата и необикновената ѝ количка показва това."
+" Тя се състезава със специална носеща се над земята количка, която е "
+"достатъчно малка, за да може да се кара от мишка. Ксю е талисманът на XFCE."
+
+msgid "Konqi"
+msgstr "Конки"
+
+msgid ""
+"While Konqi's ancient ancestors were dangerous and feared, dragons today are"
+" harmless... mostly. He is the mascot of the KDE project."
+msgstr ""
+"Древните предци на Конки са били страховити и опасни, но драконите днес са "
+"безобидни… в голяма степен. Той е талисманът на проекта KDE."
+
+msgid "Adiumy"
+msgstr "Адиуми"
+
+msgid ""
+"Adiumy is an adorable duckling who started kart racing when he realized his "
+"legs are too short to become a soccer star. Although the other mascots "
+"sometimes make fun of his waddling gait, he is respected as one of the most "
+"talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
+msgstr ""
+"Адиуми е прекрасно патенце, което започнало да се състезава с колички, "
+"когато разбрало, че краката му са твърде къси, за да стане велик футболист. "
+"Въпреки, че понякога другите талисмани се присмиват на клатещата му се "
+"походка, той е уважаван като един от най-талантливите пилоти в царството. "
+"Адиуми е талисманът на Adium."
+
+msgid "Kiki"
+msgstr "Кики"
+
+msgid ""
+"A Krita user first drew Kiki for a training manual, but as soon as the "
+"manual was printed, Kiki decided to jump off the pages and race around the "
+"world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital "
+"painting program."
+msgstr ""
+"Първата рисунка на Кики се появила в наръчник за Крита, но щом наръчникът "
+"бил разпечатан, Кики изскочила от страниците и започнала да се състезава "
+"около света със своя захранван от писалка самолет. Кики е талисманът на "
+"програмата за рисуване Крита."
+
+msgid "Pepper"
+msgstr "Пепър"
+
+msgid ""
+"Pepper is a little witch who loves playing with her cat Carrot. Her "
+"enthusiasm for racing ignited when her friend Kiki helped her to tune her "
+"broom with a nitro injection system and custom exhaust tips. Pepper is the "
+"main character of the Pepper & Carrot project."
+msgstr ""
+"Пепър е малка вещица, която обича да си играе с котарака си – Морковчо. "
+"Желанието ѝ за състезания се зародило, когато приятелката ѝ Кики ѝ помогнала"
+" да добави на метлата си система за азотно впръскване и специални накрайници"
+" за ауспуха. Пепър е главната героиня в проекта Pepper & Carrot."
+
+msgid "...And many more!"
+msgstr "…И още много!"
+
+msgid ""
+"You can create your own characters, tracks, and arenas and share them with "
+"the SuperTuxKart community! You can do this by going to "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+msgstr ""
+"Можете да създадете свои собствени персонажи, писти и арени, както и да ги "
+"споделяте с общността на Супер Тъкс Карт! Можете да направите това на адрес "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+
+msgid ""
+"If you are interested you can take a look at the [community](Community) "
+"page."
+msgstr ""
+"Ако имате интерес, може да разгледате страницата на [общността](Community)."
+
+# Full game installer / packages for STK
+msgid "Full game"
+msgstr "Пълната игра"
+
+msgid "Intel / AMD 32-bit"
+msgstr "Intel / AMD 32 бита"
+
+msgid "Intel / AMD 64-bit"
+msgstr "Intel / AMD 64 бита"
+
+msgid "ARM 32-bit"
+msgstr "ARM 32 бита"
+
+msgid "ARM 64-bit"
+msgstr "ARM 64 бита"
+
+# All-in-one architectures for STK installer / packages
+msgid "all architectures"
+msgstr "всички архитектури"
+
+msgid "Extract and run **run_game.sh** inside the folder."
+msgstr "Разархивирайте и пуснете **run_game.sh** от папката."
+
+msgid "Installer-less archive"
+msgstr "Архив без нужда от инсталиране"
+
+msgid "Get on Google Play Store"
+msgstr "Вземете от магазина Google Play"
+
+msgid "Get the APK"
+msgstr "Вземете файл APK"
+
+msgid "Unzip the archive to microSD root to install."
+msgstr "Разархивирайте архива в главната папка на карта microSD."
+
+msgid "Source Code"
+msgstr "Изходен код"
+
+msgid ""
+"To get the very latest code, see the page [Source control](Source_control)."
+msgstr ""
+"За да получите най-новия код, вижте страницата с [хранилищата за изходния "
+"код](Source_control)."
+
+msgid "Download from GitHub"
+msgstr "Сваляне от GitHub"
+
+# Toggle for table of contents
+msgid "Show"
+msgstr "Показване"
+
+# Toggle for table of contents
+msgid "Hide"
+msgstr "Скриване"
+
+msgid ""
+"Preview release is available [here](https://github.com/supertuxkart/stk-"
+"code/releases/preview)."
+msgstr ""
+"Предварително издание може да бъде свалено от "
+"[тук](https://github.com/supertuxkart/stk-code/releases/preview)."
+
+msgid "Get the latest release candidate:"
+msgstr "Вземете най-новата версия-кандидат за издаване:"
+
+msgid "Get SuperTuxKart on Itch.io"
+msgstr "Вземете Супер Тъкс Карт от Itch.io"
+
+msgid "Discover more..."
+msgstr "Вижте повече…"
+
+msgid "Latest Blog Post"
+msgstr "Последна публикация от блога"
+
+msgid "Click here if you are not redirected."
+msgstr "Щракнете тук, ако не бъдете пренасочени"
