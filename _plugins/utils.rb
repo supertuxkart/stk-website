@@ -1,6 +1,22 @@
 require 'cgi'
+require 'kramdown/parser/gfm'
 
 module STKWebsite
+    def STKWebsite::get_title_id(context, title)
+        # From Kramdown::Parser::GFM::generate_gfm_header_id
+        result = title.downcase
+        result.gsub!(Kramdown::Parser::GFM::NON_WORD_RE, '')
+        result.tr!(" \t", '-')
+        context['title_id_counter'] = {} if not context['title_id_counter']
+        if not context['title_id_counter'].include?(result) then
+            context['title_id_counter'][result] = 0
+        else
+            context['title_id_counter'][result] += 1
+        end
+        counter_result = context['title_id_counter'][result]
+        result << "-#{counter_result}" if counter_result > 0
+        return result
+    end
     def STKWebsite::get_css_page(context)
         page_name = context['page']['name']
         # Only site from a page has complete structure for Jekyll::PageWithoutAFile

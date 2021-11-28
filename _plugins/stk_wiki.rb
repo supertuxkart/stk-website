@@ -1,6 +1,7 @@
 require 'cgi'
 require 'rouge'
 require_relative 'po_utils'
+require_relative 'utils'
 
 # Templates from STK MediaWiki
 module STKWebsite
@@ -137,7 +138,7 @@ input[id="' + input_id + '"]:checked + .qa-question + .qa-answer {
         def render(context)
             data = Liquid::Template.parse(@markup.delete("\n")).render(context)
             result =
-'<h2 class="article_main_title">' + data + '</h2>
+'<h2 id="' + STKWebsite::get_title_id(context, data) + '" class="article_main_title">' + data + '</h2>
 '
             return result
         end
@@ -147,7 +148,7 @@ input[id="' + input_id + '"]:checked + .qa-question + .qa-answer {
         def render(context)
             data = Liquid::Template.parse(@markup.delete("\n")).render(context)
             result =
-'<h4 class="article_minor_title">' + data + '</h4>
+'<h4 id="' + STKWebsite::get_title_id(context, data) + '" class="article_minor_title">' + data + '</h4>
 '
             return result
         end

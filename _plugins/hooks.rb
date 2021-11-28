@@ -29,9 +29,9 @@ Jekyll::Hooks.register :site, :pre_render do |site|
     end
 
     for page in site.pages do
-    next if not page.data.include?('toc') or page.data['toc'] == false
+    next if page.data['layout'] != 'stk-wiki' or not page.data['lang']
         toc_include =
-'<h2 style="margin: 0px">{%translate_span Contents,Table of contents which display near the top of each page%}</h2>
+'<h2 id="toc_header" style="margin: 0px">{%translate_span Contents,Table of contents which display near the top of each page%}</h2>
 * TOC
 {:toc}'
         first_header = page.content.index("\n##")
@@ -50,6 +50,12 @@ Jekyll::Hooks.register :pages, :post_convert do |page|
     site = page.site
     # Add wikitable class to table if needed
     page.content.sub!("<!-- wikitable -->\n\n<table>", "<table class=\"wikitable\">")
+
+    # Hide table of contents if toc is false
+    if not page.data.include?('toc') or page.data['toc'] == false then
+        page.content.sub!('<h2 id="toc_header" style="margin: 0px"', '<h2 style="display: none;"');
+        page.content.sub!('<ul id="markdown-toc">', '<ul style="display: none;" id="markdown-toc">');
+    end
 
     # Remove tabs, replace newlines with whitespace, so paragraph is separated with whitespace
     article = page.content.delete("\t").gsub("\n", " ")
