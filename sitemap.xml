@@ -21,7 +21,7 @@ layout: null
         {% continue %}
     {%- endif -%}
     {%- assign lang_name = sub_lang | replace: '_', '-' | downcase %}
-    <xhtml:link rel="alternate" hreflang="{{ lang_name }}" href="{{ site.url | append: site.baseurl | append: '/' | append: lang | append: '/' | append: page }}" />
+    <xhtml:link rel="alternate" hreflang="{{ lang_name }}" href="{{ site.url | append: site.baseurl | append: '/' | append: sub_lang | append: '/' | append: page }}" />
     {%- endfor %}
 </url>
 {%- endfor %}
