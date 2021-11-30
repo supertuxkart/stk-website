@@ -73,9 +73,11 @@ module GalleryUtils
                 caption = ''
                 href = ''
                 if data[0].length > 1 then
-                    expended = Liquid::Template.parse(data[0][1]).render(context)
-                    caption = Kramdown::Document.new(expended, input: 'GFM').to_html
-                    caption.sub!('<p>', '<p class="gallery-caption">')
+                    if data[0][1] and data[0][1].length > 0 then
+                        expended = Liquid::Template.parse(data[0][1]).render(context)
+                        caption = Kramdown::Document.new(expended, input: 'GFM').to_html
+                        caption.sub!('<p>', '<p class="gallery-caption">')
+                    end
                     if data[0].length > 2 then
                         href = Liquid::Template.parse(data[0][2]).render(context)
                     end
