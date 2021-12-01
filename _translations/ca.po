@@ -613,5 +613,18 @@ msgstr "Descobreix més..."
 msgid "Latest Blog Post"
 msgstr "Última publicació del blog"
 
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "Prerequisits"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr ""
+"Hauríeu de llegir els articles següents abans de seguir aquest tutorial:"
+
+msgid "Return to Get Involved"
+msgstr "Torna a Participa"
+
 msgid "Click here if you are not redirected."
 msgstr "Feu clic aquí si no sou redirigits."
