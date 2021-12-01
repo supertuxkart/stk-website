@@ -464,6 +464,13 @@ msgstr ""
 msgid "Latest Blog Post"
 msgstr ""
 
+# Title of prerequisites popup which describes prerequisites before reading some articles
+msgid "Prerequisites"
+msgstr ""
+
+msgid "You should read the following articles prior to following this tutorial:"
+msgstr ""
+
 msgid "Return to Get Involved"
 msgstr ""
 
