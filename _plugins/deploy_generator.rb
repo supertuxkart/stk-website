@@ -183,7 +183,34 @@ msgstr ""
                 po_hash = {}
                 po.find_all do |entry|
                 next if entry.msgstr.to_s == '' or entry.msgid.to_s == entry.msgstr.to_s
-                    po_hash[entry.msgid.to_s] = entry.msgstr.to_s
+                    entry_msgstr = entry.msgstr.to_s
+                    # We don't use escaped characters in source at the moment so we can fix it
+                    # in stk-website for now
+                    # From tinygettext po_parser.cpp
+                    entry_msgstr.gsub!(/\\.{1}/).each do |s|
+                        case s[1]
+                        when 'a'
+                            result = "\a"
+                        when 'b'
+                            result = "\b"
+                        when 'v'
+                            result = "\v"
+                        when 'n'
+                            result = "\n"
+                        when 't'
+                            result = "\t"
+                        when 'r'
+                            result = "\r"
+                        when '"'
+                            result = "\""
+                        when '\\'
+                            result = "\\"
+                        else
+                            result = ''
+                        end
+                        result
+                    end
+                    po_hash[entry.msgid.to_s] = entry_msgstr
                 end
                 site.data['po'][lang] = po_hash
                 supported_languages.push(lang)
