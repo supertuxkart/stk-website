@@ -185,3 +185,44 @@ span[id="markdown-closing-bracket"]:before {
     -moz-user-select: none;
     -ms-user-select: none;
 }
+
+#art_portal_nav
+{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding-left: 15px;
+}
+
+.art_portal_nav_item
+{
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.art_portal_nav_text a
+{
+    color: white;
+    font-weight: bold;
+    transition: color .15s;
+}
+
+.art_portal_nav_text a:hover
+{
+    color: orange;
+}
+
+#special_return_to_art_portal
+{
+    background-color: #16a085;
+    padding-right: 20px;
+    margin-right: 5px;
+}

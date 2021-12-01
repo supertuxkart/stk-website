@@ -464,5 +464,8 @@ msgstr ""
 msgid "Latest Blog Post"
 msgstr ""
 
+msgid "Return to Get Involved"
+msgstr ""
+
 msgid "Click here if you are not redirected."
 msgstr ""
