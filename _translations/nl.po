@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Heimen Stoffels <vistausss@fastmail.com>, 2021
 # Benau, 2021
+# Heimen Stoffels <vistausss@fastmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Benau, 2021\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>, 2021\n"
 "Language-Team: Dutch (https://www.transifex.com/supertuxkart/teams/36024/nl/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -617,6 +617,18 @@ msgstr "Ontdek meer…"
 
 msgid "Latest Blog Post"
 msgstr "Nieuwste blogartikel"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "Vereisten"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr "Lees voorafgaand aan deze handleiding de volgende artikelen:"
+
+msgid "Return to Get Involved"
+msgstr "Terug naar ‘Bijdragen’"
 
 msgid "Click here if you are not redirected."
 msgstr "Klik hier als je niet wordt doorgestuurd."
