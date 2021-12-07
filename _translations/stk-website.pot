@@ -31,14 +31,6 @@ msgstr ""
 msgid "Contents"
 msgstr ""
 
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr ""
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr ""
-
 msgid "SuperTuxKart is a 3D open-source arcade racer with a variety characters, tracks, and modes to play."
 msgstr ""
 
@@ -130,6 +122,14 @@ msgid "About SuperTuxKart"
 msgstr ""
 
 msgid "Projects using SuperTuxKart"
+msgstr ""
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr ""
+
+# Title of info popup which describes extra info
+msgid "Info"
 msgstr ""
 
 msgid "IRC"
