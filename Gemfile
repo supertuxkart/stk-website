@@ -1,5 +1,6 @@
 source 'http://rubygems.org'
 gem 'PoParser'
+gem 'addressable', git: 'https://github.com/Benau/addressable.git', ref: 'e0ec1669fc20d42498b49831f889071dbdfc5f0a'
 gem 'jekyll'
 gem 'jekyll_picture_tag'
 gem 'jekyll-redirect-from'

@@ -1,10 +1,16 @@
+GIT
+  remote: https://github.com/Benau/addressable.git
+  revision: e0ec1669fc20d42498b49831f889071dbdfc5f0a
+  ref: e0ec1669fc20d42498b49831f889071dbdfc5f0a
+  specs:
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
     PoParser (3.2.5)
       simple_po_parser (~> 1.1.2)
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.9)
     em-websocket (0.5.2)
@@ -82,9 +88,9 @@ PLATFORMS
 
 DEPENDENCIES
   PoParser
+  addressable!
   jekyll
   jekyll-redirect-from
-  jekyll-sitemap
   jekyll_picture_tag
   rouge
   webrick
