@@ -127,6 +127,8 @@ Now search for `spm`. Check the box next to **SPM (Space partitioned mesh) Model
 
 You can click **Save User Settings** to avoid repeating these steps each time you open Blender.
 
+{%popup_info For Blender 3.0 you need to disable "Proxy to Override Auto Conversion" in preference menu to make library objects importing work, see <https://docs.blender.org/manual/en/3.0/editors/preferences/experimental.html#debugging>.%}
+
 ### Subversion Client
 
 * **Platforms:** Linux, macOS, Windows, BSD, etc.
