@@ -1,14 +1,14 @@
 # 
 # Translators:
-# Lars Lyngby <larslyngby@hotmail.com>, 2021
 # Benau, 2021
+# Lars Lyngby <larslyngby@hotmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Benau, 2021\n"
+"Last-Translator: Lars Lyngby <larslyngby@hotmail.com>, 2021\n"
 "Language-Team: Danish (https://www.transifex.com/supertuxkart/teams/36024/da/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,14 +34,6 @@ msgstr "Fællesskab"
 # Table of contents which display near the top of each page
 msgid "Contents"
 msgstr "Indhold"
-
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Kode"
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr "Information"
 
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
@@ -140,6 +132,14 @@ msgstr "Om SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
 msgstr "Projekter der bruger SuperTuxKart"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Kode"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Information"
 
 msgid "IRC"
 msgstr "IRC"
@@ -605,6 +605,18 @@ msgstr "Opdag mere..."
 
 msgid "Latest Blog Post"
 msgstr "Seneste blogindlæg"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "Forudsætninger"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr "Du bør læse disse artikler, før du følger denne denne vejledning:"
+
+msgid "Return to Get Involved"
+msgstr "Gå tilbage til Hjælp med"
 
 msgid "Click here if you are not redirected."
 msgstr "Klik her, hvis du ikke bliver omdirigeret."
