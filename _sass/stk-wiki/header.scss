@@ -1,16 +1,16 @@
 .header_wrapper {
     background-image: url('../images/header.jpg');
     position: relative;
-    height: 130px;
+    height: 430px;
     background-size: cover;
 
     @media (max-width: $screen-high-res){
-        height: 100px;
+        height: 260px;
         background-image: url('../images/header-small.jpg');
     }
 
     @media (max-width: $screen-small-res){
-        height: 80px;
+        height: 110px;
         background-image: url('../images/header-small.jpg');
     }
 
