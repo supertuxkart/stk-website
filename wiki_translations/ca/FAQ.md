@@ -72,11 +72,11 @@ Pots provar sort i executar el joc. El STK té un renderitzador de mínims que f
 
 Quina és la història del SuperTuxKart?
 
-Primer hi havia el [TuxKart](http://tuxkart.sourceforge.net). Es va treballar en això (aproximadament) entre abril de 2000 i març de 2004. Al juny de 2004, el projecte 'Joc del mes' del [Linux Game Tome](https://web.archive.org/web/20040915081722/http://www.happypenguin.org/) va decidir millorar el TuxKart. Això es va fer entre juny i desembre de 2004. (La majoria d'enllaços a les pàgines del fòrum antic estan trencats, arxius aquí: [[1]](https://web.archive.org/web/20041109144934/http://www.happypenguin.org/forums/viewtopic.php?t=1407) [[2]](https://web.archive.org/web/20120607000453/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=15&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[3]](https://web.archive.org/web/20120606235857/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=30&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[4]](https://web.archive.org/web/20120607000143/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=45&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[5]](https://web.archive.org/web/20120607000320/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=60&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[6]](https://web.archive.org/web/20120606235853/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=75&sid=e3789fa7035b89cbfc1ab2aa6366033c). Malauradament, aquest projecte va acabar en un gran desacord, i finalment es va decidir guardar l'estatactual com a "SuperTuxKart". Tot i que es van fer algunes millores gràfiques, la base de codi era molt inestable i pràcticament injugable. Ningú va treballar en el (Super)TuxKart durant molts anys.
+Primer hi havia el [TuxKart](http://tuxkart.sourceforge.net). Es va treballar en això (aproximadament) entre abril de 2000 i març de 2004. Al juny de 2004, el projecte 'Joc del mes' del [Linux Game Tome](https://web.archive.org/web/20040915081722/http://www.happypenguin.org/) va decidir millorar el TuxKart. Això es va fer entre juny i desembre de 2004. (La majoria d'enllaços a les pàgines del fòrum antic estan trencats, arxius aquí: [[1]](https://web.archive.org/web/20041109144934/http://www.happypenguin.org/forums/viewtopic.php?t=1407) [[2]](https://web.archive.org/web/20120607000453/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=15&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[3]](https://web.archive.org/web/20120606235857/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=30&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[4]](https://web.archive.org/web/20120607000143/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=45&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[5]](https://web.archive.org/web/20120607000320/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=60&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[6]](https://web.archive.org/web/20120606235853/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=75&sid=e3789fa7035b89cbfc1ab2aa6366033c). Malauradament, aquest projecte va acabar en un gran desacord, i finalment es va decidir guardar l'estat actual com a "SuperTuxKart". Tot i que es van fer algunes millores gràfiques, la base de codi era molt inestable i pràcticament injugable. Ningú va treballar en el (Super)TuxKart durant molts anys.
 
 Al 2006, Joerg Henrichs (a.k.a. "Hiker") va recollir el SuperTuxKart i en va arreglar els errors pendents i els problemes de rendiment sense cap implicació per part del dissenyador original del joc o del projecte 'Joc del mes'. Amb l'ajuda de "Coz", es va fer una primera versió del STK al setembre de 2006.
 
-Al maig de 2007, es va publicar la versió 0.3. Afegia llistes de millors resultats, un nou circuit (Illa), la bomba de rellotgeria, suport per a MacOSX, i suport per a OpenAL.
+Al maig de 2007, es va publicar la versió 0.3. Afegia llistes de millors temps, un nou circuit (Illa), la bomba de rellotgeria, suport per a MacOSX, i suport per a OpenAL.
 
 Al febrer de 2008 es va publicar la versió 0.4. Aquesta versió feia servir Bullet Physics per millorar la gestió de les col·lisions. "Auria" es va unir i va començar a millorar circuits (Arenes movedisses, El far).
 
@@ -84,7 +84,7 @@ La versió 0.5 es va publicar el maig de 2008. Incloia molts circuits millorats,
 
 La versió 0.6 es va publicar el 22 de gener de 2009. Tenia una jugabilitat significativament millorada; millor física amb el nitro i els derrapatges. El sistema de so també es va millorar, es va afegir música més interessant i també nous circuits i nous karts. També es va veure per primera vegada l'arena especial multijugador per a batalles a 3 cops i noves armes/millores per fer servir.
 
-La versió 0.7 es va publicar el 20 de desembre de 2010. Contenia vàries millores significatives, incloent: un nou motor de renderitzat 3D, Irrlicht, una nova IGU (Interfíciae Gràfica d'Usuari), noves animacions de karts i circuits, nous circuits, karts i armes/millores, i suport per a dreceres i camins alternatius. Les versions 0.7.1, 0.7.2 i 0.7.3 es van publicar al cap de poc temps amb més millores.
+La versió 0.7 es va publicar el 20 de desembre de 2010. Contenia vàries millores significatives, incloent: un nou motor de renderitzat 3D, Irrlicht, una nova IGU (Interfície Gràfica d'Usuari), noves animacions de karts i circuits, nous circuits, karts i armes/millores, i suport per a dreceres i camins alternatius. Les versions 0.7.1, 0.7.2 i 0.7.3 es van publicar al cap de poc temps amb més millores.
 
 La versió 0.8 es va publicar al desembre de 2012, afegint un mode història i nous reptes, una IA millorada, millors derrapatges, mode a l'inrevés, nous circuits i música. Els menús també es van millorar. A continuació va venir la 0.8.1, que afegia i actualitzava circuits, afegia els modes de futbol i recerca d'ous, i altres millores gràfiques i de jugabilitat.
 
@@ -102,7 +102,7 @@ A l'agost de 2020 es va publicar la versió 1.2. Millorava el suport per a coman
 
 Al setembre de 2021 s'ha publicat la versió més recent, la 1.3. Conté actualitzacions per a molts dels karts oficials.
 
-Per a més detalls, consulta el [registre de canvis](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), el [blog](https://blog.supertuxkart.net) o la llista de problemes resolts al GitHub del STK.
+Per a més detalls, consulteu el [registre de canvis](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), el [blog](https://blog.supertuxkart.net) o la llista de problemes resolts al GitHub del STK.
 
 {% end_liquid %}
 
@@ -122,9 +122,9 @@ No només hi ha diferències significatives en la manera de jugar, sinó que el 
 
 Vull ajudar! Què puc fer?
 
-Primer, fes una ullada a la pàgina [Comunitat](Community). Hauria de contenir tota la informació que necessites per començar a programar, modelar, dissenyar o el que sigui que vulguis fer.
+Primer, fes una ullada a la pàgina [Participa](Community). Hauria de contenir tota la informació que necessites per començar a programar, modelar, dissenyar o el que sigui que vulguis fer.
 
-Abans de començar, hauries de contactar amb els desenvolupadors i artistes actuals a través del [IRC](https://web.libera.chat/?channels=#supertuxkart), el [canal de Telegram](https://t.me/STKInternational) or el [fòrum](https://forum.freegamedev.net/viewforum.php?f=16) i explicar-nos què és el que vols aconseguir. Això incrementarà molt les possibilitats de que la teva contribució sigui acceptada.
+Abans de començar, hauries de contactar amb els desenvolupadors i artistes actuals a través del [IRC](https://web.libera.chat/?channels=#supertuxkart), el [canal de Telegram](https://t.me/STKInternational) o el [fòrum](https://forum.freegamedev.net/viewforum.php?f=16), i explicar-nos què és el que vols aconseguir. Això incrementarà molt les possibilitats de que la teva contribució sigui acceptada.
 
 {% end_liquid %}
 
@@ -215,7 +215,7 @@ Primer, mira el [STK bug tracker](https://github.com/supertuxkart/stk-code/issue
 On es guarda la configuració?
 
 * A **Windows**: està a `%APPDATA%/supertuxkart/config-0.10` (podeu introduir això a l'explorador de fitxers i us hi portarà).
-* A **Linux**: O està a `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primera ópció), o a `~/.config/supertuxkart/config-0.10` (segona opció) o a `~/.supertuxkart/config-0.10` (tercera opció).
+* A **Linux**: O està a `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primera opció), o a `~/.config/supertuxkart/config-0.10` (segona opció) o a `~/.supertuxkart/config-0.10` (tercera opció).
 * A **macOS**: està a `~/Library/Application Support/supertuxkart/config-0.10`. Tingueu en compte que aquest directori podria estar ocult.
 
 També pots mirar la sortida en el terminal per veure si hi ha una nota dient on es guarden els fitxers de configuració o buscar un fitxer anomenat "config.xml".
@@ -236,6 +236,6 @@ Com desbloquejo tots els circuits?
 
 La idea és jugar al mode història i superar tots els reptes.
 
-Però si el que vols és desbloquejar-ho tot sense jugar al mode història, també pots fer trampes editant un fitxer de configuració. Obre la carpeta mencionada a la pregunta "On es guarda la configuració". Des d'allà, obre la carpeta "config-0.10", després obre el fitxer "players.xml". Substitueix totes les ocurrències de "none" amb "hard" (o "easy" o "medium", indicant el més alt nivell en el qual has superat un repte).
+Però si el que vols és desbloquejar-ho tot sense jugar al mode història, també pots fer trampes editant un fitxer de configuració. Obre la carpeta mencionada a la pregunta "On es guarda la configuració". Des d'allà, obre la carpeta "config-0.10", després obre el fitxer "players.xml". Substitueix totes les ocurrències de "none" amb "hard" (o "easy" o "medium", indicant el nivell més alt en el qual has superat un repte).
 
 {% end_liquid %}
