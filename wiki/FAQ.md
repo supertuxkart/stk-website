@@ -160,7 +160,7 @@ If you struggle to beat the AI, focus on improving your driving to crash as litt
 
 Can I play STK on the internet?
 
-Yes! After creating an online STK account inside the game and connecting with it, select Select the "Online" button in the main menu then "Global networking" to access networked gameplay through the internet. You can host your own server for others to play on, or join community-hosted servers. For the best experience, a stable connection and a low ping to the server are important.
+Yes! After creating an online STK account inside the game and connecting with it, select the "Online" button in the main menu then "Global networking" to access networked gameplay through the internet. You can host your own server for others to play on, or join community-hosted servers. For the best experience, a stable connection and a low ping to the server are important.
 
 {% end_liquid %}
 
