@@ -249,9 +249,6 @@ msgstr ""
 msgid "Creating"
 msgstr ""
 
-msgid "Making Textures"
-msgstr ""
-
 msgid "Making Library Nodes"
 msgstr ""
 

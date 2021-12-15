@@ -87,7 +87,6 @@ title: Community
 * [{%translate File naming conventions%}](File_naming_conventions "{%translate File naming conventions%}")
 
 ### {%translate Creating,In Community page%}
-* [{%translate Making Textures%}](Making_Textures "{%translate Making Textures%}")
 * [{%translate Making Library Nodes%}](Making_Library_Nodes "{%translate Making Library Nodes%}")
 * [{%translate Making Karts%}](Making_Karts "{%translate Making Karts%}")
 * [{%translate Making Tracks%}](Making_Tracks "{%translate Making Tracks%}")

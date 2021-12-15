@@ -7,11 +7,6 @@
     </li>
     <li class="art_portal_nav_item">
     <span class="art_portal_nav_text">
-        <a href="Making_Textures">{%translate_span Making Textures%}</a>
-    </span>
-    </li>
-    <li class="art_portal_nav_item">
-    <span class="art_portal_nav_text">
         <a href="Making_Library_Nodes">{%translate_span Making Library Nodes%}</a>
     </span>
     </li>
