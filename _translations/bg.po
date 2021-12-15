@@ -34,14 +34,6 @@ msgstr "Общност"
 msgid "Contents"
 msgstr "Съдържание"
 
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Код"
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr "Информация"
-
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
 "tracks, and modes to play."
@@ -139,6 +131,14 @@ msgstr "За Супер Тъкс Карт"
 
 msgid "Projects using SuperTuxKart"
 msgstr "Проекти, използващи Супер Тъкс Карт"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Код"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Информация"
 
 msgid "IRC"
 msgstr "IRC"
@@ -258,9 +258,6 @@ msgstr "Правила за именуване на файловете"
 # In Community page
 msgid "Creating"
 msgstr "Създаване"
-
-msgid "Making Textures"
-msgstr "Създаване на текстури"
 
 msgid "Making Library Nodes"
 msgstr "Създаване на обекти от вида „Library Node“"
@@ -606,6 +603,19 @@ msgstr "Вижте повече…"
 
 msgid "Latest Blog Post"
 msgstr "Последна публикация от блога"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "Предварителни условия"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr ""
+"Трябва да прочетете следните статии, преди да започнете с инструкциите:"
+
+msgid "Return to Get Involved"
+msgstr "Обратно към „Включете се“"
 
 msgid "Click here if you are not redirected."
 msgstr "Щракнете тук, ако не бъдете пренасочени"
