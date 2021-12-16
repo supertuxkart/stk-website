@@ -8,7 +8,7 @@ Having good textures is perhaps one of the most important things when creating 3
 
 Textures in SuperTuxKart are hand-drawn or painted, not just photos (usually—though you may use photos for reference). Of course, this does not mean you need physical paints—you can use a digital painting application like Krita. Other applications are also listed at the [Installing Tools](Installing_Tools) page.
 
-Textures are also not completely fake, cartoon-y looking. Feel free to add plenty of detail, as long as you use only hand painting (except under the circumstances noted below). For more information on texture painting, see [the latest blender documentation](https://docs.blender.org/manual/en/latest/sculpt_paint/texture_paint/index.html).
+Textures are also not completely fake, cartoon-y looking. Feel free to add plenty of detail, as long as you use only hand painting (except under the circumstances noted below). For more information on texture painting, see [the latest Blender documentation](https://docs.blender.org/manual/en/latest/sculpt_paint/texture_paint/index.html).
 
 ### When to use Photos
 
