@@ -53,3 +53,7 @@ exclude:
 
 stk_version: "1.3"
 stk_rc: ""
+
+# Disable Jekyll Picture Tag warnings when base image is smaller
+picture:
+  suppress_warnings: true
