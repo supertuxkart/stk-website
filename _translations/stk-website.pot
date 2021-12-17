@@ -455,6 +455,9 @@ msgstr ""
 msgid "Get SuperTuxKart on Itch.io"
 msgstr ""
 
+msgid "Return to Get Involved"
+msgstr ""
+
 msgid "Discover more..."
 msgstr ""
 
@@ -466,9 +469,6 @@ msgid "Prerequisites"
 msgstr ""
 
 msgid "You should read the following articles prior to following this tutorial:"
-msgstr ""
-
-msgid "Return to Get Involved"
 msgstr ""
 
 msgid "Click here if you are not redirected."
