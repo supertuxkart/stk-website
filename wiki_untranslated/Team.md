@@ -11,7 +11,7 @@ title: Team
 
 {% include character_presentation name="Jean-Manuel Clemençon (aka samuncle): Lead Artist" type="even" description="I'm the lead artist of SuperTuxKart. When I installed for the first time Linux in 2009, while searching for games available on Linux, one of the most popular game was SuperTuxKart. I started to mod maps for fun and eventually I made my first map, Hacienda. After more than 7 years working for SuperTuxKart, I created some of the most complex and challenging tracks like Cocoa Temple or Antediluvian Abyss. My last project was to create an haunted mansion to showcase our android version and designing our new website." icon="/assets/wiki/Sam_icon.png" %}
 
-{% include character_presentation name="Typhon306: Artist" type="odd" description="I started playing STK at version 0.7. A few versions later, I found a tutorial series about creating STK tracks by LinuxGuides, and that was the point where I started my first projects for STK which are now out on STK Add-ons website. My first arena project, Ancient Colosseum Labyrinth, even became an official part in the 1.3 release." icon="/assets/wiki/Typhon_icon.png" %}
+{% include character_presentation name="Typhon306: Artist" type="odd" description="I started playing SuperTuxKart release 0.7. A few releases later, I came across a very helpful tutorial series by LinuxGuides about creating STK tracks using Blender, and that was the point where I started my first projects for STK, most of which are now avaible on STK Add-ons website. My modeling skills improved gradually over the years, and one of my latest projects entitled “Ancient Colosseum Labyrinth” was included as an official arena in the 1.3 release of STK." icon="/assets/wiki/Typhon_icon.png" %}
 
 {% start_liquid main_title %}
 
