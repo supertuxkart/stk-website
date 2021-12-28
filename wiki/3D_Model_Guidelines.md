@@ -69,7 +69,7 @@ But nowadays modern engines use per-pixel lighting. Therefore, the most complex 
 
 Now, the pixel part. It depends on how many pixels will be taken up by your object, but let's go with the worst case scenario—let's assume the whole screen is filled with your object. For each pixel to compute (the light, the gloss, the normal map, etc), it will take ~50 instructions to the GPU.
 
-If you have a resolution of 800 × 600 (most people have higher resolution), 800 × 600 × 50 = 24000000 instructions. So even if you double the number of surfaces, you won't greatly affect the majority of the power spent. It's calculated by pixel, not by surface now.
+If you have a resolution of 800 × 600 (most people have higher resolution), 800 × 600 × 50 = 24,000,000 instructions. So even if you double the number of surfaces, you won't greatly affect the majority of the power spent. It's calculated by pixel, not by surface now.
 
 Thus, we can increase the polycount without too much trouble. However it's important to keep it under control.
 
