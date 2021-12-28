@@ -14,7 +14,7 @@ Palmera real
 
 {%- capture cartoony_plam_tree -%}
 
-Model de plamera molt de dibuixos animats
+Model de palmera molt de dibuixos animats
 
 {%- endcapture -%}
 
@@ -40,17 +40,17 @@ Per exemple, si us demanessin de crear una barrera de formigó, tothom sap quina
 /assets/wiki/STK_tutorial_barrier_1.jpg
 %}
 
-El problema és que us falten molts detalls i esteu simplificant l'objecte excessivament. Sembla molt poc treballat, i si feu tots els vostres objectes així el resultat final no serà tan bo com podria arribar a ser. La solució és simplement recopilar imatges, dibuixos, idees, etc. que us ajudaran durant el procés de crear l'objecte. Sí, és una mica com fer trampa, però és recomanable i està permès. L'objectiu és tenir la inspiració adequada. Amb una imatge com  [aquesta](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/BarreiraNewJersey.JPG/1280px-BarreiraNewJersey.JPG), podeu veure tots els detalls i reproduir-los per al vostre objecte.
+El problema és que us falten molts detalls i esteu simplificant l'objecte excessivament. Sembla molt poc treballat, i si feu tots els vostres objectes així el resultat final no serà tan bo com podria arribar a ser. La solució és simplement recopilar imatges, dibuixos, idees, etc. que us ajudin durant el procés de crear l'objecte. Sí, és una mica com fer trampa, però és recomanable i està permès. L'objectiu és tenir la inspiració adequada. Amb una imatge com [aquesta](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/BarreiraNewJersey.JPG/1280px-BarreiraNewJersey.JPG), podeu veure tots els detalls i reproduir-los per al vostre objecte.
 
 {% gallery
 /assets/wiki/STK_tutorial_barrier_2.jpg
 %}
 
-Noteu la gran diferència? La barrera és interessant de veure, hi ha molts detalls com ara els ganxos superiors per carregar-les, les franjes d'advertència inferiors, etc. No és fotorealista però com a mínim tenim un objecte amb detalls interessants que pdoria ser una barrera del món real (i, a més, l'objectiu no és ser totalment realista, només més realista).
+Noteu la gran diferència? La barrera és interessant de veure, hi ha molts detalls com ara els ganxos superiors per carregar-les, les franjes d'advertència inferiors, etc. No és fotorealista però com a mínim tenim un objecte amb detalls interessants que podria ser una barrera del món real (i, a més, l'objectiu no és ser totalment realista, només més realista).
 
 ## Normes
 
-* Tots els models **cal** que siguin aptes per a nens. SuperTuxKart hauria de complir la tipificació "Everyone" (per a tothom) de la [classificació ESRB](https://en.wikipedia.org/wiki/Entertainment_Software_Rating_Board#Ratings).
+* Tots els models **cal** que siguin aptes per a nens. SuperTuxKart hauria de complir la tipificació "Everyone" (per a tothom) de la [classificació ESRB](https://ca.wikipedia.org/wiki/Entertainment_Software_Rating_Board).
 * Els models han de ser capaços de veure's bé tant sols com en grup.
 * Els models amb molts polígons haurien de fer servir el [Nivell de detall](Level_of_Detail).
 * A no ser que el teu model sigui inseparable del teu circuit, els objectes haurien de ser usables en molts entorns diferents, de manera que es puguin convertir en "library nodes".
@@ -63,19 +63,19 @@ El nombre de polígons (polycount) és el nombre de superfícies, o cares, que t
 
 ### Una mica d'història
 
-En els vells temps dels videojocs era impossible calcular la il·luminació perfecta per a tots els píxels. Tots els càlculs intensius es feien per a cada polígon i després s'interpolaven als pixels dins del polígon.
+En els vells temps dels videojocs era impossible calcular la il·luminació perfecta per a tots els píxels. Tots els càlculs intensius es feien per a cada polígon i després s'interpolaven als píxels dins del polígon.
 
 Però avui en dia els motors moderns fan servir il·luminació per píxel. Per tant, la part més complexa no és el vèrtex shader sinó el píxel shader. Agafem un exemple d'un objecte que té ~500 polígons. Per a la GPU, gestionar un vèrtex són potser ~10 instruccions (no és un nombre exacte, només és per fer-nos una idea). Per a cada polígon del nostre model l'ordinador ha d'executar ~10 instruccions, o sigui que 500 × 10 = 5000 instruccions per a tota la malla.
 
 Ara, la part corresponent als píxels. Depèn de quants píxels faci servir el vostre objecte, però posem el pitjor cas, assumim que tota l'escena està ocupada pel vostre objecte. Per a cada píxel a computar (la llum, la brillantor, el mapa normal, etc) faran falta ~50 instruccions de GPU.
 
-Si teniu una resolució de 800 × 600 (la majoria de la gent té una resolució més alta), 800 × 600 × 50 = 24000000 instruccions. O sigui, que fins i tot doblant el nombre de superfícies no afectaria gaire a la major part de l'energia gastada. Ara es calcula per píxels, no per superfícies.
+Si teniu una resolució de 800 × 600 (la majoria de la gent té una resolució més alta), 800 × 600 × 50 = 24.000.000 instruccions. O sigui, que fins i tot doblant el nombre de superfícies no afectaria gaire a la major part de l'energia gastada. Ara es calcula per píxels, no per superfícies.
 
 Per tant, podem incrementar el nombre de polígons sense gaires problemes. Tanmateix, és important mantenir-ho sota control.
 
 ### Mesurant el nombre de polígons
 
-El Blender mostra el nombre de polígons a la barra d'estat, mira la captura de pantalla inferior per activar-ho si **Scene Statistics** no està marcat fent clic amb el botó dret sobre la barra d'estat.
+El Blender mostra el nombre de polígons a la barra d'estat, mireu la captura de pantalla inferior per activar-ho si **Scene Statistics** no està marcat fent clic amb el botó dret sobre la barra d'estat.
 
 {% single_gallery
 /assets/wiki/Blender_screenshot_tris.jpg
@@ -86,7 +86,7 @@ Busqueu el nombre de **Tris**. Aquesta és la informació que necessiteu. A més
 ### Exemples de nombre de polígons
 
 * Un avió de càrrega: ~4000 tris
-* Una palemra amb nivell de detall
+* Una palmera amb nivell de detall
     * Alt: 1400 tris
     * Mig: 1400 tris
     * Baix: 42 tris
