@@ -69,7 +69,7 @@ Pero hoy en dia los motores modernos usan la iluminación por píxel. Por lo tan
 
 Ahora, la parte correspondiente a los píxeles. Depende de cuantos píxeles utilice tu objeto, pero pongamos el peor caso, asumamos que toda la escena esta ocupada por tu objeto. Para cada píxel a computar (la luz, el brillo, el mapa normal, etc) hacen falta ~50 instrucciones de GPU.
 
-Si tienes una resolución de 800 × 600 (la mayoría de la gente tiene una resolución más alta), 800 × 600 × 50 = 24000000 instrucciones. O sea, que incluso doblando el número de superficies no afectaría mucho a la mayor parte de la energía gastada. Ahora se calcula por píxeles, no por superficies.
+Si tienes una resolución de 800 × 600 (la mayoría de la gente tiene una resolución más alta), 800 × 600 × 50 = 24.000.000 instrucciones. O sea, que incluso doblando el número de superficies no afectaría mucho a la mayor parte de la energía gastada. Ahora se calcula por píxeles, no por superficies.
 
 Por lo tanto, podemos incrementar el número de polígonos sin muchos problemas. Sin embargo, es importante mantenerlo bajo control.
 
