@@ -124,12 +124,24 @@ msgstr ""
 msgid "Projects using SuperTuxKart"
 msgstr ""
 
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr ""
-
 # Title of info popup which describes extra info
 msgid "Info"
+msgstr ""
+
+msgid "Return to Get Involved"
+msgstr ""
+
+msgid "Making Library Nodes"
+msgstr ""
+
+msgid "Making Karts"
+msgstr ""
+
+msgid "Making Tracks"
+msgstr ""
+
+# Title of code popup which displays code snippet
+msgid "Code"
 msgstr ""
 
 msgid "IRC"
@@ -247,15 +259,6 @@ msgstr ""
 
 # In Community page
 msgid "Creating"
-msgstr ""
-
-msgid "Making Library Nodes"
-msgstr ""
-
-msgid "Making Karts"
-msgstr ""
-
-msgid "Making Tracks"
 msgstr ""
 
 # Page title of discover page
@@ -453,9 +456,6 @@ msgid "Get the latest release candidate:"
 msgstr ""
 
 msgid "Get SuperTuxKart on Itch.io"
-msgstr ""
-
-msgid "Return to Get Involved"
 msgstr ""
 
 msgid "Discover more..."
