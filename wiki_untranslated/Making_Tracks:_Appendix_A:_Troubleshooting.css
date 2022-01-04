@@ -1,0 +1,10 @@
+---
+---
+/* Special handling for showing / hiding images inside qa tag */
+.qa-question + .qa-answer > * > img {
+width: 0px;
+}
+
+input[id^="qa"]:checked + .qa-question + .qa-answer > * > img {
+width: 100%;
+}
