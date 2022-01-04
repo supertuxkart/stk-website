@@ -73,8 +73,10 @@ PoUtils::translate_string(context['site'], context['page']['lang'], 'You should 
 
     class QA < Liquid::Tag
         def render(context)
-            question = @markup.split("\n").first
-            answer = @markup[question.length + 2..]
+            question_raw = @markup.split("\n").first
+            answer_raw = @markup[question_raw.length + 2..]
+            question = Liquid::Template.parse(question_raw).render(context)
+            answer = Liquid::Template.parse(answer_raw).render(context)
             context['qa-callback'] = 0 if not context['qa-callback']
             id = context['qa-callback']
             context['qa-callback'] += 1
