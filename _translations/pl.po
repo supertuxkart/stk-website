@@ -1,14 +1,14 @@
 # 
 # Translators:
 # Benau, 2021
-# mrkubax10 _ <mrkubax10@onet.pl>, 2021
+# mrkubax10 _ <mrkubax10@onet.pl>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: mrkubax10 _ <mrkubax10@onet.pl>, 2021\n"
+"Last-Translator: mrkubax10 _ <mrkubax10@onet.pl>, 2022\n"
 "Language-Team: Polish (https://www.transifex.com/supertuxkart/teams/36024/pl/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,14 +34,6 @@ msgstr "Społeczność"
 # Table of contents which display near the top of each page
 msgid "Contents"
 msgstr "Spis treści"
-
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Kod"
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr "Informacje"
 
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
@@ -140,6 +132,26 @@ msgstr "O grze SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
 msgstr "Projekty używające gry SuperTuxKart"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Informacje"
+
+msgid "Return to Get Involved"
+msgstr "Powrót do strony Zaangażuj się"
+
+msgid "Making Library Nodes"
+msgstr "Tworzenie Obiektów 3D"
+
+msgid "Making Karts"
+msgstr "Tworzenie Gokartów"
+
+msgid "Making Tracks"
+msgstr "Tworzenie Tras"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Kod"
 
 msgid "IRC"
 msgstr "IRC"
@@ -257,18 +269,6 @@ msgstr "Konwencje nazywania plików"
 # In Community page
 msgid "Creating"
 msgstr "Tworzenie"
-
-msgid "Making Textures"
-msgstr "Tworzenie Tekstur"
-
-msgid "Making Library Nodes"
-msgstr "Tworzenie Obiektów 3D"
-
-msgid "Making Karts"
-msgstr "Tworzenie Gokartów"
-
-msgid "Making Tracks"
-msgstr "Tworzenie Tras"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
@@ -610,6 +610,17 @@ msgstr "Odkryj więcej..."
 
 msgid "Latest Blog Post"
 msgstr "Najnowszy Post na Blogu"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "Wymagania"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr ""
+"Powinieneś przeczytać następujące artykuły zanim zaczniesz śledzić ten "
+"poradnik"
 
 msgid "Click here if you are not redirected."
 msgstr "Kliknij tutaj, jeżeli nie zostałeś przekierowany."
