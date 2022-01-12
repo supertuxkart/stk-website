@@ -1,13 +1,14 @@
 # 
 # Translators:
 # Maximilian Weiss-Föder, 2021
+# Matheus Matheus, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Maximilian Weiss-Föder, 2021\n"
+"Last-Translator: Matheus Matheus, 2022\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/supertuxkart/teams/36024/pt_BR/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,14 +34,6 @@ msgstr "Comunidade"
 # Table of contents which display near the top of each page
 msgid "Contents"
 msgstr "Conteúdo"
-
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Código"
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr "Informações"
 
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
@@ -139,6 +132,26 @@ msgstr "Sobre o SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
 msgstr "Projetos que usam o SuperTuxKart"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Informações"
+
+msgid "Return to Get Involved"
+msgstr "Voltar para Contribua"
+
+msgid "Making Library Nodes"
+msgstr "Nós de bibliotecas"
+
+msgid "Making Karts"
+msgstr "Karts"
+
+msgid "Making Tracks"
+msgstr "Pistas"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Código"
 
 msgid "IRC"
 msgstr "IRC"
@@ -256,18 +269,6 @@ msgstr "Nomes dos arquivos"
 # In Community page
 msgid "Creating"
 msgstr "Criação"
-
-msgid "Making Textures"
-msgstr "Texturas"
-
-msgid "Making Library Nodes"
-msgstr "Nós de bibliotecas"
-
-msgid "Making Karts"
-msgstr "Karts"
-
-msgid "Making Tracks"
-msgstr "Pistas"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
@@ -609,6 +610,15 @@ msgstr "Mais informações..."
 
 msgid "Latest Blog Post"
 msgstr "Última notícia do blog"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "Pré-requisitos"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr "Você deve ler os seguintes artigos antes de seguir este tutorial\\:"
 
 msgid "Click here if you are not redirected."
 msgstr "Clique aqui se você não for redirecionado."
