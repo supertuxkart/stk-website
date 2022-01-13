@@ -36,7 +36,7 @@ L'équipe doit conserver une haute qualité de code et de contenu. Ça ne veut p
 ### Pour présenter un nouveau fichier ou une contribution artistique
 
 * Partagez les fichiers source (.kra, .xcf, .blend, etc.).
-* Exposez clairement la licence. (Voir [Licence](Licensing) pour les options possibles.)
+* Exposez clairement la licence. (Voir [Licences](Licensing) pour les options possibles.)
 * Acceptez les critiques et voyez ce qui peut être fait pour améliorer votre travail.
 * Discutez avec l'équipe tant que le travail est en cours pour obtenir des retours.
 * Expliquez clairement si votre travail est en cours ou s'il est terminé.
