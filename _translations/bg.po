@@ -132,13 +132,25 @@ msgstr "За Супер Тъкс Карт"
 msgid "Projects using SuperTuxKart"
 msgstr "Проекти, използващи Супер Тъкс Карт"
 
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Код"
-
 # Title of info popup which describes extra info
 msgid "Info"
 msgstr "Информация"
+
+msgid "Return to Get Involved"
+msgstr "Обратно към „Включете се“"
+
+msgid "Making Library Nodes"
+msgstr "Създаване на обекти от вида „Library Node“"
+
+msgid "Making Karts"
+msgstr "Създаване на колички"
+
+msgid "Making Tracks"
+msgstr "Създаване на писти"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Код"
 
 msgid "IRC"
 msgstr "IRC"
@@ -258,15 +270,6 @@ msgstr "Правила за именуване на файловете"
 # In Community page
 msgid "Creating"
 msgstr "Създаване"
-
-msgid "Making Library Nodes"
-msgstr "Създаване на обекти от вида „Library Node“"
-
-msgid "Making Karts"
-msgstr "Създаване на колички"
-
-msgid "Making Tracks"
-msgstr "Създаване на писти"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
@@ -613,9 +616,6 @@ msgid ""
 "You should read the following articles prior to following this tutorial:"
 msgstr ""
 "Трябва да прочетете следните статии, преди да започнете с инструкциите:"
-
-msgid "Return to Get Involved"
-msgstr "Обратно към „Включете се“"
 
 msgid "Click here if you are not redirected."
 msgstr "Щракнете тук, ако не бъдете пренасочени"
