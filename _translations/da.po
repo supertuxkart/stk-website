@@ -133,13 +133,25 @@ msgstr "Om SuperTuxKart"
 msgid "Projects using SuperTuxKart"
 msgstr "Projekter der bruger SuperTuxKart"
 
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Kode"
-
 # Title of info popup which describes extra info
 msgid "Info"
 msgstr "Information"
+
+msgid "Return to Get Involved"
+msgstr "Gå tilbage til Hjælp med"
+
+msgid "Making Library Nodes"
+msgstr "Fremstille biblioteksknudepunkter"
+
+msgid "Making Karts"
+msgstr "Fremstille Karts"
+
+msgid "Making Tracks"
+msgstr "Fremstille baner"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Kode"
 
 msgid "IRC"
 msgstr "IRC"
@@ -257,18 +269,6 @@ msgstr "Filnavngivningskonventioner"
 # In Community page
 msgid "Creating"
 msgstr "Skabende"
-
-msgid "Making Textures"
-msgstr "Fremstille strukturer"
-
-msgid "Making Library Nodes"
-msgstr "Fremstille biblioteksknudepunkter"
-
-msgid "Making Karts"
-msgstr "Fremstille Karts"
-
-msgid "Making Tracks"
-msgstr "Fremstille baner"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
@@ -614,9 +614,6 @@ msgstr "Forudsætninger"
 msgid ""
 "You should read the following articles prior to following this tutorial:"
 msgstr "Du bør læse disse artikler, før du følger denne denne vejledning:"
-
-msgid "Return to Get Involved"
-msgstr "Gå tilbage til Hjælp med"
 
 msgid "Click here if you are not redirected."
 msgstr "Klik her, hvis du ikke bliver omdirigeret."
