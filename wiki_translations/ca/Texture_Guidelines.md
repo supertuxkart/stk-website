@@ -39,7 +39,7 @@ Un altre problema apareix, però, amb les textures que no tenen cap mena de patr
 /assets/wiki/Bad_texture_border_notmatching_blender.jpg
 %}
 
-Fixeu-vos que fer textures amb Blender crea un patró lleig de mosaic, tot i que la textura en sí mateixa no tingui patró. Eliminant part del detall, però, i suavintzant les vores, podeu obtenir un resultat molt millor, encara que no perfecte.
+Fixeu-vos que fer textures amb Blender crea un patró lleig de mosaic, tot i que la textura en sí mateixa no tingui patró. Eliminant part del detall, però, i suavitzant les vores, podeu obtenir un resultat molt millor, encara que no perfecte.
 
 {% single_gallery heights=300px
 /assets/wiki/Bad_texture_border.jpg
@@ -48,7 +48,7 @@ Fixeu-vos que fer textures amb Blender crea un patró lleig de mosaic, tot i que
 
 ## Detalls de la textura
 
-Procureu evitar crear textures amb detalls que no formarien part del material a la vida real. Per exemple, si voleu una corda penjada en una paret, però no voleu fer servir una malla, no creeu una textura nova només per afegir una corda a sobre de la textura de fusta. El SuperTuxKart inclou un decal shader, que us permet simplement posar una textura de corda a la segona capa UV i fer que aparegui a sobre de la textura de fusta, sense convertir la textura de fusta en inusable per a altres aplicacions. Per a més informació, aneu a [aquí](Texturing#Decals).
+Procureu evitar crear textures amb detalls que no formarien part del material a la vida real. Per exemple, si voleu una corda penjada en una paret, però no voleu fer servir una malla, no creeu una textura nova només per afegir una corda a sobre de la textura de fusta. El SuperTuxKart inclou un decal shader, que permet simplement posar una textura de corda a la segona capa UV i fer que aparegui a sobre de la textura de fusta, sense convertir la textura de fusta en inusable per a altres aplicacions. Per a més informació, aneu a [aquí](Texturing#Decals).
 
 ## Restriccions tècniques
 * Les dimensions de les imatges haurien de ser potències de dos. Una textura genèrica de mida estàndard, per exemple, és de 1024 × 1024, o 2<sup>10</sup> × 2<sup>10</sup>. Tanmateix, les textures no tenen per què ser quadrades, es podria tenir una textura de 1024 × 512, o 2<sup>10</sup> × 2<sup>9</sup>.
