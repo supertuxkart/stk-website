@@ -34,14 +34,6 @@ msgstr "Comunitat"
 msgid "Contents"
 msgstr "Continguts"
 
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Codi"
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr "Informació"
-
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
 "tracks, and modes to play."
@@ -139,6 +131,26 @@ msgstr "Quant al SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
 msgstr "Projectes que fan servir el SuperTuxKart"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Informació"
+
+msgid "Return to Get Involved"
+msgstr "Torna a Participa"
+
+msgid "Making Library Nodes"
+msgstr "Fent \"library nodes\""
+
+msgid "Making Karts"
+msgstr "Fent karts"
+
+msgid "Making Tracks"
+msgstr "Fent circuits"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Codi"
 
 msgid "IRC"
 msgstr "IRC"
@@ -257,18 +269,6 @@ msgstr "Convencions sobre els noms de fitxers"
 # In Community page
 msgid "Creating"
 msgstr "Creant"
-
-msgid "Making Textures"
-msgstr "Fent textures"
-
-msgid "Making Library Nodes"
-msgstr "Fent \"library nodes\""
-
-msgid "Making Karts"
-msgstr "Fent karts"
-
-msgid "Making Tracks"
-msgstr "Fent circuits"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
@@ -598,8 +598,8 @@ msgid ""
 "Preview release is available [here](https://github.com/supertuxkart/stk-"
 "code/releases/preview)."
 msgstr ""
-"La versió preliminar està disponible [aquí](https://github.com/supertuxkart"
-"/stk-code/releases/preview)."
+"La versió preliminar està disponible "
+"[aquí](https://github.com/supertuxkart/stk-code/releases/preview)."
 
 msgid "Get the latest release candidate:"
 msgstr "Obtenir la darrera versió candidata:"
@@ -622,9 +622,6 @@ msgid ""
 "You should read the following articles prior to following this tutorial:"
 msgstr ""
 "Hauríeu de llegir els articles següents abans de seguir aquest tutorial:"
-
-msgid "Return to Get Involved"
-msgstr "Torna a Participa"
 
 msgid "Click here if you are not redirected."
 msgstr "Feu clic aquí si no sou redirigits."
