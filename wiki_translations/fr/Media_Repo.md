@@ -1,5 +1,5 @@
 ---
-title: Media Repo
+title: Dépôt multimédia
 display_title: true
 ---
 Le **dépôt multimédia** est l'endroit où sont stockés tous les fichiers originaux, les modèles 3D, les textures, les sons et tous les fichiers utilisés par STK. C'est nécessaire car ces fichiers sont généralement trop lourds pour être intégrés au jeu lui-même ou simplement parce qu'ils sont incompatibles avec le jeu. Ils sont donc compressés ou convertis avant d'être intégrés au jeu.
