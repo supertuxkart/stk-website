@@ -620,7 +620,7 @@ msgid ""
 "You should read the following articles prior to following this tutorial:"
 msgstr ""
 "Powinieneś przeczytać następujące artykuły zanim zaczniesz śledzić ten "
-"poradnik"
+"poradnik:"
 
 msgid "Click here if you are not redirected."
 msgstr "Kliknij tutaj, jeżeli nie zostałeś przekierowany."
