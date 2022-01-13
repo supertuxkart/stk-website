@@ -35,14 +35,6 @@ msgstr "Comunidad"
 msgid "Contents"
 msgstr "Contenidos"
 
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Código"
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr "Información"
-
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
 "tracks, and modes to play."
@@ -140,6 +132,26 @@ msgstr "Acerca del SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
 msgstr "Proyectes que utilizan el SuperTuxKart"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Información"
+
+msgid "Return to Get Involved"
+msgstr "Volver a Participa"
+
+msgid "Making Library Nodes"
+msgstr "Haciendo \"library nodes\""
+
+msgid "Making Karts"
+msgstr "Haciendo karts"
+
+msgid "Making Tracks"
+msgstr "Haciendo circuitos"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Código"
 
 msgid "IRC"
 msgstr "IRC"
@@ -258,18 +270,6 @@ msgstr "Convenciones sobre los nombres de ficheros"
 # In Community page
 msgid "Creating"
 msgstr "Creando"
-
-msgid "Making Textures"
-msgstr "Haciendo texturas"
-
-msgid "Making Library Nodes"
-msgstr "Haciendo \"library nodes\""
-
-msgid "Making Karts"
-msgstr "Haciendo karts"
-
-msgid "Making Tracks"
-msgstr "Haciendo circuitos"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
@@ -597,8 +597,8 @@ msgid ""
 "Preview release is available [here](https://github.com/supertuxkart/stk-"
 "code/releases/preview)."
 msgstr ""
-"La versión preliminar está disponible [aquí](https://github.com/supertuxkart"
-"/stk-code/releases/preview)."
+"La versión preliminar está disponible "
+"[aquí](https://github.com/supertuxkart/stk-code/releases/preview)."
 
 msgid "Get the latest release candidate:"
 msgstr "Obtener la última versión candidata:"
@@ -620,9 +620,6 @@ msgstr "Prerrequisitos"
 msgid ""
 "You should read the following articles prior to following this tutorial:"
 msgstr "Deberías leer los siguientes artículos antes de seguir este tutorial:"
-
-msgid "Return to Get Involved"
-msgstr "Volver a Participa"
 
 msgid "Click here if you are not redirected."
 msgstr "Haz clic aquí si no eres redirigido."
