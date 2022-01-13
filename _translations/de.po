@@ -1,14 +1,14 @@
 # 
 # Translators:
 # Ettore Atalan <atalanttore@googlemail.com>, 2021
-# luva, 2021
+# luva, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: luva, 2021\n"
+"Last-Translator: luva, 2022\n"
 "Language-Team: German (https://www.transifex.com/supertuxkart/teams/36024/de/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,14 +34,6 @@ msgstr "Community"
 # Table of contents which display near the top of each page
 msgid "Contents"
 msgstr "Inhalt"
-
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Code"
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr "Info"
 
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
@@ -140,6 +132,26 @@ msgstr "Über SuperTuxKar"
 
 msgid "Projects using SuperTuxKart"
 msgstr "Projekte mit SuperTuxKart"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Info"
+
+msgid "Return to Get Involved"
+msgstr "Zurück zu \"Mach Mit\""
+
+msgid "Making Library Nodes"
+msgstr "Erstellen von Bibliotheks-Knoten"
+
+msgid "Making Karts"
+msgstr "Erstellen von Karts"
+
+msgid "Making Tracks"
+msgstr "Erstellen von Strecken"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Code"
 
 msgid "IRC"
 msgstr "IRC"
@@ -257,18 +269,6 @@ msgstr "Konventionen zur Bennenung von Dateien"
 # In Community page
 msgid "Creating"
 msgstr "Kreatives"
-
-msgid "Making Textures"
-msgstr "Erstellen von Texturen"
-
-msgid "Making Library Nodes"
-msgstr "Erstellen von Bibliotheks-Knoten"
-
-msgid "Making Karts"
-msgstr "Erstellen von Karts"
-
-msgid "Making Tracks"
-msgstr "Erstellen von Strecken"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
@@ -548,7 +548,7 @@ msgid "Intel / AMD 32-bit"
 msgstr "Intel / AMD 32-bit"
 
 msgid "Intel / AMD 64-bit"
-msgstr "Intel / Amd 64-bit"
+msgstr "Intel / AMD 64-bit"
 
 msgid "ARM 32-bit"
 msgstr "ARM 32-bit"
@@ -599,8 +599,8 @@ msgid ""
 "Preview release is available [here](https://github.com/supertuxkart/stk-"
 "code/releases/preview)."
 msgstr ""
-"Der Vorschau-Release ist verfügbar [hier](https://github.com/supertuxkart"
-"/stk-code/releases/preview)."
+"Der Vorschau-Release ist verfügbar "
+"[hier](https://github.com/supertuxkart/stk-code/releases/preview)."
 
 msgid "Get the latest release candidate:"
 msgstr "Hole dir den aktuellen Release-Kandidat:"
@@ -613,6 +613,17 @@ msgstr "Entdecke mehr..."
 
 msgid "Latest Blog Post"
 msgstr "Aktuellster Blogeintrag"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "Vorraussetzungen"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr ""
+"Du solltest die folgenden Artikel gelesen haben, bevor du dem Tutorial "
+"folgst."
 
 msgid "Click here if you are not redirected."
 msgstr "Klicke hier, wenn du nicht weitergeleitet wirst."
