@@ -14,7 +14,7 @@ Nous utilisons en priorité l'argent reçu pour régler les frais réguliers inh
 * Héberger le site web principal
 * Heberger le site web des extensions
 * La future infrastructure réseau
-* Lrais des noms de domaines
+* Les frais liés aux noms de domaines
 
 ## Matériel
 Suivant les besoins de nos développeurs et artistes, nous utiliserons également de l'argent pour acquérir du matériel spécifique nécessaire au développement de SuperTuxKart.
@@ -24,8 +24,8 @@ Suivant les besoins de nos développeurs et artistes, nous utiliserons égalemen
 * Etc
 
 ## Utilisations spéciales et améliorations
-Suivant la situation, nous pouvons aussi utiliser l'argent pour payer quelqu'un qui travaillerait sur une tâche spécifique, comme mettre en œuvre une noouvelle fonctionnalité ou créer une carte. Ceci n'est décidé qu'au cas par cas.
+Suivant la situation, nous pouvons aussi utiliser l'argent pour payer quelqu'un qui travaillerait sur une tâche spécifique, comme mettre en œuvre une nouvelle fonctionnalité ou créer une carte. Ceci n'est décidé qu'au cas par cas.
 
 ## Marketing et promotion
 
-Pendant certains évènements (comme des congrès de jeu ou des conférences sur l'open-source), l'argent peut-être utiliser pour l'achat de matériel de promotion, par exemple pour l'impression d'affiches, l'achat de nourriture pour les développeurs présents sur l'évènement, etc.
+Pendant certains évènements (comme des congrès de jeu ou des conférences sur l'open-source), l'argent peut-être utilisé pour l'achat de matériel, par exemple pour l'impression d'affiches, l'achat de nourriture pour les développeurs présents sur l'évènement, etc.
