@@ -69,7 +69,7 @@ Aujourd'hui, les moteurs de rendu modernes utilisent une lumière par pixel. Ain
 
 Maintenant côté pixel. Cela dépend du nombre de pixels qui seront utilisés par votre objet, mais en imaginant le pire scenario — disons que l'objet apparait en plein écran. Pour chaque pixel (lumière, reflets, direction de la lumière, etc) il demandera une cinquantaine d'instructions au moteur graphique.
 
-Pour une résolution de 800 x 600 (sachant que beaucoup de personne utilisent une résolution bien supérieure aujourd'hui), 800 x 600 x 50 = 24000000 instructions. Si vous doublez le nombre de surfaces, vous n'affecterez presque pas la puissance utilisée. C'est calculé par rapport au nombre de pixels et pas au nombre de surfaces.
+Pour une résolution de 800 x 600 (sachant que beaucoup de personne utilisent une résolution bien supérieure aujourd'hui), 800 x 600 x 50 = 24,000,000 instructions. Si vous doublez le nombre de surfaces, vous n'affecterez presque pas la puissance utilisée. C'est calculé par rapport au nombre de pixels et pas au nombre de surfaces.
 
 Ainsi, nous pouvons augmenter significativement le nombre de polygones sans trop de problème. Cependant, il est important de garder un certain contrôle sur ce qu'on fait et de ne pas arriver dans des maillages démesurés.
 
