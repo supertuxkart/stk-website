@@ -35,14 +35,6 @@ msgstr "Gemeenschap"
 msgid "Contents"
 msgstr "Inhoud"
 
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Code"
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr "Informatie"
-
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
 "tracks, and modes to play."
@@ -140,6 +132,26 @@ msgstr "Over SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
 msgstr "Projecten die gebruikmaken van SuperTuxKart"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Informatie"
+
+msgid "Return to Get Involved"
+msgstr "Terug naar ‘Bijdragen’"
+
+msgid "Making Library Nodes"
+msgstr "Verzamelingskoppelingen maken"
+
+msgid "Making Karts"
+msgstr "Karts maken"
+
+msgid "Making Tracks"
+msgstr "Parcours maken"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Code"
 
 msgid "IRC"
 msgstr "IRC"
@@ -257,18 +269,6 @@ msgstr "Bestandsnaamconventies"
 # In Community page
 msgid "Creating"
 msgstr "Maken"
-
-msgid "Making Textures"
-msgstr "Texturen maken"
-
-msgid "Making Library Nodes"
-msgstr "Verzamelingskoppelingen maken"
-
-msgid "Making Karts"
-msgstr "Karts maken"
-
-msgid "Making Tracks"
-msgstr "Parcours maken"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
@@ -626,9 +626,6 @@ msgstr "Vereisten"
 msgid ""
 "You should read the following articles prior to following this tutorial:"
 msgstr "Lees voorafgaand aan deze handleiding de volgende artikelen:"
-
-msgid "Return to Get Involved"
-msgstr "Terug naar ‘Bijdragen’"
 
 msgid "Click here if you are not redirected."
 msgstr "Klik hier als je niet wordt doorgestuurd."
