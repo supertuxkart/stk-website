@@ -35,14 +35,6 @@ msgstr "Communauté"
 msgid "Contents"
 msgstr "Contenus"
 
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Code"
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr "Informations"
-
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
 "tracks, and modes to play."
@@ -140,6 +132,26 @@ msgstr "À propos de SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
 msgstr "Projets qui utilisent SuperTuxKart"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Informations"
+
+msgid "Return to Get Involved"
+msgstr "Retourner à Contribuer"
+
+msgid "Making Library Nodes"
+msgstr "Créer des objets de librairie"
+
+msgid "Making Karts"
+msgstr "Créer des karts"
+
+msgid "Making Tracks"
+msgstr "Créer des pistes"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Code"
 
 msgid "IRC"
 msgstr "IRC"
@@ -257,18 +269,6 @@ msgstr "Conventions sur le nommage des fichiers"
 # In Community page
 msgid "Creating"
 msgstr "Créer"
-
-msgid "Making Textures"
-msgstr "Créer des textures"
-
-msgid "Making Library Nodes"
-msgstr "Créer des objets de librairie"
-
-msgid "Making Karts"
-msgstr "Créer des karts"
-
-msgid "Making Tracks"
-msgstr "Créer des pistes"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
@@ -599,8 +599,8 @@ msgid ""
 "Preview release is available [here](https://github.com/supertuxkart/stk-"
 "code/releases/preview)."
 msgstr ""
-"La version de prévisualisation est [ici](https://github.com/supertuxkart"
-"/stk-code/releases/preview)."
+"La version de prévisualisation est "
+"[ici](https://github.com/supertuxkart/stk-code/releases/preview)."
 
 msgid "Get the latest release candidate:"
 msgstr "Obtenir la dernière version candidate :"
@@ -622,9 +622,6 @@ msgstr "Prérequis"
 msgid ""
 "You should read the following articles prior to following this tutorial:"
 msgstr "Vous devriez lire les articles suivants avant de suivre ce tutoriel :"
-
-msgid "Return to Get Involved"
-msgstr "Retourner à Contribuer"
 
 msgid "Click here if you are not redirected."
 msgstr "Cliquez ici si vous n'êtes pas redirigé(e) automatiquement."
