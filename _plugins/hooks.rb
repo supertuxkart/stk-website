@@ -49,7 +49,7 @@ Jekyll::Hooks.register :pages, :post_convert do |page|
     end
     site = page.site
     # Add wikitable class to table if needed
-    page.content.sub!("<!-- wikitable -->\n\n<table>", "<table class=\"wikitable\">")
+    page.content.gsub!("<!-- wikitable -->\n\n<table>", "<table class=\"wikitable\">")
 
     # Hide table of contents if toc is false
     if not page.data.include?('toc') or page.data['toc'] == false then
