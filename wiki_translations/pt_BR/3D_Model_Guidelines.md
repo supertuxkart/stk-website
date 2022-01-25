@@ -103,5 +103,5 @@ Procure o número de **Tris**. Esta é a informação que você precisa. Além d
 Os objetos devem ter proporções corretas para que não pareçam estranhos no jogo.
 
 * Uma palmeira tem cerca de 27 unidades de altura do Blender.
-* Os edifícios de madeira no Northern Resort têm aproximadamente 8 unidades de altura do Blender.
+* Os edifícios de madeira no Refúgio do Norte têm aproximadamente 8 unidades de altura do Blender.
 * As bandeiras da Lampone na Cidade de Candela têm 10 unidades de altura do Blender.
