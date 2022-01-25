@@ -92,6 +92,9 @@ Jekyll::Hooks.register :pages, :post_convert do |page|
             missing_page = true if not url.start_with?('#') and not url.include?('/')
             result = 'href="' + url + '"'
         end
+        if missing_page then
+            puts 'Warning: Missing page ' + url + ' in ' + page.path
+        end
         result = 'style="color: #ba0000;" ' + result if missing_page
         '<a ' + result
     end
