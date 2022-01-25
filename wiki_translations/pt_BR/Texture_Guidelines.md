@@ -48,7 +48,7 @@ Observe que a texturização no Blender cria um padrão de ladrilho feio, apesar
 
 ## Detalhes da textura
 
-Tente evitar fazer texturas com detalhes que não fariam parte do material na vida real. Por exemplo, se você quiser uma corda pendurada na parede, mas não quiser usar uma malha, não faça uma textura totalmente nova apenas para adicionar uma corda em cima da textura de madeira. SuperTuxKart inclui um sombreador de decalque, que permite que você simplesmente coloque uma textura de corda na segunda camada UV e apareça em cima da textura de madeira, sem tornar a textura de madeira inutilizável para outras aplicações. Para obter mais informações, consulte [aqui](Texturização#Decalques).
+Tente evitar fazer texturas com detalhes que não fariam parte do material na vida real. Por exemplo, se você quiser uma corda pendurada na parede, mas não quiser usar uma malha, não faça uma textura totalmente nova apenas para adicionar uma corda em cima da textura de madeira. SuperTuxKart inclui um sombreador de decalque, que permite que você simplesmente coloque uma textura de corda na segunda camada UV e apareça em cima da textura de madeira, sem tornar a textura de madeira inutilizável para outras aplicações. Para obter mais informações, consulte [aqui](Texturing#Decals).
 
 ## Restrições Técnicas
 * As dimensões das imagens devem ser potências de dois. Uma textura genérica de tamanho padrão, por exemplo, é 1024 × 1024 ou 2<sup>10</sup> × 2<sup>10</sup>. No entanto, as texturas não precisam ser quadradas, você pode ter uma textura de 1024 × 512 ou 2<sup>10</sup> × 2<sup>9</sup>.
