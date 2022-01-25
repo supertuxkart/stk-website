@@ -32,29 +32,31 @@ For the Principled BSDF shader, the following inputs are recognized (other input
 * Alpha
 * Normal
 
-For the actual configuration of materials, the Antarctica/SuperTuxKart Properties panel contains all of the relevant options. It is located in the 'Material Properties' section, but not in the same place for normal configuration of Blender materials.
+For the actual configuration of materials, the Antarctica/SuperTuxKart Properties panel contains all of the relevant options. It is located in the **Material Properties** section, but not in the same place for normal configuration of Blender materials. Configurations are stored on a per-material basis, rather than on a per-image basis as had happened in Blender <= 2.79. If an image is used in multiple materials, only one of these configurations will have any effect in-game. The material whose name ends with a later letter in A to Z manner is where the configuration will be taken from.
 
-To preview how materials would look like in-game, change the Viewport Settings to use either 'Solid' mode with the color set to 'Texture' or 'Material Preview' mode. The latter is preferred, as its appearance is generally closer to what is shown in-game, with the notable exception of when vertex colors and image textures are mixed together.
+To preview how materials would look like in-game, change the **Viewport Shading** settings to use either **Solid** mode with the color set to **Texture** or **Material Preview** mode. The latter is preferred, as its appearance is generally closer to what is shown in-game, with the notable exception of when vertex colors and image textures are mixed together.
+
+{%popup_info Several other features, including special effects and physics properties also piggyback on SuperTuxKart's materials system. These reside in the **Interaction** section of the Antarctica/SuperTuxKart Properties panel, and are discussed in other articles. This article only discusses the **Display** section.%}
 
 ## For Blender 2.63 to 2.79
 
 It's important to note at this point that we are not referring to Blender or Cycles materials (though in Blender 2.80 and later, these materials are used during the export process). These are ignored by SuperTuxKart. Instead, use our own materials system to apply materials to textures.
 
-{%popup_info Several other features, including special effects and physics properties also piggyback on SuperTuxKart's materials system. These reside in the 'Interaction' section of the SuperTuxKart Image Properties panel (replaces every occurrence of the the Antarctica/SuperTuxKart Properties panel for this page), and are discussed in other articles. This article only discusses the 'Display' section.%}
+{%popup_info Several other features, including special effects and physics properties also piggyback on SuperTuxKart's materials system. These reside in the **Interaction** section of the SuperTuxKart Image Properties panel (replaces every occurrence of the the Antarctica/SuperTuxKart Properties panel for this page), and are discussed in other articles. This article only discusses the 'Display' section.%}
 
-If you used textures from the media repository, you don't have to worry about materials. The materials are already configured in `materials.xml` in the `textures` folder of the `stk-assets` repository and will not be configurable through the SuperTuxKart Image Properties panel.
+### Configuring Image Textures
 
-Textures not from the media repository will have to be configured in the SuperTuxKart Image Properties panel. There are several options to configure.
+If you used textures from the media repository, you don't have to worry about materials. The materials are already configured in `materials.xml` in the `textures` folder of the `stk-assets` repository and will not be configurable through the Antarctica/SuperTuxKart Properties panel.
 
-{%popup_info If you're having trouble making your textures appear in the SuperTuxKart Image Properties panel, make sure they are in the the same folder as your Blender file.%}
+Textures not from the media repository will have to be configured in the Antarctica/SuperTuxKart Properties panel. There are several options to configure.
 
 ## Shader
 
-Shaders are little programs that control how things are rendered in the scene. They can do all sorts of things, so picking the right one is important. The shader is selected using the drop-down "Shader" menu in the "Display" section of the Antarctica/SuperTuxKart Image Properties panel.
+Shaders are little programs that control how things are rendered in the scene. They can do all sorts of things, so picking the right one is important. The shader is selected using the drop-down **Shader** menu in the 'Display' section of the Antarctica/SuperTuxKart Properties panel.
 
-### Generic (solid) Shader
+### Generic (solid) Shader (PBR Solid)
 
-This shader is used for most textures. It supports a number of options to enhance the look of textures and is recommended for most special effects. The solid shader also supports colorization (see [Colorization](#colorization) below).
+This shader is used for most textures, and is the default option if no shader is explicitly selected. It supports a number of options to enhance the look of textures and is recommended for most special effects. However, alpha masks are unsupported. The solid shader also supports colorization (see [Colorization](#colorization) below).
 
 {% single_gallery widths=32%
 /assets/wiki/Stk_generic_ice_a.jpg,Texture
@@ -66,7 +68,7 @@ This shader is used for most textures. It supports a number of options to enhanc
 
 The gloss map is what lets you simulate a shiny surface. However, there are multiple factors to shininess. To take these all into account, the red, green, and blue channels of the gloss map image each correspond to a separate part. Making and testing a gloss map can be very time consuming, especially since you need to reload the game each time you try out a new gloss map. If you are good at Blender, however, you may find [this](https://forum.freegamedev.net/viewtopic.php?f=18&t=6246) useful.
 
-* The red channel controls sharpness. This controls the sharpness of the reflections on the surface. When the red channel is 0%, this has the effect of creating a rough surface.
+* The red channel controls specularity. This is how concentrated the light is that reflects off the surface. At too high of a value, this has the effect of creating very bright dots on a very dark texture.
 * The green channel controls metalness, ie: conductive and dielectric.
 * The blue channel controls emission. The more blue present, the more the material will emit light. However, this light is only localized and does not brighten the surrounding area. Usually it's used to make a fake glow effect on e.g. neon lights or lamps without the computational cost of a true point light.
 
@@ -78,7 +80,7 @@ The gloss map is what lets you simulate a shiny surface. However, there are mult
 
 Normal maps allow you to reduce poly while still getting the cool visual effects of a bumpy or wavy surface. Many textures from the media repository already have normal maps, so you don't need to create your own if you're using textures from the media repository. (In fact, you can't, although you may be able to help by making normal maps for textures that don't have them.)
 
-To apply a normal map, either enter the filename into the "Normal map" box, or link a Normal Map node from its 'Normal' output to the 'Normal' input of the Principled BSDF shader node.
+To apply a normal map, either enter the filename into the **Normal Map** box, or link a Normal Map node from its **Normal** output to the **Normal** input of the Principled BSDF shader node.
 
 ##### Creating the Normal Map
 
@@ -97,7 +99,9 @@ Start in an empty Blender scene. Delete the default cube, light, and camera. The
 | 1024 × 1024        | 10                     |
 | 2048 × 2048        | 11                     |
 
-With all vertices selected, unwrap the the plane (shortcut: u > Unwrap). This will probably again cause some lag, but don't worry. In the UV/Image Editor window, you should see your plane. Open the texture you want to create a normal map for and enable "Textured solid" in the 3D View window properties panel (shortcut: n).
+With all vertices selected, unwrap the the plane (shortcut: u > Unwrap). This will probably again cause some lag, but don't worry. In the UV Editor window (UV/Image Editor window for Blender <= 2.79), you should see your plane.
+
+Open the texture you want to create a normal map for, change the Viewport Settings to use either **Solid** mode with the color set to **Texture** or **Material Preview** mode. For Blender <= 2.79, enable **Textured solid** in the 3D View window properties panel (shortcut: n).
 
 Now, switch the 3D View window to Sculpt Mode instead of Edit Mode. Several options will appear in the toolshelf at the left. Most important, however, is to turn off mirroring. To do this, deselect the "X" button below the "Mirror" section in the "Symmetry/Lock" section of the toolshelf.
 
@@ -107,9 +111,10 @@ When you have finished sculpting, switch to Edit Mode, select all vertices, and,
 
 Switch to object mode and create a new plane of exactly the same size and shape at exactly the same position as the one you sculpted.
 
-Switch to Edit Mode, select all vertices of the flat plane, and unwrap it (shortcut: u > Unwrap). In the UV/Image Editor, click the "New" button to create a new image. Set the dimensions to the same as those of the original texture. Switch to Object Mode now; you should see that your flat plane is black if you have "Textured solid" enabled.
+Switch to Edit Mode, select all vertices of the flat plane, and unwrap it (shortcut: u > Unwrap). In the UV Editor window, click the "New" button to create a new image. Set the dimensions to the same as those of the original texture. Switch to Object Mode now; you should see that your flat plane is black if you have "Textured solid" enabled.
+Viewport Settings to use either **Solid** mode with the color set to **Texture** or **Material Preview** mode. For Blender <= 2.79, enable **Textured solid** in the 3D View window properties panel (shortcut: n).
 
-{%popup_info It is **very** important that at some point you have selected all the vertices of the flat plane in edit mode and have the blank texture open in the UV/Image editor. This assigns the texture as a *face texture*, which is needed for baking.%}
+{%popup_info It is **very** important that at some point you have selected all the vertices of the flat plane in edit mode and have the blank texture open in the UV Editor window. This assigns the texture as a *face texture*, which is needed for baking.%}
 
 Remember how I said above to ignore Blender materials and the "Texture" section of the Properties window? Well, here's a rare exception, because we're using Blender's own tools to create the normal map. Make sure that you have "Blender Render" selected as the rendering engine in the Info window. In the "Materials" section of the Properties window, with the <u>flat</u> plane selected, click the "New" button. Leave the settings as they are right now.
 
@@ -127,25 +132,21 @@ Now, in object mode, **first** select the sculpted plane, **then** select the fl
 
 To save the normal map, go to Image > Save As Image in the UV/Image Editor window. The normal map can now be applied.
 
-#### Alpha Mask
-
-Sorry, this is a mistake. The solid shader doesn't support alpha masks.
-
-### Cutout Transparency
+### Cutout Transparency (PBR Cutout Transparency (alpha test))
 
 The cutout transparency shader is best for things like vegetation (when you do not want it to move—otherwise, use the vegetation shader). It performs "alpha testing", to make pixels of a texture either 100% solid or 100% transparent. However, it doesn't have all the features of the solid shader, so avoid using it for solid textures. If your texture is mostly solid with a few transparent sections, you should use a separate texture. Cutout transparency supports alpha masks and colorization; see [Alpha Mask](#alpha-mask-1) and [Colorization](#colorization) below.
 
-### Blending Transparency
+### Blending Transparency ((NON PBR) Alpha See Through)
 
 The blending transparency ("alpha blend") shader is used for translucent textures, like windows. The colors of the objects seen through these textures will be blended with the colors of the translucent parts of the texture. Blending transparency supports alpha masks; see [Alpha Mask](#alpha-mask-1) below.
 
 {%popup_info Blending transparency can only make objects darker, not lighter. Be aware that very darkly tinted transparent sections could greatly reduce the visibility of objects behind them.%}
 
-### Additive Transparency
+### Additive Transparency ((NON PBR) Alpha Additive)
 
 The additive shader works the same way as the alpha blending shader, but instead of darkening colors when mixing, colors are lightened. This is useful for things like light beams or fire, to lighten objects behind the texture.
 
-### Unlit (solid)
+### Unlit (solid) ((NON PBR) Unlit solid)
 
 Textures using the unlit shader will always be at full brightness, in spite of lights or shadows. This shader does not support transparency.
 

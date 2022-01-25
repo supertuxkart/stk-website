@@ -6,6 +6,8 @@ In SuperTuxKart, most modifications to standard physics are controlled per-textu
 
 {%popup_info Any textures in the `gfx` folder in the textures folder of the media repository with the suffix "AlphaTest" or "AlphaTested" will not appear in-game. For more information, see the [Media Repo](Media_Repo) page.%}
 
+Where to configure these physics properties depends on the Blender version being used. For Blender 2.80+, they are located in the Antarctica/SuperTuxKart Properties panel, which in turn is located in the **Material Properties** section of the **Properties** window. For Blender <= 2.79, they are located in the SuperTuxKart Image Properties panel, which in turn is located in the **Scene** section of the **Properties** window. The rest of this page assumes the usage of the Antarctica/SuperTuxKart Properties panel.
+
 ## Zippers (Speed Booosters)
 
 If you have your own texture for zippers, or you will be using a texture from the media repository that is not configured as a zipper, you can use `gfx_booster_AlphaTest.png` as a texture wherever you want a zipper.
@@ -32,27 +34,27 @@ It's very difficult to make zippers exactly how you want, but this guide from Oz
 
 ## Magnet Sections
 
-Magnet sections allow karts to drive on any surface, no matter what its orientation. This allows karts to drive on walls, roofs, etc. Magnet sections are controlled per-texture, so simply select the texture used on the angled or upside-down part of your track in the SuperTuxKart Image Properties panel, and, under "Interaction", check the "Affect gravity" box.
+Magnet sections allow karts to drive on any surface, no matter what its orientation. This allows karts to drive on walls, roofs, etc. Magnet sections are controlled per-texture, so simply select the texture used on the angled or upside-down part of your track in the Antarctica/SuperTuxKart Properties panel, and, under "Interaction", check the "Affect gravity" box.
 
 Many textures in the media repository are also configured to be magnet sections. Check the [Materials.xml](Materials_xml) file in the `textures` folder of the `stk-assets` repository.
 
 ## Reset (Rescue) Player
 
-Resetting the player returns him or her to the track. Players who fall into the abyss will be automatically rescued, but to make the track more enjoyable, be sure to have some system for resetting players who go far off the track. However, do not immediately rescue any kart that goes off the road. Use other methods, like a slowdown effect, to keep players on the road.
+Resetting the player returns them to the track. Players who fall into the abyss will be automatically rescued, but to make the track more enjoyable, be sure to have some system for resetting players who go far off the track. However, do not immediately rescue any kart that goes off the road. Use other methods, like a slowdown effect, to keep players on the road.
 
 ### On Drive
 
-You can set a texture to reset the player whenever the player drives on it. To do so, select a texture in the SuperTuxKart Image Properties panel, and, under "Interaction", check the "Reset kart (on drive)" box.
+You can set a texture to reset the player whenever they drive on it. To do so, select a material first, then in the Antarctica/SuperTuxKart Properties panel under "Interaction", check the "Reset kart (on drive)" box.
 
 ### On Collision (Per-Texture)
 
-Select a texture in the SuperTuxKart Image Properties panel, and, under "Interaction", check the "Collision action" checkbox. In the "Action" menu, select "Rescue kart".
+Select a material first, then in the Antarctica/SuperTuxKart Properties panel under "Interaction", check the "Collision action" checkbox. In the "Action" menu, select "Rescue kart".
 
 {%popup_info Rescuing the player upon collision with an object is discussed in the [Kart-Object Interaction](#kart-object-interaction) section below.%}
 
 ## Traction, Collision, and Friction
 
-Select any texture in the SuperTuxKart Image Properties panel, and under "Interaction", check any of the following boxes:
+Select any material, then in the SuperTuxKart Image Properties panel under "Interaction", check any of the following boxes:
 
 * **Enable Slowdown:** Slow down any karts that drive on this texture; useful for textures that are off the main road
 * **High tires adhesion:** Give karts extra grip on this texture
