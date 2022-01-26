@@ -87,8 +87,8 @@ Look for the number of **Tris**. This is the information you need. Also, remembe
 
 * A cargo plane: ~4000 tris
 * A palm tree with Level of Detail
-    * High: 1400 tris
-    * Medium: 1400 tris
+    * High: 843 tris
+    * Medium: 465 tris
     * Low: 42 tris
 * A basic plant: 32 tris
 * A medium-sized tree: 1380 tris
