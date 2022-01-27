@@ -87,8 +87,8 @@ Busqueu el nombre de **Tris**. Aquesta és la informació que necessiteu. A més
 
 * Un avió de càrrega: ~4000 tris
 * Una palmera amb nivell de detall
-    * Alt: 1400 tris
-    * Mig: 1400 tris
+    * Alt: 843 tris
+    * Mig: 465 tris
     * Baix: 42 tris
 * Una planta bàsica: 32 tris
 * Un arbre de mida mitjana: 1380 tris
