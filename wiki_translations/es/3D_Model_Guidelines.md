@@ -87,8 +87,8 @@ Busca el número de **Tris**. Esa es la información que necesitas. Además, rec
 
 * Un avión de carga: ~4000 tris
 * Una palmera con nivel de detalle
-    * Alto: 1400 tris
-    * Medio: 1400 tris
+    * Alto: 843 tris
+    * Medio: 465 tris
     * Bajo: 42 tris
 * Una planta básica: 32 tris
 * Un árbol de tamaño medio: 1380 tris
