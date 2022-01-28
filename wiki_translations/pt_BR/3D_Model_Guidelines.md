@@ -87,8 +87,8 @@ Procure o número de **Tris**. Esta é a informação que você precisa. Além d
 
 * Um avião de carga: ~4000 tris
 * Uma palmeira com Nível de Detalhe
-    * Alto: 1400 tris
-    * Médio: 1400 tris
+    * Alto: 843 triângulos
+    * Médio: 465 triângulos
     * Baixo: 42 tris
 * Uma planta básica: 32 tris
 * Uma palmeira de tamanho médio: 1380 tris
