@@ -88,11 +88,11 @@ Karts
 * Minibjorn: Puffy
 * Cheleb: Nolok, Pidgin
 * Néd J. Édoire: Wilber, Hexley, Beastie
-* Typhon306 and McRavenINDo: Kiki
+* Typhon306 and ZAQraven99: Kiki
 * Cédric Archambault: Suzanne
 * Julian Schönbächler: Tux, Amanda and Gavroche
 * Kinsu: Emule
-* McRavenINDo: GNU, Pepper, Sara, Adiumy
+* ZAQraven99: GNU, Pepper, Sara, Adiumy
 
 Objects
 * GeekPenguinBR, TuxKartDriver: Models from Las Dunas Stadium
@@ -157,7 +157,8 @@ Music
 * Weirwood: Kart Grand Prix
 * Speedsound: Sky Vibe - High Frequency
 * Kalsan: Lava
-* GeekPenguinBR: Jumping to the Stars
+* GeekPenguinBR and Heuchi1: Jumping to the Stars
+* Heuchi1: Alien Signal
 
 Voice acting
 
