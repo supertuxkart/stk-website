@@ -1,14 +1,13 @@
 # 
 # Translators:
-# Benau, 2021
-# Heimen Stoffels <vistausss@fastmail.com>, 2021
+# Heimen Stoffels <vistausss@fastmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>, 2021\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>, 2022\n"
 "Language-Team: Dutch (https://www.transifex.com/supertuxkart/teams/36024/nl/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -541,8 +540,8 @@ msgid ""
 "If you are interested you can take a look at the [community](Community) "
 "page."
 msgstr ""
-"Als je geïnteresseerd bent, neem dan een kijkje op de "
-"[gemeenschap](Community) spagina."
+"Als je geïnteresseerd bent, neem dan een kijkje op de pagina "
+"[Gemeenschap](Community)."
 
 # Full game installer / packages for STK
 msgid "Full game"
@@ -610,10 +609,10 @@ msgid "Get the latest release candidate:"
 msgstr "Installeer de nieuwste vroegtijdig uitgegeven versie:"
 
 msgid "Get SuperTuxKart on Itch.io"
-msgstr "Download SuperTuxKart van Itch.io"
+msgstr "Downloaden van Itch.io"
 
 msgid "Discover more..."
-msgstr "Ontdek meer…"
+msgstr "Lees meer…"
 
 msgid "Latest Blog Post"
 msgstr "Nieuwste blogartikel"
