@@ -98,7 +98,7 @@ Zoek het aantal **tris** - deze informatie heb je nodig. Onthoud ook het aantal 
 
 Het is mogelijk om bij objecten op te merken dat een krachtiger computer vereist is. Open hiervoor een STK-scène in Blender, kies het te markeren object en schakel **Geometriedetails** in op het **SuperTuxKart-objecteigenschappen**paneel. Je kunt de **zichtbaarheid** instellen op elk van de beschikbare opties om het minimum grafische-effectenniveau te bepalen waarop je object zichtbaar dient te zijn.
 
-## Groottes
+## Afmetingen
 
 Objecten dienen een goede proportie te hebben zodat ze er niet vreemd uitzien.
 
