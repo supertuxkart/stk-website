@@ -122,7 +122,7 @@ Niet alleen zijn er grote verschillen in het spelverloop, maar ook bij de ontwik
 
 Ik wil ook helpen! Op welke manieren kan dat?
 
-Neem eerst een kijkje op de pagina [Bijdragen](Community) page. Op deze pagina vind je alles omtrent programmeren, modelleren, ontwerpen en andere dingen die je kunt doen.
+Neem eerst een kijkje op de pagina [Bijdragen](Community). Op deze pagina vind je alles omtrent programmeren, modelleren, ontwerpen en andere dingen die je kunt doen.
 
 Voordat je aan de slag gaat, is het raadzaam contact op te nemen met de huidige ontwikkelaars en artiesten op ons [IRC-kanaal](https://web.libera.chat/?channels=#supertuxkart), [Telegram-kanaal](https://t.me/STKInternational) of het [forum](https://forum.freegamedev.net/viewforum.php?f=16). Vertel ons wat je van plan bent, zodat we kunnen aangeven hoe groot de kans is dat je bijdrage wordt goedgekeurd.
 
