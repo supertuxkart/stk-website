@@ -3,13 +3,14 @@
 # mimiz skindoor <matteomeneghello02@gmail.com>, 2021
 # Massimiliano Caniparoli <massic80@gmail.com>, 2021
 # Ioma Taani, 2022
+# Benau, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Ioma Taani, 2022\n"
+"Last-Translator: Benau, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/supertuxkart/teams/36024/it/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -532,7 +533,7 @@ msgid ""
 "If you are interested you can take a look at the [community](Community) "
 "page."
 msgstr ""
-"È sempre possibile dare un'occhiata alla pagina della [Comunità](community)."
+"È sempre possibile dare un'occhiata alla pagina della [Comunità](Community)."
 
 # Full game installer / packages for STK
 msgid "Full game"
