@@ -29,3 +29,7 @@ Generating 3D levels for SuperTuxKart using OpenStreetMap data and importing rea
 ## Internationalization and Localization in open source games
 
 A master done at Geneva university.
+
+## Concepts for Advanced Integration of SuperTuxKart into Connected Cars
+
+[Report](https://elib.uni-stuttgart.de/bitstream/11682/11901/1/Master%27s%20Thesis.pdf)
