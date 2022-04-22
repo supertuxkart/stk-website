@@ -14,7 +14,7 @@ On Windows:
 
 On Linux:
 
-* `~/.local/supertuxkart/addons`
+* `~/.local/share/supertuxkart/addons`
 * `/usr/share/games/supertuxkart/data/tracks` (for older STK versions)
 
 On Mac OS X:
