@@ -198,7 +198,7 @@ title: ЧЗВ
 
 {% start_liquid main_title %}
 
-Технически въпрос
+Технически въпроси
 
 {% end_liquid %}
 
