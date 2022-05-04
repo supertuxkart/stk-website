@@ -1,18 +1,48 @@
+# 
+# Translators:
+# Benau, 2022
+# CodingJellyfish <dumaosen_main01@outlook.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: stk-website\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-11-10 17:58+0000\n"
+"Last-Translator: CodingJellyfish <dumaosen_main01@outlook.com>, 2022\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/supertuxkart/teams/36024/zh_CN/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+# Shown if empty search result
+msgid "No results found"
+msgstr "没有结果"
+
 msgid "SuperTuxKart"
 msgstr "SuperTuxKart"
 
-msgid "SuperTuxKart is a 3D open-source arcade racer with a variety characters, tracks, and modes to play."
-msgstr "SuperTuxKart是一个开源三维赛车游戏，您可以选择多种赛车手、赛道和游戏模式。"
-
-# Drop down menu when viewing SuperTuxKart homepage in mobile device
-msgid "Menu"
-msgstr "菜单"
+msgid "Download"
+msgstr "下载"
 
 msgid "Discover"
 msgstr "探索"
 
-msgid "Download"
-msgstr "下载"
+msgid "Community"
+msgstr "社区"
+
+# Table of contents which display near the top of each page
+msgid "Contents"
+msgstr "目录"
+
+msgid ""
+"SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
+"tracks, and modes to play."
+msgstr "SuperTuxKart 是一个开源三维赛车游戏，您可以选择多种赛车手、赛道和游戏模式。"
+
+# Drop down menu when viewing SuperTuxKart homepage in mobile device
+msgid "Menu"
+msgstr "菜单"
 
 msgid "FAQ"
 msgstr "常问问题"
@@ -26,11 +56,27 @@ msgstr "博客"
 msgid "Donate"
 msgstr "捐款"
 
+# Dropdown menu which shows language selection, etc.
+msgid "Tools"
+msgstr "工具"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Management"
+msgstr "管理"
+
+msgid "New page"
+msgstr "新建页面"
+
+msgid "Edit page"
+msgstr "编辑页面"
+
+msgid "Page history"
+msgstr "页面历史"
+
 msgid "Visit the main page"
 msgstr "访问主页"
-
-msgid "Community"
-msgstr "社区"
 
 msgid "Forum"
 msgstr "论坛"
@@ -74,7 +120,8 @@ msgstr "文件"
 msgid "About us"
 msgstr "关于我们"
 
-# Clicking About the team will go to a page which show SuperTuxKart team member infos
+# Clicking About the team will go to a page which show SuperTuxKart team
+# member infos
 msgid "About the team"
 msgstr "关于团队"
 
@@ -83,3 +130,441 @@ msgstr "关于 SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
 msgstr "使用 SuperTuxkart 的项目"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "信息"
+
+msgid "Return to Get Involved"
+msgstr "回到“参与”"
+
+msgid "Making Library Nodes"
+msgstr "制作库节点"
+
+msgid "Making Karts"
+msgstr "制作卡丁车"
+
+msgid "Making Tracks"
+msgstr "制作赛道"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "代码"
+
+msgid "IRC"
+msgstr "IRC"
+
+msgid "Mailing List"
+msgstr "邮件列表"
+
+msgid "Reddit"
+msgstr "Reddit"
+
+msgid "Support Us"
+msgstr "支持我们"
+
+msgid "Donations help us keep servers running and more!"
+msgstr "您的善款可以让我们的服务器继续运作，还有更多！"
+
+# In Community page
+msgid "For Programmers"
+msgstr "献给程序员们"
+
+# In Community page
+msgid "Programming"
+msgstr "编程"
+
+msgid "Source control"
+msgstr "源代码版本控制"
+
+msgid "Building from source"
+msgstr "从源代码构建"
+
+msgid "Coding style guidelines"
+msgstr "码风导航"
+
+msgid "Doxygen documentation"
+msgstr "Doxygen 文档"
+
+msgid "Tasks for beginners"
+msgstr "新手任务"
+
+msgid "Scripting"
+msgstr "写脚本"
+
+# In Community page
+msgid "Misc"
+msgstr "杂项"
+
+msgid "Making challenges"
+msgstr "制作挑战"
+
+msgid "About releasing new versions"
+msgstr "关于发布新版本"
+
+msgid "About player rankings"
+msgstr "关于玩家排名"
+
+# In Community page
+msgid "For Everyone"
+msgstr "献给每一个人"
+
+msgid "Connecting your Wiimote"
+msgstr "连接您的 Wiimote"
+
+msgid "Translating SuperTuxKart"
+msgstr "翻译 SuperTuxKart"
+
+msgid "Reporting Problems"
+msgstr "上报问题"
+
+msgid "Voice Acting"
+msgstr "配音"
+
+msgid "Terms and conditions"
+msgstr "条款及细则"
+
+msgid "Privacy policy"
+msgstr "隐私政策"
+
+# In Community page
+msgid "For Artists"
+msgstr "献给艺术家"
+
+# In Community page
+msgid "General Information"
+msgstr "大体信息"
+
+msgid "Installing Tools"
+msgstr "安装工具"
+
+# Page links to art style documentaion of STK
+msgid "Style"
+msgstr "风格"
+
+msgid "Licensing"
+msgstr "授权条款"
+
+msgid "Artist Debug Mode"
+msgstr "素材调试模式"
+
+# In Community page
+msgid "Guidelines"
+msgstr "指南"
+
+msgid "Texture Guidelines"
+msgstr "材质指导"
+
+msgid "3D Model Guidelines"
+msgstr "三维模型指南"
+
+msgid "Music and SFX Guidelines"
+msgstr "音乐与 SFX 指南"
+
+msgid "File naming conventions"
+msgstr "文件命名规则"
+
+# In Community page
+msgid "Creating"
+msgstr "创造"
+
+# Page title of discover page
+msgid "Welcome to the Mascot Kingdom!"
+msgstr "欢迎来到美丽的吉祥物王国！"
+
+msgid ""
+"Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a "
+"variety of characters, tracks, and modes to play. Our aim is to create a "
+"game that is more fun than realistic, and provide an enjoyable experience "
+"for all ages."
+msgstr ""
+"引擎轰鸣，燃气喷涌，正是赛车启动时！SuperTuxKart "
+"是一款开源的三维街机赛车游戏，内含多种角色、赛道和游戏模式。我们的目标是创造一款比现实世界的卡丁车更有趣的、老少皆宜的游戏。"
+
+msgid ""
+"In Story mode, you must face the evil Nolok, and defeat him in order to make"
+" the Mascot Kingdom safe once again! You can race by yourself against the "
+"computer, compete in several Grand Prix cups, or try to beat your fastest "
+"time in Time Trial mode. You can also race, battle or play soccer with up to"
+" eight friends on a single computer, play on a local network or play online "
+"with other players all over the world."
+msgstr ""
+"在故事模式中，你必续打败邪恶的 "
+"Nolok，让吉祥物王国再次安全！您可以自己与电脑比赛，参加锦标赛，或者在计时模式中超越自己的最快时间。您还可以在一台电脑上与多达八位朋友一起比赛、对战或踢足球，在局域网上或与来自世界各地的其他玩家一起线上遊玩。"
+
+msgid "Main Characters"
+msgstr "主要角色"
+
+msgid "Tux"
+msgstr "Tux"
+
+msgid ""
+"The hero of SuperTuxKart. Tux is a brave penguin who must save his friend, "
+"Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
+msgstr ""
+"SuperTuxKart 的主角。Tux 是一只勇敢的企鹅，他的使命是从 Nolok 的魔爪救出他最好的朋友：Gnu。Tux 是 Linux 的吉祥物。"
+
+msgid "Gnu"
+msgstr "Gnu"
+
+msgid ""
+"Tux's wise mentor, Gnu rides a flying carpet and lives peacefully in a "
+"pagoda. When Nolok captures him, the entire kingdom will try to save him. "
+"Gnu is the mascot of the GNU Project."
+msgstr ""
+"Tux 的良师益友。Gnu 平日喜欢骑着他的魔毯，平静地在宝塔中生活。在 Nolok 抓住他时，举国上下都会拯救他。Gnu 是 GNU 项目 的吉祥物。"
+
+msgid "Nolok"
+msgstr "Nolok"
+
+msgid ""
+"The villain of SuperTuxKart, Nolok is always concocting some sort of "
+"malevolent plan inside his fiery lava castle."
+msgstr "作为 SuperTuxKart 的反派，Nolok 总是在他灼热的熔岩城堡內计划某种恶毒的计划。"
+
+msgid "Additional Characters"
+msgstr "其他角色"
+
+msgid "Sara"
+msgstr "Sara"
+
+msgid ""
+"Sara is a powerful magician, and the ruler of the Mascot Kingdom. She races "
+"using a specialised snowmobile. She is the mascot of the OpenGameArt "
+"website."
+msgstr "Sara 是一个强大的魔术师，也是吉祥物王国的统治者。她使用她专用的雪地车进行比赛。她是 OpenGameArt 网站的吉祥物。"
+
+msgid "Wilber"
+msgstr "Wilber"
+
+msgid ""
+"Wilber is the official cameraman who works for WTXB-TV to record kart races,"
+" which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
+msgstr "Wilber 是为 WTXB 电视台工作的官方摄影师，负责为卡丁车比赛录像，而卡丁车比赛在吉祥物王国非常受欢迎。他是 GIMP 的吉祥物。"
+
+msgid "Puffy"
+msgstr "Puffy"
+
+msgid ""
+"Puffy races mainly to earn enough money to accomplish his dream: to buy a "
+"submarine. He is the mascot of the OpenBSD project."
+msgstr "Puffy 参加比赛的目的是赚取足够的钱来完成他的梦想：买一艘潜水艇。他是 OpenBSD 项目的吉祥物。"
+
+msgid "Pidgin"
+msgstr "Pidgin"
+
+msgid ""
+"Pidgin's ability to fly makes him perfect to deliver the results of the "
+"Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
+msgstr "Pidgin 的飞行能力使他能够将锦标赛的结果传播至整个吉祥物王国。他是 Pidgin 的吉祥物。"
+
+msgid "Beastie"
+msgstr "Beastie"
+
+msgid ""
+"Always ready to take part in an epic race, Beastie lives in Ravenbridge "
+"mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
+msgstr "Beastie 总是准备好参加一场史诗般的比赛，他和他的朋友 Gavroche 住在渡鸦公馆中。Beastie 是 BSD 项目的吉祥物。"
+
+msgid "BSD Daemon used with permission"
+msgstr "该 BSD 小恶魔的使用已经过授权"
+
+msgid "Amanda"
+msgstr "Amanda"
+
+msgid ""
+"Amanda was rescued by monks when they found her in a basket as a cub. She "
+"now teaches the ancient art of racing in a monastery. She is the mascot of "
+"Window Maker."
+msgstr ""
+"Amanda 被僧侣们救起，当时他们在一个篮子里发现了还是幼崽的她。她现在在寺院里教授古老的赛马艺术。她是 Window Maker 的吉祥物。"
+
+msgid "Emule"
+msgstr "Emule"
+
+msgid ""
+"Emule's superior knowledge of mechanical engineering allowed him to build "
+"his own kart with a turbocharged engine. He is the mascot of eMule."
+msgstr "Emule 在机械工程方面的高超知识使他能够建造自己的带涡轮增压发动机的卡丁车。他是 eMule 的吉祥物。"
+
+msgid "Suzanne"
+msgstr "Suzanne"
+
+msgid ""
+"Racing has been Suzanne's dream since childhood. She began her racing career"
+" in the prestigious Kart Academy of Val Verde. She is the mascot of Blender."
+msgstr ""
+"成为一名赛车手是 Suzanne 从小到大的梦想，于是她在著名的 Val Verde 卡丁车学院开始了她的赛车生涯。她是 Blender 的吉祥物。"
+
+msgid "Gavroche"
+msgstr "Gavroche"
+
+msgid ""
+"Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes"
+" he makes scary noises, tricking people into thinking the house is haunted. "
+"He is the mascot of MediaGoblin."
+msgstr ""
+"Gavroche 是一一只与 Beastie 同居在渡鸦公馆的地精。有时他会发出可怕的声音，让人们以为房子里有鬼。他是 MediaGoblin "
+"的吉祥物。"
+
+msgid "Hexley"
+msgstr "Hexley"
+
+msgid ""
+"Hexley's ancestors started kart racing many years ago, and generation after "
+"generation, they became very good at it. He is the mascot of Darwin."
+msgstr "Hexley 的祖先很久以前就开始从事卡丁车比赛，过了一代又一代，他们变得非常擅长。他是 Darwin 的吉祥物。"
+
+msgid "Xue"
+msgstr "Xue"
+
+msgid ""
+"Xue likes to stand out from the crowd, and her unusual kart reflects this. "
+"She races a special hovercraft, which is small enough to be driven by a "
+"mouse. She is the mascot of XFCE."
+msgstr ""
+"Xue 喜欢从人群中脱颖而出，她不寻常的卡丁车也反映了这一点。她比赛中使用一种特殊的气垫船，其体积小到可以由老鼠驾驶。她是 XFCE 的吉祥物。"
+
+msgid "Konqi"
+msgstr "Konqi"
+
+msgid ""
+"While Konqi's ancient ancestors were dangerous and feared, dragons today are"
+" harmless... mostly. He is the mascot of the KDE project."
+msgstr "虽然 Konqi 的祖先是危险而恐怖的，但现代的龙是温和的......至少大部分是。他是 KDE 项目的吉祥物。"
+
+msgid "Adiumy"
+msgstr "Adiumy"
+
+msgid ""
+"Adiumy is an adorable duckling who started kart racing when he realized his "
+"legs are too short to become a soccer star. Although the other mascots "
+"sometimes make fun of his waddling gait, he is respected as one of the most "
+"talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
+msgstr ""
+"Adiumy "
+"是一只可爱的小鸭子，当他意识到自己的腿太短，无法成为一名足球明星时，他开始了卡丁车比赛。虽然其他吉祥物有时会取笑他蹒跚的步态，但他也被视为王国中最有才华的赛车手之一。Adiumy"
+" 是 Adium 的吉祥物。"
+
+msgid "Kiki"
+msgstr "Kiki"
+
+msgid ""
+"A Krita user first drew Kiki for a training manual, but as soon as the "
+"manual was printed, Kiki decided to jump off the pages and race around the "
+"world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital "
+"painting program."
+msgstr ""
+"一位 Krita 用户首先为一本培训手册画了琪琪，但手册一印出来，琪琪就决定跳出书页，骑着她的笔驱动的飞机环游世界。琪琪是 Krita "
+"数字绘画程序的吉祥物。"
+
+msgid "Pepper"
+msgstr "Pepper"
+
+msgid ""
+"Pepper is a little witch who loves playing with her cat Carrot. Her "
+"enthusiasm for racing ignited when her friend Kiki helped her to tune her "
+"broom with a nitro injection system and custom exhaust tips. Pepper is the "
+"main character of the Pepper & Carrot project."
+msgstr ""
+"Pepper 是个小女巫，喜欢和她的猫 Carrot 一起玩。当她的朋友 Kiki "
+"帮她用氮气喷射系统和定制的排气口来调整她的扫帚时，她对赛车的热情被点燃。Pepper 是 Pepper & Carrot 项目的主角。"
+
+msgid "...And many more!"
+msgstr "……还有更多！"
+
+msgid ""
+"You can create your own characters, tracks, and arenas and share them with "
+"the SuperTuxKart community! You can do this by going to "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+msgstr ""
+"你可以创建你自己的角色、赛道和竞技场，并共享至 SuperTuxKart 社区！你可以通过访问 "
+"[online.supertuxkart.net](https://online.supertuxkart.net) 来实现。"
+
+msgid ""
+"If you are interested you can take a look at the [community](Community) "
+"page."
+msgstr "如果你有兴趣，请参阅 [社区](Community) 页面。"
+
+# Full game installer / packages for STK
+msgid "Full game"
+msgstr "完整游戏"
+
+msgid "Intel / AMD 32-bit"
+msgstr "Intel / AMD 32-bit"
+
+msgid "Intel / AMD 64-bit"
+msgstr "Intel / AMD 64-bit"
+
+msgid "ARM 32-bit"
+msgstr "ARM 32-bit"
+
+msgid "ARM 64-bit"
+msgstr "ARM 64-bit"
+
+# All-in-one architectures for STK installer / packages
+msgid "all architectures"
+msgstr "所有架构"
+
+msgid "Extract and run **run_game.sh** inside the folder."
+msgstr "解压并运行文件夹内的 **run_game.sh**。"
+
+msgid "Installer-less archive"
+msgstr "免安装压缩包"
+
+msgid "Get on Google Play Store"
+msgstr "从 Google Play 中下载。"
+
+msgid "Get the APK"
+msgstr "下载 APK 文件"
+
+msgid "Unzip the archive to microSD root to install."
+msgstr "将压缩包解压至 microSD 卡根目录以下载。"
+
+msgid "Source Code"
+msgstr "源代码"
+
+msgid ""
+"To get the very latest code, see the page [Source control](Source_control)."
+msgstr "要获得最新的代码，请查看 [源代码版本控制](Source_control) 页面。"
+
+msgid "Download from GitHub"
+msgstr "从 GitHub 下载"
+
+# Toggle for table of contents
+msgid "Show"
+msgstr "显示"
+
+# Toggle for table of contents
+msgid "Hide"
+msgstr "隐藏"
+
+msgid ""
+"Preview release is available [here](https://github.com/supertuxkart/stk-"
+"code/releases/preview)."
+msgstr ""
+"预览版请点击 [这里](https://github.com/supertuxkart/stk-code/releases/preview)。"
+
+msgid "Get the latest release candidate:"
+msgstr "获取最新的候选版本："
+
+msgid "Get SuperTuxKart on Itch.io"
+msgstr "从 Itch.io 下载 SuperTuxKart"
+
+msgid "Discover more..."
+msgstr "探索更多……"
+
+msgid "Latest Blog Post"
+msgstr "最新博客文章"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "前置知识"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr "在学习本教程之前，你应该先阅读以下文章："
+
+msgid "Click here if you are not redirected."
+msgstr "如果你没有被重定向，请点击这里。"
