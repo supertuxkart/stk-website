@@ -8,7 +8,7 @@ Materials are a method of making textures simulate real-life... materials. A tex
 
 The Blender material system is used to configure the appearance of image textures that can appear on meshes. Unlike older versions, usage of this node-based system is mandatory, but it is possible to get away from dealing with nodes if basic single-image configurations are all that is needed.
 
-To learn more about how to use nodes, visit the [Blender manual](https://docs.blender.org/manual/en/latest/interface/controls/nodes/index.hthml).
+To learn more about how to use nodes, visit the [Blender manual](https://docs.blender.org/manual/en/latest/interface/controls/nodes/).
 
 The full suite of shader nodes is currently unsupported (they are simply ignored in most cases); only a select few are recognized during the export process:
 
