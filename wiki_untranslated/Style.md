@@ -92,7 +92,7 @@ These characters take an active role in Story Mode and are essential to the game
 
 These characters are generally on the "good" side, but have no specified role in Story Mode, besides being kart options.
 
-* **Sara:** A human. She is the empress of the Mascot Kingdom, as well as the mascot of OpenGameArt. Her palace is probably located in the same valley as the Green Valley track.
+* **Sara:** An elf. She is the empress of the Mascot Kingdom, as well as the mascot of OpenGameArt. Her palace is probably located in the same valley as the Green Valley track.
 * **Suzanne:** A monkey who is the mascot of Blender. She, along with her many relatives, live in the jungles of Val Verde.
     * **Example Use:** Along the road in Cocoa Temple
 * **Xue:** A farmer mouse from the plains of the UCA. She is the mascot of Xfce.
