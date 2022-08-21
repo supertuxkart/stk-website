@@ -16,6 +16,6 @@ Naturligvis har vi ikke behov for konstant hjælp med at lægge stemmer ind, men
 ## Generel information
 
 * Opfyld venligst alle særlige ønsker fra den oprindelige opgavestiller.
-* Du skal licensere dine optagelser med en gratis licens som anført på [Licensing](Licenserings)siden.
+* Du skal licensere dine optagelser med en gratis licens som anført på [Licenserings](Licensing)siden.
 * Du behøver **ikke** selv at efterbehandle eller justere dine optagelser. Faktisk er det en meget bedre idé at publicere de uredigerede optagelser og samle tilbagemeldinger, før der redigeres. Hvis du ikke ved, hvordan du justerer/tilføjer effekter til optagelsen, er det helt OK. Der er masser af andre, der kan hjælpe på forumet.
 * Benyt venligst en tabsløs lydkomprimering som FLAC eller ingen komprimering i det hele taget (Wav). Hver gang en fil komprimeres med en tabsgivende codec som Vorbis eller MP3, mistes der kvalitet.
