@@ -166,7 +166,7 @@ title: Discover
 {%translate Adiumy%}
 {%- endcapture -%}
 {%- capture adiumy_desc -%}
-{%translate "Adiumy is an adorable duckling who started kart racing when he realized his legs are too short to become a soccer star. Although the other mascots sometimes make fun of his waddling gait, he is respected as one of the most talented racing drivers in the kingdom. Adiumy is the mascot of Adium."%}
+{%translate "Adiumy started kart racing when he realized his legs are too short to be a soccer star. Although the other mascots sometimes make fun of his waddling gait, he is highly respected as one of the most talented racing drivers in the kingdom. Adiumy is the mascot of Adium."%}
 {%- endcapture -%}
 {% include character_presentation_small name=adiumy type="odd" description=adiumy_desc icon="/assets/wiki/Character_adiumy_icon.png" %}
 

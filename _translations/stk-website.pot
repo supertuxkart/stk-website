@@ -373,7 +373,7 @@ msgstr ""
 msgid "Adiumy"
 msgstr ""
 
-msgid "Adiumy is an adorable duckling who started kart racing when he realized his legs are too short to become a soccer star. Although the other mascots sometimes make fun of his waddling gait, he is respected as one of the most talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
+msgid "Adiumy started kart racing when he realized his legs are too short to be a soccer star. Although the other mascots sometimes make fun of his waddling gait, he is highly respected as one of the most talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
 msgstr ""
 
 msgid "Kiki"
