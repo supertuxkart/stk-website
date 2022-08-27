@@ -1,14 +1,14 @@
 # 
 # Translators:
 # Benau, 2021
-# Lars Lyngby <larslyngby@hotmail.com>, 2021
+# Lars Lyngby <larslyngby@hotmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Lars Lyngby <larslyngby@hotmail.com>, 2021\n"
+"Last-Translator: Lars Lyngby <larslyngby@hotmail.com>, 2022\n"
 "Language-Team: Danish (https://www.transifex.com/supertuxkart/teams/36024/da/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -474,16 +474,15 @@ msgid "Adiumy"
 msgstr "Adiumy"
 
 msgid ""
-"Adiumy is an adorable duckling who started kart racing when he realized his "
-"legs are too short to become a soccer star. Although the other mascots "
-"sometimes make fun of his waddling gait, he is respected as one of the most "
-"talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
+"Adiumy started kart racing when he realized his legs are too short to be a "
+"soccer star. Although the other mascots sometimes make fun of his waddling "
+"gait, he is highly respected as one of the most talented racing drivers in "
+"the kingdom. Adiumy is the mascot of Adium."
 msgstr ""
-"Adiumy er en yndig ælling, der startede med at køre kart, da han forstod, at"
-" hans ben var for korte til, at han kunne blive fodboldstjerne. Selvom de "
-"andre maskotter undertiden gør nar af hans vralten, er han respekteret som "
-"en af de mest talentfulde racerkørere i kongedømmet. Adiumy er maskot for "
-"Adium."
+"Adiumy begyndte med kartrace, da han indså, hans ben er for korte til, at "
+"han kan blive fodboldstjerne. Selvom de andre maskotter af og til gør grin "
+"med hans vraltende gangart, er han højt respekteret som en af de mest "
+"talentfulde racerkørere i kongeriget. Adiumy er maskot for Adium."
 
 msgid "Kiki"
 msgstr "Kiki"
