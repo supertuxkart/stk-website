@@ -1,0 +1,617 @@
+# 
+# Translators:
+# GamingasCZ <gamingforyou875@gmail.com>, 2022
+# ToMáš Marný, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: stk-website\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-11-10 17:58+0000\n"
+"Last-Translator: ToMáš Marný, 2022\n"
+"Language-Team: Czech (https://www.transifex.com/supertuxkart/teams/36024/cs/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+
+# Shown if empty search result
+msgid "No results found"
+msgstr "Nebyly nalezeny žádné výsledky"
+
+msgid "SuperTuxKart"
+msgstr "SuperTuxKart"
+
+msgid "Download"
+msgstr "Stáhnout"
+
+msgid "Discover"
+msgstr "Objevovat"
+
+msgid "Community"
+msgstr "Komunita"
+
+# Table of contents which display near the top of each page
+msgid "Contents"
+msgstr "Obsah"
+
+msgid ""
+"SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
+"tracks, and modes to play."
+msgstr ""
+"SuperTuxKart je 3D open-source arkádová závodní hra s řadou postav, tratí a "
+"režimů."
+
+# Drop down menu when viewing SuperTuxKart homepage in mobile device
+msgid "Menu"
+msgstr "Nabídka"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Get Involved"
+msgstr "Zapojit se"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Donate"
+msgstr "Darovat"
+
+# Dropdown menu which shows language selection, etc.
+msgid "Tools"
+msgstr "Nástroje"
+
+msgid "Language"
+msgstr "Jazyk"
+
+msgid "Management"
+msgstr "Správa"
+
+msgid "New page"
+msgstr "Nová stránka"
+
+msgid "Edit page"
+msgstr "Upravit stránku"
+
+msgid "Page history"
+msgstr "Historie stránky"
+
+msgid "Visit the main page"
+msgstr "Navštivte hlavní stránku"
+
+msgid "Forum"
+msgstr "Fórum"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+# Clicking Addons will go to online.supertuxkart.net
+msgid "Addons"
+msgstr "Zásuvné moduly"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "Media"
+msgstr "Média"
+
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "Gallery"
+msgstr "Galerie"
+
+msgid "Posters"
+msgstr "Plakáty"
+
+msgid "Development"
+msgstr "Vývoj"
+
+# Clicking Modding will go to Commuity page
+msgid "Modding"
+msgstr "Modifikace"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+# Clicking Documentation will go to SuperTuxKart doxygen
+msgid "Documentation"
+msgstr "Dokumentace"
+
+msgid "About us"
+msgstr "O nás"
+
+# Clicking About the team will go to a page which show SuperTuxKart team
+# member infos
+msgid "About the team"
+msgstr "O týmu"
+
+msgid "About SuperTuxKart"
+msgstr "O SuperTuxKart"
+
+msgid "Projects using SuperTuxKart"
+msgstr "Projekty využívající SuperTuxKart"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Informace"
+
+msgid "Return to Get Involved"
+msgstr "Vrátit se do části Zapojit se"
+
+msgid "Making Library Nodes"
+msgstr "Vytváření 3D objektů"
+
+msgid "Making Karts"
+msgstr "Výroba motokár"
+
+msgid "Making Tracks"
+msgstr "Tvorba tratí"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Kód"
+
+msgid "IRC"
+msgstr "IRC"
+
+msgid "Mailing List"
+msgstr "Elektronická konference"
+
+msgid "Reddit"
+msgstr "Reddit"
+
+msgid "Support Us"
+msgstr "Podpořte nás"
+
+msgid "Donations help us keep servers running and more!"
+msgstr "Dary nám pomáhají udržovat servery v provozu a další věci!"
+
+# In Community page
+msgid "For Programmers"
+msgstr "Pro programátory"
+
+# In Community page
+msgid "Programming"
+msgstr "Programování"
+
+msgid "Source control"
+msgstr "Správa zdrojového kódu"
+
+msgid "Building from source"
+msgstr "Sestavování ze zdroje"
+
+msgid "Coding style guidelines"
+msgstr "Pokyny pro styl kódování"
+
+msgid "Doxygen documentation"
+msgstr "Dokumentace Doxygen"
+
+msgid "Tasks for beginners"
+msgstr "Úkoly pro začátečníky"
+
+msgid "Scripting"
+msgstr "Skriptování"
+
+# In Community page
+msgid "Misc"
+msgstr "Ostatní"
+
+msgid "Making challenges"
+msgstr "Vytváření výzev"
+
+msgid "About releasing new versions"
+msgstr "O vydávání nových verzí"
+
+msgid "About player rankings"
+msgstr "O hodnocení hráčů"
+
+# In Community page
+msgid "For Everyone"
+msgstr "Pro všechny"
+
+msgid "Connecting your Wiimote"
+msgstr "Připojování Wiimotu"
+
+msgid "Translating SuperTuxKart"
+msgstr "Překládání SuperTuxKart"
+
+msgid "Reporting Problems"
+msgstr "Nahlašování problémů"
+
+msgid "Voice Acting"
+msgstr "Dabing"
+
+msgid "Terms and conditions"
+msgstr "Pravidla a podmínky"
+
+msgid "Privacy policy"
+msgstr "Zásady ochrany osobních údajů"
+
+# In Community page
+msgid "For Artists"
+msgstr "Pro umělce"
+
+# In Community page
+msgid "General Information"
+msgstr "Obecné informace"
+
+msgid "Installing Tools"
+msgstr "Instalování nástrojů"
+
+# Page links to art style documentaion of STK
+msgid "Style"
+msgstr "Styl"
+
+msgid "Licensing"
+msgstr "Licencování"
+
+msgid "Artist Debug Mode"
+msgstr "Režim ladění pro umělce"
+
+# In Community page
+msgid "Guidelines"
+msgstr "Pokyny"
+
+msgid "Texture Guidelines"
+msgstr "Pokyny pro textury"
+
+msgid "3D Model Guidelines"
+msgstr "Pokyny pro 3D model"
+
+msgid "Music and SFX Guidelines"
+msgstr "Pokyny pro hudbu a SFX"
+
+msgid "File naming conventions"
+msgstr "Konvence pojmenovávání souborů"
+
+# In Community page
+msgid "Creating"
+msgstr "Vytváření"
+
+# Page title of discover page
+msgid "Welcome to the Mascot Kingdom!"
+msgstr "Vítejte v království maskotů!"
+
+msgid ""
+"Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a "
+"variety of characters, tracks, and modes to play. Our aim is to create a "
+"game that is more fun than realistic, and provide an enjoyable experience "
+"for all ages."
+msgstr ""
+"Motokáry. Nitro. Akce! SuperTuxKart je 3D arkádová závodní hra s otevřeným "
+"zdrojovým kódem, která nabízí různé postavy, tratě a režimy. Naším cílem je "
+"vytvořit hru, která je spíš zábavnější než realistická a poskytne příjemný "
+"zážitek všem věkovým skupinám."
+
+msgid ""
+"In Story mode, you must face the evil Nolok, and defeat him in order to make"
+" the Mascot Kingdom safe once again! You can race by yourself against the "
+"computer, compete in several Grand Prix cups, or try to beat your fastest "
+"time in Time Trial mode. You can also race, battle or play soccer with up to"
+" eight friends on a single computer, play on a local network or play online "
+"with other players all over the world."
+msgstr ""
+"V příběhovém režimu musíte čelit zlému Nolokovi a porazit ho, aby bylo "
+"království maskotů opět bezpečné! Můžete závodit sami proti počítači, "
+"soutěžit v několika pohárech Grand Prix nebo se pokusit překonat svůj "
+"nejrychlejší čas v režimu Time Trial. Můžete také závodit, bojovat nebo hrát"
+" fotbal až s osmi přáteli na jednom počítači, hrát v místní síti nebo hrát "
+"online s ostatními hráči z celého světa."
+
+msgid "Main Characters"
+msgstr "Hlavní postavy"
+
+msgid "Tux"
+msgstr "Tux"
+
+msgid ""
+"The hero of SuperTuxKart. Tux is a brave penguin who must save his friend, "
+"Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
+msgstr ""
+"Hrdina SuperTuxKart. Tux je odvážný tučňák, který musí zachránit svého "
+"přítele Gnu ze spárů zla Noloka. Tux je maskot Linuxu."
+
+msgid "Gnu"
+msgstr "Gnu"
+
+msgid ""
+"Tux's wise mentor, Gnu rides a flying carpet and lives peacefully in a "
+"pagoda. When Nolok captures him, the entire kingdom will try to save him. "
+"Gnu is the mascot of the GNU Project."
+msgstr ""
+"Tuxův mentor Gnu jezdí na létajícím koberci a žije poklidně v pagodě. Když "
+"ho Nolok zajme, celé království se ho pokusí zachránit. Gnu je maskotem "
+"projektu GNU."
+
+msgid "Nolok"
+msgstr "Nolok"
+
+msgid ""
+"The villain of SuperTuxKart, Nolok is always concocting some sort of "
+"malevolent plan inside his fiery lava castle."
+msgstr ""
+"Padouch hry SuperTuxKart, Nolok, neustále vymýšlí nějaký druh zlomyslného "
+"plánu uvnitř svého ohnivého lávového hradu."
+
+msgid "Additional Characters"
+msgstr "Další postavy"
+
+msgid "Sara"
+msgstr "Sára"
+
+msgid ""
+"Sara is a powerful magician, and the ruler of the Mascot Kingdom. She races "
+"using a specialised snowmobile. She is the mascot of the OpenGameArt "
+"website."
+msgstr ""
+"Sara je mocná kouzelnice a vládkyně království maskotů. Závodí na "
+"specializovaném sněžném skútru. Je maskotem webu OpenGameArt."
+
+msgid "Wilber"
+msgstr "Wilber"
+
+msgid ""
+"Wilber is the official cameraman who works for WTXB-TV to record kart races,"
+" which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
+msgstr ""
+"Wilber je oficiální kameraman, který pracuje pro WTXB-TV na natáčení závodů "
+"motokár, které jsou v království maskotů velmi populární. Je maskotem GIMPu."
+
+msgid "Puffy"
+msgstr "Puffy"
+
+msgid ""
+"Puffy races mainly to earn enough money to accomplish his dream: to buy a "
+"submarine. He is the mascot of the OpenBSD project."
+msgstr ""
+"Puffy závodí hlavně proto, aby vydělal dost peněz na splnění svého snu: "
+"koupit si ponorku. Je maskotem projektu OpenBSD."
+
+msgid "Pidgin"
+msgstr "Pidgin"
+
+msgid ""
+"Pidgin's ability to fly makes him perfect to deliver the results of the "
+"Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
+msgstr ""
+"Pidginova schopnost létat z něj dělá perfektního kandidáta výborných "
+"výsledků v Grand Prix v království maskotů. Je maskotem Pidgin."
+
+msgid "Beastie"
+msgstr "Beastie"
+
+msgid ""
+"Always ready to take part in an epic race, Beastie lives in Ravenbridge "
+"mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
+msgstr ""
+"Beastie, vždy připravený zúčastnit se epického závodu, žije v sídle "
+"Ravenbridge se svým přítelem Gavrochem. Beastie je maskotem projektu BSD."
+
+msgid "BSD Daemon used with permission"
+msgstr "BSD Daemon použit se svolením"
+
+msgid "Amanda"
+msgstr "Amanda"
+
+msgid ""
+"Amanda was rescued by monks when they found her in a basket as a cub. She "
+"now teaches the ancient art of racing in a monastery. She is the mascot of "
+"Window Maker."
+msgstr ""
+"Amandu zachránili mniši, když ji našli v koši jako mládě. Nyní vyučuje "
+"starověké umění závodění v klášteře. Je maskotem správce oken Window Maker."
+
+msgid "Emule"
+msgstr "Emule"
+
+msgid ""
+"Emule's superior knowledge of mechanical engineering allowed him to build "
+"his own kart with a turbocharged engine. He is the mascot of eMule."
+msgstr ""
+"Emuleovy vynikající znalosti strojního inženýrství mu umožnily postavit si "
+"vlastní motokáru s přeplňovaným motorem. Je maskotem eMule."
+
+msgid "Suzanne"
+msgstr "Suzanne"
+
+msgid ""
+"Racing has been Suzanne's dream since childhood. She began her racing career"
+" in the prestigious Kart Academy of Val Verde. She is the mascot of Blender."
+msgstr ""
+"Závodění bylo Suzanniným snem už od dětství. Svou závodní kariéru začala v "
+"prestižní motokárové akademii ve Val Verde. Je maskotem Blenderu."
+
+msgid "Gavroche"
+msgstr "Gavroche"
+
+msgid ""
+"Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes"
+" he makes scary noises, tricking people into thinking the house is haunted. "
+"He is the mascot of MediaGoblin."
+msgstr ""
+"Gavroche je goblin, který sdílí zámek Ravenbridge s Beastie. Někdy vydává "
+"děsivé zvuky a přivádí lidi, aby si mysleli, že v domě straší. Je maskotem "
+"MediaGoblin."
+
+msgid "Hexley"
+msgstr "Hexley"
+
+msgid ""
+"Hexley's ancestors started kart racing many years ago, and generation after "
+"generation, they became very good at it. He is the mascot of Darwin."
+msgstr ""
+"Předkové Hexley začali motokárové závody před mnoha lety a generace po "
+"generaci v tom byli velmi dobří. Je to maskot operačního systému Darwin."
+
+msgid "Xue"
+msgstr "Xue"
+
+msgid ""
+"Xue likes to stand out from the crowd, and her unusual kart reflects this. "
+"She races a special hovercraft, which is small enough to be driven by a "
+"mouse. She is the mascot of XFCE."
+msgstr ""
+"Xue ráda vyčnívá z davu a její neobvyklá motokára to odráží. Závodí se "
+"speciálním vznášedlem, které je dostatečně malé na to, aby ho řídila myš. Je"
+" maskotem XFCE."
+
+msgid "Konqi"
+msgstr "Konqi"
+
+msgid ""
+"While Konqi's ancient ancestors were dangerous and feared, dragons today are"
+" harmless... mostly. He is the mascot of the KDE project."
+msgstr ""
+"Zatímco dávní předkové Konqi byli nebezpeční a obávaní, dnes jsou draci "
+"neškodní... většinou. Je maskotem projektu KDE."
+
+msgid "Adiumy"
+msgstr "Adiumy"
+
+msgid ""
+"Adiumy started kart racing when he realized his legs are too short to be a "
+"soccer star. Although the other mascots sometimes make fun of his waddling "
+"gait, he is highly respected as one of the most talented racing drivers in "
+"the kingdom. Adiumy is the mascot of Adium."
+msgstr ""
+"Adiumy začal závodit na motokárách, když si uvědomil, že jeho nohy jsou "
+"příliš krátké na to, aby se stal fotbalovou hvězdou. I když si ostatní "
+"maskoti občas dělají legraci z jeho kolébavé chůze, je vysoce respektován "
+"jako jeden z nejtalentovanějších závodních jezdců v království. Adiumy je "
+"maskotem aplikace Adium."
+
+msgid "Kiki"
+msgstr "Kiki"
+
+msgid ""
+"A Krita user first drew Kiki for a training manual, but as soon as the "
+"manual was printed, Kiki decided to jump off the pages and race around the "
+"world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital "
+"painting program."
+msgstr ""
+"Uživatel Krity nejprve nakreslil Kiki pro tréninkový manuál, ale jakmile byl"
+" manuál vytištěn, Kiki se rozhodla vyskočit ze stránek a závodit kolem světa"
+" na svém letadle poháněném perem. Kiki je maskotem grafického programu "
+"Krita."
+
+msgid "Pepper"
+msgstr "Pepper"
+
+msgid ""
+"Pepper is a little witch who loves playing with her cat Carrot. Her "
+"enthusiasm for racing ignited when her friend Kiki helped her to tune her "
+"broom with a nitro injection system and custom exhaust tips. Pepper is the "
+"main character of the Pepper & Carrot project."
+msgstr ""
+"Pepper je malá čarodějnice, která si ráda hraje se svou kočkou Carrot. Její "
+"nadšení pro závodění vzplanulo, když jí její kamarádka Kiki pomohla vyladit "
+"koště s nitrovstřikovacím systémem a vlastními koncovkami výfuku. Pepper je "
+"hlavní postavou projektu Pepper & Carrot."
+
+msgid "...And many more!"
+msgstr "...A mnoho dalších!"
+
+msgid ""
+"You can create your own characters, tracks, and arenas and share them with "
+"the SuperTuxKart community! You can do this by going to "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+msgstr ""
+"Můžete vytvářet své vlastní postavy, tratě a arény, které je možno sdílet se"
+" SuperTuxKart komunitou! To lze udělat na "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+
+msgid ""
+"If you are interested you can take a look at the [community](Community) "
+"page."
+msgstr ""
+"Pokud vás to zaujalo, můžete se mrknout na stránku [komunity](Community)."
+
+# Full game installer / packages for STK
+msgid "Full game"
+msgstr "Celá hra"
+
+msgid "Intel / AMD 32-bit"
+msgstr "Intel / AMD 32-bitový"
+
+msgid "Intel / AMD 64-bit"
+msgstr "Intel / AMD 64-bitový"
+
+msgid "ARM 32-bit"
+msgstr "ARM 32-bitový"
+
+msgid "ARM 64-bit"
+msgstr "ARM 64-bitový"
+
+# All-in-one architectures for STK installer / packages
+msgid "all architectures"
+msgstr "všechny architektury"
+
+msgid "Extract and run **run_game.sh** inside the folder."
+msgstr "Extrahujte a spusťte **run_game.sh** uvnitř složky."
+
+msgid "Installer-less archive"
+msgstr "Archiv bez instalátoru"
+
+msgid "Get on Google Play Store"
+msgstr "Přejděte do obchodu Google Play"
+
+msgid "Get the APK"
+msgstr "Získejte soubor APK"
+
+msgid "Unzip the archive to microSD root to install."
+msgstr "K instalování rozbalte archiv do kořene microSD karty."
+
+msgid "Source Code"
+msgstr "Zdrojový kód"
+
+msgid ""
+"To get the very latest code, see the page [Source control](Source_control)."
+msgstr ""
+"Chcete-li získat nejnovější kód, podívejte se na stránku [Správa zdrojového "
+"kódu](Source_control)."
+
+msgid "Download from GitHub"
+msgstr "Stáhnout z GitHubu"
+
+# Toggle for table of contents
+msgid "Show"
+msgstr "Zobrazit"
+
+# Toggle for table of contents
+msgid "Hide"
+msgstr "Skrýt"
+
+msgid ""
+"Preview release is available [here](https://github.com/supertuxkart/stk-"
+"code/releases/preview)."
+msgstr ""
+"Testovací verze je k dispozici [zde](https://github.com/supertuxkart/stk-"
+"code/releases/preview)."
+
+msgid "Get the latest release candidate:"
+msgstr ""
+"Získejte nejnovějšího (RC) verzi kandidáta na vydání (release candidate):"
+
+msgid "Get SuperTuxKart on Itch.io"
+msgstr "Získejte SuperTuxKart na Itch.io"
+
+msgid "Discover more..."
+msgstr "Objevit více..."
+
+msgid "Latest Blog Post"
+msgstr "Nejnovější příspěvek na blogu"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "Předpoklady"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr ""
+"Než začnete s tímto návodem, měli byste si přečíst následující články:"
+
+msgid "Click here if you are not redirected."
+msgstr "Pokud nebudete přesměrováni, klikněte sem."
