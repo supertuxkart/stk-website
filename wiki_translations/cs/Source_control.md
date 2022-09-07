@@ -20,7 +20,7 @@ svn checkout https://svn.code.sf.net/p/supertuxkart/code/stk-assets stk-assets%}
 
 Má velikost asi 700 MB.
 
-Tato dvě úložiště by měla být stažena do stejné složky, takže složky „stk-code“ a „stk-assets“ jsou vedle sebe.
+Tato dvě úložiště by měla být stažena do stejné složky, takže složky `stk-code` a `stk-assets` jsou vedle sebe.
 
 ## Úložiště médií
 
@@ -38,7 +38,7 @@ Viz také [stránka úložiště médií](Media_Repo).
 Zde je několik pokynů pro vývojáře, kteří mají přístup pro zápis do Git/SVN:
 
 * Připojte se k našemu IRC nebo telegramovému kanálu (viz [Komunita](Community)). Vývojáři tam obvykle zveřejňují to, na čem pracují, aby se snížila pravděpodobnost konfliktů. Kromě toho se zde také diskutuje o známých významných chybách.
-* Možná by stálo za to přihlásit se k odběru elektronická konference supertuxkart-commit (viz [Komunita](Komunita)). Všechny commity a jejich popisky jsou automaticky odesílány na tuto adresu, takže budete vždy vědět, co se děje, a pokud vaše práce zasahuje do toho, co dělají ostatní lidé.
+* Možná by stálo za to přihlásit se k odběru elektronická konference supertuxkart-commit (viz [Komunita](Community)). Všechny commity a jejich popisky jsou automaticky odesílány na tuto adresu, takže budete vždy vědět, co se děje, a pokud vaše práce zasahuje do toho, co dělají ostatní lidé.
 * Vývojová verze by se měla vždy zkompilovat. I když není možné testovat na všech platformách, snažte se napsat přenositelný kód. Ostatní vývojáři a testeři obvykle rychle upozorní (a opraví) na jakékoli problémy.
 * Commitujte často. Časté commity mají tu výhodu, že fungují jako záloha, což snižuje pravděpodobnost časově náročných konfliktů sloučení.
 * Pokuste se zahrnout všechny změny pro jednu funkci do jednoho commitu (tj. neposílejte každý soubor samostatně) a snažte se nesměšovat několik funkcí v jednom velkém commitu.
