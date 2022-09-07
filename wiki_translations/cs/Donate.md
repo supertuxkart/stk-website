@@ -13,7 +13,6 @@ Dary nám pomáhají zlepšovat hru, protože mohou být použity na nákup hard
 
 **V případě jakýchkoliv dotazů nebo problémů nás neváhejte kontaktovat!**
 
-SuperTuxKart now uses itch.io to receive donations. Click on the "Download Now" button and you will be able to select your donation amount.
 SuperTuxKart teď k přijímání darů používá platformu itch.io. Klikněte na tlačítko „Stáhnout nyní“ a budete si moci vybrat výši daru.
 
 {% include donation_frame %}
