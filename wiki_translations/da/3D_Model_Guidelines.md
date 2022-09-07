@@ -2,7 +2,7 @@
 title: 3D model retningslinjer
 toc: true
 ---
-Det er vigtigt, SuperTuxKart har et gennemgående konsistent design. På mange måder har denne side det samme som [tekstur retningslinjer](Tekstur_Retningslinjer).
+Det er vigtigt, SuperTuxKart har et gennemgående konsistent design. På mange måder har denne side det samme som [tekstur retningslinjer](Texture_Guidelines).
 
 ## Design
 
