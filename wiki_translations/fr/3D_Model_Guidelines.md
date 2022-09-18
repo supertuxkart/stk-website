@@ -87,8 +87,8 @@ Regardez le nombre de **Tris**. C'est cette information dont vous avez besoin. A
 
 * Un avion cargo : ~4000 tris
 * Un palmier avec différents niveaux de détails
-    * Haut: 1400 tris
-    * Moyen: 1400 tris
+    * Haut : 843 tris
+    * Moyen : 465 tris
     * Faible: 42 tris
 * Une plante simple : 32 tris
 * Un arbre de taille moyenne : 1380 tris
