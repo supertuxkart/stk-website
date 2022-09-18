@@ -1,19 +1,19 @@
 # 
 # Translators:
 # Wax-stk <waxpro08@gmail.com>, 2021
-# Anard0 <anard@free.fr>, 2021
+# Anard0 <anard@free.fr>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Anard0 <anard@free.fr>, 2021\n"
+"Last-Translator: Anard0 <anard@free.fr>, 2022\n"
 "Language-Team: French (https://www.transifex.com/supertuxkart/teams/36024/fr/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 # Shown if empty search result
 msgid "No results found"
@@ -479,16 +479,16 @@ msgid "Adiumy"
 msgstr "Adiumy"
 
 msgid ""
-"Adiumy is an adorable duckling who started kart racing when he realized his "
-"legs are too short to become a soccer star. Although the other mascots "
-"sometimes make fun of his waddling gait, he is respected as one of the most "
-"talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
+"Adiumy started kart racing when he realized his legs are too short to be a "
+"soccer star. Although the other mascots sometimes make fun of his waddling "
+"gait, he is highly respected as one of the most talented racing drivers in "
+"the kingdom. Adiumy is the mascot of Adium."
 msgstr ""
-"Adiumy est un adorable caneton qui a commencé la course de kart quand il "
-"s'est rendu compte que ses pattes étaient trop courtes pour devenir une star"
-" du football. Bien que les autres mascottes se moquent parfois de sa "
-"démarche dodelinante, il est respecté comme l'un des pilotes les plus "
-"talentueux du royaume. Adiumy est la mascotte d'Adium."
+"Adiumy s'est mis à la course de kart quand il remarqua que ses jambes "
+"étaient trop courtes pour devenir une star du foot. Bien que les autres "
+"mascottes se moquent parfois de sa démarche dandinante, il est très respecté"
+" comme l'un des plus talentueux pilotes du royaume. Adiumy est la mascotte "
+"d'Adium."
 
 msgid "Kiki"
 msgstr "Kiki"
