@@ -20,7 +20,7 @@ De 21 baner vil lede dig ind i forskellige miljøer. Fra strandene på solfyldte
 
 Spillet indeholder også yderligere spiltilstande ud over normale løb: Tidskørsel, følg lederen, fodbold, erobre flaget og to typer kamptilstand.
 
-[Find mere her](Udforsk)!
+[Find mere her](Discover)!
 
 {% end_liquid %}
 
