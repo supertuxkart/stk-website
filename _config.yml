@@ -52,7 +52,7 @@ exclude:
   - _translations/stk-website.pot
 
 stk_version: "1.3"
-stk_rc: ""
+stk_rc: "1.4-rc1"
 
 # Disable Jekyll Picture Tag warnings when base image is smaller
 picture:

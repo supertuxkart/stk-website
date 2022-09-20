@@ -3,6 +3,20 @@
 {%- endcapture -%}
 
 {% blog_article
+SuperTuxKart 1.4 release candidate is out!
+
+Hi everyone,
+
+First release candidate of STK 1.4 is now available!
+
+This is the first release featuring an experimental Vulkan renderer, for details read our [blog](https://blog.supertuxkart.net/2022/09/supertuxkart-14-release-candidate-1.html).
+
+Download now [here](https://github.com/supertuxkart/stk-code/releases/tag/1.4-rc1).
+
+September 20, 2022 by [Benau](https://github.com/Benau)
+%}
+
+{% blog_article
 SuperTuxKart 1.3 is ready!
 
 Hi everyone,
