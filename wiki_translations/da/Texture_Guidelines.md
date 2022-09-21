@@ -53,11 +53,12 @@ Prøv at undgå teksturer med detaljer, der ikke ville være der i virkeligheden
 ## Tekniske begrænsninger
 * Billeddimensioner bør være potenser af to. F.eks. er standardstørrelsen for en generisk tekstur 1024 × 1024 eller 2<sup>10</sup> × 2<sup>10</sup>. Teksturer behøver dog ikke være kvadrater. Du kan have en 1024 × 512 tekstur eller or 2<sup>10</sup> × 2<sup>9</sup>.
 * Brug ikke store teksturer til små objekter. Det spilder videohukommelse.
-* Teksturfiler **skal** befinde sig i samme folder som dit eksporterede objekt.
+* Undgå ekstremt små teksturer (f.eks. 4x4 eller mindre) også ved rene farver. Det giver uventede resultater, når teksturkompression er slået til i grafikindstillinger.
+* Teksturfiler **skal** placeres i samme folder som dit eksporterede objekt.
 * Teksturer bør være i PNG-format, når
-    * Teksturen bliver brugt tæt på et objekt, hvor det kræver stor detaljeringsgrad
-    * Objektet har gennemsigtige eller delvist gennemsigtige dele
-* Teksturer bør være i JPEG-format for
+    * Teksturen vil blive brugt i et objekt, der er tæt på, med behov for stor detaljeringsgrad
+    * Objektet indeholder gennemsigtige eller delvist gennemsigtige dele
+* Teksturer bør være i JPEG-format, når
     * Fjerne objekter
-    * Skyteksturer (af og til)
-    * Kort med omgivende lys
+    * Himmelteksturer (af og til)
+    * Kort over omgivende lys
