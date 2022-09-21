@@ -53,6 +53,7 @@ Procura evitar crear texturas con detalles que no formarían parte del material 
 ## Restricciones técnicas
 * Las dimensiones de las imágenes deberían ser potencias de dos. Una textura genérica de tamaño estándar, por ejemplo, es de 1024 × 1024, o 2<sup>10</sup> × 2<sup>10</sup>. Sin embargo, las texturas no tienen por qué ser cuadradas, se podría tener una textura de 1024 × 512, o 2<sup>10</sup> × 2<sup>9</sup>.
 * No utilices texturas grandes para objetos pequeños, esto desperdicia memoria de vídeo.
+* Evita crear texturas exremadamente pequeñas (por ejemplo, 4x4 o más pequeña), incluso para colores planos. Pueden tener resultados inesperados cuando la compresión de texturas está activada en la configuración gráfica.
 * Los ficheros de textura **deben** estar situados en la misma carpeta que vuestro objeto exportado.
 * Las texturas deberían estar en formato PNG cuando
     * La textura se utilizará en un objeto cercano que requiera mucho detalle
