@@ -53,6 +53,7 @@ Probeer zo weinig mogelijk texturen te maken die geen details uit de werkelijkhe
 ## Technische beperkingen
 * De afmetingen van afbeeldingen dienen een veelvoud van beide te zijn. Zo is een standaard textuur 1024 × 1024, ofwel 2<sup>10</sup> × 2<sup>10</sup>. Let op: texturen hoeven niet vierkant te zijn, dus 1024 × 512 ofwel 2<sup>10</sup> × 2<sup>9</sup> mag ook.
 * Voorzie kleine objecten niet van grote texturen om videogeheugen te sparen.
+* Gebruik niet al te kleine texturen (4x4 of kleiner), óók niet voor vlakke kleuren. Deze kunnen namelijk tot onverwachte resultaten leiden als textuurcompressie is ingeschakeld.
 * Textuurbestanden **moeten** in dezelfde map als het geëxporteerde object worden geplaatst.
 * Texturen dienen aangeleverd te worden in png-formaat indien
     * de textuur in kwestie binnen het directe gezichtsveld valt, waardoor een hoge mate van detaillering gewenst is;
@@ -60,4 +61,4 @@ Probeer zo weinig mogelijk texturen te maken die geen details uit de werkelijkhe
 * Texturen dienen aangeleverd te worden in jpeg-formaat indien het
     * objecten zijn die ver buiten het gezichtsveld vallen;
     * luchttexturen zijn (soms);
-    * parcours met sfeerverlichting betreft.
+    * Parcours met sfeerverlichting
