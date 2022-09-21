@@ -53,11 +53,12 @@ Staraj się unikać tworzenia tekstur z detalami, które nie są częścią mate
 ## Ograniczenia Techniczne
 * Wymiary obrazków powinny być potęgami dwójki. Teksturą ze standardową wielkością jest na przykład 1024 × 1024 lub  2<sup>10</sup> × 2<sup>10</sup>. Chociaż tekstury nie muszą być kwadratami, można mieć teksturę o wymiarach 1024 × 512 lub 2<sup>10</sup> × 2<sup>9</sup>.
 * Nie używaj dużych tekstur dla małych obiektów—w ten sposób marnujesz pamięć RAM.
-* Pliki tekstur **muszą** być umieszczone w tym samym folderze co twój obiekt.
-* Tekstury powinny być w formacie PNG gdy
-    * Tekstura będzie używana z obiektem, który jest blisko gracza i wymaga wysokich detali.
-    * Obiekt zawiera przezroczyste lub częściowo przezroczyste części
+* Unikaj tworzenia bardzo małych tekstur (tj. 4x4 lub mniejszych), nawet dla prostych kolorów. Takie teksury mogą mieć nieoczekiwane rezultaty kiedy kompresja tekstur jest włączona w ustawieniach graficznych.
+* Pliki tekstur **muszą** znajdować się w tym samym folderze co twój wyeksportowany obiekt.
+* Tekstury powinny być w formacie PNG kiedy
+    * Tekstura będzie używana w obiekcie znajdującym się niedaleko, który wymaga wysokich detali
+    * Obiekt zawiera przezroczyste lub częściowo przezroczyste fragmenty
 * Tekstury powinny być w formacie JPEG dla
-    * Dalekich obiektów
-    * Tekstur nieba (czasami)
-    * Map światła otoczenia
+    * Obiektów znajdujących się daleko
+    * Tekstury nieba (czasami)
+    * Map światła ambientowego
