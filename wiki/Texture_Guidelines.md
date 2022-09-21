@@ -53,6 +53,7 @@ Try to avoid making textures with details that would not be part of the material
 ## Technical Restrictions
 * Dimensions of images should be powers of two. A standard-size generic texture, for example, is 1024 × 1024, or 2<sup>10</sup> × 2<sup>10</sup>. However, textures do not have to be squares, you could have a 1024 × 512 texture, or 2<sup>10</sup> × 2<sup>9</sup>.
 * Do not use large textures for small objects—this wastes video RAM.
+* Avoid creating extremely small textures (e.g. 4x4 or smaller), even for plain colours. These may have unexpected results when texture compression is enabled in graphics settings.
 * Texture files **must** be placed in the same folder as your exported object.
 * Textures should be in PNG format when
     * The texture will be used in an up-close object requiring high detail
