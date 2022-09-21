@@ -53,11 +53,12 @@ Procureu evitar crear textures amb detalls que no formarien part del material a 
 ## Restriccions tècniques
 * Les dimensions de les imatges haurien de ser potències de dos. Una textura genèrica de mida estàndard, per exemple, és de 1024 × 1024, o 2<sup>10</sup> × 2<sup>10</sup>. Tanmateix, les textures no tenen per què ser quadrades, es podria tenir una textura de 1024 × 512, o 2<sup>10</sup> × 2<sup>9</sup>.
 * No feu servir textures grans per a objectes petits, això malbarata memòria de vídeo.
+* Eviteu crear textures exremadament petites (per exemple, 4x4 o més petita), fins i tot per a colors plans. Poden tenir resultats inesperats quan la compressió de textures està activada a la configuració gràfica.
 * Els fitxers de textura **han** d'estar situats a la mateixa carpeta que el vostre objecte exportat.
 * Les textures haurien d'estar en format PNG quan
     * La textura es farà servir en un objecte proper que requereixi molt detall
     * L'objecte conté parts transparents o parcialment transparents
-* Les textures haurien d'estar en format JPEG per
+* Les textures haurien d'estar en format JPEG per a
     * Objectes llunyans
     * Textures del cel (a vegades)
     * Mapes de llum ambiental
