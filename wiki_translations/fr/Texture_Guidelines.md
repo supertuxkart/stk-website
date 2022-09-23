@@ -53,6 +53,7 @@ Essayez d'éviter de faire des textures avec des détails qui ne font pas partie
 ## Restrictions techniques
 * Les dimensions des images doivent être des puissances de 2. Une taille générique de texture est par exemple 1024 x 1024, ou 2<sup>10</sup> × 2<sup>10</sup>. Cependant elles ne sont pas obligatoirement des carrés, vous pourriez utiliser des textures en 1024 x 512, ou 2<sup>10</sup> × 2<sup>9</sup>.
 * N'utilisez pas des textures trop grandes pour de petits objets, cela utiliserait beaucoup de mémoire vidéo inutilement.
+* Évitez de créer des textures extrêmement petites (par ex. 4 × 4 ou plus petit), même pour des couleurs pleines. Cela peut créer des résultats non voulus lorsque la compression des textures est activée dans les options graphiques.
 * Les fichiers de texture **doivent** être situés dans le même dossier que votre objet exporté.
 * Les textures devraient être au format PNG si
     * La texture sera utilisée sur un objet proche des joueurs, nécessitant beaucoup de détails
