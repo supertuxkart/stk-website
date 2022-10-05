@@ -61,4 +61,4 @@ Probeer zo weinig mogelijk texturen te maken die geen details uit de werkelijkhe
 * Texturen dienen aangeleverd te worden in jpeg-formaat indien het
     * objecten zijn die ver buiten het gezichtsveld vallen;
     * luchttexturen zijn (soms);
-    * Parcours met sfeerverlichting
+    * parcours met sfeerverlichting betreft.
