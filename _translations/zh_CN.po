@@ -38,14 +38,14 @@ msgstr "目录"
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
 "tracks, and modes to play."
-msgstr "SuperTuxKart 是一个开源三维赛车游戏，您可以选择多种赛车手、赛道和游戏模式。"
+msgstr "SuperTuxKart 是一个具有多种角色、赛道和游戏模式的开源三维赛车游戏。"
 
 # Drop down menu when viewing SuperTuxKart homepage in mobile device
 msgid "Menu"
 msgstr "菜单"
 
 msgid "FAQ"
-msgstr "常问问题"
+msgstr "常见问题"
 
 msgid "Get Involved"
 msgstr "参与"
@@ -54,7 +54,7 @@ msgid "Blog"
 msgstr "博客"
 
 msgid "Donate"
-msgstr "捐款"
+msgstr "捐赠"
 
 # Dropdown menu which shows language selection, etc.
 msgid "Tools"
@@ -164,11 +164,11 @@ msgid "Support Us"
 msgstr "支持我们"
 
 msgid "Donations help us keep servers running and more!"
-msgstr "您的善款可以让我们的服务器继续运作，还有更多！"
+msgstr "您的捐赠将会是我们运作并完善服务器的动力！"
 
 # In Community page
 msgid "For Programmers"
-msgstr "献给程序员们"
+msgstr "致程序员"
 
 # In Community page
 msgid "Programming"
@@ -207,7 +207,7 @@ msgstr "关于玩家排名"
 
 # In Community page
 msgid "For Everyone"
-msgstr "献给每一个人"
+msgstr "致大众"
 
 msgid "Connecting your Wiimote"
 msgstr "连接您的 Wiimote"
@@ -229,11 +229,11 @@ msgstr "隐私政策"
 
 # In Community page
 msgid "For Artists"
-msgstr "献给艺术家"
+msgstr "致艺术家"
 
 # In Community page
 msgid "General Information"
-msgstr "大体信息"
+msgstr "概述"
 
 msgid "Installing Tools"
 msgstr "安装工具"
@@ -253,7 +253,7 @@ msgid "Guidelines"
 msgstr "指南"
 
 msgid "Texture Guidelines"
-msgstr "材质指导"
+msgstr "材质指南"
 
 msgid "3D Model Guidelines"
 msgstr "三维模型指南"
@@ -266,7 +266,7 @@ msgstr "文件命名规则"
 
 # In Community page
 msgid "Creating"
-msgstr "创造"
+msgstr "制作"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
@@ -289,8 +289,8 @@ msgid ""
 " eight friends on a single computer, play on a local network or play online "
 "with other players all over the world."
 msgstr ""
-"在故事模式中，你必续打败邪恶的 "
-"Nolok，让吉祥物王国再次安全！您可以自己与电脑比赛，参加锦标赛，或者在计时模式中超越自己的最快时间。您还可以在一台电脑上与多达八位朋友一起比赛、对战或踢足球，在局域网上或与来自世界各地的其他玩家一起线上遊玩。"
+"在故事模式中，您必续打败邪恶的 "
+"Nolok，让吉祥物王国再次恢复宁静！您可以自己与电脑比赛，参加锦标赛，或者在计时模式中超越自己的最快时间。您还可以在一台电脑上与多达八位朋友一起比赛、对战或踢足球，在局域网上或与来自世界各地的其他玩家一起线上遊玩。"
 
 msgid "Main Characters"
 msgstr "主要角色"
@@ -302,7 +302,7 @@ msgid ""
 "The hero of SuperTuxKart. Tux is a brave penguin who must save his friend, "
 "Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
 msgstr ""
-"SuperTuxKart 的主角。Tux 是一只勇敢的企鹅，他的使命是从 Nolok 的魔爪救出他最好的朋友：Gnu。Tux 是 Linux 的吉祥物。"
+"SuperTuxKart 的主角。Tux 是一只勇敢的企鹅，他的使命是从 Nolok 的魔爪救出他的导师 Gnu。Tux 是 Linux 的吉祥物。"
 
 msgid "Gnu"
 msgstr "Gnu"
@@ -312,7 +312,7 @@ msgid ""
 "pagoda. When Nolok captures him, the entire kingdom will try to save him. "
 "Gnu is the mascot of the GNU Project."
 msgstr ""
-"Tux 的良师益友。Gnu 平日喜欢骑着他的魔毯，平静地在宝塔中生活。在 Nolok 抓住他时，举国上下都会拯救他。Gnu 是 GNU 项目 的吉祥物。"
+"Tux 的智慧导师 Gnu 平日里乘着飞行魔毯，平静地生活在宝塔之中，他被 Nolok 抓住的遭遇震惊了整个王国。Gnu 是 GNU 项目 的吉祥物。"
 
 msgid "Nolok"
 msgstr "Nolok"
@@ -320,7 +320,7 @@ msgstr "Nolok"
 msgid ""
 "The villain of SuperTuxKart, Nolok is always concocting some sort of "
 "malevolent plan inside his fiery lava castle."
-msgstr "作为 SuperTuxKart 的反派，Nolok 总是在他灼热的熔岩城堡內计划某种恶毒的计划。"
+msgstr "作为 SuperTuxKart 的反派，Nolok 总是在他灼热的熔岩城堡内筹备他的邪恶计划。"
 
 msgid "Additional Characters"
 msgstr "其他角色"
@@ -332,7 +332,7 @@ msgid ""
 "Sara is a powerful magician, and the ruler of the Mascot Kingdom. She races "
 "using a specialised snowmobile. She is the mascot of the OpenGameArt "
 "website."
-msgstr "Sara 是一个强大的魔术师，也是吉祥物王国的统治者。她使用她专用的雪地车进行比赛。她是 OpenGameArt 网站的吉祥物。"
+msgstr "Sara 是一位强大的法师，也是吉祥物王国的统治者。她使用她专用的雪地车参加比赛。她是 OpenGameArt 网站的吉祥物。"
 
 msgid "Wilber"
 msgstr "Wilber"
@@ -348,7 +348,7 @@ msgstr "Puffy"
 msgid ""
 "Puffy races mainly to earn enough money to accomplish his dream: to buy a "
 "submarine. He is the mascot of the OpenBSD project."
-msgstr "Puffy 参加比赛的目的是赚取足够的钱来完成他的梦想：买一艘潜水艇。他是 OpenBSD 项目的吉祥物。"
+msgstr "Puffy 参加比赛的目的是赚取足够的钱来实现他的梦想：买一艘潜水艇。他是 OpenBSD 项目的吉祥物。"
 
 msgid "Pidgin"
 msgstr "Pidgin"
@@ -376,8 +376,7 @@ msgid ""
 "Amanda was rescued by monks when they found her in a basket as a cub. She "
 "now teaches the ancient art of racing in a monastery. She is the mascot of "
 "Window Maker."
-msgstr ""
-"Amanda 被僧侣们救起，当时他们在一个篮子里发现了还是幼崽的她。她现在在寺院里教授古老的赛马艺术。她是 Window Maker 的吉祥物。"
+msgstr "Amanda 年幼时，在一个篮子中被寺庙里的僧侣们救起。现在她在寺庙里教授古老的御车之术。她是 Window Maker 的吉祥物。"
 
 msgid "Emule"
 msgstr "Emule"
@@ -430,7 +429,7 @@ msgstr "Konqi"
 msgid ""
 "While Konqi's ancient ancestors were dangerous and feared, dragons today are"
 " harmless... mostly. He is the mascot of the KDE project."
-msgstr "虽然 Konqi 的祖先是危险而恐怖的，但现代的龙是温和的......至少大部分是。他是 KDE 项目的吉祥物。"
+msgstr "虽然 Konqi 的祖先们是危险而恐怖的，但现在的龙十分温和......至少大部分是。他是 KDE 项目的吉祥物。"
 
 msgid "Adiumy"
 msgstr "Adiumy"
@@ -454,7 +453,7 @@ msgid ""
 "world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital "
 "painting program."
 msgstr ""
-"一位 Krita 用户首先为一本培训手册画了 Kiki，但手册一印出来，琪琪就决定跳出书页，骑着她的笔驱动的飞机环游世界。Kiki 是 Krita "
+"Kiki 一开始只是一位 Krita 用户在培训手册上的作品，但手册被打印出来后，她决定跳出书页，骑着画笔驱动的飞机环游世界。Kiki 是 Krita "
 "数字绘画程序的吉祥物。"
 
 msgid "Pepper"
@@ -467,7 +466,7 @@ msgid ""
 "main character of the Pepper & Carrot project."
 msgstr ""
 "Pepper 是个小女巫，喜欢和她的猫 Carrot 一起玩。当她的朋友 Kiki "
-"帮她用氮气喷射系统和定制的排气口来调整她的扫帚时，她对赛车的热情被点燃。Pepper 是 Pepper & Carrot 项目的主角。"
+"在她的魔法扫帚上安装了氮气喷射系统和定制排气口后，她对赛车的热情被点燃。Pepper 是 Pepper & Carrot 项目的主角。"
 
 msgid "...And many more!"
 msgstr "……还有更多！"
