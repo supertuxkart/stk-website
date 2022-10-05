@@ -592,7 +592,7 @@ msgstr ""
 
 msgid "Get the latest release candidate:"
 msgstr ""
-"Získejte nejnovějšího (RC) verzi kandidáta na vydání (release candidate):"
+"Získejte nejnovější (RC) verzi kandidáta na vydání (release candidate):"
 
 msgid "Get SuperTuxKart on Itch.io"
 msgstr "Získejte SuperTuxKart na Itch.io"
