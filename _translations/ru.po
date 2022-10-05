@@ -38,7 +38,7 @@ msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
 "tracks, and modes to play."
 msgstr ""
-"SuperTuxKart — трёхмерная гоночная свободная аркада с различными "
+"SuperTuxKart — это свободная трёхмерная гоночная аркада с разнообразными "
 "персонажами, треками и режимами игры."
 
 # Drop down menu when viewing SuperTuxKart homepage in mobile device
@@ -49,7 +49,7 @@ msgid "FAQ"
 msgstr "ЧаВо"
 
 msgid "Get Involved"
-msgstr "Участвовать"
+msgstr "Сообщество"
 
 msgid "Blog"
 msgstr "Блог"
@@ -96,7 +96,7 @@ msgid "Media"
 msgstr "Медиа"
 
 msgid "YouTube"
-msgstr "YouTube"
+msgstr "Канал в YouTube"
 
 msgid "Gallery"
 msgstr "Галерея"
@@ -112,7 +112,7 @@ msgid "Modding"
 msgstr "Модификация"
 
 msgid "GitHub"
-msgstr "GitHub"
+msgstr "Репозиторий в GitHub"
 
 # Clicking Documentation will go to SuperTuxKart doxygen
 msgid "Documentation"
@@ -137,7 +137,7 @@ msgid "Info"
 msgstr "Информация"
 
 msgid "Return to Get Involved"
-msgstr "Вернуться на «Участвовать»"
+msgstr "Вернуться в «Сообщество»"
 
 msgid "Making Library Nodes"
 msgstr "Создание узлов библиотеки"
@@ -183,7 +183,7 @@ msgid "Building from source"
 msgstr "Сборка из исходников"
 
 msgid "Coding style guidelines"
-msgstr "Рекомендации по стилю кодинга"
+msgstr "Инструкции по стилю кодинга"
 
 msgid "Doxygen documentation"
 msgstr "Документация Doxygen"
@@ -245,23 +245,23 @@ msgid "Style"
 msgstr "Стиль"
 
 msgid "Licensing"
-msgstr "Лицензия"
+msgstr "Лицензирование"
 
 msgid "Artist Debug Mode"
 msgstr "Режим отладки артиста"
 
 # In Community page
 msgid "Guidelines"
-msgstr "Методические рекомендации"
+msgstr "Инструкции"
 
 msgid "Texture Guidelines"
-msgstr "Рекомендации по текстурам"
+msgstr "Инструкции по текстурам"
 
 msgid "3D Model Guidelines"
-msgstr "Рекомендации по 3D-моделям"
+msgstr "Инструкции по 3D-моделям"
 
 msgid "Music and SFX Guidelines"
-msgstr "Рекомендации по музыке и звуковым эффектам"
+msgstr "Инструкции по музыке и звуковым эффектам"
 
 msgid "File naming conventions"
 msgstr "Соглашения об именовании файлов"
@@ -323,8 +323,8 @@ msgid ""
 "Gnu is the mascot of the GNU Project."
 msgstr ""
 "Гну, мудрый наставник Такса, летает на ковре-самолете и мирно обидает в "
-"пагоде. После того, как Нолок захватил его, всё королевство попытается "
-"спасти его. Гну — это талисман проекта GNU."
+"пагоде. После того, как Нолок захватил Гну, всё королевство попытается "
+"спасти его. Является талисманом проекта GNU."
 
 msgid "Nolok"
 msgstr "Нолок"
@@ -405,7 +405,7 @@ msgid ""
 "Window Maker."
 msgstr ""
 "Аманда была спасена монахами, которые нашли её ещё детенышем в корзине. "
-"Сейчас она преподает древнее искусство гонок в монастыре. Она является "
+"Сейчас она преподаёт древнее искусство гонок в монастыре. Она является "
 "талисманом Window Maker."
 
 msgid "Emule"
@@ -477,16 +477,11 @@ msgid "Adiumy"
 msgstr "Адиуми"
 
 msgid ""
-"Adiumy is an adorable duckling who started kart racing when he realized his "
-"legs are too short to become a soccer star. Although the other mascots "
-"sometimes make fun of his waddling gait, he is respected as one of the most "
-"talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
+"Adiumy started kart racing when he realized his legs are too short to be a "
+"soccer star. Although the other mascots sometimes make fun of his waddling "
+"gait, he is highly respected as one of the most talented racing drivers in "
+"the kingdom. Adiumy is the mascot of Adium."
 msgstr ""
-"Адиуми — очаровательный утенок, пристрастившийся к картингу после того, как "
-"понял, что у него слишком короткие ноги, чтобы стать звездой футбола. Хотя "
-"другие талисманы иногда посмеиваются над его ковыляющей походкой, его "
-"уважают как одного из самых талантливых гонщиков в королевстве. Адиуми — "
-"талисман Adium."
 
 msgid "Kiki"
 msgstr "Кики"
@@ -561,7 +556,7 @@ msgid "Installer-less archive"
 msgstr "Архив без установки"
 
 msgid "Get on Google Play Store"
-msgstr "Получить в Google Play Store"
+msgstr "Получить в Google Play"
 
 msgid "Get the APK"
 msgstr "Получить APK"
@@ -600,13 +595,13 @@ msgid "Get the latest release candidate:"
 msgstr "Получить предвыпускную версию:"
 
 msgid "Get SuperTuxKart on Itch.io"
-msgstr "Получить SuperTuxKart в Itch.io"
+msgstr "Получить SuperTuxKart с Itch.io"
 
 msgid "Discover more..."
 msgstr "Узнать больше…"
 
 msgid "Latest Blog Post"
-msgstr "Последнее сообщение в блоге"
+msgstr "Последняя запись в блоге"
 
 # Title of prerequisites popup which describes prerequisites before reading
 # some articles
