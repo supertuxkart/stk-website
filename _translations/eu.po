@@ -1,0 +1,616 @@
+# 
+# Translators:
+# Benau, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: stk-website\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-11-10 17:58+0000\n"
+"Last-Translator: Benau, 2022\n"
+"Language-Team: Basque (https://www.transifex.com/supertuxkart/teams/36024/eu/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Shown if empty search result
+msgid "No results found"
+msgstr "Ez dira emaitzak aurkitu"
+
+msgid "SuperTuxKart"
+msgstr "SuperTuxKart"
+
+msgid "Download"
+msgstr "Deskargatu"
+
+msgid "Discover"
+msgstr "Aurkitu"
+
+msgid "Community"
+msgstr "Elkarte"
+
+# Table of contents which display near the top of each page
+msgid "Contents"
+msgstr "Edukia"
+
+msgid ""
+"SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
+"tracks, and modes to play."
+msgstr ""
+"SuperTuxKart 3D iturburu irekiko arkade karrera jokoa da, hainbat pertsonai,"
+" bide eta jokatzeko modu desberdinekin"
+
+# Drop down menu when viewing SuperTuxKart homepage in mobile device
+msgid "Menu"
+msgstr "Menua"
+
+msgid "FAQ"
+msgstr "FAQ"
+
+msgid "Get Involved"
+msgstr "Sartu"
+
+msgid "Blog"
+msgstr "Bloga"
+
+msgid "Donate"
+msgstr "Donazio"
+
+# Dropdown menu which shows language selection, etc.
+msgid "Tools"
+msgstr "Tresnak"
+
+msgid "Language"
+msgstr "Hizkuntza"
+
+msgid "Management"
+msgstr "Kudeaketa"
+
+msgid "New page"
+msgstr "Orrialde berria"
+
+msgid "Edit page"
+msgstr "Editatu orrialdea"
+
+msgid "Page history"
+msgstr "Orrialde historia"
+
+msgid "Visit the main page"
+msgstr "Orrialde nagusira joan"
+
+msgid "Forum"
+msgstr "Foroa"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+# Clicking Addons will go to online.supertuxkart.net
+msgid "Addons"
+msgstr "Addons"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "Media"
+msgstr "Media"
+
+msgid "YouTube"
+msgstr "Youtube"
+
+msgid "Gallery"
+msgstr "Galeria"
+
+msgid "Posters"
+msgstr "Posterrak"
+
+msgid "Development"
+msgstr "Garapena"
+
+# Clicking Modding will go to Commuity page
+msgid "Modding"
+msgstr "Komunitatea"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+# Clicking Documentation will go to SuperTuxKart doxygen
+msgid "Documentation"
+msgstr "Dokumentazioa"
+
+msgid "About us"
+msgstr "Guri buruz"
+
+# Clicking About the team will go to a page which show SuperTuxKart team
+# member infos
+msgid "About the team"
+msgstr "Taldeari buruz"
+
+msgid "About SuperTuxKart"
+msgstr "SuperTuxKart-i buruz"
+
+msgid "Projects using SuperTuxKart"
+msgstr "Proiektuak SuperTuxKart erabiliz"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Info"
+
+msgid "Return to Get Involved"
+msgstr "Bueltatu Sartzera"
+
+msgid "Making Library Nodes"
+msgstr "Liburutegi nodoak sortzen"
+
+msgid "Making Karts"
+msgstr "Kart-ak sortzen"
+
+msgid "Making Tracks"
+msgstr "Bideak sortzen"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Kodea"
+
+msgid "IRC"
+msgstr "IRC"
+
+msgid "Mailing List"
+msgstr "Eposta lista"
+
+msgid "Reddit"
+msgstr "Reddit"
+
+msgid "Support Us"
+msgstr "Guri lagundu"
+
+msgid "Donations help us keep servers running and more!"
+msgstr "Donazioak gure zerbitzariak martxan egoten laguntzen dute"
+
+# In Community page
+msgid "For Programmers"
+msgstr "Programatzaileentzat"
+
+# In Community page
+msgid "Programming"
+msgstr "Programatzen"
+
+msgid "Source control"
+msgstr "Iturburu kontrola"
+
+msgid "Building from source"
+msgstr "Iturburutik sortzen"
+
+msgid "Coding style guidelines"
+msgstr "Kodeketa estiloen jarraibideak"
+
+msgid "Doxygen documentation"
+msgstr "Doxygen dokumentazioa"
+
+msgid "Tasks for beginners"
+msgstr "Hasi berrientzako jarduerak"
+
+msgid "Scripting"
+msgstr "Idazten"
+
+# In Community page
+msgid "Misc"
+msgstr "Misc"
+
+msgid "Making challenges"
+msgstr "Erronkak sortzen"
+
+msgid "About releasing new versions"
+msgstr "Bertsio berriak plazaratzeari buruz"
+
+msgid "About player rankings"
+msgstr "Jokalarien ranking-ari buruz"
+
+# In Community page
+msgid "For Everyone"
+msgstr "Guztientzat"
+
+msgid "Connecting your Wiimote"
+msgstr "Wiimote-a konektatzen"
+
+msgid "Translating SuperTuxKart"
+msgstr "SuperTuxKart itzultzen"
+
+msgid "Reporting Problems"
+msgstr "Arazoak salatzen"
+
+msgid "Voice Acting"
+msgstr "Ahots antzezpena"
+
+msgid "Terms and conditions"
+msgstr "Terminoak eta baldintzak"
+
+msgid "Privacy policy"
+msgstr "Pribatasun politika"
+
+# In Community page
+msgid "For Artists"
+msgstr "Artistentzako"
+
+# In Community page
+msgid "General Information"
+msgstr "Informazio orokorra"
+
+msgid "Installing Tools"
+msgstr "Tresnak instalatzen"
+
+# Page links to art style documentaion of STK
+msgid "Style"
+msgstr "Estiloa"
+
+msgid "Licensing"
+msgstr "Lizentziatzen"
+
+msgid "Artist Debug Mode"
+msgstr "Artista arazketa mota"
+
+# In Community page
+msgid "Guidelines"
+msgstr "Jarraibideak"
+
+msgid "Texture Guidelines"
+msgstr "Textura jarraibideak"
+
+msgid "3D Model Guidelines"
+msgstr "3D Modelo Jarraibideak"
+
+msgid "Music and SFX Guidelines"
+msgstr "Musika eta SFX jarraibideak"
+
+msgid "File naming conventions"
+msgstr "Artxiboak zendatzeko konbentzioak"
+
+# In Community page
+msgid "Creating"
+msgstr "Sortzen"
+
+# Page title of discover page
+msgid "Welcome to the Mascot Kingdom!"
+msgstr "Ongi etorri maskoten erresumara"
+
+msgid ""
+"Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a "
+"variety of characters, tracks, and modes to play. Our aim is to create a "
+"game that is more fun than realistic, and provide an enjoyable experience "
+"for all ages."
+msgstr ""
+"Kart-ak- Nitro-a. Akzioa! SuperTuxKart 3D iturburu irekiko arkade karrera "
+"jokoa da, hainbat pertsonai, bide eta jokatzeko modu desberdinekin. Gure "
+"helburua errealista baino dibertigarriagoa den joko bat sortzea da, eta adin"
+" guztientzako esperientzia atsegina eskaintzea"
+
+msgid ""
+"In Story mode, you must face the evil Nolok, and defeat him in order to make"
+" the Mascot Kingdom safe once again! You can race by yourself against the "
+"computer, compete in several Grand Prix cups, or try to beat your fastest "
+"time in Time Trial mode. You can also race, battle or play soccer with up to"
+" eight friends on a single computer, play on a local network or play online "
+"with other players all over the world."
+msgstr ""
+"Historia moduan, Nolok gaiztoari aurre egin behar diozu, eta hura garaitu "
+"Maskoten Erresuma berriro ere seguru egon dadin! Zuk zeuk korri dezakezu "
+"ordenagailuaren aurka, Sari Nagusietako hainbat kopetan lehiatu edo "
+"erlojupeko moduan zure denborarik azkarrena gainditzen saiatu. Gainera, "
+"zortzi lagunekin lasterketa egin, borrokatu edo futbolean jolastu dezakezu "
+"ordenagailu bakarrean, sare lokal batean jolastu edo mundu osoko beste "
+"jokalari batzuekin sarean jolastu."
+
+msgid "Main Characters"
+msgstr "Pertsonai nagusiak"
+
+msgid "Tux"
+msgstr "Tux"
+
+msgid ""
+"The hero of SuperTuxKart. Tux is a brave penguin who must save his friend, "
+"Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
+msgstr ""
+"SuperTuxKart-en heroia. Tux pinguino ausart bat da, bere laguna, Gnu, "
+"Noloken atzapar gaiztoetatik salbatu behar duena. Tux Linux-en maskota da."
+
+msgid "Gnu"
+msgstr "Gnu"
+
+msgid ""
+"Tux's wise mentor, Gnu rides a flying carpet and lives peacefully in a "
+"pagoda. When Nolok captures him, the entire kingdom will try to save him. "
+"Gnu is the mascot of the GNU Project."
+msgstr ""
+"Tuxen mentore zuhurra, Gnu alfonbra hegalari batean doa eta pagoda batean "
+"bizi da. Nolokek harrapatzen duenean, erresuma osoa saiatuko da salbatzen. "
+"Gnu GNU proiektuaren maskota da."
+
+msgid "Nolok"
+msgstr "Nolok"
+
+msgid ""
+"The villain of SuperTuxKart, Nolok is always concocting some sort of "
+"malevolent plan inside his fiery lava castle."
+msgstr ""
+"SuperTuxKart-ren bilaua, Nolok beti dabil plan maltzurren bat prestatzen "
+"bere suzko laba gazteluaren barruan."
+
+msgid "Additional Characters"
+msgstr "Karaktere gehigarriak"
+
+msgid "Sara"
+msgstr "Sara"
+
+msgid ""
+"Sara is a powerful magician, and the ruler of the Mascot Kingdom. She races "
+"using a specialised snowmobile. She is the mascot of the OpenGameArt "
+"website."
+msgstr ""
+"Sara mago boteretsua da, eta Mascot Erresumako agintaria. Elurrezko mugikor "
+"espezializatu bat erabiltzen du. OpenGameArt webguneko maskota da."
+
+msgid "Wilber"
+msgstr "Wilber"
+
+msgid ""
+"Wilber is the official cameraman who works for WTXB-TV to record kart races,"
+" which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
+msgstr ""
+"Wilber da WTXB-TV kart lasterketak grabatzeko kameralari ofiziala, Mascot "
+"Erresuman oso ezagunak direnak. GIMPeko maskota da."
+
+msgid "Puffy"
+msgstr "Puffy"
+
+msgid ""
+"Puffy races mainly to earn enough money to accomplish his dream: to buy a "
+"submarine. He is the mascot of the OpenBSD project."
+msgstr ""
+"Bere ametsa betetzeko adina diru irabazteko, urpekontzi bat erosteko. "
+"OpenBSD proiektuaren maskota da Puffy."
+
+msgid "Pidgin"
+msgstr "Pidgin"
+
+msgid ""
+"Pidgin's ability to fly makes him perfect to deliver the results of the "
+"Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
+msgstr ""
+"Pidgin-ek hegan egin ahal izateko gaitasuna bikain bihurtzen du Grand "
+"Prixeko emaitzak Mascot Erresumaren inguruan emateko. Pidgin-en maskota da."
+
+msgid "Beastie"
+msgstr "Beastie"
+
+msgid ""
+"Always ready to take part in an epic race, Beastie lives in Ravenbridge "
+"mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
+msgstr ""
+"Lasterketa epiko batean parte hartzeko beti prest, Beastie Ravenbridgeko "
+"etxean bizi da bere lagun Gavrocherekin. Beastie BSD proiektuaren maskota "
+"da. "
+
+msgid "BSD Daemon used with permission"
+msgstr "BSD Daemon baimenarekin erabiltzen zen."
+
+msgid "Amanda"
+msgstr "Amanda"
+
+msgid ""
+"Amanda was rescued by monks when they found her in a basket as a cub. She "
+"now teaches the ancient art of racing in a monastery. She is the mascot of "
+"Window Maker."
+msgstr ""
+"Amanda fraideek erreskatatu zuten otarre batean aurkitu zutenean. Orain "
+"monasterio batean lasterketak egiteko antzinako artea irakasten du. Window "
+"Makerren maskota da."
+
+msgid "Emule"
+msgstr "Emule"
+
+msgid ""
+"Emule's superior knowledge of mechanical engineering allowed him to build "
+"his own kart with a turbocharged engine. He is the mascot of eMule."
+msgstr ""
+"Emulek Ingeniaritza mekanikoari buruz zuen ezagupen gorenak aukera eman zion"
+" bere kart propioa eraikitzeko motore turbokargatu batekin. eMuleren maskota"
+" da. "
+
+msgid "Suzanne"
+msgstr "Suzanne"
+
+msgid ""
+"Racing has been Suzanne's dream since childhood. She began her racing career"
+" in the prestigious Kart Academy of Val Verde. She is the mascot of Blender."
+msgstr ""
+"Suzanneren ametsa lasterketak  izan dira txikitatik. Bere karrera Val "
+"Verdeko Kart Akademia ospetsuan hasi zuen. Blenderren maskota da."
+
+msgid "Gavroche"
+msgstr "Gavroche"
+
+msgid ""
+"Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes"
+" he makes scary noises, tricking people into thinking the house is haunted. "
+"He is the mascot of MediaGoblin."
+msgstr ""
+
+msgid "Hexley"
+msgstr "Hexley"
+
+msgid ""
+"Hexley's ancestors started kart racing many years ago, and generation after "
+"generation, they became very good at it. He is the mascot of Darwin."
+msgstr ""
+"Hexley-ren arbasoak duela urte asko hasi ziren kart lasterketetan, eta "
+"belaunaldiz belaunaldi, oso onak bihurtu ziren horretan. Darwinen maskota "
+"da."
+
+msgid "Xue"
+msgstr "Xue"
+
+msgid ""
+"Xue likes to stand out from the crowd, and her unusual kart reflects this. "
+"She races a special hovercraft, which is small enough to be driven by a "
+"mouse. She is the mascot of XFCE."
+msgstr ""
+"Xueri jendearen artean nabarmentzea gustatzen zaio, eta gidatzen duen "
+"ezohiko kart-ak islatzen du. Hovercraft berezi baten lasterketa egiten du, "
+"sagu batek gidatzeko adina txikia dena. XFCEren maskota da."
+
+msgid "Konqi"
+msgstr "Konqi"
+
+msgid ""
+"While Konqi's ancient ancestors were dangerous and feared, dragons today are"
+" harmless... mostly. He is the mascot of the KDE project."
+msgstr ""
+"Konqiren antzinako arbasoak arriskutsuak eta beldurrak ziren arren, gaur "
+"egungo herensugeak kaltegabeak dira... gehienetan. KDE proiektuko maskota "
+"da."
+
+msgid "Adiumy"
+msgstr "Adiumy"
+
+msgid ""
+"Adiumy started kart racing when he realized his legs are too short to be a "
+"soccer star. Although the other mascots sometimes make fun of his waddling "
+"gait, he is highly respected as one of the most talented racing drivers in "
+"the kingdom. Adiumy is the mascot of Adium."
+msgstr ""
+
+msgid "Kiki"
+msgstr "Kiki"
+
+msgid ""
+"A Krita user first drew Kiki for a training manual, but as soon as the "
+"manual was printed, Kiki decided to jump off the pages and race around the "
+"world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital "
+"painting program."
+msgstr ""
+"Krita erabiltzaile batek Kiki marraztu zuen lehenik entrenamendurako "
+"eskuliburu baterako, baina eskuliburua inprimatu bezain laster, Kikik "
+"orrietatik jauzi egin eta munduan zehar lasterketak egitea erabaki zuen "
+"boligrafoz bultzatutako hegazkinean. Kiki Krita pintura digital programako "
+"maskota da."
+
+msgid "Pepper"
+msgstr "Pepper"
+
+msgid ""
+"Pepper is a little witch who loves playing with her cat Carrot. Her "
+"enthusiasm for racing ignited when her friend Kiki helped her to tune her "
+"broom with a nitro injection system and custom exhaust tips. Pepper is the "
+"main character of the Pepper & Carrot project."
+msgstr ""
+"Pepper bere katuarekin Azenarioarekin jolastea gustatzen zaion sorgin txiki "
+"bat da. Lasterketetarako ilusioa piztu zitzaion Kiki lagunak bere erratza "
+"nitro injekzio sistema batekin eta ihes-puntu pertsonalizatuekin "
+"sintonizatzen lagundu zion. Pepper da Pepper-en eta Carrot-en pertsonaia "
+"nagusia"
+
+msgid "...And many more!"
+msgstr "...Eta askoz gehiago"
+
+msgid ""
+"You can create your own characters, tracks, and arenas and share them with "
+"the SuperTuxKart community! You can do this by going to "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+msgstr ""
+"Zure pertsonaiak, ibilbideak eta aretoak sor ditzakezu eta SuperTuxKart "
+"komunitatearekin parteka ditzakezu! Hau egin dezakezu helbidera joanez "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+
+msgid ""
+"If you are interested you can take a look at the [community](Community) "
+"page."
+msgstr ""
+"Interesa baduzu begirada bat eman dezakezu  [community](Community) "
+"orrialdean "
+
+# Full game installer / packages for STK
+msgid "Full game"
+msgstr "Joko osoa"
+
+msgid "Intel / AMD 32-bit"
+msgstr "Intel / AMD 32-bit"
+
+msgid "Intel / AMD 64-bit"
+msgstr "Intel / AMD 64-bit"
+
+msgid "ARM 32-bit"
+msgstr "ARM 32-bit"
+
+msgid "ARM 64-bit"
+msgstr "ARM 64-bit"
+
+# All-in-one architectures for STK installer / packages
+msgid "all architectures"
+msgstr "Arkitektura guztiak"
+
+msgid "Extract and run **run_game.sh** inside the folder."
+msgstr "Atera eta exekutatu **run_game.sh** karpeta barruan"
+
+msgid "Installer-less archive"
+msgstr "Instalatzailerik gabeko artxiboa"
+
+msgid "Get on Google Play Store"
+msgstr "Eskuratu Google Play Store-n"
+
+msgid "Get the APK"
+msgstr "Eskuratu APK"
+
+msgid "Unzip the archive to microSD root to install."
+msgstr "Deskonprimitu artxiboa microSD errora instalatzeko."
+
+msgid "Source Code"
+msgstr "Iturburu Kodea"
+
+msgid ""
+"To get the very latest code, see the page [Source control](Source_control)."
+msgstr ""
+"Azken kodea lortzeko, ikusi [Source control](Source_control) orrialdea."
+
+msgid "Download from GitHub"
+msgstr "Deskargatu GitHub-etik"
+
+# Toggle for table of contents
+msgid "Show"
+msgstr "Erakutsi"
+
+# Toggle for table of contents
+msgid "Hide"
+msgstr "Izkutatu"
+
+msgid ""
+"Preview release is available [here](https://github.com/supertuxkart/stk-"
+"code/releases/preview)."
+msgstr ""
+"Aurrebista-oharra eskuragarri dago [hemen] "
+"(https://github.com/supertuxkart/stk-code/releases/preview)."
+
+msgid "Get the latest release candidate:"
+msgstr "Lortu azken bertsiorako hautagaia:"
+
+msgid "Get SuperTuxKart on Itch.io"
+msgstr "Eskuratu SuperTuxKart Itch.io-en"
+
+msgid "Discover more..."
+msgstr "Ezagutu gehiago..."
+
+msgid "Latest Blog Post"
+msgstr "Azken Blog mezua"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "Aurrebaldintzak"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr ""
+"Hurrengo artikuluak irakurri beharko zenituzke, tutoriala jarraitu baino "
+"lehen"
+
+msgid "Click here if you are not redirected."
+msgstr "Klikatu hemen birbideratua izan ez bazara "
