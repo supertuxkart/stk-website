@@ -319,13 +319,10 @@ msgstr ""
 msgid "Pidgin's ability to fly makes him perfect to deliver the results of the Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
 msgstr ""
 
-msgid "Beastie"
+msgid "Godette"
 msgstr ""
 
-msgid "Always ready to take part in an epic race, Beastie lives in Ravenbridge mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
-msgstr ""
-
-msgid "BSD Daemon used with permission"
+msgid "Godette is the mascot of Godot and truly a tech girl. She is never seen without her friend, GDBot, a robot she built and programmed herself. They even race together in a unique tandem kart."
 msgstr ""
 
 msgid "Amanda"
@@ -349,7 +346,7 @@ msgstr ""
 msgid "Gavroche"
 msgstr ""
 
-msgid "Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes he makes scary noises, tricking people into thinking the house is haunted. He is the mascot of MediaGoblin."
+msgid "Gavroche is a goblin that owns the Ravenbridge mansion. Sometimes he makes scary noises, tricking people into thinking the house is haunted. He is the mascot of MediaGoblin."
 msgstr ""
 
 msgid "Hexley"

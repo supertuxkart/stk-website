@@ -92,15 +92,13 @@ title: Discover
 {% include character_presentation_small name=pidgin type="even" description=pidgin_desc icon="/assets/wiki/Character_pidgin_icon.png" %}
 </tr>
 <tr>
-{%- capture beastie -%}
-{%translate Beastie%}
+{%- capture godette -%}
+{%translate Godette%}
 {%- endcapture -%}
-{%- capture beastie_desc -%}
-{%translate "Always ready to take part in an epic race, Beastie lives in Ravenbridge mansion with his friend Gavroche. Beastie is the mascot of the BSD project."%}
-
-[{%translate BSD Daemon used with permission%}](https://www.mckusick.com/copyright.html)
+{%- capture godette_desc -%}
+{%translate "Godette is the mascot of Godot and truly a tech girl. She is never seen without her friend, GDBot, a robot she built and programmed herself. They even race together in a unique tandem kart."%}
 {%- endcapture -%}
-{% include character_presentation_small name=beastie type="odd" description=beastie_desc icon="/assets/wiki/Character_beastie_icon.png" %}
+{% include character_presentation_small name=godette type="odd" description=godette_desc icon="/assets/wiki/Character_godette_icon.png" %}
 
 {%- capture amanda -%}
 {%translate Amanda%}
@@ -132,7 +130,7 @@ title: Discover
 {%translate Gavroche%}
 {%- endcapture -%}
 {%- capture gavroche_desc -%}
-{%translate "Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes he makes scary noises, tricking people into thinking the house is haunted. He is the mascot of MediaGoblin."%}
+{%translate "Gavroche is a goblin that owns the Ravenbridge mansion. Sometimes he makes scary noises, tricking people into thinking the house is haunted. He is the mascot of MediaGoblin."%}
 {%- endcapture -%}
 {% include character_presentation_small name=gavroche type="odd" description=gavroche_desc icon="/assets/wiki/Character_gavroche_icon.png" %}
 
