@@ -1,14 +1,15 @@
 # 
 # Translators:
-# 黃柏諺 <s8321414@gmail.com>, 2021
 # Benau, 2021
+# John Lok Ho, 2021
+# 黃柏諺 <s8321414@gmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Benau, 2021\n"
+"Last-Translator: 黃柏諺 <s8321414@gmail.com>, 2022\n"
 "Language-Team: Chinese (Taiwan) (https://www.transifex.com/supertuxkart/teams/36024/zh_TW/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -34,14 +35,6 @@ msgstr "社群"
 # Table of contents which display near the top of each page
 msgid "Contents"
 msgstr "目錄"
-
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "程式碼"
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr "資訊"
 
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
@@ -138,6 +131,26 @@ msgstr "關於 SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
 msgstr "使用 SuperTuxKart 的專案"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "資訊"
+
+msgid "Return to Get Involved"
+msgstr "回到「參與」"
+
+msgid "Making Library Nodes"
+msgstr "製作函式庫節點"
+
+msgid "Making Karts"
+msgstr "製作卡丁車"
+
+msgid "Making Tracks"
+msgstr "製作賽道"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "程式碼"
 
 msgid "IRC"
 msgstr "IRC"
@@ -256,18 +269,6 @@ msgstr "檔案命名規則"
 msgid "Creating"
 msgstr "創造"
 
-msgid "Making Textures"
-msgstr "製作材質"
-
-msgid "Making Library Nodes"
-msgstr "製作函式庫節點"
-
-msgid "Making Karts"
-msgstr "製作卡丁車"
-
-msgid "Making Tracks"
-msgstr "製作賽道"
-
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
 msgstr "歡迎來到吉祥物王國！"
@@ -358,18 +359,16 @@ msgid ""
 "Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
 msgstr "Pidgin 的飛行能力讓他非常適合在吉祥物王國全境傳遞大獎賽的結果。他是 Pidgin 的吉祥物。"
 
-msgid "Beastie"
-msgstr "Beastie"
+msgid "Godette"
+msgstr "Godette"
 
 msgid ""
-"Always ready to take part in an epic race, Beastie lives in Ravenbridge "
-"mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
+"Godette is the mascot of Godot and truly a tech girl. She is never seen "
+"without her friend, GDBot, a robot she built and programmed herself. They "
+"even race together in a unique tandem kart."
 msgstr ""
-"Beastie 隨時準備參加一場史詩級的比賽，他和他的朋友 Gavroche 住在 Ravenbridge 的豪宅裡。Beastie 是 BSD "
-"專案的吉祥物。"
-
-msgid "BSD Daemon used with permission"
-msgstr "經過授權使用的 BSD 惡魔"
+"Godette 是 Godot 的吉祥物，是真正的科技女孩。她總是與她的朋友 (GDBot) "
+"在一起，這位朋友是她自己建造與編寫程式的機器人。他們甚至在獨特的雙人卡丁車中一起比賽。"
 
 msgid "Amanda"
 msgstr "Amanda"
@@ -400,12 +399,12 @@ msgid "Gavroche"
 msgstr "Gavroche"
 
 msgid ""
-"Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes"
-" he makes scary noises, tricking people into thinking the house is haunted. "
-"He is the mascot of MediaGoblin."
+"Gavroche is a goblin that owns the Ravenbridge mansion. Sometimes he makes "
+"scary noises, tricking people into thinking the house is haunted. He is the "
+"mascot of MediaGoblin."
 msgstr ""
-"Gavroche 是一個與 Beastie 分享 Ravenbridge 豪宅的哥布林。有時他會發出可怕的聲音，讓人們誤以為房子裡鬧鬼。他是 "
-"MediaGoblin 的吉祥物。"
+"Gavroche 是一個擁有 Ravenbridge 豪宅的哥布林。有時他會發出可怕的聲音，讓人們誤以為房子裡鬧鬼。他是 MediaGoblin "
+"的吉祥物。"
 
 msgid "Hexley"
 msgstr "Hexley"
@@ -436,14 +435,14 @@ msgid "Adiumy"
 msgstr "Adiumy"
 
 msgid ""
-"Adiumy is an adorable duckling who started kart racing when he realized his "
-"legs are too short to become a soccer star. Although the other mascots "
-"sometimes make fun of his waddling gait, he is respected as one of the most "
-"talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
+"Adiumy started kart racing when he realized his legs are too short to be a "
+"soccer star. Although the other mascots sometimes make fun of his waddling "
+"gait, he is highly respected as one of the most talented racing drivers in "
+"the kingdom. Adiumy is the mascot of Adium."
 msgstr ""
-"Adiumy "
-"是一隻可愛的小鴨，當他意識到自己的腿太短而無法成為足球明星時，他開始參加卡丁車比賽。雖然其他吉祥物有時會取笑他蹣跚的步伐，但他被視為王國中最有才華的賽車手之一。Adiumy"
-" 是 Adium 的吉祥物。"
+"當 Adiumy "
+"意識到自己的腿太短而無法成為足球明星時，他開始參加卡丁車比賽。雖然其他吉祥物有時會取笑他蹣跚的步伐，但他被視為王國中最有才華的賽車手之一。Adiumy "
+"是 Adium 的吉祥物。"
 
 msgid "Kiki"
 msgstr "Kiki"
@@ -554,6 +553,15 @@ msgstr "探索更多資訊……"
 
 msgid "Latest Blog Post"
 msgstr "最新部落格文章"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "先備要求"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr "在使用本教學前，您應該先閱讀以下文章："
 
 msgid "Click here if you are not redirected."
 msgstr "如果您沒有被重新導向，請點擊此處。"
