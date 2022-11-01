@@ -51,8 +51,8 @@ plugins:
 exclude:
   - _translations/stk-website.pot
 
-stk_version: "1.3"
-stk_rc: "1.4-rc1"
+stk_version: "1.4"
+stk_rc: ""
 
 # Disable Jekyll Picture Tag warnings when base image is smaller
 picture:
