@@ -13,8 +13,6 @@ title: Team
 
 {% include character_presentation name="Typhon306: Artist" type="odd" description="I started playing SuperTuxKart release 0.7. A few releases later, I came across a very helpful tutorial series by LinuxGuides about creating STK tracks using Blender, and that was the point where I started my first projects for STK, most of which are now avaible on STK Add-ons website. My modeling skills improved gradually over the years, and one of my latest projects entitled “Ancient Colosseum Labyrinth” was included as an official arena in the 1.3 release of STK." icon="/assets/wiki/Typhon_icon.png" %}
 
-{% include character_presentation name="ZAQraven99: Artist" type="even" description="I am a self-taught 3D modeler passionate about 2D/3D art, sound effects, and music. The part I like most about my work is character design and sculpting in particular. I started working with Blender in 2016 and learned it by watching youtube tutorials and practicing a lot. I am also a Linux enthusiast and use free software whenever I can. The SuperTuxKart characters, each representing an open-source project mascot, are awesome. One day, when I have enough time, I will create my own free open-source game featuring the SuperTuxKart characters. If you want to read more about me and my work, please visit my website: <https://www.artstation.com/zaqraven99>." icon="/assets/wiki/ZAQraven99_icon.png" %}
-
 {% start_liquid main_title %}
 
 Additional Developers
@@ -83,7 +81,7 @@ Tracks
 * Ivar ten Cate (Varivar): Original Old Mine & Snow Peaks Improvements
 * MacIO: Cave X
 * Steve and Oliver Baker: Original Oliver's Math Class
-* Typhon306: Ancient Colosseum Labyrinth
+* Typhon306: Ancient Colosseum Labyrinth, updated Battle Island & Cave X
 
 Karts
 * JunglePenguin: Xue
@@ -94,7 +92,7 @@ Karts
 * Cédric Archambault: Suzanne
 * Julian Schönbächler: Tux, Amanda and Gavroche
 * Kinsu: Emule
-* ZAQraven99: GNU, Pepper, Sara, Adiumy
+* ZAQraven99: GNU, Pepper, Sara, Adiumy, Konqi, Godette
 
 Objects
 * GeekPenguinBR, TuxKartDriver: Models from Las Dunas Stadium
