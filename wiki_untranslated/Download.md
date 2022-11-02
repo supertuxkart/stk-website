@@ -21,7 +21,7 @@ title: Download
 {%- endcapture -%}
 
 {%- capture linux_link -%}
-https://github.com/supertuxkart/stk-code/releases/download/{{ site.stk_version }}/SuperTuxKart-{{ site.stk_version }}-linux-64bit.tar.xz
+https://github.com/supertuxkart/stk-code/releases/download/{{ site.stk_version }}/SuperTuxKart-{{ site.stk_version }}-linux-x86_64.tar.xz
 {%- endcapture -%}
 {%- capture linux_content -%}
 [**{{ full_game }}** (.tar.xz) {{ x86_32 }}](https://github.com/supertuxkart/stk-code/releases/download/{{ site.stk_version }}/SuperTuxKart-{{ site.stk_version }}-linux-x86.tar.xz)
