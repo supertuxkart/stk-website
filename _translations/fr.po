@@ -2,13 +2,14 @@
 # Translators:
 # Wax-stk <waxpro08@gmail.com>, 2021
 # Anard0 <anard@free.fr>, 2022
+# Clément Escude--Cotinat, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Anard0 <anard@free.fr>, 2022\n"
+"Last-Translator: Clément Escude--Cotinat, 2022\n"
 "Language-Team: French (https://www.transifex.com/supertuxkart/teams/36024/fr/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -382,18 +383,18 @@ msgstr ""
 "les résultats des Grand Prix partout dans le Royaume des Mascottes. Il est "
 "la mascotte de Pidgin."
 
-msgid "Beastie"
-msgstr "Beastie"
+msgid "Godette"
+msgstr "Godette"
 
 msgid ""
-"Always ready to take part in an epic race, Beastie lives in Ravenbridge "
-"mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
+"Godette is the mascot of Godot and truly a tech girl. She is never seen "
+"without her friend, GDBot, a robot she built and programmed herself. They "
+"even race together in a unique tandem kart."
 msgstr ""
-"Toujours prêt pour participer à une bonne course, Beastie vit au manoir "
-"Ravenbridge avec son ami Gavroche. Beastie est la mascotte du projet BSD."
-
-msgid "BSD Daemon used with permission"
-msgstr "BSD Deamon utilisé avec autorisation"
+"Godette est la mascotte de Godot, et une vraie technophile. On ne la voit "
+"jamais sans son ami GDBot, un robot qu'elle a elle-même construit et "
+"programmé. Ils font même la course ensemble dans un kart en tandem unique en"
+" son genre."
 
 msgid "Amanda"
 msgstr "Amanda"
@@ -433,13 +434,13 @@ msgid "Gavroche"
 msgstr "Gavroche"
 
 msgid ""
-"Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes"
-" he makes scary noises, tricking people into thinking the house is haunted. "
-"He is the mascot of MediaGoblin."
+"Gavroche is a goblin that owns the Ravenbridge mansion. Sometimes he makes "
+"scary noises, tricking people into thinking the house is haunted. He is the "
+"mascot of MediaGoblin."
 msgstr ""
-"Gavroche est un gobelin qui partage le manoir Ravenbridge avec Beastie. "
-"Parfois, il fait des bruit effrayants, faisant croire aux gens que leur "
-"maison est hantée. Il est la mascotte de MediaGoblin."
+"Gavroche est un gobelin et le propriétaire du manoir du pont au corbeau. Il "
+"fait parfois des bruis étranges pour faire croire aux gens que le manoir est"
+" hanté. Il est la mascotte de MediaGoblin."
 
 msgid "Hexley"
 msgstr "Hexley"
