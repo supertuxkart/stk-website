@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.3.4
+      - uses: actions/checkout@v2.5.0
       - name: Set GitHub variables
         run: |
           export REPO_OWNER=$(echo $GITHUB_REPOSITORY | cut -d '/' -f1 | tr '[:upper:]' '[:lower:]')
@@ -24,15 +24,15 @@ jobs:
           echo "baseurl: $STK_BASEURL" >> _config.yml
           echo "github:" >> _config.yml
           echo "  repository_url: https://github.com/$GITHUB_REPOSITORY" >> _config.yml
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3.0.11
         with:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
           restore-keys: |
             ${{ runner.os }}-gems-
-      - uses: jeffreytse/jekyll-deploy-action@v0.3.1
+      - uses: jeffreytse/jekyll-deploy-action@v0.4.0
         with:
           provider: 'github'
           token: ${{ secrets.GITHUB_TOKEN }}
           # For jekyll_picture_tag
-          pre_build_commands: pacman -S --noconfirm libvips
+          pre_build_commands: pacman -S --noconfirm libvips lcms2 openjpeg2 libpng libwebp libheif imagemagick openslide libjxl poppler-glib
