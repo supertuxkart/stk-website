@@ -53,11 +53,12 @@ Tente evitar fazer texturas com detalhes que não fariam parte do material na vi
 ## Restrições Técnicas
 * As dimensões das imagens devem ser potências de dois. Uma textura genérica de tamanho padrão, por exemplo, é 1024 × 1024 ou 2<sup>10</sup> × 2<sup>10</sup>. No entanto, as texturas não precisam ser quadradas, você pode ter uma textura de 1024 × 512 ou 2<sup>10</sup> × 2<sup>9</sup>.
 * Não use texturas grandes para objetos pequenos - isso desperdiça RAM de vídeo.
-* Os arquivos de textura **devem** ser colocados na mesma pasta do objeto exportado.
+* Evite criar texturas extremamente pequenas (ex. 4x4 ou menores), mesmo para cores lisas. Estes podem ter resultados inesperados quando a compressão de textura é habilitada em configurações gráficas.
+* Os arquivos de textura **devem** ser colocados na mesma pasta que seu objeto exportado.
 * As texturas devem estar no formato PNG quando
-    * A textura será usada em um objeto de perto que requer muitos detalhes
-    * O objeto contém partes transparentes ou parcialmente transparentes
-* As texturas devem estar no formato JPEG quando
+    * A textura será usada em um objeto de perto que requer grandes detalhes
+    * O objeto contém peças transparentes ou parcialmente transparentes
+* As texturas devem estar em formato JPEG para
     * Objetos distantes
     * Texturas do céu (às vezes)
     * Mapas de luz ambiente
