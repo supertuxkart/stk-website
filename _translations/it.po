@@ -2,15 +2,15 @@
 # Translators:
 # mimiz skindoor <matteomeneghello02@gmail.com>, 2021
 # Massimiliano Caniparoli <massic80@gmail.com>, 2021
-# Ioma Taani, 2022
 # Benau, 2022
+# Ioma Taani, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Benau, 2022\n"
+"Last-Translator: Ioma Taani, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/supertuxkart/teams/36024/it/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -384,18 +384,17 @@ msgstr ""
 "risultati del Grand Prix in giro per il Regno delle Mascotte. È la mascotte "
 "di Pidgin."
 
-msgid "Beastie"
-msgstr "Beastie"
+msgid "Godette"
+msgstr "Godette"
 
 msgid ""
-"Always ready to take part in an epic race, Beastie lives in Ravenbridge "
-"mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
+"Godette is the mascot of Godot and truly a tech girl. She is never seen "
+"without her friend, GDBot, a robot she built and programmed herself. They "
+"even race together in a unique tandem kart."
 msgstr ""
-"Sempre pronto a prendere parte a una gara epica, Beastie vive nella villa a "
-"Pontecorvo col suo amico Gravroche. Bestie è la mascotte del progetto BSD."
-
-msgid "BSD Daemon used with permission"
-msgstr "Demone BSD utilizzato con il consenso"
+"Godette è la mascotte di Godot ed è davvero una ragazza tecnologica. Non è "
+"mai senza il suo amico GDBot, un robot che si è costruita. Gareggiano "
+"addirittura in coppia in un peculiare kart tandem."
 
 msgid "Amanda"
 msgstr "Amanda"
@@ -434,13 +433,13 @@ msgid "Gavroche"
 msgstr "Gavroche"
 
 msgid ""
-"Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes"
-" he makes scary noises, tricking people into thinking the house is haunted. "
-"He is the mascot of MediaGoblin."
+"Gavroche is a goblin that owns the Ravenbridge mansion. Sometimes he makes "
+"scary noises, tricking people into thinking the house is haunted. He is the "
+"mascot of MediaGoblin."
 msgstr ""
-"Gavroshe è un goblin che condivide la villa di Pontecorvo con Bestie. "
-"Talvolta produce dei rumori inquietanti, dando l'impressione che la casa sia"
-" infestata. È la mascotte di MediaGoblin."
+"Gavroche è un goblin che detiene la Villa Ravenbridge. Talvolta emette dei "
+"rumori inquietanti, facendo credere alle persone che la casa è infestata. È "
+"la mascotte di MediaGoblin."
 
 msgid "Hexley"
 msgstr "Hexley"
@@ -484,6 +483,11 @@ msgid ""
 "gait, he is highly respected as one of the most talented racing drivers in "
 "the kingdom. Adiumy is the mascot of Adium."
 msgstr ""
+"Adiumy ha iniziato a gareggiare coi kart quando ha realizzato che le sue "
+"gambe sono troppo corte per essere una stella del calcio. Nonostante le "
+"altre mascotte lo prendano in giro per la sua camminata a papera, in realtà,"
+" è rispettato come uno dei più talentuosi piloti del regno. Adiumy è la "
+"mascotte di Adium."
 
 msgid "Kiki"
 msgstr "Kiki"
