@@ -1,18 +1,18 @@
 # 
 # Translators:
-# Crystal Da Eevee <rutmaria3333@hotmail.com>, 2021
+# Crystal Da Eevee <rutmaria3333@hotmail.com>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Crystal Da Eevee <rutmaria3333@hotmail.com>, 2021\n"
+"Last-Translator: Crystal Da Eevee <rutmaria3333@hotmail.com>, 2022\n"
 "Language-Team: Portuguese (https://www.transifex.com/supertuxkart/teams/36024/pt/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 # Shown if empty search result
 msgid "No results found"
@@ -33,14 +33,6 @@ msgstr "Comunidade"
 # Table of contents which display near the top of each page
 msgid "Contents"
 msgstr "Conteúdos"
-
-# Title of code popup which displays code snippet
-msgid "Code"
-msgstr "Código"
-
-# Title of info popup which describes extra info
-msgid "Info"
-msgstr "Informação"
 
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
@@ -139,6 +131,26 @@ msgstr "Sobre SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
 msgstr "Projetos que using SuperTuxKart"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Informação"
+
+msgid "Return to Get Involved"
+msgstr "Voltar a Involve-te"
+
+msgid "Making Library Nodes"
+msgstr "Fazer Library Nodes"
+
+msgid "Making Karts"
+msgstr "Fazer Karts"
+
+msgid "Making Tracks"
+msgstr "Fazer Pistas"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Código"
 
 msgid "IRC"
 msgstr "IRC"
@@ -258,18 +270,6 @@ msgstr "Convenções de nomes de ficheiros"
 msgid "Creating"
 msgstr "Criar"
 
-msgid "Making Textures"
-msgstr "Fazer Texturas"
-
-msgid "Making Library Nodes"
-msgstr "Fazer Library Nodes"
-
-msgid "Making Karts"
-msgstr "Fazer Karts"
-
-msgid "Making Tracks"
-msgstr "Fazer Pistas"
-
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
 msgstr "Bem-Vindo ao Reino das Mascotes!"
@@ -379,18 +379,17 @@ msgstr ""
 "Pidgin, com a sua habilidade de voar, é perfeito para entregar os resultados"
 " de campeonatos ao redor do reino. Ele é a mascote de Pidgin."
 
-msgid "Beastie"
-msgstr "Beastie"
+msgid "Godette"
+msgstr "Godette"
 
 msgid ""
-"Always ready to take part in an epic race, Beastie lives in Ravenbridge "
-"mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
+"Godette is the mascot of Godot and truly a tech girl. She is never seen "
+"without her friend, GDBot, a robot she built and programmed herself. They "
+"even race together in a unique tandem kart."
 msgstr ""
-"Sempre pronto para uma corrida épica, Beastie vive na mansão Ravenbridge com"
-" o seu amigo Gavroche. Beastie é a mascote do projeto BSD"
-
-msgid "BSD Daemon used with permission"
-msgstr "BSD Daemon usado com permissão"
+"A Godette é a mascote de Godot e tem uma grande sabedoria sobre tecnologia. "
+"Ela nunca é vista sem o seu amigo, GDBot, um robô que ela construiu e "
+"programou. Eles também correm juntos num kart único para dois."
 
 msgid "Amanda"
 msgstr "Amanda"
@@ -429,13 +428,13 @@ msgid "Gavroche"
 msgstr "Gavroche"
 
 msgid ""
-"Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes"
-" he makes scary noises, tricking people into thinking the house is haunted. "
-"He is the mascot of MediaGoblin."
+"Gavroche is a goblin that owns the Ravenbridge mansion. Sometimes he makes "
+"scary noises, tricking people into thinking the house is haunted. He is the "
+"mascot of MediaGoblin."
 msgstr ""
-"Gavroche é um goblin que partilha a mansão Ravenbridge com Beastie. Às "
-"vezes, ele faz barulhos assustadores para enganar as pessoas a pensarem que "
-"a mansão está assombrada. Ele é a mascote de MediaGoblin."
+"Gavroche é um goblin que possui a mansão Ravenbridge. Às vezes ele faz "
+"barulhos assustadores, enganando pessoas a pensar que a mansão está "
+"assombrada. Ele é a mascote de MediaGoblin."
 
 msgid "Hexley"
 msgstr "Hexley"
@@ -475,15 +474,16 @@ msgid "Adiumy"
 msgstr "Adiumy"
 
 msgid ""
-"Adiumy is an adorable duckling who started kart racing when he realized his "
-"legs are too short to become a soccer star. Although the other mascots "
-"sometimes make fun of his waddling gait, he is respected as one of the most "
-"talented racing drivers in the kingdom. Adiumy is the mascot of Adium."
+"Adiumy started kart racing when he realized his legs are too short to be a "
+"soccer star. Although the other mascots sometimes make fun of his waddling "
+"gait, he is highly respected as one of the most talented racing drivers in "
+"the kingdom. Adiumy is the mascot of Adium."
 msgstr ""
-"Adiumy é um pato adoravel que começou a correr quando reparou que as suas "
-"pernas eram demasiado curtas para ser um craque de futebol. Apesar das "
-"outras mascotes gozarem com o andar dele, ele é respeitado como um dos "
-"melhores pilotos do reino. Adiumy é a mascote de Adium."
+"Adiumy começou a correr em corridas de kart quando percebeu que as suas "
+"pernas eram demasiado curtas para ser um craque do futebol. Apesar de as "
+"outras mascotes por vezes fazerem piada da sua maneira de andar, ele é "
+"altamente respeitado como um dos pilotos mais talentosos do reino. Adiumy é "
+"a mascote de Adium"
 
 msgid "Kiki"
 msgstr "Kiki"
@@ -591,8 +591,8 @@ msgid ""
 "Preview release is available [here](https://github.com/supertuxkart/stk-"
 "code/releases/preview)."
 msgstr ""
-"Uma versão prévia está disponivel [aqui](https://github.com/supertuxkart"
-"/stk-code/releases/preview)."
+"Uma versão prévia está disponivel "
+"[aqui](https://github.com/supertuxkart/stk-code/releases/preview)."
 
 msgid "Get the latest release candidate:"
 msgstr "Obter a última versão a candidato:"
@@ -605,6 +605,15 @@ msgstr "Descobre mais..."
 
 msgid "Latest Blog Post"
 msgstr "Postagem de Blog mais recente"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "Pré-Requesitos"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr "Deves ler os seguintes artigos antes de seguires este tutorial:"
 
 msgid "Click here if you are not redirected."
 msgstr "Clica aqui se não fores redirecionado."
