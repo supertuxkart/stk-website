@@ -1,0 +1,617 @@
+# 
+# Translators:
+# Саша Петровић <salepetronije@gmail.com>, 2023
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: stk-website\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2021-11-10 17:58+0000\n"
+"Last-Translator: Саша Петровић <salepetronije@gmail.com>, 2023\n"
+"Language-Team: Serbian (https://www.transifex.com/supertuxkart/teams/36024/sr/)\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+# Shown if empty search result
+msgid "No results found"
+msgstr "Нема налаза"
+
+msgid "SuperTuxKart"
+msgstr "СуперТаксова колица"
+
+msgid "Download"
+msgstr "Преузми"
+
+msgid "Discover"
+msgstr "Откриј"
+
+msgid "Community"
+msgstr "Заједница"
+
+# Table of contents which display near the top of each page
+msgid "Contents"
+msgstr "Садржај"
+
+msgid ""
+"SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
+"tracks, and modes to play."
+msgstr ""
+"Супертаксколица је аркадна просторна тркачка игра са мноштвом ликова, стаза "
+"и начина играња."
+
+# Drop down menu when viewing SuperTuxKart homepage in mobile device
+msgid "Menu"
+msgstr "Изборник"
+
+msgid "FAQ"
+msgstr "Честа питања"
+
+msgid "Get Involved"
+msgstr "Прикључи се"
+
+msgid "Blog"
+msgstr "Блог"
+
+msgid "Donate"
+msgstr "Приложите"
+
+# Dropdown menu which shows language selection, etc.
+msgid "Tools"
+msgstr "Прибор"
+
+msgid "Language"
+msgstr "Језик"
+
+msgid "Management"
+msgstr "Управљање"
+
+msgid "New page"
+msgstr "Нова страница"
+
+msgid "Edit page"
+msgstr "Уреди страницу"
+
+msgid "Page history"
+msgstr "Повест странице"
+
+msgid "Visit the main page"
+msgstr "Посетите главну страницу"
+
+msgid "Forum"
+msgstr "Сабор"
+
+msgid "Twitter"
+msgstr "Твитер"
+
+# Clicking Addons will go to online.supertuxkart.net
+msgid "Addons"
+msgstr "Додаци"
+
+msgid "Telegram"
+msgstr "Телеграм"
+
+msgid "Media"
+msgstr "Медији"
+
+msgid "YouTube"
+msgstr "Јутуб"
+
+msgid "Gallery"
+msgstr "Излог"
+
+msgid "Posters"
+msgstr "Слике"
+
+msgid "Development"
+msgstr "Развој"
+
+# Clicking Modding will go to Commuity page
+msgid "Modding"
+msgstr "Измене"
+
+msgid "GitHub"
+msgstr "Гитхаб"
+
+# Clicking Documentation will go to SuperTuxKart doxygen
+msgid "Documentation"
+msgstr "Документација"
+
+msgid "About us"
+msgstr "О нама"
+
+# Clicking About the team will go to a page which show SuperTuxKart team
+# member infos
+msgid "About the team"
+msgstr "О дружби"
+
+msgid "About SuperTuxKart"
+msgstr "О Супертаксовим колицима"
+
+msgid "Projects using SuperTuxKart"
+msgstr "Пројекти који користе Супертаксова колица"
+
+# Title of info popup which describes extra info
+msgid "Info"
+msgstr "Опширније"
+
+msgid "Return to Get Involved"
+msgstr "Врати се на прикључи се"
+
+msgid "Making Library Nodes"
+msgstr "Стварање библиотеке чворова"
+
+msgid "Making Karts"
+msgstr "Стварање колица"
+
+msgid "Making Tracks"
+msgstr "Стварање стаза"
+
+# Title of code popup which displays code snippet
+msgid "Code"
+msgstr "Кôд"
+
+msgid "IRC"
+msgstr "ИРЦ"
+
+msgid "Mailing List"
+msgstr "Дописни списак"
+
+msgid "Reddit"
+msgstr "Редит"
+
+msgid "Support Us"
+msgstr "Подржите нас"
+
+msgid "Donations help us keep servers running and more!"
+msgstr "Прилози нам помажу да одржавамо служитеље и приде!"
+
+# In Community page
+msgid "For Programmers"
+msgstr "За програмере"
+
+# In Community page
+msgid "Programming"
+msgstr "Програмирање"
+
+msgid "Source control"
+msgstr "Надзор извора"
+
+msgid "Building from source"
+msgstr "Грађење из извора"
+
+msgid "Coding style guidelines"
+msgstr "Смернице програмирања"
+
+msgid "Doxygen documentation"
+msgstr "Документа Доксигена"
+
+msgid "Tasks for beginners"
+msgstr "Разговор за почетнике"
+
+msgid "Scripting"
+msgstr "Скриптање"
+
+# In Community page
+msgid "Misc"
+msgstr "Разно"
+
+msgid "Making challenges"
+msgstr "Изазови"
+
+msgid "About releasing new versions"
+msgstr "О објављивању нових издања"
+
+msgid "About player rankings"
+msgstr "О бодовању играча"
+
+# In Community page
+msgid "For Everyone"
+msgstr "За свакога"
+
+msgid "Connecting your Wiimote"
+msgstr "Повезивање Вимота"
+
+msgid "Translating SuperTuxKart"
+msgstr "Превод Супертаксових колица"
+
+msgid "Reporting Problems"
+msgstr "Пријава грешака"
+
+msgid "Voice Acting"
+msgstr "Додељивање гласова"
+
+msgid "Terms and conditions"
+msgstr "Услови коришћења"
+
+msgid "Privacy policy"
+msgstr "Смернице поштовања личности"
+
+# In Community page
+msgid "For Artists"
+msgstr "Уметнички кутак"
+
+# In Community page
+msgid "General Information"
+msgstr "Општи подаци"
+
+msgid "Installing Tools"
+msgstr "Уграђивање прибора"
+
+# Page links to art style documentaion of STK
+msgid "Style"
+msgstr "Начин"
+
+msgid "Licensing"
+msgstr "Додељивање дозвола за коришћење"
+
+msgid "Artist Debug Mode"
+msgstr "Уметничко прећење грешака"
+
+# In Community page
+msgid "Guidelines"
+msgstr "Смернице"
+
+msgid "Texture Guidelines"
+msgstr "Смернице ткања"
+
+msgid "3D Model Guidelines"
+msgstr "Смернице просторних моделара"
+
+msgid "Music and SFX Guidelines"
+msgstr "Смернице музике и звучних дејстава"
+
+msgid "File naming conventions"
+msgstr "Правилник именовања датотека"
+
+# In Community page
+msgid "Creating"
+msgstr "Стваралаштво"
+
+# Page title of discover page
+msgid "Welcome to the Mascot Kingdom!"
+msgstr "Добродошли у краљевство маскота!"
+
+msgid ""
+"Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a "
+"variety of characters, tracks, and modes to play. Our aim is to create a "
+"game that is more fun than realistic, and provide an enjoyable experience "
+"for all ages."
+msgstr ""
+"Колица. Нитро. Акање! Супертаксколица је аркадна просторна тркачка игра "
+"слободног кода са мноштвом ликова, стаза и начина играња. Наш циљ је да "
+"створимо игру која ће бити више забавна него ли природног изгледа, и која "
+"може пружити пријатно искуство свим нараштајима."
+
+msgid ""
+"In Story mode, you must face the evil Nolok, and defeat him in order to make"
+" the Mascot Kingdom safe once again! You can race by yourself against the "
+"computer, compete in several Grand Prix cups, or try to beat your fastest "
+"time in Time Trial mode. You can also race, battle or play soccer with up to"
+" eight friends on a single computer, play on a local network or play online "
+"with other players all over the world."
+msgstr ""
+"У начину игре прича, мора да се суочите са злим Нолоком и победите га са "
+"циљем да Маскотово краљевство ослободите! Можете се тркати сами против "
+"рачунара, такмичити се у неколико скупина Велике Награде, или покушати да "
+"побољшате своје најбоље време у начину игре Трка с’ временом. Можете се "
+"такође тркати, борити или играти ногомет са до осам пријатеља на једном "
+"рачунару, играти на местној мрежи или играти на мрежи са осталим играчима "
+"широм света."
+
+msgid "Main Characters"
+msgstr "Главни јунаци"
+
+msgid "Tux"
+msgstr "Такс"
+
+msgid ""
+"The hero of SuperTuxKart. Tux is a brave penguin who must save his friend, "
+"Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
+msgstr ""
+"Јунак Супертаксколица. Такс је храбри пингвин који мора спасити свог "
+"пријатеља, Гнуа, од злих канџи Нолока. Такс је заштитни лик Линукса."
+
+msgid "Gnu"
+msgstr "Гну"
+
+msgid ""
+"Tux's wise mentor, Gnu rides a flying carpet and lives peacefully in a "
+"pagoda. When Nolok captures him, the entire kingdom will try to save him. "
+"Gnu is the mascot of the GNU Project."
+msgstr ""
+"Таксов учитељ, Гну јаше летећи ћилим и живи мирно у храму. Када га Нолок "
+"зароби, читаво краљевство ће покушати да га спасе. Гну је заштитно лице "
+"покрета ГНУ."
+
+msgid "Nolok"
+msgstr "Нолок"
+
+msgid ""
+"The villain of SuperTuxKart, Nolok is always concocting some sort of "
+"malevolent plan inside his fiery lava castle."
+msgstr ""
+"Вилењак Супертаксколица, Нолок увек смишља некакав подли план у свом "
+"ватреном дворцу лаве."
+
+msgid "Additional Characters"
+msgstr "Додатни ликови"
+
+msgid "Sara"
+msgstr "Зара"
+
+msgid ""
+"Sara is a powerful magician, and the ruler of the Mascot Kingdom. She races "
+"using a specialised snowmobile. She is the mascot of the OpenGameArt "
+"website."
+msgstr ""
+"Зара је моћна чаробница, и владарка краљевства Маскота. Она се трка у "
+"нарочитим санкама. Она је заштитно лице странице отворене уметности игрица "
+"(OpenGameArt)."
+
+msgid "Wilber"
+msgstr "Вилбер"
+
+msgid ""
+"Wilber is the official cameraman who works for WTXB-TV to record kart races,"
+" which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
+msgstr ""
+"Вилбер је звенични сниматељ који ради за ВТХВ-ТВ снимање трка кола, које су "
+"веома гледане у краљевству Маскота. Он је заштитно лице ГИМП-а."
+
+msgid "Puffy"
+msgstr "Пуфко"
+
+msgid ""
+"Puffy races mainly to earn enough money to accomplish his dream: to buy a "
+"submarine. He is the mascot of the OpenBSD project."
+msgstr ""
+"Пуфко се углавном трка да заради довољно пара ради постизања свог сна: да "
+"купи подморницу. Он је заштитно лице пројекта ОпенБСД."
+
+msgid "Pidgin"
+msgstr "Голупко"
+
+msgid ""
+"Pidgin's ability to fly makes him perfect to deliver the results of the "
+"Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
+msgstr ""
+"Голупкова способност лета га чиним савршеним за достављање исхода трка "
+"Велике награде по краљевству Маскота. Оне је заштитно лице Пиџина."
+
+msgid "Godette"
+msgstr "Годета"
+
+msgid ""
+"Godette is the mascot of Godot and truly a tech girl. She is never seen "
+"without her friend, GDBot, a robot she built and programmed herself. They "
+"even race together in a unique tandem kart."
+msgstr ""
+"Годета је заштитно лице Годота и техничка зналица. Она никад није виђена без"
+" њеног пријатеља, ГДРобота, робота којег је сама изградила и програмирала. "
+"Они се чак и тркају заједно јединственим заједничким двоколицима."
+
+msgid "Amanda"
+msgstr "Аманда"
+
+msgid ""
+"Amanda was rescued by monks when they found her in a basket as a cub. She "
+"now teaches the ancient art of racing in a monastery. She is the mascot of "
+"Window Maker."
+msgstr ""
+"Аманду су спасили мајмуни када су је нашли у њеној корпи као младунче. Она "
+"сада подучава древну вештину тркања у манастиру. Она је заштитно лице Творца"
+" Прозора (Window Maker)."
+
+msgid "Emule"
+msgstr "Јемазга"
+
+msgid ""
+"Emule's superior knowledge of mechanical engineering allowed him to build "
+"his own kart with a turbocharged engine. He is the mascot of eMule."
+msgstr ""
+"Јемазгино врхунско познавање творења механике јој је омогућило да изгради "
+"сопствена колица са турбопуњивим погоном. Она је заштитно лице ЈеМазге "
+"(eMule)."
+
+msgid "Suzanne"
+msgstr "Сузана"
+
+msgid ""
+"Racing has been Suzanne's dream since childhood. She began her racing career"
+" in the prestigious Kart Academy of Val Verde. She is the mascot of Blender."
+msgstr ""
+"Тркање је био Сузанин сан од детињства. Почела је своју тркачки животни пут "
+"у угледном Високом училишту тркања у Зеленом Валу. Она је заштитно лице "
+"Блендера."
+
+msgid "Gavroche"
+msgstr "Гаврош"
+
+msgid ""
+"Gavroche is a goblin that owns the Ravenbridge mansion. Sometimes he makes "
+"scary noises, tricking people into thinking the house is haunted. He is the "
+"mascot of MediaGoblin."
+msgstr ""
+"Гаврош је коблин који поседује палату Гавранов Мост. Некада прави "
+"застрашујућу буку, варајући људе да мисли да је кућа уклета. Он је заштитно "
+"лице МедијаГоблина."
+
+msgid "Hexley"
+msgstr "Шестли"
+
+msgid ""
+"Hexley's ancestors started kart racing many years ago, and generation after "
+"generation, they became very good at it. He is the mascot of Darwin."
+msgstr ""
+"Шестлијеви преци су почели да се тркају колима у давној прошлости, и колено "
+"по колено, постали су врло добри у томе. Оне је заштино лице Дарвина."
+
+msgid "Xue"
+msgstr "Стју"
+
+msgid ""
+"Xue likes to stand out from the crowd, and her unusual kart reflects this. "
+"She races a special hovercraft, which is small enough to be driven by a "
+"mouse. She is the mascot of XFCE."
+msgstr ""
+"Стју воли да се истакне из гомиле, и њена необична колица то исказују. Она "
+"се трка нарочитим лебдећим колицима, која су довољно мала да их вози мишица."
+" Она је заштитни знак ИксФЦЕ-а."
+
+msgid "Konqi"
+msgstr "Конки"
+
+msgid ""
+"While Konqi's ancient ancestors were dangerous and feared, dragons today are"
+" harmless... mostly. He is the mascot of the KDE project."
+msgstr ""
+"Док су Конкијеви древни преци били опасни и застрашујући, данашњи змајеви су"
+" доброћудни... углавном. Он је заштитни знак пројекта КДЕ."
+
+msgid "Adiumy"
+msgstr "Ађуми"
+
+msgid ""
+"Adiumy started kart racing when he realized his legs are too short to be a "
+"soccer star. Although the other mascots sometimes make fun of his waddling "
+"gait, he is highly respected as one of the most talented racing drivers in "
+"the kingdom. Adiumy is the mascot of Adium."
+msgstr ""
+"Ађуми је почео да је трка колицима када је схватио да су му ноге прекратке "
+"да би био врхунски ногометаш. Иако остала заштитна лица са његовим гегањем "
+"понекад збијају шале, он је врло цењен као један од најдаровитијих возача "
+"тркачких колица у краљевству. Ађуми је заштитно лице Адиума."
+
+msgid "Kiki"
+msgstr "Кики"
+
+msgid ""
+"A Krita user first drew Kiki for a training manual, but as soon as the "
+"manual was printed, Kiki decided to jump off the pages and race around the "
+"world on her pen-powered aeroplane. Kiki is the mascot of the Krita digital "
+"painting program."
+msgstr ""
+"Критин први цртеж за вежбовно упутству је Кики, али чим је упутство "
+"одштампано, Кики је одлучила да искочи из страница и почне трку око света на"
+" својој летелици погоњеној пером. Кики је заштитно лице Крите, програма за "
+"цртање рачунаром."
+
+msgid "Pepper"
+msgstr "Биберче"
+
+msgid ""
+"Pepper is a little witch who loves playing with her cat Carrot. Her "
+"enthusiasm for racing ignited when her friend Kiki helped her to tune her "
+"broom with a nitro injection system and custom exhaust tips. Pepper is the "
+"main character of the Pepper & Carrot project."
+msgstr ""
+"Биберче је мала вештица која воли да се игра са својом мачкицом Мрквом. Њена"
+" жеђ за тркањем је отпочела када јој је пријатељица Кики помогла да унапреди"
+" своју брундалицу убризгивачем нитра и широким издувним гранама. Биберче је "
+"заштитни лик пројекта Бибер и Мрква (Pepper & Carrot)."
+
+msgid "...And many more!"
+msgstr "...И још много њих!"
+
+msgid ""
+"You can create your own characters, tracks, and arenas and share them with "
+"the SuperTuxKart community! You can do this by going to "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+msgstr ""
+"Можете створити лик сопственог јунака, стазе и борилишта и делити их са "
+"заједницом Супертаксколица! Можете то остварити одласком на "
+"[online.supertuxkart.net](https://online.supertuxkart.net)."
+
+msgid ""
+"If you are interested you can take a look at the [community](Community) "
+"page."
+msgstr ""
+"Уколико вас занима, можете погледати на страницу [зеједнице](Community)."
+
+# Full game installer / packages for STK
+msgid "Full game"
+msgstr "Цела игра"
+
+msgid "Intel / AMD 32-bit"
+msgstr "Интел /АМД 32-битни"
+
+msgid "Intel / AMD 64-bit"
+msgstr "Интел /АМД 64-битни"
+
+msgid "ARM 32-bit"
+msgstr "АРМ 32-битни"
+
+msgid "ARM 64-bit"
+msgstr "АРМ 64-битни"
+
+# All-in-one architectures for STK installer / packages
+msgid "all architectures"
+msgstr "све архитектуре"
+
+msgid "Extract and run **run_game.sh** inside the folder."
+msgstr "Истргните и покрените **run_game.sh** унутар фасцикле."
+
+msgid "Installer-less archive"
+msgstr "Складиште коме не треба уградња"
+
+msgid "Get on Google Play Store"
+msgstr "Идите на Гуглово Складиште Игара"
+
+msgid "Get the APK"
+msgstr "Добавите АПК"
+
+msgid "Unzip the archive to microSD root to install."
+msgstr "Истргните из складишта на корен картице микроСД ради уградње."
+
+msgid "Source Code"
+msgstr "Изворни кôд"
+
+msgid ""
+"To get the very latest code, see the page [Source control](Source_control)."
+msgstr ""
+"Ради добављања најсвежијег изворног кôда, погледајте страницу [Надзор "
+"извора](Source_control)."
+
+msgid "Download from GitHub"
+msgstr "Преузмите са Гитхаба"
+
+# Toggle for table of contents
+msgid "Show"
+msgstr "Прикажи"
+
+# Toggle for table of contents
+msgid "Hide"
+msgstr "Сакриј"
+
+msgid ""
+"Preview release is available [here](https://github.com/supertuxkart/stk-"
+"code/releases/preview)."
+msgstr ""
+"Претходно издање је доступно [овде](https://github.com/supertuxkart/stk-"
+"code/releases/preview)."
+
+msgid "Get the latest release candidate:"
+msgstr "Добавите најновије издање-такмаца за објаву:"
+
+msgid "Get SuperTuxKart on Itch.io"
+msgstr "Добавите Супертаксколица на Itch.io"
+
+msgid "Discover more..."
+msgstr "Откријте више..."
+
+msgid "Latest Blog Post"
+msgstr "Најновије објаве на блогу"
+
+# Title of prerequisites popup which describes prerequisites before reading
+# some articles
+msgid "Prerequisites"
+msgstr "Предуслови"
+
+msgid ""
+"You should read the following articles prior to following this tutorial:"
+msgstr "Треба да прочитате следеће чланке пре праћења овог упутства:"
+
+msgid "Click here if you are not redirected."
+msgstr "Кликните овде ако нисте преусмерени."
