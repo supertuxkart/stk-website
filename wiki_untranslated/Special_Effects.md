@@ -26,6 +26,8 @@ You can add ambient sounds to your track to make it more interesting. Sound file
 
 ### Sound Emitters
 
+{%popup_info Positional sound, including rolloff, will only work with mono audio. Audio should be mixed down to mono if you want the sound to pan or fade as you drive past the sound emitter.%}
+
 Create an empty Blender object and set its type to "Sound Emitter" in the SuperTuxKart Object Properties panel. Enter the name of your sound file in the "Sound File" field. The following properties are configurable:
 
 * **Sound volume:** The volume of the sound: 0 is silent, 1 is full volume.
@@ -42,7 +44,7 @@ You can set a sound effect to be played when a kart is driving on a particular t
 * **Maximum kart speed:** The maximum speed at which the sound will play
 * **Sound pitch at min speed:** The adjustment to the pitch made at minimum speed— numbers less than 1 lower the pitch, while numbers greater than 1 increase the pitch.
 * **Sound pitch at max speed:** The adjustment to the pitch made at maximum speed— numbers less than 1 lower the pitch, while numbers greater than 1 increase the pitch.
-* **Positional sound effect:** If checked, the sound will decrease in volume as distance increases.
+* **Positional sound effect:** If checked, the sound will decrease in volume as distance increases. Requires mono sound.
 * **Rolloff rate:** The rate at which volume decreases as distance increases
 
 ## Billboards
