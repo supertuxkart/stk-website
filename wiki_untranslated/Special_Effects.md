@@ -26,6 +26,8 @@ You can add ambient sounds to your track to make it more interesting. Sound file
 
 ### Sound Emitters
 
+{%popup_info Positional sound, including rolloff, will only work with mono audio. Audio should be mixed down to mono if you want the sound to pan or fade as you drive past the sound emitter %}
+
 Create an empty Blender object and set its type to "Sound Emitter" in the SuperTuxKart Object Properties panel. Enter the name of your sound file in the "Sound File" field. The following properties are configurable:
 
 * **Sound volume:** The volume of the sound: 0 is silent, 1 is full volume.
