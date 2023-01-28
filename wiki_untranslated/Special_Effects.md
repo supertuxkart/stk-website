@@ -44,7 +44,7 @@ You can set a sound effect to be played when a kart is driving on a particular t
 * **Maximum kart speed:** The maximum speed at which the sound will play
 * **Sound pitch at min speed:** The adjustment to the pitch made at minimum speed— numbers less than 1 lower the pitch, while numbers greater than 1 increase the pitch.
 * **Sound pitch at max speed:** The adjustment to the pitch made at maximum speed— numbers less than 1 lower the pitch, while numbers greater than 1 increase the pitch.
-* **Positional sound effect:** If checked, the sound will decrease in volume as distance increases.
+* **Positional sound effect:** If checked, the sound will decrease in volume as distance increases. Requires mono sound.
 * **Rolloff rate:** The rate at which volume decreases as distance increases
 
 ## Billboards
