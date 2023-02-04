@@ -43,7 +43,7 @@ Il team deve mantenere alta la quantità del codice e della gara. Questo signifi
 
 ### Quando si dà un suggerimento per STK
 
-Questo è un argomento importante. Ovviamente accettiamo critiche e suggerimenti—se non lo facessimo, allora è contrario all'ideale dell'open-source: che il software è in beneficio per tutti. Ma quando una richiesta è eccessiva? Per questo dobbiamo anche essere certi dei conflitti relativi all'ideale dell'open-source: ognuno dovrebbe contribuire ove possibile. Perciò, quando si sente la necessità di dare dei suggerimenti per STK, bisogna farsi queste domande:
+Questo è un argomento spinoso. Ovviamente accettiamo critiche e suggerimenti—se non lo facessimo, allora è contrario all'ideale dell'open-source: che il software è in beneficio per tutti. Ma quando una richiesta è eccessiva? Per questo dobbiamo anche essere consci dei conflitti relativi all'ideale dell'open-source: ognuno dovrebbe contribuire ove possibile. Perciò, quando si sente la necessità di dare dei suggerimenti per STK, bisogna farsi queste domande:
 
 * Ho dato un contributo a SuperTuxKart?
   * Si può trattare di donazioni, creazione di oggetti, tracciati, texture, ecc. Anche gli addon aiutano il gioco.
