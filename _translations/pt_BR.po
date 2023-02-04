@@ -2,14 +2,14 @@
 # Translators:
 # Maximilian Weiss-Föder, 2021
 # Matheus Meneghini Leal, 2022
-# C. E., 2022
+# Giálisson Rocha, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: C. E., 2022\n"
+"Last-Translator: Giálisson Rocha, 2022\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/supertuxkart/teams/36024/pt_BR/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
