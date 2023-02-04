@@ -2,7 +2,7 @@
 title: Communication
 toc: true
 ---
-Avant de contacter l'équipe, de rapporter un bogue, de poster sur le forum, etc. vous devriez regarder cette page. Suivre les directives et instructions de cette page rendra la communauté et le projet plus efficace. Cela dit cet article pourrait sembler un peu brutal, n'ayez pas peur non plus de poster. L'équipe est généralement assez patiente, sauf si vous êtes un peu trop récidiviste ;).
+Avant de contacter l'équipe, signalez un bogue, postez sur le forum, etc. vous devriez d'abord regarder cette page. Suivre les directives et instructions de cette page rendra la communauté et le projet plus efficace. Cela dit cet article pourrait sembler un peu brutal, n'ayez pas peur non plus de poster. L'équipe est généralement assez patiente, sauf si vous êtes un peu trop récidiviste ;).
 
 ## Gardez à l'esprit...
 
@@ -26,7 +26,7 @@ L'équipe doit conserver une haute qualité de code et de contenu. Ça ne veut p
 * Si le bug n'est pas reporté :
   * Écrivez un titre clair et explicite.
   * Ajoutez une explication détaillée du problème ainsi qu'une méthode précise permettant de le reproduire de façon certaine.
-  * Précisez sur quel système vous jouez : votre système d'exploitation, sa version, votre marque et modèle de carte graphique, le driver utilisé et sa version, et votre modèle de processeur.
+  * Précisez sur quel système vous jouez : votre système d'exploitation, sa version, votre marque, le modèle de votre carte graphique (GPU), le driver utilisé et sa version, et votre modèle de processeur.
   * Joingnez le fichier stdout.log. (Voir "Où STK enregistre le fichier de configuration utilisateur" dans la [FAQ](FAQ) pour plus d'informations sur la localisation de ce fichier.)
   * Ajoutez des copies d'écran si c'est nécessaire.
   * Si vous êtes en mesure de compiler STK par vous-même, et de le lancer dans un débugueur (comme GDB, Valgrind ou Visual Studio Debugger), mmerci de le faire et de joindre la sortie du débugueur.
@@ -47,7 +47,7 @@ C'est un sujet sensible. Évidemment nous devons accepter les critiques et les s
 
 * Ai-je déjà apporté quelque-chose à SuperTuxKart ?
   * Que ce soit un don, des objets, des pistes, des textures, etc. Les extensions aident également le jeu.
-* Si j'étais capable de faire ce que je demande, serais-je prêt(e) à le faire ?
+* Si j'étais capable de faire ce que je demande, l'aurait-je fait ?
 * Est-ce que je mesure le travail nécessaire pour acccomplir ce travail ?
 * Est-ce qu'au moins, j'exprime mon soutien à l'équipe et au travail qu'elle produit ?
 * Ai-je déjà fait beaucoup de suggestions ces derniers temps ?
