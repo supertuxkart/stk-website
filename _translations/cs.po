@@ -532,20 +532,20 @@ msgid "Full game"
 msgstr "Celá hra"
 
 msgid "Intel / AMD 32-bit"
-msgstr "Intel / AMD 32-bitový"
+msgstr "Intel / AMD 32bitový"
 
 msgid "Intel / AMD 64-bit"
-msgstr "Intel / AMD 64-bitový"
+msgstr "Intel / AMD 64bitový"
 
 msgid "ARM 32-bit"
-msgstr "ARM 32-bitový"
+msgstr "ARM 32bitový"
 
 msgid "ARM 64-bit"
-msgstr "ARM 64-bitový"
+msgstr "ARM 64bitový"
 
 # All-in-one architectures for STK installer / packages
 msgid "all architectures"
-msgstr "všechny architektury"
+msgstr "pro všechny architektury"
 
 msgid "Extract and run **run_game.sh** inside the folder."
 msgstr "Extrahujte a spusťte **run_game.sh** uvnitř složky."
