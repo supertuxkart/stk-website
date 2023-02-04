@@ -138,7 +138,7 @@ Preguntas sobre el juego
 
 La IA (kart controlador por el ordenador) ha disparado hacia atrás. ¿Cómo puedo hacer eso?
 
-LA mayoría de armas (bola de bolos, pastel, desatascador) se pueden suar hacia atrás. Simplemente, dispara mientras miras hacia atrás.
+La mayoría de armas (bola de bolos, pastel, desatascador) se pueden usar hacia atrás. Simplemente, dispara mientras miras hacia atrás.
 
 {% end_liquid %}
 
