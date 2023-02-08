@@ -2,7 +2,7 @@
 title: Installing Tools
 toc: true
 ---
-Welcome! This guide will help you get set up for creating artwork (tracks, karts, textures, etc.) for SuperTuxKart. This guide includes the software you should install and use use, as well as any setup needed. You will have to make decisions in some cases, as there different programs available and you'll have to choose which works best for you.
+Welcome! This guide will help you get set up for creating artwork (tracks, karts, textures, etc.) for SuperTuxKart. This guide includes the software you should install and use, as well as any setup needed. You will have to make decisions in some cases, as there different programs available and you'll have to choose which works best for you.
 
 ## For 2D art creation (textures, posters, etc.)
 
@@ -135,7 +135,7 @@ You can click **Save User Settings** to avoid repeating these steps each time yo
 * **Website:** [subversion.apache.org](https://subversion.apache.org)
 * **License:** Apache License 2.0
 
-A Subversion (more commonly known as SVN) client is a must-have for fetching the latest version of the assets and [media](Media_Repo) repositories. It performs *version control,* a system for recording changes in a collection of files that multiple users access. Mostly it's used by software developers, but we use it to manage artwork resources. We won't go into detail on how to use SVN here (there's plenty of information online), but when you need to use it, we'll provide the URL you'll need to put into your client.
+A Subversion (more commonly known as SVN) client is a must-have for fetching the latest version of the assets and [media repositories](Media_Repo). It performs *version control,* a system for recording changes in a collection of files that multiple users access. Mostly it's used by software developers, but we use it to manage artwork resources. We won't go into detail on how to use SVN here (there's plenty of information online), but when you need to use it, we'll provide the URL you'll need to put into your client.
 
 For Windows users, especially those unfamiliar with the command line, we recommend [TortoiseSVN](https://tortoisesvn.net), an easy-to-use graphical interface for SVN.
 
