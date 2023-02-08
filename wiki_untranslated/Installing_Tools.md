@@ -62,14 +62,18 @@ The premiere open-source 3D modeling software. Blender has a large and loyal use
 
 Blender must be used for karts and objects, and produces better results than the SuperTuxKart track editor for tracks.
 
+{%popup_info Newest Blender versions may not yet be compatible with the SuperTuxKart Blender scripts. Check the [minimum requirements section](https://github.com/supertuxkart/stk-blender#user-content-supertuxkart-blender-addons) to see which Blender versions are compatible. If necessary, [older Blender versions can be found here](https://www.blender.org/download/lts/).%}
+
 #### Installing SuperTuxKart Blender Scripts
 
-The SuperTuxKart Blender scripts allow you to export your Blender work to the SuperTuxKart formats. Where to get them depends on what Blender version is installed.
+The SuperTuxKart Blender scripts allow you to export your Blender work to the SuperTuxKart formats. Where to get them depends on what Blender version is installed (an older version may be used to open old track files that haven't been upgraded).
 
-* For Blender 2.80 and later: [https://github.com/supertuxkart/stk-blender](https://github.com/supertuxkart/stk-blender)
-* For Blender 2.77, 2.78, and 2.79: [https://sourceforge.net/p/supertuxkart/code/HEAD/tree/media/trunk/blender_26/](https://sourceforge.net/p/supertuxkart/code/HEAD/tree/media/trunk/blender_26/)
-
-You will first need to download everything, including the `stkdata` directory and all the files in it. Once you have downloaded these files and the directory, select all of them and copy them to the clipboard using Ctrl-C or Cmd-C. For Blender 2.80 and later, only the directories `io_antarctica_scene` and `io_scene_spm` need to be copied.
+* For Blender 2.80 and later: 
+    * Go to https://github.com/supertuxkart/stk-blender and download the files. This can be done by clicking the green Code button then selecting 'Download ZIP'.
+    * Open the downloaded ZIP file, select the two folders `io_antarctica_scene` and `io_scene_spm` and copy them to the clipboard using Ctrl-C or Cmd-C.
+* For Blender 2.77, 2.78, and 2.79:
+    * Go to https://sourceforge.net/p/supertuxkart/code/HEAD/tree/media/trunk/blender_26/ and click the Download Snapshot button
+    * Open the downloaded ZIP file, select all the files and the `stkdata` folder, then copy them to the clipboard using Ctrl-C or Cmd-C.
 
 Run Blender once to create configuration directories in your user directory.
 
