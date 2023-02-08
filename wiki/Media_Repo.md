@@ -22,9 +22,13 @@ svn checkout https://svn.code.sf.net/p/supertuxkart/code/media/trunk stk-media-r
 
 #### Workaround: Manual download of snapshot 
 
-{%popup_info This workaround is very simple and downloads the same files and folders, but it will not update your files when changes are made to the media repo. This means that if relevant changes are made in the repo after you download the snapshot, your projects may look different in newer versions or possibly even not work properly unless you download a new snapshot.%}
+{% start_liquid popup_info %}
 
-Visit this link to generate a snapshot and download it: https://sourceforge.net/p/supertuxkart/code/HEAD/tarball?path=/media
+This workaround is very simple and downloads the same files and folders, but it will not update your files when changes are made to the media repo. This means that if relevant changes are made in the repo after you download the snapshot, your projects may look different in newer versions or possibly even not work properly unless you download a new snapshot.
+
+{% end_liquid %}
+
+Visit this link to generate a snapshot and download it: <https://sourceforge.net/p/supertuxkart/code/HEAD/tarball?path=/media>
 
 If it asks you to resubmit the snapshot request, do so. Then it will begin a download of the media repo files as they currently are. Extract the ZIP file to a working location where you want your copy of the media repo to be. Now it is ready!
 
