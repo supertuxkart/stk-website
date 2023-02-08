@@ -36,7 +36,7 @@ Il team deve mantenere alta la quantità del codice e della gara. Questo signifi
 ### Quando si presenta un'asset o un altro artwork
 
 * Fornire i file sorgenti (.kra, .xcf, .blend, ecc.)
-* Indicare chiaramente la licenza. (Per le opzioni, vedere [Licenze](Licenze))
+* Indicare chiaramente la licenza. (Per le opzioni, vedere [Licenze](Licensing))
 * Accettare le critiche e vedere cosa di può fare per migliorare il proprio artwork.
 * Discutere con il team quando è ancora in corso d'opera per avere dei feedback.
 * Chiarire se il vostro contributo è completo o in corso d'opera.
