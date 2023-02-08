@@ -139,9 +139,11 @@ You can click **Save User Settings** to avoid repeating these steps each time yo
 * **Website:** [subversion.apache.org](https://subversion.apache.org)
 * **License:** Apache License 2.0
 
-A Subversion (more commonly known as SVN) client is a must-have for fetching the latest version of the assets and [media repositories](Media_Repo). It performs *version control,* a system for recording changes in a collection of files that multiple users access. Mostly it's used by software developers, but we use it to manage artwork resources. We won't go into detail on how to use SVN here (there's plenty of information online), but when you need to use it, we'll provide the URL you'll need to put into your client.
+A Subversion (more commonly known as SVN) client is a must-have for fetching the latest version of the assets and [media repositories](Media_Repo). It performs *version control,* a system for recording changes in a collection of files that multiple users access. Mostly it's used by software developers, but we use it to manage artwork resources. We won't go into detail on how to use SVN here (there's plenty of information online for each client), but when you need to use it, we'll provide the URL you'll need to put into your client.
 
-For Windows users, especially those unfamiliar with the command line, we recommend [TortoiseSVN](https://tortoisesvn.net), an easy-to-use graphical interface for SVN.
+* For Windows users, especially those unfamiliar with the command line, we recommend [TortoiseSVN](https://tortoisesvn.net), an easy-to-use graphical interface for SVN. Go to the download page, select the version that matches your machine (in most cases, 64-bit OS) and go through the installation. Once installed, go to the folder in Windows Explorer to where you want your working copy to be, right-click and select `TortoiseSVN` → `Checkout`, then enter the URL of the online repository and make sure the Checkout directory is where you want it to be, then click OK. To update files with changes, select them, then right-click and select `TortoiseSVN` → `Update` in the menu.
+
+* For Mac users, [you can easily install using Homebrew, Fink and MacPorts, among other options](https://subversion.apache.org/packages.html#osx). For Unix-like systems, [you can usually install via command-line](https://subversion.apache.org/packages.html).
 
 ### SuperTuxKart Track Editor
 
