@@ -2,7 +2,7 @@
 title: Installing Tools
 toc: true
 ---
-Welcome! This guide will help you get set up for creating artwork (tracks, karts, textures, etc.) for SuperTuxKart. This guide includes the software you should install and use use, as well as any setup needed. You will have to make decisions in some cases, as there different programs available and you'll have to choose which works best for you.
+Welcome! This guide will help you get set up for creating artwork (tracks, karts, textures, etc.) for SuperTuxKart. This guide includes the software you should install and use, as well as any setup needed. You will have to make decisions in some cases, as there different programs available and you'll have to choose which works best for you.
 
 ## For 2D art creation (textures, posters, etc.)
 
@@ -62,14 +62,18 @@ The premiere open-source 3D modeling software. Blender has a large and loyal use
 
 Blender must be used for karts and objects, and produces better results than the SuperTuxKart track editor for tracks.
 
+{%popup_info Newest Blender versions may not yet be compatible with the SuperTuxKart Blender scripts. Check the [minimum requirements section](https://github.com/supertuxkart/stk-blender#user-content-supertuxkart-blender-addons) to see which Blender versions are compatible. If necessary, [older Blender versions can be found here](https://www.blender.org/download/lts/).%}
+
 #### Installing SuperTuxKart Blender Scripts
 
-The SuperTuxKart Blender scripts allow you to export your Blender work to the SuperTuxKart formats. Where to get them depends on what Blender version is installed.
+The SuperTuxKart Blender scripts allow you to export your Blender work to the SuperTuxKart formats. Where to get them depends on what Blender version is installed (an older version may be used to open old track files that haven't been upgraded).
 
-* For Blender 2.80 and later: [https://github.com/supertuxkart/stk-blender](https://github.com/supertuxkart/stk-blender)
-* For Blender 2.77, 2.78, and 2.79: [https://sourceforge.net/p/supertuxkart/code/HEAD/tree/media/trunk/blender_26/](https://sourceforge.net/p/supertuxkart/code/HEAD/tree/media/trunk/blender_26/)
-
-You will first need to download everything, including the `stkdata` directory and all the files in it. Once you have downloaded these files and the directory, select all of them and copy them to the clipboard using Ctrl-C or Cmd-C. For Blender 2.80 and later, only the directories `io_antarctica_scene` and `io_scene_spm` need to be copied.
+* For Blender 2.80 and later: 
+    * Go to https://github.com/supertuxkart/stk-blender and download the files. This can be done by clicking the green Code button then selecting 'Download ZIP'.
+    * Open the downloaded ZIP file, select the two folders `io_antarctica_scene` and `io_scene_spm` and copy them to the clipboard using Ctrl-C or Cmd-C.
+* For Blender 2.77, 2.78, and 2.79:
+    * Go to https://sourceforge.net/p/supertuxkart/code/HEAD/tree/media/trunk/blender_26/ and click the Download Snapshot button
+    * Open the downloaded ZIP file, select all the files and the `stkdata` folder, then copy them to the clipboard using Ctrl-C or Cmd-C.
 
 Run Blender once to create configuration directories in your user directory.
 
@@ -135,9 +139,11 @@ You can click **Save User Settings** to avoid repeating these steps each time yo
 * **Website:** [subversion.apache.org](https://subversion.apache.org)
 * **License:** Apache License 2.0
 
-A Subversion (more commonly known as SVN) client is a must-have for fetching the latest version of the assets and [media](Media_Repo) repositories. It performs *version control,* a system for recording changes in a collection of files that multiple users access. Mostly it's used by software developers, but we use it to manage artwork resources. We won't go into detail on how to use SVN here (there's plenty of information online), but when you need to use it, we'll provide the URL you'll need to put into your client.
+A Subversion (more commonly known as SVN) client is a must-have for fetching the latest version of the assets and [media repositories](Media_Repo). It performs *version control,* a system for recording changes in a collection of files that multiple users access. Mostly it's used by software developers, but we use it to manage artwork resources. We won't go into detail on how to use SVN here (there's plenty of information online for each client), but when you need to use it, we'll provide the URL you'll need to put into your client.
 
-For Windows users, especially those unfamiliar with the command line, we recommend [TortoiseSVN](https://tortoisesvn.net), an easy-to-use graphical interface for SVN.
+* For Windows users, especially those unfamiliar with the command line, we recommend [TortoiseSVN](https://tortoisesvn.net), an easy-to-use graphical interface for SVN. Go to the download page, select the version that matches your machine (in most cases, 64-bit OS) and go through the installation. Once installed, go to the folder in Windows Explorer to where you want your working copy to be, right-click and select `TortoiseSVN` → `Checkout`, then enter the URL of the online repository and make sure the Checkout directory is where you want it to be, then click OK. To update files with changes, select them, then right-click and select `TortoiseSVN` → `Update` in the menu.
+
+* For Mac users, [you can easily install using Homebrew, Fink and MacPorts, among other options](https://subversion.apache.org/packages.html#osx). For Unix-like systems, [you can usually install via command-line](https://subversion.apache.org/packages.html).
 
 ### SuperTuxKart Track Editor
 
