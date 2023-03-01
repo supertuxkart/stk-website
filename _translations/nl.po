@@ -165,7 +165,7 @@ msgid "Support Us"
 msgstr "Ondersteun ons"
 
 msgid "Donations help us keep servers running and more!"
-msgstr "Jullie donaties helpen onder meer om de servers draaiende te houden!"
+msgstr "Donaties helpen onder meer om de servers draaiende te houden!"
 
 # In Community page
 msgid "For Programmers"
