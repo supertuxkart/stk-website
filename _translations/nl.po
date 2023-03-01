@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Heimen Stoffels <vistausss@fastmail.com>, 2022
+# Heimen Stoffels <vistausss@fastmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>, 2022\n"
+"Last-Translator: Heimen Stoffels <vistausss@fastmail.com>, 2023\n"
 "Language-Team: Dutch (https://www.transifex.com/supertuxkart/teams/36024/nl/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -137,7 +137,7 @@ msgid "Info"
 msgstr "Informatie"
 
 msgid "Return to Get Involved"
-msgstr "Terug naar ‘Bijdragen’"
+msgstr "Terug naar ‘Help mee’"
 
 msgid "Making Library Nodes"
 msgstr "Verzamelingskoppelingen maken"
