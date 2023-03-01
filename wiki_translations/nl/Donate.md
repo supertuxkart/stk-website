@@ -9,7 +9,7 @@ title: Doneren
 
 Als je SuperTuxKart graag speelt en iets wilt terugdoen of ons wilt bedanken, overweeg dan een donatie. Doneren kan via deze pagina of door het spel te ‘kopen’ op [Itch.io](https://supertuxkart.itch.io/supertuxkart).
 
-Donaties helpen ons het spel te verbeteren. Zo wordt onder meer hardware aangeschaft, bestandshosting en verspreidingsdiensten en servers om de websites te hosten. Bovendien kunnen wij daarmee onze artiesten betalen zodat alles grafisch mooier wordt. Meer informatie hieromtrent vind je [hier](Donation_Policy).
+Donaties helpen ons om het spel te verbeteren. Zo schaffen we nieuwe hardware aan, maar ook bestandshosting, verspreidingsdiensten en servers om de websites op te hosten. Bovendien kunnen wij onze artiesten betalen zodat het spel mooier wordt. Meer informatie omtrent donaties vind je [hier](Donation_Policy).
 
 **Neem contact met ons op als je vragen hebt of tegen problemen aanloopt!**
 
