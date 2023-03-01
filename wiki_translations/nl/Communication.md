@@ -46,7 +46,7 @@ Het team wil de kwaliteit van de code en grafische elementen graag hoog houden. 
 Dit is een gevoelige kwestie. Uiteraard dienen we open te staan voor kritiek en suggesties, want als  we dat niet doen, dan gaan we voorbij aan het opensource-ideaal: software voor iedereen. Maar de vraag is: wanneer werkt een verzoek bezwarend? Met die vraag in het achterhoofd moeten we opletten dat iedereen kan blijven bijdragen, maar dat wél op de goede manier doet. Stel jezelf van tevoren daarom de volgende vragen:
 
 * Heb ik al eerder bijgedragen aan SuperTuxKart?
-  * Dit kan in de vorm van een donatie, het maken van objecten, parcours, texturen, etc. Zelfs uitbreidingen zijn een nuttige toevoeging.
+  * Dit kan in de vorm van een donatie, het maken van objecten, parcours, texturen, etc. Ook uitbreidingen zijn een nuttige toevoeging.
 * Als ik kan doen wat er van me wordt gevraagd, ben ik dan ook genegen dit te doen?
 * Begrijp ik hoeveel inspanning deze taak vergt?
 * Toon ik op zijn minst mijn steun aan het team en het werk wat zij verrichten?
