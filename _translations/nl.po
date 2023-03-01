@@ -571,7 +571,7 @@ msgid "Get on Google Play Store"
 msgstr "Downloaden in de Google Play Store"
 
 msgid "Get the APK"
-msgstr "APK downloaden"
+msgstr "APK-bestand downloaden"
 
 msgid "Unzip the archive to microSD root to install."
 msgstr "Pak het archief uit naar de hoofdmap van het systeem."
