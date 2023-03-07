@@ -20,7 +20,7 @@ svn checkout https://svn.code.sf.net/p/supertuxkart/code/stk-assets stk-assets%}
 
 Tem aproximadamente 700 MB de tamanho.
 
-Estes dois repositórios devem ser baixados na mesma pasta, de modo a que as pastas `stk-code` e `stk-assets` estejam a beira uma da outra.
+Estes dois repositórios devem ser descarregados na mesma pasta, de modo a que as pastas `stk-code` e `stk-assets` estejam a beira uma da outra.
 
 ## Repositório da mídia
 
