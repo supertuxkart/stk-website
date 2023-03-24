@@ -217,6 +217,8 @@ Waar vind ik het gebruikersconfiguratiebestand?
 * **Windows**: `%APPDATA%/supertuxkart/config-0.10` (voer die locatie in in de Verkenner om er snel heen te gaan).
 * **Linux**: `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (meest waarschijnlijk), `~/.config/supertuxkart/config-0.10` of `~/.supertuxkart/config-0.10`.
 * **macOS**: `~/Library/Application Support/supertuxkart/config-0.10`. Let op: deze map kan standaard verborgen zijn.
+* Met **Snap**: `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
+* Met **Flatpak**: `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
 Ook kun je de terminaluitvoer bekijken om te zien of er iets wordt vermeld over de locatie van de configuratiebestanden of zoeken naar het bestand genaamd ‘config.xml’.
 
