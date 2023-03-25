@@ -14,7 +14,7 @@ Hvad er SuperTuxKart?
 SuperTuxKart er et 3D open-source kart racerspil. Det går efter, at det skal være sjovt for spillere uanset niveau ved hjælp af gaveæsker med tilfældigt indhold, nitro, drifting og mere.
 Fokus er ikke på realisme.
 
-STK har multiplayertilstand, lokal multiplayertilstand, enkeltspillertilstand mod AI'er både med tilpassede løb og en fortællertilstand til at låse op for nye karts og baner. Det indeholder også Grand Prix, hvor målet er at få flest point over mange løb.
+STK har multiplayertilstand, lokal multiplayertilstand, enkeltspillertilstand mod AI'er både med tilpassede løb og en fortælletilstand til at låse op for nye karts og baner. Det indeholder også Grand Prix, hvor målet er at få flest point over mange løb.
 
 De 21 baner vil lede dig ind i forskellige miljøer. Fra strandene på solfyldte øer til underjordiske dybder i en gammel mine, fra Candela City's gader til fredfyldte veje på landet, fra et rumskib til bjergene. Du har meget at udforske og opdage.
 
@@ -87,11 +87,11 @@ Version 0.6 blev frigivet 22. januar 2009. Den havde væsentligt forbedret gamep
 
 Version 0.7 blev frigivet 20. december 2010. Den havde adskillige bemærkelsesværdige forbedringer som: Ny 3D-renderingsmaskine, Irrlicht, en ny GUI, nye kart- og baneanimationer, nye baner, karts og enheder/powerups og understøttelse af genveje/alternative veje. Versionerne 0.7.1, 0.7.2 og 0.7.3 blev frigivet kort efter med flere forbedringer.
 
-Version 0.8 blev frigivet december 2012 med tilføjelse af historiemodus, nye udfordringer, forbedret AI og udskridning, omvendt tilstand, nye baner og musik. Menuerne blev også forbedret. Den blev fulgt op af 0.8.1, der tilføjede og opdaterede baner, tilføjede fodbold og æggejagt tilstande og andre grafiske og gameplay udvidelser.
+Version 0.8 blev frigivet december 2012 med tilføjelse af fortælletilstand, nye udfordringer, forbedret AI og udskridning, omvendt tilstand, nye baner og musik. Menuerne blev også forbedret. Den blev fulgt op af 0.8.1, der tilføjede og opdaterede baner, tilføjede fodbold og æggejagt tilstande og andre grafiske og gameplay udvidelser.
 
 I 2015 frigav vi version 0.9. En banebrydende udgave drevet af en helt ny spillemaskine kaldet Antarctica, der tilføjede avancerede grafiske funktioner, som før ville have været umulige. Disse funktioner inkluderer dynamisk belysning, instansrendering (der muliggør en stor forøgelse af vegetation) og meget mere. 0.9 blev fulgt af tre punktfrigivelser, der tilføjede yderligere funktioner og nye baner.
 
-I april 2019 frigav vi version 1.0 for første gang nu med understøttelse af online multiplayer. Udover denne vigtige funktion var der nye og opdaterede baner, tilføjelse af SuperTux udfordringer i historiemodus, mange afbalancerende justeringer og mange flere forbedringer og rettelser.
+I april 2019 frigav vi version 1.0 for første gang nu med understøttelse af online multiplayer. Udover denne vigtige funktion var der nye og opdaterede baner, tilføjelse af SuperTux udfordringer i fortælletilstand, mange afbalancerende justeringer og mange flere forbedringer og rettelser.
 
 Derefter meddelte Hiker sit valg om at trække sig tilbage fra projektet efter at have styret det i 13 år. Auria trådte også af fra hendes rolle som med-bestyrer, men fortsatte med at være involveret i projektet.
 
@@ -169,7 +169,7 @@ Ja! Efter at have oprettet en online konto i spillet og forbundet dig til den, s
 
 Hvorfor virker nogle tastaturtaster ikke, når de trykkes ned samtidigt?
 
-Når du spiller med dit tastatur får du måske problemer, når flere taster samtidigt trykkes ind. F.eks. at prøve nitro samtidig med at give gas og dreje. I den slags situationer kan det være, at nogle tastetryk ikke registreres. Det er ikke en fejl i SuperTuxKart, men en fysisk begrænsning på dit tastatur. De fleste tastaturer kan kun håndtere et vist antal samtidige tastetryk. (For mere detaljeret information se venligst [her] (https://www.sjbaker.org/wiki/index.php?title=Keyboards_Are_Evil)). Løsningen er at bruge en dedikeret spille-inputenhed. (Gamepad, gaming tastatur). Eller optimér tastekombinationer for at finde taster, som dit tastatur kan registrere simultant.
+Når du spiller med dit tastatur får du måske problemer, når flere taster samtidigt trykkes ind. F.eks. at prøve nitro samtidig med at give gas og dreje. I den slags situationer kan det være, at nogle tastetryk ikke registreres. Det er ikke en fejl i SuperTuxKart, men en fysisk begrænsning på dit tastatur. De fleste tastaturer kan kun håndtere et vist antal samtidige tastetryk. (For mere detaljeret information se venligst [her](https://www.sjbaker.org/wiki/index.php?title=Keyboards_Are_Evil)). Løsningen er at bruge en dedikeret spille-inputenhed. (Gamepad, gaming tastatur). Eller optimér tastekombinationer for at finde taster, som dit tastatur kan registrere simultant.
 
 {% end_liquid %}
 
@@ -218,25 +218,27 @@ Hvor er opsætningen gemt?
 * I **Windows**: er det i `%APPDATA%/supertuxkart/config-0.10`. (Du kan skrive det ind i Explorer, og det vil tage dig derhen.)
 * I **Linux**: er det enten i `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (første valg), `~/.config/supertuxkart/config-0.10` (andet valg) eller i `~/.supertuxkart/config-0.10` (tredje valg).
 * I **macOS**: er det i `~/Library/Application Support/supertuxkart/config-0.10`. Bemærk at folderen måske er skjult.
+* Med **Snap**: Er det i `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
+* Med **Flatpak**: Er det i `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
-Du kan også se output på terminalen for at se, om der er en note om, hvor  konfigurationsfiler er lagret. Eller du kan søge efter en fil kaldet "config.xml".
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-Git-versionen vil ikke kompilere. Hvad skal jeg gøre?
-
-Det sker af og til. Udviklerne bør være klar over det, og det bør blive fikset hurtigt. Hvis [GitHub aktioner](https://github.com/supertuxkart/stk-code/actions) siger, at den nuværende Git-version kompilerer, mens det ikke fungerer for dig, er der sandsynligvis noget galt med din kompileropsætning. (Check om du har alle afhængigheder, udfør CMake igen, ...)
+Du kan også holde øje med output på terminalen for at finde ud af, om der er et notat om placering af konfigurationsfiler eller for at søge efter filen "config.xml".
 
 {% end_liquid %}
 
 {% start_liquid qa %}
 
-Hvordan låser jeg alle baner op?
+Git-versionen kompilerer ikke. Hvad skal jeg gøre?
 
-Den tiltænkte måde er fortælletilstand i spillet, hvor du klarer alle udfordringer.
+Det sker af og til. Udviklerne bør være klar over det, og det bør snart blive rettet. Hvis [GitHub Aktioner](https://github.com/supertuxkart/stk-code/actions) siger, at den nuværende Git-version kompilerer, men det ikke virker for dig, så er der sandsynligvis noget galt med din kompileropsætning. (Undersøg om du har alle afhængigheder på plads, kør Cmake igen, ...)
 
-Men hvis du vil låse alt op uden at spille fortælletilstand, kan du også snyde ved at redigere en config-fil. Åbn folderen nævnt ovenfor i spørgsmålet "Hvor lagrer STK brugeropsætningsfilen?". Derfra kan folderen "config-0.10" åbnes og derefter filen "players.xml". Erstat alle forekomster af "ingen" med "svær" (eller "nem" eller "medium" som indikator for det højeste niveau du har løst en udfordring).
+{% end_liquid %}
+
+{% start_liquid qa %}
+
+Hvordan låser jeg op for alle baner?
+
+Den tilsigtede måde i spillet er at spille fortælletilstand og klare alle udfordringer.
+
+Hvis du ønsker at låse alt op uden at spille i fortælletilstand, kan du også snyde ved at rette i en konfigurationsfil. Åbn folderen nævnt ovenfor i spørgsmålet "Hvor er STK brugerkonfigurationsfilen". Derefter åbn folderen "config-0.10" og derefter filen "players.xml". Erstat alle forekomster af "none" med "hard" (eller "easy" eller "medium" som indikator for det højeste niveau, du har løst en udfordring).
 
 {% end_liquid %}
