@@ -217,6 +217,8 @@ On es guarda la configuració?
 * A **Windows**: està a `%APPDATA%/supertuxkart/config-0.10` (podeu introduir això a l'explorador de fitxers i us hi portarà).
 * A **Linux**: O està a `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primera opció), o a `~/.config/supertuxkart/config-0.10` (segona opció) o a `~/.supertuxkart/config-0.10` (tercera opció).
 * A **macOS**: està a `~/Library/Application Support/supertuxkart/config-0.10`. Tingueu en compte que aquest directori podria estar ocult.
+* Amb **Snap**: està a `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
+* Amb **Flatpak**: està a `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
 També pots mirar la sortida en el terminal per veure si hi ha una nota dient on es guarden els fitxers de configuració o buscar un fitxer anomenat "config.xml".
 
@@ -236,6 +238,6 @@ Com desbloquejo tots els circuits?
 
 La idea és jugar al mode història i superar tots els reptes.
 
-Però si el que vols és desbloquejar-ho tot sense jugar al mode història, també pots fer trampes editant un fitxer de configuració. Obre la carpeta mencionada a la pregunta "On es guarda la configuració". Des d'allà, obre la carpeta "config-0.10", després obre el fitxer "players.xml". Substitueix totes les ocurrències de "none" amb "hard" (o "easy" o "medium", indicant el nivell més alt en el qual has superat un repte).
+Però si el que vols és desbloquejar-ho tot sense jugar al mode història, també pots fer trampes editant un fitxer de configuració. Obre la carpeta mencionada més amunt a la pregunta "On es guarda la configuració". Des d'allà, obre la carpeta "config-0.10", després obre el fitxer "players.xml". Substitueix totes les ocurrències de "none" amb "hard" (o "easy" o "medium", indicant el nivell més alt en el qual has superat un repte).
 
 {% end_liquid %}
