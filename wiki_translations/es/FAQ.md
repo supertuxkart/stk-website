@@ -217,6 +217,8 @@ Primero, mira el [bug tracker del STK](https://github.com/supertuxkart/stk-code/
 * En **Windows**: está en `%APPDATA%/supertuxkart/config-0.10` (puedes introducir esto en el explorador de ficherors y te llevará).
 * En **Linux**: O está en `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primera opción), o en `~/.config/supertuxkart/config-0.10` (segunda opción) o en `~/.supertuxkart/config-0.10` (tercera opción).
 * En **macOS**: está en `~/Library/Application Support/supertuxkart/config-0.10`. Ten en cuenta que este directorio podría estar oculto.
+* Con **Snap**: está en `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
+* Con **Flatpak**: está en `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
 También puedes mirar la salida en el terminal para ver si hay una nota diciendo donde se guardan los fitchros de configuración o buscar un fichero llamado "config.xml".
 
