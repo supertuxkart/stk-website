@@ -469,7 +469,7 @@ msgstr ""
 "kleinen Maus bedient werden kann. Sie ist das Maskottchen von XFCE."
 
 msgid "Konqi"
-msgstr "Kongi"
+msgstr "Konqi"
 
 msgid ""
 "While Konqi's ancient ancestors were dangerous and feared, dragons today are"
