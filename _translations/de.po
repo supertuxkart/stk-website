@@ -590,7 +590,7 @@ msgstr "Download von GitHub"
 
 # Toggle for table of contents
 msgid "Show"
-msgstr "anzeigen"
+msgstr "Anzeigen"
 
 # Toggle for table of contents
 msgid "Hide"
