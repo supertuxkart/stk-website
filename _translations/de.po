@@ -490,7 +490,7 @@ msgid ""
 msgstr ""
 "Adiumy fing mit dem Rennfahren an, als er realisierte, dass seine Beine zu "
 "kurz sind, um ein Fußballstar zu werden. Obwohl die anderen Maskottchen "
-"manchmal Witze über seinen wackelnden Gang machen, wird er als einer der "
+"manchmal Witze über seinen watschelnden Gang machen, wird er als einer der "
 "talentiertesten Rennfahrer des ganzen Königreichs respektiert. Adiumy ist "
 "das Maskottchen von Adium."
 
