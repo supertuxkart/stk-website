@@ -430,7 +430,7 @@ msgid ""
 " in the prestigious Kart Academy of Val Verde. She is the mascot of Blender."
 msgstr ""
 "Rennfahren ist ein Kindheitstraum von Suzanne. Sie begann ihre Karriere als "
-"Rennfahrerin in der prestigereichen Akademie von Val Verde. Sie ist das "
+"Rennfahrerin in der prestigeträchtigen Akademie von Val Verde. Sie ist das "
 "Maskottchen von Blender."
 
 msgid "Gavroche"
