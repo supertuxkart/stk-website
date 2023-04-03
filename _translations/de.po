@@ -337,7 +337,7 @@ msgid ""
 "malevolent plan inside his fiery lava castle."
 msgstr ""
 "Der Bösewicht von SuperTuxKart. Nolok ist immer dabei, irgendwelche "
-"heimtückischen Pläne in seiner feurigen Lava-Burg auszubrüten."
+"böswilligen Pläne in seiner feurigen Lava-Burg auszubrüten."
 
 msgid "Additional Characters"
 msgstr "Zusätzliche Charaktere"
