@@ -475,7 +475,7 @@ msgid ""
 "While Konqi's ancient ancestors were dangerous and feared, dragons today are"
 " harmless... mostly. He is the mascot of the KDE project."
 msgstr ""
-"Während Kongis historische Vorfahren sehr gefährlich und gefürchtet waren, "
+"Während Konqis historische Vorfahren sehr gefährlich und gefürchtet waren, "
 "sind Drachen heutzutage harmlos... meistens zumindest. Er ist das "
 "Maskottchen des KDE-Projekts."
 
