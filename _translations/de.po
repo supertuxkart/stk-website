@@ -583,7 +583,7 @@ msgid ""
 "To get the very latest code, see the page [Source control](Source_control)."
 msgstr ""
 "Um die aktuellste Version zu erhalten, schaue auf die Seite "
-"[Versionsverwaltung(Source_control)."
+"[Versionsverwaltung](Source_control)."
 
 msgid "Download from GitHub"
 msgstr "Download von GitHub"
