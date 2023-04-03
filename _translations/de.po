@@ -532,7 +532,7 @@ msgid ""
 "[online.supertuxkart.net](https://online.supertuxkart.net)."
 msgstr ""
 "Du kannst deine eigenen Spielcharaktere, Strecken und Arenen erstellen und "
-"mit der SuperTuxKart-Community teilen. Gehe hierfür auf "
+"mit der SuperTuxKart-Community teilen! Gehe hierfür auf "
 "[online.supertuxkart.net](https://online.supertuxkart.net)."
 
 msgid ""
