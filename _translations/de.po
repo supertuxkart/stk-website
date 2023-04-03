@@ -600,7 +600,7 @@ msgid ""
 "Preview release is available [here](https://github.com/supertuxkart/stk-"
 "code/releases/preview)."
 msgstr ""
-"Der Vorschau-Release ist [hier](https://github.com/supertuxkart/stk-"
+"Der Vorschau-Release ist [hier] (https://github.com/supertuxkart/stk-"
 "code/releases/preview) verfügbar."
 
 msgid "Get the latest release candidate:"
