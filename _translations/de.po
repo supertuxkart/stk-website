@@ -525,7 +525,7 @@ msgstr ""
 "Carrot-Projekts."
 
 msgid "...And many more!"
-msgstr "...Und viele mehr!"
+msgstr "...Und vieles mehr!"
 
 msgid ""
 "You can create your own characters, tracks, and arenas and share them with "
