@@ -480,7 +480,7 @@ msgstr ""
 "Maskottchen des KDE-Projekts."
 
 msgid "Adiumy"
-msgstr "Adiyumy"
+msgstr "Adiumy"
 
 msgid ""
 "Adiumy started kart racing when he realized his legs are too short to be a "
