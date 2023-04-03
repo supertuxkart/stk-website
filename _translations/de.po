@@ -568,7 +568,7 @@ msgid "Installer-less archive"
 msgstr "Archiv ohne Installer"
 
 msgid "Get on Google Play Store"
-msgstr "Hols dir im Google Play Store"
+msgstr "Hol es dir im Google Play Store"
 
 msgid "Get the APK"
 msgstr "Hol dir die APK"
