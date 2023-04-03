@@ -574,7 +574,7 @@ msgid "Get the APK"
 msgstr "Hol dir die APK"
 
 msgid "Unzip the archive to microSD root to install."
-msgstr "Entpacke das Archiv nach \"microSD root\" um das Spiel zu installieren."
+msgstr "Entpacke das Archiv nach \"microSD root\", um das Spiel zu installieren."
 
 msgid "Source Code"
 msgstr "Quellcode"
