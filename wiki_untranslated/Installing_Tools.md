@@ -114,8 +114,12 @@ You should see the `scripts` directory. If not, create it, then move to it. It s
 After placing the scripts into Blender's scripts directory, open Blender. The instructions again vary depending on the Blender version installed.
 
 * For Blender 2.80 and later: All of the tools have been consolidated as more integrated packages. Go to **Edit > Preferences > Add-ons**. In the search box, search both `supertuxkart` and `spm` (one at a time) and check the box next to the following items:
-    * SPM (Space paritioned mesh) format
     * SuperTuxKart Exporter Tools
+    * SPM (Space paritioned mesh) format
+
+{% single_gallery /assets/wiki/Blender_tools_3.png %}
+
+{% single_gallery /assets/wiki/Blender_tools_4.png %}
 
 * For Blender 2.77, 2.78, and 2.79: Go to **File > User Preferences > Add-ons**. In the search box, search `supertuxkart` and check the box next to the following items:
     * SuperTuxKart Kart Exporter
