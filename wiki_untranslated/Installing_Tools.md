@@ -62,7 +62,7 @@ The premiere open-source 3D modeling software. Blender has a large and loyal use
 
 Blender must be used for karts and objects, and produces better results than the SuperTuxKart track editor for tracks.
 
-{%popup_info Newest Blender versions may not yet be compatible with the SuperTuxKart Blender scripts. Check the [minimum requirements section](https://github.com/supertuxkart/stk-blender#user-content-supertuxkart-blender-addons) to see which Blender versions are compatible. If necessary, [older Blender versions can be found here](https://www.blender.org/download/lts/).%}
+{%popup_info After a major update, Blender versions may not yet be compatible with the SuperTuxKart Blender scripts. Check the [minimum requirements section](https://github.com/supertuxkart/stk-blender#user-content-supertuxkart-blender-addons) to see which Blender versions are compatible. If necessary, [older Blender versions can be found here](https://www.blender.org/download/lts/).%}
 
 #### Installing SuperTuxKart Blender Scripts
 
@@ -134,8 +134,6 @@ Now search for `spm`. Check the box next to **SPM (Space partitioned mesh) Model
 {% single_gallery /assets/wiki/Blender_tools_2.jpg %}
 
 You can click **Save User Settings** to avoid repeating these steps each time you open Blender.
-
-{%popup_info For Blender 3.0 you need to disable "Proxy to Override Auto Conversion" in preference menu to make library objects importing work, see <https://docs.blender.org/manual/en/3.0/editors/preferences/experimental.html#debugging>.%}
 
 ### Subversion Client
 
