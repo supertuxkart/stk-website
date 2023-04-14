@@ -48,6 +48,7 @@ module STKWebsite
                 "eu" => "Euskara",
                 "fa" => "فارسى",
                 "fi" => "Suomi",
+                "fil" => "Filipino",
                 "fo" => "Føroyskt",
                 "fr" => "Français",
                 "fr_CA" => "Français (Canada)",
