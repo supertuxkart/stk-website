@@ -1,5 +1,5 @@
 ---
-title: FAQ
+title: Perguntas frequentes
 ---
 {% start_liquid main_title %}
 
@@ -217,25 +217,27 @@ Onde está locallizada as configurações?
 * No sistema **Windows**:  `%APPDATA%/supertuxkart/config-0.10` (podes procurar no Explorer para aceder)
 * No sistema **Linux**: `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primeira opção), `~/.config/supertuxkart/config-0.10` (segunda opção) ou `~/.supertuxkart/config-0.10` (terceira opção).
 * No sistema **macOS**: `~/Library/Application Support/supertuxkart/config-0.10` (poderá estar oculto).
+* Com **Snap**: Está em `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
+* Com **Flatpak**: Está em `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
-Também podes ver no terminal onde os ficheiros estão localizados,  ou procurar pelo ficheiro "config.xml".
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-A versão Git não compila. O que é que eu faço?
-
-Isto às vezes acontece; Os desenvolvedores deveram notar isso e arranjar o problema. Se a versão compilar no [GitHub](https://github.com/supertuxkart/stk-code/actions) mas não para ti, então poderas ter feito algo de errado. (Verifica se tens todos os ficheiros)
+Também podes observar a saída no terminal para ver se há alguma nota sobre onde os ficheiros de configuração estão armazenados ou procurar por um ficheiro chamado "config.xml".
 
 {% end_liquid %}
 
 {% start_liquid qa %}
 
-Como posso desbloquear tudo mais rápido?
+A versão do Git não compila. O que devo fazer?
 
-A intenção normal é jogar o modo História para desbloquear conteúdo.
+Isto às vezes acontece; Os desenvolvedores deverão tomar conhecimento e isto deverá ser corrigido em breve. Se o [GitHub Actions] (https://github.com/supertuxkart/stk-code/actions) diz que a atual versão do Git compila, mas isso não acontece a ti, então é provável que haja algo de errado com a tua instalação do compilador. (Verifica se tens todas as dependências, corre de novo o CMake, ...)
 
-Se, no entanto, preferires desbloquear tudo sem completares o modo Hístoria todo, podes editar o ficheiro de configuração, acedendo à pasta "config-0.10", e abrindo o ficheiro "players.xml", mudando todas as ocurrencias de "none" para "hard" ou  "best", ou indo a "config.xml", mudando o valor em unlock_everything para "1" ou "2".
+{% end_liquid %}
+
+{% start_liquid qa %}
+
+Como desbloqueio todas as pistas?
+
+A maneira pretendida no jogo é jogar o modo história e vencer todos os desafios.
+
+Se, no entanto, preferires desbloquear tudo sem completar o modo História, também podes "fazer uma batota" editando o ficheiro de configuração. Abre a pasta mencionada em cima na questão "Onde é que o STK guarda o ficheiro de configuração". De lá, abre a pasta "config-0.10" e de seguida o ficheiro "players.xml". Substitui todas as ocorrências de "none" por "hard" (ou  "easy" ou "medium", indicando o nível mais alto em que resolveste um desafio).
 
 {% end_liquid %}
