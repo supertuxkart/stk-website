@@ -206,7 +206,7 @@ Perguntas Técnicas
 
 Encontrei um bug, como posso reporta-lo?
 
-Primeiro, verifica se o bug ja foi reportado no [Tracker de Bugs]](https://github.com/supertuxkart/stk-code/issues) antes de abrires uma nova discussão.
+Primeiro, verifica se o bug já foi reportado no [Tracker de Bugs](https://github.com/supertuxkart/stk-code/issues) antes de abrires uma nova discussão.
 
 {% end_liquid %}
 
