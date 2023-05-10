@@ -1,5 +1,5 @@
 ---
-title: FAQ (Perguntas frequentes)
+title: Perguntas Frequentes
 ---
 {% start_liquid main_title %}
 
