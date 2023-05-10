@@ -228,7 +228,7 @@ Também podes observar a saída no terminal para ver se há alguma nota sobre on
 
 A versão do Git não compila. O que devo fazer?
 
-Isto às vezes acontece; Os desenvolvedores deverão tomar conhecimento e isto deverá ser corrigido em breve. Se o [GitHub Actions] (https://github.com/supertuxkart/stk-code/actions) diz que a atual versão do Git compila, mas isso não acontece a ti, então é provável que haja algo de errado com a tua instalação do compilador. (Verifica se tens todas as dependências, corre de novo o CMake, ...)
+Isto às vezes acontece; Os desenvolvedores deverão tomar conhecimento e isto deverá ser corrigido em breve. Se o [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) diz que a atual versão do Git compila, mas isso não acontece a ti, então é provável que haja algo de errado com a tua instalação do compilador. (Verifica se tens todas as dependências, corre de novo o CMake, ...)
 
 {% end_liquid %}
 
