@@ -373,7 +373,7 @@ msgid ""
 "submarine. He is the mascot of the OpenBSD project."
 msgstr ""
 "Nakikipagkarera sa Puffy upang kumita siya ng sapat na pera upang matupad "
-"niya ang kanyang pangarap: upang bumili ng submarino. Siya ang mascot ng "
+"niya ang kanyang pangarap: upang bumili ng submarino. Siya ang maskot ng "
 "OpenBSD project."
 
 msgid "Pidgin"
