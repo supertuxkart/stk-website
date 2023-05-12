@@ -444,7 +444,7 @@ msgid ""
 msgstr ""
 "Si Gavroche ay isang goblin na nagmamayari ng Ravenbridge mansion. Minsan "
 "siyang gumagawa ng mga nakakatakot na ingay, na niloloko ang mga tao na "
-"isipin na ang bahay ay minumulto. Siya ay ang mascot ng MediaGoblin."
+"isipin na ang bahay ay minumulto. Siya ay ang maskot ng MediaGoblin."
 
 msgid "Hexley"
 msgstr "Hexley"
