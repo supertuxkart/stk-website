@@ -468,7 +468,7 @@ msgstr ""
 "Gustung-gusto ni Xue na tumayo mula sa karamihan, at ang kanyang hindi "
 "pangkaraniwang kart ay sumasalamin dito. Siya ay nakikipagkarera sa isang "
 "espesyal na hovercraft, na sapat na maliit upang himukin ng isang mouse. "
-"Siya ang mascot ng XFCE."
+"Siya ang maskot ng XFCE."
 
 msgid "Konqi"
 msgstr "Konqi"
