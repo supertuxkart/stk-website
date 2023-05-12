@@ -314,7 +314,7 @@ msgid ""
 msgstr ""
 "Ang bayani ng SuperTuxKart, si Tux ay isang matapang na penguin na dapat ay "
 "iligtas ang kanyang kaibigan, si Gnu, mula sa masasamang kamay ni Nolok. Si "
-"Tux ay ang mascot ng Linux."
+"Tux ay ang maskot ng Linux."
 
 msgid "Gnu"
 msgstr "Gnu"
