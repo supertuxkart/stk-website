@@ -160,7 +160,7 @@ Kung nahihirapan kang talunin ang AI, tumuon sa pagpapabuti ng iyong pagmamaneho
 
 Pwede ko bang laurin ang STK sa Internet?
 
-Oo! Pagkatapos ng paggawa ng isang online na STK account sa loob ng laro at pagkonekta, piliin ang "Online" na button sa ,ain menu at "Global networking" para i-access ang networked gameplay gamit ng internet. Maari kang mag-host ng sarili mong server para laruin ng iba, o sumali sa mga community-hosted na server. Para sa pinakamagandang karanasan, ang isang stable na koneksyon at mababang ping ay importante.
+Oo! Pagkatapos ng paggawa ng isang online na STK account sa loob ng laro at pagkonekta, piliin ang "Online" na button sa main menu at "Global networking" para i-access ang networked gameplay gamit ng internet. Maari kang mag-host ng sarili mong server para laruin ng iba, o sumali sa mga community-hosted na server. Para sa pinakamagandang karanasan, ang isang stable na koneksyon at mababang ping ay importante.
 
 {% end_liquid %}
 
