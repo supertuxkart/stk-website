@@ -508,7 +508,7 @@ msgstr ""
 "Unang ginuhit ng isang Krita user si Kiki para sa isang manwal na "
 "pagsasanay, ngunit sa sandaling na-print na ang manwal, nagpasya si Kiki na "
 "tumalon sa mga pahina at makipagkarera sa buong mundo gamit ang kanyang pen-"
-"powered na eroplano. Si Kiki ang mascot ng Krita digital painting program."
+"powered na eroplano. Si Kiki ang maskot ng Krita digital painting program."
 
 msgid "Pepper"
 msgstr "Pepper"
