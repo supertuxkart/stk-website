@@ -455,7 +455,7 @@ msgid ""
 msgstr ""
 "Sinimulan ng mga ninuno ni Hexley ang kart racing maraming taon na ang "
 "nakalilipas, at henerasyon pagkatapos ng henerasyon, naging napakahusay nila"
-" dito. Siya ang mascot ng Darwin."
+" dito. Siya ang maskot ng Darwin."
 
 msgid "Xue"
 msgstr "Xue"
