@@ -69,10 +69,10 @@ Blender must be used for karts and objects, and produces better results than the
 The SuperTuxKart Blender scripts allow you to export your Blender work to the SuperTuxKart formats. Where to get them depends on what Blender version is installed (an older version may be used to open old track files that haven't been upgraded).
 
 * For Blender 2.80 and later: 
-    * Go to https://github.com/supertuxkart/stk-blender and download the files. This can be done by clicking the green Code button then selecting 'Download ZIP'.
+    * Go to <https://github.com/supertuxkart/stk-blender> and download the files. This can be done by clicking the green Code button then selecting 'Download ZIP'.
     * Open the downloaded ZIP file, select the two folders `io_antarctica_scene` and `io_scene_spm` and copy them to the clipboard using Ctrl-C or Cmd-C.
 * For Blender 2.77, 2.78, and 2.79:
-    * Go to https://sourceforge.net/p/supertuxkart/code/HEAD/tree/media/trunk/blender_26/ and click the Download Snapshot button
+    * Go to <https://sourceforge.net/p/supertuxkart/code/HEAD/tree/media/trunk/blender_26/> and click the Download Snapshot button
     * Open the downloaded ZIP file, select all the files and the `stkdata` folder, then copy them to the clipboard using Ctrl-C or Cmd-C.
 
 Run Blender once to create configuration directories in your user directory.
