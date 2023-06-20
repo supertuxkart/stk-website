@@ -28,4 +28,4 @@ V določenih okoliščinah lahko denar porabimo tudi za plačilo nekomu, da opra
 
 ## Trženje in oglaševanje
 
-Na nekaterih dogodkih (denimo na igričarskih srečanjih ali odprtokodnih konferencah) s prispevki plačamo za material, na primer tiskanje plakatov, za hrano za razvijalce, ki se udeležijo dogodka itd.
+Na nekaterih dogodkih (denimo na igričarskih srečanjih ali odprtokodnih konferencah) s prispevki plačamo za material, na primer tiskanje plakatov, za hrano za razvijalce, ki se udeležijo dogodka, itd.
