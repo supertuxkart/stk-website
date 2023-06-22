@@ -1,15 +1,15 @@
 # 
 # Translators:
 # Benau, 2022
-# CodingJellyfish <dumaosen_main01@outlook.com>, 2022
+# CodingJellyfish <dumaosen_main01@outlook.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: CodingJellyfish <dumaosen_main01@outlook.com>, 2022\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/supertuxkart/teams/36024/zh_CN/)\n"
+"Last-Translator: CodingJellyfish <dumaosen_main01@outlook.com>, 2023\n"
+"Language-Team: Chinese (China) (https://app.transifex.com/supertuxkart/teams/36024/zh_CN/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_CN\n"
@@ -358,16 +358,16 @@ msgid ""
 "Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
 msgstr "Pidgin 的飞行能力使他能够将锦标赛的结果传播至整个吉祥物王国。他是 Pidgin 的吉祥物。"
 
-msgid "Beastie"
-msgstr "Beastie"
+msgid "Godette"
+msgstr "Godette"
 
 msgid ""
-"Always ready to take part in an epic race, Beastie lives in Ravenbridge "
-"mansion with his friend Gavroche. Beastie is the mascot of the BSD project."
-msgstr "Beastie 总是准备好参加一场史诗般的比赛，他和他的朋友 Gavroche 住在渡鸦公馆中。Beastie 是 BSD 项目的吉祥物。"
-
-msgid "BSD Daemon used with permission"
-msgstr "该 BSD 小恶魔的使用已经过授权"
+"Godette is the mascot of Godot and truly a tech girl. She is never seen "
+"without her friend, GDBot, a robot she built and programmed herself. They "
+"even race together in a unique tandem kart."
+msgstr ""
+"Godette 是 Godot 的吉祥物，也是一个热爱科技的女孩。她和她自己制造和编程的朋友 GDBot "
+"形影不离。他们甚至在一辆独特的双人赛车中一起比赛。"
 
 msgid "Amanda"
 msgstr "Amanda"
@@ -399,11 +399,10 @@ msgid "Gavroche"
 msgstr "Gavroche"
 
 msgid ""
-"Gavroche is a goblin that shares Ravenbridge mansion with Beastie. Sometimes"
-" he makes scary noises, tricking people into thinking the house is haunted. "
-"He is the mascot of MediaGoblin."
-msgstr ""
-"Gavroche 是一只与 Beastie 同居在渡鸦公馆的地精。有时他会发出可怕的声音，让人们以为房子里有鬼。他是 MediaGoblin 的吉祥物。"
+"Gavroche is a goblin that owns the Ravenbridge mansion. Sometimes he makes "
+"scary noises, tricking people into thinking the house is haunted. He is the "
+"mascot of MediaGoblin."
+msgstr "Gavroche 是一只居住在渡鸦公馆的小妖精。有时他会发出可怕的声音，诱骗人们认为这座房子闹鬼。他是 MediaGoblin 的吉祥物。"
 
 msgid "Hexley"
 msgstr "Hexley"
