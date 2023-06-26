@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Gorzy Gorup <gorupgorazd@gmail.com>, 2023
+# Gorazd Gorup <gorupgorazd@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Gorzy Gorup <gorupgorazd@gmail.com>, 2023\n"
+"Last-Translator: Gorazd Gorup <gorupgorazd@gmail.com>, 2023\n"
 "Language-Team: Slovenian (https://app.transifex.com/supertuxkart/teams/36024/sl/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -494,7 +494,7 @@ msgstr ""
 "Krite."
 
 msgid "Pepper"
-msgstr "Pepper"
+msgstr "Poprovinka"
 
 msgid ""
 "Pepper is a little witch who loves playing with her cat Carrot. Her "
@@ -502,10 +502,10 @@ msgid ""
 "broom with a nitro injection system and custom exhaust tips. Pepper is the "
 "main character of the Pepper & Carrot project."
 msgstr ""
-"Pepper je mlada čarovnica, ki se rada igra s svojim mačkom Korenčkom. Njeno "
-"veselje do dirkanja se je ukresnilo, ko ji je prijateljica Kiki pomagala na "
-"metlo namestiti nitro sistem in izpušne cevi. Pepper je glavna junakinja "
-"projekta Pepper in Korenček."
+"Poprovinka je mlada čarovnica, ki se rada igra s svojim mačkom Korenčkom. "
+"Njeno veselje do dirkanja se je ukresnilo, ko ji je prijateljica Kiki "
+"pomagala na metlo namestiti nitro sistem in izpušne cevi. Poprovinka je "
+"glavna junakinja projekta Pepper & Carrot."
 
 msgid "...And many more!"
 msgstr "... In še mnogi drugi!"
