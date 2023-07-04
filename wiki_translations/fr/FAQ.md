@@ -217,16 +217,18 @@ Où est enregistrée la configuration ?
 * Sur **Windows**: Dans `%APPDATA%/supertuxkart/config-0.10` (vous pouvez entrer cette adresse dans l'Explorateur de fichiers).
 * Sur **Linux**: Ça peut être dans `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (premier choix), `~/.config/supertuxkart/config-0.10` (second choix) ou dans `~/.supertuxkart/config-0.10` (troisième choix).
 * Sur **macOS**: Dans `~/Library/Application Support/supertuxkart/config-0.10`. Notez que ce dossier peut être caché.
+* Avec **Snap**: C'est dans `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
+* Avec le **Flatpak**: C'est dans `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
-Vous pouvez aussi suivre la sortie du terminal pour voir s'il y a un message sur l'emplacement du fichiers de configurations ou chercher un fichier nommé "config.xml".
+Vous pouvez aussi regarder la sortie du terminal pour voir s'il y a une note d'information sur la localisation du fichier de configuration ou chercher un fichier nommé "config.xml".
 
 {% end_liquid %}
 
 {% start_liquid qa %}
 
-La version Git ne compile pas. Que dois-je faire ?
+La version Git refuse de se compiler. Que dois-je faire ?
 
-Cela peut arriver parfois; Les développeurs sont sûrement au courant et vont corriger ce problème sous peu. Si les [Actions GitHub](https://github.com/supertuxkart/stk-code/actions) disent que la version courante compile, mais que ça ne va pas chez vous, alors il y a probablement une erreur de configuration de votre compilateur. (Vérifiez que voous avez installé toutes les dépendances, relancez CMake, ...)
+Cela arrive parfois ; Les développeurs seront prévenu de cela et règleront le problème sous peu. Si [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) dit que la version Git actuelle se compile mais que cela ne marche pas pour vous, il est probable qu'il y ai un problème dans la configuration de votre compiler. (Veuillez vérifier si vous avez toutes les dépendances, relancez CMake, ...)
 
 {% end_liquid %}
 
@@ -236,6 +238,6 @@ Comment puis-je débloquer toutes les pistes ?
 
 La façon habituelle de débloquer toutes les pistes est de jouer en mode histoire et de gagner tous les défis.
 
-Cependant, si vous voulez tout débloquer sans jouer au mode histoire, vous pouvez tricher en modifiant un fichier de configuration. Ouvrez le dossier décrit ci-dessus dans la question "Où est enregistrée la configuration ?". Ouvrez le dossier "config-0.10" puis le fichier "players.xml". Remplacez ensuite toutes les mentions "none" par "hard" (ou "easy" ou "medium", ce qui indique le meilleur niveau avec lequel vous avez résolu le défi).
+Cependant, si vous voulez tout débloquer sans jouer au mode histoire, vous pouvez tricher en modifiant un fichier de configuration. Ouvrez le dossier décrit ci-dessus dans la question "Où STK enregistre le fichier de configuration ?". Ouvrez le dossier "config-0.10" puis le fichier "players.xml". Remplacez ensuite toutes les mentions "none" par "hard" (ou "easy" ou "medium", ce qui indique le meilleur niveau avec lequel vous avez résolu le défi).
 
 {% end_liquid %}
