@@ -217,6 +217,8 @@ Onde a configuração é armazenada?
 * No **Windows**: ela está em `%APPDATA%/supertuxkart/config-0.10` (você pode inserir isso no Explorer e ele levará você até lá).
 * No **Linux**: Ela está em `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primeira escolha), `~/.config/supertuxkart/config-0.10` (segunda escolha) ou em `~/.supertuxkart/config-0.10` (terceira escolha).
 * No **macOS**: ela está em `~/Library/Application Support/supertuxkart/config-0.10`. Observe que esse diretório pode estar oculto.
+* Com **Snap**: Está em `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
+* Com **Flatpak**: Está em `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
 Você também pode observar a saída no terminal para ver se há uma nota sobre onde os arquivos de configuração estão armazenados ou procurar um arquivo chamado "config.xml".
 
@@ -224,7 +226,7 @@ Você também pode observar a saída no terminal para ver se há uma nota sobre 
 
 {% start_liquid qa %}
 
-A versão no Git não compila. O que devo fazer?
+A versão do Git não compila. O que preciso fazer?
 
 Isso acontece às vezes; Os desenvolvedores devem estar cientes disso e deve ser corrigido em breve. Se o [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) disser que a versão atual do Git compila, mas não faz isso para você, provavelmente algo está errado com a configuração do seu compilador. (Verifique se você tem todas as dependências, execute novamente o CMake, ...)
 
@@ -232,9 +234,9 @@ Isso acontece às vezes; Os desenvolvedores devem estar cientes disso e deve ser
 
 {% start_liquid qa %}
 
-Como desbloqueio todas as pistas?
+Como liberar todas as pistas?
 
-A maneira pretendida no jogo é jogar o modo história e vencer todos os desafios.
+A ideia do jogo é que você jogue o modo estória e vença todos os desafios.
 
 Se, no entanto, você quiser desbloquear tudo sem jogar o modo história, você também pode trapacear editando um arquivo de configuração. Abra a pasta mencionada acima na pergunta "Onde a configuração é armazenada?". A partir daí, abra a pasta "config-0.10" e abra o arquivo "players.xml". Substitua todas as ocorrências de "none" por "hard" (ou "easyl" ou "medium", indicando o nível mais alto em que você resolveu um desafio).
 
