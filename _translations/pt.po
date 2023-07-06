@@ -516,7 +516,7 @@ msgstr ""
 "personalizadas. Pepper é a personagem principal do projeto Pepper & Carrot."
 
 msgid "...And many more!"
-msgstr "...e muito mais!"
+msgstr "...E muito mais!"
 
 msgid ""
 "You can create your own characters, tracks, and arenas and share them with "
