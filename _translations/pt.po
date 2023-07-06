@@ -587,7 +587,7 @@ msgstr "Mostrar"
 
 # Toggle for table of contents
 msgid "Hide"
-msgstr "Esconder"
+msgstr "Ocultar"
 
 msgid ""
 "Preview release is available [here](https://github.com/supertuxkart/stk-"
