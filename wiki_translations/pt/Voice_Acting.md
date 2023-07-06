@@ -8,7 +8,7 @@ Naturalmente, não precisaremos de dobragens o tempo todo, mas experimenta ir ao
 
 ## Requisitos
 
-* **Hardware:** Vais precisar de um microfone decente. Telemóveis ou tablets na maioria dos casos não são muito úteis, ou microphones do computador. Não precisas de algo muito caro, auscutadores que têm um microfone são o suficiente.
+* **Hardware:** Geralmente, vais precisar de um microfone decente para gravar. Microfones de telemóveis e tablets normalmente têm baixa qualidade e não serão suficientes. Microfones do portátil também costumam ser maus, especialmente em máquinas de gamas baixas. Contudo, não precisas de um equipamento caríssimo. A maioria dos auscultadores com microfone terão qualidade suficiente.
 * **Software:** Vais precisar de um software para gravar audio, como o Audacity.
 * **Habilidades com idiomas:** Precisas de ser fluente com o script que recebes, que irá esta usualmente em Inglês. O SuperTuxKart não suporta áudio localizado de momento.
 * **Habilidade de expressar:** Dependendo do personagens, será necessário imitar sotaques, Isto pode ser mais complexo para faladores não nativos, infelizmente.
