@@ -311,7 +311,7 @@ msgid ""
 "The hero of SuperTuxKart. Tux is a brave penguin who must save his friend, "
 "Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
 msgstr ""
-"O herói de SuperTuxKart. Tux é um pinguim corajoso que deve salvar o seu "
+"O herói de SuperTuxKart. Tux é um pinguim corajoso que busca salvar o seu "
 "amigo, Gnu, das malditas garras de Nolok. Tux é a mascote do Linux."
 
 msgid "Gnu"
