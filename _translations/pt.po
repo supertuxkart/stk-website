@@ -368,7 +368,7 @@ msgid ""
 "submarine. He is the mascot of the OpenBSD project."
 msgstr ""
 "Puffy corre com um objetivo: ganhar dinheiro suficiente para comprar um "
-"submarinho. Ele é a mascote do projeto OpenBSD."
+"submarinho. O seu sonho! Ele é a mascote do projeto OpenBSD."
 
 msgid "Pidgin"
 msgstr "Pidgin"
