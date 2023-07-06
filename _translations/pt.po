@@ -213,7 +213,7 @@ msgid "For Everyone"
 msgstr "Para Todos"
 
 msgid "Connecting your Wiimote"
-msgstr "Conectar o teu Wiimote"
+msgstr "Ligar o teu Wiimote"
 
 msgid "Translating SuperTuxKart"
 msgstr "Traduzir SuperTuxKart"
