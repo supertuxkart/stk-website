@@ -1,5 +1,5 @@
 ---
-title: Dublagem
+title: Dobragem
 display_title: true
 ---
 Ás vezes, os desenvolvedores precisam de ajuda com dublagens para o jogo, como a voz de Nolok na introdução do modo História, ou o locutor do aeroporto de Gran Paradiso.
