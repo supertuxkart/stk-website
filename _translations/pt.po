@@ -299,7 +299,7 @@ msgstr ""
 "computador, competir em vários Campeonatos ou tentar bater os teus melhores "
 "tempos em Contrarrelógio. Também podes correr, batalhar ou jogar futebol com"
 " até 8 amigos num só computador,  jogar numa rede local ou então online com "
-"outros jogadores ao redor do mundo."
+"outros jogadores pelo mundo inteiro."
 
 msgid "Main Characters"
 msgstr "Personagene Principais"
