@@ -103,7 +103,7 @@ msgid "Gallery"
 msgstr "Galeria"
 
 msgid "Posters"
-msgstr "Posters"
+msgstr "Pósteres"
 
 msgid "Development"
 msgstr "Desenvolvimento"
