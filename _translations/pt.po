@@ -531,8 +531,8 @@ msgid ""
 "If you are interested you can take a look at the [community](Community) "
 "page."
 msgstr ""
-"Se tiveres interessado, podes dar uma vista de olhos na página de "
-"[comunidade](Community)."
+"Se estiveres interessado, podes dar uma vista de olhos à página da "
+"[Comunidade](Community)."
 
 # Full game installer / packages for STK
 msgid "Full game"
