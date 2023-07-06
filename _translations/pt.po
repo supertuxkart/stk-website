@@ -333,7 +333,7 @@ msgid ""
 "The villain of SuperTuxKart, Nolok is always concocting some sort of "
 "malevolent plan inside his fiery lava castle."
 msgstr ""
-"O vilão de SuperTuxKart, Nolok está sempre a inventar planos maléficos "
+"Vilão de SuperTuxKart, Nolok passa o tempo a inventar planos maléficos "
 "dentro do seu ardente castelo de lava."
 
 msgid "Additional Characters"
