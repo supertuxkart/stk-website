@@ -131,7 +131,7 @@ msgid "About SuperTuxKart"
 msgstr "Sobre SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
-msgstr "Projetos que using SuperTuxKart"
+msgstr "Projetos que usam SuperTuxKart"
 
 # Title of info popup which describes extra info
 msgid "Info"
