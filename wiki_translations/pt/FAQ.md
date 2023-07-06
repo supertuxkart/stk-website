@@ -25,7 +25,7 @@ O jogo também inclui modo adicionais além de corridas normais: contra o relóg
 
 {% start_liquid qa %}
 
-Who is behind SuperTuxKar?
+Quem está por detrás do SuperTuxKar?
 
 Vê a nossa página da [equipa](Team) para informação sobre o pessoal por detrás do SuperTuxKart!
 
