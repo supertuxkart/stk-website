@@ -167,7 +167,7 @@ msgstr "Apoia-nos"
 
 msgid "Donations help us keep servers running and more!"
 msgstr ""
-"Donações ajudam-nos a manter os nossos servidores a funcionar e muito mais!"
+"Doações ajudam-nos a manter os nossos servidores a funcionar e muito mais!"
 
 # In Community page
 msgid "For Programmers"
