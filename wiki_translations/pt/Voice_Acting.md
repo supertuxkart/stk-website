@@ -4,7 +4,7 @@ display_title: true
 ---
 Ocasionalmente, os criadores de SuperTuxKart ou artistas independentes precisam de ajuda com dobragens para o jogo. Geralmente, isto aplica-se a coisas como a voz de Nolok nas cinemáticas introdutórias, a qual, se ouvires com atenção, é um pequeno conteúdo secreto satírico.
 
-Normalmente não precisamos de dublagens, mas podes ver no [fórum](https://forum.freegamedev.net/viewforum.php?f=16) se for preciso alguma vez. Se tiveres tudo indicado em baixo, dublagens serão uma forma facil e divertida de ajudar o projeto.
+Naturalmente, não precisaremos de dobragens o tempo todo, mas experimenta ir ao [fórum](https://forum.freegamedev.net/viewforum.php?f=16) se for preciso alguma vez. Se cumprires com os requisitos em baixo, dobragens são uma forma fácil e divertida de ajudar o projeto.
 
 ## Requisitos
 
