@@ -94,7 +94,7 @@ msgid "Telegram"
 msgstr "Telegram"
 
 msgid "Media"
-msgstr "Media"
+msgstr "Média"
 
 msgid "YouTube"
 msgstr "Youtube"
