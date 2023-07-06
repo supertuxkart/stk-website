@@ -206,7 +206,7 @@ msgid "About releasing new versions"
 msgstr "Sobre novas versões"
 
 msgid "About player rankings"
-msgstr "Sobre rankings de jogador"
+msgstr "Sobre classificações de jogador"
 
 # In Community page
 msgid "For Everyone"
