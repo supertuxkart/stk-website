@@ -390,7 +390,7 @@ msgid ""
 msgstr ""
 "Godette é a mascote de Godot e uma verdadeira fã da tecnologia. Ela nunca é "
 "vista sem o seu amigo, GDBot, um robô que construiu e programou ela mesmo. "
-"Eles ainda correm juntos num kart único para dois."
+"Eles correm juntos num kart único para dois."
 
 msgid "Amanda"
 msgstr "Amanda"
