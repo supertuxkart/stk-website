@@ -6,7 +6,7 @@ display_title: true
 
 Normalmente não precisamos de dublagens, mas podes ver no [fórum](https://forum.freegamedev.net/viewforum.php?f=16) se for preciso alguma vez. Se tiveres tudo indicado em baixo, dublagens serão uma forma facil e divertida de ajudar o projeto.
 
-## Requesitos
+## Requisitos
 
 * **Hardware:** Vais precisar de um microfone decente. Telemóveis ou tablets na maioria dos casos não são muito úteis, ou microphones do computador. Não precisas de algo muito caro, auscutadores que têm um microfone são o suficiente.
 * **Software:** Vais precisar de um software para gravar audio, como o Audacity.
