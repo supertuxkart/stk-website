@@ -249,7 +249,7 @@ msgid "Licensing"
 msgstr "Licenciamento"
 
 msgid "Artist Debug Mode"
-msgstr "Modo Debug para Artistas"
+msgstr "Modo Depuração para Artistas"
 
 # In Community page
 msgid "Guidelines"
