@@ -243,7 +243,7 @@ msgstr "Instalar ferramentas"
 
 # Page links to art style documentaion of STK
 msgid "Style"
-msgstr "Estílo"
+msgstr "Estilo"
 
 msgid "Licensing"
 msgstr "Licenciamento"
