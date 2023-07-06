@@ -33,7 +33,7 @@ Vê a nossa página da [equipa](Team) para informação sobre o pessoal por detr
 
 {% start_liquid qa %}
 
-Quais são os requisitos do hardware?
+Quais são os requisitos de hardware?
 
 **GPU**
 
