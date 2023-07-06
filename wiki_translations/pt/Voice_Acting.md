@@ -18,4 +18,4 @@ Naturalmente, não precisaremos de dobragens o tempo todo, mas experimenta ir ao
 * Por favor, segue todos os pedidos especiais feitos pelo utilizador que fez o pedido.
 * Deves licenciar os teus áudios com licenças gratuitas, como especificado na página [Licenciamento](Licensing).
 * **Não** precisas de pós-processar ou ajustar as gravações por ti mesmo. Aliás, é bem melhor postar as gravações em bruto e obter feedback antes de qualquer ajuste. Se não sabes ajustar/adicionar efeitos à gravação, tudo OK, há imensa gente que poderá ajudar-te no fórum.
-* Por favor usa áudio com compressão minima como FLAC ou sem compressão como WAV. Quando um ficheiro é comprimido com, por exemplo, Vorbis ou MP3, o áudio perde qualidade.
+* Por favor, usa compressão de áudio sem perdas como FLAC ou sem compressão de todo (WAV). Sempre que um ficheiro é comprimido com um codec com perda como Vorbis ou MP3, ele perde qualidade.
