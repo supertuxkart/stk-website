@@ -494,7 +494,7 @@ msgstr ""
 "Krite."
 
 msgid "Pepper"
-msgstr "Poprovinka"
+msgstr "Paprika"
 
 msgid ""
 "Pepper is a little witch who loves playing with her cat Carrot. Her "
