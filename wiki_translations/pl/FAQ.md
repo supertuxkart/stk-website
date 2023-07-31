@@ -217,8 +217,10 @@ Gdzie znajduje się konfiguracja?
 * W systemie **Windows**: znajduje się w `%APPDATA%/supertuxkart/config-0.10` (możesz wpisać tą ścieżkę w Eksplorator plików).
 * W systemie **Linux**: znajduje się w `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (pierwszy wybór), `~/.config/supertuxkart/config-0.10` (drugi wybór) lub `~/.supertuxkart/config-0.10` (trzeci wybór).
 * W systemie **macOS**: znajduje się w  `~/Library/Application Support/supertuxkart/config-0.10`. Jest możliwość, że ten katalog będzie ukryty.
+* Z **Snap**: Znajduje się w `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
+* Z **Flatpak**: Znajduje się w `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
-Możesz też sprawdzić informacje w terminalu i zobaczyć czy jest tam wzmianka o miejscu zapisu plików konfiguracyjnych lub wyszukać pliku "config.xml".
+Możesz także sprawdzić wyjście terminala żeby zobaczyć gdzie są przechowywane pliki konfiguracyjne lub wyszukaj plik "config.xml".
 
 {% end_liquid %}
 
@@ -226,7 +228,7 @@ Możesz też sprawdzić informacje w terminalu i zobaczyć czy jest tam wzmianka
 
 Wersja Git nie kompiluje się. Co powinienem zrobić?
 
-Czasami się to zdarza; Deweloperzy powinni o tym wiedzieć i powinno to zostać niedługo naprawione. Jeżeli [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) pokazuje, że aktualna wersja Git kompiluje się, najprawdopodobniej jest coś nie tak z twoim kompilatorem (Sprawdź czy masz wszystkie zależności, uruchom ponownie CMake, ...)
+To czasem się zdarza; Deweloperzy powinni już o tym wiedzieć i niedługo zostanie to naprawione. Jeżeli [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) pokazuje, że aktualna wersja Git kompiluje się ale u ciebie tak nie jest, najprawdopodobniej jest coś nie tak z twoim kompilatorem. (Zobacz czy masz wszystkie zależności, uruchom ponownie CMake, ...)
 
 {% end_liquid %}
 
@@ -234,8 +236,8 @@ Czasami się to zdarza; Deweloperzy powinni o tym wiedzieć i powinno to zostać
 
 W jaki sposób mogę odblokować wszystkie trasy?
 
-Zamierzonym sposobem jest zagranie w tryb fabularny i wygranie wszystkich wyzwań.
+Zamierzonym sposobem w grze jest zagranie w tryb fabularny i wygranie wszystkich wyzwań.
 
-Jednak jeżeli chcesz odblokować wszystko bez grania w tryb fabularny, możesz to zrobić edytując plik konfiguracyjny. Otwórz folder wspomniany w sekcji "Gdzie znajduje się konfiguracja?". Otwórz folder "config-0.10" i edytuj plik "players.xml". Zamień wszystkie wystąpienia "none" na "hard" (lub "easy" lub "medium", wskazując najwyższy poziom trudności z jakim ukończyłeś wyzwanie).
+Jeżeli jednak chcesz odblokować wszystko bez grania w tryb fabularny możesz oszukać poprzez edytowanie pliku konfiguracyjnego. Otwórz folder wspomniany powyżej w sekcji "Gdzie STK przechowuje plik konfiguracyjny użytkownika". Stąd otwórz folder "config-0.10" a następnie otwórz plik "players.xml". Zamień wszystkie wystąpienia "none" z "hard" (lub "easy" bądź "medium", oznacza to najwyższy poziom, na którym ukończyłeś wyzwanie).
 
 {% end_liquid %}
