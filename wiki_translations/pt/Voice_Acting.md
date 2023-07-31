@@ -9,7 +9,7 @@ Normalmente não precisamos de dublagens, mas podes ver no [fórum](https://foru
 ## Requisitos
 
 * **Hardware:** Geralmente, vais precisar de um microfone decente para gravar. Microfones de telemóveis e tablets normalmente têm baixa qualidade e não serão suficientes. Microfones de portáteis também costumam ser maus, especialmente em máquinas de gamas baixas. Contudo, não precisas de um equipamento caríssimo. A maioria dos auscultadores com microfone terá qualidade suficiente.
-* **Software:** Vais precisar de um programa para a gravação do áudio, como o Audacity.
+* **Software:** Vais precisar de um software para gravar audio, como o Audacity.
 * **Habilidade linguística:** Precisas de ser fluente na leitura/recitação de dado guião, que habitualmente estará em inglês. O sistema de localização do SuperTuxKart (l10n) não suporta áudio localizado de momento.
 * **Habilidade de expressão:** Dependendo dos requisitos da personagem que precisa de voz, poderá ser preciso imitar sotaques específicos. Isto acrescenta complexidade para falantes não nativos, infelizmente.
 
