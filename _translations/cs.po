@@ -50,7 +50,7 @@ msgid "FAQ"
 msgstr "FAQ"
 
 msgid "Get Involved"
-msgstr "Zapojit se"
+msgstr "Zapojte se"
 
 msgid "Blog"
 msgstr "Blog"
