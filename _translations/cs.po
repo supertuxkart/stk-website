@@ -1,15 +1,15 @@
 # 
 # Translators:
 # GamingasCZ <gamingforyou875@gmail.com>, 2022
-# ToMáš Marný, 2022
+# ToMáš Marný, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: ToMáš Marný, 2022\n"
-"Language-Team: Czech (https://www.transifex.com/supertuxkart/teams/36024/cs/)\n"
+"Last-Translator: ToMáš Marný, 2023\n"
+"Language-Team: Czech (https://app.transifex.com/supertuxkart/teams/36024/cs/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cs\n"
@@ -26,7 +26,7 @@ msgid "Download"
 msgstr "Stáhnout"
 
 msgid "Discover"
-msgstr "Objevovat"
+msgstr "O hře"
 
 msgid "Community"
 msgstr "Komunita"
