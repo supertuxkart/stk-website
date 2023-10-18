@@ -56,7 +56,7 @@ msgid "Blog"
 msgstr "Blog"
 
 msgid "Donate"
-msgstr "Darovat"
+msgstr "Přispějte"
 
 # Dropdown menu which shows language selection, etc.
 msgid "Tools"
