@@ -82,7 +82,7 @@ Em fevereiro de 2008, a versão 0.4 foi lançada. Esta versão usou Bullet Physi
 
 A versão 0.5 foi lançada em maio de 2008. Incluía muitas pistas melhoradas, desafios desbloqueáveis, o modo de jogo Seguir o Líder e mais traduções (detetor de línguas do SO e correspondência com a tradução mais próxima).
 
-A versão 0.6 foi lançada em 22 de janeiro de 2009. A jogabilidade foi significativamente melhorada; a física melhorou com o Nitro e a derrapagem. O sistema de som também foi melhorado, foi adicionada música mais interessante e foram adicionadas muitas pistas e karts novos. Também se viu a primeira arena especial para multijogador para Batalhas de 3 Vidas e novos itens/potenciadores para usar
+A versão 0.6 foi lançada em 22 de janeiro de 2009. A jogabilidade foi significativamente melhorada; a física melhorou com o Nitro e a derrapagem. O sistema de som também foi melhorado, foi adicionada música mais interessante, além de muitas pistas e karts novos. Também aparece a primeira arena especial de multijogador para Batalhas de 3 Vidas e novos itens/potenciadores para usar.
 
 A versão 0.7 foi lançada em 20 de Dezembro de 2010. Foram feitos melhoramentos como a implementação de uma novo motor de renderização 3D, Irrlicht, uma nova IU (Interface de Utilizador), novas animações para karts e pistas, novas pistas, kars e powerups, e suporte para atalhos/caminhos alternativos. As versões 0.7.1, 0.7.2 e 0.7.3 foram lançadas em curto prazo depois de mais melhoramentos.
 
