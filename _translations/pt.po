@@ -138,7 +138,7 @@ msgid "Info"
 msgstr "Informação"
 
 msgid "Return to Get Involved"
-msgstr "Voltar a Involve-te"
+msgstr "Voltar a Envolve-te"
 
 msgid "Making Library Nodes"
 msgstr "Fazer Library Nodes"
