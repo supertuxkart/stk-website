@@ -181,7 +181,7 @@ msgid "Source control"
 msgstr "Controlo de fonte"
 
 msgid "Building from source"
-msgstr "Construindo com a fonte"
+msgstr "Compilar a partir da fonte"
 
 msgid "Coding style guidelines"
 msgstr "Diretrizes do estilo de código"
