@@ -76,7 +76,7 @@ Primeiro surgiu o [TuxKart](http://tuxkart.sourceforge.net). Este trabalho ocorr
 
 Em 2006, Joerg Henrichs (vulgo "Hiker") pegou no SuperTuxKart, corrigiu os bugs pendentes e problemas de desempenho sem qualquer envolvimento do designer original nem do projeto Jogo do Mês. Com a ajuda de "Coz", o primeiro lançamento do STK foi feito em setembro de 2006.
 
-Em Maio de 2007, a versão 0.3 foi lançada. Foram adicionados listas de recordes, uma pista nova (Ilha), a bomba, suporte para MacOSX e OpenAL.
+Em maio de 2007, a versão 0.3 foi lançada. Foram adicionadas listas de recordes, uma pista nova (Ilha), a bomba-relógio, suporte para MacOSX e OpenAL.
 
 Em Fevereiro de 2008, a versão 0.4 foi lançada. Esta versão usou os physics Bullet para melhorar colisões. "Auria" juntou-se á equipa, melhorando pistas como Areias Movediças e Faról.
 
