@@ -302,7 +302,7 @@ msgstr ""
 "outros jogadores pelo mundo inteiro."
 
 msgid "Main Characters"
-msgstr "Personagene Principais"
+msgstr "Personagens Principais"
 
 msgid "Tux"
 msgstr "Tux"
