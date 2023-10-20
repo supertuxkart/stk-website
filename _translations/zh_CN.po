@@ -279,7 +279,7 @@ msgid ""
 "for all ages."
 msgstr ""
 "引擎轰鸣，燃气喷涌，正是赛车启动时！SuperTuxKart "
-"是一款开源的三维街机赛车游戏，内含多种角色、赛道和游戏模式。我们的目标是创造一款比现实世界的卡丁车更有趣的、老少皆宜的游戏。"
+"是一款开源的三维街机赛车游戏，内含多种角色、赛道和游戏模式。其旨在成为一款比真实世界的卡丁车更加有趣、老少皆宜的游戏。"
 
 msgid ""
 "In Story mode, you must face the evil Nolok, and defeat him in order to make"
