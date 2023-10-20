@@ -13,6 +13,6 @@ Donativos ajudam-nos a melhorar o jogo, pois podem permitir comprar hardware, ho
 
 **Não hesites em contactar-nos se tiveres alguma dúvida ou problemas!**
 
-SuperTuxKart agora usa itch.io para receber donativos. Clica em "Download Now" (Descarregar Agora) e seleciona a quantia a doar.
+SuperTuxKart agora usa o Itch.io para receber donativos. Clica em "Download Now" (Descarregar Agora) e seleciona a quantia a doar.
 
 {% include donation_frame %}
