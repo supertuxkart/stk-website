@@ -53,7 +53,7 @@ msgid "Get Involved"
 msgstr "Envolve-te"
 
 msgid "Blog"
-msgstr "Blog"
+msgstr "Blogue"
 
 msgid "Donate"
 msgstr "Doar"
