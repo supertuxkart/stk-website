@@ -1,5 +1,5 @@
 ---
-title: Repositório da Mídia
+title: Repositório da Média
 display_title: true
 ---
 O **repositório da mídia** é o local onde são armazenados todos os arquivos originais de Modelos 3D, texturas, som e todas as outras artes do jogo usadas no STK. Isso é necessário porque esses arquivos são normalmente muito grandes ou até incompatíveis com o jogo, então estes são reduzidos ou convertidos antes de serem enviados com o jogo.
