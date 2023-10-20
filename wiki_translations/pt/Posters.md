@@ -1,5 +1,5 @@
 ---
-title: Posters
+title: Pósteres
 ---
 Nesta página vais encontrar os nosso posters oficiais. Clica nas imagens para vê-las em tamanho maior.
 
