@@ -597,7 +597,7 @@ msgstr ""
 "[aqui](https://github.com/supertuxkart/stk-code/releases/preview)."
 
 msgid "Get the latest release candidate:"
-msgstr "Obter a última versão a candidato:"
+msgstr "Obter a última versão candidata a lançamento:"
 
 msgid "Get SuperTuxKart on Itch.io"
 msgstr "Obter SuperTuxKart no Itch.io"
