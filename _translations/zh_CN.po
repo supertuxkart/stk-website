@@ -340,7 +340,7 @@ msgstr "Wilber"
 msgid ""
 "Wilber is the official cameraman who works for WTXB-TV to record kart races,"
 " which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
-msgstr "Wilber 是 WTXB 电视台的官方摄影师，负责为卡丁车比赛录像，而卡丁车比赛在吉祥物王国非常受欢迎。他是 GIMP 的吉祥物。"
+msgstr "作为 WTXB 电视台的官方摄影师，Wilber 用他的相机记录下了每一场万人空巷的卡丁车比赛。他是 GIMP 的吉祥物。"
 
 msgid "Puffy"
 msgstr "Puffy"
