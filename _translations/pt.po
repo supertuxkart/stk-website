@@ -157,7 +157,7 @@ msgid "IRC"
 msgstr "IRC"
 
 msgid "Mailing List"
-msgstr "Lista de emails"
+msgstr "Lista de e-mails"
 
 msgid "Reddit"
 msgstr "Reddit"
