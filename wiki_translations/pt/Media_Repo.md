@@ -20,7 +20,7 @@ As instruções para instalar o Subversion estão na página [Instalando ferrame
 {%popup_code
 svn checkout https://svn.code.sf.net/p/supertuxkart/code/media/trunk stk-media-repo%}
 
-#### Solução alternativa: Download manual do snapshot
+#### Solução alternativa: Descarga manual da "snapshot"
 
 {% start_liquid popup_info %}
 
