@@ -420,7 +420,7 @@ msgid ""
 "She races a special hovercraft, which is small enough to be driven by a "
 "mouse. She is the mascot of XFCE."
 msgstr ""
-"Xue 喜欢从人群中脱颖而出，她不寻常的卡丁车也反映了这一点。她比赛中使用一种特殊的气垫船，其体积小到可以由老鼠驾驶。她是 XFCE 的吉祥物。"
+"Xue 喜欢从人群中脱颖而出，她别具一格的卡丁车也反映了这一点。她比赛中使用一种特殊的气垫船，其体积小到可以由老鼠驾驶。她是 XFCE 的吉祥物。"
 
 msgid "Konqi"
 msgstr "Konqi"
