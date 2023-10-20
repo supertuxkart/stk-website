@@ -1,7 +1,7 @@
 ---
 title: Pósteres
 ---
-Nesta página vais encontrar os nosso posters oficiais. Clica nas imagens para vê-las em tamanho maior.
+Nesta página encontrarás os nossos pósteres oficiais. Clica nas imagens para as aumentares.
 
 {% start_liquid main_title %}
 
