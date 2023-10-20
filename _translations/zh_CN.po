@@ -356,7 +356,7 @@ msgstr "Pidgin"
 msgid ""
 "Pidgin's ability to fly makes him perfect to deliver the results of the "
 "Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
-msgstr "Pidgin 的飞行能力使他能够将锦标赛的结果传播至整个吉祥物王国。他是 Pidgin 的吉祥物。"
+msgstr "身上那一对灵巧的翅膀使 Pidgin 能够将赛事的进展捎带至一个个寻常百姓家。他是 Pidgin 的吉祥物。"
 
 msgid "Godette"
 msgstr "Godette"
