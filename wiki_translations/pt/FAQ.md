@@ -40,7 +40,7 @@ Quais são os requisitos de hardware?
 A GPU é geralmente o que limita o desempenho do STK. Placas que satisfaçam aos requisitos mínimos têm suporte do OpenGL para executar o jogo, mas requerem resoluções e gráficos baixos para um jogo suave. Placas que satisfaçam ou excedam os requisitos recomendados conseguem executar a pista mais exigente do STK a 60FPS/1080p com a moderna pipeline de renderização no nível de gráficos 4.
 
 * **Recomendado**: NVIDIA GeForce GTX 950, AMD Radeon RX 460, ou superior; Pelo menos 1GB VRAM (memória de vídeo).
-* **Minimo**: NVIDIA GeForce 470 GTX, AMD Radeon 6870 HD series card ou Intel HD Graphics 4000; Pelo menos 512 MB VRAM (memória de video).
+* **Mínimo**: NVIDIA GeForce 470 GTX, AMD Radeon 6870 HD series card ou Intel HD Graphics 4000; Pelo menos 512 MB VRAM (memória de vídeo).
 
 **CPU**
 
