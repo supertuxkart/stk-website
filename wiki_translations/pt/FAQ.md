@@ -80,7 +80,7 @@ Em maio de 2007, a versão 0.3 foi lançada. Foram adicionadas listas de recorde
 
 Em fevereiro de 2008, a versão 0.4 foi lançada. Esta versão usou Bullet Physics para melhorar o tratamento das colisões. "Auria" juntou-se e pôs-se a melhorar pistas (Areias Movediças e Farol).
 
-A versão 0.5 foi lançada em Maio de 2008. Foram feitos vários melhoramentos nas pistas, desafios desbloquiaveis, o modo Segue o Lider. e mais idiomas.
+A versão 0.5 foi lançada em maio de 2008. Incluía muitas pistas melhoradas, desafios desbloqueáveis, o modo de jogo Seguir o Líder e mais traduções (detetor de línguas do SO e correspondência com a tradução mais próxima).
 
 A versão 0.6 foi lançada em Janeiro de 2009. Houve um grande melhoramento na jogabilidade, physics melhores com nitro e derrapagens. O sistema de som também foi melhorado, mais músicas, pistas e kars foram adicionados. A primeira arena especial para o modo Batalha multijogador de 3 vidas foi feita, como também novos powerups.
 
