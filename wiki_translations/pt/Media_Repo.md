@@ -6,7 +6,7 @@ O **repositório da média** é o local onde estão armazenados todos os ficheir
 
 O repositório da média serve outro propósito: usando-o, podes importar uma grande variedade de texturas e objetos para as pistas que fazes. Como o Blender é sensível à estrutura de ficheiros dos teus ficheiros de pista quando vinculas texturas e nós de biblioteca do repositório da média, recomendamos que coloques o ficheiro de projeto do Blender do teu nó de kart/pista/biblioteca na sua própria pasta sob a categoria apropriada na tua cópia descarregada do repositório da média, **como se fosse uma parte oficial do jogo.**
 
-### Instalando o repositório da mídia
+### A instalar o repositório da média
 
 Nós recomendamos direcionar a versão de desenvolvimento do STK, então a melhor maneira de descarregar o repositório da mídia é com um cliente Subversion (SVN). No entanto, se não conseguires instalar o SVN, há uma solução simples.
 
