@@ -78,7 +78,7 @@ Em 2006, Joerg Henrichs (vulgo "Hiker") pegou no SuperTuxKart, corrigiu os bugs 
 
 Em maio de 2007, a versão 0.3 foi lançada. Foram adicionadas listas de recordes, uma pista nova (Ilha), a bomba-relógio, suporte para MacOSX e OpenAL.
 
-Em Fevereiro de 2008, a versão 0.4 foi lançada. Esta versão usou os physics Bullet para melhorar colisões. "Auria" juntou-se á equipa, melhorando pistas como Areias Movediças e Faról.
+Em fevereiro de 2008, a versão 0.4 foi lançada. Esta versão usou Bullet Physics para melhorar o tratamento das colisões. "Auria" juntou-se e pôs-se a melhorar pistas (Areias Movediças e Farol).
 
 A versão 0.5 foi lançada em Maio de 2008. Foram feitos vários melhoramentos nas pistas, desafios desbloquiaveis, o modo Segue o Lider. e mais idiomas.
 
