@@ -593,7 +593,7 @@ msgid ""
 "Preview release is available [here](https://github.com/supertuxkart/stk-"
 "code/releases/preview)."
 msgstr ""
-"Uma versão prévia está disponivel "
+"Uma versão experimental está disponível "
 "[aqui](https://github.com/supertuxkart/stk-code/releases/preview)."
 
 msgid "Get the latest release candidate:"
