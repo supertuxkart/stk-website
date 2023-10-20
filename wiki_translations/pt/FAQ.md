@@ -49,7 +49,7 @@ O desempenho do CPU poderá ser o que limita, dependendo da placa gráfica e das
 * **Recomendado**: Core i5-2400 single-thread performance or melhor. Isto inclui  CPUs AMD Ryzen, a maioria dos CPUs intel desde 2012 e CPUs moveis médios-altos.
 * **Mínimo**: qualquer processador dual core Intel ou AMD. Modelos muito antigos e peças móveis de baixa frequência poderão ter dificuldades em rodar, especialmente em jogos online.
 
-**Outros requesitos**
+**Outros requisitos**
 
 * Pelo menos 1 GB livre de RAM
 * Espaço no disco: 700MB
