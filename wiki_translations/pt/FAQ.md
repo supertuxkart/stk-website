@@ -17,7 +17,7 @@ O STK oferece um multijogador online, um multijogador local e um modo Um Jogador
 
 As suas 21 pistas levar-te-ão a uma variedade de ambientes. Desde praias em ilhas ensolaradas à profundidade de uma mina velha, desde as ruas da Cidade de Candela a pacíficas estradas rurais, desde uma nave espacial até às montanhas, tens muito para explorar e descobrir.
 
-O jogo também inclui modo adicionais além de corridas normais: contra o relógio, segue o lider, futebol, captura a bandeira e dois tipos de modos de batalha.
+O jogo inclui ainda modos adicionais além de corridas normais: Contrarrelógio, Seguir o Líder, Futebol, Capturar a Bandeira e dois tipos de modo de batalha.
 
 [Descobre mais aqui](Discover)!
 
