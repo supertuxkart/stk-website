@@ -606,7 +606,7 @@ msgid "Discover more..."
 msgstr "Descobre mais..."
 
 msgid "Latest Blog Post"
-msgstr "Postagem de Blog mais recente"
+msgstr "Última Postagem no Blogue"
 
 # Title of prerequisites popup which describes prerequisites before reading
 # some articles
