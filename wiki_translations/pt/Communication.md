@@ -24,7 +24,7 @@ A equipa têm de manter a qualidade do código e da arte. Isto pode significar q
   * Se a discussão do bug estiver aberta, verifica se podem reportar mais informações para a equipa
   * Se a discussão do bug estiver fechada, provavelmente terás de esperar pelo próximo lançamento para que as correções sejam incluídas no jogo, a não ser que queiras construir o jogo com a fonte.
 * Se o bug não foi reportado:
-  * Usem um título cláro e descritivo.
+  * Usem um título claro e descritivo.
   * Incluiem uma explicação detalhada do problema. Instruções passo-a-passo de como reproduzir o problema são muito úteis.
   * Incluiem as informações do vosso sistema como o operador do sistema, a sua versão, o modelo processador de gráficos (GPU) e marca, a versão do driver de gráficos, e o modelo do CPU.
   * Incluiem o ficheiro stdout.log. (Vê "Onde é que o STK guarda o ficheiro de configuração do utilizador" na página [FAQ](FAQ) para mais informações sobre a localização do ficheiro.)
