@@ -4,7 +4,7 @@ display_title: true
 ---
 O **repositório da média** é o local onde estão armazenados todos os ficheiros originais de Modelos 3D, texturas, som e toda a restante arte do jogo usada no STK. Isto é necessário porque esses ficheiros são normalmente muito grandes ou até incompatíveis com o jogo. Assim eles são reduzidos ou convertidos antes de serem colocados no jogo.
 
-O repositório da mídia serve outro propósito: Usando-o, podes importar uma grande variedade de texturas e objetos para as pistas que fazes. Como o Blender é sensível sobre a estrutura de arquivos dos seus arquivos de pista quando vinculas texturas e nós de biblioteca do repositório de mídia, recomendamos que coloques o arquivo de projeto do Blender do seu nó de kart/pista/biblioteca na sua própria pasta sob a categoria apropriada na sua cópia descarregada do repositório de mídia, **como se fosse uma parte oficial do jogo.**
+O repositório da média serve outro propósito: usando-o, podes importar uma grande variedade de texturas e objetos para as pistas que fazes. Como o Blender é sensível à estrutura de ficheiros dos teus ficheiros de pista quando vinculas texturas e nós de biblioteca do repositório da média, recomendamos que coloques o ficheiro de projeto do Blender do teu nó de kart/pista/biblioteca na sua própria pasta sob a categoria apropriada na tua cópia descarregada do repositório da média, **como se fosse uma parte oficial do jogo.**
 
 ### Instalando o repositório da mídia
 
