@@ -1,5 +1,5 @@
 ---
-title: Dublagem
+title: Interpretação Vocal
 display_title: true
 ---
 Ocasionalmente, os criadores do SuperTuxKart ou artistas independentes precisam de ajuda com vozes para o jogo. Geralmente, isto aplica-se a coisas como a voz do Nolok nas cinemáticas introdutórias, a qual, se ouvires com atenção, é um pequeno conteúdo secreto satírico.
