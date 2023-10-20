@@ -5,7 +5,7 @@ Nesta página encontrarás os nossos pósteres oficiais. Clica nas imagens para 
 
 {% start_liquid main_title %}
 
-Posters arquivados
+Pósteres arquivados
 
 {% end_liquid %}
 
