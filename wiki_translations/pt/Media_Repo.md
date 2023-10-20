@@ -8,7 +8,7 @@ O repositório da média serve outro propósito: usando-o, podes importar uma gr
 
 ### A instalar o repositório da média
 
-Nós recomendamos direcionar a versão de desenvolvimento do STK, então a melhor maneira de descarregar o repositório da mídia é com um cliente Subversion (SVN). No entanto, se não conseguires instalar o SVN, há uma solução simples.
+Recomendamos o uso da versão de desenvolvimento do STK, por isso a melhor forma de descarregar o repositório da média é com um cliente de Subversion (SVN). No entanto, se não conseguires instalar o SVN, há uma solução simples.
 
 #### Melhor modo: Instalando o Subversion
 
