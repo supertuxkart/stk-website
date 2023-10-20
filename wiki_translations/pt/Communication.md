@@ -4,7 +4,7 @@ toc: true
 ---
 Antes de contactares a equipa, reportares um bug, postar nos fórums, etc, Deves ler cuidadosamente esta página. Seguindo estas diretrizes e instruções fará a comunidade e o projeto funcione mais eficientemente e em alegria! Apesar de soar duro, por favor não tenhas medo de postar. A equipa é geralmente muito paciente, a não ser que sejas um infrator. ;)
 
-## Por favor mantem em mente...
+## Por favor, tem em mente...
 
 ### Os desenvolvedores não são pagos
 
