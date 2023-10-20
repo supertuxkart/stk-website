@@ -44,7 +44,7 @@ A GPU é geralmente o que limita o desempenho do STK. Placas que satisfaçam aos
 
 **CPU**
 
-A performance do CPU poderá ser a limitação dependendo do cartão de gráfico e do nivel de gráficos, especialmente para jogabilidade online que é mais exigente no CPU. Um bom performance de CPU ajuda a manter um framerate alto e a suavidade. Para o STK, a performance de thread único é fundamental.
+O desempenho do CPU poderá ser o que limita, dependendo da placa gráfica e das definições gráficas, especialmente para jogos online, que exigem mais do CPU. Um bom desempenho do CPU ajuda a manter uma taxa de frames alta e, mais importante, a suavidade. Para o STK, o desempenho de thread única é fundamental.
 
 * **Recomendado**: Core i5-2400 single-thread performance or melhor. Isto inclui  CPUs AMD Ryzen, a maioria dos CPUs intel desde 2012 e CPUs moveis médios-altos.
 * **Minimo**: Qualquer processador dual core Intel ou AMD. Modelos muito antigos e partes moveis de baixa frequência poderam ter dificuldades em rodar, especialmente quando jogado online.
