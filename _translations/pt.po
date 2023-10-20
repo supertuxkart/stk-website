@@ -47,7 +47,7 @@ msgid "Menu"
 msgstr "Menu"
 
 msgid "FAQ"
-msgstr "FAQ"
+msgstr "Perguntas Frequentes"
 
 msgid "Get Involved"
 msgstr "Involve-te"
