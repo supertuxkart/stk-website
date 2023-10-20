@@ -222,7 +222,7 @@ msgid "Reporting Problems"
 msgstr "Reportar Problemas"
 
 msgid "Voice Acting"
-msgstr "Dobragem"
+msgstr "Dobragem/Interpretação Vocal"
 
 msgid "Terms and conditions"
 msgstr "Termos e condições"
