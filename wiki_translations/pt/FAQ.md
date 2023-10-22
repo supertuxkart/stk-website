@@ -94,7 +94,7 @@ Em abril de 2019, lançámos a versão 1.0, suportando pela primeira vez multijo
 
 Hiker anunciou então oficialmente a sua decisão de deixar o projeto depois de o liderar por 13 anos. Auria também abandonou o seu posto como codirigente, mas manteve-se envolvida no projeto.
 
-A liderança do projeto foi passada para Benau, um grande contribuidor de código desde 2017, e Alayan, um grande contribuidor da versão 1.0. Deveee, um contribuidor importante ao longo de vários anos, responsávei pela versão Android, permaneceu na equipa.
+A liderança do projeto foi passada para Benau, um grande contribuidor de código desde 2017, e Alayan, um grande contribuidor da versão 1.0. Deveee, um contribuidor importante ao longo de vários anos, responsável pela versão Android, permaneceu na equipa.
 
 Em janeiro de 2020, a versão 1.1 foi lançada. A jogabilidade não mudou, sendo que todas as versões 1.x são compatíveis ente si. As maiores mudanças nesta versão foram o melhoramento do código da rede e grandes melhoramentos na IU, especificamente em resoluções maiores, assim como várias correções de bugs e aperfeiçoamentos.
 
