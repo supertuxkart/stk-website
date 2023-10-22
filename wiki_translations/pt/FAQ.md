@@ -84,7 +84,7 @@ A versão 0.5 foi lançada em maio de 2008. Incluía muitas pistas melhoradas, d
 
 A versão 0.6 foi lançada em 22 de janeiro de 2009. A jogabilidade foi significativamente melhorada; a física melhorou com o Nitro e a derrapagem. O sistema de som também foi melhorado, foi adicionada música mais interessante, além de muitas pistas e karts novos. Também aparece a primeira arena especial de multijogador para Batalhas de 3 Vidas e novos itens/potenciadores para usar.
 
-A versão 0.7 foi lançada em 20 de Dezembro de 2010. Foram feitos melhoramentos como a implementação de uma novo motor de renderização 3D, Irrlicht, uma nova IU (Interface de Utilizador), novas animações para karts e pistas, novas pistas, kars e powerups, e suporte para atalhos/caminhos alternativos. As versões 0.7.1, 0.7.2 e 0.7.3 foram lançadas em curto prazo depois de mais melhoramentos.
+A versão 0.7 foi lançada em 20 de dezembro de 2010. Continha várias melhorias significativas como: novo motor de renderização 3D, Irrlicht, uma nova GUI (Interface Gráfica do Utilizador), novas animações para karts e pistas, novas pistas, karts e itens/potenciadores, e suporte para atalhos/caminhos alternativos. As versões 0.7.1, 0.7.2 e 0.7.3 foram lançadas pouco depois com mais melhoramentos.
 
 A versão 0.8 foi lançada em Dezembro de 2012, adicionando o modo História e mais desafios, IA e derrapagens melhoradas, sentido contrário, novas pistas e música. Os menus também foram melhorados. Em seguida veio a versão 0-8.1, que adicionou e melhorou pistas, os modos Futebol e Caça aos Ovos, e outros melhoramentos nos gráficos e jogabilidade.
 
