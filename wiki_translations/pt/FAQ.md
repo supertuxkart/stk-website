@@ -90,7 +90,7 @@ A versão 0.8 foi lançada em dezembro de 2012, adicionando o modo História e n
 
 Em 2015, lançámos a versão 0.9, um lançamento inovador destacando o novo motor do jogo chamado Antarctica, adicionando opções gráficas avançadas que seriam impossíveis em versões anteriores. Estes incluem luz dinâmica, renderização instanciada (permitindo um grande aumento de vegetação) e mais. A 0.9 recebeu mais três lançamentos que adicionaram mais recursos e novas pistas.
 
-Em Abril de 2019, lançamos a versão 1.0,  tendo pela primeira vez multijogador online. Além desta grande adição, houve novas e melhoradas pistas, a adição de desafios na dificuldade SuperTux no modo História e vários ajustamentos e correções. 
+Em abril de 2019, lançámos a versão 1.0, suportando pela primeira vez multijogador online. Além desta grande funcionalidade, houve novas pistas e atualização de outras, a adição de desafios na dificuldade SuperTux ao modo História, vários balanceamentos e muitas outras melhorias e correções.
 
 Hiker anunciou que irá oficialmente deixar o projeto depois de estar involvido por 13 anos. Auria deixou o seu posto como co-lead mas manteu-se involvida com o projeto.
 
