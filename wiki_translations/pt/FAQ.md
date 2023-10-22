@@ -112,7 +112,7 @@ O SuperTuxKart é um clone do Mario Kart?
 
 Não! O Mario Kart certamente é o mais popular entre os jogos de karting, mas não é o único.
 
-Algumas versões mais antigas do STK tentaram imitar o Mario Kart, mas não foi o caso por muito tempo. Às vezes procuramos por inspiração, como fazemos com outros jogos de karting, mas é só isso.
+Algumas versões muito antigas do STK tentaram imitar o Mario Kart, mas não é o caso desde há muito tempo. Às vezes procuramos nele inspiração, como fazemos com outros jogos de karting, mas é só isso.
 
 Não só há diferenças notaveis na jogabilidade, como também o SuperTuxKart evoluiu no seu próprio caminho e não estamos a tentar copiar qualquer Mario Kart.
 
