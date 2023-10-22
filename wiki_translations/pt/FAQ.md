@@ -92,7 +92,7 @@ Em 2015, lançámos a versão 0.9, um lançamento inovador destacando o novo mot
 
 Em abril de 2019, lançámos a versão 1.0, suportando pela primeira vez multijogador online. Além desta grande funcionalidade, houve novas pistas e atualização de outras, a adição de desafios na dificuldade SuperTux ao modo História, vários balanceamentos e muitas outras melhorias e correções.
 
-Hiker anunciou que irá oficialmente deixar o projeto depois de estar involvido por 13 anos. Auria deixou o seu posto como co-lead mas manteu-se involvida com o projeto.
+Hiker anunciou então oficialmente a sua decisão de deixar o projeto depois de o liderar por 13 anos. Auria também abandonou o seu posto como codirigente, mas manteve-se envolvida no projeto.
 
 Benau passou a ser o lider do projeto, um grande contribuidor de código desde 2017, e Alayan também, um grande contribuidor para a versão 1.0. Deveee, um contribuidor importante ao longo de vários anos, responsávei pelo port da versão Android, ficou com a equipa.
 
