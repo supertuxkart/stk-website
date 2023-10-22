@@ -122,7 +122,7 @@ Não só há várias diferenças notáveis na jogabilidade, como também o Super
 
 Eu quero ajudar! O que é que eu posso fazer?
 
-Primeiro, dá uma olhadela na página [Involve-te](Community). Irá conter toda a informação que precisas para fazer código, modelos, designing ou o que pretendas fazer.
+Primeiro, dá uma olhada à página [Envolve-te](Community). Deverá conter toda a informação de que precisas para começar a fazer código, modelos, design ou o que prefiras fazer.
 
 Antes de começares, entra em contacto com os desenvolvedores e artistas através do [IRC](https://web.libera.chat/?channels=#supertuxkart), do [canal de Telegrama](https://t.me/STKInternational) ou no [fórum](https://forum.freegamedev.net/viewforum.php?f=16) e diz-nos o que queres fazer. Isto vai aumentar as chances da tua contribuição ser aceite.
 
