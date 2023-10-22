@@ -100,7 +100,7 @@ Em janeiro de 2020, a versão 1.1 foi lançada. A jogabilidade não mudou, sendo
 
 Em agosto de 2020, a versão 1.2 foi lançada. Foi melhorado o suporte para comandos de jogo via SDL2, que suporta ligação a quente (ou hotplugging) e mapeamento de controlos.
 
-Em Setembro de 2021, a versão mais recente, 1.3, foi lançada. Foram melhorados vários karts oficiais.
+Em setembro de 2021, a versão mais recente, 1.3, foi lançada. Foram melhorados vários karts oficiais.
 
 Para mais detalhes, por favor vê o [registo de alterações](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md). As [postagens no blogue](https://blog.supertuxkart.net) ou a lista de problemas resolvidos no GitHub do STK.
 
