@@ -98,7 +98,7 @@ A liderança do projeto foi passada para Benau, um grande contribuidor de códig
 
 Em janeiro de 2020, a versão 1.1 foi lançada. A jogabilidade não mudou, sendo que todas as versões 1.x são compatíveis ente si. As maiores mudanças nesta versão foram o melhoramento do código da rede e grandes melhoramentos na IU, especificamente em resoluções maiores, assim como várias correções de bugs e aperfeiçoamentos.
 
-Em Agosto de 2020, a versão 1.2 foi lançada. Foi melhorado o suporte para comandos com a SDL2. que suporta hotplugging e mapeamento de controlos.
+Em agosto de 2020, a versão 1.2 foi lançada. Foi melhorado o suporte para comandos de jogo via SDL2, que suporta ligação a quente (ou hotplugging) e mapeamento de controlos.
 
 Em Setembro de 2021, a versão mais recente, 1.3, foi lançada. Foram melhorados vários karts oficiais.
 
