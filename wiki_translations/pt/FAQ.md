@@ -86,7 +86,7 @@ A versão 0.6 foi lançada em 22 de janeiro de 2009. A jogabilidade foi signific
 
 A versão 0.7 foi lançada em 20 de dezembro de 2010. Continha várias melhorias significativas como: novo motor de renderização 3D, Irrlicht, uma nova GUI (Interface Gráfica do Utilizador), novas animações para karts e pistas, novas pistas, karts e itens/potenciadores, e suporte para atalhos/caminhos alternativos. As versões 0.7.1, 0.7.2 e 0.7.3 foram lançadas pouco depois com mais melhoramentos.
 
-A versão 0.8 foi lançada em Dezembro de 2012, adicionando o modo História e mais desafios, IA e derrapagens melhoradas, sentido contrário, novas pistas e música. Os menus também foram melhorados. Em seguida veio a versão 0-8.1, que adicionou e melhorou pistas, os modos Futebol e Caça aos Ovos, e outros melhoramentos nos gráficos e jogabilidade.
+A versão 0.8 foi lançada em dezembro de 2012, adicionando o modo História e novos desafios, IA e derrapagens melhoradas, sentido inverso, novas pistas e música. Os menus também foram melhorados. Em seguida, veio a versão 0.8.1, que adicionou e melhorou pistas, os modos Futebol e Caça aos Ovos, e outros melhoramentos gráficos e de jogabilidade.
 
 Em 2015, lançamos a versão 0.9, um lançamento inovador destacando o novo motor do jogo chamado Antartica, adicionando opções gráficas avançadas que eram impossiveis em versões anteriores. Estes incluem luz dinamica, renderização instaciada (dando a possibilidade ed um aumento na vegetação) e mais. A versão 0.9 recebeu mais 3 lançamento em que foram adicionados recursos adicionais e novas pistas.
 
