@@ -148,7 +148,7 @@ Os karts de computador fazem batota?
 
 Não!
 
-O limite da velocidade e os impulso são o mesmo para todos os karts, computador ou humano. Em dificuldades inferiores, os karts IA poderão abrandar de propósito. As probabilidades de cada item nos presentes também são identicos. Há diferenças muito pequenas no quão rapido os karts conseguem virar de uma direção para outra, mas não dá nenhuma vantagem.
+Os limites e impulsos de velocidade são exatamente os mesmos para todos os karts, IA ou humano. Em dificuldades inferiores, as IAs poderão abrandar de propósito. As probabilidades de cada potenciador nos presentes também são idênticas. Há diferenças muito pequenas no quão rápido os karts conseguem virar de uma direção para outra, mas isso não dá nenhuma vantagem.
 
 O karts IA ás vezes têm reflexos superhumanos quando usam items, mas jogadores conseguem o mesmo resultado se pressionarem os botões certos na altura certa, tal como maneiras de os superar.
 
