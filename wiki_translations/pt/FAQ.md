@@ -166,7 +166,7 @@ Sim! Depois de criares uma conta online STK dentro do jogo e te ligares a ela, s
 
 {% start_liquid qa %}
 
-Porque é que algumas teclas não funcionam quando pressionadas simultaneamente?
+Porque é que no teclado algumas teclas não funcionam quando premidas simultaneamente?
 
 Dependendo do teu teclado, poderás experienciar teclas que não funcionam quando várias são precionadas, mais informações presentes [aqui](https://www.sjbaker.org/wiki/index.php?title=Keyboards_Are_Evil). Para resolver este problema, simplesmente usa um dispositivo adequado a gaming, como um comando ou teclado gaming, ou ajusta os teus controlos de maneira a que as teclas funcionem.
 
