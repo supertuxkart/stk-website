@@ -150,7 +150,7 @@ Não!
 
 Os limites e impulsos de velocidade são exatamente os mesmos para todos os karts, IA ou humano. Em dificuldades inferiores, as IAs poderão abrandar de propósito. As probabilidades de cada potenciador nos presentes também são idênticas. Há diferenças muito pequenas no quão rápido os karts conseguem virar de uma direção para outra, mas isso não dá uma vantagem concreta à IA, e nem é a intenção.
 
-O karts IA ás vezes têm reflexos superhumanos quando usam items, mas jogadores conseguem o mesmo resultado se pressionarem os botões certos na altura certa, tal como maneiras de os superar.
+A IA por vezes pode ter reflexos super-humanos quando usa potenciadores, mas se um humano premir o botão certo na devida altura, conseguirá obter o mesmo resultado. Além disso, há muito espaço de manobra para os superar.
 
 Se tiveres dificuldade em bater os karts IA, foca em melhorar o teu nível de habilidade, como evitar bater em paredes ou obstaculos quando fores rápido, e aprender a usar as derrapagens. Em dificuldades maiores, derrapagens são muito importantes para derrotar o computador, estas dão-te impulso de velocidade.
 
