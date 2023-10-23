@@ -88,7 +88,7 @@ A versão 0.7 foi lançada em 20 de dezembro de 2010. Continha várias melhorias
 
 A versão 0.8 foi lançada em dezembro de 2012, adicionando o modo História e novos desafios, IA e derrapagens melhoradas, sentido inverso, novas pistas e música. Os menus também foram melhorados. Em seguida, veio a versão 0.8.1, que adicionou e melhorou pistas, os modos Futebol e Caça aos Ovos, e outros melhoramentos gráficos e de jogabilidade.
 
-Em 2015, lançámos a versão 0.9, um lançamento inovador destacando o novo motor do jogo chamado Antarctica, adicionando opções gráficas avançadas que seriam impossíveis em versões anteriores. Estes incluem luz dinâmica, renderização instanciada (permitindo um grande aumento de vegetação) e mais. A 0.9 recebeu mais três lançamentos que adicionaram mais recursos e novas pistas.
+Em 2015, lançámos a versão 0.9, um lançamento inovador destacando o novo motor do jogo chamado Antarctica, adicionando opções gráficas avançadas que seriam impossíveis em versões anteriores. Estas incluem luz dinâmica, renderização instanciada (permitindo um grande aumento de vegetação) e mais. A 0.9 recebeu mais três lançamentos que adicionaram mais recursos e novas pistas.
 
 Em abril de 2019, lançámos a versão 1.0, suportando pela primeira vez multijogador online. Além desta grande funcionalidade, houve novas pistas e atualização de outras, a adição de desafios na dificuldade SuperTux ao modo História, vários balanceamentos e muitas outras melhorias e correções.
 
