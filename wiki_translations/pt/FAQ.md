@@ -152,7 +152,7 @@ Os limites e impulsos de velocidade são exatamente os mesmos para todos os kart
 
 A IA por vezes pode ter reflexos super-humanos quando usa potenciadores, mas se um humano premir o botão certo na devida altura, conseguirá obter o mesmo resultado. Além disso, há muito espaço de manobra para os superar.
 
-Se tiveres dificuldade em bater os karts IA, foca em melhorar o teu nível de habilidade, como evitar bater em paredes ou obstaculos quando fores rápido, e aprender a usar as derrapagens. Em dificuldades maiores, derrapagens são muito importantes para derrotar o computador, estas dão-te impulso de velocidade.
+Se tiveres dificuldade em bater a IA, foca-te em melhorar a tua condução para evitares bater em paredes quando fores rápido, e aprende ainda a fazer derrapagens. Em dificuldades maiores, derrapar é essencial para derrotar a IA.
 
 {% end_liquid %}
 
