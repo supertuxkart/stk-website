@@ -144,7 +144,7 @@ A maioria dos itens pode ser disparada à retaguarda (bola de bólingue, bolo, d
 
 {% start_liquid qa %}
 
-Os karts computor fazem batota?
+Os karts de computador fazem batota?
 
 Não!
 
