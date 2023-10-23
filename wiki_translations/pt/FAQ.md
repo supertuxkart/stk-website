@@ -124,7 +124,7 @@ Eu quero ajudar! O que é que eu posso fazer?
 
 Primeiro, dá uma olhada à página [Envolve-te](Community). Deverá conter toda a informação de que precisas para começar a fazer código, modelos, design ou o que prefiras fazer.
 
-Antes de começar, deves contactar os desenvolvedores e artistas atuais através do [IRC](https://web.libera.chat/?channels=#supertuxkart), do [canal de Telegram](https://t.me/STKInternational) ou do [fórum](https://forum.freegamedev.net/viewforum.php?f=16) e diz-nos o que queres fazer. Isto aumentará a probabilidade de a tua contribuição ser aceite.
+Antes de começar, deves contactar os desenvolvedores e artistas atuais através do [IRC](https://web.libera.chat/?channels=#supertuxkart), do [canal de Telegram](https://t.me/STKInternational) ou do [fórum](https://forum.freegamedev.net/viewforum.php?f=16) e diz-nos o que queres fazer. Isto aumentará as chances de a tua contribuição ser aceite.
 
 {% end_liquid %}
 
