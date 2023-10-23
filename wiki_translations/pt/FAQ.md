@@ -136,7 +136,7 @@ Questões sobre a jogabilidade.
 
 {% start_liquid qa %}
 
-Um kart IA (computador) disparou um item para trás — como é que eu faço o mesmo?
+Uma IA (kart do computador) disparou um item para trás — como é que eu faço o mesmo?
 
 A maioria dos itens pode ser disparado para trás (bolas de bowling, bolos, desentupidores, pastilha elástica). Para disparar para trás, olha para trás e depois dispara o item.
 
