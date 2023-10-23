@@ -160,7 +160,7 @@ Se tiveres dificuldade em bater a IA, foca-te em melhorar a tua condução para 
 
 Posso jogar STK online?
 
-Sim! Depois de criar uma conta STK online dentro do jogo e conectar-se a ela, selecione o botão "Multijogador em rede" no menu principal e depois "Internet" para acessar o jogo em rede pela internet. Você pode hospedar seu próprio servidor para que outros possam jogar ou ingressar em servidores hospedados pela comunidade. Para a melhor experiência, uma conexão estável e um ping baixo para o servidor são importantes.
+Sim! Depois de criares uma conta online STK dentro do jogo e te ligares a ela, seleciona o botão "Online" no menu inicial e depois "Rede global" para acederes ao jogo em rede pela internet. Podes hospedar o teu próprio servidor para que outros joguem nele ou ingressa em servidores hospedados pela comunidade. Para a melhor experiência, uma ligação estável e um ping baixo para o servidor são importantes.
 
 {% end_liquid %}
 
