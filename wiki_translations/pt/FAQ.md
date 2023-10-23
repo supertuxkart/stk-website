@@ -138,7 +138,7 @@ Questões sobre a jogabilidade.
 
 Uma IA (kart do computador) disparou um item para trás — como é que eu faço o mesmo?
 
-A maioria dos itens pode ser disparado para trás (bolas de bowling, bolos, desentupidores, pastilha elástica). Para disparar para trás, olha para trás e depois dispara o item.
+A maioria dos itens pode ser disparada à retaguarda (bola de bólingue, bolo, desentupidor, pastilha elástica). Basta dispará-los enquanto olhas à retaguarda.
 
 {% end_liquid %}
 
