@@ -182,7 +182,7 @@ Isto pode incluir situações em que o kart vira sozinho ou trava do nada. Podes
 
 {% start_liquid qa %}
 
-Apareceu um círculo vermelho no meu ecrã. O que é isto?
+Apareceu um grande círculo vermelho no meu ecrã. O que é isto?
 
 Se vires um pinguim no meio do circulo, isto indica que fores acertado com um desentupidor disparado para trás, poderás fazer o mesmo a outros (Vê o FAQ sobre dispara itens para trás).
 
