@@ -192,7 +192,7 @@ Se há um pinguim no meio do círculo, é porque alguém te atirou um desentupid
 
 Posso usar um comando Wii para jogar STK?
 
-Sim! Vê a pagina [Wiimote](Wiimote) para mais detalhes.
+Sim! Vê a página [Wiimote](Wiimote) para detalhes.
 
 {% end_liquid %}
 
