@@ -214,7 +214,7 @@ Primeiro, verifica se o bug já foi reportado no [Tracker de Bugs](https://githu
 
 Onde ficam guardadas as configurações?
 
-* No sistema **Windows**:  `%APPDATA%/supertuxkart/config-0.10` (podes procurar no Explorer para aceder)
+* No **Windows**:  `%APPDATA%/supertuxkart/config-0.10` (podes introduzir isto no Explorador que ele leva-te lá).
 * No sistema **Linux**: `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primeira opção), `~/.config/supertuxkart/config-0.10` (segunda opção) ou `~/.supertuxkart/config-0.10` (terceira opção).
 * No sistema **macOS**: `~/Library/Application Support/supertuxkart/config-0.10` (poderá estar oculto).
 * Com **Snap**: Está em `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
