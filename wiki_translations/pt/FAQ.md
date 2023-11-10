@@ -218,7 +218,7 @@ Onde ficam guardadas as configurações?
 * No **Linux**: ou fica em `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primeira opção), `~/.config/supertuxkart/config-0.10` (segunda opção) ou então em `~/.supertuxkart/config-0.10` (terceira opção).
 * No **macOS**: fica em `~/Library/Application Support/supertuxkart/config-0.10`. Repara que este diretório poderá estar oculto.
 * Com **Snap**: fica em `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
-* Com **Flatpak**: Está em `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
+* Com **Flatpak**: fica em `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
 Também podes observar a saída no terminal para ver se há alguma nota sobre onde os ficheiros de configuração estão armazenados ou procurar por um ficheiro chamado "config.xml".
 
