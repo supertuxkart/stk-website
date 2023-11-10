@@ -212,7 +212,7 @@ Primeiro, verifica se o bug já foi reportado no [Tracker de Bugs](https://githu
 
 {% start_liquid qa %}
 
-Onde está locallizada as configurações?
+Onde ficam guardadas as configurações?
 
 * No sistema **Windows**:  `%APPDATA%/supertuxkart/config-0.10` (podes procurar no Explorer para aceder)
 * No sistema **Linux**: `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primeira opção), `~/.config/supertuxkart/config-0.10` (segunda opção) ou `~/.supertuxkart/config-0.10` (terceira opção).
