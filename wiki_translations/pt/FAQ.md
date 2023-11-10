@@ -212,7 +212,7 @@ Primeiro, verifica se o bug já foi reportado no [Tracker de Bugs](https://githu
 
 {% start_liquid qa %}
 
-Onde ficam guardadas as configurações?
+Onde fica armazenada a configuração do jogo?
 
 * No **Windows**:  `%APPDATA%/supertuxkart/config-0.10` (podes introduzir isto no Explorador que ele leva-te lá).
 * No **Linux**: ou fica em `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primeira opção), `~/.config/supertuxkart/config-0.10` (segunda opção) ou então em `~/.supertuxkart/config-0.10` (terceira opção).
