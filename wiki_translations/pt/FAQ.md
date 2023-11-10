@@ -176,7 +176,7 @@ Jogando com teclado, poderás experienciar problemas ao pressionar múltiplas te
 
 Tenho problemas com os controlos
 
-Isto pode incluir situações em que o kart vira sozinho ou trava do nada. Podes tentar verificar o que está mal nas opções, no menu dos controlos, como comandos ligados que não estejam a usar (ou de dispositivos considerados comandos pelo jogo).
+Isto pode incluir o kart virar sempre para a esquerda, travar do nada ou outras bizarrias em que o jogo crê que premiste uma tecla que na verdade não premiste. Se isto acontece, procura ir ao menu Opções, separador Controlos, e vê se tens comandos de jogo listados. Tenta desativar todos eles exceto o dispositivo que queres usar. Por vezes, podem ser recebidos registos de entrada indevidos de comandos de jogo ou outros dispositivos similares que o SO detete como comandos de jogo.
 
 {% end_liquid %}
 
