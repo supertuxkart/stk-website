@@ -168,7 +168,7 @@ Sim! Depois de criares uma conta online STK dentro do jogo e te ligares a ela, s
 
 Porque é que no teclado algumas teclas não funcionam quando premidas simultaneamente?
 
-Jogando com teclado, poderás experienciar problemas ao pressionar múltiplas teclas em simultâneo, quando tentas usar nitro enquanto aceleras ou viras o kart, por exemplo. Nessas situações, algumas teclas poderão não ser registadas quando premidas. Contudo, isto não é um erro do SuperTuxKart, mas uma limitação do teu teclado, pois a maioria apenas suporta dado número de teclas premidas ao mesmo tempo (informação mais detalhada [aqui](https://www.sjbaker.org/wiki/index.php?title=Keyboards_Are_Evil)). A solução está no uso de um dispositivo de entrada para jogos (comando de jogos ou teclado gaming) ou em alterar a configuração de teclas de forma a encontrares teclas que o teu teclado consiga registar simultaneamente.
+Jogando com teclado, poderás experienciar problemas ao pressionar múltiplas teclas em simultâneo, quando tentas usar nitro enquanto aceleras ou viras o kart, por exemplo. Nessas situações, algumas teclas poderão não ser registadas quando premidas. Contudo, isto não é um erro do SuperTuxKart, mas uma limitação do teu teclado, pois a maioria apenas suporta dado número de teclas premidas ao mesmo tempo (informação mais detalhada [aqui](https://www.sjbaker.org/wiki/index.php?title=Keyboards_Are_Evil)). A solução está no uso de um dispositivo de entrada para jogos (comando de jogo ou teclado gaming) ou em alterar a configuração de teclas de forma a encontrares teclas que o teu teclado consiga registar simultaneamente.
 
 {% end_liquid %}
 
