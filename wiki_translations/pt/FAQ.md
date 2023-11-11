@@ -236,7 +236,7 @@ Isto às vezes acontece; Os desenvolvedores deverão tomar conhecimento e isto d
 
 Como desbloqueio todas as pistas?
 
-A maneira pretendida no jogo é jogar o modo história e vencer todos os desafios.
+A maneira pretendida no jogo é jogar o modo História e vencer todos os desafios.
 
 Se, no entanto, preferires desbloquear tudo sem completar o modo História, também podes "fazer uma batota" editando o ficheiro de configuração. Abre a pasta mencionada em cima na questão "Onde é que o STK guarda o ficheiro de configuração". De lá, abre a pasta "config-0.10" e de seguida o ficheiro "players.xml". Substitui todas as ocorrências de "none" por "hard" (ou  "easy" ou "medium", indicando o nível mais alto em que resolveste um desafio).
 
