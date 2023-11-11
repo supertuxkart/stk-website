@@ -184,7 +184,7 @@ Isto pode incluir o kart virar sempre para a esquerda, travar do nada ou outras 
 
 Apareceu um grande círculo vermelho no meu ecrã. O que é isto?
 
-Se há um pinguim no meio do círculo, é porque alguém te atirou um desentupidor à cara. Poderás fazer o mesmo a outros disparando um desentupidor à retaguarda (nas Perguntas Frequentes, lê a entrada sobre disparar itens para trás).
+Se houver um pinguim no meio do círculo, é porque alguém te atirou um desentupidor à cara. Poderás fazer o mesmo a outros disparando um desentupidor à retaguarda (nas Perguntas Frequentes, lê a entrada sobre disparar itens para trás).
 
 {% end_liquid %}
 
