@@ -97,7 +97,7 @@ msgid "Media"
 msgstr "Média"
 
 msgid "YouTube"
-msgstr "Youtube"
+msgstr "YouTube"
 
 msgid "Gallery"
 msgstr "Galeria"
