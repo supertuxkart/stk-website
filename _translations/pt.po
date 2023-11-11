@@ -69,7 +69,7 @@ msgid "Management"
 msgstr "Manutenção"
 
 msgid "New page"
-msgstr "Página nova"
+msgstr "Nova página"
 
 msgid "Edit page"
 msgstr "Editar página"
