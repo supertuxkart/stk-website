@@ -216,7 +216,7 @@ msgid "Connecting your Wiimote"
 msgstr "Ligar o teu Wiimote"
 
 msgid "Translating SuperTuxKart"
-msgstr "Traduzir SuperTuxKart"
+msgstr "Traduzir o SuperTuxKart"
 
 msgid "Reporting Problems"
 msgstr "Reportar Problemas"
