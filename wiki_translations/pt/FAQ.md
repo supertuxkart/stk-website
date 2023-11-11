@@ -114,7 +114,7 @@ Não! O Mario Kart certamente é o mais popular entre os jogos de karting, mas n
 
 Algumas versões muito antigas do STK tentaram imitar o Mario Kart, mas não é o caso desde há muito tempo. Às vezes procuramos nele inspiração, como fazemos com outros jogos de karting, mas é só isso.
 
-Não só há várias diferenças notáveis na jogabilidade, como também o SuperTuxKart evoluiu no seu próprio caminho e não estamos a tentar copiar qualquer Mario Kart.
+Não só há várias diferenças notáveis na jogabilidade, como também o SuperTuxKart evoluiu no seu próprio caminho e não estamos a tentar aproximá-lo do Mario Kart.
 
 {% end_liquid %}
 
