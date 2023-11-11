@@ -128,7 +128,7 @@ msgid "About the team"
 msgstr "Sobre a equipa"
 
 msgid "About SuperTuxKart"
-msgstr "Sobre SuperTuxKart"
+msgstr "Sobre o SuperTuxKart"
 
 msgid "Projects using SuperTuxKart"
 msgstr "Projetos que usam SuperTuxKart"
