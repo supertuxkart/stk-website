@@ -9,7 +9,7 @@ Perguntas Gerais
 
 {% start_liquid qa %}
 
-O que é SuperTuxKart?
+O que é o SuperTuxKart?
 
 SuperTuxKart é um jogo de karting 3D em código aberto. Procura proporcionar diversão para jogadores de todos os níveis de habilidade, com caixas de itens que dão itens aleatórios, nitro, derrapagens e mais. O realismo não é o foco.
 
