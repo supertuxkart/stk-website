@@ -62,7 +62,7 @@ O desempenho do CPU poderá ser o que limita, dependendo da placa gráfica e das
 
 {% start_liquid qa %}
 
-O meu computador é demasiado velho para executar o SuperTuxKart. O que posso fazer?
+O meu computador é demasiado antigo para executar o SuperTuxKart. O que posso fazer?
 
 Podes tentar a sorte e executar o jogo. O STK inclui um renderizador de recurso que apenas usa OpenGL 2.1 / GLES 2 / DirectX 9, que deverá funcionar na maioria dos dispositivos, só que não tem uma pipeline de renderização moderna.
 
