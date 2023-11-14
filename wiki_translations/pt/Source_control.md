@@ -26,7 +26,7 @@ Estes dois repositórios devem ser descarregados para a mesma pasta, de modo que
 
 O repositório da média **não é necessário para jogar**. Ele contém os ficheiros de origem dos recursos do jogo (ficheiros .blend, música e sons sem perda, etc.) e destina-se a artistas. Tem cerca de 3,2 GB de tamanho.
 
-O repositório da mídia está hospedado no SourceForge e usa SVN. Exemplo de comando de checkout:
+O repositório da média está hospedado no SourceForge e usa SVN. Exemplo de comando de checkout:
 
 {%popup_code
 svn checkout https://svn.code.sf.net/p/supertuxkart/code/media/trunk stk-media-repo%}
