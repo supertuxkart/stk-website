@@ -31,7 +31,7 @@ O repositório da média está hospedado no SourceForge e usa SVN. Exemplo de co
 {%popup_code
 svn checkout https://svn.code.sf.net/p/supertuxkart/code/media/trunk stk-media-repo%}
 
-Também vê [a página do repositório de mídia](Media_Repo).
+Vê também [a página do repositório da média](Media_Repo).
 
 ## Diretrizes
 
