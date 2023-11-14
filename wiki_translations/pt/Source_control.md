@@ -4,7 +4,7 @@ toc: true
 ---
 O SuperTuxKart usa Git para o seu código fonte, e SVN para os arquivos de dados. Portanto, se tu não os tiveres, instale-os primeiro. Poderás encontrar instruções para os instalar na parte inferior da página.
 
-## Núcleo do Jogo
+## Núcleo do jogo
 
 O repositório do código principal está hospedado na nossa [página do GitHub](https://github.com/supertuxkart/stk-code). Exemplo de comando clone:
 
