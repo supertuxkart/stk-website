@@ -13,7 +13,7 @@ git clone https://github.com/supertuxkart/stk-code.git stk-code%}
 
 Tem aproximadamente 350 MB de tamanho.
 
-Os arquivos de dados são hospedados no SourceForge e usam SVN. Exemplo de comando de checkout:
+Os ficheiros de dados estão hospedados no SourceForge e usam SVN. Exemplo de comando de checkout:
 
 {%popup_code
 svn checkout https://svn.code.sf.net/p/supertuxkart/code/stk-assets stk-assets%}
