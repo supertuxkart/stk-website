@@ -6,7 +6,7 @@ O SuperTuxKart usa Git para código fonte e SVN para ficheiros de dados. Portant
 
 ## Núcleo do jogo
 
-O repositório do código principal está hospedado na nossa [página do GitHub](https://github.com/supertuxkart/stk-code). Exemplo de comando clone:
+O repositório do código principal está hospedado na nossa [página do GitHub](https://github.com/supertuxkart/stk-code). Exemplo de comando para clonar:
 
 {%popup_code
 git clone https://github.com/supertuxkart/stk-code.git stk-code%}
