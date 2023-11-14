@@ -37,7 +37,7 @@ Vê também [a página do Repositório da Média](Media_Repo).
 
 Aqui estão algumas diretrizes para os desenvolvedores com acesso de escrita no Git/SVN:
 
-* Junta-te ao nosso canal de IRC ou Telegram (vê [Comunidade](Community)). Os desenvolvedores geralmente postam o que estão a trabalhar lá, para que a probabilidade de conflitos possa ser diminuída. Além disso, quaisquer bugs conhecidos em destaque também são discutidos lá.
+* Junta-te ao nosso canal de IRC ou do Telegram (vê [Comunidade](Community)). Os desenvolvedores geralmente postam o que estão a trabalhar lá, para que a probabilidade de conflitos possa ser diminuída. Aliás, bugs conhecidos em destaque também são discutidos lá.
 * Talvez valha a pena inscreves-te na lista de e-mail de supertuxkart-commit (consulte [Comunidade](Community)) Todas as mensagens de commit são enviadas automaticamente para este endereço, para que tu estejas sempre ciente do que está a acontecer e se o teu trabalho interfere no que as outras pessoas fazem.
 * A versão de desenvolvimento deve sempre compilar. Embora não seja possível testar em todas as plataformas, faça o possível para escrever código portátil. Outros desenvolvedores e testadores geralmente apontam (e corrigem) quaisquer problemas rapidamente.
 * Faz commits com frequência. Commits frequentes têm a vantagem de atuarem como um backup, o que torna menos prováveis os ​conflitos de mesclagem demorados.
