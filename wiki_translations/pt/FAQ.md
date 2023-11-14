@@ -130,7 +130,7 @@ Antes de começar, deves contactar os desenvolvedores e artistas atuais através
 
 {% start_liquid main_title %}
 
-Questões sobre a jogabilidade.
+Perguntas Sobre Jogabilidade
 
 {% end_liquid %}
 
