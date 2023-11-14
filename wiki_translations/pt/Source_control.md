@@ -2,7 +2,7 @@
 title: Controlo da fonte
 toc: true
 ---
-O SuperTuxKart usa Git para o seu código fonte, e SVN para os arquivos de dados. Portanto, se tu não os tiveres, instale-os primeiro. Poderás encontrar instruções para os instalar na parte inferior da página.
+O SuperTuxKart usa Git para código fonte e SVN para ficheiros de dados. Portanto, se não tens estes, instala-os primeiro. Encontrarás instruções de como os instalar no fim da página.
 
 ## Núcleo do jogo
 
