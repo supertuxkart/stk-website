@@ -46,7 +46,7 @@ Aqui estão algumas diretrizes para os desenvolvedores com acesso de escrita no 
 ## Instalando o Git
 
 ### Linux
-`sudo apt install git` ou o equivalente na tua distribuição escolhida.
+`sudo apt install git` ou o equivalente na distribuição da tua escolha.
 
 ### Windows
 Instale o [Git para Windows](https://github.com/git-for-windows/git/releases/latest). Se quiseres uma interface gráfica para o Git, podes escolher a que te dá mais jeito. Caso contrário, se não souberes qual escolher, poderás instalar o [TortoiseGit](https://tortoisegit.org/download) após teres instalado o Git para Windows.
