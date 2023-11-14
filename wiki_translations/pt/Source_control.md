@@ -40,7 +40,7 @@ Aqui estão algumas diretrizes para os desenvolvedores com acesso de escrita no 
 * Junta-te ao nosso canal de IRC ou do Telegram (vê [Comunidade](Community)). Os desenvolvedores geralmente postam o que estão a trabalhar lá, para que a probabilidade de conflitos possa ser diminuída. Aliás, bugs conhecidos em destaque também são discutidos lá.
 * Talvez valha a pena subscreveres a lista de e-mails supertuxkart-commit (vê [Comunidade](Community)). Todas as mensagens de commits são enviadas automaticamente para este endereço para que estejas sempre ciente do que está a acontecer e para que saibas se o teu trabalho interfere naquilo que os outros estão a fazer.
 * A versão de desenvolvimento deverá sempre compilar. Embora não seja possível testar em todas as plataformas, faz o possível para escrever código portável. Outros desenvolvedores e testadores geralmente apontarão (e corrigirão) quaisquer problemas rapidamente.
-* Faz commits com frequência. Commits frequentes têm a vantagem de atuarem como um backup, o que torna menos prováveis os ​conflitos de mesclagem demorados.
+* Faz commits com frequência. Commits frequentes têm a vantagem de atuar como uma cópia de segurança, tornando menos provável a ocorrência de conflitos de fusão demorados.
 * Tenta incluir todas as alterações para um único recurso em um commit (ou seja, não faças um commit para cada arquivo separadamente) e tenta não misturar vários recursos num commit grande.
 
 ## Instalando o Git
