@@ -22,7 +22,7 @@ Tem aproximadamente 700 MB de tamanho.
 
 Estes dois repositórios devem ser descarregados para a mesma pasta, de modo que as pastas `stk-code` e `stk-assets` fiquem ao pé uma da outra.
 
-## Repositório da mídia
+## Repositório da média
 
 O repositório da mídia **não é necessário para jogar**. Contém os arquivos de origem para os recursos do jogo (ficheiros .blend, musica e sons sem perda de informação, etc.) e é destinado a artistas. Tem cerca de 3.2GB de tamanho em download.
 
