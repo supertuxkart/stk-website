@@ -54,7 +54,7 @@ Instala o [Git para Windows](https://github.com/git-for-windows/git/releases/lat
 ## Instalando o SVN
 
 ### Linux
-`sudo apt install subversion` ou o equivalente na tua distribuição escolhida.
+`sudo apt install subversion` ou o equivalente na distribuição da tua escolha.
 
 ### Windows
 Podes escolher entre vários clientes SVN e usar o que te dá mais jeito, mas se não souberes qual escolher, podes instalar o [TortoiseSVN](https://tortoisesvn.net/downloads.html).
