@@ -49,7 +49,7 @@ msgid "FAQ"
 msgstr "FAQ"
 
 msgid "Get Involved"
-msgstr "Get Involved"
+msgstr "참여하기"
 
 msgid "Blog"
 msgstr "Blog"
