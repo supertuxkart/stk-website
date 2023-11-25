@@ -37,9 +37,7 @@ msgstr "Contents"
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
 "tracks, and modes to play."
-msgstr ""
-"SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
-"tracks, and modes to play."
+msgstr "SuperTuxKart는 다양한 캐릭터, 트랙, 모드가 있는 오픈소스 3D 아케이드 레이싱 게임입니다."
 
 # Drop down menu when viewing SuperTuxKart homepage in mobile device
 msgid "Menu"
