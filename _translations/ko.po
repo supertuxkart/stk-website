@@ -22,7 +22,7 @@ msgid "SuperTuxKart"
 msgstr "SuperTuxKart"
 
 msgid "Download"
-msgstr "Download"
+msgstr "다운로드"
 
 msgid "Discover"
 msgstr "Discover"
