@@ -28,7 +28,7 @@ msgid "Discover"
 msgstr "Discover"
 
 msgid "Community"
-msgstr "Community"
+msgstr "커뮤니티"
 
 # Table of contents which display near the top of each page
 msgid "Contents"
