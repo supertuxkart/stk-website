@@ -7,7 +7,7 @@ Política de Donação
 
 {% end_liquid %}
 
-Esta página documenta a nossa política acerca de donações e o que fazemos com o dinheiro recebido. Estas políticas podem mudar a qualquer momento dependendo dos requesitos ou prioridades do projeto. Contudo, podes ter a certeza de que a equipa não gasta dinheiro em coisas inconsequentes. Todos as decisões nos gastos são completamente discutidos entre os membros da equipa antecipadamente para evitar desentendimentos.
+Esta página documenta a nossa política relativa a donações e o que fazemos com o dinheiro recebido. Estas políticas podem mudar a qualquer momento dependendo dos requisitos ou prioridades do projeto. Contudo, podes ter a certeza de que a equipa não gasta dinheiro em coisas inconsequentes. Todas as escolhas de gastos são totalmente discutidas entre os membros da equipa antecipadamente para evitar desentendimentos.
 
 ## Gastos regulares
 Em prioridade nós usamos o dinheiro para pagar a despesa regular inerente ao projeto.
