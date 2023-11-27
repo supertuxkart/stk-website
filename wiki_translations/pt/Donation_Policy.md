@@ -24,7 +24,7 @@ Dependendo da necessidade dos nossos desenvolvedores e aristas, também gastamos
 * Etc
 
 ## Tarefas especiais e melhorias
-Dependendo da situação nós poderemos usar o dinheiro para pagar alguem para fazer uma tarefa em específico, como implementar algo ou criar um novo mapa. Isto é feito caso a caso.
+Dependendo da situação, poderemos usar o dinheiro para pagar a alguém para fazer uma tarefa em específico, como implementar algo ou criar um novo mapa. Isto é decidido caso a caso.
 
 ## Marketing e promoção
 
