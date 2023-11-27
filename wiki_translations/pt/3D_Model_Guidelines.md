@@ -32,7 +32,7 @@ Os objetos no SuperTuxKart devem ser realistas em tamanho, forma e aspeto geral.
 /assets/wiki/STK0.9_7.jpg,{{ realistic | strip }}
 %}
 
-Poderás ver que o modelo novo da palmeira aproxima-se muito mais da forma de uma palmeira real. No entanto, não é tão detalhado ao ponto de parecer real. Resumindo, <u>mantem o realismo na forma geral, mas também mantem uma aparência caricatural evitando detalhes excessivos na forma ou nas texturas.</u>
+Podes ver que no novo modelo de palmeira a forma aproxima-se muito mais à de uma palmeira real. No entanto, não é tão detalhado ao ponto de parecer real. Resumindo, <u>mantém o realismo no aspeto geral, mas conserva igualmente uma aparência caricatural ao evitar detalhes excessivos na forma e nas texturas.</u>
 
 Por exemplo, se fores solicitado a criar uma barreira de concreto, todos sabem como é uma barreira de concreto – provavelmente vês todos os dias quando vais trabalhar. Então abres o Blender e fazes algo assim:
 
