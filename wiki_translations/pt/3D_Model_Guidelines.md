@@ -46,7 +46,7 @@ O problema é que estás a perder muitos detalhes e a tornar o objeto demasiado 
 /assets/wiki/STK_tutorial_barrier_2.jpg
 %}
 
-Vês a grande diferença? A barreira é interessante de se ver, há muitos detalhes como os fios na parte superior para carregá-los, a faixa de aviso na parte inferior, etc. Não é fotorrealista, mas agora pelo menos conseguimos um objeto com detalhes interessantes que poderia ser uma barreira na vida real. (E, além disso, o objetivo não é ser completamente realista – apenas principalmente realista.)
+Vês a grande diferença? A barreira é interessante de se ver, há muitos detalhes como os arames na parte superior para as carregar, a faixa de aviso na parte inferior, etc. Não é fotorrealista, mas agora pelo menos conseguimos um objeto com detalhes interessantes que poderia ser uma barreira na vida real. (Aliás, o objetivo não é ser completamente realista – apenas quase realista.)
 
 ## Regras
 
