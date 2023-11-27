@@ -4,7 +4,7 @@ toc: true
 ---
 É importante que o SuperTuxKart tenha um estilo de objetos consistente. De muitas maneiras, esta página é análoga a [diretrizes de textura](Texture_Guidelines).
 
-## Estílo
+## Estilo
 
 {% capture real_plam_tree -%}
 
