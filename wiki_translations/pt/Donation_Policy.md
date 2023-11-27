@@ -17,7 +17,7 @@ Em prioridade nós usamos o dinheiro para pagar a despesa regular inerente ao pr
 * Taxas de nome de domínio
 
 ## Hardware
-Dependendo da necessidade dos nossos desenvolvedores e aristas, também gastamos dinheiro para adquirir hardware específico para o desenvolvimento do SuperTuxKart.
+Dependendo da necessidade dos nossos desenvolvedores e artistas, também gastamos dinheiro para adquirir hardware específico para o desenvolvimento do SuperTuxKart.
 * Computadores
 * GPU novo
 * Hardward exótico (para melhorar a compatibilidade)
