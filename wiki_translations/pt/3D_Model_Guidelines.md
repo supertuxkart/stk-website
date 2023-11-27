@@ -24,7 +24,7 @@ Modelo realista, mas simplificado
 
 {%- endcapture -%}
 
-Os objetos no SuperTuxKart devem ser realistas em tamanho, forma e forma geral. No entanto, os objetos não devem ser tão detalhados quanto na vida real. Vejamos uma palmeira, por exemplo:
+Os objetos no SuperTuxKart devem ser realistas em tamanho, forma e aspeto geral. No entanto, os objetos não devem ser tão detalhados quanto na vida real. Vejamos uma palmeira, por exemplo:
 
 {% gallery heights=250px
 /assets/wiki/RealPalmTree.jpg,{{ real_plam_tree | strip }}
