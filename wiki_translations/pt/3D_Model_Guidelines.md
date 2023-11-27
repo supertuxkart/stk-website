@@ -40,7 +40,7 @@ Por exemplo, se te pedissem para criar uma barreira de betão, todos sabem como 
 /assets/wiki/STK_tutorial_barrier_1.jpg
 %}
 
-O problema é que estás a perder muitos detalhes e a tornar o objeto demasiado simples. Parece muito simples e se fizeres todos os teus objetos assim o resultado final não será tão bom quanto poderia ser. A solução é simplesmente reunir imagens, desenhos, ideias, etc. que te ajudarão durante o processo de criação do objeto. Sim, é um bocado como fazer batota, mas é recomendado e permitido. O objetivo é ter a inspiração certa. Com uma imagem como [esta](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/BarreiraNewJersey.JPG/1280px-BarreiraNewJersey.JPG), poderás ver todos os detalhes e reproduzi-los no teu objeto.
+O problema é que estás a perder muitos detalhes e a tornar o objeto demasiado simples. Ficou muito pobre e se fizeres todos os teus objetos assim o resultado final não será tão bom quanto poderia ser. A solução é simplesmente reunir imagens, desenhos, ideias, etc. que te ajudem durante o processo de criação do objeto. Sim, é um bocado como fazer batota, mas é recomendado e permitido. O objetivo é ter a inspiração certa. Com uma imagem como [esta](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/BarreiraNewJersey.JPG/1280px-BarreiraNewJersey.JPG), poderás ver todos os detalhes e reproduzi-los no teu objeto.
 
 {% gallery
 /assets/wiki/STK_tutorial_barrier_2.jpg
