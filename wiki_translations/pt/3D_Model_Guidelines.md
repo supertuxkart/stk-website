@@ -2,7 +2,7 @@
 title: Diretrizes para Modelagem 3D
 toc: true
 ---
-É importante que o SuperTuxKart tenha um estilo de objetos consistente. De muitas maneiras, esta página é análoga a [diretrizes de textura](Texture_Guidelines).
+É importante que o SuperTuxKart tenha um estilo de objetos consistente. De muitas maneiras, esta página é análoga a [Diretrizes para Texturas](Texture_Guidelines).
 
 ## Estilo
 
