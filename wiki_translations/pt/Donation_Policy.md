@@ -28,4 +28,4 @@ Dependendo da situação, poderemos usar o dinheiro para pagar a alguém para fa
 
 ## Marketing e promoção
 
-Durante alguns eventos (como convenções de jogos, conferencias open source) para pagar em materiais como imprimir posters, comida para os desenvolvedores que atendem o evento, etc.
+Durante alguns eventos (como convenções de jogos, conferências de código aberto) para pagar por materiais como impressão de pósteres, comida para os desenvolvedores que participam no evento, etc.
