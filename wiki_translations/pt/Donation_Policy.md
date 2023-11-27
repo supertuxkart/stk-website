@@ -19,7 +19,7 @@ Em prioridade nós usamos o dinheiro para pagar a despesa regular inerente ao pr
 ## Hardware
 Dependendo da necessidade dos nossos desenvolvedores e artistas, também gastamos dinheiro para adquirir hardware específico para o desenvolvimento do SuperTuxKart.
 * Computadores
-* GPU novo
+* GPU nova
 * Hardward exótico (para melhorar a compatibilidade)
 * Etc
 
