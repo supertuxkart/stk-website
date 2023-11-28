@@ -51,7 +51,7 @@ Vês a grande diferença? A barreira é interessante de se ver, há muitos detal
 ## Regras
 
 * Todos os modelos **DEVEM** ser adequados para crianças. O SuperTuxKart deve adequar-se à [classificação](https://pt.wikipedia.org/wiki/Entertainment_Software_Rating_Board#Classificação) "Everyone" do ESRB ("PEGI 3" na Classificação PEGI).
-* Os modelos devem ser poder ficar bem tanto sozinhos quanto em grupo.
+* Os modelos devem poder ficar bem tanto sozinhos quanto em grupo.
 * Modelos com um alto número de polígonos devem usar [Níveis de Detalhe](Level_of_Detail).
 * A menos que o teu modelo seja inseparável da tua pista, os objetos devem poder ser usados ​​em vários ambientes diferentes, de forma que se tornem nós de biblioteca.
     * Evita adicionar terra ou vegetação ao redor dos teus objetos (a menos que o teu objeto seja ele mesmo vegetação).
