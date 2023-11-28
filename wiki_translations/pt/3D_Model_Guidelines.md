@@ -59,7 +59,7 @@ Vês a grande diferença? A barreira é interessante de se ver, há muitos detal
 
 ## Número de polígonos / Polycount
 
-O polycount é o número de superfícies ou faces que os objetos 3D têm. As versões mais antigas do Blender suportavam apenas objetos feitos de "quads" (quadriláteros - polígonos feitos de quatro pontos) e "tris" (triângulos - polígonos feitos de três pontos). "Poli" eram geralmente descritos como o "número de quads". No entanto, o Blender agora suporta n-gons, ou polígonos com um número ilimitado de pontos, e fornece apenas o número de superfícies e tris. Assim, como o número de tris pode ser sempre confiável para permanecer o mesmo (um triângulo nunca ganha mais pontos!), é mais preciso contar tris do que polies. Portanto, estas diretrizes referem-se a tris.
+O polycount é o número de superfícies ou faces que os objetos 3D têm. As versões mais antigas do Blender suportavam apenas objetos feitos de "quads" (quadriláteros — polígonos feitos de quatro pontos) e "tris" (triângulos — polígonos feitos de três pontos). "Polis" eram geralmente descritos como o "número de quads". No entanto, o Blender agora suporta n-gons, ou polígonos com um número ilimitado de pontos, e fornece apenas o número de superfícies e tris. Assim, como o número de tris pode ser sempre confiável para permanecer o mesmo (um triângulo nunca ganha mais pontos!), é mais preciso contar tris do que polis. Portanto, estas diretrizes referem-se a tris.
 
 ### Um pouco de história
 
