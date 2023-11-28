@@ -50,12 +50,12 @@ Vês a grande diferença? A barreira é interessante de se ver, há muitos detal
 
 ## Regras
 
-* Todos os modelos **DEVEM** ser adequados para crianças. O SuperTuxKart deve se adequar à [classificação](https://en.wikipedia.org/wiki/Entertainment_Software_Rating_Board#Ratings) "Everyone" do ESRB ("PEGI 3" na Classificação PEGI).
-* Os modelos devem ser capazes de ter uma boa aparência tanto sozinhos quanto em grupos.
-* Modelos com um alto número de polígonos devem usar o [Nível de Detalhe](Level_of_Detail)
-* A menos que o teu modelo seja inseparável de sua pista, os objetos devem ser usados ​​em muitos ambientes diferentes para que possam ser transformados em nós de biblioteca.
-    * Evita adicionar terra ou vegetação ao redor dos teus objetos (a menos que o teu objeto seja algum tipo de vegetação).
-    * As pessoas geralmente devem usar roupas genéricas, exceto nos casos em que não faz sentido, como na praia.
+* Todos os modelos **DEVEM** ser adequados para crianças. O SuperTuxKart deve adequar-se à [classificação](https://pt.wikipedia.org/wiki/Entertainment_Software_Rating_Board#Classificação) "Everyone" do ESRB ("PEGI 3" na Classificação PEGI).
+* Os modelos devem ser poder ficar bem tanto sozinhos quanto em grupo.
+* Modelos com um alto número de polígonos devem usar [Níveis de Detalhe](Level_of_Detail).
+* A menos que o teu modelo seja inseparável da tua pista, os objetos devem poder ser usados ​​em vários ambientes diferentes, de forma que se tornem nós de biblioteca.
+    * Evita adicionar terra ou vegetação ao redor dos teus objetos (a menos que o teu objeto seja ele mesmo vegetação).
+    * As pessoas geralmente devem usar roupas de uso comum, exceto nos casos em que não faz sentido, como na praia.
 
 ## Número de polígonos / Polycount
 
