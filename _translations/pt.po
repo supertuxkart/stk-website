@@ -141,7 +141,7 @@ msgid "Return to Get Involved"
 msgstr "Voltar a Envolve-te"
 
 msgid "Making Library Nodes"
-msgstr "Fazer Library Nodes"
+msgstr "Fazer Nós de Biblioteca (Library Nodes)"
 
 msgid "Making Karts"
 msgstr "Fazer Karts"
