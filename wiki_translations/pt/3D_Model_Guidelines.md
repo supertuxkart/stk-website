@@ -96,7 +96,7 @@ Procura o número de **Tris**. Esta é a informação que tu precisas. Além dis
 
 ### Marcando objetos como High-Poly
 
-É possível marcar objetos como necessário um processamento mais poderoso. Para fazer isso, abre qualquer cena STK com o Blender, seleciona o objeto que desejas marcar e ativa a caixa **Ativar detalhes de visibilidade da geometria** no painel **Propriedades do objeto SuperTuxKart**. Aqui podes definir a **Visibilidade** para qualquer uma das opções disponíveis para decidir o nível mínimo de efeitos gráficos em que o teu objeto ficará visível.
+É possível marcar objetos como necessitando de um computador mais potente. Para isso, abre qualquer cena do STK no Blender, seleciona o objeto que desejas marcar e assinala a opção **Ativar detalhes de visibilidade da geometria** no painel **Propriedades de Objeto do SuperTuxKart (SuperTuxKart Object Properties)**. Aqui podes definir a **Visibilidade** para qualquer uma das opções disponíveis para decidir o nível mínimo de efeitos gráficos em que o teu objeto ficará visível.
 
 ## Escala
 
