@@ -65,7 +65,7 @@ O polycount é o número de superfícies ou faces que os objetos 3D têm. As ver
 
 Nos velhos tempos dos videojogos era impossível calcular luzes perfeitas para todos os píxeis. Todo o cálculo intenso era feito para cada polígono e depois interpolado para os píxeis dentro desses polígonos.
 
-Mas hoje em dia os motores modernos usam iluminação por pixel. Portanto, a parte mais complexa não é o sombreador de vértice, mas o sombreador de pixel. Vamos dar um exemplo de um objeto que tem ~500 polígonos. Para a GPU, gerenciar um vértice tenha talvez ~10 instruções (não é um número exato, apenas para dar uma indicação). Para cada poly do seu modelo, o computador fará ~10 instruções, então 500 × 10 = 5000 instruções para toda a malha.
+Mas hoje em dia os motores modernos usam iluminação por píxel. Portanto, a parte mais complexa não é o sombreador de vértices, mas o sombreador de píxeis. Vejamos o exemplo de um objeto que tem ~500 polígonos. Para a GPU, gerir um vértice são talvez ~10 instruções (não é um número exato, apenas para referência). Para cada poli do teu modelo, o computador fará ~10 instruções, então 500 × 10 = 5000 instruções para toda a malha.
 
 Agora, a parte do pixel. Depende de quantos pixels serão ocupados pelo teu objeto, mas vamos para o pior cenário – vamos supor que o ecrã inteiro esteja preenchido com o teu objeto. Para cada pixel a ser computado (a luz, o brilho, o mapa normal, etc.), serão necessárias ~50 instruções para a GPU.
 
