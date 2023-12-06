@@ -67,7 +67,7 @@ Nos velhos tempos dos videojogos era impossível calcular luzes perfeitas para t
 
 Mas hoje em dia os motores modernos usam iluminação por píxel. Portanto, a parte mais complexa não é o sombreador de vértices, mas o sombreador de píxeis. Vejamos o exemplo de um objeto que tem ~500 polígonos. Para a GPU, gerir um vértice são talvez ~10 instruções (não é um número exato, apenas para referência). Para cada poli do teu modelo, o computador fará ~10 instruções, então 500 × 10 = 5000 instruções para toda a malha.
 
-Agora, a parte do pixel. Depende de quantos pixels serão ocupados pelo teu objeto, mas vamos para o pior cenário – vamos supor que o ecrã inteiro esteja preenchido com o teu objeto. Para cada pixel a ser computado (a luz, o brilho, o mapa normal, etc.), serão necessárias ~50 instruções para a GPU.
+Agora, a parte do píxel. Depende de quantos píxeis serão ocupados pelo teu objeto, mas vamos para o pior cenário – suponhamos que o ecrã inteiro esteja preenchido com o teu objeto. Para cada píxel a calcular (a luz, o brilho, o mapa de normais, etc.), serão necessárias ~50 instruções para a GPU.
 
 Se tiveres uma resolução de 800 × 600 (a maioria das pessoas tem uma resolução mais alta), 800 × 600 × 50 = 24.000.000 instruções. Portanto, mesmo que dobres o número de superfícies, não afetará muito a maior parte da energia gasta. Agora é calculado por pixel, não por superfície.
 
