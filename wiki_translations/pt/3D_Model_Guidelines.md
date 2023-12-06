@@ -75,7 +75,7 @@ Assim, podemos aumentar o polycount sem muito sarilho. No entanto, é importante
 
 ### Medindo o Polycount
 
-O Blender mostra o polycount na barra de status, vê o screenshot abaixo para ativá-lo se **Scene Statistics** não estiver marcada clicando com o botão direito do mouse na barra de status:
+O Blender mostra o polycount na barra de estado. Vê a captura de ecrã abaixo para ativar isto caso **Estatísticas da Cena (Scene Statistics)** não esteja assinalado, clicando no botão direito do rato na barra de estado:
 
 {% single_gallery
 /assets/wiki/Blender_screenshot_tris.jpg
