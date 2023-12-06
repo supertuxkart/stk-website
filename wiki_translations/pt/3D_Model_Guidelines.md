@@ -69,7 +69,7 @@ Mas hoje em dia os motores modernos usam iluminação por píxel. Portanto, a pa
 
 Agora, a parte do píxel. Depende de quantos píxeis serão ocupados pelo teu objeto, mas vamos para o pior cenário – suponhamos que o ecrã inteiro esteja preenchido com o teu objeto. Para cada píxel a calcular (a luz, o brilho, o mapa de normais, etc.), serão necessárias ~50 instruções para a GPU.
 
-Se tiveres uma resolução de 800 × 600 (a maioria das pessoas tem uma resolução mais alta), 800 × 600 × 50 = 24.000.000 instruções. Portanto, mesmo que dobres o número de superfícies, não afetará muito a maior parte da energia gasta. Agora é calculado por pixel, não por superfície.
+Se tiveres uma resolução de 800 × 600 (a maioria das pessoas tem uma resolução mais alta), 800 × 600 × 50 = 24.000.000 instruções. Portanto, mesmo que dobres o número de superfícies, não afetarás significativamente a maior parte da energia gasta. Agora o cálculo é feito por píxel, não por superfície.
 
 Assim, podemos aumentar o polycount sem muito sarilho. No entanto, é importante mantê-lo sob controle.
 
