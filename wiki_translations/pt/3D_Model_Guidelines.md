@@ -81,7 +81,7 @@ O Blender mostra o polycount na barra de estado. Vê a captura de ecrã abaixo p
 /assets/wiki/Blender_screenshot_tris.jpg
 %}
 
-Procura o número de **Tris**. Esta é a informação de que precisas. Ademais, lembra-te de que o número de tris da cena toda é indicado apenas no modo de objeto.
+Procura pelo número de **Tris**. Esta é a informação de que precisas. A propósito, lembra-te de que o número de tris da cena toda apenas é indicado no modo de objeto.
 
 ### Exemplos de Polycount
 
