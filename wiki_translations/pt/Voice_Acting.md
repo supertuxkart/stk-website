@@ -2,7 +2,7 @@
 title: Interpretação Vocal
 display_title: true
 ---
-Ocasionalmente, os criadores do SuperTuxKart ou artistas independentes precisam de ajuda com vozes para o jogo. Geralmente, são coisas como a voz do Nolok nas cinemáticas introdutórias, como também a Ilha Gran Paradiso tem um locutor de aeroporto que, se ouvires com atenção, é um pequeno conteúdo secreto satírico.
+Ocasionalmente, os criadores do SuperTuxKart ou artistas independentes precisam de ajuda com vozes para o jogo. Geralmente, são coisas como a voz do Nolok nas cinemáticas introdutórias, já a Ilha Gran Paradiso também tem um locutor de aeroporto que, se ouvires com atenção, é um pequeno conteúdo secreto satírico.
 
 Naturalmente, não precisaremos de vozes o tempo todo, mas experimenta ir ao [fórum](https://forum.freegamedev.net/viewforum.php?f=16) para algum pedido que seja feito. Se cumprires com os requisitos em baixo, interpretar vozes é uma forma fácil e divertida de ajudar o projeto.
 
