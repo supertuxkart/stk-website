@@ -2,7 +2,7 @@
 title: Diretrizes para Texturas
 toc: true
 ---
-Ter boas texturas é talvez uma das coisas mais importantes na criação de arte 3D. Mesmo um objeto lindamente modelado pode parecer horrível com texturas más, então é importante que as texturas que crias e usas encaixem-se nessas diretrizes.
+Ter boas texturas é talvez uma das coisas mais importantes na criação de arte 3D. Mesmo um objeto lindamente modelado pode parecer horrível com texturas más, então é importante que as texturas que crias e usas se encaixem nestas diretrizes.
 
 ## Estílo
 
