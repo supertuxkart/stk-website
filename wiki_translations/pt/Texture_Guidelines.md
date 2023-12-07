@@ -4,7 +4,7 @@ toc: true
 ---
 Ter boas texturas é talvez uma das coisas mais importantes na criação de arte 3D. Mesmo um objeto lindamente modelado pode parecer horrível com texturas más, então é importante que as texturas que crias e usas se encaixem nestas diretrizes.
 
-## Estílo
+## Estilo
 
 As texturas no SuperTuxKart são desenhadas ou pintadas à mão, não apenas fotos (geralmente, embora possas usar fotos como referência). É claro, isso não significa que precisas de tintas físicas – podes usar um aplicativo de pintura digital como o Krita. Outros aplicativos também estão listados na página [Instalando Ferramentas](Installing_Tools).
 
