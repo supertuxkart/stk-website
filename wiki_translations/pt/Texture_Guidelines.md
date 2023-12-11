@@ -12,7 +12,7 @@ As texturas também não devem ser completamente artificiais, com aspeto de dese
 
 ### Quando usar Fotos
 
-Em certas circunstâncias, não há qualquer benefício em pintar texturas à mão. Quando pintar uma textura detalhada à mão consumiria muito tempo, como no caso de vegetação, pode ser mais conveniente usar uma fotografia real, desde que a foto seja genérica o suficiente e não crie um padrão feio de azulejos. Veja por exemplo a textura abaixo:
+Em certas circunstâncias, não há qualquer benefício em pintar texturas à mão. Quando pintar uma textura detalhada à mão for consumir demasiado tempo, como no caso de vegetação, pode ser mais conveniente usar uma fotografia real, desde que a foto seja genérica o suficiente e não crie um padrão de mosaicos feio. Toma como exemplo a textura abaixo:
 
 {% single_gallery /assets/wiki/Palmtree3.jpg %}
 
