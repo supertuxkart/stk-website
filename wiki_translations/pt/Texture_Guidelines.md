@@ -18,7 +18,7 @@ Em certas circunstâncias, não há qualquer benefício em pintar texturas à m�
 
 Este caso apresenta um exemplo interessante, dado que esta textura inclui características boas e más. A folha de palmeira é uma boa textura (Nota: a transparência é fornecida por uma máscara alfa para esta textura) por causa da sua iluminação uniforme, ausência de outros detalhes e natureza genérica. Também não é usada num local onde estará sujeita aos problemas de mosaicos discutidos abaixo. A textura do tronco de árvore à direita, por outro lado, não é tão boa devido à sua iluminação não uniforme. Texturizar um tronco de árvore com esta textura resultaria na repetição de listras claras/escuras — uma falha muito percetível. O facto de que a textura do tronco de árvore pode ser usada para texturizar um objeto sólido também a torna inadequada devido à possibilidade de criar mosaicos mais óbvios.
 
-As fotos geralmente não devem ser usadas para texturizar objetos próximos ao jogador, pois os seus detalhes serão mais visíveis e será óbvio que é apenas uma fotografia.
+Fotos geralmente não devem ser usadas para texturizar objetos próximos do jogador, dado que os seus detalhes serão mais visíveis e será óbvio que se trata apenas de uma fotografia.
 
 ## Cor e Iluminação
 
