@@ -39,7 +39,7 @@ Outro problema surge, no entanto, em texturas com ausência completa de um padr�
 /assets/wiki/Bad_texture_border_notmatching_blender.jpg
 %}
 
-Repara que a texturização no Blender cria um padrão de mosaico feio, apesar de a textura em si não ter nenhum padrão. No entanto, se removeres alguns detalhes e suavizares as arestas, podes obter um resultado muito melhor, embora ainda não seja perfeito:
+Repara que a texturização no Blender cria um padrão de mosaicos feio, apesar de a textura em si não ter nenhum padrão. No entanto, se removeres alguns detalhes e suavizares as arestas, podes obter um resultado muito melhor, embora ainda não seja perfeito:
 
 {% single_gallery heights=300px
 /assets/wiki/Bad_texture_border.jpg
