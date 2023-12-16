@@ -28,7 +28,7 @@ As texturas devem ser desenhadas como se a cor ambiente e a luz na imagem fossem
 
 ## Padrões
 
-Não deve haver nenhum padrão imediatamente visível na textura. Padrões óbvios fazem a pista ou o kart parecerem ridículos. Aqui está um exemplo do que **não** fazer:
+Não deve haver nenhum padrão imediatamente visível na textura. Padrões óbvios fazem com que a pista ou o kart pareçam disparatados. Aqui está um exemplo do que **não** fazer:
 
 {% single_gallery /assets/wiki/Bad_repeating_texture.jpg %}
 
