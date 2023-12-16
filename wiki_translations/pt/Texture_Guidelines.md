@@ -48,7 +48,7 @@ Repara que a texturização no Blender cria um padrão de mosaicos feio, apesar 
 
 ## Detalhes da Textura
 
-Tenta evitar fazer texturas com detalhes que não fariam parte do material na vida real. Por exemplo, se quiseres uma corda pendurada na parede, mas não quiseres usar uma malha, não faças uma textura totalmente nova apenas para adicionar uma corda em cima da textura de madeira. O SuperTuxKart inclui um sombreador de decalque, que permite que simplesmente coloques uma textura de corda na segunda camada UV e apareça em cima da textura de madeira, sem tornar a textura de madeira inutilizável para outras aplicações. Para obter mais informações, vê [aqui](Texturing#Decals).
+Tenta evitar fazer texturas com detalhes que não fariam parte do material na vida real. Por exemplo, se quiseres uma corda pendurada numa parede, mas não quiseres usar uma malha, não faças uma textura totalmente nova só para adicionar uma corda em cima da textura de madeira. O SuperTuxKart inclui um sombreador de decalque, que permite simplesmente colocar uma textura de corda na segunda camada de UVs e fazê-la aparecer em cima da textura de madeira, sem tornar a textura de madeira inutilizável para outras aplicações. Para mais informações, vê [aqui](Texturing#Decals).
 
 ## Restrições Técnicas
 * As dimensões das imagens devem ser potências de dois. Uma textura genérica de tamanho padrão, por exemplo, é 1024 × 1024 ou 2<sup>10</sup> × 2<sup>10</sup>. No entanto, as texturas não precisam ser quadradas, podes ter uma textura de 1024 × 512 ou 2<sup>10</sup> × 2<sup>9</sup>.
