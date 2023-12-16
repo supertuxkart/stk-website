@@ -24,7 +24,7 @@ Fotos geralmente não devem ser usadas para texturizar objetos próximos do joga
 
 As texturas no SuperTuxKart são coloridas e contrastantes, mas não devem destoar. Texturas extremamente brilhantes ou de cores néon/plásticas/doces não serão aceites no repositório principal, a menos que sejam usadas apenas numa área muito pequena, como a placa de partida em XR591. A mesma regra aplica-se a texturas de apenas uma cor. Texturas em puro preto ou puro branco também são desaconselhadas – perdes informações de cor com 100% de preto ou branco.
 
-As texturas devem ser desenhadas como se a cor ambiente e a luz na imagem fossem neutras. A engine do SuperTuxKart alterará automaticamente o equilíbrio de cores e o brilho com base na iluminação da cena e na coloração dos vértices.
+As texturas devem ser desenhadas como se a cor ambiente e a luz na imagem fossem neutras. O motor do SuperTuxKart alterará automaticamente o equilíbrio de cores e o brilho com base na iluminação da cena e na coloração dos vértices.
 
 ## Padrões
 
