@@ -217,6 +217,7 @@ Where is the configuration stored?
 * On **Windows**: It is in `%APPDATA%/supertuxkart/config-0.10` (you can enter that in the Explorer and it will take you there).
 * On **Linux**: It is either in `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (first choice), `~/.config/supertuxkart/config-0.10` (second choice) or in `~/.supertuxkart/config-0.10` (third choice).
 * On **macOS**: It is in `~/Library/Application Support/supertuxkart/config-0.10`. Note that this directory may be hidden.
+* On **Android**: It is in `/storage/emulated/0/Android/data/org.supertuxkart.stk/files/supertuxkart/home/supertuxkart/config-0.10`.
 * With **Snap**: It is in `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
 * With **Flatpak**: It is in `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
