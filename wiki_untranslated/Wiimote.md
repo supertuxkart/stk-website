@@ -30,10 +30,10 @@ SuperTuxKart has support for Nintendo Wii controllers, also called Wiimotes. One
     Vista\
     Go to "Bluetooth Devices" and add a Bluetooth device
 
-    Windows 7\
+    Windows 7/8/10\
     Go to "View devices and printers" in "Hardware & Sound" and click on "Add a device".
 
-4.  Pesss 1+2 on your wiimote, and wait for it to be detected. The Wiimote might first be detected as a generic 'input device', but after a few seconds the device name should change to be "Nintendo RVL-CTN-01" or somthing similar. Make sure the wiimote LEDs are blinking, if they stop before they were connected, press 1+2 again. You should end up with a display like the following:
+4.  Press 1+2 on your wiimote, and wait for it to be detected. The Wiimote might first be detected as a generic 'input device', but after a few seconds the device name should change to be "Nintendo RVL-CTN-01" or something similar. Make sure the wiimote LEDs are blinking, if they stop before they were connected, press 1+2 again. You should end up with a display like the following:
 
 {% single_gallery /assets/wiki/Wii1.jpg %}
 
