@@ -32,7 +32,7 @@ Não deve haver nenhum padrão imediatamente visível na textura. Padrões óbvi
 
 {% single_gallery /assets/wiki/Bad_repeating_texture.jpg %}
 
-Outro problema surge, no entanto, em texturas com ausência completa de um padrão. Esta é uma das principais razões para evitar o uso de fotografias como texturas:d
+Outro problema surge, no entanto, em texturas com ausência completa de um padrão. Esta é uma das principais razões para evitar o uso de fotografias como texturas:
 
 {% single_gallery heights=300px
 /assets/wiki/Bad_texture_border_notmatching.jpg
