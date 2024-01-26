@@ -56,7 +56,7 @@ Tenta evitar fazer texturas com detalhes que não fariam parte do material na vi
 * Evita criar texturas extremamente pequenas (ex.: 4x4 ou menores), mesmo para cores lisas. Estas podem ter resultados inesperados quando a compressão de texturas é ativada nas definições gráficas.
 * Os ficheiros de textura **devem** ser colocados na mesma pasta do teu objeto exportado.
 * As texturas devem estar no formato PNG quando
-    * A textura for ser usada num objeto próximo que requeira grandes detalhes
+    * A textura for ser usada num objeto próximo que requeira grandes detalhesr
     * O objeto contém partes transparentes ou parcialmente transparentes
 * As texturas devem estar em formato JPEG para
     * Objetos distantes
