@@ -1,14 +1,14 @@
 # 
 # Translators:
 # Arbo_Leet <koshelkov.peter@gmail.com>, 2022
-# Andrei Stepanov, 2023
+# Andrei Stepanov, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Andrei Stepanov, 2023\n"
+"Last-Translator: Andrei Stepanov, 2024\n"
 "Language-Team: Russian (https://app.transifex.com/supertuxkart/teams/36024/ru/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -249,7 +249,7 @@ msgid "Licensing"
 msgstr "Лицензирование"
 
 msgid "Artist Debug Mode"
-msgstr "Режим отладки артиста"
+msgstr "Режим отладки художника"
 
 # In Community page
 msgid "Guidelines"
