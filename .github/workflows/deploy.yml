@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2.5.0
+      - uses: actions/checkout@v4
       - name: Set GitHub variables
         run: |
           export REPO_OWNER=$(echo $GITHUB_REPOSITORY | cut -d '/' -f1 | tr '[:upper:]' '[:lower:]')
@@ -24,13 +24,15 @@ jobs:
           echo "baseurl: $STK_BASEURL" >> _config.yml
           echo "github:" >> _config.yml
           echo "  repository_url: https://github.com/$GITHUB_REPOSITORY" >> _config.yml
-      - uses: actions/cache@v3.0.11
+      - uses: actions/cache@v4
         with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          path: |
+            .asdf/**
+            vendor/bundle
+          key: ${{ runner.os }}-cache-${{ hashFiles('**/cache.key') }}
           restore-keys: |
-            ${{ runner.os }}-gems-
-      - uses: jeffreytse/jekyll-deploy-action@v0.4.0
+            ${{ runner.os }}-cache-
+      - uses: jeffreytse/jekyll-deploy-action@v0.6.0
         with:
           provider: 'github'
           token: ${{ secrets.GITHUB_TOKEN }}

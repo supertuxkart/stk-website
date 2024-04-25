@@ -4,5 +4,6 @@ gem 'addressable', git: 'https://github.com/Benau/addressable.git', ref: 'e0ec16
 gem 'jekyll'
 gem 'jekyll_picture_tag'
 gem 'jekyll-redirect-from'
+gem 'json'
 gem 'rouge'
 gem 'webrick'
