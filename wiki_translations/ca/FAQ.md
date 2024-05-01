@@ -217,6 +217,7 @@ On es guarda la configuració?
 * A **Windows**: està a `%APPDATA%/supertuxkart/config-0.10` (podeu introduir això a l'explorador de fitxers i us hi portarà).
 * A **Linux**: O està a `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primera opció), o a `~/.config/supertuxkart/config-0.10` (segona opció) o a `~/.supertuxkart/config-0.10` (tercera opció).
 * A **macOS**: està a `~/Library/Application Support/supertuxkart/config-0.10`. Tingueu en compte que aquest directori podria estar ocult.
+* A **Android**: està a `/storage/emulated/0/Android/data/org.supertuxkart.stk/files/supertuxkart/home/supertuxkart/config-0.10`.
 * Amb **Snap**: està a `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
 * Amb **Flatpak**: està a `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
@@ -228,7 +229,7 @@ També pots mirar la sortida en el terminal per veure si hi ha una nota dient on
 
 La versió de Git no compila. Què haig de fer?
 
-Això passa a vegades. Els desenvolupadors haurien de saber-ho i s'hauria d'arreglar aviat. Si el [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) diu que la versió actual compila, però a tu no et funciona, aleshores probablement hi hagi alguna cosa malament en el teu entorn de compilació. (Comprova si tens totes les dependències, torna a executar el CMake...)
+Això passa a vegades. Els desenvolupadors haurien de saber-ho i s'hauria d'arreglar aviat. Si el [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) diu que la versió actual de Git compila, però a tu no et funciona, aleshores probablement hi hagi alguna cosa malament en el teu entorn de compilació. (Comprova si tens totes les dependències, torna a executar el CMake...)
 
 {% end_liquid %}
 
