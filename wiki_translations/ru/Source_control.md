@@ -45,7 +45,7 @@ svn checkout https://svn.code.sf.net/p/supertuxkart/code/media/trunk stk-media-r
 
 ## Установка Git
 
-### Линукс
+### Linux
 `sudo apt install git` или подобную этой команде в выбранной вами сборке ОС.
 
 ### Windows
