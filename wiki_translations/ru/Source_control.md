@@ -26,7 +26,7 @@ svn checkout https://svn.code.sf.net/p/supertuxkart/code/stk-assets stk-assets%}
 
 Медиахранилище **не требуется для воспроизведения игры**. Оно содержит исходные файлы для ресурсов (файлы .blend, музыкальные и звуковые файлы без потерь и т.д.) и предназначено для исполнителей. Размер загрузки составляет около 3,2 ГБ.
 
-Сетевое хранилище мультимедиа размещается на SourceForge и использует SVN. Пример команды проверки: 
+Медиахранилище размещается на SourceForge и использует SVN. Пример команды проверки: 
 
 {%popup_code
 svn checkout https://svn.code.sf.net/p/supertuxkart/code/media/trunk stk-media-repo%}
