@@ -138,7 +138,7 @@ msgid "Info"
 msgstr "Информация"
 
 msgid "Return to Get Involved"
-msgstr "Вернуться в «Сообщество»"
+msgstr "Назад в «Сообщество»"
 
 msgid "Making Library Nodes"
 msgstr "Создание узлов библиотеки"
