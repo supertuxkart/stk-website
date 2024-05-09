@@ -184,7 +184,7 @@ msgid "Building from source"
 msgstr "Сборка из исходников"
 
 msgid "Coding style guidelines"
-msgstr "Инструкции по стилю кодинга"
+msgstr "Стандарт оформления кода"
 
 msgid "Doxygen documentation"
 msgstr "Документация Doxygen"
