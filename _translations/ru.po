@@ -154,7 +154,7 @@ msgid "Code"
 msgstr "Код"
 
 msgid "IRC"
-msgstr "IRC"
+msgstr "IRC-канал"
 
 msgid "Mailing List"
 msgstr "Список рассылки"
