@@ -370,7 +370,7 @@ msgid ""
 "Puffy races mainly to earn enough money to accomplish his dream: to buy a "
 "submarine. He is the mascot of the OpenBSD project."
 msgstr ""
-"Паффи участвует в гонках главным образом ради денег, и хочет заработать на "
+"Паффи участвует в гонках главным образом ради денег и хочет заработать на "
 "свою мечту — подводную лодку. Он является талисманом проекта OpenBSD."
 
 msgid "Pidgin"
