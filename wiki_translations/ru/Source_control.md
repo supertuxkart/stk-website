@@ -31,7 +31,7 @@ svn checkout https://svn.code.sf.net/p/supertuxkart/code/stk-assets stk-assets%}
 {%popup_code
 svn checkout https://svn.code.sf.net/p/supertuxkart/code/media/trunk stk-media-repo%}
 
-Смотрите также [страницу хранилища мультимедиа](Media_Repo).
+Смотрите также [страницу медиахранилища](Media_Repo).
 
 ## Руководства
 
