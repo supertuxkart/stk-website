@@ -113,7 +113,7 @@ msgid "Modding"
 msgstr "Модификация"
 
 msgid "GitHub"
-msgstr "Репозиторий в GitHub"
+msgstr "Хранилище GitHub"
 
 # Clicking Documentation will go to SuperTuxKart doxygen
 msgid "Documentation"
