@@ -102,7 +102,7 @@ STK предлагает многопользовательский сетево
 
 В сентябре 2021 года вышла последняя версия под номером 1.3. В ней обновилось множество официальных картов.
 
-Чтобы узнать больше подробностей, обратитесь к [списку изменений](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), [сообщениям в блоге](https://blog.supertuxkart.net), или списку устранённых проблем на GitHub STK.
+Чтобы узнать подробности, обратитесь к [списку изменений](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), [публикациям в блоге](https://blog.supertuxkart.net) или списку устранённых проблем в GitHub STK.
 
 {% end_liquid %}
 
