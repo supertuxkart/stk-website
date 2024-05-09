@@ -1,5 +1,5 @@
 ---
-title: ЧАВО
+title: ЧаВо
 ---
 {% start_liquid main_title %}
 
