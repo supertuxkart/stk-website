@@ -218,27 +218,28 @@ Hvor er opsætningen gemt?
 * I **Windows**: er det i `%APPDATA%/supertuxkart/config-0.10`. (Du kan skrive det ind i Explorer, og det vil tage dig derhen.)
 * I **Linux**: er det enten i `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (første valg), `~/.config/supertuxkart/config-0.10` (andet valg) eller i `~/.supertuxkart/config-0.10` (tredje valg).
 * I **macOS**: er det i `~/Library/Application Support/supertuxkart/config-0.10`. Bemærk at folderen måske er skjult.
+* På **Android**: Er det i `/storage/emulated/0/Android/data/org.supertuxkart.stk/files/supertuxkart/home/supertuxkart/config-0.10`.
 * Med **Snap**: Er det i `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
 * Med **Flatpak**: Er det i `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
-Du kan også holde øje med output på terminalen for at finde ud af, om der er et notat om placering af konfigurationsfiler eller for at søge efter filen "config.xml".
+Du kan også se output på terminalen for at undersøge, om der er et notat om, hvor konfigurationsfiler lagres, eller du kan søge efter filen "config.xml".
 
 {% end_liquid %}
 
 {% start_liquid qa %}
 
-Git-versionen kompilerer ikke. Hvad skal jeg gøre?
+Git-versionen vil ikke kompilere. Hvad kan jeg gøre?
 
-Det sker af og til. Udviklerne bør være klar over det, og det bør snart blive rettet. Hvis [GitHub Aktioner](https://github.com/supertuxkart/stk-code/actions) siger, at den nuværende Git-version kompilerer, men det ikke virker for dig, så er der sandsynligvis noget galt med din kompileropsætning. (Undersøg om du har alle afhængigheder på plads, kør Cmake igen, ...)
+Det sker af og til: Udviklerne bør vide det, og det burde hurtigt blive fikset. Hvis [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) siger, at den nuværende GIT-version kompilerer, men det ikke fungerer for dig, er der sandsynligvis noget galt med din kompileropsætning. (Check om du har alle afhængigheder på plads, kør CMake igen, skrig lidt mens du hopper op og ned og trækker i dine hår...)
 
 {% end_liquid %}
 
 {% start_liquid qa %}
 
-Hvordan låser jeg op for alle baner?
+Hvordan låser jeg alle baner op?
 
-Den tilsigtede måde i spillet er at spille fortælletilstand og klare alle udfordringer.
+Idéen i spillet er, at du spiller historietilstanden og klarer alle udfordringer.
 
-Hvis du ønsker at låse alt op uden at spille i fortælletilstand, kan du også snyde ved at rette i en konfigurationsfil. Åbn folderen nævnt ovenfor i spørgsmålet "Hvor er STK brugerkonfigurationsfilen". Derefter åbn folderen "config-0.10" og derefter filen "players.xml". Erstat alle forekomster af "none" med "hard" (eller "easy" eller "medium" som indikator for det højeste niveau, du har løst en udfordring).
+Hvis du alligevel vil være en doven-Lars og låse alt op uden at klare udfordringerne, fordi det er alt for svært for dig, kan du SNYDE ved at rette i konfigurationsfilen. Først laver du tyve armbøjninger. Dernæst tyve mavebøjninger. Dernæst lærer du tifingersystemet, åbner folderen nævnt herover i spørgsmålet "Hvor er STK brugerkonfigurationsfilen", åbner underfolderen "config-0.10", åbner filen"players.xml". Erstat nu alle forekomster af "none" med "hard" (eller "easy" eller "medium", som viser det højeste niveau, du har 'løst' en udfordring (tsk tsk)).
 
 {% end_liquid %}
