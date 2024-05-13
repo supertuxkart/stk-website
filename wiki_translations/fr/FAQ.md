@@ -217,27 +217,28 @@ Où est enregistrée la configuration ?
 * Sur **Windows**: Dans `%APPDATA%/supertuxkart/config-0.10` (vous pouvez entrer cette adresse dans l'Explorateur de fichiers).
 * Sur **Linux**: Ça peut être dans `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (premier choix), `~/.config/supertuxkart/config-0.10` (second choix) ou dans `~/.supertuxkart/config-0.10` (troisième choix).
 * Sur **macOS**: Dans `~/Library/Application Support/supertuxkart/config-0.10`. Notez que ce dossier peut être caché.
-* Avec **Snap**: C'est dans `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
-* Avec le **Flatpak**: C'est dans `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
+* Sur **Android**: localisé à l'adresse `/storage/emulated/0/Android/data/org.supertuxkart.stk/files/supertuxkart/home/supertuxkart/config-0.10`.
+* Avec **Snap**: localisé à l'adresse `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
+* Avec **Flatpak**: localisé à l'adresse `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
-Vous pouvez aussi regarder la sortie du terminal pour voir s'il y a une note d'information sur la localisation du fichier de configuration ou chercher un fichier nommé "config.xml".
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-La version Git refuse de se compiler. Que dois-je faire ?
-
-Cela arrive parfois ; Les développeurs seront prévenu de cela et règleront le problème sous peu. Si [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) dit que la version Git actuelle se compile mais que cela ne marche pas pour vous, il est probable qu'il y ai un problème dans la configuration de votre compiler. (Veuillez vérifier si vous avez toutes les dépendances, relancez CMake, ...)
+Vous pouvez aussi regarder la sortie dans le terminal pour voir si une note apparaît concernant l'emplacement des fichiers des configuration, ou chercher le fichier appelé "config.xml".
 
 {% end_liquid %}
 
 {% start_liquid qa %}
 
-Comment puis-je débloquer toutes les pistes ?
+La version Git ne se compile pas. Que dois-je faire ?
 
-La façon habituelle de débloquer toutes les pistes est de jouer en mode histoire et de gagner tous les défis.
+Ça arrive quelques fois. Les développeurs doivent y être attentif tandis que ce problème devrait bientôt être réglé. Si [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) dit que la version actuelle de Git compile, mais que ce n'est pas le cas pour vous, c'est probablement qu'il y a un problème quelque part dans votre configuration de compilateur. (Vérifiez que vous avez toutes les dépendances, relancez CMake...)
 
-Cependant, si vous voulez tout débloquer sans jouer au mode histoire, vous pouvez tricher en modifiant un fichier de configuration. Ouvrez le dossier décrit ci-dessus dans la question "Où STK enregistre le fichier de configuration ?". Ouvrez le dossier "config-0.10" puis le fichier "players.xml". Remplacez ensuite toutes les mentions "none" par "hard" (ou "easy" ou "medium", ce qui indique le meilleur niveau avec lequel vous avez résolu le défi).
+{% end_liquid %}
+
+{% start_liquid qa %}
+
+Comment débloquer toutes les pistes ?
+
+Tel que celà a été pensé dans le jeu, il faut jouer au mode histoire et battre tous les challenges.
+
+Cependant, si vous voulez tout débloquer sans avoir à jouer au mode histoire, vous pouvez aussi tricher and modifiant le fichier config. Ouvrez le dossier mentionné ci-dessus dans la question "Où est-ce que le STK garde le fichier config de l'utilisateur ?". De là, ouvrez le dossier "config-0.10", puis ouvrez le fichier "players.xml". Chaque fois que le mot "none" apparaît, remplacez-le par "hard" (ou "easy" ou "medium", ce qui indique le niveau le plus haut auquel vous avez battu le challenge).
 
 {% end_liquid %}
