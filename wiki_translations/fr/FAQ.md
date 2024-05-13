@@ -239,6 +239,6 @@ Comment débloquer toutes les pistes ?
 
 Tel que celà a été pensé dans le jeu, il faut jouer au mode histoire et battre tous les challenges.
 
-Cependant, si vous voulez tout débloquer sans avoir à jouer au mode histoire, vous pouvez aussi tricher and modifiant le fichier config. Ouvrez le dossier mentionné ci-dessus dans la question "Où est-ce que le STK garde le fichier config de l'utilisateur ?". De là, ouvrez le dossier "config-0.10", puis ouvrez le fichier "players.xml". Chaque fois que le mot "none" apparaît, remplacez-le par "hard" (ou "easy" ou "medium", ce qui indique le niveau le plus haut auquel vous avez battu le challenge).
+Cependant, si vous voulez tout débloquer sans avoir à jouer au mode histoire, vous pouvez aussi tricher and modifiant le fichier config. Ouvrez le dossier mentionné ci-dessus dans la question "Où est-ce que le STK garde le fichier config de l'utilisateur ?". De là, ouvrez le dossier "config-0.10", puis ouvrez le fichier "players.xml". Chaque fois que le mot "none" apparaît, remplacez-le par "hard" (ou "easy" ou "medium", ce qui indique le niveau le plus haut auquel vous avez battu le défi).
 
 {% end_liquid %}
