@@ -3,13 +3,14 @@
 # Wax-stk <waxpro08@gmail.com>, 2021
 # Anard0 <anard@free.fr>, 2022
 # Clément Escude--Cotinat, 2022
+# LLS <luderickls@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Clément Escude--Cotinat, 2022\n"
+"Last-Translator: LLS, 2024\n"
 "Language-Team: French (https://www.transifex.com/supertuxkart/teams/36024/fr/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -101,7 +102,7 @@ msgid "YouTube"
 msgstr "YouTube"
 
 msgid "Gallery"
-msgstr "Gallerie"
+msgstr "Galerie"
 
 msgid "Posters"
 msgstr "Posters"
@@ -311,7 +312,7 @@ msgid ""
 "The hero of SuperTuxKart. Tux is a brave penguin who must save his friend, "
 "Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
 msgstr ""
-"Le héros de SuperTuxKart. Tux est un pingouin courageux qui doit sauver son "
+"Le héros de SuperTuxKart. Tux est un Manchot courageux qui doit sauver son "
 "ami Gnu des griffes du démon Nolok. Tux est la mascotte de Linux."
 
 msgid "Gnu"
