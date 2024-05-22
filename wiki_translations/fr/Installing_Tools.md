@@ -60,9 +60,9 @@ Pour les illustrations 3D comme les pistes, karts, et modèles, vous aurez besoi
 
 Le premier logiciel de modélisation 3D open source. Blender dispose d’une base d’utilisateurs large et fidèle, composée d’utilisateurs amateurs et commerciaux. Blender peut être difficile pour les débutants, mais dispose d'un manuel détaillé ainsi que de guides tiers sur YouTube et ailleurs. Un excellent guide facile à suivre pour les débutants peut être trouvé [ici](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro).
 
-Blender must be used for karts and objects, and produces better results than the SuperTuxKart track editor for tracks.
+Blender doit être utilisé pour les karts et les objets, et produit de meilleurs résultats que l'éditeur de piste SuperTuxKart pour les pistes.
 
-{%popup_info After a major update, Blender versions may not yet be compatible with the SuperTuxKart Blender scripts. Check the [minimum requirements section](https://github.com/supertuxkart/stk-blender#user-content-supertuxkart-blender-addons) to see which Blender versions are compatible. If necessary, [older Blender versions can be found here](https://www.blender.org/download/lts/).%}
+{%popup_info Après une mise à jour majeure, il se peut que certaines versions de Blender ne soient pas encore compatibles avec les scripts Blender de SuperTuxKart. Consultez la [section des exigences minimales](https://github.com/supertuxkart/stk-blender#user-content-supertuxkart-blender-addons) pour voir quelles versions de Blender sont compatibles. Si nécessaire, [anciennes versions de Blender](https://www.blender.org/download/lts/).%}
 
 ### Bforartists
 

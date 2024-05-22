@@ -1,55 +1,55 @@
 ---
-title: 'Making Karts: Kart Attachments and Effects'
+title: 'Faire des Karts: Accessoires et effets des karts'
 toc: true
 ---
-Karts can have a number of attachments to achieve special effects. This page describes how to add them to your kart.
+Les karts peuvent être équipés d'un certain nombre d'accessoires permettant d'obtenir des effets spéciaux. Cette page explique comment les ajouter à votre kart.
 
-## Nitro/Exhaust emitter
+## Nitro/Exhaust emitter (emetteur de gaz d'échappement)
 
-Add Blender empty-type objects at the ends of the exhaust pipes on your kart and set the type to "Nitro Emitter" in the SuperTuxKart Object Properties panel.
+Ajoutez des objets Blender de type vide aux extrémités des tuyaux d'échappement de votre kart et réglez le type sur "Nitro Emitter" dans le panneau des propriétés d'objet de SuperTuxKart.
 
-## Headlights
+## Headlights (Phares)
 
-All new karts should have headlights of some sort unless it absolutely makes no sense for your kart. This doesn't mean you have to use traditional headlights—Gnu, for example, bears antique oil lanterns instead of normal headlights, which wouldn't go well with a flying carpet.
+Tous les nouveaux karts doivent être équipés de phares, sauf si cela n'a absolument aucun sens pour votre kart. Cela ne signifie pas que vous devez utiliser des phares traditionnels - Gnu, par exemple, porte des lanternes à huile antiques au lieu de phares normaux, ce qui n'irait pas très bien avec un tapis volant.
 
-For most karts, with the exception of Gnu, the headlights are integrated into the kart model and the object specifically marked as a headlight in Blender is actually a fake light cone, since SuperTuxKart does not support real cone lights.
+Pour la plupart des karts, à l'exception de Gnu, les phares sont intégrés dans le modèle du kart et l'objet spécifiquement marqué comme un phare dans Blender est en fait un faux cône de lumière, puisque SuperTuxKart ne supporte pas les vrais cônes de lumière.
 
-To add headlights, you can copy the light cone from one of the other karts in the media repo and add it to your kart where you want it. Be sure to apply the any rotation and scaling you make in object mode with **Ctrl+A**. You can duplicate this mesh in object mode with **Shift+D**. The origin of the headlight (the small yellow dot) will be the location of the actual light on the kart. You can change the origin with **Ctrl+Alt+Shift+C**. From here, there are two courses of action depending on the design of your kart:
+Pour ajouter des phares, vous pouvez copier le cône de lumière d'un des autres karts dans le media repo et l'ajouter à votre kart à l'endroit désiré. Assurez-vous d'appliquer la rotation et la mise à l'échelle que vous avez faites en mode objet avec **Ctrl+A**. Vous pouvez dupliquer ce mesh en mode objet avec **Shift+D**. L'origine du phare (le petit point jaune) sera l'emplacement de la lumière réelle sur le kart. Vous pouvez changer l'origine avec **Ctrl+Alt+Shift+C**. A partir de là, il y a deux possibilités d'action en fonction de la conception de votre kart:
 
-### If your headlights are attached to the character or an animated kart
+### Si vos phares sont attachés au personnage ou à un kart animé
 
-Probably most karts will not need this special procedure. Provided that the headlights are attached to the kart and the kart does not have any special skeletal animations, the headlights will not become visibly "detached" from the kart. If, however, your kart uses special animations like Pepper's broom, you will need this procedure. Most karts lean when turning via STK's built-in IPO animation which will automatically move headlights too, but for Pepper, the broom has its own skeletal leaning animation in addition to this. Thus, if the headlight is not attached to the broom, it will become separated when turning and look ugly. The solution to this is to attach the headlight to a bone.
+La plupart des karts n'auront probablement pas besoin de cette procédure spéciale. Si les phares sont attachés au kart et que le kart n'a pas d'animations spéciales, les phares ne seront pas visiblement "détachés" du kart. Cependant, si votre kart utilise des animations spéciales comme le balai de Pepper, vous aurez besoin de cette procédure. La plupart des karts s'inclinent lorsqu'ils tournent grâce à l'animation IPO intégrée à STK qui déplace automatiquement les phares, mais pour Pepper, le balai a sa propre animation d'inclinaison squelettique en plus de cela. Ainsi, si le phare n'est pas attaché au balai, il sera séparé lors des virages et aura un aspect peu esthétique. La solution est d'attacher le phare à un os.
 
 {% single_gallery /assets/wiki/Kart_headlight.jpg %}
 
-Select the first headlight you would like to attach, make it a a child object of the armature which it should follow, then go to the **Object** section of the Properties window, choose "Bone" for **Parent Type** and select the bone it should follow immediately below, as shown in the screenshot above. Then, in the SuperTuxKart Object Properties panel, set the headlight object as a "Headlight" object type. You can also set the color of the light emitted.
+Sélectionnez le premier phare que vous souhaitez attacher, faites-en un objet enfant de l'armature qu'il doit suivre, puis allez dans la section **Objet** de la fenêtre Propriétés, choisissez "Os" pour **Type de parentage** et sélectionnez l'os qu'il doit suivre immédiatement en dessous, comme le montre la capture d'écran ci-dessus. Ensuite, dans le panneau de Propriétés d'objet de SuperTuxKart, définissez l'objet phare comme un type d'objet " Headlight ". Vous pouvez également définir la couleur de la lumière émise.
 
-### If your headlights are static (non-moving)
+### Si vos phares sont statiques (sans mouvement)
 
-If your headlights don't need to move besides normal tilting of the kart (which is handled by STK in code), it is much simpler to add headlights. All that's needed is to position the light cone where you want it and mark it as a headlight in the SuperTuxKart Object Properties panel. You can also choose a color of the light emitted.
+Si vos phares n'ont pas besoin de bouger en dehors de l'inclinaison normale du kart (qui est gérée par STK dans le code), il est beaucoup plus simple d'ajouter des phares. Il suffit de positionner le cône de lumière à l'endroit voulu et de le marquer comme phare dans le panneau de propriétés d'objet de SuperTuxKart. Vous pouvez également choisir la couleur de la lumière émise.
 
-{%popup_info Cut down on resource costs! If you use the same model for both headlights on your kart, make a linked copy with **Alt+D** instead of **Shift+D** and your headlight object will use instancing.%}
+{%popup_info Réduisez le coût des ressources ! Si vous utilisez le même modèle pour les deux phares de votre kart, faites une copie liée avec **Alt+D** au lieu de **Shift+D** et votre objet phare utilisera l'instanciation.%}
 
-## Christmas Hats & Easter Bunny Ears
+## Chapeau (Christmas Hats & Easter Bunny Ears)
 
-Hats are added in a way very similar to headlights. Create an object (any object, though appending `christmas_hat.blend` from the `models` folder of the media repo is recommended) and position it where you want your hat to be relative to the character. Set it as a "Hat Positioner" in the SuperTuxKart Object Properties panel. Then, <u>if and only if your character has skeletal animation,</u> make the hat object a child object of your character model, change **Parent Type** to "Bone" under "Relations" in Blender's Object Properties panel, and choose the correct bone (probably your character's neck or head bone) to attach the hat via **Parent Bone** chooser.
+Les chapeaux sont ajoutés d'une manière très similaire aux phares. Créez un objet (n'importe quel objet, mais il est recommandé d'ajouter `christmas_hat.blend` depuis le dossier `models` du media repo) et positionnez-le à l'endroit où vous voulez que votre chapeau soit par rapport au personnage. Définissez-le comme "Hat Positioner" dans le panneau de propriétés d'objet de SuperTuxKart. Ensuite, <u>si et seulement si votre personnage a une animation squelettique,</u> faites de l'objet chapeau un objet enfant de votre modèle de personnage, changez **Type de parentage** en "Os" sous "Relations" dans le panneau Propriétés d'objet de Blender, et choisissez le bon os (probablement l'os du cou ou de la tête de votre personnage) pour attacher le chapeau via le sélecteur **Os de parent**.
 
 {% single_gallery /assets/wiki/Kart_hat.jpg %}
 
 <div><br/></div>
 
-{%popup_info You can also save a small amount of space in your blend file by linking the hat model instead of appending and, with the model selected, going to **Object > Make Local > Selected Object and Data** in the 3D View window.%}
+{%popup_info Vous pouvez également gagner un peu d'espace dans votre fichier blend en liant le modèle de chapeau au lieu de l'annexer et, avec le modèle sélectionné, en allant dans **Objet > Relations > Rendre local > Objet et données sélectionnés** dans la fenêtre Vue 3D.%}
 
-## Speed-Weighted Animations
+## Animations pondérées
 
-SuperTuxKart can change the speed of skeletal and/or texture animations on certain objects depending on the speed of the kart. For example, this is used for the Sara's snowmobile to make the [continuous track](https://en.wikipedia.org/wiki/Continuous_track) speed up and slow down with the kart. Adding speed-weighted objects is quite easy, provided the object to be speed-weighted is a separate object and not part of the same mesh as the kart.
+SuperTuxKart peut modifier la vitesse des animations de squelette et/ou de texture sur certains objets en fonction de la vitesse du kart. Par exemple, ceci est utilisé pour la motoneige de Sara afin que la [piste continue](https://en.wikipedia.org/wiki/Continuous_track) accélère et ralentisse avec le kart. L'ajout d'objets à vitesse pondérée est assez facile, à condition que l'objet à pondérer soit un objet séparé et ne fasse pas partie du même maillage que le kart.
 
-A speed-weighted animation can be added to an object simply by setting its type to "Speed Weighted" in the SuperTuxKart Object Properties panel. The tooltips on the settings that appear beneath explain what each setting does. Note the following regarding each setting:
+Une animation pondérée en fonction de la vitesse peut être ajoutée à un objet simplement en réglant son type sur " Speed Weighted " dans le panneau de propriétés d'objet de SuperTuxKart. Les infobulles sur les paramètres qui apparaissent ci-dessous expliquent ce que chaque paramètre fait. Notez les points suivants concernant chaque paramètre :
 
-* **Strength factor** has no effect on most devices. Essentially this only has an effect with the Intel HD Graphics 3000 on Windows, where hardware skinning is not supported.
-* **Speed factor** will use the default value if set to `-1.0`. It will **not** be completely disabled. If you want speed-independent skeletal animation but speed-dependent texture animation, set this option to `0.0`
-* **Texture speed X** and **Texture speed Y** must both be set to `0.0` if you wish to disable texture animation.
+* **Strength factor** n'a aucun effet sur la plupart des appareils. En fait, cela n'a d'effet qu'avec l'Intel HD Graphics 3000 sous Windows, où le hardware skinning n'est pas pris en charge.
+* **Speed factor** utilisera la valeur par défaut si elle est fixée à `-1.0`. Elle ne sera **pas** complètement désactivée. Si vous voulez une animation du squelette indépendante de la vitesse mais une animation des textures dépendante de la vitesse, mettez cette option à `0.0`
+* **Texture speed X** et **Texture speed Y** doivent tous deux être mis à `0.0` si vous souhaitez désactiver l'animation de la texture.
 
-{%popup_info If you add a skeletally-animated speed-weighted object, and wish to attach it to a bone as in the hat procedure above, you will need to animate the object separately in local space, making sure that the armature and the object it deforms have the same center of mass. Then make the armature and the object direct children of your main armature (for Kiki, the tail armature is a child object of the body armature). The speed-weighted object and its armature should have a sibling relationship, not parent-child.%}
+{%popup_info Si vous ajoutez un objet à vitesse pondérée animé par le squelette et que vous souhaitez l'attacher à un os comme dans la procédure du chapeau ci-dessus, vous devrez animer l'objet séparément dans l'espace local, en vous assurant que l'armature et l'objet qu'elle déforme ont le même centre de masse(point d'origine au même coordonné). Ensuite, faites de l'armature et de l'objet des enfants directs de votre armature principale (pour Kiki, l'armature de la queue est un objet enfant de l'armature du corps). L'objet pondéré en fonction de la vitesse et son armature doivent avoir une relation frère-frère, et non parent-enfant.%}
 
 {% include art_portal %}

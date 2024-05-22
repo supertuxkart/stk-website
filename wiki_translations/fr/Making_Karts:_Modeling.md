@@ -1,38 +1,41 @@
 ---
-title: 'Making Karts: Modeling'
+title: 'Faire des Karts: Modélisation'
 toc: true
 ---
-*This tutorial assumes you're already proficient with Blender. You can always check [here](https://www.blender.org/support/tutorials/) for links to good general-purpose Blender tutorials.*
+*Ce tutoriel suppose que vous maîtrisez déjà Blender. Vous pouvez toujours consulter [ici](https://www.blender.org/support/tutorials/) pour des liens vers de bons tutoriels Blender à usage général.*
+
+- tuto global vf:
+    + [Debuter sur Blender](https://youtube.com/playlist?list=PLuine2he2FmOY1ILTDc1OR9vHgIMBw4_W&si=mwQ1gKo3x0xRXuIY)
 
 {% gallery /assets/wiki/Emule_model.jpg %}
 
-## Mesh & vertex count
+## Nombre de maillages et de sommets(Mesh & vertex)
 
-During the modeling phase, remember that the kart is made to be seen from medium and far distances, but not very close distances, so detailing it a lot may be useless as some details would only be visible in rare and precise situations, a good trick is making these details part of the vehicle's texture. Also, it is way harder (and boring) trying to decrease the poly count of an existing high poly model than designing and modeling a low poly kart from the beginning, so it is worth keeping the poly number in mind.
+Pendant la phase de modélisation, rappelez-vous que le kart est fait pour être vu à des distances moyennes et lointaines, mais pas à des distances très proches, donc le détailler beaucoup peut être inutile car certains détails ne seraient visibles que dans des situations rares et précises, une bonne astuce est de faire de ces détails une partie de la texture du véhicule. De plus, il est beaucoup plus difficile (et fastidieux) d'essayer de réduire le nombre de polygone d'un modèle haute résolution existant que de concevoir et modéliser un kart basse résolution depuis le début, il est donc utile de garder le nombre de polygone à l'esprit.
 
 ## Dimensions
 
-STK's karts' dimensions are approximately between 0.7x0.4 and 0.9x0.5 OpenGL units, so you may first choose a same ranged dimension. Then, in-game tests will be required to adjust it. Note that currently, kart physics depends on the dimensions of the models, but this will change when karts will have individual physics attributes.
+Les dimensions des karts de STK sont approximativement comprises entre 0,7x0,4 et 0,9x0,5 unités OpenGL(¡¡dans blender les valeur doivent être doublé!!!). Ensuite, des tests en jeu seront nécessaires pour l'ajuster. Notez qu'actuellement, la physique des karts dépend des dimensions des modèles, mais cela changera lorsque les karts auront des attributs physiques individuels.
 
 ## Transformations
 
-Before being exported, the kart must be located as if the Y-axis was the road, and have a 0 X and Z translation (this last part may not be required, but this is cleaner like this ;). Also, when you hit Numpad 1 in Blender, you should see the back of the kart. The final model's rotation must be 0, and its scale 1 in object mode.
+Avant d'être exporté, le kart doit être placé comme si l'axe Y était la route, et avoir une translation X et Z de 0 (cette dernière partie n'est peut-être pas nécessaire, mais c'est plus propre ainsi ;). De plus, lorsque vous appuyez sur le pavé numérique 1 dans Blender, vous devez voir l'arrière du kart. La rotation du modèle final doit être de 0, et son échelle de 1 en mode objet.
 
 {% single_gallery /assets/wiki/Kart_view.jpg %}
 
-## Objects in Blender scene
+## Objets dans la scène Blender
 
-Ideally, the kart has its own mesh, the character another independent mesh, and each wheel another additional mesh object. Assign the wheels their type in the SuperTuxKart Object Properties panel:
+Idéalement, le kart a son propre mesh, le personnage un autre mesh indépendant et chaque roue un autre objet mesh supplémentaire. Attribuez un type aux roues dans le panneau de propriétés d'objet de SuperTuxKart:
 
 {% single_gallery /assets/wiki/Kart_wheel.jpg %}
 
-Note that karts can have (up to) 4 wheels. Wheels that are on the front are considered wheel-steerings and will automatically rotate as you steer in-game. The wheel's origin in Blender is used by SuperTuxKart for the wheel movement, an incorrectly placed geometry's origin can cause the wheel improper movement, also you might want to make test for aesthetic purposes, mostly to fix the point from where the wheel steers.
+Notez que les karts peuvent avoir (jusqu'à) 4 roues. Les roues qui sont à l'avant sont considérées comme des roues directrices et tourneront automatiquement lorsque vous dirigez dans le jeu. L'origine de la roue dans Blender est utilisée par SuperTuxKart pour le mouvement de la roue, une origine de géométrie mal placée peut causer un mouvement incorrect de la roue, aussi vous pourriez vouloir faire des tests pour des raisons esthétiques, principalement pour fixer le point à partir duquel la roue se dirige.
 
-The collision is calculated only for the vehicle mesh (assuming the character never go outside the kart), if your vehicle features big wheels is most likely these will go through other vehicles and track objects like walls or guard rails, even over fences some times so be sure to make enough tests if your vehicle has to have big wheels, like in the case of monster trucks. Contrary case, try not to make your vehicle's chassis too low, as the car might have problems with irregular terrain.
+La collision n'est calculée que pour le mesh du véhicule (en supposant que le personnage ne sorte jamais du kart), si votre véhicule possède de grandes roues, il est très probable qu'elles passeront à travers d'autres véhicules et des objets de la piste comme des murs ou des rails de sécurité, et même parfois par-dessus des clôtures, alors assurez-vous de faire suffisamment de tests si votre véhicule doit avoir de grandes roues, comme dans le cas des monster trucks. Dans le cas contraire, essayez de ne pas rendre le châssis de votre véhicule trop bas, car la voiture pourrait avoir des problèmes avec les terrains irréguliers.
 
-Every object in your blender scene will be exported by STK's kart exporter except:
-* cameras,
-* lights,
-* objects where type **Ignore** is selected in the SuperTuxKart Object Properties panel.
+Chaque objet de votre scène blender sera exporté par l'exportateur de karts de STK sauf:
+* les caméras,
+* les lumières,
+* les objets ou le type **Ignore** est sélectionné dans le panneau de propriété d'objet de SuperTuxKart.
 
 {% include art_portal %}

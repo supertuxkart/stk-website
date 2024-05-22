@@ -1,34 +1,34 @@
 ---
-title: Making challenges
+title: Faire des défis
 toc: true
 ---
-This page documents how challenge files are written, and how to ensure they are showing up in the game.
+Cette page explique comment les fichiers de défis sont écrits et comment s'assurer qu'ils apparaissent dans le jeu.
 
-## Create and place the file
+## Créer et placer le fichier
 
-The easiest way is to copy an already existing .challenge file and edit to your liking. The files are in various track folders, and you need to place your own alongside in a not-empty track folder in order for STK to find it. See [this page](Installing_Add-Ons) if you don't know where the track folders are. If placed and formatted correctly, you should see your challenge alongside with the rest in 'Challenges' entry in the main menu. Should you not find it, start the game with a terminal and see if any warnings are printed.
+Le plus simple est de copier un fichier .challenge déjà existant et de le modifier à votre convenance. Les fichiers se trouvent dans différents dossiers de pistes, et vous devez placer votre propre fichier dans un dossier de piste non vide pour que STK le trouve. Voir [cette page](Installing_Add-Ons) si vous ne savez pas où se trouvent les dossiers de pistes. S'il est placé et formaté correctement, vous devriez voir votre défi avec les autres dans l'entrée 'Défis' du menu principal. Si vous ne le trouvez pas, lancez le jeu à l'aide d'un terminal et voyez si des avertissements s'affichent.
 
-The game auto-creates an entry for your challenge in the **players.xml** file upon game runtime. To find this file, refer to question "Where is the configuration stored?" in [the FAQ](FAQ). So if you created a challenge with `id="mychallenge"`, there should be a line `<mychallenge solved="false" />` in **players.xml**. Simply change to *false* again if you need to test unlocking later, e.g. if you change *unlock-track* after fulfilling the challenge. Do keep in mind that if you edit a challenge SuperTuxKart might stop working and you will have to restore the old challenge file.
+Le jeu crée automatiquement une entrée pour votre défi dans le fichier **players.xml** au moment de l'exécution du jeu. Pour trouver ce fichier, reportez-vous à la question "Où est stockée la configuration ?" dans la [FAQ](FAQ). Donc si vous avez créé un défi avec `id="mychallenge"`, il devrait y avoir une ligne `<mychallenge solved="false" />` dans **players.xml**. Remplacez simplement cette ligne par *false* si vous avez besoin de tester le déverrouillage plus tard, par exemple si vous modifiez *unlock-track* après avoir relevé le défi. Gardez à l'esprit que si vous modifiez un défi, SuperTuxKart peut cesser de fonctionner et vous devrez restaurer l'ancien fichier de défi.
 
-## List of XML attributes
+## Liste des attributs XML
 
 {% wikitable %}
 
-| Name         | Description                                                                                                            |
-|--------------|------------------------------------------------------------------------------------------------------------------------|
-| id           | Unique identification which STK knows the challenge by. This can be referenced for depend-on in other challenges.      |
-| name         | Short descriptive name for the challenge. Shows up over the main description.                                          |
-| description  | Full description of the challenge.                                                                                     |
-| unlock-track | Track which the challenge unlocks if solved. Currently a requirement to fill in, if no other unlock- property is used. |
-| unlock-gp    | Grand Prix which the challenge unlocks if solved.                                                                      |
-| unlock-mode  | Game mode which the challenge unlocks if solved. For example, *FOLLOW_LEADER*.                                         |
-| depend-on    | Challenge id(s) which the challenge depends on in order to be shown. This attribute is not required.                   |
-| major        | Major game mode type. Currently, possible major modes are *any*, *grandprix* and *single*.                             |
-| minor        | Minor game mode type. Currently, possible minor modes are *followtheleader*, *timetrial* and *quickrace*.              |
-| track        | Track where challenge takes place.                                                                                     |
-| difficulty   | Difficulty mode for race. For example, *medium*.                                                                       |
-| karts        | Number of karts.                                                                                                       |
-| laps         | Number of laps.                                                                                                        |
-| position     | Required rank.                                                                                                         |
-| energy       | Number of energy/nitro points to collect. This attribute is not required.                                              |
-| time         | Maximum amount of time in seconds.                                                                                     |
+| Name         | Description                                                                                                                                              |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| id           | Identification unique par laquelle STK connaît le défi. Cette identification peut être utilisée pour d'autres défis.                                     |
+| name         | Nom descriptif court pour le défi. S'affiche au-dessus de la description principale.                                                                     |
+| description  | Description complète du défi.                                                                                                                            |
+| unlock-track | Trace que le défi débloque s'il est résolu. Il s'agit actuellement d'une exigence à remplir, si aucune autre propriété de déverrouillage n'est utilisée. |
+| unlock-gp    | Grand Prix que le défi débloque s'il est résolu.                                                                                                         |
+| unlock-mode  | Mode de jeu que le défi débloque s'il est résolu. Par exemple, *FOLLOW_LEADER*.                                                                          |
+| depend-on    | Identifiant(s) de l'épreuve dont dépend l'épreuve pour être affichée. Cet attribut n'est pas obligatoire.                                                |
+| major        | Type de mode de jeu principal. Actuellement, les modes majeurs possibles sont *tout*, *grandprix* et *simple*.                                           |
+| minor        | Type de mode de jeu mineur. Actuellement, les modes mineurs possibles sont *suivre le meneur*, *épreuve de temps* et *course rapide*                     |
+| track        | Suivre le lieu où se déroule le défi.                                                                                                                    |
+| difficulty   | Mode de difficulté de la course. Par exemple, *moyen*.                                                                                                   |
+| karts        | Nombre de kart.                                                                                                                                          |
+| laps         | Nombre de tour.                                                                                                                                          |
+| position     | Grade exigé.                                                                                                                                             |
+| energy       | Nombre de points d'énergie/nitro à collecter. Cet attribut n'est pas obligatoire.                                                                        |
+| time         | Temps maximum en secondes.                                                                                                                               |

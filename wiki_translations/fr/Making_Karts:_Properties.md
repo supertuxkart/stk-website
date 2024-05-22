@@ -1,24 +1,24 @@
 ---
-title: 'Making Karts: Properties'
+title: 'Faire des Karts: Propriétés'
 display_title: true
 ---
-When you open Blender with the SuperTuxKart plugins installed, you will find that some new menus have been added. Under **Scene** in the Properties window, you'll find **Kart Exporter**, **Track Exporter**, **SuperTuxKart Scene Properties**, and **SuperTuxKart Image Properties**. Also in the Properties window, under **Object**, you'll find **SuperTuxKart Object Properties**. If you do not see these, refer to the [Installing Tools](Installing_Tools) page.
+Lorsque vous ouvrez Blender avec l'addon SuperTuxKart installées, vous constaterez que de nouveaux menus ont été ajoutés. Sous **Scène** dans la fenêtre Propriétés, vous trouverez **Export Kart**, **Export Track**, **SuperTuxKart Scene Properties**, et **SuperTuxKart Image Properties**. Toujours dans la fenêtre Propriétés, sous **Objet**, vous trouverez **SperTuxKart Object Properties**. Si vous ne les voyez pas, reportez-vous à la page [Installing Tools](Installing_Tools).
 
-After opening Blender to a new, empty file, go to the Scene Properties section of Blender's Properties window, and, under **SuperTuxKart Scene Properties** check the box "Is a SuperTuxKart kart". A brief overview of some of the more obscure options is below. Remember, you can always look at the .blend files in the [Media Repo](Media_Repo) for examples.
+Après avoir ouvert Blender sur un nouveau fichier vide, allez dans **le paneau de propriété > scène SuperTuxKart Scene Properties** et cochez la case "Is a SuperTuxKart kart" (est un kart SuperTuxKart). Un bref aperçu des options les plus obscures se trouve ci-dessous. Rappelez-vous, vous pouvez toujours regarder les fichiers .blend dans le [Dépôt multimédia](Media_Repo) pour exemples.
 
 {% single_gallery /assets/wiki/Kart_panel.jpg %}
 
-* **Name:** Name of your kart.
-* **Group:** This determines into which group the kart is sorted on the kart selection screen. If this is an add-on kart, it should be set to `Add-Ons`. If you're making a kart to be distributed in the core game, set this to `standard`.
-* **Icon:** Name of a 128×128-pixel image file (including file extension) that will be used for the kart on the kart selection screen and elsewhere in the GUI. This file will need to be placed in the same folder as the models you export when you've finished your kart. See [Making Karts: Icons](Making_Karts:_Icons) for more info.
-* **Minimap Icon:** Usually this field has the same value as above, but if you have a detailed character icon that will look bad when scaled down to fit on the minimap, make a less detailed version for this.
-* **Shadow:** File name of an image that will be used as a shadow when dynamic shadows are not enabled. You can make this file later on when you've finished your kart. (The tutorial is linked from the kart tutorial index.)
-* **Color:** Background color for the icon. Use the color picker button next to this field to choose a color more easily.
-* **Gravity Center Shift:** You can set this to a value less than zero to make the kart more stable by lowering the center of gravity.
-* **Engine sound:** Engine sound volume.
-* **Skid sound:** You can define a custom skid sound of your kart via xml syntax, for Pepper (shown above) it imitates wind blowing sound when skidding, write `default` there to use default skid sound in STK, leave it empty to disable skid sound.
-* **Type:** This is the weight of the kart for the physics engine. It determines how much it can knock other karts around, how fast it can accelerate, and its max speed.
-* **Lean max:** This is the number of degrees a kart will lean when going full speed around a tight corner. Traditional four-wheeled vehicles will tend to have body roll and lean outward around a curve, while motorcycles and the like will lean inward. Negative values refer to inward leaning while positive values refer to outward leaning. Zero will disable all body roll. Leave blank to use the default value (outward leaning).
-* **Exhaust Particles File:** The particles file for exhaust simulation. `kart_exhaust.xml` will yield regular puffs of grayish smoke, leave it empty to disable exhausting.
+* **Name:** Nom de votre Kart
+* **Group:** Ceci détermine dans quel groupe le kart est trié sur l'écran de sélection des karts. S'il s'agit d'un kart d'extension, il doit être mis à `Add-Ons`. Si vous créez un kart qui sera distribué dans le jeu principal, mettez-le à `standard`.
+* **Icon:** Nom d'un fichier image de 128×128 pixels (y compris l'extension du fichier) qui sera utilisé pour le kart sur l'écran de sélection du kart et ailleurs dans l'interface graphique. Ce fichier devra être placé dans le même dossier que les modèles que vous exportez lorsque vous avez terminé votre kart. Voir [Faire des Karts: Icônes](Making_Karts:_Icons) pour plus d'informations.
+* **Minimap Icon:** En général, ce champ est le même que "Icon", mais si vous avez une icône de personnage détaillée qui ne sera pas belle à voir lorsqu'elle sera réduite pour tenir sur la minimap, faites-en une version moins détaillée.
+* **Shadow:** Nom de fichier d'une image qui sera utilisée comme ombre lorsque les ombres dynamiques ne sont pas activées. Vous pourrez créer ce fichier plus tard, lorsque vous aurez terminé votre kart. (Le tutoriel est lié à l'index des tutoriels sur les karts).
+* **Color:** Couleur d'arrière-plan de l'icône. Utilisez le bouton de sélection des couleurs situé à côté de ce champ pour choisir une couleur plus facilement.
+* **Gravity Center Shift:** Vous pouvez régler cette valeur sur une valeur inférieure à zéro pour rendre le kart plus stable en abaissant le centre de gravité.
+* **Engine sound:** Volume sonore du moteur.
+* **Skid sound:** Vous pouvez définir un son de dérapage personnalisé pour votre kart via la syntaxe xml, pour Pepper (montré ci-dessus) il imite le son du vent lors du dérapage, écrivez `default` ici pour utiliser le son de dérapage par défaut dans STK, laissez-le vide pour désactiver le son de dérapage.
+* **Type:** C'est le poids du kart pour le moteur physique. Il détermine à quel point il peut faire tomber les autres karts, à quelle vitesse il peut accélérer et quelle est sa vitesse maximale.
+* **Lean max:** Il s'agit du nombre de degrés d'inclinaison d'un kart lorsqu'il roule à pleine vitesse dans un virage serré. Les véhicules à quatre roues traditionnels ont tendance à prendre du roulis et à s'incliner vers l'extérieur dans un virage, tandis que les motos et autres véhicules similaires s'inclinent vers l'intérieur. Les valeurs négatives indiquent une inclinaison vers l'intérieur, tandis que les valeurs positives indiquent une inclinaison vers l'extérieur. Zéro désactive tout roulis. Laissez le champ libre pour utiliser la valeur par défaut (inclinaison vers l'extérieur).
+* **Exhaust Particles File:** Le fichier de particules pour la simulation de la fumée d'échappement. `kart_exhaust.xml` produira des bouffées régulières de fumée grisâtre, laissez-le vide pour désactiver l'échappement.
 
 {% include art_portal %}

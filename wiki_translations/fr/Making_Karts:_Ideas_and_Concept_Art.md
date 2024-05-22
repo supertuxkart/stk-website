@@ -1,21 +1,21 @@
 ---
-title: 'Making Karts: Ideas and Concept Art'
+title: 'Faire des Karts: Idées et concepts artistiques'
 display_title: true
 ---
-For karts, you will really need a concrete idea in order to avoid spending precious time revising. Unlike with tracks, it's difficult to make small adjustments because karts are inorganic in shape and small in size.
+Pour les karts, vous aurez vraiment besoin d'une idée concrète afin d'éviter de perdre un temps précieux à réviser. Contrairement aux pistes, il est difficile de faire de petits ajustements car les karts ont une forme inorganique et sont de petite taille.
 
 {% gallery
-/assets/wiki/Making_kart_illustration.jpg,Having a solid plan makes it much easier to model.
+/assets/wiki/Making_kart_illustration.jpg,Le fait de disposer d'un plan solide facilite grandement la modélisation.
 %}
 
-## The Character
+## Le personnage
 
-First, choose a character. For SuperTuxKart, at least core STK, it should be a mascot related to some open-source software. There are plenty of them. [Wikipedia](https://en.wikipedia.org/wiki/List_of_computing_mascots) has a good list of mascots which are actually mostly (if not all) open-source-related.
+Tout d'abord, choisissez un personnage. Pour SuperTuxKart, du moins le noyau de STK, il devrait s'agir d'une mascotte liée à un logiciel libre. Il y en a beaucoup. [Wikipedia](https://en.wikipedia.org/wiki/List_of_computing_mascots) a une bonne liste de mascottes qui sont pour la plupart (si ce n'est toutes) liées aux logiciels libres
 
-Once you have a character, it's necessary to think about how it will be oriented in the kart. Draw the character in a driving position, think about different poses the character could have, etc.
+Une fois que vous avez un personnage, il faut penser à la façon dont il sera orienté dans le kart. Dessinez le personnage en position de conduite, réfléchissez aux différentes poses qu'il pourrait avoir, etc.
 
-## The Kart
+## Le Kart
 
-Decide what the kart should like like, then make a rough sketch without your character. You might have to go through several revisions, making sure you've covered several different angles of the kart. When you're satisfied that the kart looks good, do a final drawing with your character inside the kart. Remember that concept art doesn't have to be perfect, but it is important to get a feel for how your kart will turn out. You'll want to refer to it as you build your 3D model.
+Décidez à quoi doit ressembler le kart, puis faites un croquis sans votre personnage. Vous devrez peut-être procéder à plusieurs révisions, en vous assurant que vous avez couvert plusieurs angles différents du kart. Lorsque vous êtes satisfait de l'aspect du kart, faites un dessin final avec votre personnage à l'intérieur du kart. N'oubliez pas que le dessin conceptuel n'a pas besoin d'être parfait, mais qu'il est important d'avoir une idée de la façon dont votre kart sera réalisé. Vous pourrez vous y référer lorsque vous construirez votre modèle 3D.
 
 {% include art_portal %}

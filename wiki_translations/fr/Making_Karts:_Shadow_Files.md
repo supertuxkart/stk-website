@@ -1,55 +1,55 @@
 ---
-title: 'Making Karts: Shadow Files'
+title: "Faire des Karts: Fichiers d'ombres"
 toc: true
 ---
-This short tutorial explains how to make a perfect shaped kart shadow, using the kart model in Blender and a graphics editing software as The GIMP.
+Ce court tutoriel explique comment créer une carte d'ombre de kart de forme parfaite, en utilisant le modèle de kart dans Blender et un logiciel d'édition graphique comme The GIMP.
 
-The following manipulations will have to be done every time you'll change the kart model a way that impacts its top view look (eg. up-scale and down-scale transformations). So you may want to finalize the model before making the shadow.
+Les manipulations suivantes devront être effectuées à chaque fois que vous modifierez le modèle du kart, ce qui aura un impact sur son aspect en vue de dessus (par exemple, transformations à l'échelle supérieure et inférieure). Il est donc préférable de finaliser le modèle avant de créer l'ombre.
 
-## Taking screenshot
+## Faire une capture d'écran
 
 {% single_gallery /assets/wiki/Kart_shadow_tutorial_1.jpg %}
 
-Jump to top-view (numpad 7) fullscreen (Ctrl + up) orthogonal mode (numpad 5 to switch persp/ortho) in Blender, add a green background using **Add > Image > Background** and scale it to fit the (-1, -1) (1, -1) (1, 1) (-1, 1) square on the (X, Y) plane.
+Passez en vue de dessus (pavé numérique 7) en plein écran (Ctrl + barre_espace) en mode orthogonal (pavé 5 pour basculer persp/ortho) dans Blender, ajoutez un fond vert en utilisant **Ajouter > Image > Arrière-plan** et mettez-le à l'échelle pour qu'il corresponde au carré (-1, -1) (1, -1) (1, 1) (-1, 1) sur le plan (X, Y).
 
 {% single_gallery /assets/wiki/Kart_shadow_tutorial_2.jpg %}
 
-Then take a screenshot of the screen with the 3D grid hidden via **Viewport Overlays > Guides > Grid** as shown.
+Prenez ensuite une capture d'écran avec la grille 3D cachée via **surimpression de la vue > Guides > Grille** comme indiqué.
 
-## Cropping screenshot
+## Recadrage de capture d'écran
 
 {% single_gallery /assets/wiki/Kart_shadow_tutorial_3.jpg %}
 
-Then, open your screenshot image with your favorite graphics editing program. Simply crop your image following the green square we added earlier. Thanks to this, the shadow will have the right scale on the shadow image.
+Ouvrez ensuite votre capture d'écran dans votre programme d'édition graphique préféré. Recadrez simplement votre image en suivant le carré vert que nous avons ajouté plus tôt. Grâce à cela, l'ombre aura la bonne échelle sur l'image de l'ombre.
 
-## Getting shadow shape
+## Obtenir la forme de l'ombre
 
 {% single_gallery /assets/wiki/Kart_shadow_tutorial_4.jpg %}
 
-With the fuzzy select tool (aka magical wand), select the colored background (don't forget to click in every closed area), then invert the selection so it corresponds to the kart's shape
+Avec l'outil de sélection floue (ou baguette magique), sélectionnez l'arrière-plan coloré (n'oubliez pas de cliquer dans toutes les zones fermées), puis inversez la sélection pour qu'elle corresponde à la forme du kart.
 
 {% single_gallery /assets/wiki/Kart_shadow_tutorial_5.jpg %}
 
-Feather the selection by roughly 10px (this value may need to be adjusted following your screen resolution), then eventually grow it by 2 or 3px, to smooth the shadow.
+Ajustez la sélection d'environ 10px (cette valeur peut devoir être ajustée en fonction de la résolution de votre écran), puis augmentez-la éventuellement de 2 ou 3px, afin d'adoucir l'ombre.
 
 ## Filling shadow
 
 {% single_gallery /assets/wiki/Kart_shadow_tutorial_6.jpg %}
 
-Create a transparent layer, and fill your selection with black opacity 50% using the bucket tool.
+Créez un calque transparent et remplissez votre sélection de noir avec une opacité de 50 % à l'aide de l'outil seau.
 
-## Saving
+## Sauvegarder
 
 {% single_gallery /assets/wiki/Kart_shadow_tutorial_7.jpg %}
 
-Then, resize your image to 256x256 (or even 128x128 if it does not contain a lot of details), hide or delete your green layer, and save the image as a PNG file, with transparency.
+Ensuite, redimensionnez votre image à 256x256 (ou même 128x128 si elle ne contient pas beaucoup de détails), cachez ou supprimez votre calque vert, et enregistrez l'image au format PNG, avec transparence.
 
 {% single_gallery /assets/wiki/Kart_shadow_tutorial_end.png %}
 
-Here is your final shadow. To polish it, you can also add some darker areas as in Puffy's one:
+Voici votre ombre finale. Pour la peaufiner, vous pouvez également ajouter des zones plus sombres comme dans celle de Puffy:
 
 {% single_gallery /assets/wiki/Puffy_shadow.png %}
 
-When you're done with your shadow image, enter its file name in the **Shadow** box in the SuperTuxKart Scene Properties panel. Don't forget to copy it with your exported kart files.
+Lorsque vous avez terminé avec votre image d'ombre, entrez son nom de fichier dans la case **Shadow** du panneau Propriétés de la scène de SuperTuxKart. N'oubliez pas de la copier avec vos fichiers kart exportés.
 
 {% include art_portal %}

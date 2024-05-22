@@ -1,27 +1,27 @@
 ---
-title: 'Making Karts: Icons'
+title: 'Faire des Karts: Icônes'
 display_title: true
 ---
-Making an icon is the final step in creating a kart. Although it seems simple, numerous forum threads have revealed that icons are for some reason a very contentious subject. This page sets out some technical and artistic guidelines you can follow to make sure your character's icons fit in.
+La création d'une icône est la dernière étape de la création d'un kart. Bien que cela semble simple, de nombreux fils de discussion ont révélé que les icônes sont, pour une raison ou une autre, un sujet très controversé. Cette page présente quelques règles techniques et artistiques que vous pouvez suivre pour vous assurer que les icônes de votre personnage s'intègrent bien.
 
-## Technical Guidelines & Instructions
+## Directives techniques et instructions
 
-* Draw your sketch in a vector graphics editor like Inkscape first, so it can be scaled if necessary. If you really aren't comfortable with vector graphics though, it's OK.
-* Make the icon 128×128 pixels when you export, but keep in mind that it will be scaled to 64×64px in-game.
-* Use PNG as the final format.
-* If it looks bad when scaled to 32×32px, make a less detailed version and use it as the minimap icon (see instructions below)
+* Dessinez d'abord votre croquis dans un éditeur de graphiques vectoriels comme Inkscape, afin de pouvoir le mettre à l'échelle si nécessaire. Si vous n'êtes vraiment pas à l'aise avec les graphiques vectoriels, ce n'est pas grave.
+* L'icône doit être de 128×128 pixels lors de l'exportation, mais n'oubliez pas qu'elle sera redimensionnée à 64×64px dans le jeu.
+* Utilisez le format PNG comme format final.
+* Si elle n'est pas belle à l'échelle 32×32px, faites-en une version moins détaillée et utilisez-la comme icône de la minimap (voir les instructions ci-dessous).
 
-### Adding your icon to the kart
+### Ajouter votre icône au kart
 
-After copying your icon file to both the same folder as the one containing your blend file and the exported kart, go to the SuperTuxKart Scene Properties panel in Blender and fill in your icon's file name in the **Icon** field. If you have a different icon for the minimap, put that file name in the **Minimap Icon** field, otherwise fill the field with the same filename as the regular icon.
+Après avoir copié votre fichier d'icône dans le même dossier que celui contenant votre fichier blend et le kart exporté, allez dans le panneau des propriétés de la scène SuperTuxKart dans Blender et renseignez le nom de fichier de votre icône dans le champ **Icon**. Si vous avez une icône différente pour la minimap, mettez le nom de ce fichier dans le champ **Minimap Icon**, sinon remplissez le champ avec le même nom de fichier que l'icône normale.
 
-## Artistic Guidelines
+## Lignes directrices artistiques
 
-Icon files should generally be a drawing of the character's face, as are all of the default icons. While we would like all icons to be of exactly the same style, we understand that this is not reasonably possible. Thus, here are some friendly stylistic guidelines that you can use to make your character's icon fit in.
+Les fichiers d'icônes doivent généralement représenter le visage du personnage, comme c'est le cas pour toutes les icônes par défaut. Nous aimerions que toutes les icônes soient exactement du même style, mais nous comprenons que ce n'est pas raisonnablement possible. Voici donc quelques lignes directrices stylistiques amicales que vous pouvez utiliser pour faire en sorte que l'icône de votre personnage s'intègre.
 
-* Your character should be smiling, unless it's and evil character.
-* The drawing should be cartoony and not overly detailed. Our motif (pioneered by yeKcim, who designed icons for the 0.7 release) is wide, connected eyes and a slight gradient for the main color, though [Jymis's style](https://forum.freegamedev.net/viewtopic.php?f=18&t=7144) is also quite suitable, expanding the style with more sophisticated facial expressions.
-* Don't try to paint the Mona Lisa. Don't go overboard and waste tons of time; the icon should be nice-looking, but if necessary, ignore feedback you get unless it brings up real issues with the icon.
-* Make the character face ~45° to his left. That is, the eyes will be more on the right side when you look at the character. An icon with the character staring out of the screen is likely to be a bit creepy.
+* Votre personnage doit être souriant, sauf s'il s'agit d'un personnage maléfique.
+* Le dessin doit être caricatural et ne pas être trop détaillé. Notre motif (inauguré par yeKcim, qui a conçu les icônes de la version 0.7) est constitué d'yeux larges et connectés et d'un léger dégradé pour la couleur principale, bien que le [style de Jymis](https://forum.freegamedev.net/viewtopic.php?f=18&t=7144) soit également tout à fait approprié, en élargissant le style avec des expressions faciales plus sophistiquées.
+* N'essayez pas de peindre la Joconde. L'icône doit être belle, mais si nécessaire, ignorez les commentaires que vous recevez, à moins qu'ils ne soulèvent de véritables problèmes avec l'icône.
+* Faites en sorte que le personnage soit tourné à ~45° vers la gauche. En d'autres termes, les yeux seront plus à droite lorsque vous regarderez le personnage. Une icône où le personnage regarde fixement l'écran risque d'être un peu effrayante.
 
 {% include art_portal %}
