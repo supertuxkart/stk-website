@@ -627,3 +627,7 @@ msgstr "Vous devriez lire les articles suivants avant de suivre ce tutoriel :"
 
 msgid "Click here if you are not redirected."
 msgstr "Cliquez ici si vous n'êtes pas redirigé(e) automatiquement."
+
+# add buttom Making Server 
+msgid "Making Server"
+msgstr "Créer un serveur"
