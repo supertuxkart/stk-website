@@ -4,7 +4,7 @@ toc: true
 ---
 ## Scaling
 
-At most, karts should be 1 Blender unit wide and 1.5 Blender units long. But really, it's better to go for something slightly smaller. Also never scale in Blender's object mode—this will cause problems.
+At most, karts should be 1 Blender unit wide and 1.5 Blender units long. But really, it's better to go for something slightly smaller. Also never scale in Blender's object mode—this will cause problems.(or don't forget to rescale **object > apply > scale**)
 
 ## Polycount Guidelines
 
