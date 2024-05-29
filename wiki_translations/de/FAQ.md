@@ -217,8 +217,9 @@ Wo ist die Konfiguration gespeichert?
 * Auf **Windows**; befindet es sich in `%APPDATA%/supertuxkart/config-0.10` (du kannst das in den Explorer eingeben um dort hin zu gelangen).
 * Auf **Linux**: ist es entweder in `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (erste Wahl), `~/.config/supertuxkart/config-0.10` (zweite Wahl) oder in `~/.supertuxkart/config-0.10` (dritte Wahl).
 * Auf **macOS**: befindet es sich in `~/Library/Application Support/supertuxkart/config-0.10`. Beachte, dass dieser Ordner versteckt sein kann.
-* Mit **Snap** ist der Pfad: `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
-* Mit **Flatpak** ist der Pfad: `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
+* Auf **Android** lautet der Pfad: `/storage/emulated/0/Android/data/org.supertuxkart.stk/files/supertuxkart/home/supertuxkart/config-0.10`.
+* Mit **Snap** lautet der Pfad: `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
+* Mit **Flatpak** lautet der Pfad: `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
 Du kannst auch die Ausgaben im Terminal anschauen, ob es dort einen Hinweis darauf gibt, wo die Konfigurationsdateien gespeichert sind, oder in die Suchfunktion deines Betriebsystems nutzen um "config.xml" zu finden.
 
@@ -228,7 +229,7 @@ Du kannst auch die Ausgaben im Terminal anschauen, ob es dort einen Hinweis dara
 
 Die Git-Version kompiliert nicht. Was soll ich tun?
 
-Das passiert manchmal; Die Entwickler sind sich dessen vermutlich bereits bewusst und arbeiten an einer Lösung. Falls [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) sagt, dass die aktuelle Version kompilierbar ist, aber es für dich dennoch nicht funktioniert, ist etwas mit deinem Kompiler nicht in Ordnung. (Schau nach, ob du alle notwendigen, abhängigen Tools installiert hast, führe CMAKE erneut aus,...)
+Das passiert manchmal; Die Entwickler sind sich dessen vermutlich bereits bewusst und arbeiten an einer Lösung. Falls [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) sagt, dass die aktuelle Version kompilierbar ist, aber es für dich dennoch nicht funktioniert, ist etwas mit deinem Kompiler nicht in Ordnung. (Schau nach, ob du alle notwendigen, abhängigen Tools installiert hast, führe CMAKE erneut aus, …)
 
 {% end_liquid %}
 
