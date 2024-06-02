@@ -37,7 +37,7 @@ Quais são os requisitos de hardware?
 
 **GPU**
 
-A GPU é geralmente o que limita o desempenho do STK. Placas que satisfaçam aos requisitos mínimos têm suporte do OpenGL para executar o jogo, mas requerem resoluções e gráficos baixos para um jogo suave. Placas que satisfaçam ou excedam os requisitos recomendados conseguem executar a pista mais exigente do STK a 60FPS/1080p com a moderna pipeline de renderização no nível de gráficos 4.
+A GPU é geralmente o que limita o desempenho do STK. Placas que satisfaçam os requisitos mínimos têm suporte do OpenGL para executar o jogo, mas requerem resoluções e gráficos baixos para um jogo suave. Placas que satisfaçam ou excedam os requisitos recomendados conseguem executar a pista mais exigente do STK a 60FPS/1080p com a moderna pipeline de renderização no nível de gráficos 4.
 
 * **Recomendado**: NVIDIA GeForce GTX 950, AMD Radeon RX 460 ou superior; Pelo menos 1GB VRAM (memória de vídeo).
 * **Mínimo**: NVIDIA GeForce 470 GTX, placa da série AMD Radeon 6870 HD ou Intel HD Graphics 4000; Pelo menos 512 MB VRAM (memória de vídeo).
@@ -217,6 +217,7 @@ Onde fica armazenada a configuração do jogo?
 * No **Windows**:  fica em `%APPDATA%/supertuxkart/config-0.10` (podes introduzir isto no Explorador que ele leva-te lá).
 * No **Linux**: ou fica em `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primeira opção), em `~/.config/supertuxkart/config-0.10` (segunda opção) ou então em `~/.supertuxkart/config-0.10` (terceira opção).
 * No **macOS**: fica em `~/Library/Application Support/supertuxkart/config-0.10`. Repara que este diretório poderá estar oculto.
+* No **Android**: fica em `/storage/emulated/0/Android/data/org.supertuxkart.stk/files/supertuxkart/home/supertuxkart/config-0.10`.
 * Com **Snap**: fica em `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
 * Com **Flatpak**: fica em `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
