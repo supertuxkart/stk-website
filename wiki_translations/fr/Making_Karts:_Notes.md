@@ -29,6 +29,6 @@ Cependant, il ne faut pas en faire trop. Il ne faut pas que les karts soient dé
 
 ## Extensions contre Principaux
 
-Il est possible que votre kart soit accepté dans le jeu principal SuperTuxKart, mais cela devient de plus en plus improbable au fur et à mesure que les anciens personnages sont remplacés. Ne soyez pas trop déçu si votre premier kart n'est pas accepté dans le jeu principal, vous pouvez toujours le distribuer sur [online.supertuxkart.net](https://online.supertuxkart.net).
+Il est possible que votre kart soit accepté dans le jeu principal SuperTuxKart, mais cela devient de plus en plus improbable au fur et à mesure que les anciens personnages sont remplacés. Ne soyez pas trop déçu si votre premier kart n'est pas accepté dans le jeu principal, vous pouvez toujours le distribuer sur [STK Add-ons](https://online.supertuxkart.net).
 
 {% include art_portal %}

@@ -1,35 +1,35 @@
 ---
-title: Projects
+title: Projets
 toc: true
 ---
-Due to the Open source nature of SuperTuxKart, the game is used in various research project, studies or simply prototypes made by fans
+En raison de la nature Open source de SuperTuxKart, le jeu est utilisé dans divers projets de recherche, études ou simplement prototypes réalisés par des fans.
 
-You can discover what people have done with our game.
+Vous pouvez découvrir ce que les gens ont fait avec notre jeu.
 
-If you have a project using SuperTuxKart note listed here or if you want to use the game in your own project you can contact us.
+Si vous avez un projet utilisant SuperTuxKart listé ici ou si vous voulez utiliser le jeu dans votre propre projet, vous pouvez nous contacter.
 
 ## Microsoft IllumiRoom Demo
 
-IllumiRoom is a proof-of-concept system from Microsoft Research. It augments the area surrounding a television screen with projected visualizations to enhance the traditional living room entertainment experience.
+IllumiRoom est un système de démonstration de faisabilité mis au point par Microsoft Research. Il augmente la zone entourant un écran de télévision avec des visualisations projetées afin d'améliorer l'expérience traditionnelle de divertissement dans le salon.
 
-[Official website](https://www.microsoft.com/en-us/research/project/illumiroom-peripheral-projected-illusions-for-interactive-experiences/) and [Video showcasing the project](https://www.youtube.com/watch?v=re1EatGRV0w&t=49s)
+[Site Officiel](https://www.microsoft.com/en-us/research/project/illumiroom-peripheral-projected-illusions-for-interactive-experiences/) et [Vidéo présentant le projet](https://www.youtube.com/watch?v=re1EatGRV0w&t=49s)
 
-## Virtual Joystick using Kinect
+## Virtual Joystick avec Kinect
 
-A simple demo of the flexibility of our Virtual Joystick system playing an out of the box version of tux kart this is managed by unifing our inputs for the Gesture Therapy platform.
+Une simple démonstration de la flexibilité de notre système de joystick virtuel en jouant une version prête à l'emploi de Tux Kart. Ceci est géré par l'unification de nos entrées pour la plateforme Gesture Therapy.
 
-[Video demonstration](https://www.youtube.com/watch?v=8vSfHG7BHUk)
+[Video de démonstration](https://www.youtube.com/watch?v=8vSfHG7BHUk)
 
 ## Open Street Map
 
-Generating 3D levels for SuperTuxKart using OpenStreetMap data and importing real world data.
+Génération de niveaux 3D pour SuperTuxKart en utilisant des données OpenStreetMap et en important des données du monde réel.
 
-[Official website](https://wiki.openstreetmap.org/wiki/SuperTuxKart)
+[Site Officiel](https://wiki.openstreetmap.org/wiki/SuperTuxKart)
 
-## Internationalization and Localization in open source games
+## Internationalisation et localisation dans les jeux open source
 
-A master done at Geneva university.
+Un master réalisé à l'université de Geneva.
 
-## Concepts for Advanced Integration of SuperTuxKart into Connected Cars
+## Concepts pour une intégration avancée de SuperTuxKart dans les voitures connectées
 
-[Report](https://elib.uni-stuttgart.de/bitstream/11682/11901/1/Master%27s%20Thesis.pdf)
+[Rapport](https://elib.uni-stuttgart.de/bitstream/11682/11901/1/Master%27s%20Thesis.pdf)

@@ -1,62 +1,63 @@
 ---
-title: Materiau
+title: Matériaux
 toc: true
 ---
-Materials are a method of making textures simulate real-life... materials. A texture on a flat surface can give you the look of, for example, leather, but it can't give you everything. What other properties does leather have? It's shiny, but not reflective, and slightly bumpy. All these effects and more are controlled by the material.
+Les matériaux sont une méthode permettant aux textures de simuler des matières... réelles. Une texture sur une surface plane peut donner l'apparence du cuir, par exemple, mais elle ne peut pas tout donner. Quelles sont les autres propriétés du cuir ? Il est brillant, mais non réfléchissant, et légèrement bosselé. Tous ces effets et d'autres encore sont contrôlés par le matériau.
 
-## For Blender 2.80 and newer
+## Pour Blender 2.80 et plus récent
 
-The Blender material system is used to configure the appearance of image textures that can appear on meshes. Unlike older versions, usage of this node-based system is mandatory, but it is possible to get away from dealing with nodes if basic single-image configurations are all that is needed.
+{%popup_info toutes informations parlent du menu (propriété d'image de Supertuxkart) sont destinée à blender <= 2.79, pour les versions 2.8 et supérieures ces options apparaîtrons lors du choix de shader dans "Propriété > Matériau > Antartica/Supertuxkart properties > display"%}
 
-To learn more about how to use nodes, visit the [Blender manual](https://docs.blender.org/manual/en/latest/interface/controls/nodes/).
+Le système de matériaux de Blender est utilisé pour configurer l'apparence des textures d'images qui peuvent apparaître sur un maillage. Contrairement aux anciennes versions, l'utilisation de ce système basé sur les nœuds est obligatoire, mais il est possible de s'affranchir des nœuds si des configurations basiques d'une seule image sont suffisantes.
 
-The full suite of shader nodes is currently unsupported (they are simply ignored in most cases); only a select few are recognized during the export process:
+Pour en savoir plus sur l'utilisation des nœuds, consulter le [manuel de Blender](https://docs.blender.org/manual/en/latest/interface/controls/nodes/).
 
-* Output - Material Output
-* Shader - Principled BSDF
+L'ensemble des nœuds de shaders n'est actuellement pas pris en charge (ils sont simplement ignorés dans la plupart des cas) ; seuls quelques-uns sont reconnus au cours du processus d'exportation:
+
+* Output - Material Output (Sortie - Sortie de matériel)
+* Shader - Principled BSDF (shader - BSDF guidée)
 * Texture - Image Texture
-* Color - MixRGB
-* Vector - Normal Map
+* Color - MixRGB (Couleur - Mélange de coleur)
+* Vector - Normal Map (Vecteur - carte de normal)
 
-The following shader nodes are not actually used during the export process, but may help in previewing what a material will look like in-game:
+Les nœuds de shaders suivants ne sont pas utilisés au cours du processus d'exportation, mais ils peuvent aider à prévisualiser l'aspect d'un matériau dans le jeu:
 
-* Input - UV Map, Vertex Color
+* Input - UV Map, Vertex Color (Entrée - Carte UV, couleur de sommet)
 
-For the Principled BSDF shader, the following inputs are recognized (other inputs are ignored):
-
-* Base Color
-* Metallic
-* Specular
-* Roughness
-* Emission
+Pour le shader BSDF guidée, les entrées suivantes sont reconnues (les autres entrées sont ignorées):
+* Base Color (couleur de base)
+* Metallic (métallique)
+* Specular (spéculaire)
+* Roughness (rugosité)
+* Emission (émission)
 * Alpha
-* Normal
+* Normal (normale)
 
-For the actual configuration of materials, the Antarctica/SuperTuxKart Properties panel contains all of the relevant options. It is located in the **Material Properties** section, but not in the same place for normal configuration of Blender materials. Configurations are stored on a per-material basis, rather than on a per-image basis as had happened in Blender <= 2.79. If an image is used in multiple materials, only one of these configurations will have any effect in-game. The material whose name ends with a later letter in A to Z manner is where the configuration will be taken from.
+Pour la configuration des matériaux, le panneau Antarctica/SuperTuxKart Properties contient toutes les options pertinentes. Il est situé dans la section **Propriétés > matériau**, mais pas au même endroit que la configuration normale des matériaux de Blender. Les configurations sont stockées sur la base d'un matériau, plutôt que sur la base d'une image, comme c'était le cas dans Blender <= 2.79. Si une image est utilisée dans plusieurs matériaux, une seule de ces configurations aura un effet dans le jeu. Le matériau dont le nom se termine par une lettre ultérieure dans le sens A à Z est celui dans lequel la configuration sera tirée.
 
-To preview how materials would look like in-game, change the **Viewport Shading** settings to use either **Solid** mode with the color set to **Texture** or **Material Preview** mode. The latter is preferred, as its appearance is generally closer to what is shown in-game, with the notable exception of when vertex colors and image textures are mixed together.
+Pour avoir un aperçu de l'apparence des matériaux dans le jeu, modifiez les paramètres **Ombrage de vue** pour utiliser soit le mode **Solide** avec la couleur réglée sur **Texture**, soit le mode **Prévisualisation des matériaux**. Ce dernier est préférable, car son apparence est généralement plus proche de ce qui est montré dans le jeu, à l'exception notable des couleurs de vertex et des textures d'image qui sont mélangées.
 
-{%popup_info Several other features, including special effects and physics properties also piggyback on SuperTuxKart's materials system. These reside in the **Interaction** section of the Antarctica/SuperTuxKart Properties panel, and are discussed in other articles. This article only discusses the **Display** section.%}
+{%popup_info Plusieurs autres fonctionnalités, y compris les effets spéciaux et les propriétés physiques, s'appuient également sur le système de matériaux de SuperTuxKart. Elles se trouvent dans la section **Interaction** du panneau Antarctica/SuperTuxKart Properties, et sont abordées dans d'autres sections. Cet article ne traite que de la section **Affichage**.%}
 
-## For Blender 2.63 to 2.79
+## Pour Blender 2.63 à 2.79
 
-It's important to note at this point that we are not referring to Blender or Cycles materials (though in Blender 2.80 and later, these materials are used during the export process). These are ignored by SuperTuxKart. Instead, use our own materials system to apply materials to textures.
+Il est important de noter ici que nous ne faisons pas référence aux matériaux de Blender ou de Cycles (bien que dans Blender 2.80 et plus, ces matériaux soient utilisés pendant le processus d'exportation). Ils sont ignorés par SuperTuxKart. A la place, nous utilisons notre propre système de matériaux pour appliquer des matériaux aux textures.
 
-{%popup_info Several other features, including special effects and physics properties also piggyback on SuperTuxKart's materials system. These reside in the **Interaction** section of the SuperTuxKart Image Properties panel (replaces every occurrence of the the Antarctica/SuperTuxKart Properties panel for this page), and are discussed in other articles. This article only discusses the 'Display' section.%}
+{%popup_info Plusieurs autres fonctionnalités, y compris les effets spéciaux et les propriétés physiques, s'appuient également sur le système de matériaux de SuperTuxKart. Elles se trouvent dans la section **Interaction** du panneau SuperTuxKart Image Properties (qui remplace toutes les occurrences du panneau Antarctica/SuperTuxKart Properties de cette page), et sont abordées dans d'autres articles. Cet article ne traite que de la section 'Affichage'.%}
 
-### Configuring Image Textures
+### Configuration des textures d'image
 
-If you used textures from the media repository, you don't have to worry about materials. The materials are already configured in `materials.xml` in the `textures` folder of the `stk-assets` repository and will not be configurable through the Antarctica/SuperTuxKart Properties panel.
+Si vous avez utilisé des textures provenant du dépôt multimédia, vous n'avez pas à vous préoccuper des matériaux. Les matériaux sont déjà configurés dans `materials.xml` dans le dossier `textures` du dépôt `stk-assets` et ne seront pas configurables dans le panneau Antarctica/SuperTuxKart Properties.
 
-Textures not from the media repository will have to be configured in the Antarctica/SuperTuxKart Properties panel. There are several options to configure.
+Les textures ne provenant pas du dépôt devront être configurées dans le panneau Antarctica/SuperTuxKart Properties. Il y a plusieurs options à configurer.
 
 ## Shader
 
-Shaders are little programs that control how things are rendered in the scene. They can do all sorts of things, so picking the right one is important. The shader is selected using the drop-down **Shader** menu in the 'Display' section of the Antarctica/SuperTuxKart Properties panel.
+Les shaders sont de petits programmes qui contrôlent la manière dont les choses sont rendues dans la scène. Ils peuvent faire toutes sortes de choses, c'est pourquoi il est important de choisir le bon. Le shader est sélectionné à l'aide du menu déroulant **Shader** dans la section 'Display' du panneau Antarctica/SuperTuxKart Properties.
 
-### Generic (solid) Shader (PBR Solid)
+### Shader générique 'solid' (PBR solid)
 
-This shader is used for most textures, and is the default option if no shader is explicitly selected. It supports a number of options to enhance the look of textures and is recommended for most special effects. However, alpha masks are unsupported. The solid shader also supports colorization (see [Colorization](#colorization) below).
+Ce shader est utilisé pour la plupart des textures et est l'option par défaut si aucun shader n'est explicitement sélectionné. Il prend en charge un certain nombre d'options permettant d'améliorer l'aspect des textures et est recommandé pour la plupart des effets spéciaux. Cependant, les masques alpha ne sont pas pris en charge. Le shader solide prend également en charge la colorisation (voir [Colorisation](#colorisation) below).
 
 {% single_gallery widths=32%
 /assets/wiki/Stk_generic_ice_a.jpg,Texture
@@ -64,210 +65,213 @@ This shader is used for most textures, and is the default option if no shader is
 /assets/wiki/Stk_generic_ice_a_nm.jpg,Normal Map
 %}
 
-#### Gloss Map
+#### Carte de brillance(Gloss Map)
 
-The gloss map is what lets you simulate a shiny surface. However, there are multiple factors to shininess. To take these all into account, the red, green, and blue channels of the gloss map image each correspond to a separate part. Making and testing a gloss map can be very time consuming, especially since you need to reload the game each time you try out a new gloss map. If you are good at Blender, however, you may find [this](https://forum.freegamedev.net/viewtopic.php?f=18&t=6246) useful.
+La carte de brillance permet de simuler une surface brillante. Cependant, la brillance dépend de plusieurs facteurs. Pour les prendre en compte, les canaux rouge, vert et bleu de l'image de la carte de brillance correspondent chacun à une partie distincte. Créer et tester une carte de brillance peut prendre beaucoup de temps, d'autant plus que vous devez recharger le jeu à chaque fois que vous essayez une nouvelle carte de brillance. Cependant, si vous maîtrisez bien Blender, vous trouverez peut-être [ici](https://forum.freegamedev.net/viewtopic.php?f=18&t=6246) des informations utiles.
 
-* The red channel controls specularity. This is how concentrated the light is that reflects off the surface. At too high of a value, this has the effect of creating very bright dots on a very dark texture.
-* The green channel controls metalness, ie: conductive and dielectric.
-* The blue channel controls emission. The more blue present, the more the material will emit light. However, this light is only localized and does not brighten the surrounding area. Usually it's used to make a fake glow effect on e.g. neon lights or lamps without the computational cost of a true point light.
+* Le canal rouge contrôle la spécularité. Il s'agit de la concentration de la lumière qui se reflète sur la surface. Une valeur trop élevée a pour effet de créer des points très brillants sur une texture très sombre.
+* Le canal vert contrôle la métallicité, c'est-à-dire la conductivité et la diélectricité.
+* Le canal bleu contrôle l'émission. Plus le bleu est présent, plus le matériau émet de la lumière. Cependant, cette lumière n'est que localisée et n'éclaire pas la zone environnante. Elle est généralement utilisée pour créer un faux effet de brillance, par exemple pour des néons ou des lampes, sans le coût de calcul d'une véritable lumière ponctuelle.
 
 {% single_gallery /assets/wiki/Gloss_Map_Explanation.png %}
 
-{%popup_info If you have trouble with making your gloss map changes take effect in-game, try disabling texture compression in the game options.%}
+{%popup_info Si vous avez du mal à faire appliquer vos modifications de la carte de brillance dans le jeu, désactivez la compression des textures dans les options du jeu.%}
 
-#### Normal Map
+#### Carte de normale
 
-Normal maps allow you to reduce poly while still getting the cool visual effects of a bumpy or wavy surface. Many textures from the media repository already have normal maps, so you don't need to create your own if you're using textures from the media repository. (In fact, you can't, although you may be able to help by making normal maps for textures that don't have them.)
+Les cartes de normales vous permettent de réduire le nombre de poly tout en obtenant les effets visuels d'une surface bosselée ou ondulée. De nombreuses textures du dépôt multimédia possèdent déjà des cartes de normales, vous n'avez donc pas besoin de créer les vôtres si vous utilisez des textures du dépôt multimédia. (En fait, vous ne pouvez pas, bien que vous puissiez aider en créant des tables de normales pour les textures qui n'en ont pas).
 
-To apply a normal map, either enter the filename into the **Normal Map** box, or link a Normal Map node from its **Normal** output to the **Normal** input of the Principled BSDF shader node.
+Pour appliquer une carte de normales, il faut soit entrer le nom du fichier dans la case **Carte de normales**, soit lier un noeud de 'carte de normales' à la sortie **Normale** à l'entrée **Normale** du noeud de shader BSDF guidée.
 
-##### Creating the Normal Map
+##### Création de la carte normale
 
-{%popup_info This tutorial assumes that your textures are square. It actually doesn't matter if they aren't, but you'll have to do a little more work with editing the UV mapping and subdividing. Square textures work easily because a square plane will unwrap perfectly on top of them by default and a subdivide will create square quads which can correspond to pixels.
+{%popup_info Ce tutoriel suppose que vos textures sont carrées. En fait, cela n'a pas d'importance si elles ne le sont pas, mais vous devrez faire un peu plus de travail avec l'édition du mappage UV et la subdivision. Les textures carrées fonctionnent facilement car un plan carré se déroulera parfaitement au-dessus d'elles par défaut et une subdivision créera des quads carrés qui peuvent correspondre à des pixels.
 
-If the texture is, for example, 256 × 512, you will have to make the plane twice as long in a certain direction, with an edge in the middle so that when you perform subdivisions, you are subdividing squares.%}
+Si la texture est, par exemple, de 256 × 512, vous devrez faire en sorte que le plan soit deux fois plus long dans une certaine direction, avec une arête au milieu, de sorte que lorsque vous effectuez des subdivisions, vous subdivisez des carrés.%}
 
-Start in an empty Blender scene. Delete the default cube, light, and camera. Then, create a plane. In Edit Mode for the plane, with all four vertices selected, do a series subdivisions (shortcut: w > Subdivide) depending on the resolution . This might cause a bit of lag.
+Commencez dans une scène Blender vide. Supprimez le cube, la lumière et la caméra par défaut. Ensuite, créez un plan. En mode édition pour le plan, avec les quatre vertices sélectionnés, faites une série de subdivisions en fonction de la résolution. Cela peut entraîner un certain retard.
 
 {% wikitable %}
 
-| Texture Resolution | Number of Subdivisions |
-|--------------------|------------------------|
-| 256 × 256          | 8                      |
-| 512 × 512          | 9                      |
-| 1024 × 1024        | 10                     |
-| 2048 × 2048        | 11                     |
+| Résolution de Texture  | Nombre de Subdivisions |
+|------------------------|------------------------|
+| 256 × 256              | 8                      |
+| 512 × 512              | 9                      |
+| 1024 × 1024            | 10                     |
+| 2048 × 2048            | 11                     |
 
-With all vertices selected, unwrap the the plane (shortcut: u > Unwrap). This will probably again cause some lag, but don't worry. In the UV Editor window (UV/Image Editor window for Blender <= 2.79), you should see your plane.
+Avec tous les vertices sélectionnés, dépliez les UVs du plan (raccourci : u > Dépliez). Cela causera probablement à nouveau un peu de lag, mais ne vous inquiétez pas. Dans la fenêtre éditeur UV (fenêtre UV/Image Editor pour Blender <= 2.79), vous devriez voir votre modèle.
 
-Open the texture you want to create a normal map for, change the Viewport Settings to use either **Solid** mode with the color set to **Texture** or **Material Preview** mode. For Blender <= 2.79, enable **Textured solid** in the 3D View window properties panel (shortcut: n).
+Ouvrez la texture pour laquelle vous souhaitez créer une carte de normalité, modifiez les paramètres de prévisualisation pour utiliser soit le mode **Solide** avec  'couleur' définie sur **Texture**, soit le mode **Prévisualisation du matériau**. Pour Blender <= 2.79, activez **Texturé solide** dans le panneau des propriétés de la fenêtre 3D View (raccourci: n).
 
-Now, switch the 3D View window to Sculpt Mode instead of Edit Mode. Several options will appear in the toolshelf at the left. Most important, however, is to turn off mirroring. To do this, deselect the "X" button below the "Mirror" section in the "Symmetry/Lock" section of the toolshelf.
+Passez maintenant la fenêtre de la vue 3D en mode sculpture au lieu du mode édition. Plusieurs options apparaissent dans la boîte à outils située à gauche. La plus importante est de désactiver l'effet miroir. Pour ce faire, désélectionnez le bouton "X" situé sous la section "Miroir" dans la section "Symétrie/Blocage" de la palette d'outils(outil > symétrie/Verrouillage > Mirroir).
 
-Adjust the settings in the toolshelf for the sculpting brush as needed, and sculpt the plane in a way that you think would be realistic and fitting for the texture.
+Ajustez les paramètres de la palette d'outils pour le pinceau de sculpture selon vos besoins et sculptez la surface d'une manière que vous jugez réaliste et adaptée à la texture.
 
-When you have finished sculpting, switch to Edit Mode, select all vertices, and, in the UV/Image Editor, click the "x" next to the texture filename to unlink the datablock.
+Lorsque vous avez fini de sculpter, passez en mode édition, sélectionnez tous les sommets et, dans l'éditeur UV/image, cliquez sur le "x" à côté du nom du fichier de texture pour dissocier le bloc de données.
 
-Switch to object mode and create a new plane of exactly the same size and shape at exactly the same position as the one you sculpted.
+Passez en mode objet et créez un nouveau plan de taille et de forme identiques, à la même position que celui que vous avez sculpté.
 
-Switch to Edit Mode, select all vertices of the flat plane, and unwrap it (shortcut: u > Unwrap). In the UV Editor window, click the "New" button to create a new image. Set the dimensions to the same as those of the original texture. Switch to Object Mode now; you should see that your flat plane is black if you have "Textured solid" enabled.
-Viewport Settings to use either **Solid** mode with the color set to **Texture** or **Material Preview** mode. For Blender <= 2.79, enable **Textured solid** in the 3D View window properties panel (shortcut: n).
+Passez en mode édition, sélectionnez tous les sommets du plan plat et dépliez les UVs (raccourci: u > Dépliez). Dans la fenêtre de l'éditeur UV, cliquez sur le bouton "Nouveau" pour créer une nouvelle image. Définissez les mêmes dimensions que celles de la texture d'origine. Passez maintenant en mode objet ; vous devriez voir que votre plan plat est noir si vous avez activé l'option "Texturé Solide".
+Paramètres de la fenêtre de visualisation pour utiliser soit le mode **Solide** avec la couleur réglée sur **Texture**, soit le mode **Prévisualisation du matériau**. Pour Blender <= 2.79, activez **Texturé solide** dans le panneau des propriétés de la fenêtre 3D View (raccourci : n).
 
-{%popup_info It is **very** important that at some point you have selected all the vertices of the flat plane in edit mode and have the blank texture open in the UV Editor window. This assigns the texture as a *face texture*, which is needed for baking.%}
+{%popup_info Il est **très** important qu'à un moment donné, vous ayez sélectionné tous les sommets du plan plat en mode édition et que la texture vierge soit ouverte dans la fenêtre de l'éditeur UV. Cela permet d'assigner la texture en tant que *texture de surface*, ce qui est nécessaire pour la cuisson (baking).%}
 
-Remember how I said above to ignore Blender materials and the "Texture" section of the Properties window? Well, here's a rare exception, because we're using Blender's own tools to create the normal map. Make sure that you have "Blender Render" selected as the rendering engine in the Info window. In the "Materials" section of the Properties window, with the <u>flat</u> plane selected, click the "New" button. Leave the settings as they are right now.
+Vous vous souvenez que j'ai dit plus haut d'ignorer les matériaux de Blender et la section "Texture" de la fenêtre Propriétés ? Eh bien, voici une rare exception, car nous utilisons les propres outils de Blender pour créer la carte normale. Assurez-vous que vous avez sélectionné " Rendu Blender " comme moteur de rendu dans la fenêtre Info. Dans la section "Materials" de la fenêtre Properties, avec le plan <u>plat</u> sélectionné, cliquez sur le bouton "Nouveau". Laissez les paramètres tels qu'ils sont actuellement.
 
-In the "Texture" section of the Properties window, with "material textures" selected, and still with the flat plane selected, click the "New" button. Set the following properties:
+Dans la section "Texture" de la fenêtre Propriétés, avec "textures du matériau" sélectionné, et toujours avec le plan plat sélectionné, cliquez sur le bouton "Nouveau". Définissez les propriétés suivantes:
 
-* Set the name of the texture to the same name that you gave your new blank image in the UV/Image editor.
-* Make sure "Type" is set to "Image or Movie".
-* Under "Image," click the photograph icon and select the new blank texture you just created.
-* Under "Mapping," set "Coordinates" to "UV."
-* Click in the "Map" field underneath "Mapping" and select "UVMap."
+* Donnez à la texture le même nom que celui que vous avez donné à votre nouvelle image vierge dans l'éditeur UV/Image.
+* Assurez-vous que le "Type" est réglé sur "Image ou Vidéo".
+* Sous "Image", cliquez sur l'icône de la photographie et sélectionnez la nouvelle texture vierge que vous venez de créer.
+* Sous "Placage", réglez "Coordonnés" sur "UV".
+* Cliquez dans le champ "Carte" sous "Placage" et sélectionnez "UVMap".
 
-Select the sculpted plane. Switch to the "Render" section of the Properties window. Under "Bake", check "Selected to active." Switch "Bake mode" from "Full Render" to "Normals." Make sure "Bake from multires" is <u>un</u>checked and "Normal Space" is set to "Tangent."
+Sélectionnez le plan sculpté. Passez à la section "Rendu" de la fenêtre Propriétés. Sous "Pré-calculer", cochez "Sélectionné vers actif". Changez le "Mode de pre-calcul" de "Rendu complet" à "Normales". Assurez-vous que l'option "Pré-calculer depuis multires" est décochée et que l'option "Espaces des normales" est réglée sur "Tangent".
 
-Now, in object mode, **first** select the sculpted plane, **then** select the flat plane. Click the "Bake" button in the "Render" section of the Properties window. If you watch the blank image in the UV/Image editor, you'll see Blender draw a lot of purple and blue.
+Maintenant, en mode objet, **d'abord** sélectionnez le plan sculpté, **ensuite** sélectionnez le plan plat. Cliquez sur le bouton "Pré-calculer" dans la section "Render" de la fenêtre Propriétés. Si vous observez l'image vierge dans l'éditeur UV/Image, vous verrez que Blender dessine beaucoup de violet et de bleu.
 
-To save the normal map, go to Image > Save As Image in the UV/Image Editor window. The normal map can now be applied.
+Pour enregistrer la carte de normale, cliquez sur Image > Enregistrer sous image dans la fenêtre de l'éditeur d'UV/image. La carte de normale peut maintenant être appliquée comme un texture de normal.
 
-### Cutout Transparency (PBR Cutout Transparency (alpha test))
+(cette suite d'instruction à été écrit pour blender <= 2.79 mais peut facilement être adapter au version 2.8 et supérieur)
 
-The cutout transparency shader is best for things like vegetation (when you do not want it to move—otherwise, use the vegetation shader). It performs "alpha testing", to make pixels of a texture either 100% solid or 100% transparent. However, it doesn't have all the features of the solid shader, so avoid using it for solid textures. If your texture is mostly solid with a few transparent sections, you should use a separate texture. Cutout transparency supports alpha masks and colorization; see [Alpha Mask](#alpha-mask-1) and [Colorization](#colorization) below.
+### Découpage Transparence (PBR Cutout Transparency (alpha test))
 
-### Blending Transparency ((NON PBR) Alpha See Through)
+Le shader de "cutout transparency" est le meilleur pour des choses comme la végétation (lorsque vous ne voulez pas qu'elle bouge - sinon, utilisez le shader de végétation). Il effectue un "test alpha" pour rendre les pixels d'une texture soit 100% solides, soit 100% transparents. Cependant, il ne dispose pas de toutes les fonctionnalités du shader solid, donc évitez de l'utiliser pour les textures solides. Si votre texture est principalement solide avec quelques sections transparentes, vous devriez utiliser une texture séparée. La "Cutout transparency" prend en charge les masques alpha et la colorisation.; voie [Masque Alpha](#masque-alpha) et [Colorisation](#colorisation) ci-dessous.
 
-The blending transparency ("alpha blend") shader is used for translucent textures, like windows. The colors of the objects seen through these textures will be blended with the colors of the translucent parts of the texture. Blending transparency supports alpha masks; see [Alpha Mask](#alpha-mask-1) below.
+### Transparence de mélange ((NON PBR) Alpha See Through)
 
-{%popup_info Blending transparency can only make objects darker, not lighter. Be aware that very darkly tinted transparent sections could greatly reduce the visibility of objects behind them.%}
+La shader "blending transparency" ("alpha blend") est utilisée pour les textures translucides, comme les fenêtres. Les couleurs des objets vus à travers ces textures seront mélangées avec les couleurs des parties translucides de la texture. La transparence de mélange prend en charge les masques alpha; voir [Masque Alpha](#masque-alpha) ci-dessous.
 
-### Additive Transparency ((NON PBR) Alpha Additive)
+{%popup_info Le mélange de transparence ne peut que rendre les objets plus sombres, pas plus clairs. Il faut savoir que des sections transparentes très foncées peuvent réduire considérablement la visibilité des objets qui se trouvent derrière elles.%}
 
-The additive shader works the same way as the alpha blending shader, but instead of darkening colors when mixing, colors are lightened. This is useful for things like light beams or fire, to lighten objects behind the texture.
+### Transparence additive ((NON PBR) Alpha Additive)
 
-### Unlit (solid) ((NON PBR) Unlit solid)
+Le shader additive fonctionne de la même manière que le shader de mélange alpha, mais au lieu d'assombrir les couleurs lors du mélange, les couleurs sont éclaircies. C'est utile pour des objets tels que les faisceaux lumineux ou le feu, afin d'éclaircir les objets situés derrière la texture.
 
-Textures using the unlit shader will always be at full brightness, in spite of lights or shadows. This shader does not support transparency.
+### Non éclairé (solid) ((NON PBR) Unlit solid)
 
-### Vegetation
+Les textures utilisant le shader unlit seront toujours en pleine luminosité, malgré les lumières ou les ombres. Ce shader ne prend pas en charge la transparence.
 
-The vegetation shader performs alpha testing, just like the cutout transparency. However, it additionally animates objects that have the texture applied, making them wave as if blowing in the wind. Using vertex painting, (see [Texturing\#Vertex Coloring](Texturing#vertex-coloring) for a tutorial) paint in black vertices to remain stationary, and leave white parts of the mesh that will wave. Paint vertices in shades of gray to make them move a shorter distance. The vegetation shader also provides two other options for control:
+### Végétation
 
-* **Waving speed:** How fast the vegetation will move back and forth
-* **Waving amplitude:** The distance, in Blender units that the vegetation will wave
+Le shader de végétation effectue un test alpha, tout comme la transparence cutout. Cependant, il anime également les objets auxquels la texture est appliquée, en les faisant onduler comme s'ils soufflaient dans le vent. À l'aide de la peinture de vertex , (voir [Texturation\#Coloration des vertexs](Texturing/#coloration-des-vertexs) pour un tutoriel) peignez en noir les vertex qui doivent rester immobiles et laissez en blanc les parties de la texture qui vont onduler. Peignez les sommets en nuances de gris pour qu'ils se déplacent sur une plus courte distance. Le shader de végétation offre également deux autres options de contrôle:
 
-The vegetation shader supports colorization; see [Colorization](#colorization) below.
+* **Waving speed:** La vitesse à laquelle la végétation se déplace d'un côté à l'autre
+* **Waving amplitude:** La distance, en unités Blender, à laquelle la végétation ondulera.
 
-### Reflection (Sphere Mapping)
+Le shader de végétation prend en charge la colorisation; voir [Colorisation](#colorisation) ci-dessous.
 
-{%popup_info Warning! Deprecated! Don't use this shader, use the solid shader with a gloss map instead!%}
+### Réflexion (Sphere Mapping)
 
-This shader simulates a chrome appearance by simply reflecting anything nearby. Because of this, it is really not the most realistic and doesn't provide all the details of the solid shader with a gloss map. However, if you're desperate and don't have a lot of time, you can use this shader to get an easy chrome effect.
+{%popup_info Attention! Obsolète! N'utilisez pas ce shader, utilisez plutôt le shader solid avec une carte de brillance (gloss map)!%}
 
-### Splatting
+Ce shader simule une apparence chromée en reflétant simplement tout ce qui se trouve à proximité. Pour cette raison, il n'est vraiment pas le plus réaliste et ne fournit pas tous les détails du shader solid avec une carte de brillance. Cependant, si vous êtes désespéré et que vous n'avez pas beaucoup de temps, vous pouvez utiliser ce shader pour obtenir facilement un effet chromé.
 
-Splatting allows you to "draw" up to four textures together using another texture and mix the textures together, creating a smooth transition between different textures. However, it can be quite costly in terms of video RAM. If possible, consider [vertex coloring](Texturing#vertex-coloring) first.
+### Splatting (map)
 
-#### Creating a Fallback UV Map
+Le splatting permet de "dessiner" jusqu'à quatre textures à l'aide d'une autre texture et de mélanger les textures, créant ainsi une transition en douceur entre les différentes textures. 
+Toutefois, cette méthode peut s'avérer très coûteuse en termes de RAM vidéo. Si possible, envisagez d'abord [Coloration des vertexs](Texturing/#coloration-des-vertexs).
 
-Since splatting requires so much video RAM, it's important to have a fallback for it for when players don't have such graphical capabilities enabled. Mark any seams and unwrap your mesh. You can assign a different texture to each face to be able to at least show multiple textures, although this will not create a smooth transition.
+#### Création d'une carte UV de secours
 
-{%popup_info To make painting the splatting map easier, be sure that you have not marked seams where you want a smooth transition with splatting enabled.%}
+Le splatting nécessitant une grande quantité de RAM vidéo, il est important de prévoir une solution de repli pour les joueurs qui n'ont pas ces capacités graphiques activées. Marquez toutes les coutures et dépliez votre maillage. Vous pouvez assigner une texture différente à chaque face pour pouvoir afficher plusieurs textures, même si cela ne créera pas une transition fluide.
+
+{%popup_info Pour faciliter la peinture de la carte splatting, assurez-vous que vous n'avez pas marqué de coutures aux endroits où vous souhaitez une transition douce lorsque le splatting est activé.%}
 
 <div><br/></div>
 
 {% single_gallery /assets/wiki/Splatting.jpg%}
 
-#### Creating a Splatting Map
+#### création d'une carte (Splatting Map)
 
-Red, green, blue, and black will each correspond to a different texture. In the **Properties** window, under **Data**, under **UV Maps**, click the plus (+) button to add a new UV map. (Note that this UV map must be the *second* map listed. The first one should be the fallback.) Create a new image in the UV/Image Editor window.
+Le rouge, le vert, le bleu et le noir correspondent chacun à une texture différente. Dans la fenêtre **Propriétés**, sous **Données**, sous **Maps UV**, cliquez sur le bouton plus (+) pour ajouter une nouvelle carte UV. (Notez que cette carte UV doit être la *deuxième* carte de la liste. La première doit être la carte de référence). Créez une nouvelle image dans la fenêtre UV/Image Editor.
 
-{%popup_info Don't try to change the UV coordinates for the second UV map—it won't export. Instead, the splatting map will be simply assigned to the first UV map. This is because Irrlicht only supports one UV map per mesh.%}
+{%popup_info N'essayez pas de modifier les coordonnées UV de la deuxième carte UV : l'exportation ne se fera pas. Au lieu de cela, la carte de splatting sera simplement assignée à la première carte UV. Ceci est dû au fait qu'Irrlicht ne supporte qu'une seule carte UV par mesh.%}
 
 <div><br/></div>
 
-{%popup_info Be sure to use as close to pure red (RGB 255, 0, 0) for red, RGB 0, 255, 0 for green, RGB 0, 0, 0 for black, etc. as possible. If you don't use a pure color, other textures might be mixed in where you don't want them.%}
+{%popup_info Veillez à utiliser une couleur aussi proche que possible du rouge pur (RVB 255, 0, 0) pour le rouge, RVB 0, 255, 0 pour le vert, RVB 0, 0, 0 pour le noir, etc. Si vous n'utilisez pas une couleur pure, d'autres textures risquent d'être mélangées là où vous ne le souhaitez pas.%}
 
-Decide what colors you want to correspond red, green, blue, and black. Switch to **Paint** mode in the **Image Editor** window (UV/Image Editor for Blender <= 2.79) and select a color in the toolshelf (shortcut: t). You can also change various painting options for the brush in the toolshelf. Paint whatever pattern you want on the texture, blending colors wherever you want textures to be blended. If you have **Textured solid** enabled under **Shading** in the **3D View window properties** panel (shortcut: n), you will be able to see your painting appear on the mesh in real-time.
+Décidez des couleurs que vous voulez voir correspondre au rouge, au vert, au bleu et au noir. Passez en mode **Paint** dans la fenêtre **Image Editor** (UV/Image Editor pour Blender <= 2.79) et sélectionnez une couleur dans la palette d'outils (raccourci: t). Vous pouvez également modifier les différentes options de peinture pour le pinceau dans la boîte à outils. Peignez le motif que vous voulez sur la texture, en mélangeant les couleurs là où vous voulez que les textures soient mélangées. Si l'option **Texturé solide** est activée sous **Ombre** dans le panneau **Propriétés de la fenêtre 3D View** (raccourci: n), vous pourrez voir votre peinture apparaître sur le maillage en temps réel.
 
-{%popup_info Don't forget to save your splatting map as a file! In the **UV/Image Editor** window, go to **Image > Save as Image** and put it in the same folder as your your .blend file.%}
+{%popup_info N'oubliez pas d'enregistrer votre carte de splatting sous forme de fichier! Dans la fenêtre **UV/Image Editor**, allez dans **Image > Save as Image** et mettez-le dans le même dossier que votre fichier .blend.%}
 
-#### Configuring Splatting Textures
+#### Configuration des textures splatting
 
-Now you can assign textures to each color you painted on the splatting map. In the SuperTuxKart Image Properties panel, select your splatting map, and set the **Shader** property to **Splatting** (if you haven't already). Set the names of texture files for the **Red Texture**, **Green Texture**, **Blue Texture**, and **Black Texture** properties.
+Vous pouvez maintenant assigner des textures à chaque couleur que vous avez peinte sur la carte splatting. Dans le panneau des propriétés d'image de SuperTuxKart, sélectionnez votre carte d'éclatement et réglez la propriété **Shader** sur **Splatting** (si ce n'est pas déjà fait). Définissez les noms des fichiers de texture pour les propriétés **Texture rouge**, **Texture verte**, **Texture bleue** et **Texture noire**.
 
-{% single_gallery /assets/wiki/Splatconfig.jpg,Some of the options that appear in this picture have changed since SuperTuxKart 0.9. You may disregard them; splatting configuration has not changed (though it is now enabled through the **Shader** menu).%}
+{% single_gallery /assets/wiki/Splatconfig.jpg,Certaines des options qui apparaissent dans cette image ont changé depuis SuperTuxKart 0.9. Vous pouvez les ignorer ; la configuration du splatting n'a pas changé (bien qu'il soit maintenant activé par le menu **Shader**).%}
 
 ------------------------------------------------------------------------
-## Alpha Mask
+## Masque Alpha
 
-Alpha masks allow for making a solid image transparent, either partially or fully. It is a grayscale image in which white represents full opacity and black represents full transparency. To make one, simply make a copy of your texture, use a tool like fuzzy select in GIMP or Krita to select a part that should be solid, and color it white, and select the parts that should be transparent and color them black. Use different shades of gray for different levels of translucency. Type its filename in the "Mask image" field for Alpha Test or Alpha Blending shaders in the SuperTuxKart Image Properties panel.
+Les masques alpha permettent de rendre une image solide transparente, partiellement ou totalement. Il s'agit d'une image en niveaux de gris dans laquelle le blanc représente l'opacité totale et le noir la transparence totale. Pour en créer un, il suffit de faire une copie de votre texture, d'utiliser un outil comme fuzzy select dans GIMP ou Krita pour sélectionner une partie qui doit être solide et la colorer en blanc, et de sélectionner les parties qui doivent être transparentes et de les colorer en noir. Utilisez différentes nuances de gris pour différents niveaux de transparences. Tapez son nom de fichier dans le champ "Image masque" pour les shaders Alpha Test ou Alpha Blending dans le panneau Propriétés d'image de SuperTuxKart.
 
 {% single_gallery widths=32%
 /assets/wiki/Palmtree3.jpg,Texture
 /assets/wiki/Palmtree3_alpha.jpg,Alpha Mask
 %}
 
-## Colorization
+## Colorisation
 
-{%popup_info Note: customizable colorizing currently is only available for library nodes! If your objects aren't library nodes, you might want to consider [vertex coloring](Texturing#vertex-coloring).%}
+{%popup_info Remarque: la personnalisation des couleurs n'est actuellement disponible que pour les nœuds de bibliothèque ! Si vos objets ne sont pas des nœuds de bibliothèque, vous pouvez envisager d'utiliser [Coloration des vertexs](Texturing/#coloration-des-vertexs).%}
 
-Colorizing is a great way to reduce the need for multiple models of an object. Using a set of hues you provide, the shader can pick a random hue for each instance of a material, much like vertex coloring. However, colorizing can color each instance of a library node differently, while vertex coloring cannot.
+La coloration est un excellent moyen de réduire la nécessité d'avoir plusieurs modèles d'un objet. En utilisant un ensemble de teintes que vous lui fournissez, le shader peut choisir une teinte aléatoire pour chaque instance d'un matériau, tout comme la coloration des vertex. Cependant, la colorisation peut colorer différemment chaque instance d'un nœud de bibliothèque, ce qui n'est pas le cas de la coloration des sommets.
 
-{% single_gallery /assets/wiki/Colorization_palm_trees.jpg,Adding variety to palm trees in Cocoa Temple%}
+{% single_gallery /assets/wiki/Colorization_palm_trees.jpg,Ajouter de la variété aux palmiers du Temple Cocoa%}
 
-{%popup_info When we say "hue", think "hue-saturation-value." Hue does not mean the same thing as color in this case. Hue corresponds to the frequency of visible electromagnetic waves, or light. But hue in this case does not include saturation (the difference in strength between the various colors of light) or value (the total amount of light).%}
+{%popup_info Quand on dit "teinte", il faut penser "teinte-saturation-valeur". Dans ce cas, la teinte n'a pas la même signification que la couleur. La teinte correspond à la fréquence des ondes électromagnétiques visibles, ou lumière. Mais dans ce cas, la teinte n'inclut pas la saturation (la différence d'intensité entre les différentes couleurs de la lumière) ni la valeur (la quantité totale de lumière).%}
 
-Colorizing is also used to mark teams in soccer and capture the flag mode. Karts on the "red" team will be colorized red, while karts on the "blue" team will be colorized blue.
+La colorisation est également utilisée pour marquer les équipes dans les modes football et capture du drapeau. Les karts de l'équipe "rouge" seront colorisés en rouge, tandis que les karts de l'équipe "bleue" seront colorisés en bleu.
 
-To enable colorization for a material, check the "Colorizable" box in the SuperTuxKart Image Properties panel. This opens up three options:
+Pour activer la colorisation d'un matériau, cochez la case "Colorizable" dans le panneau des propriétés d'image de SuperTuxKart. Trois options s'offrent alors à vous:
 
-* **Colorization factor:** This is the amount that the shader will increase saturation on colorized instances. This is useful for textures with low saturation, so that a change in hue will be noticeable enough.
-* **Colorization mask:** The colorization mask controls which parts of the texture will be colorized. Transparent sections will be colorized, while black sections will not be. (See images below.) *As of STK 1.0, you can now simply use the alpha channel of your main texture for the colorization mask, since colorization only works with the generic solid shader anyway. Separate colorization masks are still supported, however, and may be easier to use.*
-* **Hue settings for colorization:** The numbers in this box control the hue palette the shader can pick from. Separate hues by spaces. A table of values is provided below for reference.
+* **Colorization factor:** Il s'agit de la quantité de saturation que le shader augmentera sur les instances colorées. Ceci est utile pour les textures à faible saturation, afin qu'un changement de teinte soit suffisamment perceptible.
+* **Colorization mask:** Le masque de colorisation contrôle les parties de la texture qui seront colorisées. Les sections transparentes seront colorisées, tandis que les sections noires ne le seront pas. Depuis STK 1.0, vous pouvez simplement utiliser le canal alpha de votre texture principale pour le masque de colorisation, puisque la colorisation ne fonctionne de toute façon qu'avec le shader solid générique. Les masques de colorisation séparés sont toujours supportés, et peuvent être plus faciles à utiliser.
+* **Hue settings for colorization:** Les chiffres de cette case contrôlent la palette de teintes dans laquelle le nuanceur peut piocher. Les teintes sont séparées par des espaces. Un tableau des valeurs est fourni ci-dessous à titre de référence.
 
 {% wikitable %}
 
 | Color        | Hue value        |
 |--------------|------------------|
 | Original hue | 0                |
-| Red          | 0.001 **or** 1.0 |
+| Rouge        | 0.001 **or** 1.0 |
 | Orange       | 0.02             |
-| Yellow       | 0.1              |
-| Green        | 0.3              |
-| Blue         | 0.5              |
+| Jaune        | 0.1              |
+| Vert         | 0.3              |
+| Bleu         | 0.5              |
 | Indigo       | 0.66             |
 | Violet       | 0.8              |
 
 <div><br/></div>
 
-{%popup_info Leave "Hue settings for colorization" empty on karts! Kart colorization is controlled by game modes with team and setting this property will cause problems!%}
+{%popup_info Laissez la propriété "Hue settings for colorization" vide sur les karts! La colorisation des karts est contrôlée par les modes de jeu avec l'équipe et le fait de définir cette propriété causera des problèmes!%}
 
 <div><br/></div>
 
 {% single_gallery widths=32%
-/assets/wiki/gnu_cloth_diff.png,Texture for Gnu on his clothes
-/assets/wiki/gnu_cloth_colormask.png, Colorization mask for Gnu clothes
+/assets/wiki/gnu_cloth_diff.png,Texture pour les vêtements de Gnu
+/assets/wiki/gnu_cloth_colormask.png, Masque de coloration pour les vêtements de Gnu
 %}
 
-## Backface Culling
+## Suppression de la face cachée (Backface Culling)
 
-Backface culling makes planes only visible from one side—the side the normal is on. As of SuperTuxKart 0.9.0, this setting is generally no longer user-accessible. However, this setting can be previewed in Blender >= 2.80 by going to the 'Material Properties' section, then the 'Settings' section, and toggling 'Backface Culling'. This setting is toggled on a per-material basis.
+Le backface culling rend les plans visibles d'un seul côté - le côté sur lequel se trouve la normale. Depuis SuperTuxKart 0.9.0, ce paramètre n'est généralement plus accessible à l'utilisateur. Cependant, ce paramètre peut être prévisualisé dans Blender >= 2.80 en allant dans la section 'mode de prévisualisation > solides> options > suppression des faces arrière' (pour le mode solid); 'Propriété > matétiau > réglages > supprression des faces arrières'(pour les autres modes). Ce paramètre est activé pour chaque matériau (sauf pour le second qui doit être activé manuellement pour chaque matériau).
 
-For Blender <= 2.79, this setting can instead be found in the right-hand pane in the 3D View window, in the 'Shading' section.
+Pour Blender <= 2.79, ce paramètre se trouve dans le panneau de droite de la fenêtre 3D View, dans la section 'Ombrage > Culling des faces arrières'.
 
-## Texture Clamping
+## Fixation de la texture (Clamping)
 
-Texture clamping prevents textures from being repeated over an object. You can control this for both the U (horizontal) and V (Vertical) axes of the texture. Check either or both of the boxes
+Le "clamping" des textures permet d'éviter que les textures ne soient répétées sur un objet. Vous pouvez contrôler ce paramètre pour les axes U (horizontal) et V (vertical) de la texture. Cochez l'une ou l'autre des cases ou les deux.
 
-* **Clamp texture horizontally**
-* **Clamp texture vertically**
+* **Clamp texture horizontalement**
+* **Clamp texture verticalement**
 
-in the SuperTuxKart Image Properties panel for your texture.
+dans le panneau des propriétés d'image de SuperTuxKart pour votre texture.
 
-## Texture mirroring in reversed races
+## Miroir de texture pour les courses en sens inverse
 
-You can set a texture to be mirrored when playing in reverse mode. This is useful for textures like arrows to show the way. Select one of the two options from the drop-down menu for the "Mirror in reversed races" option of the SuperTuxKart Image properties panel.
+Vous pouvez configurer une texture pour qu'elle soit inversée lorsqu'elle est jouée en mode inversé. Ceci est utile pour les textures comme les flèches qui indiquent le chemin à suivre. Sélectionnez l'une des deux options du menu déroulant de l'option "Mirror in reversed races" du panneau de propriétés d'image de SuperTuxKart.
 
 {% include art_portal %}

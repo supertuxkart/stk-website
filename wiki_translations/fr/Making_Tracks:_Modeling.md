@@ -1,52 +1,52 @@
 ---
-title: 'Making Tracks: Modeling'
+title: 'Faire des Pistes: Modélisation'
 toc: true
 ---
-Now it's time to start modeling the track. Using some nifty Blender tricks, the initial stages will be nice and easy.
+Il est maintenant temps de commencer à modéliser la piste. En utilisant quelques astuces de Blender, les premières étapes seront faciles et agréables.
 
-This method works best for outdoor tracks, but is useful in all cases for easily creating drivelines. If you are creating an indoor track, you will probably eventually replace the entire track you make when you create the building itself, but this is an important step to make sure your track is fun to drive.
+Cette méthode fonctionne mieux pour les pistes extérieures, mais elle est utile dans tous les cas pour créer facilement des drivelines. Si vous créez une piste intérieure, vous finirez probablement par remplacer toute la piste que vous avez créée lorsque vous créerez le bâtiment lui-même, mais c'est une étape importante pour vous assurer que votre piste est amusante à conduire.
 
-{%popup_info Another method to creating a road is to create a curve using the method below, but instead of using an array modifier and a curve modifier, you can bevel the curve, which gives you significantly greater options for controlling the shape of the road. You can follow this [tutorial](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Bevelling_a_Curve) on Wikibooks. When you are ready to export, convert the curve to a mesh with **Object > Convert > Mesh** from Curve. Keep in mind that the array modifier method may be useful for creating a driveline later.%}
+{%popup_info Une autre méthode pour créer une route consiste à créer une courbe en utilisant la méthode ci-dessous, mais au lieu d'utiliser un modificateur de tableau et un modificateur de courbe, vous pouvez modifier la géométrie de la courbe, ce qui vous donne beaucoup plus d'options pour contrôler la forme de la route. Vous pouvez suivre ce [tutoriel](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Bevelling_a_Curve) sur Wikibooks. Lorsque vous êtes prêt à exporter, convertissez la courbe en un maillage avec **Objet > Convertir > Maillage** à partir de Courbe. Gardez à l'esprit que la méthode du modificateur de tableau peut être utile pour créer une driveline plus tard.%}
 <div><br/></div>
 
-## Creating a segment
+## Création d'un segment
 
-Start by deleting the default objects that Blender creates (i.e. delete the cube, the lamp, and the camera.) Then, create a plane. In edit mode, make it 10 or 12 Blender units wide along the Y-axis, but keep it only 2–4 units long along the X-axis. If you want, you can [texture](Texturing) your road segment with UV texturing. This is not necessary yet, especially for indoor tracks, but will save you a lot of work in the UV editor later on for outdoor tracks.
+Commencez par supprimer les objets par défaut créés par Blender (c'est-à-dire supprimez le cube, la lampe et la caméra). Créer un plan, passer en mode édition, donner-lui une largeur de 10 ou 12 unités Blender le long de l'axe Y, mais une longueur de seulement 2-4 unités le long de l'axe X. Si vous le souhaitez, vous pouvez [Texturation](Texturing) votre segment de route avec une texturation UV. Ce n'est pas encore nécessaire, surtout pour les pistes intérieures, mais cela vous épargnera beaucoup de travail dans l'éditeur UV plus tard pour les pistes extérieures.
 
-## Extruding the road
+## Extrusion de la route
 
-Now, create a Bézier curve. To make it easier to find later on, give it a name. To make adding points to this curve easier, under curve properties, under the shape heading, select **2D**. You will later want to select **3D** when you add hills or other formations, but using 2D allows for greater precision when adding points. (i.e. You won't have problems with points being placed below where you want or things like that.) You also should set **Twist Method** to **Z-Up**. If you don't, you may end up with your track tilted where you do not want it to be.
+Créez maintenant une courbe de Bézier. Pour la retrouver plus facilement par la suite, donnez-lui un nom. Pour faciliter l'ajout de points à cette courbe, dans les propriétés de la courbe, sous la rubrique Forme, sélectionnez **2D**. Vous voudrez plus tard sélectionner **3D** lorsque vous ajouterez des collines ou d'autres formations, mais l'utilisation de la 2D permet une plus grande précision lors de l'ajout de points. (Vous n'aurez pas de problèmes avec les points qui sont placés en dessous de l'endroit où vous le souhaitez ou des choses comme ça). Vous devez également régler la **Méthode de vrillage** sur **Z-Up**. Si vous ne le faites pas, vous risquez de vous retrouver avec une piste inclinée à un endroit où vous ne le souhaitez pas.
 
-Select the road segment. In the properties panel, under the modifiers tab, add two modifiers to the road segment. First add an array modifier, then a curve modifier.
+Sélectionnez le segment de route. Dans le panneau des propriétés, sous l'onglet des modificateurs, ajoutez deux modificateurs au segment de route. Ajoutez d'abord un modificateur de réseau, puis un modificateur de courbe.
 
-In the options for the array modifier:
+Dans les options du modificateur de réseau :
 
-* Set **Fit Type** to **Fit Curve**.
-* Set **Curve** to the name of your curve.
-* Select **Merge**.
+* Définissez **Type d`ajustement** sur **Ajuster de la courbe**.
+* Définissez **Courbe** sur le nom de votre courbe.
+* Sélectionnez **Fusionner**.
 
-In the options for the curve modifier,
+Dans les options du modificateur de courbe:
 
-* Set "Object" to the name of your curve.
+* Réglez "Objet" sur le nom de votre courbe.
 
-Now, select the curve and switch to edit mode. You can adjust the handles on each point of the curve to change its shape, and extrude points from either end by selecting an endpoint and using Ctrl+Left mouse click. You will see that the track now follows the line. Continue with this until you have the main track almost finished and the two ends are close together.
+Sélectionnez maintenant la courbe et passez en mode édition. Vous pouvez ajuster les poignées de chaque point de la courbe pour modifier sa forme, et extruder des points à partir de chaque extrémité en sélectionnant un point d'extrémité et en utilisant les touches Ctrl+clic gauche de la souris. Vous verrez que la piste suit désormais la ligne. Continuez ainsi jusqu'à ce que la piste principale soit presque terminée et que les deux extrémités soient proches l'une de l'autre.
 
-Now, still in edit mode on the curve, in the 3D View window, go to **Curve > Toggle Cyclic**. Your road will now be a single loop.
+Maintenant, toujours en mode édition sur la courbe, dans la fenêtre 3D View, allez sur **Courbe > (Dés)activer Cyclique** ou **Alt+C**. Votre route sera désormais une boucle unique.
 
-{%popup_info The segment and curve objects generally do not like to have scale/rotation on them. This means you should only ever scale the curve in edit mode, never in object mode. (If you already scaled them, don't worry you're not screwed up! Select both the curve and the model segment, then press Ctrl+A and select "Rotation & Scale"; then you will probably need to go in the edit mode of the curve, select all vertices, and tweak the radius property in the "N" panel, or simply select "Object Data" in the standard properties panel. and toggle off "Radius")
+{%popup_info Les objets segments et courbes n'apprécient généralement pas d'être mis à l'échelle ou tournés. Cela signifie que vous ne devez mettre à l'échelle la courbe qu'en mode édition, jamais en mode objet. (Si vous les avez déjà mis à l'échelle, ne vous inquiétez pas, vous n'avez rien perdu ! Sélectionnez la courbe et le segment de modèle, puis appuyez sur Ctrl+A et sélectionnez "Rotation/Scale" ; ensuite, vous devrez probablement aller dans le mode d'édition de la courbe, sélectionner tous les sommets et modifier la propriété du rayon dans le panneau "N", ou simplement sélectionner "Propriété d'objet" dans le panneau de propriétés standard et désactiver "Radius").
 
-If your curve is still 2D, you'll have to switch it to 3D mode to be able to apply rotation. Then you can switch it back to 2D.%}
+Si votre courbe est encore en 2D, vous devrez la passer en mode 3D pour pouvoir appliquer une rotation. Vous pouvez ensuite la ramener en mode 2D.%}
 
-## Make the road usable
+## Rendre la route utilisable
 
-Now, you need to be able to save the modifications from the array and curve modifiers, but still be able to edit the road. To do this, in object mode, select the road and apply the array modifier, then the curve modifier.
+Il faut maintenant pouvoir sauvegarder les modifications apportées par les modificateurs de réseau et de courbe, tout en conservant la possibilité d'éditer la route. Pour ce faire, en mode objet, sélectionnez la route et appliquez le modificateur de tableau, puis le modificateur de courbe.
 
-## Correct misaligned ends
+## Corriger les extrémités mal alignées
 
-Unless you're very lucky, your track probably won't have closed properly with a cyclic curve, and the ends probably overlap or don't quite connect. Now that you've applied the modifiers, it should be fairly easy to correct this in edit mode by deleting excess points and connecting other ones.
+À moins que vous n'ayez beaucoup de chance, votre piste ne se sera probablement pas fermée correctement avec une courbe cyclique, et les extrémités se chevaucheront probablement ou ne se connecteront pas tout à fait. Maintenant que vous avez appliqué les modificateurs, il devrait être assez facile de corriger cela en mode édition en supprimant les points en trop et en en connectant d'autres.
 
-## Improving Gameplay
+## Améliorer la jouabilité
 
-It's important that your track be fun to drive. There are guidelines to help you with this at [Making Tracks: Notes\#gameplay](Making_Tracks:_Notes#gameplay). Try adding banking to curves, and widen the track around curves and at the end of jumps. Things like this will make your track more enjoyable.
+Il est important que votre piste soit agréable à conduire. Vous trouverez des directives pour vous aider à cet égard à [Faire des Pistes: Notes#Jouabilité](Making_Tracks:_Notes/#jouabilité). Essayez d'ajouter de l'inclinaison aux courbes, et d'élargir la piste autour des courbes et à la fin des sauts. Ce genre de choses rendra votre piste plus agréable.
 
 {% include art_portal %}

@@ -1,40 +1,40 @@
 ---
-title: 'Making Tracks: Decorations'
+title: 'Faire des Pistes: Décorations'
 toc: true
 ---
-Adding decorations is a long process. It will take many iterations of testing in-game until you can be sure everything is in the right place. This article describes not only the best ways to position decorations, but also ways to make decorations dynamic and interesting, and to keep processor load down.
+L'ajout de décorations est un processus long. Il faudra de nombreuses répétitions de tests dans le jeu jusqu'à ce que vous soyez sûr que tout est à la bonne place. Cet article décrit non seulement les meilleures façons de positionner les décorations, mais aussi les moyens de rendre les décorations dynamiques et intéressantes, et de limiter la charge du processeur.
 
-## Guidelines for Decoration Placement
+## Directives pour la mise en place des décorations
 
-### Around the Starting Line
+### Autour de la ligne de départ
 
-Decorations should clearly mark the starting line. This could be an arch like in Cocoa Temple, an overhead sign, or even just a checkered line. Avoid misleading the player with decorations which look like a starting line, but aren't, as in Hacienda: The entry archway looks very much like a starting line, but actually is not.
+Les décorations doivent clairement marquer la ligne de départ. Il peut s'agir d'une arche comme dans Cocoa Temple, d'un panneau aérien ou même simplement d'une ligne à carreaux. Évitez d'induire le joueur en erreur avec des décorations qui ressemblent à une ligne de départ, mais qui n'en sont pas, comme dans Hacienda : L'arche d'entrée ressemble beaucoup à une ligne de départ, mais n'en est pas une.
 
-### Around Shortcuts or Alternate Routes
+### Autour des raccourcis ou des routes alternatives
 
-Shortcuts and alternate routes should be somewhat disguised, unless they are very short (e.g. two paths around an object). The village in Cocoa Temple is an excellent example of this: there are two alternate routes within the village, but they are not very noticeable unless you pay attention. Hiding alternate routes makes the player feel accomplished when he or she discovers them, and makes it more of a challenge to get the reward.
+Les raccourcis et les routes alternatives doivent être quelque peu dissimulés, à moins qu'ils ne soient très courts (par exemple, deux chemins autour d'un objet). Le village de Cocoa Temple en est un excellent exemple: il y a deux chemins alternatifs dans le village, mais ils ne sont pas très visibles, à moins que vous n'y prêtiez attention. Le fait de cacher les chemins alternatifs donne au joueur un sentiment d'accomplissement lorsqu'il les découvre, et rend plus difficile l'obtention de la récompense.
 
-### Along the Main Track
+### Le long de la route principale
 
-The track should not just be a boring loop with some pretty scenary on the sides. The scenery needs to *integrate* with the track. For example, don't make a mountain next to the track—make it over the track, and build a tunnel. Things like this make the track more interesting and less like driving through a museum with everything behind plexiglas. (This is also why it can be difficult to build an interesting underwater track—everything really *is* behind glass.)
+La piste ne doit pas être une simple boucle ennuyeuse avec quelques jolis paysages sur les côtés. Le paysage doit *s'intégrer* à la piste. Par exemple, ne faites pas une montagne à côté de la piste, faites-la passer au-dessus de la piste et construisez un tunnel. Ce genre de choses rend la piste plus intéressante et ne donne pas l'impression de conduire dans un musée où tout est sous plexiglas. (C'est aussi la raison pour laquelle il peut être difficile de construire une piste sous-marine intéressante - tout est vraiment derrière une vitre).
 
-However, don't make your track unnecessarily confusing. Integrate your track *too* much and it will be impossible to tell what is track and what is decorations. STK Enterprise strikes a nice balance between integration and easy drivability. If it's harder for other people to figure out where to go in your track than in STK Enterprise, you might want to reconsider some of your decoration placements.
+Cependant, ne rendez pas votre piste inutilement confuse. Intégrez votre piste *aussi* et il sera impossible de distinguer ce qui est piste et ce qui est décorations. STK Enterprise trouve un bon équilibre entre l'intégration et la facilité de conduite. S'il est plus difficile pour les autres de savoir où aller dans votre piste que dans celle de STK Enterprise, vous devriez peut-être reconsidérer l'emplacement de certaines de vos décorations.
 
-### As Obstacles
+### En tant qu'obstacles
 
-You may put decorations directly on the track if you wish, as with the crates of TNT in Old Mine. However, when doing this, be sure that they interact with karts in a sensible way. (See [Physics](Physics) section.)
+Vous pouvez placer des décorations directement sur la piste si vous le souhaitez, comme avec les caisses de TNT dans Old Mine. Cependant, veillez à ce qu'elles interagissent avec les karts d'une manière raisonnable. (Voir la section [Physique](Physics) section.)
 
-## Multiple Copies of a Decoration
+## Copies multiples d'une décoration
 
-If you have one decoration that is used multiple times throughout your track and it is not from the media repository, you can save space by making it a separate object. In the SuperTuxKart Object Properties panel for each of the objects, set its type to "Object" and set the the "Name" property to the same name for each of the duplicates.
+Si vous avez une décoration qui est utilisée plusieurs fois tout au long de votre piste et qu'elle ne provient pas du référentiel média, vous pouvez économiser de l'espace en en faisant un objet séparé. Dans le panneau Propriétés d'objet de SuperTuxKart, pour chacun des objets, réglez son type sur "Objet" et réglez la propriété "Nom" sur le même nom pour chacun des doublons.
 
-If you are using LOD for your duplicated objects (see the [Level of Detail](Level_of_Detail) module), you do not have to worry about this.
+Si vous utilisez le LOD pour vos objets dupliqués (voir le module [Niveau de détail](Level_of_Detail)), vous n'avez pas à vous en préoccuper.
 
-## Particle Systems for Distributing Decorations
+## Systèmes de particules pour la distribution de décorations
 
-You can use Blender's own particle system as an easy way to randomly disperse objects. First, make sure the object you would like to distribute is set as an Object, LOD Standalone, or LOD Instance type in the SuperTuxKart Object Properties panel. If you are using an object linked from the library (see below) make sure you have made a proxy already.
+Vous pouvez utiliser le système de particules de Blender pour disperser des objets de manière aléatoire. Tout d'abord, assurez-vous que l'objet que vous souhaitez distribuer est défini en tant que type Object, LOD Standalone, ou LOD Instance dans le panneau Object Properties de SuperTuxKart. Si vous utilisez un objet lié à la bibliothèque (voir ci-dessous), assurez-vous que vous avez déjà créé un proxy.
 
-Next, select the object you want the object to be distributed on. In Blender's Properties window, in the Particles section, click the plus (+) button to add a particle system. You may want to give the particle settings a name so that you can use the settings on other objects too.
+Ensuite, sélectionnez l'objet sur lequel vous souhaitez que l'objet soit distribué. Dans la fenêtre Propriétés de Blender, dans la section Particules, cliquez sur le bouton plus (+) pour ajouter un système de particules. Vous pouvez donner un nom aux paramètres de particules afin de pouvoir les utiliser également sur d'autres objets.
 
 {% single_gallery heights=300px
 /assets/wiki/Particlesystem.jpg,Particle system properties
@@ -44,43 +44,41 @@ Next, select the object you want the object to be distributed on. In Blender's P
 
 <div><br/></div>
 
-{%popup_info It's best if the object the particles are being emitted from is a semi-flat surface (i.e. not a polyhedron). If is not, you'll end up with objects being emitted all over the place where you don't want them.%}
+{%popup_info Il est préférable que l'objet à partir duquel les particules sont émises soit une surface semi-plate (c'est-à-dire qu'il ne s'agisse pas d'un polyèdre). Si ce n'est pas le cas, vous vous retrouverez avec des objets émis un peu partout, là où vous ne le souhaitez pas.%}
 
-Under **Emission**, set the following properties:
+Sous **Emission**, définissez les propriétés suivantes:
 
-* Number: this is the number of object that will be emitted.
-* Set both "Frame Start" and "End" to 1.0.
-* You may want to check "Use Modifier Stack" if you are using modifiers on the surface that will emit objects.
+* Nombre : il s'agit du nombre d'objets qui seront émis.
+* Réglez les paramètres "Frame de Début" et "Fin" sur 1,0.
+* Vous pouvez cocher la case "Utiliser la pile de modificateurs" si vous utilisez des modificateurs sur la surface qui émettront des objets.
 
-Under **Velocity**, set "Normal" to 0.0. This makes sure that objects will be upright.
+Sous **Vélocité**, réglez "Normal" sur 0,0. Cela permet de s'assurer que les objets seront à la verticale.
 
-Under **Physics**, set the following properties:
+Sous **Physique**, définissez les propriétés suivantes:
 
-* Select "None" instead of "Newtonian."
+* Sélectionner "Aucun" au lieu de "Newtonien".
 
-Under **Render**, set the following properties:
+Sous **Rendu**, définissez les propriétés suivantes :
 
-* Select "Object" instead of "Halo."
-* Set "Instance Object" to the name of your Object, LOD Instance, LOD Standalone, or library node proxy.
+* Sélectionnez "Objet" au lieu de "Halo".
+* Définissez "Instance Object" comme étant le nom de votre objet, instance LOD, LOD Standalone ou proxy de nœud(objet) de bibliothèque.
 
-All done! Now these objects will export as part of your track!
+C'est fait ! Maintenant, ces objets seront exportés en tant que composants de votre piste!
 
-## Decorations from the Media Repository
+## Décorations du dépôt multimédia
 
-You should use decorations from the media repository whenever possible. They can be guaranteed to to match the style of SuperTuxKart, use advanced graphical effects to ensure that they look good, and save you work, since you don't need to make and texture all your models. If you have not already checked out the media repository, see the [Media Repo](Media_Repo) page.
+Dans la mesure du possible, vous devriez utiliser des décorations provenant du dépôt de médias. Vous pouvez être sûr qu'elles correspondent au style de SuperTuxKart, qu'elles utilisent des effets graphiques avancés pour s'assurer qu'elles sont belles, et qu'elles vous épargnent du travail, puisque vous n'avez pas besoin de fabriquer et de texturer tous vos modèles. Si vous n'avez pas encore consulté le dépôt de médias, consultez la page [Dépôt multimédia]( Media_Repo).
 
-{%popup_info **Stop!** Does your file structure match that described on the [Media Repo](Media_Repo) page? For other people to open your Blender file without errors, your track folder should be located inside the media repository!%}
+{%popup_info **Arrêter!** Votre structure de fichier correspond-elle à celle décrite sur la page [Dépôt multimédia](Media_Repo)? Pour que d'autres personnes puissent ouvrir votre fichier Blender sans erreur, votre dossier de piste doit se trouver à l'intérieur du media repository!%}
 
-To use a model from the media repository, in Blender, in the Info window, go to File > Link. Navigate to the library folder in the media repo, find an object, then open the .blend file. In the "Object" folder, open the object that you want. (There should usually only be one object per .blend, unless the library node uses [Level of Detail](Level_of_Detail).) Make it a proxy by going to Object > Make Proxy in the 3D View window header so that you can move, rotate, and scale it.
+Pour utiliser un modèle provenant du dépôt multimédia, dans Blender, dans la barre de menu, allez dans Fichier > Lier. Naviguez jusqu'au dossier de la bibliothèque dans le media repo, trouvez un objet, puis ouvrez le fichier .blend. Dans le dossier "Object", ouvrez l'objet que vous voulez. Il ne devrait normalement y avoir qu'un seul objet par .blend, à moins que le nœud(objet) de bibliothèque n'utilise [Niveau de Détail](Level_of_Detail). Faites-en un proxy en allant dans **Objet > Faire un proxy**(a partir de blender 3.0 "faire un proxy" à été remplacer par "Remplacements de bibliothèque." utiliser donc **Objet > redéfinition de bibliothèque**) dans l'en-tête de la fenêtre Vue 3D afin de pouvoir le déplacer, le faire pivoter et le mettre à l'échelle.
 
-{%popup_info If your decorations are of high quality, you may want to consider separating them from your track and contributing them as library nodes. See the [Making Library Nodes](Making_Library_Nodes) page for more information.%}
+{%popup_info Si vos décorations sont de grande qualité, vous pouvez envisager de les séparer de votre piste et d'en faire des nœuds(objet) de bibliothèque. Voir la page [Créer des objets de librairie (library Node)](Making_Library_Nodes) pour plus d'informations.%}
 
-When you duplicate a library object in your scene, be sure to use Alt + D (link duplicate) rather than Shift + D (actual duplicate). If you use an actual duplicate, the object will no longer be linked to the library.
+Lorsque vous dupliquez un objet de la bibliothèque dans votre scène, veillez à utiliser Alt + D (duplication de lien) plutôt que Shift + D (duplication réelle). Si vous utilisez une duplication réelle, l'objet ne sera plus lié à la bibliothèque.
 
-If your decorations are of high quality, you may want to consider separating them from your track and contributing them as library nodes. See the Making Library Nodes page for more information.
+### Édition de décorations à partir du dépôt multimédia
 
-### Editing Decorations from the Media Repository
-
-Usually, objects from the media repo are good enough and can be scaled, rotated, or repositioned to fit as you need. However, if necessary, you can use File > Append instead of File > Link in the instructions above to actually import the object into your scene. This is not recommended, but you may do this under certain circumstances, if the edits you plan to make could not be put in the media repo itself.
+En général, les objets provenant de la base de données multimédia sont suffisamment bons et peuvent être mis à l'échelle, pivotés ou repositionnés pour s'adapter à vos besoins. Toutefois, si nécessaire, vous pouvez utiliser Fichier > Ajouter au lieu de Fichier > Lier dans les instructions ci-dessus pour importer l'objet dans votre scène. Ce n'est pas recommandé, mais vous pouvez le faire dans certaines circonstances, si les modifications que vous prévoyez d'apporter ne peuvent pas être placées dans le média lui-même.
 
 {% include art_portal %}

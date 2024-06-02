@@ -1,65 +1,65 @@
 ---
-title: 'Making Tracks: Ideas and Concept Art'
+title: 'Faire des Pistes: Idées et concepts artistiques'
 toc: true
 ---
 ## Ideas
 
-For any kind of artwork, the first thing you need is an idea. If you have no idea what you want, your end result, if you manage to finish at all, will most likely be very confusing. On the other hand, if you have a good idea, many more ideas for features of your track will easily flow into your head.
+Pour tout type d'œuvre d'art, la première chose à faire est d'avoir une idée. Si vous n'avez aucune idée de ce que vous voulez, le résultat final, si vous parvenez à le terminer, sera probablement très confus. En revanche, si vous avez une bonne idée, de nombreuses autres idées de caractéristiques pour votre piste vous viendront facilement à l'esprit.
 
-Luckily, for SuperTuxKart, it should be fairly easy to come up with an idea if you do not already have one. You should have read the [Style](Style) page before starting this tutorial. It lists a variety of fictional regions as well as specific locations. It also list characters, corporations, and other information which make a track come together.
+Heureusement, pour SuperTuxKart, il devrait être assez facile de trouver une idée si vous n'en avez pas déjà une. Vous devriez avoir lu la page [Style](Style) avant de commencer ce tutoriel. Elle répertorie une variété de régions fictives ainsi que des lieux spécifiques. Elle répertorie également des personnages, des sociétés et d'autres informations qui permettent à une piste de prendre forme.
 
-Note that your idea <u>must make sense</u>. Playing SuperTuxKart should be an epic journey in its fictional universe. Avoid using *too* many city/industry elements; instead explore lots of different, exotic and even unexpected locations in the STK universe. Prefer known and coherent universes/worlds (fictional or not) over a bunch of colorful nonsense (i.e. use consistent themes referring to real-world places, stories, past civilizations, etc.) Do lots of research—read about places, look at pictures, etc. Use your imagination to come up with something original yet coherent.
+Notez que votre idée <u>doit avoir du sens</u>. Jouer à SuperTuxKart devrait être un voyage épique dans son univers fictif. Évitez d'utiliser trop d'éléments de villes ou d'industries ; explorez plutôt des lieux différents, exotiques et même inattendus dans l'univers de STK. Préférez les univers/mondes connus et cohérents (fictifs ou non) à un tas d'absurdités colorées (c'est-à-dire utilisez des thèmes cohérents faisant référence à des lieux du monde réel, à des histoires, à des civilisations passées, etc.) Utilisez votre imagination pour trouver quelque chose d'original et de cohérent.
 
-Follow either one of the sections below, depending on which applies to you:
+Suivez l'une ou l'autre des sections ci-dessous, selon celle qui s'applique à vous :
 
-### If you already have an idea
+### Si vous avez déjà une idée
 
-Your idea is probably a specific location, like a tropical island, a mine, or a city on another planet. All you have to do is to make your idea fit into the SuperTuxKart universe. Ask yourself these questions:
-* What sort of place is it? (Weather, geographical features, etc.)
-* What is the mood there? (Calm, busy, relaxed, etc.)
-* Which characters live there, if any? (This can be linked with the mood, e.g. Fort Magma and Nolok)
+Votre idée est probablement un lieu spécifique, comme une île tropicale, une mine ou une ville sur une autre planète. Tout ce qu'il vous reste à faire, c'est d'intégrer votre idée dans l'univers de SuperTuxKart. Pose-toi les questions suivantes :
+* Quel genre d'endroit est-ce ? (Météo, caractéristiques géographiques, etc.)
+* Quelle est l'ambiance qui y règne ? (Calme, occupé, détendu, etc.)
+* Quels sont les personnages qui y vivent, s'il y en a ? (Cela peut être lié à l'ambiance, par exemple Fort Magma et Nolok)
 
-With this information, you should be able to choose a region from the Getting To Know the Style page. You should hopefully be able to find a specific location that also fits, but if you cannot, do not worry. You may need to invent your own. Just make sure it fits into the STK universe.
+Avec ces informations, vous devriez être en mesure de choisir une région à partir de la page Style. Avec un peu de chance, vous devriez pouvoir trouver un lieu spécifique qui corresponde également, mais si ce n'est pas le cas, ne vous inquiétez pas. Il se peut que vous deviez inventer le vôtre. Veillez simplement à ce qu'il s'inscrive dans l'univers STK.
 
-### If you do not have an idea
+### Si vous n'avez pas d'idée
 
-If you are looking for a purely original idea, close your eyes, let your mind wander, and follow the "If you already have an idea" section above when you get one. However, this can be very difficult, so don't waste too much time if you can't come up with an idea.
+Si vous cherchez une idée purement originale, fermez les yeux, laissez votre esprit vagabonder et suivez la section "Si vous avez déjà une idée" ci-dessus lorsque vous en aurez une. Cependant, cela peut être très difficile, alors ne perdez pas trop de temps si vous n'arrivez pas à trouver une idée.
 
-An easier way is to simply start at the Getting To Know the Style page, and then follow these steps:
-1. Choose a region that inspires you the most.
-2. Choose or create your own specific location.
-3. (Optional) Pick characters that fit with your idea.
+Il est plus facile de commencer par la page Style, puis de suivre les étapes suivantes:
+1. Choisissez une région qui vous inspire le plus.
+2. Choisissez ou créez votre propre lieu.
+3) (Facultatif) Choisissez des personnages qui correspondent à votre idée.
 
-### About Visualizing
+### A propos de la visualisation
 
-Either of these methods should help you develop an idea which you start visualizing in your head. However, your idea must be fairly inspiring for this to happen. If you feel apathetic about your idea, pick another one. Boring ideas turn into boring tracks. (Of course, this only applies to ideas that don't interest *you.* If the same idea inspires someone else, their track will likely turn out more exciting.) If you've visualized parts of your track, concept art will be much easier.
+L'une ou l'autre de ces méthodes devrait vous aider à développer une idée que vous commencez à visualiser dans votre tête. Cependant, votre idée doit être assez inspirante pour que cela se concrétise. Si votre idée vous laisse indifférent, choisissez-en une autre. Les idées ennuyeuses se transforment en pistes ennuyeuses. (Bien sûr, cela ne s'applique qu'aux idées qui ne vous *intéressent pas*. Si la même idée inspire quelqu'un d'autre, sa piste sera probablement plus excitante). Si vous avez visualisé certaines parties de votre piste, le concept art sera beaucoup plus facile.
 
-## Naming
+## Nommage
 
-You can always change the name of your track, but it's important to have a good one if you want your track to be included in main. The STK team can help you choose a name if you need. Here are some guidelines:
-* Tracks should not be named after characters—this lacks imagination. (e.g. no "Tux's Inn".)
-* Names should give a slight hint of the mood of the track. For example, Ravenbridge Mansion just *sounds* spooky, and it fits with a spooky track.
-* Names should also describe the location. Gran Paradiso Island, for example, is obviously on an island.
-* Names should not tell you everything about the track. They should be vaguely mysterious, like Zen Garden.
+Vous pouvez toujours changer le nom de votre piste, mais il est important d'en avoir un bon si vous voulez que votre piste soit incluse dans le programme principal. L'équipe STK peut vous aider à choisir un nom si vous en avez besoin. Voici quelques règles à suivre :
+* Les pistes ne doivent pas être nommées d'après des personnages - cela manque d'imagination. (par exemple, pas de "Tux's Inn").
+* Les noms doivent donner une idée de l'ambiance de la piste. Par exemple, Ravenbridge Mansion *sonne* effrayant et correspond à une piste effrayante.
+* Les noms doivent également décrire le lieu. L'île du Grand Paradis, par exemple, se trouve manifestement sur une île.
+* Les noms ne doivent pas tout dire sur la piste. Ils doivent être vaguement mystérieux, comme Zen Garden.
 
-## Concept Art
+## concept artistique
 
-Concept art is an important step in creating a track. It helps you design your track prior to modeling it, and makes modeling much easier, since you already know what you want. It also provides insight for other people to see your ideas and provides opportunities for feedback before you spend the time needed to model a track.
+Le concept artistique est une étape importante dans la création d'une piste. Il vous aide à concevoir votre piste avant de la modéliser et facilite grandement la modélisation, puisque vous savez déjà ce que vous voulez. Il permet également à d'autres personnes de prendre connaissance de vos idées et de vous faire part de leurs commentaires avant que vous ne consacriez le temps nécessaire à la modélisation d'une piste.
 
-The first thing you need to do is to do a web search on a real location that is similar to your chosen fictional location. Do some reading and find out what it's like there. Do an image search and find pictures of a similar location. All this helps provide inspiration.
+La première chose à faire est d'effectuer une recherche sur Internet sur un lieu réel similaire au lieu fictif que vous avez choisi. Lisez un peu et découvrez comment c'est là-bas. Faites une recherche d'images et trouvez des photos d'un lieu similaire. Tout cela vous aidera à trouver l'inspiration.
 
-Concept art is not formal, and you shouldn't spend more than a few hours on it. It can be drawn with a digital painting application like Krita, or just on paper. The point is to get ideas for your track. Simply choose one aspect of your idea and draw or arrange photos until you've created a picture that can be used for how your track will look.
+L'art conceptuel n'est pas formel et vous ne devriez pas y consacrer plus de quelques heures. Il peut être dessiné à l'aide d'une application de peinture numérique comme Krita, ou simplement sur papier. Le but est de trouver des idées pour votre piste. Choisissez simplement un aspect de votre idée et dessinez ou arrangez des photos jusqu'à ce que vous ayez créé une image qui peut être utilisée pour l'aspect de votre piste.
 
-If you intend to combine digital images for your concept art, be sure that you have a license to use them. A number of excellent sources of photos can be found at the [here](Licensing#where-to-find-files).
+Si vous avez l'intention de combiner des images numériques pour votre concept art, assurez-vous que vous disposez d'une licence pour les utiliser. Vous trouverez d'excellentes sources de photos sur le site [ici](Licensing#where-to-find-files).
 
-Our lead artist, Jean-Manuel Clémençon, created a tutorial video on concept art a while back as part of the Let's Make a Track Together initiative. Unfortunately, the project was never completed, but the tutorial is still useful and can be found [here](http://youtu.be/RYOy7SPbIaA).
+Notre artiste principal, Jean-Manuel Clémençon, a créé il y a quelque temps une vidéo didactique sur le concept art dans le cadre de l'initiative "Let's Make a Track Together"(Faisons une piste ensemble). Malheureusement, le projet n'a jamais abouti, mais le tutoriel est toujours utile et peut être trouvé [ici](http://youtu.be/RYOy7SPbIaA).
 
-## Designing the Track Layout
+## Conception du tracé de la piste
 
-Now it's time to put all your ideas and concept art to work! This is a somewhat difficult step, and you should spend plenty of time on it. Hopefully, your concept art showed the track in parts of it. You must now take ideas from each piece of concept art and put them together (metaphorically, of course) to create a map of the track. The map need not be anything more than a line on a piece of paper, but have have an eraser ready, since you'll probably need it quite a bit. As you draw, be sure to follow the guidelines listed at [Making Tracks: Notes\#gameplay](Making_Tracks:_Notes#gameplay) to make sure your track turns out fun to play.
+Il est maintenant temps de mettre en œuvre toutes vos idées et tous vos dessins conceptuels! Il s'agit d'une étape un peu difficile, à laquelle vous devez consacrer beaucoup de temps. Avec un peu de chance, votre concept art a montré la piste dans certaines de ses parties. Vous devez maintenant prendre des idées de chaque élément du concept art et les assembler (métaphoriquement, bien sûr) pour créer une carte de la piste. La carte ne doit pas être plus qu'une ligne sur une feuille de papier, mais préparez une gomme à effacer, car vous en aurez probablement besoin assez souvent. Pendant que vous dessinez, assurez-vous de suivre les directives listées dans [Faire des Pistes: Notes#Jouabilité](Making_Tracks:_Notes/#jouabilité) pour vous assurer que votre piste sera agréable à jouer.
 
 ## Conclusion
 
-You're now mostly done with the planning stage of your track. In the following modules, you'll turn your ideas into a track that can be driven in SuperTuxKart.
+Vous avez maintenant presque terminé la phase de planification de votre piste. Dans les modules suivants, vous transformerez vos idées en une piste qui pourra être conduite dans SuperTuxKart.
 
 {% include art_portal %}

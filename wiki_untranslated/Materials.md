@@ -134,11 +134,11 @@ To save the normal map, go to Image > Save As Image in the UV/Image Editor windo
 
 ### Cutout Transparency (PBR Cutout Transparency (alpha test))
 
-The cutout transparency shader is best for things like vegetation (when you do not want it to move—otherwise, use the vegetation shader). It performs "alpha testing", to make pixels of a texture either 100% solid or 100% transparent. However, it doesn't have all the features of the solid shader, so avoid using it for solid textures. If your texture is mostly solid with a few transparent sections, you should use a separate texture. Cutout transparency supports alpha masks and colorization; see [Alpha Mask](#alpha-mask-1) and [Colorization](#colorization) below.
+The cutout transparency shader is best for things like vegetation (when you do not want it to move—otherwise, use the vegetation shader). It performs "alpha testing", to make pixels of a texture either 100% solid or 100% transparent. However, it doesn't have all the features of the solid shader, so avoid using it for solid textures. If your texture is mostly solid with a few transparent sections, you should use a separate texture. Cutout transparency supports alpha masks and colorization; see [Alpha Mask](#alpha-mask) and [Colorization](#colorization) below.
 
 ### Blending Transparency ((NON PBR) Alpha See Through)
 
-The blending transparency ("alpha blend") shader is used for translucent textures, like windows. The colors of the objects seen through these textures will be blended with the colors of the translucent parts of the texture. Blending transparency supports alpha masks; see [Alpha Mask](#alpha-mask-1) below.
+The blending transparency ("alpha blend") shader is used for translucent textures, like windows. The colors of the objects seen through these textures will be blended with the colors of the translucent parts of the texture. Blending transparency supports alpha masks; see [Alpha Mask](#alpha-mask) below.
 
 {%popup_info Blending transparency can only make objects darker, not lighter. Be aware that very darkly tinted transparent sections could greatly reduce the visibility of objects behind them.%}
 

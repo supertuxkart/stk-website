@@ -1,5 +1,5 @@
 ---
-title: Making Library Nodes
+title: Créer des objets de librairie (library Node)
 display_title: true
 ---
 {%popup_prerequisite
@@ -7,7 +7,7 @@ display_title: true
 * [Directives pour les textures](Texture_Guidelines)
 * [3D Model Guidelines](3D_Model_Guidelines)
 * [Installation des outils](Installing_Tools)
-* [Media Repo](Media_Repo)
+* [Dépôt multimédia](Media_Repo)
 * [Communication](Communication)
 * [Licence](Licensing)
 %}
@@ -18,12 +18,12 @@ Les nœuds de bibliothèque sont des objets Blender qui peuvent être liés aux 
 
 ## Contents
 
-* [Remarques](Making_Library_Nodes:_Notes)
+* [Notes](Making_Library_Nodes:_Notes)
 * [Propriétés et Modélisation](Making_Library_Nodes:_Properties_and_Modeling)
 * [Animation des décorations](Animating_Decorations)
 * [Niveau de détail](Level_of_Detail)
 * [Texturation](Texturing)
-* [Materiaux](Materials)
+* [Matériaux](Materials)
 * [Lumières](Making_Library_Nodes:_Lights)
 * [Effets spéciaux](Special_Effects)
 * [Exportation](Making_Library_Nodes:_Exporting)

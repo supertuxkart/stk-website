@@ -1,11 +1,11 @@
 ---
-title: 'Making Tracks: Conclusion'
+title: 'Faire des Pistes: Conclusion'
 display_title: true
 ---
-Congratulations! You've (hopefully) completed your track. You may want to take screenshots in [Artist Debug Mode](Artist_Debug_Mode) or with a [cutscene](Cutscenes). You should have been communicating with the team while you made the track, but if not, present it to the team and the community on the forum or upload it to the add-on website.
+Félicitations ! Vous avez (espérons-le) terminé votre morceau. Vous pouvez prendre des captures d'écran en [Mode débogage artiste](Artist_Debug_Mode) ou avec une [Cinématiques](Cutscenes). Vous devriez avoir communiqué avec l'équipe lors de la création de la piste, mais si ce n'est pas le cas, présentez-la à l'équipe et à la communauté sur le forum ou téléchargez-la sur le site [STK Add-ons](https://online.supertuxkart.net/).
 
-If you have any problems, check out [Appendix A: Troubleshooting](Making_Tracks:_Appendix_A:_Troubleshooting) for help.
+En cas de problème, consultez [Annexe A: Dépannage](Making_Tracks:_Appendix_A:_Troubleshooting) pour obtenir de l'aide.
 
-If you're interested, you may want to make your track more dynamic with [scripting](Scripting).
+Si cela vous intéresse, vous pouvez rendre votre piste plus dynamique avec [Scrips](Scripting).
 
 {% include art_portal %}

@@ -1,21 +1,21 @@
 ---
-title: Team
+title: Equipe
 ---
 {% start_liquid main_title %}
 
-..:: Meet the team behind the game ::..
+..:: Rencontrez l'équipe derrière le jeu ::..
 
 {% end_liquid %}
 
-{% include character_presentation name="Marianne Gagnon (aka Auria): Main Developer" type="odd" description="I joined the SuperTuxKart team a few years ago, originally to help with the graphics. I quickly started doing programming on the game's core, especially the GUI and the various blender plugins. My little experience in blender allows me to sometime help with artwork and track making." icon="/assets/wiki/Auria_icon.png" %}
+{% include character_presentation name="Marianne Gagnon (aka Auria): Main Developer" type="odd" description="J'ai rejoint l'équipe de SuperTuxKart il y a quelques années, à l'origine pour aider au graphisme. J'ai rapidement commencé à faire de la programmation sur le coeur du jeu, en particulier l'interface graphique et les différents extensions de blender. Ma petite expérience dans blender me permet de temps en temps d'aider à l'artwork et à la création de pistes." icon="/assets/wiki/Auria_icon.png" %}
 
-{% include character_presentation name="Jean-Manuel Clemençon (aka samuncle): Lead Artist" type="even" description="I'm the lead artist of SuperTuxKart. When I installed for the first time Linux in 2009, while searching for games available on Linux, one of the most popular game was SuperTuxKart. I started to mod maps for fun and eventually I made my first map, Hacienda. After more than 7 years working for SuperTuxKart, I created some of the most complex and challenging tracks like Cocoa Temple or Antediluvian Abyss. My last project was to create an haunted mansion to showcase our android version and designing our new website." icon="/assets/wiki/Sam_icon.png" %}
+{% include character_presentation name="Jean-Manuel Clemençon (aka samuncle): Lead Artist" type="even" description="Je suis l'artiste principal de SuperTuxKart. Lorsque j'ai installé Linux pour la première fois en 2009, en cherchant des jeux disponibles sur Linux, l'un des jeux les plus populaires était SuperTuxKart. J'ai commencé à modéliser des cartes pour le plaisir et j'ai finalement créé ma première carte, Hacienda. Après plus de 7 ans de travail pour SuperTuxKart, j'ai créé certaines des pistes les plus complexes et difficiles comme Cocoa Temple ou Antediluvian Abyss. Mon dernier projet a été de créer un manoir hanté pour présenter notre version androïde et de concevoir notre nouveau site web." icon="/assets/wiki/Sam_icon.png" %}
 
-{% include character_presentation name="Typhon306: Artist" type="odd" description="I started playing SuperTuxKart release 0.7. A few releases later, I came across a very helpful tutorial series by LinuxGuides about creating STK tracks using Blender, and that was the point where I started my first projects for STK, most of which are now avaible on STK Add-ons website. My modeling skills improved gradually over the years, and one of my latest projects entitled “Ancient Colosseum Labyrinth” was included as an official arena in the 1.3 release of STK." icon="/assets/wiki/Typhon_icon.png" %}
+{% include character_presentation name="Typhon306: Artist" type="odd" description="J'ai commencé à jouer à SuperTuxKart version 0.7. Quelques versions plus tard, je suis tombé sur une série de tutoriels très utiles de LinuxGuides sur la création de pistes STK à l'aide de Blender, et c'est là que j'ai commencé mes premiers projets pour STK, dont la plupart sont maintenant disponibles sur le site STK Add-ons. Mes compétences en modélisation se sont progressivement améliorées au fil des ans, et l'un de mes derniers projets intitulé 'Ancient Colosseum Labyrinth' a été inclus en tant qu'arène officielle dans la version 1.3 de STK." icon="/assets/wiki/Typhon_icon.png" %}
 
 {% start_liquid main_title %}
 
-Additional Developers
+Développeurs complémentaires
 
 {% end_liquid %}
 
@@ -36,7 +36,7 @@ Additional Developers
 
 {% start_liquid main_title %}
 
-Google Summer of Code Students
+Etudiants Google Summer of Code
 
 {% end_liquid %}
 
@@ -51,7 +51,7 @@ Google Summer of Code Students
 
 {% start_liquid main_title %}
 
-Bug Fixes & Misc. Contributions
+Corrections de bugs et autres Contributions
 
 {% end_liquid %}
 
@@ -68,11 +68,11 @@ Bug Fixes & Misc. Contributions
 
 {% start_liquid main_title %}
 
-Visual Art
+Arts visuels
 
 {% end_liquid %}
 
-Tracks
+Pistes
 * Sven Andreas Belting: Black Forest
 * Mac_DMH: Minigolf
 * Rubberduck: STK Enterprise
@@ -94,10 +94,10 @@ Karts
 * Kinsu: Emule
 * ZAQraven99: GNU, Pepper, Sara, Adiumy, Konqi, Godette
 
-Objects
+Objets
 * GeekPenguinBR, TuxKartDriver: Models from Las Dunas Stadium
 
-Icons and misc
+Icônes et divers
 * Anthony Carré (yeKcim)
 * Néd J. Édoire
 * betharatux1
@@ -105,7 +105,7 @@ Icons and misc
 
 {% start_liquid main_title %}
 
-GUI Icons and Other Art
+Icônes d'interface graphique et autres arts
 
 {% end_liquid %}
 
@@ -122,7 +122,7 @@ GUI Icons and Other Art
 
 {% start_liquid main_title %}
 
-Photographs & Textures
+Photographies & textures
 
 {% end_liquid %}
 
@@ -141,11 +141,11 @@ Photographs & Textures
 
 {% start_liquid main_title %}
 
-Audio & Music
+Audio & Musique
 
 {% end_liquid %}
 
-Music
+Musique
 
 * Chris Leutwyler (Krobonil)
 * Max Freeman (OzoneOne)
@@ -160,11 +160,11 @@ Music
 * GeekPenguinBR and Heuchi1: Jumping to the Stars
 * Heuchi1: Alien Signal
 
-Voice acting
+Interprétation de voix
 
 * Viktor Aurelius: Nolok
 
-Sound effects
+Effets sonores
 
 * Mike Koening & soundbible.com
 * Battle for Wesnoth
@@ -174,16 +174,16 @@ Sound effects
 
 {% start_liquid main_title %}
 
-Miscellaneous
+Divers
 
 {% end_liquid %}
 
-Current Website
+Site web actuel
 
 * Jean-Manuel Clémençon (samuncle): Design
 * Konstin: Coding
 
-Former Websites
+Anciens sites web
 
 * Tom Jenkins: Skin and layout
 * Remy le Guen (Vivelefrat)
@@ -195,7 +195,7 @@ Packaging
 
 {% start_liquid main_title %}
 
-Software used by SuperTuxKart
+Logiciel utilisé par SuperTuxKart
 
 {% end_liquid %}
 
@@ -219,7 +219,7 @@ Software used by SuperTuxKart
 
 {% start_liquid main_title %}
 
-Former Contributers (No longer active)
+Anciens Contributeurs (ne sont plus actifs)
 
 {% end_liquid %}
 
@@ -246,7 +246,7 @@ Former Contributers (No longer active)
 
 {% start_liquid main_title %}
 
-Linux Games Tome "Game of the Month" Contributers (No longer active)
+Linux Games Tome "Jeu du mois" Contributeurs (N'est plus actif)
 
 {% end_liquid %}
 

@@ -1,81 +1,81 @@
 ---
-title: 'Making Tracks: Drivelines and Checklines'
+title: 'Faire des Pistes: Drivelines et Checklines(Transmission et lignes de contrôle)'
 toc: true
 ---
-{%popup_info This page provides practical instructions for creating drivelines. For more details and a more complex explanation, as well as discussion of not-yet-implemented features, see the [Talk:Theoretical Driveline Model](Talk:Theoretical_Driveline_Model) page.%}
+{%popup_info Cette page fournit des instructions pratiques pour la création de driveline. Pour plus de détails et une explication plus complexe, ainsi qu'une discussion sur les fonctionnalités non encore implémentées, voir la page [Discussion: Modèle théorique de driveline(transmission)](Talk:Theoretical_Driveline_Model).%}
 
-Drivelines are used to show SuperTuxKart where the track is. Drivelines are represented in Blender by a series of connected quads, with the beginning marked by a special structure. However, they are not visible while playing unless this is enabled via [Artist Debug Mode](Artist_Debug_Mode).
+Les drivelines sont utilisées pour montrer à SuperTuxKart où se trouve la piste. Les transmissions sont représentées dans Blender par une série de quads connectés, avec le début marqué par une structure spéciale. Cependant, elles ne sont pas visibles pendant le jeu à moins que cela ne soit activé via [Mode débogage artiste](Artist_Debug_Mode).
 
-## Creating the main driveline
+## Création de la driveline principale
 
-*Note: Both of methods listed recommend removing faces from the driveline. This is not actually necessary, but makes a track easier to view.*
+*Note: Les deux méthodes citées recommandent d'enlever les faces de la driveline. Cette opération n'est en fait pas nécessaire, mais elle facilite la visualisation d'une piste.*
 
-### If you followed the previous module
+### Si vous avez suivi le module précédent
 
-You will have a flat track made of quads already. You can simply duplicate this track, switch into edit mode, select all points with the "a" keyboard shortcut, tap the Delete key and delete **Only Faces**. Then follow the instructions below for creating a start line.
+Vous aurez déjà une piste plate composée de quads. Vous pouvez simplement dupliquer cette piste, passer en mode édition, sélectionner tous les points avec le raccourci clavier "a", taper sur la touche Suppr et supprimer **Faces Seulement**. Suivez ensuite les instructions ci-dessous pour créer une ligne de départ.
 
-### If you made a track another way
+### Si vous avez fait une piste d'une autre manière
 
-Start with a quad plane, and delete only its face (preserving the vertices and edges). Then, attach points until you have a series of quads, each connected to its adjacent ones, all along your track in a loop. Make sure that the driveline turns smoothly around corners; otherwise the AI karts could have trouble driving.
+Commencez par un plan quadratique et supprimez uniquement sa face (en préservant les sommets et les arêtes). Ensuite, attachez des points jusqu'à ce que vous ayez une série de quads, chacun connecté à ses adjacents, tout au long de votre piste en boucle. Veillez à ce que la driveline tourne en douceur dans les virages; dans le cas contraire, les karts IA pourraient avoir du mal à rouler.
 
 {% single_gallery /assets/wiki/Driveline_bad.jpg %}
 
-### Creating the start line
+### Création de la ligne de départ
 
-The start line of a track in SuperTuxKart is denoted by a gap between two disconnected quads, and "antennae" lines from the endpoints of the quad which will be the start line. A picture does a better job of explaining this:
+La ligne de départ d'une piste dans SuperTuxKart est indiquée par un espace entre deux quads déconnectés, et des lignes "antennes" partant des extrémités du quad qui sera la ligne de départ. Une image permet de mieux expliquer cela:
 
 {% single_gallery /assets/wiki/Driveline_start.jpg %}
 
-### Make the driveline active
+### Rendre la driveline active
 
-To make the exporter recognize the driveline, under Object Properties for the driveline object, under SuperTuxKart Properties, set "Type" to "Driveline (main)". Ignore the "Activate" property for now.
+Pour que l'exportateur reconnaisse la driveline, sous Propriétés de l'objet driveline, sous Propriétés de SuperTuxKart, mettez "Type" à "Driveline(main)". Ignorez la propriété "Activate" pour l'instant.
 
-## Creating secondary drivelines
+## Création de transmissions secondaires/alternatives
 
-Although each track can only have one main driveline, you can use secondary drivelines for shortcuts or alternate routes. They have the same structure as a main driveline, but rather than making the driveline cyclic, place the antennae near two points of a quad of the main driveline where you want the AI karts to deviate from the main track and place the end of the last quad where you want the alternate route to rejoin the main one. Then set the type to "Driveline (additional)" in the SuperTuxKart object properties panel. A picture:
+Bien que chaque piste ne puisse avoir qu'une seule driveline principale, vous pouvez utiliser des drivelines secondaires pour les raccourcis ou les routes alternatives. Elles ont la même structure qu'une transmission principale, mais au lieu de rendre la driveline cyclique, placez les antennes près de deux points d'un quad de la driveline principale où vous voulez que les karts IA s'écartent de la piste principale et placez la fin du dernier quad où vous voulez que la route alternative rejoigne la piste principale. Définissez ensuite le type sur " Driveline(additional) " dans le panneau des propriétés d'objet de SuperTuxKart. Une image pour illustrer:
 
 {% single_gallery /assets/wiki/Driveline_shortcut_entrance.jpg %}
 
 ## Checklines
 
-### Creating Checklines
+### Création de Checklines
 
-Checklines allow you to stop players from taking shortcuts, and allow for proper lap counting. To make one, simply create a line segment with two points and position it on a part of the track. There are some guidelines for placement, however:
+Les checklines vous permettent d'empêcher les joueurs de prendre des raccourcis et de comptabiliser correctement les tours. Pour en créer une, il suffit de créer un segment de ligne avec deux points et de le positionner sur une partie de la piste. Il y a toutefois quelques règles à respecter:
 
-* They should only be used to stop major shortcuts, not karts cutting cutting off a corner.
-* They should be quite wide, wide enough to be triggered even by karts driving off the track.
-* Checklines should not be placed where they might be missed if the player or AI kart takes an alternate route. However, checkline groups (see below) can be used to mitigate this.
-* You should have multiple checklines in a "chain" (see below) to make sure karts drive in the proper order.
-* It is recommended to have at least 3 checklines per track in addition to the lapline
+* Ils ne devraient être utilisés que pour arrêter les raccourcis importants, et non les karts qui coupent un virage.
+* Ils doivent être assez larges, suffisamment pour être déclenchés même par des karts sortant de la piste.
+* Les checklines ne doivent pas être placées à un endroit où elles risquent d'être manquées si le joueur ou le kart de l'IA emprunte une route alternative. Toutefois, des groupes de checkline (voir ci-dessous) peuvent être utilisés pour atténuer ce risque.
+* Vous devez avoir plusieurs checklines dans une "chaîne" (voir ci-dessous) pour vous assurer que les karts roulent dans le bon ordre.
+* Il est recommandé d'avoir au moins 3 checklines par piste en plus de la lapline
 
-### Activating Checklines
+### Activation des Checklines
 
-First, set each checkline as a checkline in the SuperTuxKart object properties. You will notice that you have two options to set: the "Name" field, and the "Activate" field.
+Tout d'abord, définissez chaque checkline en tant que checkline dans les propriétés d'objet de SuperTuxKart. Vous remarquerez que vous avez deux options à définir: le champ "Nom" et le champ "Activate".
 
-The "Name" field is the *group name* of the checkline. If you have only one main route and no alternate routes, or if you have not placed checklines where they might be missed depending on the route taken, simply give each checkline a unique group name. The first checkline might have the name "Checkline1", for instance.
+Le champ "Nom" est le *nom de groupe* de la checkline. Si vous n'avez qu'une seule route principale et aucune route alternative, ou si vous n'avez pas placé les checklines à des endroits où elles pourraient être manquées en fonction de l'itinéraire emprunté, il suffit de donner à chaque checkline un nom de groupe unique. La première ligne de contrôle peut être nommée "Control1", par exemple.
 
-If you wish to have checklines along alternate routes, create a checkline along the alternate route **and** on the main route between the two ends of the alternate route, and give them the same group name.
+Si vous souhaitez avoir des checklines le long de routes alternatives, créez une checkline le long de la route alternative **et** sur la route principale entre les deux extrémités de la route alternative, et donnez-leur le même nom de groupe.
 
-Now, for the "Activate" option for the first checkline, you would click the drop-down menu button, and choose the name of the second checkline or checkline group. Repeat this pattern for each checkline. For the last checkline, type "lap" into the "Activate" field. This allows for the lap to be counted.
+Maintenant, pour l'option "Activate" de la première ligne de contrôle, vous devez cliquer sur le bouton du menu déroulant et choisir le nom de la deuxième ligne de contrôle ou du deuxième groupe de lignes de contrôle. Répétez ce schéma pour chaque ligne de contrôle. Pour la dernière ligne de contrôle, tapez "lap" dans le champ "Activate". Cela permet de compter le tour.
 
-But what, you ask, activates the first checkline? For the first checkline, select the **main driveline**, and, in the SuperTuxKart object properties panel, set "Activate" to the name of the first checkline.
+Mais qu'est-ce qui active la première checkline ? Pour la première checkline, sélectionnez la **main driveline**, et, dans le panneau des propriétés d'objet de SuperTuxKart, réglez "Activate" sur le nom de la première checkline.
 
-## Additional Lap Lines
+## Lignes supplémentaires de tours de piste(Lap Line)
 
-If the beginning of the driveline cannot be made wider, and it is inconvenient to create a "gate"-style decoration to mark the start of the track, you can add additional lap lines. Simply create a line with two points, just like a checkline, give it the type "Lap line" in the SuperTuxKart Object Properties panel, and it will be activated by any checklines set to activate "lap".
+Si le début de la driveline ne peut pas être élargi, et qu'il n'est pas pratique de créer une décoration de type "portail" pour marquer le début de la piste, vous pouvez ajouter des lignes de tour supplémentaires. Il suffit de créer une ligne avec deux points, comme une ligne de contrôle, de lui donner le type "Lap line" dans le panneau des propriétés d'objet de SuperTuxKart, et elle sera activée par toutes les lignes de contrôle réglées pour activer "lap".
 
-{%popup_info Be sure to set the "Activate" property of any additional lap lines to the next checkline!%}
+{%popup_info Veillez à ce que la propriété "Activate" de toute lapline supplémentaire soit définie sur la checkline suivante!%}
 
 ## Conclusion
 
-Your track is now almost ready for the first stage of testing. Let's review what you've done so far:
+Votre piste est maintenant presque prête pour la première étape des tests. Passons en revue ce que vous avez fait jusqu'à présent:
 
-* You came up with an idea
-* You created concept art and decided on the layout of your track
-* You modeled your track in Blender
-* You made it possible for AIs to drive on your track
-* You added checklines for lap counting and to prevent cheating.
+* Vous avez eu une idée
+* Vous avez créé un concept artistique et décidé de l'agencement de votre piste
+* Vous avez modélisé votre piste dans Blender
+* Vous avez rendu possible la conduite d'IA sur votre piste
+* Vous avez ajouté des checklines pour le comptage des tours et pour éviter la tricherie.
 
-In the next module, you'll export your track and give it a try in SuperTuxKart.
+Dans le module suivant, vous exporterez votre piste et l'essaierez dans SuperTuxKart.
 
 {% include art_portal %}

@@ -1,67 +1,68 @@
 ---
-title: 'Making Tracks: Appendix A: Troubleshooting'
+title: 'Faire des Pistes: Annexe A: Dépannage'
 display_title: true
 ---
-While the track-making process is usually fairly straightforward and the exporters usually work fine, problems can appear. If you can't find anything helpful on this page, feel free to look for your problem or ask for help on the [forum](https://forum.freegamedev.net/viewforum.php?f=16). Be sure to read the [Communication](Communication) page too, if you are posting on the forum.
+Bien que le processus de construction de pistes soit généralement assez simple et que les exportateurs fonctionnent généralement bien, des problèmes peuvent survenir. Si vous ne trouvez rien d'utile sur cette page, n'hésitez pas à rechercher votre problème ou à demander de l'aide sur le [forum](https://forum.freegamedev.net/viewforum.php?f=16). N'oubliez pas de lire également la page [Communication](Communication) si vous postez des messages sur le forum.
 
 {% start_liquid qa %}
 
-My AI karts drive off the road!
+Mes karts AI quittent la route !
 
-There could be many reasons for this:
+Les raisons peuvent être multiples :
 
-* Your driveline is misplaced.
-* Your driveline has a break in it.
-* Your road makes too sharp of a turn.
-* Your road is too narrow.
+* Votre transmission est mal placée.
+* Votre transmission présente une rupture. 
+* Votre route prend un virage trop serré. 
+* Votre route est trop étroite.
 
-Try to correct any of the issues that apply, and see if that helps.
+Essayez de corriger les problèmes qui se présentent et voyez si cela vous aide.
 
 {% end_liquid %}
 
 {% start_liquid qa %}
 
-AI karts get rescued randomly or when launched by a zipper
+Les karts AI sont sauvés de façon aléatoire ou lorsqu'ils sont lancés par une fermeture éclair(zipper).
 
-To decide whether to rescue a kart, SuperTuxKart performs raycasts to decide whether a kart is on a surface or not. When a kart is launched by a zipper without any surface underneath, STK will detect that that the kart is off the track and needs to be rescued. To avoid this, create a low-poly surface below the main driving surface or launch trajectory so that STK does not detect a false-positive need for rescue. Texture the surface with a transparent texture or set it as Physics only. See [Physics#kart-object-interaction](Physics#kart-object-interaction) for more information.
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-Transparent or translucent decorations don't appear correctly in-game!
-
-Most likely this is a sorting issue. Try exporting transparent parts as separate objects ("Object" in SuperTuxKart Object Properties panel in Blender). If your transparent section includes part of the main drivable area, be sure the check the "Drivable" box in the SuperTuxKart Object Properties panel. Also, ensure that "Disable writing to Z-buffer" is checked for any transparent or partially transparent textures in the SuperTuxKart Image Properties panel.
+Pour décider s'il faut secourir un kart, SuperTuxKart effectue des projections de rayons pour déterminer si le kart se trouve sur une surface ou non. Lorsqu'un kart est lancé par une fermeture éclair sans aucune surface en dessous, STK détectera que le kart est hors de la piste et doit être secouru. Pour éviter cela, créez une zone de faible densité sous la surface de conduite principale ou la trajectoire de lancement afin que STK ne détecte pas un besoin de sauvetage faussement positif. Texturez la surface avec une texture transparente ou définissez-la comme physique uniquement. Voir [Physique#Interaction Kart Objet](Physics/#interaction-kart-objet)  pour plus d'informations.
 
 {% end_liquid %}
 
 {% start_liquid qa %}
 
-Transparent objects display weirdly in Blender!
+Les décorations transparentes ou translucides n'apparaissent pas correctement dans le jeu!
 
-This is for the same reason discussed in the question above: sorting issues, and is a known issue with Blender. Unfortunately, we can't change this. Try checking the "X-Ray" box under "Display" in the "Object" section of the Blender Properties window for your transparent objects. It's not a golden hammer, but it might help somewhat.
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-My kart slides around and I can't steer/accelerate properly!
-
-This is most likely a result of normals smoothing. Disable normals smoothing in the SuperTuxKart Scene Properties panel.
+Il s'agit probablement d'un problème de tri. Essayez d'exporter les parties transparentes en tant qu'objets séparés ("Object" dans le panneau des propriétés d'objet de SuperTuxKart dans Blender). Si votre section transparente comprend une partie de la zone de conduite principale, assurez-vous de cocher la case "Driveable" dans le panneau des propriétés d'objet de SuperTuxKart. Assurez-vous également que la case "Disable writing to Z-buffer" est cochée pour toutes les textures transparentes ou partiellement transparentes dans le panneau SuperTuxKart Image Properties.
 
 {% end_liquid %}
 
 {% start_liquid qa %}
 
-My kart flys up in the air when I try to play my track!
+Les objets transparents s'affichent bizarrement dans Blender!
 
-Most likely your track is too narrow or you have too many karts per row at a starting line. When [Artist Debug Mode](Artist_Debug_Mode) is enabled, if you are placed in the air you'll start flying; if Artist Debug Mode is not enabled, the game will crash. There are three ways to fix this problem:
+Dans Blender pour voir la transparence, changé le "mode de fusion" dans **Paneau de propriété > Matériau > Réglage > mode de fusion**, choisir selon les cas "Mélange Alpha" -> alpha graduer ou "Seuil alpha" -> entre 1-0.5 transparent 100% et <0.5 100% Opaque
 
-* Make the track wider at the starting line.
-* Reduce the **Karts per row** on start value under **Start line positions** in the SuperTuxKart Scene Properties panel.
-* Reduce the **Start sideways distance** value in the same section as above.
+{% end_liquid %}
 
-Another possibility is that your track has the normals on the wrong side. To check if this is the problem, switch to edit mode on your track mesh, expand your **Viewport Overlays** menu at the top right, at the very bottom you will find buttons to enable **Normals** overlays. If they appear on the bottom of the mesh, select the faces you wish to correct, and go to **Mesh > Normals > Flip**.
+{% start_liquid qa %}
+
+Mon kart glisse et je ne peux pas diriger/accélérer correctement!
+
+Si ce n'est pas déjà fait activer "High tires adhesion" et/ou "Affect gravity"; Sinon il s'agit très probablement d'une conséquence du lissage des normales. Désactivez le lissage normal dans le panneau des propriétés de la scène de SuperTuxKart.
+
+{% end_liquid %}
+
+{% start_liquid qa %}
+
+Mon kart s'envole en l'air lorsque j'essaie de jouer sur ma piste!
+
+Il est probable que votre piste soit trop étroite ou que vous ayez trop de karts par rangée sur la ligne de départ. Lorsque le [Mode débogage artiste](Artist_Debug_Mode) est activé, si vous êtes placé en l'air, vous commencerez à voler ; si le Artist Debug Mode n'est pas activé, le jeu plantera. Il y a trois façons de résoudre ce problème :
+
+* Élargir la piste au niveau de la ligne de départ.
+* Réduisez la valeur de **Karts per row** au départ sous **Start line positions** dans le panneau des propriétés de scène SuperTuxKart.
+* Réduisez la valeur de la **Start sideways distance** dans la même section que ci-dessus.
+
+Une autre possibilité est que les normales de votre piste soient du mauvais côté. Pour vérifier si c'est le cas, passez en mode édition sur le maillage de votre piste, développez votre menu **Viewport Overlays** en haut à droite, tout en bas vous trouverez des boutons pour activer les recouvrements **Normals**. Aussi vous pouvez simplement coché **orientation des faces**, la partie qui sera visible en jeu apparait en bleu et la partie non-visible en rouge.
+Si elles apparaissent (en bas du maillage/en rouge sur une suface praticable), sélectionnez le(s) face(s) que vous souhaitez corriger, et allez dans **Maillage > Normales > Inverser**.
 
 ![Display_normals]({{ '/assets/wiki/Display_normals.jpg' | prepend: site.baseurl }})
 

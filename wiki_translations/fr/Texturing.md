@@ -1,101 +1,101 @@
 ---
-title: Texturing
+title: Texturation
 toc: true
 ---
-Texturing is the process of applying images to 3D objects so that they appear more realistic. The process slightly differs depending on the Blender version used. This section builds on top of information found on the [Materials](Materials) page.
+Le texturage est le processus d'application d'images sur des objets 3D afin de les rendre plus réalistes. Le processus diffère légèrement selon la version de Blender utilisée. Cette section complète les informations trouvées sur la page [Matériaux](Materials).
 
-## For Blender 2.80 and newer
+## Pour Blender 2.80 et supérieur
 
-Blender materials must be used in order to assign image textures to UV maps. Hence usage of the **Material Properties** section in Blender's **Properties** window or **Shader Editor** window is crucial to being able to texture any mesh.
+Les matériaux de Blender doivent être utilisés afin d'assigner des textures d'image aux cartes UV. L'utilisation de la section **Matériau** dans la fenêtre **Propriété** ou **Éditeur de shaders** de Blender est donc cruciale pour pouvoir texturer n'importe quel maillage.
 
-## For Blender 2.63 to 2.79
+## Pour Blender 2.63 à 2.79
 
-Use UV texturing in Blender for your objects for them to appear in-game, but **don't waste time with Blender materials or cycles materials.** They don't get exported into the game—instead, use SuperTuxKart's own materials system.
+Utilisez des textures UV dans Blender pour vos objets afin qu'ils apparaissent dans le jeu, mais **ne perdez pas de temps avec les matériaux de Blender ou les matériaux de cycles.** Ils ne sont pas exportés dans le jeu - à la place, utilisez le système de matériaux de SuperTuxKart.
 
-In fact, don't even bother with the Texture section of Blender's **Properties** window. Simply applying a UV map is enough.
+En fait, ne vous embêtez pas avec la section Texture de la fenêtre **Propriétés** de Blender. Il suffit d'appliquer une carte UV.
 
-## Applying Textures
+## Application de textures
 
-*This entire process only works for Blender 2.80+. Skip this process if Blender <= 2.79 is being used.*
+*Ce processus ne fonctionne que pour Blender 2.80+. Ignorez ce processus si vous utilisez Blender <= 2.79.*.
 
-Image texture configuration is now done on a per-material basis, as it is no longer possible to apply them directly to UV maps. It is also possible to assign an image to multiple textures, but only one image configuration will have any effect in-game. The material whose name ends with a later letter in A to Z manner is where the configuration will be taken from.
+La configuration des images de texture se fait désormais par matériau, car il n'est plus possible de les appliquer directement aux cartes UV. Il est également possible d'assigner une image à plusieurs textures, mais une seule configuration d'image aura un effet dans le jeu. Le matériau dont le nom se termine par une lettre ultérieure, dans l'ordre A à Z, est celui d'où sera tirée la configuration.
 
-For basic single-image materials, configuration can be done entirely from the **Properties** window, though the **Shader Editor** window can be used at any time, and the latter has to be used for more complex configurations. The following two processs assume that the **Material Output** output node and **Principled BSDF** shader node are already added. If they not already there, they should be added and connected accordingly.
+Pour les matériaux de base à image unique, la configuration peut être effectuée entièrement à partir de la fenêtre **Propriété**, bien que la fenêtre **Éditeur de shaders** puisse être utilisée à tout moment, et que cette dernière doive être utilisée pour des configurations plus complexes. Les deux processus suivants supposent que le nœud de sortie **Sortie matériau** et le nœud de shader **BSDF guidée** sont déjà ajoutés. S'ils ne le sont pas, ils doivent être ajoutés et connectés en conséquence.
 
-Recommended: In the **Principled BSDF** shader node, change **Specular** to 0, and **Roughness** to 1. This will change the appearance of a material to look more like what it will appear in-game, which is especially helpful when the **Viewport Shading** settings are set to use either **Solid** mode with the color set to **Texture** or **Material Preview** mode.
+Recommandé: Dans le nœud de shader **BSDF guidée**, modifiez **Specular** à 0, et **Roughness** à 1. Cela modifiera l'apparence d'un matériau pour qu'il ressemble davantage à ce qu'il sera dans le jeu, ce qui est particulièrement utile lorsque les paramètres **Ombrage de la fenêtre** sont réglés pour utiliser le mode **Solide** avec la couleur réglée sur **Texture** ou le mode **Prévisualisation de matériau**.
 
-### From the Properties Window
+### Dans la fenêtre des propriétés
 
-First, select the material that should be edited from the list at the top, or create a new one after adding a material slot. Go to the **Base Color** input, click on the yellow dot to the left of the color selector, and select **Texture** -> **Image Texture**. This should replace the color selector with an image selector, and it will now be possible to either use an already-loaded image or to open another one.
+Tout d'abord, sélectionnez le matériau à modifier dans la liste du haut, ou créez-en un nouveau après avoir ajouté un emplacement de matériau. Allez à l'entrée **Couleur de base**, cliquez sur le point jaune à gauche du sélecteur de couleur, et sélectionnez **Texture** -> **Image Texture**. Cela devrait remplacer le sélecteur de couleur par un sélecteur d'image, et il sera désormais possible d'utiliser une image déjà chargée ou d'en ouvrir une nouvelle.
 
-Once this is completed, the material can now be configured for in-game usage as usual. The filename of the backing image used will be displayed, but only for informational purposes.
+Une fois cette opération terminée, le matériau peut être configuré pour être utilisé dans le jeu comme à son habitude. Le nom du fichier de l'image d'accompagnement utilisée sera affiché, mais uniquement à titre d'information.
 
-### From the Shader Editor Window
+### Dans la fenêtre de l'éditeur de shaders
 
-First, select the material that should be edited from the list at the header bar, or create a new one after adding a material slot from the slot list. There should be a **Material Output** output node and **Principled BSDF** shader node in the node setup. In the header bar, select **Add** (shortcut: Shift + a > Add) -> **Texture** -> **Image Texture**. This should add an Image Texture node at the cursor position, and while it can be placed anywhere, it should be placed somewhere where it doesn't obstruct any existing nodes. The next two steps can be done in any order, but both must be done in order for configuration to be successful.
+Tout d'abord, sélectionnez le matériau à modifier dans la liste de la barre d'en-tête, ou créez-en un nouveau après avoir ajouté un slot de matériau dans la liste des slots. Il doit y avoir un nœud de sortie **Sortie de matériau** et un nœud de shader **BSDF guidée** dans la configuration du nœud. Dans la barre d'en-tête, sélectionnez **Ajouter** (raccourci: Shift + a > Ajouter) -> **Texture** -> **Texte d'image**. Ceci devrait ajouter un nœud Image Texture à la position du curseur, et bien qu'il puisse être placé n'importe où, il devrait être placé à un endroit où il n'obstrue pas les nœuds existants. Les deux étapes suivantes peuvent être effectuées dans n'importe quel ordre, mais elles doivent toutes deux être réalisées pour que la configuration soit réussie.
 
-1. Click on the image selector in this newly-created Image Texture node, and either use an already-loaded image or open another one. The filename of the backing image used will be displayed, but only for informational purposes.
-2. Connect this node's **Color** output to the Principled BSDF's **Base Color** input, and optionally do the same with the former's **Alpha** output to the latter's **Alpha** input. Doing this optional step alone will not do the same thing in-game, but it helps when previewing what an image texture with alpha will look like in-game.
+1. Cliquez sur le sélecteur d'image dans ce nœud de texture d'image nouvellement créé et utilisez une image déjà chargée ou ouvrez-en une autre. Le nom du fichier de l'image d'accompagnement utilisée sera affiché, mais uniquement à titre d'information.
+2. Connectez la sortie **Couleur** de ce nœud à l'entrée **Couleur de base** du BSDF guidée, et faites éventuellement de même avec la sortie **Alpha** du premier nœud à l'entrée **Alpha** du second. Cette étape optionnelle seule ne fera pas la même chose dans le jeu, mais elle permet d'avoir un aperçu de ce à quoi ressemblera une texture d'image avec alpha dans le jeu.
 
-Once these two steps are completed, the material can now be configured for in-game usage as usual. The filename of the backing image used will be displayed, but only for informational purposes.
+Une fois ces deux étapes terminées, le matériel peut maintenant être configuré pour une utilisation dans le jeu comme d'habitude. Le nom du fichier de l'image d'accompagnement utilisée sera affiché, mais uniquement à titre d'information.
 
-## Sources of Textures
+## Sources des textures
 
-### The Media Repository
+### Le dépôt multimédia (Media Repository)
 
-The SuperTuxKart [media repository](Media_Repo) should be the first place you look for textures. They're included in the game, so you don't have to distribute copies with your object and they use advanced graphical effects like gloss and normal maps to take advantage of all the features of SuperTuxKart's engine. They are in the `textures` folder. Simply choose one of these textures when you open an image in any of these locations (only in the **UV/Image Editor** window for Blender <= 2.79):
+Le [dépôt multimédia](Media_Repo) de SuperTuxKart devrait être le premier endroit où vous cherchez des textures. Elles sont incluses dans le jeu, vous n'avez donc pas besoin de distribuer des copies avec votre objet et elles utilisent des effets graphiques avancés comme la brillance et les cartes normales pour tirer parti de toutes les fonctionnalités du moteur de SuperTuxKart. Elles se trouvent dans le dossier `textures`. Choisissez simplement l'une de ces textures lorsque vous ouvrez une image à l'un de ces endroits (uniquement dans la fenêtre **UV/Image Editor** pour Blender <= 2.79):
 
-* The **UV Editor** window
-* The **Image Editor** window
-* Any Image Texture node
+* La fenêtre de l'**Éditeur UV**
+* La fenêtre de l'**Éditeur d'images**
+* N'importe quel nœud d'image et de texture
 
-{%popup_info It is **very** important that the paths to the textures you use are correct in Blender, or no one will be able to understand your file. Always place your track's files inside the media repository folder as if it were part of the core game. Additionally,
-* Do not link to textures in **stk-assets**, only in **stk_media_repo**. There's no guarantee that someone else has their stk-assets folder in the same place as you.
-* Never pack textures into your Blender file.
-* Never tell Blender to make file paths absolute. It will cause nothing but grief for anyone else who downloads and tries to open your file.%}
+{%popup_info Il est **très** important que les chemins des textures que vous utilisez soient corrects dans Blender, sinon personne ne pourra comprendre votre fichier. Placez toujours les fichiers de votre piste dans le dossier du dépôt multimédia comme s'il s'agissait d'une partie du jeu principal. En outre,
+* Ne liez pas les textures dans **stk-assets**, seulement dans **stk_media_repo**. Il n'y a aucune garantie que quelqu'un d'autre ait son dossier stk-assets au même endroit que vous.
+* Ne jamais insérer de textures dans votre fichier Blender.
+* Ne demandez jamais à Blender de rendre les chemins d'accès absolus. Cela ne causera que des ennuis à tous ceux qui téléchargeront et essaieront d'ouvrir votre fichier.%}
 
-Don't like the default color of the textures? No problem! Just use vertex coloring (see below). Vertex color lets you paint different colors on an object so that you don't need a new texture. Gran Paradiso Island, for example, uses vertex color to make the sea floor greenish-blue, even though the original texture is a tan color rock texture.
+Vous n'aimez pas la couleur par défaut des textures ? Pas de problème ! Il vous suffit d'utiliser la coloration des vertex (voir ci-dessous). La coloration des vertex vous permet de peindre différentes couleurs sur un objet afin de ne pas avoir besoin d'une nouvelle texture. L'île du Grand Paradis, par exemple, utilise la coloration des sommets pour rendre le fond marin bleu-vert, même si la texture d'origine est une texture rocheuse de couleur beige.
 
-{%popup_info Make sure you're using the actual texture, not the gloss or normal map. Gloss maps are denoted by a filename ending with gloss, while normal maps are denoted by a filename ending with Normal.%}
+{%popup_info Assurez-vous que vous utilisez la texture réelle, et non la carte de brillance ou de normalité. Les cartes de brillance sont désignées par un nom de fichier se terminant par gloss, tandis que les cartes de normalité sont désignées par un nom de fichier se terminant par normal.%}
 
-### Local Filesystem
+### Système de fichier local
 
-If you will use a texture that is not shipped in the media repository, the process of selecting such an image file is the same. It is recommended that these textures be placed relative to the location of your Blender file (either in the same folder as that file, or in a folder in that same location), so that these textures will be displayed regardless of location, if these textures are also copied along with your Blender file. The [texture guidelines](Texture_Guidelines) should be used as usual.
+Si vous utilisez une texture qui n'est pas fournie dans le dépôt multimédia, le processus de sélection d'un tel fichier image est le même. Il est recommandé de placer ces textures par rapport à l'emplacement de votre fichier Blender (soit dans le même dossier que ce fichier, soit dans un dossier situé au même endroit), afin que ces textures soient affichées quel que soit l'emplacement, si ces textures sont également copiées avec votre fichier Blender. Les [Directives pour les textures](Texture_Guidelines) doivent être utilisées comme d'habitude.
 
-### Free Online Sources
+### Sources gratuites en ligne
 
-There are many sources of free images that can be used as textures. Several are listed [here](Licensing#where-to-find-files). Just be sure they fit the [texture guidelines](Texture_Guidelines).
+Il existe de nombreuses sources d'images gratuites pouvant être utilisées comme textures. Plusieurs d'entre elles sont répertoriées [ici](Licensing/#où-trouver-les-fichiers). Veillez simplement à ce qu'ils correspondent à la [Directives pour les textures](Texture_Guidelines).
 
-## Vertex Coloring
+## Coloration des vertexs
 
-Vertex coloring lets you modify the color of objects by vertex. The coloring is then applied on top of any textures. (This is why we require most textures included in the game to be of a semi-neutral color) Vertex color is extremely efficient in terms of processing, and is a much better option in most cases than using a separate texture for gradients or using splatting. More information on how to apply vertex colors can be found by visiting the [Blender manual](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/index.html).
+La coloration des vertexs vous permet de modifier la couleur des objets par vertex. La coloration est ensuite appliquée sur les textures. (C'est pourquoi nous exigeons que la plupart des textures incluses dans le jeu soient d'une couleur semi-neutre). Les couleurs de vertex sont extrêmement efficaces en termes de traitement et constituent une bien meilleure option dans la plupart des cas que l'utilisation d'une texture séparée pour les dégradés ou l'utilisation du splatting. Pour plus d'informations sur l'application des couleurs de vertex, consultez la page du [Manuel de Blender](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/index.html).
 
-Alternatively, a good video tutorial is available [here](https://youtu.be/Ivb45iA5QT8), however the first part about materials is not relevant for STK.
+Un bon tutoriel vidéo est également disponible [ici](https://youtu.be/Ivb45iA5QT8), mais la première partie concernant les matériaux n'est pas pertinente pour STK.
 
-### Getting started
+### Pour commencer
 
-Select the object you want to color. In the 'Properties' window, under 'Data', click the plus button next to the box under 'Vertex Colors'. Now, in the '3D View' window header, switch to 'Vertex Paint' mode (rather than Object or Edit modes). Several new options will appear in the toolshelf at the left of the 3D View window. Alternatively, 'Vertex Paint' mode can be entered right away, in which a vertex color layer will be automatically created.
+Sélectionnez l'objet que vous souhaitez colorer. Dans la fenêtre "Propriétés", sous "Données", cliquez sur le bouton plus à côté de la case "Attribut de couleur". Dans l'en-tête de la fenêtre "Vue 3D", passez en mode "Peinture de sommet" (plutôt qu'en mode Objet ou Édition). Plusieurs nouvelles options apparaissent dans la boîte à outils située à gauche de la fenêtre Vue 3D. Il est également possible d'entrer immédiatement dans le mode "Peinture de sommet", dans lequel un calque de couleur de sommet sera automatiquement créé.
 
-### Painting
+### Peinture
 
-Choose a color with the color picker at the left, adjust the radius (size) of the brush, change the strength if you want to, and choose a blending mode ('Mix' is the default). Then, left-click on vertices to color them. You'll notice that you can't paint in the middle of a face. That's because vertex coloring works per-vertex—you can't assign colors to the middle of a face, because there's no vertex to assign it to. It's one of the limitations of vertex coloring, and you may have to work around it by using subdivision (shortcut: w > Subdivide) on a face.
+Choisissez une couleur à l'aide du sélecteur de couleurs situé à gauche, ajustez le rayon (taille) du pinceau, modifiez la force si vous le souhaitez et choisissez un mode de fusion ("Mélange" est le mode par défaut). Cliquez ensuite avec le bouton gauche de la souris sur les sommets pour les colorer. Vous remarquerez que vous ne pouvez pas peindre au milieu d'une face. En effet, la coloration des vertex fonctionne par vertex. Vous ne pouvez pas attribuer de couleurs au milieu d'une face, car il n'y a pas de vertex auquel les attribuer. C'est l'une des limites de la coloration des sommets et vous devrez peut-être la contourner en utilisant la subdivision (raccourci: Ctrl + E > Subdiviser) sur une face.
 
-### Viewing your work in Object Mode
+### Visualiser son travail en mode objet
 
-To preview how vertex colors when combined with an image texture would look like in-game, change the Viewport Settings to use 'Material Preview' mode. In addition, the shader node setup needs to be reworked to include a MixRGB node, where the 'Color1' input is the image texture, and the 'Color2' input is a vertex color node connected by its 'Color' output. This MixRGB node takes the place of the image texture node, connecting its 'Color' output to the 'Base Color' input of the Principled BSDF shader node.
+Pour avoir un aperçu de l'aspect des couleurs de vertex combinées à une texture d'image dans le jeu, modifiez les paramètres de la fenêtre de prévisualisation afin d'utiliser le mode "Aperçu matériel". En outre, la configuration du nœud de shader doit être retravaillée pour inclure un nœud MixRGB, où l'entrée "Color1" est la texture d'image et l'entrée "Color2" est un nœud de couleur de vertex connecté par sa sortie "Color". Ce nœud MixRGB prend la place du nœud de texture d'image et connecte sa sortie "Couleur" à l'entrée "Couleur de base" du nœud de shader BSDF guidée.
 
-For Blender <= 2.79, to make your painting visible in Object Mode when not in Textured view, enable 'Textured Solid' under 'Shading' in the '3D View' window properties panel (shortcut: n).
+Pour Blender <= 2.79, pour rendre votre peinture visible en mode objet lorsqu'elle n'est pas en vue texturée, activez 'Solide texturé' sous 'Shading' dans le panneau de propriétés de la fenêtre '3D View' (raccourci: n).
 
-## Decals
+## Autocollants (Decals)
 
-{% single_gallery /assets/wiki/Decal_shader.jpg,An example of a decal. The wooden texture uses the first UV map; the transparent dirt track texture uses the second UV map.%}
+{% single_gallery /assets/wiki/Decal_shader.jpg,Exemple de décalcomanie. La texture en bois utilise la première carte UV ; la texture transparente de la piste de terre utilise la deuxième carte UV.%}
 
-SuperTuxKart provides a "decal shader" which allows you to mix textures just like layers in a photo editing program. To use decals, first select the target mesh in Blender. In Blender's 'Properties' window, under 'Data', click the '+' button next to the box under 'UV Maps'.
+SuperTuxKart fournit un "decal shader" qui vous permet de mélanger des textures comme des calques dans un programme de retouche photo. Pour utiliser les décalques, sélectionnez d'abord le mesh cible dans Blender. Dans la fenêtre "Propriété" de Blender, sous "Données", cliquez sur le bouton "+" à côté de la case "Cartes UV".
 
-With the new UV map selected, switch to 'Edit mode' on the mesh and texture the object with the decal texture wherever you want. Be sure to select "Keep UV and edit mode mesh selection in sync" and only select faces you want to add the decal to. If you aren't careful, the decal will tile all over the place.
+Une fois la nouvelle carte UV sélectionnée, passez en mode édition sur le maillage et texturez l'objet avec la texture de décalcomanie à l'endroit de votre choix. Veillez à "synchroniser la sélection des UV et du mesh en mode édition" et à ne sélectionner que les faces sur lesquelles vous souhaitez ajouter la décalcomanie. Si vous ne faites pas attention, la décalcomanie s'étalera sur toute la surface de l'objet.
 
-Finally, to preview how this setup would look like in-game (for Blender >= 2.80), the shader node setup needs to be reworked to include a MixRGB node, where the 'Color1' input is the image texture for the first UV map, and the 'Color2' input is the image texture for the second UV map. In addition, the 'Fac' input should be connected to the 'Alpha' output of the image texture connected by the 'Color2' input. This MixRGB node takes the place of the image texture node for the first UV map, connecting its 'Color' output to the 'Base Color' input of the Principled BSDF shader node.
+Enfin, pour avoir un aperçu de ce à quoi cette configuration ressemblerait dans le jeu (pour Blender >= 2.80), la configuration du nœud de shader doit être retravaillée pour inclure un nœud MixRGB, où l'entrée 'Color1' est la texture d'image pour la première carte UV, et l'entrée 'Color2' est la texture d'image pour la deuxième carte UV. En outre, l'entrée "Fac" doit être connectée à la sortie "Alpha" de la texture d'image connectée à l'entrée "Color2". Ce nœud MixRGB remplace le nœud de texture d'image pour la première carte UV, en connectant sa sortie "Color" à l'entrée "Base Color" du nœud de shader BSDF guidée.
 
-{%popup_info The decal shader does not work with textures that include a normal map.%}
+{%popup_info Le decal shader ne fonctionne pas avec les textures qui incluent une carte de normales.%}
 
 {% include art_portal %}

@@ -1,107 +1,107 @@
 ---
-title: Special Effects
+title: Effets spéciaux
 toc: true
 ---
-Though not strictly necessary, special effects make a scene more dynamic and interesting. SuperTuxKart supports many types of special visual and auditory effects.
+Bien qu'ils ne soient pas strictement nécessaires, les effets spéciaux rendent une scène plus dynamique et plus intéressante. SuperTuxKart prend en charge de nombreux types d'effets spéciaux visuels et auditifs.
 
-## Particles
+## Particules
 
-Particles are used to add things to the air like dust or smoke or fire. They are configured via an XML file. If you intend to add particles, see the [Particles File](Particles_File) page to create a particles file (or reuse an existing one), then continue with this tutorial.
+Les particules sont utilisées pour ajouter des éléments à l'air, comme de la poussière, de la fumée ou du feu. Elles sont configurées via un fichier XML. Si vous avez l'intention d'ajouter des particules, consultez la page [Fichier de particules](Particles_File) pour créer un fichier de particules (ou réutiliser un fichier existant), puis continuez avec ce tutoriel.
 
-### Particle Emitters
+### Emetteurs de particules
 
-Particle emitters are empty Blender objects with their type set to "Particle Emitter" in the SuperTuxKart Object Properties panel. Simply set the "Particle File" field to the name of your particle file, modify the clip distance (if you need to) for performance reasons, and make sure that "Enable emission" is checked. You can uncheck "Enable emission" if you intend to dynamically enable and disable it with scripting.
+Les émetteurs de particules sont des objets Blender "vides" dont le type est réglé sur " Particle Emitter " dans le panneau des propriétés d'objet de SuperTuxKart. Il suffit de définir le champ "Particle File" avec le nom de votre fichier de particules, de modifier la distance de clip (si nécessaire) pour des raisons de performance, et de s'assurer que l'option "Enable emission" est cochée. Vous pouvez décocher "Activer l'émission" si vous avez l'intention de l'activer et de la désactiver dynamiquement à l'aide d'un script.
 
-### Particles From Driving Karts
+### Particules provenant de karts
 
-You can set particles to be emitted whenever a kart drives and/or skids on a certain texture. To enable this, select the image you will use in the SuperTuxKart Image Properties panel (If you wanted particles to be emitted whenever the player drives off the road, you would want to select the image that is used to texture the sides of the road.) and check the "Particle effect" box. Set the "Particles file" property to the name of a particle file, and check the "Skid" and/or "Drive" boxes to enable the particle effect for driving and/or skidding karts.
+Vous pouvez faire en sorte que des particules soient émises chaque fois qu'un kart roule et/ou dérape sur une certaine texture. Pour ce faire, sélectionnez l'image que vous utiliserez dans le panneau Propriétés d'image de SuperTuxKart (si vous voulez que des particules soient émises chaque fois que le joueur sort de la route, vous devez sélectionner l'image utilisée pour texturer les côtés de la route) et cochez la case " Particle effect " (effet de particule). Définissez la propriété " Particles file " (fichier de particules) sur le nom d'un fichier de particules, et cochez les cases " Skid " (dérapage) et/ou " Drive " (conduite) pour activer l'effet de particules pour la conduite et/ou le dérapage des karts.
 
-### Particles On Collision
+### Particules en cas de Collision
 
-You can also set particles to be emitted when a kart collides with a textured object. Select the texture in the SuperTuxKart Image Properties panel, and, under "Interaction" enable "Collision action". Enter the filename of your particle file in the "Particles on hit" field.
+Vous pouvez également définir des particules qui seront émises lorsqu'un kart entre en collision avec un objet texturé. Sélectionnez la texture dans le panneau Propriétés d'image de SuperTuxKart et, sous "Interaction", activez " Collision action ". Entrez le nom de votre fichier de particules dans le champ "Particles on hit".
 
-## Sounds
+## Sons
 
-You can add ambient sounds to your track to make it more interesting. Sound files must be in Ogg Vorbis format (.ogg). See [Music and SFX Guidelines](Music_and_SFX_Guidelines) for more information on what the style of the sound should be like.
+Vous pouvez ajouter des sons d'ambiance à votre morceau pour le rendre plus intéressant. Les fichiers sonores doivent être au format Ogg Vorbis (.ogg). Voir [Directives pour musique et effets sonores](Music_and_SFX_Guidelines) pour plus d'informations sur le style du son.
 
-### Sound Emitters
+### Emetteurs sonores
 
-{%popup_info Positional sound, including rolloff, will only work with mono audio. Audio should be mixed down to mono if you want the sound to pan or fade as you drive past the sound emitter.%}
+{%popup_info Le son positionnel, y compris le rolloff, ne fonctionne qu'avec de l'audio mono. L'audio doit être mixé en mono si vous souhaitez que le son soit panoramique ou en fondu lorsque vous passez devant l'émetteur de son.%}
 
-Create an empty Blender object and set its type to "Sound Emitter" in the SuperTuxKart Object Properties panel. Enter the name of your sound file in the "Sound File" field. The following properties are configurable:
+Créez un objet Blender "vide" et réglez son type sur "Sound Emitter" dans le panneau des propriétés d'objet de SuperTuxKart. Entrez le nom de votre fichier son dans le champ "Sound File". Les propriétés suivantes sont configurables:
 
-* **Sound volume:** The volume of the sound: 0 is silent, 1 is full volume.
-* **Rolloff rate:** How quickly the sound loses volume as distance from the camera increases
-* **Maximum distance:** The distance at which the sound is no longer audible
-* **Play on approach:** Makes the sound begin playing when the player approaches the sound emitter. Otherwise, the sound plays constantly unless acted upon by scripting.
-    * **Play when at distance:** Configurable if "Play on approach" is checked. It is the distance, in Blender units, from the sound emitter at which a kart triggers the sound to play.
+* **Sound volume:** Le volume du son: 0 est silencieux, 1 est le volume maximum.
+* **Rolloff rate:** La vitesse à laquelle le son perd de son volume à mesure que la distance par rapport à la caméra augmente.
+* **Maximum distance:** La distance à laquelle le son n'est plus audible
+* **Play on approach:** Le son commence à être joué lorsque le joueur s'approche de l'émetteur de son. Sinon, le son est joué en permanence à moins d'être activé par un script.
+    * **Play when at distance:** Configurable si l'option "Play on approach" est cochée. C'est la distance, en unités Blender, de l'émetteur de son à laquelle un kart déclenche le son.
 
-### Sounds From Driving Karts
+### Sons des karts
 
-You can set a sound effect to be played when a kart is driving on a particular texture. Select the image you want to use in the SuperTuxKart Image Properties panel, and check the "Play sound effect" box. Enter the name of your sound file in the "Sound File" field. The following properties are configurable:
+Vous pouvez définir un effet sonore à jouer lorsqu'un kart roule sur une texture particulière. Sélectionnez l'image que vous souhaitez utiliser dans le panneau Propriétés de l'image de SuperTuxKart et cochez la case " Play sound effect " (Jouer un effet sonore). Entrez le nom de votre fichier son dans le champ " Sound File ". Les propriétés suivantes sont configurables:
 
-* **Minimum kart speed:** The minimum speed at which the sound will play
-* **Maximum kart speed:** The maximum speed at which the sound will play
-* **Sound pitch at min speed:** The adjustment to the pitch made at minimum speed— numbers less than 1 lower the pitch, while numbers greater than 1 increase the pitch.
-* **Sound pitch at max speed:** The adjustment to the pitch made at maximum speed— numbers less than 1 lower the pitch, while numbers greater than 1 increase the pitch.
-* **Positional sound effect:** If checked, the sound will decrease in volume as distance increases. Requires mono sound.
-* **Rolloff rate:** The rate at which volume decreases as distance increases
+* **Minimum kart speed:** Vitesse minimale à laquelle le son sera joué
+* **Maximum kart speed:** Vitesse maximale à laquelle le son sera joué
+* **Sound pitch at min speed:** Le réglage du pas effectué à la vitesse minimale - les nombres inférieurs à 1 abaissent le pas, tandis que les nombres supérieurs à 1 l'augmentent.
+* **Sound pitch at max speed:** Le réglage du pas effectué à la vitesse maximale - les nombres inférieurs à 1 abaissent le pas, tandis que les nombres supérieurs à 1 l'augmentent.
+* **Positional sound effect:** Si cette option est cochée, le volume du son diminue au fur et à mesure que la distance augmente. Nécessite un son mono.
+* **Rolloff rate:** La vitesse à laquelle le volume diminue lorsque la distance augmente
 
-## Billboards
+## Panneaux d'affichage (Billboards)
 
-Billboards are flat quads which always face the player. Orient the quad along X or Z axis and set the type to "Billboard" in the SuperTuxKart Object Properties panel. This can be used to make a fake halo around lights. (However, this is no longer necessary for point lights with fog enabled in SuperTuxKart ≥ 0.9.)
+Les panneaux d'affichage sont des quads plats qui font toujours face au joueur. Orientez le quad le long de l'axe X ou Z et réglez le type sur "Billboard" dans le panneau des propriétés d'objet de SuperTuxKart. Ceci peut être utilisé pour créer un faux halo autour des lumières. (Cependant, ceci n'est plus nécessaire pour les lumières ponctuelles avec le brouillard activé dans SuperTuxKart ≥ 0.9).
 
-You can also enable the "Fade out when close" option in the SuperTuxKart Object Properties panel to make the billboard fade away as the kart approaches.
+Vous pouvez également activer l'option " Fade out when close " dans le panneau des propriétés d'objet de SuperTuxKart pour que le panneau d'affichage disparaisse à l'approche du kart.
 
-## Animated Textures
+## Textures animées
 
-Any objects that are part of the main track (i.e. no other special object listed here except objects of type "object") can mark one texture to be animated. The object must define the filename of the texture in the property texture to animate, and should set the speed of movement by setting the "Animation X Speed" and/or "Animation Y Speed" properties. See the following example:
+Tous les objets qui font partie de la piste principale (c'est-à-dire aucun autre objet spécial répertorié ici, à l'exception des objets de type " object ") peuvent marquer une texture à animer. L'objet doit définir le nom de fichier de la texture dans la propriété texture à animer, et doit définir la vitesse du mouvement en définissant les propriétés "Animation X Speed" et/ou "Animation Y Speed". Voir l'exemple suivant:
 
 {% single_gallery /assets/wiki/STK_animated_texture.jpg %}
 
-This can be used to simulate liquids flowing like water in a river. For an example, see the animated fish in Antediluvian Abyss. The .blend is in the abyss folder in the in the tracks folder of the media repository.
+Cela permet de simuler des liquides qui s'écoulent comme l'eau d'une rivière. Pour un exemple, voir les poissons animés dans Antediluvian Abyss. Le fichier .blend se trouve dans le dossier abyss du dossier tracks du dépôt multimédia.
 
-You can also use a "movie" texture like this one, for complex effects (fire, clouds, etc). You need to enable "Anim the texture by step". "Animation Y Speed" becomes the number of frames in the texture (in this example 4). The "time between two frames" property is the amount of time, in milliseconds, between frames.
+Vous pouvez également utiliser une texture "film" comme celle-ci, pour des effets complexes (feu, nuages, etc.). Vous devez activer l'option " Anim the texture by step " (animer la texture par étapes). La propriété "Animation Y Speed" devient le nombre d'images dans la texture (dans cet exemple 4). La propriété "time between two frames" est le temps, en millisecondes, entre deux images.
 
 {% single_gallery /assets/wiki/Stktex_animatedFire_a.png %}
 
-You should not use a large number of frames, otherwise you might experience performance issues.
+Vous ne devez pas utiliser un grand nombre de trames, sinon vous risquez de rencontrer des problèmes de performance.
 
-## Per-Object Effects
+## Effets par objet
 
-Although most effects are controlled by texture, objects with the type "Object", "LOD Instance", or "LOD Standalone" in the SuperTuxKart Object Properties panel can set a few special effects of their own. Note, however, that this requires setting the "Interaction" and "Shape" properties, which can cause problems if you're not careful. See [Physics\#kart-object-interaction](Physics#kart-object-interaction).
+Bien que la plupart des effets soient contrôlés par la texture, les objets de type "Object", "LOD Instance" ou "LOD Standalone" dans le panneau des propriétés d'objets de SuperTuxKart peuvent définir quelques effets spéciaux qui leur sont propres. Notez cependant que cela nécessite de définir les propriétés "Interaction" et "Shape", ce qui peut poser des problèmes si vous ne faites pas attention. Voir [Physique\#Interaction Kart Objet](Physics/#interaction-kart-objet).
 
-### Glow
+### Lueur(Glow)
 
-A glowing outline can be set to appear around certain objects, such as a barrel of nuclear waste. Items use this, for example. Simply set a color using the color picker button for the "Glow (outline)" property in the SuperTuxKart Object Properties panel for your object.
+Un contour lumineux peut être défini pour apparaître autour de certains objets, comme un baril de déchets nucléaires. Les objets l'utilisent, par exemple. Il suffit de définir une couleur à l'aide du sélecteur de couleur pour la propriété "Glow (outline)" dans le panneau des propriétés d'objet de SuperTuxKart.
 
-### Distortion
+### Distorsion
 
-Distortion is an extremely useful effect in many places. It simulates looking through a wavy piece of glass, but can also be used in other places. It is used in Antediluvian Abyss to create a distortion effect when looking through the glass and in Cocoa Temple to simulate heat waves in the cocoa roaster part of the temple. Enable it by using `displace` shader in custom shader name.
+La distorsion est un effet extrêmement utile dans de nombreux domaines. Il simule le fait de regarder à travers un morceau de verre ondulé, mais il peut également être utilisé à d'autres endroits. Il est utilisé dans Antediluvian Abyss pour créer un effet de distorsion lorsque l'on regarde à travers le verre et dans Cocoa Temple pour simuler des vagues de chaleur dans la partie du temple où l'on fait griller le cacao. Activez-le en utilisant le shader `displace` dans le nom du shader personnalisé (custom shader).
 
-The `textures/gfx` folder of the [media repository](Media_Repo) includes a texture called `gfx_distord_AlphaTested.png` which you can use to flag objects as being used for distortion. Like all textures ending with "AlphaTested" in the `gfx` folder, it won't appear in-game.
+Le dossier `textures/gfx` du [dépôt multimédia](Media_Repo) contient une texture appelée `gfx_distord_AlphaTested.png` que vous pouvez utiliser pour marquer les objets comme étant utilisés pour la distorsion. Comme toutes les textures se terminant par "AlphaTested" dans le dossier `gfx`, elle n'apparaîtra pas dans le jeu.
 
-## Special Camera Effects
+## Effets spéciaux de caméra
 
-### Alternate End Cameras
+### Caméras de fin de course alternatives
 
-Alternate end cameras allow you to show a different view at the end of the race. By default, the camera will face back on the player's kart at the end of the race. To show another view, place Blender cameras along the track, give them one of the types below in the SuperTuxKart Object Properties panel:
+Les caméras de fin de course alternatives vous permettent d'afficher une vue différente à la fin de la course. Par défaut, la caméra est orientée vers le kart du joueur à la fin de la course. Pour montrer une autre vue, placez des caméras Blender le long de la piste, donnez-leur un des types ci-dessous dans le panneau des propriétés d'objet de SuperTuxKart:
 
-* **End Camera (Fixed):** At the end of the race, the nearest end camera will turn and zoom automatically to follow the kart.
-* **End Camera (Look Ahead):** The default end camera, used only if you want to switch between fixed and look-ahead modes.
+* **End Camera (Fixed):** À la fin de la course, la caméra la plus proche tournera et zoomera automatiquement pour suivre le kart.
+* **End Camera (Look Ahead):** La caméra terminale par défaut, utilisée uniquement si vous souhaitez passer du mode fixe au mode "look-ahead".
 
-Set the "Start Sphere Radius" property so that the start spheres (where the the game will switch to another camera) overlap.
+Définissez la propriété "Start Sphere Radius" de manière à ce que les sphères de départ (où le jeu basculera vers une autre caméra) se chevauchent.
 
-{%popup_info The "Cutscene Camera" object type is discussed in [Appendix B: Cutscenes](Cutscenes).%}
+{%popup_info The "Le type d'objet "Cutscene Camera" est décrit dans [Annexe B: Cinématiques](Cutscenes).%}
 
-### Suspend Camera Movement
+### Suspendre le mouvement de caméra
 
-This effect is controlled per-texture. When a kart is over this texture, the camera will stop moving but still face the kart. This is most useful to emphasize a kart's fall into a pit or into water, which is why this is enabled by checking the "Falling Effect" box in the SuperTuxKart Image Properties panel. However, it might also be useful for e.g. a kart being shot by a cannon (See [Physics](Physics)). This effect is already enabled if you are using `gfx_resetWaterSplash_AlphaTested.png` for water.
+Cet effet est contrôlé par texture. Lorsqu'un kart passe au-dessus de cette texture, la caméra s'arrête de bouger mais reste face au kart. Cet effet est particulièrement utile pour souligner la chute d'un kart dans une fosse ou dans l'eau, c'est pourquoi il est activé en cochant la case " Falling Effect " (effet de chute) dans le panneau " SuperTuxKart Image Properties ". Cependant, cet effet peut également être utile dans le cas d'un kart tiré par un canon (voir [Physique]( Physics)). Cet effet est déjà activé si vous utilisez `gfx_resetWaterSplash_AlphaTested.png` pour l'eau.
 
-## Water
+## L'eau
 
-Without complex animation, unfortunately it is impossible to create waves or moving water. However, you do have a few options to make realistic water. Most water in SuperTuxKart is simply a water texture (e.g. jungleWater.png for Cocoa Temple) using the displace shader (see [Materials](Materials)). You can use an animated texture to simulate flowing water (see above).
+Sans animation complexe, il est malheureusement impossible de créer des vagues ou de l'eau en mouvement. Cependant, vous avez quelques options pour créer de l'eau réaliste. La plupart de l'eau dans SuperTuxKart est simplement une texture d'eau (par exemple jungleWater.png pour Cocoa Temple) utilisant le shader de displace (voir [Materiaux](Materials)). Vous pouvez utiliser une texture animée pour simuler de l'eau qui coule (voir ci-dessus).
 
-The best method for creating water is to have two planes: the top one textures with `gfx_resetWaterSplash_AlphaTested.png`, the middle textured with `jungleWater.png` and set the shader to `displace`.
+La meilleure méthode pour créer de l'eau est d'avoir deux plans : celui du haut texturé avec `gfx_resetWaterSplash_AlphaTested.png`, celui du milieu texturé avec `jungleWater.png` et de régler le shader sur `displace`.
 
 {% include art_portal %}

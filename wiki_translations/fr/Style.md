@@ -2,123 +2,123 @@
 title: Style
 toc: true
 ---
-This article details the way things are in the SuperTuxKart Universe (known as the Mascot Kingdom). It is important to make sure that your artwork fits into this universe—if it doesn't, it will not become part of SuperTuxKart, though it is still welcome on the [Add-Ons Website](https://online.supertuxkart.net).
+Cet article détaille la façon dont les choses se passent dans l'univers de SuperTuxKart (connu sous le nom de Royaume des Mascottes). Il est important de s'assurer que votre œuvre d'art correspond à cet univers - si ce n'est pas le cas, elle ne fera pas partie de SuperTuxKart, bien qu'elle soit toujours la bienvenue sur le [site STK Add-ons](https://online.supertuxkart.net).
 
-However, **SuperTuxKart is NOT an RPG**. SuperTuxKart has *narrative*, not plot. (Well, there's the cutscenes in Story Mode, but that's all.) Each track, arena, or kart has a sort-of background, but that does not really appear prominently in the game. It's analogous to a picture and a video: things in SuperTuxKart are like pictures—there's no plot, but you can still see what's happening. An RPG is more like a video—things change, and there's a plot.
+Cependant, **SuperTuxKart n'est PAS un RPG**. SuperTuxKart a une *narration*, pas une intrigue. (Chaque piste, arène ou kart a une sorte de contexte, mais qui n'apparaît pas vraiment dans le jeu. C'est un peu comme une image et une vidéo: les choses dans SuperTuxKart sont comme des images - il n'y a pas d'intrigue, mais vous pouvez quand même voir ce qui se passe. Un jeu de rôle ressemble davantage à une vidéo: les choses changent et il y a une intrigue.
 
-Note that this article does **not** describe restrictions on specific elements of artwork. Instead, it describes characters, places, and other entities which make the Mascot Kingdom come to life. For restrictions on specific types of artwork, see their corresponding links in the [Community](Community) Page.
+Notez que cet article ne décrit **pas** les restrictions concernant des éléments spécifiques de l'œuvre d'art. Il décrit plutôt les personnages, les lieux et les autres entités qui donnent vie au royaume des mascottes. Pour connaître les restrictions applicables à certains types d'œuvres d'art, consultez les liens correspondants dans la page [Communauté](Community).
 
-## Introduction to the Universe
+## Introduction à l'univers
 
-The Mascot Kingdom is very similar to our own universe. Plants, animals, weather, etc. are all similar to Earth, except for certain exceptions such as the XR591 track, which is located on the SuperTuxKart equivalent of Mars, and STK Enterprise, which is located in a spaceship.
+Le Royaume des Mascottes est très similaire à notre propre univers. Les plantes, les animaux, la météo, etc. sont tous semblables à la Terre, à quelques exceptions près, comme la piste XR591, qui est située sur l'équivalent SuperTuxKart de Mars, et STK Enterprise, qui est située dans un vaisseau spatial.
 
-Similarity to Earth, however, should *not* be taken to mean "mirror Earth as closely as possible." Instead, use real elements from Earth and use them as inspiration to *interpret* how they would appear in the Mascot Kingdom. If you find this difficult to understand, don't worry. As you read this article, you will see numerous examples of how this takes place.
+La similitude avec la Terre ne doit cependant pas être interprétée comme "refléter la Terre aussi fidèlement que possible". Il s'agit plutôt d'utiliser des éléments réels de la Terre et de s'en inspirer pour *interpréter* la façon dont ils apparaîtraient dans le Royaume des Mascottes. Si vous avez du mal à comprendre, ne vous inquiétez pas. En lisant cet article, vous verrez de nombreux exemples de la façon dont cela se passe.
 
-## The Mood
+## L'ambiance
 
-SuperTuxKart is a lighthearted game, and thus any artwork should be generally cheerful and friendly. It's important to keep in mind that SuperTuxKart's intended audience is children. Children often don't notice satire, so you cannot rely on satire to lighten gloomy artwork.
+SuperTuxKart est un jeu amusant et les illustrations doivent donc être gaies et amicales. Il est important de garder à l'esprit que le public visé par SuperTuxKart est celui des enfants. Les enfants ne remarquent souvent pas la satire[^1], et vous ne pouvez donc pas compter sur la satire[^1] pour égayer les dessins sombres.
 
-Tracks and karts can be spooky-themed, however. Fort Magma is an excellent example of this. However, note that it includes both light areas (like the hall directly behind the start line) and dark areas (the rest of the track). The track is also unrealistic and caricatural enough to not appear grim, and open areas prevent it from feeling oppressive.
+Les circuits et les karts peuvent toutefois avoir un thème effrayant. Fort Magma en est un excellent exemple. Cependant, il faut noter qu'il comprend à la fois des zones claires (comme le hall situé juste derrière la ligne de départ) et des zones sombres (le reste de la piste). La piste est également suffisamment irréaliste et caricaturale pour ne pas paraître sinistre, et les zones ouvertes lui évitent d'être oppressante.
 
-## Places
+## Les lieux
 
 {% single_gallery /assets/wiki/Stkflag_worldMap_a.jpg %}
 
-Places are fictional locations which affect the style of artwork. Many of these are heavily influenced by real-world places, but you will see that they are not exactly the same. They are *interpretations* of real-world places. They are also not equivalent to a track, because a track takes place in a fictional location, and is yet another *interpretation* of that location.
+Les lieux sont des endroits fictifs qui influencent le style de l'œuvre d'art. Beaucoup d'entre eux sont fortement influencés par des lieux du monde réel, mais vous verrez qu'ils ne sont pas exactement les mêmes. Ce sont des *interprétations* de lieux réels. Ils ne sont pas non plus équivalents à une piste, car une piste se déroule dans un lieu fictif et constitue une autre *interprétation* de ce lieu.
 
-### Regions
+### Les régions
 
-These are countries, continents, or just general areas that are in the STK universe. In most cases, choosing one of these is not sufficient for inspiration for artwork. However, choosing a region may be precise enough for a themed kart. For example, Suzanne, a monkey, could have a kart themed after Val Verde, in addition to the Blender Project which she represents. (Currently she does not.)
+Il s'agit de pays, de continents ou simplement de régions générales qui se trouvent dans l'univers STK. Dans la plupart des cas, le choix de l'une de ces régions n'est pas suffisant pour s'inspirer d'une œuvre d'art. Cependant, le choix d'une région peut être suffisamment précis pour un kart à thème. Par exemple, Suzanne, un singe, pourrait avoir un kart sur le thème de Val Verde, en plus du projet Blender qu'elle représente. (Actuellement, elle ne le représente pas.)
 
-Keep in mind that these are *interpretations* of real-world locations. (Many are, to put it bluntly, stereotypes of their corresponding real-world countries).)
+Gardez à l'esprit qu'il s'agit d'une *interprétation* de lieux réels. (Beaucoup sont, pour parler franchement, des clichés des pays correspondants dans le monde réel).
 
-* **Icyland:** similar to real-world Antarctica
-* **Val Verde:** A country in a jungle similar to the Amazon
-* **United Countries of Amarigo (UCA):** A large and diverse entity like the European Union, only for the fictionalized North America
-* **Europa:** A continent very much like Europe
-* **Nekhen:** A dry, desert country much like Egypt
-* **Asienti:** A continent very much like Asia
-* **Alantropic Ocean:** A large ocean
-* **XR591:** A planet similar to Mars, but with aliens and pools of noxious chemicals
-* **(Name still needed):** A planet very similar to Venus, filled with volcanoes and magma. This is where Nolok lives.
+* **Icyland:** similaire à l'Antarctique dans le monde réel
+* **Val Verde:** Un pays situé dans une jungle semblable à l'Amazonie
+* **United Countries of Amarigo (UCA):** Une entité vaste et diversifiée comme l'Union européenne, mais pour une Amérique du Nord fictive.
+* **Europa:** Un continent qui ressemble beaucoup à l'Europe
+* **Nekhen:** Un pays sec et désertique qui ressemble beaucoup à l'Égypte
+* **Asienti:** Un continent qui ressemble beaucoup à l'Asie
+* **Alantropic Ocean:** Un large océan
+* **XR591:** Une planète semblable à Mars, mais avec des extraterrestres et des bassins de produits chimiques toxiques.
+* **(Name still needed):** Une planète très semblable à Vénus, remplie de volcans et de magma. C'est là que vit Nolok.
 
-### Specific Locations
+### Lieux spécifiques
 
-These are places in which tracks can exist. There might be more than one of these specific locations in a *region*. When a track is created, it is an *interpretation* of a location. Because each track is an interpretation, multiple tracks can exist in the same location, yet not seem redundant. For example, Minigolf and Las Dunas Stadium both take place in Las Dunas, but are not redundant.
+Il s'agit d'endroits où des pistes peuvent exister. Il peut y avoir plusieurs de ces lieux spécifiques dans une *région*. Lorsqu'une piste est créée, il s'agit d'une *interprétation* d'un lieu. Étant donné que chaque piste est une interprétation, plusieurs pistes peuvent exister au même endroit, sans pour autant sembler répétitives. Par exemple, le Minigolf et le Las Dunas Stadium se déroulent tous deux à Las Dunas, mais ne sont pas répétitifs.
 
-* **Jerico Natural Park:** Remote forest in the United Countries of America
-* **Tushka**: A small tundra village in northern Europa.
+* **Jerico Natural Park:** Forêt isolée dans les États-Unis d'Amérique.
+* **Tushka**: Un petit village de la toundra au nord de l'Europe.
     * **Example Track:** Northern Resort
-* **Alpalaya:** A high mountain chain
-* **Alantropic Ocean Floor:** The bottom of the Alantropic Ocean
+* **Alpalaya:** Chaîne de haute montagne
+* **Alantropic Ocean Floor:** Le fond de l'océan Alantropic
     * **Example Track:** Antediluvian Abyss
-* **Danton's Basin:** An oil rig in the northern Alantropic Ocean
-* **New Whitburn:** A coast area along the Northern Alantropic Ocean in the UCA with spruce and pine trees
-    * **Example Track:** Lighthouse
-* **Las Dunas:** A large city much like real-world Las Vegas. It is located in a desert in the UCA.
+* **Danton's Basin:** Une plate-forme pétrolière dans le nord de l'océan Alantropic
+* **New Whitburn:** Une zone côtière le long de l'océan Alantropic Nord dans l'UCA avec des épicéas et des pins.
+    * **Example Track:** Lighthouse 
+* **Las Dunas:** Une grande ville qui ressemble beaucoup au monde réel de Las Vegas. Elle est située dans un désert de l'UCA.
     * **Example Tracks:** Minigolf, Las Dunas Stadium (Add-On)
-* **(Name still needed):** A ranch in the plains of the UCA
+* **(Name still needed):** Un ranch dans les plaines de l'UCA
     * **Example Track:** Bovine Barnyard
-* **Las Paredes/Alma Perdida/St. Margarita Village:** A village in the desert of southern UCA, similar to Mexico.
+* **Las Paredes/Alma Perdida/St. Margarita Village:** Village situé dans le désert du sud de l'UCA, semblable à celui du Mexique.
     * **Example Track:** Hacienda
-* **(Name still needed):** A lush yet non-tropical valley in Europa, part of the Alpalaya mountain chain. Also the location of the village of Berglidorf and Princess Sara's Palace
+* **(Name still needed):** Vallée luxuriante mais non tropicale d'Europa, faisant partie de la chaîne de montagnes Alpalaya. C'est également là que se trouvent le village de Berglidorf et le palais de la princesse Sara.
     * **Example Track:** Green Valley
-* **Malampoor:** A warm and highly populated southeastern Asientian city-state
-* **Malao:** A modern metropolis in southwestern Asienti, analogous to real-world Dubai
+* **Malampoor:** Cité-État chaude et très peuplée du sud-est de l'Asie
+* **Malao:** Métropole moderne du sud-ouest de l'Asie, semblable à Dubaï dans le monde réel.
     * **Example Track:** Shiny Suburbs (?)
-* **Shakura:** An island country like Japan
+* **Shakura:** Un pays insulaire comme le Japon
     * **Example Track:** Zen Garden
-* **Dizzy World Amusement Park:** An steampunk-style amusement park above the clouds
-* **Princess Sara Transcontinental Airport:** An international airport located in the Gran Paradiso Islands
+* **Dizzy World Amusement Park:** Un parc d'attractions de style steampunk au-dessus des nuages
+* **Princess Sara Transcontinental Airport:** Un aéroport international situé dans les îles du Gran Paradiso
 
-Cast of Characters
+La liste des personnages
 ------------------
 
-SuperTuxKart is not an RPG. However, it does have some elements of a story as an incentive to try all the tracks. If you are not familiar with the story (though you should be, if you have played Story Mode), the [Discover](Discover) page contains a brief rundown of the story and characters.
+SuperTuxKart n'est pas un RPG. Cependant, il comporte certains éléments d'une histoire pour vous inciter à essayer tous les circuits. Si vous n'êtes pas familier avec l'histoire (mais vous devriez l'être si vous avez joué au mode Histoire), la page [Découvrir](Discover) contient un bref résumé de l'histoire et des personnages.
 
-These characters are to be used sparingly. Outside of Story Mode, they have little use, but under certain circumstances they could be useful. Some characters listed below have examples of possible uses.
+Ces personnages doivent être utilisés avec précaution. En dehors du mode Histoire, ils n'ont que peu d'utilité, mais dans certaines circonstances, ils peuvent être utiles. Vous trouverez ci-dessous des exemples d'utilisations possibles de certains personnages.
 
-### Major Characters
+### Personnages principaux
 
-These characters take an active role in Story Mode and are essential to the game's storyline.
+Ces personnages jouent un rôle important dans le mode Histoire et sont essentiels à la narration du jeu.
 
-* **Tux:** Tux is a penguin and the mascot of the Linux Kernel. He usually resides in Icyland, but when his friend Gnu is captured by Nolok in Story Mode, he is ready to rescue him.
+* **Tux:** Tux est un manchot et la mascotte du noyau Linux. Il réside habituellement au Pays des Glaces, mais lorsque son ami Gnu est capturé par Nolok en mode Histoire, il est prêt à le secourir.
 
-* **Gnu:** A gnu (wildebeest) who represents the GNU project. He is very wise and is usually meditating at a monastery deep in Asienti.
+* **Gnu:** Un gnou qui représente le projet GNU. Il est très sage et médite généralement dans un monastère au fin fond de l'Asienti.
 
-* **Nolok:** A fireproof rhinoceros whose home, Fort Magma, is on Venus. As the antagonist, he causes all sorts of trouble for the peaceful inhabitants of the Mascot Kingdom, including kidnapping Gnu in Story Mode.
+* **Nolok:** Un rhinocéros ignifuge dont la maison, Fort Magma, se trouve sur Vénus. En tant qu'antagoniste, il cause toutes sortes d'ennuis aux paisibles habitants du Royaume des Mascottes, notamment en kidnappant Gnu en mode Histoire.
 
-### Minor Characters
+### Personnages secondaires
 
-These characters are generally on the "good" side, but have no specified role in Story Mode, besides being kart options.
+Ces personnages sont généralement du côté des "bons", mais n'ont pas de rôle précis dans le mode Histoire, à part celui d'être des options de karting.
 
-* **Sara:** An elf. She is the empress of the Mascot Kingdom, as well as the mascot of OpenGameArt. Her palace is probably located in the same valley as the Green Valley track.
-* **Suzanne:** A monkey who is the mascot of Blender. She, along with her many relatives, live in the jungles of Val Verde.
-    * **Example Use:** Along the road in Cocoa Temple
-* **Xue:** A farmer mouse from the plains of the UCA. She is the mascot of Xfce.
-* **Pif:** A puffin and a friend of Tux. He follows Tux around to help where needed.
+* **Sara:** Une elfe. Elle est l'impératrice du Royaume des Mascottes, ainsi que la mascotte d'OpenGameArt. Son palais est probablement situé dans la même vallée que la piste "Green Valley".
+* **Suzanne:** Un singe qui est la mascotte de Blender. Avec ses nombreux congénères, elle vit dans les jungles de Val Verde.
+    * **Example Use:** Le long de la route de Cocoa Temple
+* **Xue:** Une souris fermière des plaines de l'UCA. Elle est la mascotte de Xfce.
+* **Pif:** Un macareux et un ami de Tux. Il suit Tux partout pour l'aider en cas de besoin.
 
-*Other characters also exist. However, no background for them has as of yet been created.*
+*D'autres personnages existent également. Cependant, aucun contexte n'a encore été créé pour eux.*
 
-## Organizations
+## Organisations
 
-These organizations and companies should be used to brand objects in your artwork. For example, a laptop should have the Wegacom or Myrtille logo on it.
+Ces organisations et entreprises doivent être utilisées pour marquer les objets de votre œuvre d'art. Par exemple, un ordinateur portable doit porter le logo de Wegacom ou de Myrtille.
 
 <table class="wikitable">
 <tr>
-<th>Name
+<th>Non
 </th>
 <th>Description
 </th>
 <th>Logo
 </th></tr>
 <tr>
-<th colspan="3">Technology
+<th colspan="3">Technologie
 </th></tr>
 <tr>
 <td>Wegacom Corporation
 </td>
-<td>A computer and smartphone manufacturer
+<td>Un fabricant d'ordinateurs et de smartphones
 </td>
 <td>
 {% picture /assets/wiki/STK0.9_3.jpg --picture --alt STK0.9_3 --img style="width:100%;" %}
@@ -126,31 +126,31 @@ These organizations and companies should be used to brand objects in your artwor
 <tr>
 <td>Myrtille
 </td>
-<td>A high tech smartphone/tablet/notebook manufacturer
+<td>Un fabricant de smartphones/tablettes/ordinateurs portables de haute technologie
 </td>
 <td>
 </td></tr>
 <tr>
 <td>Vaalbara
 </td>
-<td markdown="1">A telecommunication & networking company
+<td markdown="1">Une entreprise de télécommunication et de mise en réseau
 </td>
 <td>
 </td></tr>
 <tr>
-<th colspan="3">Heavy Industry
+<th colspan="3">Industrie Lourde
 </th></tr>
 <tr>
 <td>Mandarava Motors
 </td>
-<td>Automobile manufacturer
+<td>Constructeur automobile
 </td>
 <td markdown="1">![Stkflag_mandaravaMotors_a]({{ '/assets/wiki/Stkflag_mandaravaMotors_a.png' | prepend: site.baseurl }}){:style="width:100%;"}
 </td></tr>
 <tr>
 <td>Nolok Industries
 </td>
-<td>Company of Nolok, the bad guy, producing mechanical parts and explosives
+<td>Entreprise de Nolok, le méchant, produisant des pièces mécaniques et des explosifs
 </td>
 <td>
 </td></tr>
@@ -160,114 +160,114 @@ These organizations and companies should be used to brand objects in your artwor
 <tr>
 <td>Canyon Junction Railway Corporation
 </td>
-<td>Railroad freight company
+<td>Entreprise de transport ferroviaire de marchandises
 </td>
 <td markdown="1">![Stkflag_canyonJunctionRailway_a]({{ '/assets/wiki/Stkflag_canyonJunctionRailway_a.jpg' | prepend: site.baseurl }}){:style="width:100%;"}
 </td></tr>
 <tr>
 <td>TCP (Trans Continental Post)
 </td>
-<td>Global courier delivery services company
+<td>Entreprise mondiale de services de livraison de courrier
 </td>
 <td markdown="1">![Stkflag_transContPostAD_a]({{ '/assets/wiki/Stkflag_transContPostAD_a.jpg' | prepend: site.baseurl }}){:style="width:100%;"}
 </td></tr>
 <tr>
 <td>OCA (Oceanic Airlines)
 </td>
-<td>A low cost airline carrier known for their poor attention to safety (primarily after the mysterious crash of flight 404)
+<td>Une compagnie aérienne à bas prix connue pour son manque d'attention à la sécurité (principalement après le mystérieux crash du vol 404).
 </td>
 <td markdown="1">![Stkflag_oceanicAirlinesAD_a]({{ '/assets/wiki/Stkflag_oceanicAirlinesAD_a.jpg' | prepend: site.baseurl }}){:style="width:100%;"}
 </td></tr>
 <tr>
 <td>RCA (Royal Cupcake Airways)
 </td>
-<td>The flagship airline of the Mascot Kingdom
+<td>La compagnie aérienne phare du Royaume des Mascottes
 </td>
 <td markdown="1">![Stkflag_cupcakeAirwayLogo_a]({{ '/assets/wiki/Stkflag_cupcakeAirwayLogo_a.png' | prepend: site.baseurl }}){:style="width:100%;"}
 </td></tr>
 <tr>
 <td markdown="1">Harvey & Weylyn
 </td>
-<td>A shipyard
+<td>Un chantier naval
 </td>
 <td markdown="1">![Stkflag_harveyWeylyn_a]({{ '/assets/wiki/Stkflag_harveyWeylyn_a.jpg' | prepend: site.baseurl }}){:style="width:100%;"}
 </td></tr>
 <tr>
 <td>Sara Space Agency Organization
 </td>
-<td>The Kingdom space program
+<td>Programme spatial du Royaume
 </td>
 <td markdown="1">![Stkflag_SSAO_a]({{ '/assets/wiki/Stkflag_SSAO_a.jpg' | prepend: site.baseurl }}){:style="width:100%;"}
 </td></tr>
 <tr>
-<th colspan="3">Food and drink
+<th colspan="3">Alimentation et boissons
 </th></tr>
 <tr>
 <td>Sunshine Cola
 </td>
-<td>Soda and sweet juices
+<td>Soda et jus sucrés
 </td>
 <td markdown="1">![Stkflag_sunshineCola_a]({{ '/assets/wiki/Stkflag_sunshineCola_a.jpg' | prepend: site.baseurl }}){:style="display:block;margin-left:auto;margin-right:auto;width:50%;"}
 </td></tr>
 <tr>
 <td>Big Farmer Co
 </td>
-<td>A farming Co-Operative
+<td>Une coopérative agricole
 </td>
 <td>
 </td></tr>
 <tr>
 <td>Stella Company
 </td>
-<td>A hot beverage/coffee house chain
+<td>Une chaîne de cafés/boissons chaudes
 </td>
 <td>
 </td></tr>
 <tr>
-<th colspan="3">Conglomerate
+<th colspan="3">Conglomérat
 </th></tr>
 <tr>
 <td>Tuxel
 </td>
-<td>A multinational who is the official fuel distributor for kart racing
+<td>Une multinationale qui est le distributeur officiel de carburant pour les courses de karting
 </td>
-<td>Oil and Energies
+<td>pétrole et énergies
 </td></tr>
 <tr>
 <td>Nolok Industries
 </td>
-<td>The company of the bad guy (Nolok)
+<td>La compagnie du méchant (Nolok)
 </td>
 <td>
 </td></tr>
 <tr>
 <td>OPAC
 </td>
-<td>A conglomerate which produces every product imaginable
+<td>Un conglomérat qui fabrique tous les produits imaginables
 </td>
 <td>
 </td></tr>
 <tr>
-<th colspan="3">Entertainment
+<th colspan="3">Divertissement
 </th></tr>
 <tr>
 <td>WXTB-TV
 </td>
-<td>A TV station located in Las Dunas
+<td>Une station de télévision située à Las Dunas
 </td>
 <td>
 </td></tr>
 <tr>
 <td>Dizzy World
 </td>
-<td>A steampunk amusement park that flies above the clouds
+<td>Un parc d'attractions steampunk qui s'envole au-dessus des nuages
 </td>
 <td>
 </td></tr>
 <tr>
 <td>Caldeira
 </td>
-<td>Fashion and clothes
+<td>Mode et vêtements
 </td>
 <td markdown="1">![Stkflag_caldeiraFashion_a]({{ '/assets/wiki/Stkflag_caldeiraFashion_a.jpg' | prepend: site.baseurl }}){:style="width:100%;"}
 </td></tr>
@@ -282,3 +282,6 @@ These organizations and companies should be used to brand objects in your artwor
 ## Other Notes About Style
 
 * The official unit of measurement is metric. All measurements on signs, etc. should be in metric.
+
+---
+[^1]: œuvre basé sur la moquerie

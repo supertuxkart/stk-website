@@ -1,27 +1,27 @@
 ---
-title: 'Making Tracks: Landscape'
+title: 'Faire des Pistes: Paysage'
 display_title: true
 ---
-Building a landscape is the first step in making a track more interesting. Your own methods for this are probably the best for you, but there are some ways ways to make this step easier and better.
+La conception d'un paysage est la première étape pour rendre une piste plus intéressante. Vos propres méthodes sont probablement les meilleures pour vous, mais il existe des moyens de faciliter et d'améliorer cette étape.
 
-## Guidelines
+## Directives
 
-* If possible, try to avoid making landscape or other features where it would not be seen from the track. Examples include valleys that would be hidden by mountains or hills.
-* Make sure that the landscape supports your track. (i.e. Flying tracks MUST make sense—somehow—or else they won't become part of main)
+* Dans la mesure du possible, essayez d'éviter de créer des paysages ou d'autres éléments qui ne seraient pas vus de la piste. Il peut s'agir par exemple de vallées qui seraient cachées par des montagnes ou des collines. 
+* Assurez-vous que le paysage soutient votre piste. (Les pistes volantes DOIVENT avoir un sens, d'une manière ou d'une autre, sinon elles ne feront pas partie du projet principal).
 
-## Outdoor Tracks
+## Pistes en extérieur
 
-For outdoor tracks, it's best to start by extruding points from the side of the track to begin building the ground. You can then add more faces and edges until you have your landscape. However, if you intend to make use of normals smoothing (see [Physics](Physics)), be sure to select your landscape in edit mode, and, using the "P" keyboard shortcut, make it separate from your track.
+Pour les pistes extérieures, il est préférable de commencer par extruder des points à partir du côté de la piste pour commencer à construire le sol. Vous pouvez ensuite ajouter d'autres faces et arêtes jusqu'à ce que vous obteniez votre paysage. Cependant, si vous avez l'intention d'utiliser le lissage des normales (voir [Physique](Physics)), assurez-vous de sélectionner votre paysage en mode édition et, à l'aide du raccourci clavier "P", séparez-le de votre piste.
 
-Another method for a more rapid result is using Blender's sculpting tools. With sculpting you rapidly produce a much more realistic landscape in a matter of hours.
+Une autre méthode pour un résultat plus rapide consiste à utiliser les outils de sculpture de Blender. Avec la sculpture, vous produisez rapidement un paysage beaucoup plus réaliste en quelques heures.
 
 {% gallery heights=200px
 /assets/wiki/Landscape_sculpting_1.jpg
 /assets/wiki/Landscape_sculpting_2.jpg
 %}
 
-## Indoor Tracks
+## Pistes en intérieur
 
-For indoor tracks, a landscape cannot easily be built from the track itself, since karts generally will be driving on part of the structure itself. You might be able to reuse parts of the track, or you might not. Normals smoothing, as mentioned in the section above, might also be difficult, unless you build the floor separate from the walls.
+Pour les pistes intérieures, il n'est pas facile de concevoir un paysage à partir de la piste elle-même, car les karts roulent généralement sur une partie de la structure. Il est possible de réutiliser certaines parties de la piste, ou non. Le lissage des normales, comme mentionné dans la section ci-dessus, peut également être difficile, à moins que vous ne réalisiez le sol séparément des murs.
 
 {% include art_portal %}

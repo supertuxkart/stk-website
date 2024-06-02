@@ -1,39 +1,40 @@
 ---
-title: 'Making Library Nodes: Remarques'
+title: 'Faire des objets de bibliothèque: Notes'
 toc: true
 ---
-## Importing Models from other sources
+## Importation de modèles d'autres sources
 
-If Blender can import it, the SuperTuxKart exporter scripts can export it. If you prefer to create your models in another program, you can simply import them into Blender (provided the format is supported) by going to **File > Import** in Blender's info window. However, you will still need to set up materials and other properties to be able to use your models in SuperTuxKart.
+Si Blender peut l'importer, les scripts d'exportation de SuperTuxKart peuvent l'exporter. Si vous préférez créer vos modèles dans un autre programme, vous pouvez simplement les importer dans Blender (à condition que le format soit supporté) en allant dans **Fichier > Importer** dans la de menu de Blender. Cependant, vous devrez toujours configurer les matériaux et autres propriétés pour pouvoir utiliser vos modèles dans SuperTuxKart.
 
 ## Blender
 
-Blender can be difficult to learn. However, start with a basic object and learn from there. Making objects for SuperTuxKart is a great way to help while learning Blender, and a great way to move toward more advanced things like making tracks or arenas.
+Blender peut être difficile à apprendre. Cependant, commencez par un objet de base et apprenez à partir de là. Créer des objets pour SuperTuxKart est un excellent moyen d'apprendre Blender, et un excellent moyen d'évoluer vers des choses plus avancées comme la création de pistes ou d'arènes.
 
-## Library Node IDs
+## Identifiant(ID) des objets de bibliothèque
 
-Every library node must have an ID. The format is
+Chaque objet de bibliothèque doit avoir un identifiant. Le format est le suivant
 
-{%popup_code stklib_objectName_variationLetter%}
+{%popup_code stklib_nomObjet_variationLettre%}
 
-The object name should be short and descriptive. It should not explain the details of your object, such as a plant's species. If an object similar to yours already exists in the `library` folder of the media repository, use a different variation letter. Suppose you would like a palm tree in a track, but you don't like the kind already in the media repository. You would notice that `stklib_palmTree_a` already exists. Therefore you would use `stklib_palmTree_b` for your palm tree model's ID.
+Le nom de l'objet doit être court et descriptif. Il ne doit pas expliquer les détails de votre objet, comme l'espèce d'une plante. Si un objet similaire au vôtre existe déjà dans le dossier `library` du dépôt de médias, utilisez une lettre de variation différente. Supposons que vous souhaitiez un palmier dans une piste, mais que vous n'aimiez pas l'espèce déjà présente dans le référentiel. Vous remarquerez que `stklib_palmTree_a` existe déjà. Par conséquent, vous utiliserez `stklib_palmTree_b` pour l'ID de votre modèle de palmier.
 
-## File Locations and Naming
+## Emplacement et nommage des fichiers
 
-It is extremely important to have consistent naming for library nodes, since other artists will be using them.
+Il est extrêmement important d'avoir un nommage cohérent pour les objets de la bibliothèque, car d'autres artistes les utiliseront.
 
-* The `.blend` file should be named with the library node ID with the `.blend` file extension.
-* The object to be linked in a scene (of type **Object**, **LOD Instance**, or **LOD Standalone** in the **SuperTuxKart Object Properties** panel) should be named with the library node prefix suffixed with `_main`. For example,
+* Le fichier `.blend` doit être nommé avec l'ID de l'objet de la bibliothèque et l'extension `.blend`.
+* L'objet à lier dans une scène (de type **Objet**, **LOD Instance**, ou **LOD Standalone** dans le panneau **Propriétés d'objet de SuperTuxKart**) doit être nommé avec le préfixe de l'objet de la bibliothèque suffixé par `_main`. Par exemple,
 
 {%popup_code stklib_palmTree_a_main%}
 
-* Other objects (e.g. LOD Models, particle emitters, etc. should be given a clear and identifying name to avoid confusion.)
-* To prevent errors in texture linking, you should have a directory structure like this: (Some folders are excluded for conciseness.)
+* Les autres objets (par exemple les modèles LOD, les émetteurs de particules, etc.) doivent recevoir un nom clair et identifiant pour éviter toute confusion.
+* Pour éviter les erreurs dans la liaison des textures, vous devriez avoir une structure de répertoire comme celle-ci: (Certains dossiers sont exclus pour des raisons de clarté).
 
+###### (node ID) est le nom de votre objet
 {%popup_code
 stk_media_repo -|
                 |- library -|
-                            |- <Library node category (buildings, vegetation, etc.> -|
+                            |- <Library node category (buildings, vegetation, etc.)> -|
                                                                                      |- <Library node ID> -|
                                                                                                            |- <Library node ID>.blend%}
 

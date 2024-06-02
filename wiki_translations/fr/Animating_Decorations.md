@@ -10,7 +10,7 @@ Vous pouvez également envisager d’utiliser le shader de végétation pour une
 
 Parce que le calcul des collisions entre deux objets en mouvement demande beaucoup de travail au moteur physique, vous devez définir la propriété **Shape** dans le **panneau de Propriétés d'objet de SuperTuxKart** pour chaque décoration de type **Object**, **LOD Instance**, ou **LOD Standalone**. Il s'agit de la forme utilisée par le moteur physique, qui ne sera pas visible, mais qui doit avoir un sens. Par exemple, un train doit avoir la forme d'une boîte(**Box**), mais une balle doit avoir la forme d'une sphère(**Shere**). La forme Cône(**Cone**) est orientée vers le haut dans le moteur physique.
 
-Une autre méthode consiste à définir la propriété **Interaction** de l'objet animé sur **Ghost** et à créer un autre objet non animé de la même forme que l'original, mais en définissant la propriété "Interaction" sur **Physics only**. Voir [Physics\#kart-object-interaction](fr/Physics#kart-object-interaction)
+Une autre méthode consiste à définir la propriété **Interaction** de l'objet animé sur **Ghost** et à créer un autre objet non animé de la même forme que l'original, mais en définissant la propriété "Interaction" sur **Physics only**. Voir [Physics\#Interaction Kart Objet](Physics/#interaction-kart-objet)
 
 ## À propos de l'animation squelettique
 

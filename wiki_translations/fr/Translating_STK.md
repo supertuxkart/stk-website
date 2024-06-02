@@ -1,45 +1,45 @@
 ---
-title: Translating STK
+title: Traduction STK
 toc: true
 ---
-**Link: [SuperTuxKart home at Transifex](https://www.transifex.com/supertuxkart/supertuxkart).**
+**Lien: [SuperTuxKart chez Transifex](https://www.transifex.com/supertuxkart/supertuxkart).**
 
-SuperTuxKart translation is web-based and involves using the [Transifex web application](https://www.transifex.com/supertuxkart/supertuxkart) for translations.
+La traduction de SuperTuxKart est effectuée sur Internet et implique l'utilisation de l'[application web Transifex](https://www.transifex.com/supertuxkart/supertuxkart) pour les traductions.
 
-## Join the translation group
+## Rejoindre le groupe de traduction
 
-**Important!** You need to join the translation group in order to be able to translate.
+**Important!** Vous devez rejoindre le groupe de traduction pour pouvoir traduire.
 
-To join a team, first click the "Join team" button near the top of the page (unfortunately, joining is not instantaneous, you will need to wait for us to approve your join request. We usually approve within 24 hours but sometimes we need some more time). Then select the language you would like to translate under "Available languages" and click the "Join" button.
+Pour rejoindre une équipe, cliquez d'abord sur le bouton " Join team " en haut de la page (malheureusement, l'adhésion n'est pas instantanée, vous devrez attendre que nous approuvions votre demande d'adhésion. Nous approuvons généralement votre demande dans les 24 heures, mais nous avons parfois besoin d'un peu plus de temps). Sélectionnez ensuite la langue que vous souhaitez traduire dans la liste des langues disponibles et cliquez sur le bouton "Rejoindre".
 
 {% single_gallery /assets/wiki/Transifex_join_team.jpg %}
 
-## Starting a new translation
+## Démarrer une nouvelle traduction
 
-To start a translation for a language that currently does not exist, simply click the "Request language" button near the top of the page. Then select the language you would like to request under "Languages" and click the "Request" button.
+Pour commencer une traduction dans une langue qui n'existe pas encore, il suffit de cliquer sur le bouton " Request language " (Demander une langue) en haut de la page. Sélectionnez ensuite la langue que vous souhaitez demander dans la rubrique "Languages" et cliquez sur le bouton "Request".
 
 {% single_gallery /assets/wiki/Transifex_request.jpg %}
 
-## Translating
+## Traduction
 
-You can start translating SuperTuxKart by first clicking the "Languages" tab in the left-hand side under "SuperTuxKart" or "SuperTuxKart Website" project, then click the language you want to translate and click the "Translate" button near the top of the page.
+Vous pouvez commencer à traduire SuperTuxKart en cliquant d'abord sur l'onglet "Languages" dans la partie gauche sous le projet "SuperTuxKart" ou "SuperTuxKart Website", puis en cliquant sur la langue que vous voulez traduire et en cliquant sur le bouton "Translate" en haut de la page.
 
 {% single_gallery /assets/wiki/Transifex_translate.jpg %}
 
-## Format Strings
+## Format des chaînes de caractères
 
-From time to time, you will meet some **format strings**:
+De temps en temps, vous rencontrerez des **chaînes de formatage**
 
-* `%s`, `%i`, `%d`: something will be inserted instead of the `%x`, simply add the same format strings in the translation. Note that these format strings do not specify order, so they need to appear in your translation in the same order as in the original string
-* `%0`, `%1`, etc.: Those are like the above ones, but are ordered (`%0` is the first inserted value, `%1` is the second inserted value, etc.). The advantage of those is that the translation does not need to insert the values in the same order as the original string. Note that you can use these format strings in your translation even if the original string uses the first (unordered) format string.
-* `%1$s`, `%2$s`, etc.: Those are like the above ones, but are ordered (`%1$s` is the first inserted value, `%2$s` is the second inserted value, etc.). `%1$s` is equivalent to `%0`, `%2$s` is equivalent to `%1`, etc. The reason this syntax is supported is simply because it's more standard than the `%0` syntax described above.
+* `%s`, `%i`, `%d`: quelque chose sera inséré à la place du `%x`, ajoutez simplement les mêmes chaînes de format dans la traduction. Notez que ces chaînes de format ne précisent pas l'ordre, elles doivent donc apparaître dans votre traduction dans le même ordre que dans la chaîne originale
+* `%0`, `%1`, etc.: Ces chaînes sont semblables aux précédentes, mais elles sont ordonnées (`%0` est la première valeur insérée, `%1` est la deuxième valeur insérée, etc.) L'avantage de ces chaînes est que la traduction n'a pas besoin d'insérer les valeurs dans le même ordre que la chaîne originale. Notez que vous pouvez utiliser ces chaînes de format dans votre traduction même si la chaîne originale utilise la première chaîne de format (non ordonnée).
+* `%1$s`, `%2$s`, etc.: Ceux-ci sont comme les précédents, mais sont ordonnés (`%1$s` est la première valeur insérée, `%2$s` est la deuxième valeur insérée, etc.) `%1$s` est équivalent à `%0`, `%2$s` est équivalent à `%1`, etc. La raison pour laquelle cette syntaxe est supportée est simplement qu'elle est plus standard que la syntaxe `%0` décrite ci-dessus.
 
-## Special plural forms
+## Formes spéciales du pluriel
 
-Some languages, such as Gaelic or Russian, require plural forms different from the English pattern. We use **ngettext** to handle these. You can find the definition for your language's plural forms in the [Localization Guide](https://docs.translatehouse.org/projects/localization-guide/en/latest/l10n/pluralforms.html) or in the [Common Locale Data Repository](https://www.unicode.org/cldr/cldr-aux/charts/26/supplemental/language_plural_rules.html).
+Certaines langues, comme le gaélique ou le russe, requièrent des formes de pluriel différentes du modèle anglais. Nous utilisons **ngettext** pour les gérer. Vous trouverez la définition des formes plurielles de votre langue dans le [Guide de localisation](https://docs.translatehouse.org/projects/localization-guide/en/latest/l10n/pluralforms.html) ou dans le [Common Locale Data Repository](https://www.unicode.org/cldr/cldr-aux/charts/26/supplemental/language_plural_rules.html).
 
-## Guides to translate SuperTuxKart Website project
+## Guides de traduction du projet Site Internet SuperTuxKart
 
-* Markdown syntax should be preserved, like in \*\*text\*\*, both \*\* should not be removed
-* Link inside brackets in Markdown should never be translated, which means **text** inside \[display\](text) should not be changed
+* La syntaxe Markdown doit être préservée, comme dans \*\*text\*\*, les deux \*\* ne doivent pas être supprimés.
+* Les liens entre parenthèses en Markdown ne doivent jamais être traduits, ce qui signifie que le **texte** à l'intérieur de \[display\](texte) ne doit pas être modifié.
 

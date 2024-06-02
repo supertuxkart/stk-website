@@ -10,7 +10,7 @@ You can use AngelScript for scripting in version higher than 0.8.1. If you want 
 
 ## Scripting API
 
-The API can be found at <https://doxygen.supertuxkart.net/group__Scripting.html>
+The API is available [here](https://doxygen.supertuxkart.net/group__Scripting.html)
 
 ## Triggers for scripts
 

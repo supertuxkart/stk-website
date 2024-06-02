@@ -1,41 +1,41 @@
 ---
-title: Scripting
+title: Script
 toc: true
 ---
 ## Introduction
 
-Scripting is used to provide all kinds of fun in-game interactions. If there's anything special you want to happen based on some event (Kart smashing into another kart, driving over a big red button, hitting a wooden box with an explosive cake), then scripting is just the thing for you!
+Les scripts sont utilisés pour créer toutes sortes d'interactions amusantes dans le jeu. Si vous voulez que quelque chose de spécial se produise en fonction d'un événement (un kart qui heurte un autre kart, un gros bouton rouge, un gâteau explosif qui heurte une boîte en bois), le scripting est exactement ce qu'il vous faut!
 
-You can use AngelScript for scripting in version higher than 0.8.1. If you want to learn how to add your own scripts, you should refer the AngelScript documentation.
+Vous pouvez utiliser AngelScript pour créer des scripts dans les versions supérieures à 0.8.1. Si vous souhaitez apprendre à ajouter vos propres scripts, vous pouvez consulter la documentation AngelScript.
 
-## Scripting API
+## API de script
 
-The API can be found at <https://doxygen.supertuxkart.net/group__Scripting.html>
+L'API est disponible [ici](https://doxygen.supertuxkart.net/group__Scripting.html)
 
-## Triggers for scripts
+## Déclencheurs pour les scripts
 
-### Action Triggers
+### Déclencheurs d'action (Action Triggers)
 
-Action Triggers are point based triggers with a radius. Think of it as a big bubble that pops when you enter it, triggering some action. This is probably the best method of triggering location-based events. By default the trigger is disabled right after it is activated. They can be activated or deactivated as you wish, using other scripts.
+Les déclencheurs d'action sont des déclencheurs ponctuels avec un rayon. Il s'agit d'une grosse bulle qui éclate lorsque vous y pénétrez, ce qui déclenche une action. Il s'agit probablement de la meilleure méthode pour déclencher des événements basés sur la localisation. Par défaut, le déclencheur est désactivé dès qu'il est activé. Ils peuvent être activés ou désactivés comme vous le souhaitez, en utilisant d'autres scripts.
 
-Relevant Methods:
+Méthodes appropriées:
 
 {%popup_code
 c++
 void createTrigger(const string &in, const Vec3 &in, float distance)
 void setTriggerReenableTimeout(const string &in, const string &in, float reenable_time)%}
 
-### On Collision
+### En cas de collision
 
-Collision-based triggering revolves around providing collision based interactions. Several different types of callbacks are defined.
+Le déclenchement basé sur les collisions consiste à fournir des interactions basées sur les collisions. Plusieurs types de rappels sont définis.
 
-At present the different callbacks are
+Actuellement, les différents rappels sont les suivants
 
 {%popup_code
 c++
-void onKartKartCollision(int idKart1, int idKart2) //for collisions between karts%}
+void onKartKartCollision(int idKart1, int idKart2) //Pour les collisions entre karts%}
 
-To detect collision between a kart and a physical object (track object), the "on-kart-collision" property should be defined on the object in the scene.xml file, containing the name of the scripting function to call
+Pour détecter une collision entre un kart et un objet physique (track object), la propriété "on-kart-collision" doit être définie sur l'objet dans le fichier scene.xml, contenant le nom de la fonction de script à appeler.
 
 {%popup_code
 c++
@@ -48,7 +48,7 @@ void onTestObjectKartCollision(int idKart, const string libraryInstance, const s
     // ...
 }%}
 
-To detect collision between an item (a powerup/weapon) and a physical object (track object), the "on-item-collision" property should be defined on the object in the scene.xml file, containing the name of the scripting function to call
+Pour détecter une collision entre un objet (powerup/weapon) et un objet physique (track object), la propriété "on-item-collision" doit être définie sur l'objet dans le fichier scene.xml, contenant le nom de la fonction de script à appeler.
 
 {%popup_code
 c++
@@ -64,15 +64,15 @@ void onTestObjectItemCollision(int itemType, int idKart, const string objID)
    }
 }%}
 
-### On Start
+### Au départ
 
-Start-up scripts will run exactly once, during the track loading process. As such, they are ideal for setting the initial states of any animations, creating new action triggers, etc.
+Les scripts de démarrage s'exécutent une seule fois, pendant le processus de chargement de la piste. Ils sont donc idéaux pour définir les états initiaux des animations, créer de nouveaux déclencheurs d'action, etc.
 
 {%popup_code
 c++
 void onStart()%}
 
-Library objects can also declare an onStart callback, it should be placed in a namespace that has the same name as the library object (it is recommended to put **all** library object code in its own namespace to avoid conflicts
+Les objets de bibliothèque peuvent également déclarer un rappel onStart, qui doit être placé dans un espace de noms portant le même nom que l'objet de bibliothèque (il est recommandé de placer **tout** le code de l'objet de bibliothèque dans son propre espace de noms afin d'éviter les conflits).
 
 {%popup_code
 c++
@@ -84,10 +84,10 @@ namespace stklib_fitchBarrel_a
     }
 }%}
 
-### On Update (currently disabled in track.cpp)
+### Sur mise à jour (actuellement désactivé dans track.cpp)
 
-<span style="color:red">WARNING: Inefficient. Use sparingly.</span>
+<span style="color:red">AVERTISSEMENT: Inefficace. A utiliser avec précaution.</span>
 
-Update scripts will keep running throughout the race and as such, will cause performance issues if used carelessly. They are ideal, however, for testing out scripts during testing. Whenever possible, these scripted actions should be moved into one of the other types (most probably the action-trigger driven type) so as to improve performance.
+Les scripts de mise à jour continueront à être exécutés pendant toute la durée de la course et, de ce fait, entraîneront des problèmes de performance s'ils sont utilisés sans précaution. Ils sont toutefois idéaux pour tester les scripts pendant les essais. Dans la mesure du possible, ces actions scénarisées doivent être déplacées dans l'un des autres types (plus probablement le type "action-trigger driven") afin d'améliorer les performances.
 
 {% include art_portal %}

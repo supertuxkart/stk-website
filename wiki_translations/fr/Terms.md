@@ -1,37 +1,37 @@
 ---
-title: Terms
+title: Modalités
 display_title: true
 ---
-## Terms and Conditions
+## Termes et conditions
 
-Welcome to SuperTuxKart. If you continue to browse and use this website and the [online service (STKAddons)](https://online.supertuxkart.net) in SuperTuxKart, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern SuperTuxKart's relationship with you in relation to this service. If you disagree with any part of these terms and conditions, please do not use this website or the online features of SuperTuxKart. Please also check our [privacy policy](Privacy).
+Bienvenue sur SuperTuxKart. Si vous continuez à naviguer et à utiliser ce site web et le [service (STKAddons)](https://online.supertuxkart.net) de SuperTuxKart, vous acceptez de vous conformer et d'être lié par les termes et conditions d'utilisation suivants, qui, avec notre politique de confidentialité, régissent la relation de SuperTuxKart avec vous en ce qui concerne ce service. Si vous n'êtes pas d'accord avec une partie de ces conditions d'utilisation, veuillez ne pas utiliser ce site web ou les fonctionnalités en ligne de SuperTuxKart. Veuillez également consulter notre [Politique de confidentialité](Privacy).
 
-The term 'SuperTuxKart' or 'us' or 'we' refers to the SuperTuxKart open source game. The term 'you' refers to the user or viewer of our website and the SuperTuxKart online service; and the term 'addon' refers user created content (karts, tracks, arenas, music, and other art work).
+Le terme 'SuperTuxKart' ou 'nous' fait référence au jeu open source SuperTuxKart. Le terme "vous" désigne l'utilisateur ou le spectateur de notre site web et du service en ligne SuperTuxKart; et le terme "addon" désigne le contenu créé par l'utilisateur (karts, pistes, arènes, musique et autres œuvres d'art).
 
-The use of this website and the SuperTuxKart online service is subject to the following terms of use:
+L'utilisation de ce site et du service en ligne SuperTuxKart est soumise aux conditions d'utilisation suivantes:
 
-* The content of the pages of this website is for the game SuperTuxKart only. It is subject to change without notice.
+* Le contenu des pages de ce site est réservé au jeu SuperTuxKart. Il peut être modifié sans préavis.
 
-* You are allowed to upload and download addons on the web page, vote for addons, start online races with other users, and connect with friends. Addons can also be downloaded in the game SuperTuxKart. Any other use of this web page is prohibited.
+* Vous pouvez téléverser et télécharger des addons sur la page web, voter pour des addons, commencer des courses en ligne avec d'autres utilisateurs et vous connecter avec vos amis. Les modules complémentaires peuvent également être téléchargés dans le jeu SuperTuxKart. Toute autre utilisation de cette page web est interdite.
 
-* No warranty or guarantee is given about the safety of uploaded addons. While we will keep backup, it's up to the original artists to keep a master copy of any uploaded work.
+* Aucune garantie n'est donnée quant à la sécurité des modules complémentaires téléchargés. Bien que nous conservions des copies de sauvegarde, il incombe aux artistes originaux de conserver une copie maîtresse de tout travail téléchargé.
 
-* You are only allowed to upload addons for which you have the full right to distribute them, including any artwork used in creation of your addon. You must include a license file specifying the license under which you release the addons, and grant us the right to use and distribute your addon on the STKAddons web page and in SuperTuxKart.
+* Vous n'êtes autorisé à télécharger que des addons pour lesquels vous disposez de tous les droits de distribution, y compris les illustrations utilisées lors de la création de votre addon. Vous devez inclure un fichier de licence spécifiant la licence sous laquelle vous distribuez les addons, et nous accorder le droit d'utiliser et de distribuer votre addon sur la page web STKAddons et dans SuperTuxKart.
 
-* Since SuperTuxKart is a child-friendly game, all uploaded addons go through an approval process to make sure the appropriateness of any addons. While we try to approve addons as soon as possible, no guarantee of a timely assessment is given. In case of a dispute about the appropriateness, we will contact you using the email address you have provided in the account creation. Final decision is made by the SuperTuxKart team.
+* SuperTuxKart étant un jeu destiné aux enfants, tous les addons téléchargés sont soumis à un processus d'approbation afin de s'assurer qu'ils sont appropriés. Bien que nous essayions d'approuver les addons dès que possible, aucune garantie n'est donnée quant à une évaluation rapide. En cas de litige concernant la pertinence d'un addon, nous vous contacterons à l'adresse électronique que vous avez fournie lors de la création de votre compte. La décision finale est prise par l'équipe de SuperTuxKart.
 
-* All addons go through an approval process, but nevertheless we do not guarantee that only appropriate content is available, and we expressly exclude liability for any such instances. If there is any concern about an addon, please contact us.
+* Tous les modules complémentaires sont soumis à un processus d'approbation, mais nous ne garantissons pas que seul le contenu approprié est disponible, et nous excluons expressément toute responsabilité à cet égard. En cas de problème concernant un module complémentaire, veuillez nous contacter.
 
-* This website and STKAddons use cookies to monitor browsing preferences. No information is shared with any third party.
+* Ce site web et STKAddons utilisent des cookies pour surveiller les préférences de navigation. Aucune information n'est communiquée à des tierces parties.
 
-* Neither we nor any third parties provide any warranty or guarantee as to the accuracy, timeliness, performance, completeness or suitability of the information and materials found or offered on this website and service for any particular purpose. You acknowledge that such information and materials may contain inaccuracies or errors and we expressly exclude liability for any such inaccuracies or errors to the fullest extent permitted by law.
+* Ni nous ni aucun tiers ne fournissons de garantie quant à l'exactitude, l'actualité, la performance, l'exhaustivité ou l'adéquation des informations et du matériel trouvés ou proposés sur ce site web et ce service pour un objectif particulier. Vous reconnaissez que ces informations et matériaux peuvent contenir des inexactitudes ou des erreurs et nous excluons expressément toute responsabilité pour de telles inexactitudes ou erreurs dans toute la mesure permise par la loi.
 
-* Your use of any information or materials on this website is entirely at your own risk, for which we shall not be liable. It shall be your own responsibility to ensure that any products, services or information available through this website meet your specific requirements.
+* L'utilisation d'informations ou de matériel sur ce site se fait entièrement à vos risques et périls, et nous n'en sommes pas responsables. Il est de votre responsabilité de vous assurer que les produits, services ou informations disponibles sur ce site répondent à vos besoins spécifiques.
 
-* This website contains material which is owned by or licensed to us. This material includes, but is not limited to, the design, layout, look, appearance and graphics. Reproduction is prohibited other than in accordance with the copyright notice, which forms part of these terms and conditions.
+* Ce site web contient du matériel qui nous appartient ou dont nous avons la licence. Ce matériel comprend, sans s'y limiter, la conception, la mise en page, l'aspect, l'apparence et les graphiques. La reproduction est interdite, sauf en conformité avec l'avis de droit d'auteur, qui fait partie des présentes conditions générales.
 
-* All trade marks reproduced in this website which are not our property, but licensed to us, are acknowledged on the website.
+* Toutes les marques reproduites sur ce site qui ne sont pas notre propriété, mais qui nous sont concédées sous licence, sont reconnues sur le site.
 
-* Unauthorised use of this website may give rise to a claim for damages and/or be a criminal offence.
+* L'utilisation non autorisée de ce site web peut donner lieu à une demande de dommages-intérêts et/ou constituer une infraction pénale.
 
-* From time to time this website may also include links to other websites. These links are provided for your convenience to provide further information. They do not signify that we endorse the website(s). We have no responsibility for the content of the linked website(s).
+* De temps à autre, ce site web peut également inclure des liens vers d'autres sites web. Ces liens sont fournis pour votre commodité afin de vous donner de plus amples informations. Ils ne signifient pas que nous approuvons le(s) site(s) web. Nous ne sommes pas responsables du contenu de ces sites.

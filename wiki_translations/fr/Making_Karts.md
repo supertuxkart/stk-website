@@ -20,7 +20,7 @@ Welcome to the kart-making tutorial. Kart-making is a good starting place for fa
 * [Propriétés](Making_Karts:_Properties)
 * [Modélisation](Making_Karts:_Modeling)
 * [Texturation](Texturing)
-* [Materials](Materials)
+* [Matériaux](Materials)
 * [Tests](Making_Karts:_Testing)
 * [Animation](Making_Karts:_Animation)
 * [Accessoires et effets des karts](Making_Karts:_Kart_Attachments_and_Effects)

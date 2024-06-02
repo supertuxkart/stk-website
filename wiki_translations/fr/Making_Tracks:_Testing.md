@@ -1,31 +1,31 @@
 ---
-title: 'Making Tracks: Testing'
+title: 'Faire des Pistes: Tests'
 toc: true
 ---
-After following the instructions in previous modules, you should now be ready to test your track. However, you will also want to retest later on as you add more to your track. You should also be advised that, if possible, seek the opinion of someone other than yourself about your track. They'll be less likely to be biased and can often give you better advice. Try posting your track on the forum, or have a friend try your track prototype.
+Après avoir suivi les instructions des modules précédents, vous devriez maintenant être prêt à tester votre piste. Toutefois, vous voudrez également procéder à de nouveaux tests plus tard, au fur et à mesure que vous ajouterez des éléments à votre piste. Nous vous conseillons également de demander, si possible, l'avis de quelqu'un d'autre que vous sur votre piste. Cette personne sera moins susceptible d'être partiale et pourra souvent vous donner de meilleurs conseils. Essayez de poster votre piste sur le forum, ou demandez à un ami d'essayer votre prototype de piste.
 
-## Exporting
+## Exporter
 
-Under Scene Properties, under Track Exporter, click "Export Track". In the same directory as your .blend file, you should find another directory called "tracks". Inside the "tracks" folder, copy the folder with the name of your track to the SuperTuxKart track addons directory:
+Sous Scene Properties, sous Quick Exporter, cliquez sur "Export Track". Votre piste sera expoter dans le répertoire que vous aurez choix, défini dans "Assets (data) path", vous devriez trouver un autre répertoire appelé "tracks". Dans le dossier "tracks", copiez le dossier portant le nom de votre piste dans le répertoire des addons de piste de SuperTuxKart:
 
-* On Windows: %APPDATA%/supertuxkart/addons/tracks
-* On Linux: ~/.local/share/supertuxkart/addons/tracks
-* On macOS: ~/Library/Application Support/supertuxkart/addons/tracks
+* Sur Windows: %APPDATA%/supertuxkart/addons/tracks
+* Sur Linux: ~/.local/share/supertuxkart/addons/tracks
+* Sur macOS: ~/Library/Application Support/supertuxkart/addons/tracks
 
-Also be sure to copy any textures you used that were not from the media repository.
+Veillez également à copier toutes les textures que vous avez utilisées et qui ne proviennent pas du dépôt multimédia.
 
-Now, start SuperTuxKart and find your track under the "Add-Ons" section when you set up a race.
+Maintenant, lancez SuperTuxKart et trouvez votre circuit dans la section "Add-Ons" lorsque vous configurez une course.
 
-## Guidelines
+## Directives
 
-As you drive your track, watch to make sure your track follows the guidelines listed at [Making Tracks: Notes\#gameplay](Making_Tracks:_Notes#gameplay)
+Pendant que vous conduisez votre piste, assurez-vous qu'elle respecte les directives énumérées dans [Faire des Pistes: Notes#Jouabilité](Making_Tracks:_Notes/#jouabilité)
 
-## About Fixing Problems
+## À propos de la résolution des problèmes
 
-To make your track more future-proof, edit the Bézier curve you created in the previous module, delete your track and driveline, and then create new ones and reapply the array and curve modifiers. That way, you can easily remake your track later on without having to correct issues with driveability again.
+Pour rendre votre piste plus stable, modifiez la courbe de Bézier que vous avez créée dans le module précédent, supprimez votre piste et votre chaîne cinématique, puis créez-en de nouvelles et appliquez à nouveau les modificateurs de tableau et de courbe. De cette façon, vous pourrez facilement refaire votre piste plus tard sans avoir à corriger à nouveau les problèmes de conduite.
 
 ## Conclusion
 
-This article is short, but be sure to spend plenty of time testing your track. It should be fun to drive, because even pretty decorations and landscaping, which you'll learn about in future sections, won't make up for a boring track.
+Cet article est court, mais veillez à passer beaucoup de temps à tester votre circuit. Il doit être agréable à conduire, car même de jolies décorations et des éléments paysagers, que vous découvrirez dans les sections suivantes, ne compenseront pas une piste ennuyeuse.
 
 {% include art_portal %}

@@ -35,7 +35,7 @@ Le nommage est organisé selon le modèle suivant: préfixe_nom_suffixe.extensio
     * diff = diffus (diffuse)
     * lm = carte de lumière (lightmap)
     * spec = carte spéculaire (specular map)
-    * mask = masque de [Colorisation](Materials#colorization) (Colorization mask)
+    * mask = masque de [Colorisation](Materials/#colorisation) (Colorization mask)
     * normal = carte des normales (normal map)
     * ao = occlusion ambiante (ambient occlusion)
     * Par défaut, rien signifie diffus

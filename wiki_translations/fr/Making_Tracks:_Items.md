@@ -1,18 +1,18 @@
 ---
-title: 'Making Tracks: Items'
+title: 'Faire des Pistes: Objets(Items)'
 display_title: true
 ---
-Though seemingly trivial and unimportant, adding items is an important step in making a fun track. Items add elements of randomness and rewards to players, and make each race different, even on the same track. Therefore, while not difficult to add, you should take some time when placing items. Here are some hints for placement to make things more fun:
+Bien qu'apparemment négligeable et sans importance, l'ajout d'objets est en réalité une étape importante dans la création d'une piste amusante. Les objets ajoutent des éléments aléatoires et des récompenses aux joueurs, et rendent chaque course différente, même sur la même piste. Par conséquent, bien qu'il ne soit pas difficile d'ajouter des éléments, vous devez prendre le temps de les placer. Voici quelques conseils de placement pour rendre les choses plus amusantes :
 
-* Use nitros, especially large nitros to reward players who take an alternate route or try something unusual.
-* Use bananas sparingly, but use them to make straightaways less boring.
-* Place items in rows across the track in most places so that the player in last place is not always left without any items.
-* Use items to mark the way, where necessary.
+* Utilisez des nitros, en particulier de grosses nitros pour récompenser les joueurs qui prennent une route alternative ou tentent quelque chose d'inhabituel. 
+* Utilisez les bananes avec modération, mais utilisez-les pour rendre les lignes droites moins ennuyeuses. 
+* Placez des objets en rangées sur la piste dans la plupart des endroits afin que le joueur en dernière position ne se retrouve pas toujours sans objet. 
+* Utilisez les objets pour marquer le chemin, si nécessaire. 
 
-Take inspiration from Northern Resort for item placement and choice.
+Inspirez-vous de Northern Resort pour le placement et le choix des objets.
 
-## Adding Items
+## Ajout d'objets
 
-To place items, simply create an "Empty" object where you want an item to be, then, in the SuperTuxKart Object Properties panel, make it one of the types listed in the "Items" section. You can also enable the "Drop to ground" option for all items except Easter eggs, which ensures that the item is able to be picked up from the track.
+Pour placer des objets, il suffit de créer un objet "vide" à l'endroit où vous souhaitez placer un objet, puis, dans le panneau des propriétés d'objet de SuperTuxKart, d'en faire un des types listés dans la section "Elements". Vous pouvez également activer l'option "Drop to ground" pour tous les objets, à l'exception des œufs de Pâques(egg), ce qui garantit que l'objet pourra être ramassé sur la piste.
 
 {% include art_portal %}

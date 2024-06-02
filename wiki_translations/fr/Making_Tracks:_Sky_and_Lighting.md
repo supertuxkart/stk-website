@@ -1,33 +1,33 @@
 ---
-title: 'Making Tracks: Sky and Lighting'
+title: 'Faire des Pistes: Ciel et éclairage'
 toc: true
 ---
-Sky and lighting may not seem like very important or time-consuming element of track creation, but just because this is one of the last sections, <u>do not slack off</u> on it. Lighting is probably the single most important step in setting the theme or mood of your track—more than even decorations. Decorations should complement the mood, but even the way in which they do this is greatly affected by the lighting. Compare Cocoa Temple with its nighttime version, Carnival del Cacao.
+Le ciel et l'éclairage peuvent ne pas sembler être des éléments très importants ou prendre beaucoup de temps dans la création d'une piste, mais ce n'est pas parce que c'est l'une des dernières sections, <u>ne vous laissez pas aller</u>. L'éclairage est probablement l'étape la plus importante pour définir le thème ou l'ambiance de votre piste - plus que les décorations. Les décorations doivent compléter l'ambiance, mais même la façon dont elles le font est grandement influencée par l'éclairage. Comparez Cocoa Temple avec sa version nocturne, Carnival del Cacao.
 
 {% gallery widths=48%
 /assets/wiki/STK0.9_2.jpg
 /assets/wiki/STK0.9.1_3.jpg
 %}
 
-The nighttime sky in Carnival del Cacao is contrasted by the colorful light from the fireworks and the more noticeable light from the torches, creating a more festive atmosphere. Cocoa Temple seems quite everyday and ordinary in comparison.
+Le ciel nocturne du Carnaval del Cacao est contrasté par la lumière colorée des feux d'artifice et la lumière plus visible des torches, ce qui crée une atmosphère plus festive. En comparaison, le temple du cacao semble tout à fait ordinaire et courant.
 
-## Sky
+## Ciel
 
-Sky complements lighting in setting the mood (and in fact directly effects the lighting if an ambient light map is used). A dark track should have a dark sky, and a light track should have a light sky. Sky is configured in the SuperTuxKart Scene Properties panel. Select a type from the "Sky Type" drop-down menu. Each type is detailed below.
+Le ciel complète l'éclairage en créant une ambiance (et en fait, il affecte directement l'éclairage si une carte de lumière ambiante est utilisée). Une piste sombre doit avoir un ciel sombre, et une piste claire doit avoir un ciel clair. Le ciel est configuré dans le panneau des propriétés de la scène de SuperTuxKart. Sélectionnez un type dans le menu déroulant " Type de ciel ". Chaque type est détaillé ci-dessous.
 
-### Box
+### Boîte
 
-For performance and lighting reasons, SuperTuxKart uses a *skybox* for textured skies, meaning that the track essentially exists inside a textured cube. (Skydomes are no longer an option.) Each texture (you may use a different one for each side) should be a 1024 × 1024 image, preferably in JPEG format.
+Pour des raisons de performance et d'éclairage, SuperTuxKart utilise une *boîte à ciel* pour les ciels texturés, ce qui signifie que la piste existe essentiellement à l'intérieur d'un cube texturé. ( Les dômes de ciel ne sont plus une option.) Chacune des textures (vous pouvez en utiliser une différente pour chaque côté) doit être une image de 1024 × 1024, de préférence au format JPEG.
 
-Though simple in design, skyboxes are not always easy to create. Textures must fit together properly; otherwise the corners of the skybox will be readily visible. Don't try to make the skybox too detailed, and **don't use photographs**; otherwise you will have problems with noticeable edges. The same rules for [texture guidelines](Texture_Guidelines) apply to skybox textures.
+Bien que de conception simple, les boîtes à ciel ne sont pas toujours faciles à créer. Les textures doivent s'emboîter correctement, sinon les coins de la boîte à ciel seront facilement visibles. N'essayez pas de rendre la boîte à ciel trop détaillée et **n'utilisez pas de photographies**, sinon vous aurez des problèmes avec les bords visibles. Les mêmes règles pour les [Directives pour les textures](Texture_Guidelines) s'appliquent aux textures de la boîte à ciel.
 
-Don't worry too much if edges are visible. As long as your track is interesting enough, players won't be bothered much by a slightly visible edge, as is visible in the top center of this picture:
+Ne vous inquiétez pas trop si les bords sont visibles. Tant que votre piste est suffisamment intéressante, les joueurs ne seront pas gênés par un bord légèrement visible, comme c'est le cas en haut au centre de cette image:
 
 {% gallery widths=48%
 /assets/wiki/STK0.9_1.jpg
 %}
 
-Another way to avoid visible lines in a skybox is to hide them with vegetation and land formations. The skybox in Cocoa Temple is barely visible, but the vegetation in front of it does not look strange because the skybox texture itself suggests vegetation:
+Une autre façon d'éviter les lignes visibles dans une boîte à ciel est de les cacher avec de la végétation et des formations terrestres. La boîte à ciel du temple de Cocoa est à peine visible, mais la végétation qui la précède n'a pas l'air étrange, car la texture de la boîte à ciel elle-même représente de la végétation:
 
 {% gallery heights=300px
 /assets/wiki/Skybox_aa.jpg,Skybox texture
@@ -36,73 +36,73 @@ Another way to avoid visible lines in a skybox is to hide them with vegetation a
 
 ### Plain Color
 
-The sky will be a single solid color, set by the "Sky color" property. This could useful for mostly-indoor tracks, but is not recommended.
+Le ciel sera d'une seule couleur unie, définie par la propriété "Sky color". Cela peut être utile pour les pistes intérieures, mais n'est pas recommandé.
 
-### None
+### Aucun
 
-The sky will appear to be pale gray; however there is not actually a sky at all. This is simply the standard OpenGL background color, just like the background in Blender.
+Le ciel apparaît en gris pâle, mais il n'y a pas de ciel du tout. Il s'agit simplement de la couleur d'arrière-plan OpenGL standard, tout comme l'arrière-plan dans Blender.
 
-## Sun
+## Soleil
 
-### Sun (Lighting and Shadows)
+### Soleil (éclairage et ombres)
 
-This type of sun will not be visible in-game, but will still produce light and is used for calculating shadows. To create a sun for lighting, add a Blender sun and set it as "Sun" in the SuperTuxKart Object Properties panel. This allows you to configure three other properties:
+Ce type de soleil ne sera pas visible dans le jeu, mais il produira tout de même de la lumière et sera utilisé pour calculer les ombres. Pour créer un soleil pour l'éclairage, ajoutez un soleil Blender et définissez-le comme "Soleil" dans le panneau des propriétés d'objet de SuperTuxKart. Cela vous permet de configurer trois autres propriétés :
 
-* **Ambient color:** This is the color of the light that will be everywhere in the track, even if the sun is hidden by an object. It should be a darker color (~120 120 120) than the diffuse and specular colors. The ambient color also has an important role in setting the atmosphere of the track. For example, an underwater track should have a greenish-blue ambient color.
-* **Diffuse color:** This is the color of light that reflects off of bumpy or wavy surfaces. It should be brighter than the ambient color, but slightly darker than the specular color.
-* **Specular color:** This is the color of light that reflects off of smooth surfaces. It should be the brightest color, because the light is traveling in a single direction and is not being scattered by diffusion.
+* **Ambient color:** C'est la couleur de la lumière qui sera partout dans la piste, même si le soleil est caché par un objet. Elle doit être plus foncée (~120 120 120) que les couleurs diffuse et spéculaire. La couleur ambiante joue également un rôle important dans la définition de l'atmosphère de la piste. Par exemple, une piste sous-marine devrait avoir une couleur ambiante bleu verdâtre.
+* **Diffuse color:** Il s'agit de la couleur de la lumière qui se reflète sur les surfaces bosselées ou ondulées. Elle doit être plus claire que la couleur ambiante, mais légèrement plus foncée que la couleur spéculaire.
+* **Specular color:** C'est la couleur de la lumière qui se reflète sur les surfaces lisses. C'est la couleur la plus claire, car la lumière se déplace dans une seule direction et n'est pas dispersée par la diffusion.
 
-{%popup_info Shadows don't work well when this type of sun is placed near the horizon. However, you can place a visible sun near the horizon, and players won't usually notice that the shadows aren't aligned with the sun's position. (See below)%}
+{%popup_info Les ombres ne fonctionnent pas bien lorsque ce type de soleil est placé près de l'horizon. Cependant, vous pouvez placer un soleil visible près de l'horizon, et les joueurs ne remarqueront généralement pas que les ombres ne sont pas alignées avec la position du soleil. (Voir ci-dessous)%}
 
-### Sun (Visible)
+### Soleil (Visible)
 
-This type of sun creates an effect much like looking at the sun in real life—a glowing circle in the sky. (It also creates anamorphic lens flare.) Create a Blender sun and set its type to "Light Shaft" in the SuperTuxKart Object Properties panel. This creates two properties:
+Ce type de soleil crée un effet semblable à celui du soleil dans la vie réelle - un cercle lumineux dans le ciel. (Il crée également des reflets anamorphiques). Créez un soleil Blender et réglez son type sur "Light Shaft" dans le panneau des propriétés de l'objet SuperTuxKart. Cela crée deux propriétés:
 
-* **Strength (opacity):** This is how "bright" the sun looks.
-* **Color:** This is the color of the sun. However, the coloring is somewhat subtle and the sun itself won't look exactly this color. You will have to experiment to see what works well for you.
+* **Strength (opacity):** C'est le niveau de luminosité du soleil.
+* **Couleur:** C'est la couleur du soleil. Cependant, la coloration est quelque peu subtile et le soleil lui-même n'aura pas exactement cette couleur. Vous devrez expérimenter pour voir ce qui vous convient le mieux.
 
-{%popup_info Despite its name, the light shaft is not a true volumetric light. "Light shafts" are not suitable for creating beams from e.g. a lighthouse.%}
+{%popup_info Malgré son nom, le puits de lumière n'est pas une véritable lumière volumétrique. Les "puits de lumière" ne conviennent pas pour créer des faisceaux lumineux en provenance d'un phare par exemple.%}
 
-As noted above, you can place visible suns near the horizon but place the regular sun higher in the sky so that shadows work properly.
+Comme indiqué ci-dessus, vous pouvez placer les soleils visibles près de l'horizon, mais placer le soleil normal plus haut dans le ciel pour que les ombres fonctionnent correctement.
 
 {% gallery widths=48%
 /assets/wiki/Sun_blender.jpg,"In Blender (Sun casting shadows in green, visible sun in blue)"
 /assets/wiki/Sun_godray.jpg,In SuperTuxKart
 %}
 
-## Shadows
+## Les Ombres
 
-Thanks to the support for dynamic shadows added in SuperTuxKart 0.9, most (if not all) objects will cast a shadow—and objects using animation or the vegetation shader will cast animated shadows! Simply check the "Dynamic shadows" checkbox under "Graphical Effects" in the SuperTuxKart Scene Properties panel.
+Grâce au support des ombres dynamiques ajouté dans SuperTuxKart 0.9, la plupart des objets (si ce n'est tous) projetteront une ombre et les objets utilisant l'animation ou le shader de végétation projetteront des ombres animées! Il suffit de cocher la case "Dynamic shadows"(ombres dynamiques) sous "Graphical Effects"(effets graphiques) dans le panneau "SuperTuxKart Scene Properties".
 
 {% gallery widths=48%
 /assets/wiki/STK_dynamicshadows.jpg
 %}
 
 ## {% include_relative _Point_Lights.md %}
-## Ambient Light Map
+## Carte de la lumière ambiante(Ambient Light Map)
 
-Ambient light maps, also known as image-based lighting or spherical harmonics lighting can be used in conjunction with the the color of the sun to affect the lighting of a track by simulating light bouncing off the image. An ambient light map, however, unlike changing sun color, allows for variable lighting across the scene.
+Les cartes de lumière ambiante, également connues sous le nom d'éclairage basé sur l'image ou éclairage par harmoniques sphériques, peuvent être utilisées en conjonction avec la couleur du soleil pour affecter l'éclairage d'une piste en simulant la lumière qui rebondit sur l'image. Une carte de lumière ambiante, cependant, contrairement au changement de la couleur du soleil, permet de varier l'éclairage de la scène.
 
-You can configure an ambient light map for your track by enabling "Ambient light map" under "Graphical Effects" in the SuperTuxKart Scene Properties panel. This allows you to set an ambient light map for each side of the invisible cube which will be used to light the scene.
+Vous pouvez configurer une carte de lumière ambiante pour votre piste en activant " Ambient light map " sous " Graphical Effects " dans le panneau des propriétés de scène de SuperTuxKart. Cela vous permet de définir une carte de lumière ambiante pour chaque côté du cube invisible qui sera utilisé pour éclairer la scène.
 
-Often, an ambient light map texture is simply a blurred and shrunken version of the corresponding skybox texture. For performance reasons, ambient light map textures should not exceed 256 × 256 pixels in size.
+Souvent, une texture de carte de lumière ambiante est simplement une version floue et réduite de la texture de boîte à ciel correspondante. Pour des raisons de performances, les textures de la carte de lumière ambiante ne doivent pas dépasser une taille de 256 × 256 pixels.
 
-## Clouds
+## Nuages
 
-You can add clouds by using meshes. However, make sure the camera far clip set in the SuperTuxKart Scene Properties panel is high enough. You should also set their interaction to ghost, either per-texture or per-object (see Physics). Animating the texture will also increase the realism.
+Vous pouvez ajouter des nuages en utilisant des maillages. Cependant, assurez-vous que la distance de la caméra définie dans le panneau des propriétés de la scène de SuperTuxKart est suffisamment élevée. Vous devez également définir leur interaction en tant que fantôme, soit par texture, soit par objet (voir [Physique](Physics)). L'animation de la texture augmentera également le réalisme.
 
-## Weather
+## Météo
 
-Weather is an excellent way to manipulate the mood of a track. To enable weather, select the weather type under "Weather" in the SuperTuxKart Scene Properties panel. (Currently, only rain and snow are supported.) You can also check the "Lightning" checkbox to enable lightning, and you can set the name of a sound file (.ogg format) to play in the "Weather sound" box.
+La météo est un excellent moyen de manipuler l'ambiance d'une piste. Pour activer la météo, sélectionnez le type de météo sous " Weather " dans le panneau des propriétés de la scène de SuperTuxKart (pour l'instant, seules la pluie et la neige sont prises en charge). Vous pouvez également cocher la case "Lightning" pour activer les éclairs, et vous pouvez définir le nom d'un fichier son (format .ogg) à jouer dans la case "Weather sound".
 
-## Fog and Volumetric Lighting
+## Brouillard et lumière volumétrique
 
-With fog enabled, you can have volumetric lights. This creates a halo-like effect, where light reflects off of the fog. First, enable fog by checking the "Fog" checkbox under "Graphical Effects" in the SuperTuxKart Scene Properties panel. This creates four more options:
+Lorsque le brouillard est activé, il est possible d'avoir des lumières volumétriques. Cela crée un effet de halo, où la lumière se reflète sur le brouillard. Tout d'abord, activez le brouillard en cochant la case "Fog" sous "Graphical Effects" dans le panneau des propriétés de scène de SuperTuxKart. Cela crée quatre options supplémentaires:
 
-* **Fog Color:** The color of the fog. The color should generally depend on the lighting in your track—dark tracks should have dark fog.
-* **Fog Start:** This is the distance from the camera at which the fog begins to hide objects.
-* **Fog End:** This is the distance from the camera at which objects are no longer visible through the fog.
-* **Fog Max:** This is the maximum density the fog can reach. This is useful to stop the fog from getting thicker even as objects get farther away.
+* **Fog Color:** La couleur du brouillard. La couleur doit généralement dépendre de l'éclairage de votre piste - les pistes sombres doivent avoir un brouillard sombre.
+* **Fog Start:** Il s'agit de la distance par rapport à la caméra à laquelle le brouillard commence à cacher les objets.
+* **Fog End:** Il s'agit de la distance à laquelle les objets ne sont plus visibles à travers le brouillard.
+* **Fog Max:** Il s'agit de la densité maximale que le brouillard peut atteindre. Cela permet d'éviter que le brouillard ne soit plus épais alors que les objets sont de plus en plus éloignés.
 
 ### {% include_relative _Volumetric_Lights.md %}
 {% include art_portal %}

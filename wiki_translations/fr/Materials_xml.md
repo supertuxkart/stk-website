@@ -1,12 +1,12 @@
 ---
-title: Materials xml
+title: Materiels xml
 toc: true
 ---
-This page describes the format of the materials.xml file, which can be used in SuperTuxkart to define special effects for certain textures. The effects might be graphical, physical (e.g. define a slowdown that applies while you are driving on this kind of textures), or a special sound effect (e.g. a sound to be played while the kart is driving on this particular terrain).
+Cette page décrit le format du fichier materials.xml, qui peut être utilisé dans SuperTuxkart pour définir des effets spéciaux pour certaines textures. Les effets peuvent être graphiques, physiques (par exemple, définir un ralentissement qui s'applique lorsque vous conduisez sur ce type de textures), ou un effet sonore spécial (par exemple, un son à jouer lorsque le kart roule sur ce terrain en particulier).
 
-## File Format and Location
+## Format et emplacement du fichier
 
-The materials.xml file is a simple xml file that contains one entry for each texture. Notice that defaults apply, so unless you want a special effect it is not necessary to create a materials.xml file to include all your textures. The materials.xml file can go into a track- or kart-directory, and it will overwrite the default settings used in stk: for example, usually sand causes a certain slow down. But on the Shifting Sand track the physics settings can be overwritten, so that there is no slowdown on sand in this track only.
+Le fichier materials.xml est un simple fichier xml qui contient une entrée pour chaque texture. Notez que les valeurs par défaut s'appliquent, donc à moins que vous ne souhaitiez un effet spécial, il n'est pas nécessaire de créer un fichier materials.xml pour inclure toutes vos textures. Le fichier materials.xml peut être placé dans un répertoire de piste ou de kart, et il remplacera les paramètres par défaut utilisés dans STK: par exemple, le sable provoque généralement un certain ralentissement. Mais sur la piste Shifting Sand, les paramètres physiques peuvent être modifiés, de sorte qu'il n'y ait pas de ralentissement sur le sable dans cette piste uniquement.
 
 {%popup_code
 xml
@@ -19,56 +19,56 @@ xml
     </material>
 </materials>%}
 
-This shows a simple example of a materials.xml file with three textures, one of which contains a terrain-specific sound effect to be played when a kart is driving on that terrain. A list of all possible attributes are in the next section.
+Voici un exemple simple d'un fichier materials.xml contenant trois textures, dont l'une contient un effet sonore spécifique au terrain à utiliser lorsqu'un kart roule sur ce terrain. Une liste de tous les attributs possibles est présentée dans la section suivante.
 
-## Attributes
+## Attributs
 
-The following attributes can be used (defaults in bold)
+Les attributs suivants peuvent être utilisés (les valeurs par défaut sont en gras)
 
 * shader=**solid**/normalmap/decal/grass/unlit/alphablend/alphatest/addictive/displace
-    * Shader to use.
+    * Shader à utiliser
 * max-speed=**1.0**
-    * Fraction of the maximum speed of the kart a kart can have on this terrain. If the kart is faster, it will be slowed down gradually (see slowdown-time below).
+    * Pourcentage de la vitesse maximale du kart qu'un kart peut avoir sur ce terrain. Si le kart est plus rapide, il sera ralenti progressivement (voir le temps de ralentissement ci-dessous).
 * slowdown-time=**1.0**
-    * How long it takes for a kart to be slowed down to the speed specified in the max-speed property. A small value will feel like abruptly braking, a larger value more like a gradual slow down caused by the terrain. In 0.7 we are using values between 0.5 and 4 seconds.
+    * Temps nécessaire pour qu'un kart soit ralenti jusqu'à la vitesse spécifiée dans la propriété max-speed. Une valeur faible donnera l'impression d'un freinage brutal, une valeur plus élevée d'un ralentissement progressif causé par le terrain. Dans la version 0.7, nous utilisons des valeurs comprises entre 0,5 et 4 secondes.
 * ignore=Y/**N**
-    * The object with this texture does not interact with the player. Should be used e.g. for things that are drawn on top of the track, since otherwise there will be a slight bump in the track.
+    * L'objet avec cette texture n'interagit pas avec le joueur. Elle doit être utilisée, par exemple, pour les objets qui se trouvent au-dessus de la piste, car sinon il y aura une légère bosse sur la piste.
 * surface=Y/**N**
-    * A mesh that is marked as being a surface does not have a physical representation - meaning that karts will just ignore this (drive through), but the graphics will still be shown. But as opposed to 'ignore' STK can detect this kind of terrain, and trigger special graphical effects. An example to use this for is a water surface, where the kart can either drive trough on a surface under the water (so the kart is partly under water), or is rescued (by either not having a surface under the water surface, or a surface with reset property). The surface will in this case be detected (once the wheel of the karts are under this surface), and can trigger special gfx.
+    * Un maillage marqué comme étant une surface n'a pas de représentation physique - ce qui signifie que les karts l'ignoreront (passeront à travers), mais les graphiques seront toujours affichés. Mais contrairement à "ignorer", STK peut détecter ce type de terrain et déclencher des effets graphiques spéciaux. Un exemple d'utilisation est une surface d'eau, où le kart peut soit passer à travers une surface située sous l'eau (le kart est donc partiellement sous l'eau), soit être sauvé (soit par l'absence de surface sous la surface de l'eau, soit par une surface avec une propriété de réinitialisation). La surface sera dans ce cas détectée (une fois que les roues du kart sont sous cette surface), et peut déclencher des effets spéciaux(gfx).
 * below-surface=Y/**N**
-    * If a material is marked as being below a surface, a special graphical effect can be triggered at the actual surface. An example would be a pond where karts could drive through. The water is marked as 'surface', and the mesh the kart is driving on has the 'below-surface' property. The water texture can then contain particle effects for water splashes, and those splashes will emerge from the surface (and not from under the surface).
+    * Si un matériau est marqué comme étant sous une surface, un effet graphique spécial peut être déclenché à la surface réelle. Un exemple serait un étang dans lequel des karts pourraient rouler. L'eau est marquée comme "surface" et le maillage sur lequel le kart roule possède la propriété "below-surface" (en dessous de la surface). La texture de l'eau peut alors contenir des effets de particules pour les éclaboussures d'eau, et ces éclaboussures émergeront de la surface (et non du dessous de la surface).
 * falling-effect=Y/**N**
-    * If the camera is driving on (or even falling onto) a terrain with a 'falling-effect', the camera will not move anymore but keep on pointing to the kart, resulting in a nice visual effect of the kart falling quickly. Can also be used for a 'seabed' under a water surface.
-* friction="20000.0" (or any other value)
-    * When friction is higher, the material will be less *slippery*. Note that this only applies to materials with great slopes, as straight materials always have good traction. Default : 1.0
+    * Si la caméra roule (ou tombe) sur un terrain avec un effet de chute, la caméra ne bougera plus mais continuera à pointer vers le kart, ce qui donnera un bel effet visuel de chute rapide du kart. Peut également être utilisé pour un "fond marin" sous une surface d'eau.
+* friction="20000.0" (ou toute autre valeur)
+    * Lorsque le facteur de friction est plus élevé, le matériau est moins "glissant". Notez que cela ne s'applique qu'aux matériaux avec de grandes pentes, car les matériaux droits ont toujours une bonne adhérence. Valeur par défaut: 1.0
 * zipper=Y/**N**
-    * When driving on this texture, the kart will get a zipper bonus.
+    * En roulant sur cette texture, le kart obtient un bonus de vitesse.
 * reset=Y/**N**
-    * When driving on this texture, the kart will be automatically rescued.
+    * Lorsque vous conduisez sur cette texture, le kart est automatiquement secouru.
 * sfx
-    * While driving on this terrain, a special sound is played. This effect will always be looped. Additional attributes for sound effects:
+    * Lorsque vous conduisez sur ce terrain, un son spécial est émis. Cet effet sera toujours joué en boucle. Attributs supplémentaires pour les effets sonores:
         * filename
-            * The filename for this sound effect. The sound effect will be loaded from the track directory.
+            * Le nom du fichier pour cet effet sonore. L'effet sonore sera chargé à partir du répertoire de la piste.
         * rolloff=**0.1**
-            * Speed with which the sound decreases when the distance increases.
+            * Vitesse à laquelle le son diminue lorsque la distance augmente.
         * min-speed=**0**
-            * Minimal speed at which the sound effect is played. Nothing is played if the kart is slower than this value (in m/s).
+            * Vitesse minimale à laquelle l'effet sonore est joué. Rien n'est joué si le kart est plus lent que cette valeur (en m/s).
         * max-speed=**30**
-            * Maximum speed when adjusting the pitch, see min- and max-pitch below.
+            * Vitesse maximale lors du réglage du pas, voir min-pitch et max-pitch ci-dessous.
         * min-pitch=**1.0**
-            * The pitch adjustment to be used when the kart is driving at the minimum speed. Must be between 0.5 and 2.0
+            * Le réglage du pas à utiliser lorsque le kart roule à la vitesse minimale. Doit être compris entre 0,5 et 2,0.
         * max-pitch=**1.0**
-            * The pitch adjustment to be used when the kart is driving at the maximum speed (as defined above). Must be between 0.5 and 2.0. The pitch adjustment is linearly interpolated for speeds between min- and max-speed; if the kart is driving faster than max-speed, max-pitch is used.
+            * Le réglage du pas à utiliser lorsque le kart roule à la vitesse maximale (telle que définie ci-dessus). Doit être compris entre 0,5 et 2,0. Le réglage du pas est interpolé linéairement pour les vitesses comprises entre la vitesse minimale et la vitesse maximale; si le kart roule à une vitesse supérieure à la vitesse maximale, c'est le pas maximal qui est utilisé.
         * positional=Y/**N**
-            * If the sound effect is played where the kart is currently, or from the inital position only.
+            * Si l'effet sonore est joué à l'endroit où se trouve le kart, ou uniquement à partir de la position initiale.
 
-### Deprecated
+### Obsolète
 
-Use the new **shader** property instead
+Utiliser la nouvelle propriété **shader** à la place
 
 * transparency=Y/**N**
-    * Uses alpha testing: if alpha is >127 a pixel is written, otherwise not. See EMT_TRANSPARENT_ALPHA_CHANNEL_REF in irrlicht.
+    * Utilise le test alpha : si alpha est >127, un pixel est écrit, sinon non. Voir EMT_TRANSPARENT_ALPHA_CHANNEL_REF dans irrlicht.
 * alpha=Y/**N**
-    * Uses alpha blending, the final color is blended together from the destination color and the texture color, using the alpha channel value as blend factor. See EMT_TRANSPARENT_ALPHA_CHANNEL in irrlicht.
+    * Utilise le mélange alpha, la couleur finale est mélangée à partir de la couleur de destination et la couleur de texture, en utilisant la valeur du canal alpha comme facteur de mélange. Voir EMT_TRANSPARENT_ALPHA_CHANNEL dans irrlicht.
 * additive=Y/**N**
-    * Use [additive blending](http://en.wikipedia.org/wiki/Color_mixing#Additive_Mixing)
+    * Utilise [additive blending](http://en.wikipedia.org/wiki/Color_mixing#Additive_Mixing)

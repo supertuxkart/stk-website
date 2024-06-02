@@ -1,8 +1,8 @@
 ---
-title: 'Making Library Nodes: Lights'
+title: 'Faire des objets de bibliothèque: Lumières'
 display_title: true
 ---
-Point lights will export with library nodes. This allows you to create lamps, streetlights, etc. with properly positioned lights.
+Les lumières ponctuelles seront exportées avec des nœuds de bibliothèque. Cela vous permet de créer des lampes, des lampadaires, etc. avec des lumières correctement positionnées.
 
 ## {% include_relative _Point_Lights.md %}
 

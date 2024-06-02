@@ -1,14 +1,14 @@
 ---
-title: Particles File
+title: Fichier de particules
 display_title: true
 ---
-You can add particle emitters anywhere in a track. Simply add an empty, give it the type **Particle emitter**, and in the **particle kind** property enter the name of the file describing the particles you wish to use.
+Vous pouvez ajouter des émetteurs de particules n'importe où dans une piste. Il suffit de créer un élément de type vide, de lui donner le type **Particle emitter**, et dans la propriété **particle kind** d'entrer le nom du fichier décrivant les particules que vous souhaitez utiliser.
 
-For a list of currently available particle files, check the **data/gfx** folder. You should be able to create new particle types by duplicating an existing one and tweaking its properties.
+Pour obtenir la liste des fichiers de particules actuellement disponibles, consultez le dossier **data/gfx**. Vous devriez pouvoir créer de nouveaux types de particules en dupliquant une particule existante et en modifiant ses propriétés.
 
-## Point emitters
+## Emetteurs de points
 
-Point emitters may be created like this:
+Les émetteurs de point peuvent être créés de la manière suivante:
 
 {%popup_code
 xml
@@ -43,40 +43,40 @@ xml
 
 </particles>%}
 
-**velocity** indicates in which direction the particles move, and at which speed
+**velocity** indique dans quelle direction les particules se déplacent et à quelle vitesse
 
-**spreading angle** indicates by how much particles may randomly deviate from their base direction as defined by their velocity
+**spreading angle** indique de quelle ampleur les particules peuvent s'écarter aléatoirement de leur direction de base définie par leur vitesse.
 
-**material** contains the name of the file to use for the particles and other settings.
+**material** contient le nom du fichier à utiliser pour les particules et autres paramètres.
 
-**rate** indicates the amount of particles that are to be emitted per second (the precise rate will randomly vary)
+**rate** indique la quantité de particules à émettre par seconde (le taux précis varie de manière aléatoire)
 
-* **decay_rate**=*value* (optional) if set and greater than 0, will make the emission rate diminish by *value* particles per second until emission stops. Useful for bursts like explosions.
+* **decay_rate**=*valeur* (facultatif) si elle est définie et supérieure à 0, le nombre de particules émises diminuera de *valeur* par seconde jusqu'à ce que l'émission s'arrête. Utile pour les explosions.
 
-**lifetime** indicates how long a particle lives before disappearing, here too a value will be picked randomly between min and max
+**lifetime** indique pour combien de temps une particule vit avant de disparaître, ici aussi une valeur sera choisie aléatoirement entre min et max
 
-**size** indicates the size of each particle, here too a value will be picked randomly between min and max
+**size** indique la taille de chaque particule, ici aussi une valeur sera choisie aléatoirement entre min et max
 
-To create a particle that grows over time, add "increaste-factor" properties like this :
+Pour créer une particule qui grandit avec le temps, ajoutez des propriétés "increaste-factor" comme ceci:
 
 `<size min="0.65" max="0.95" x-increase-factor="0.6" y-increase-factor="0.6" />`
 
-**color** indicates the color applied to particles (255,255,255 is white and means no coloring is done), here too a value will be picked randomly between min and max
+**color** indique la couleur appliquée aux particules (255,255,255 est blanc et signifie qu'aucune coloration n'est effectuée), ici aussi une valeur sera choisie aléatoirement entre min et max
 
-**fadeout time** is an optional effect that will make particles fade away gracefully at the end of their file, instead of just disappearing. The given time is the number of milliseconds before the end of a particle's life where the fadeout should occur
+**fadeout time** est un effet optionnel qui permet aux particules de s'estomper progressivement à la fin de leur durée de vie, au lieu de disparaître purement et simplement. Le temps indiqué est le nombre de millisecondes avant la fin de la vie d'une particule où la disparition doit se produire.
 
-**gravity** is an optional effect that will make particles deviate from their initial velocity towards the ground; *only-force-time* indicates how long it takes for gravity to "take over" the original velocity
+**gravity** est un effet optionnel qui fait dévier les particules de leur vitesse initiale vers le sol ; *only-force-time* indique le temps nécessaire à la gravité pour "reprendre" la vitesse initiale
 
-## Box Emitters
+## Emetteurs de Boîtes
 
-All parameters are similar, except the opening tag is
+Tous les paramètres sont similaires, à l'exception de la variable d'ouverture qui est:
 
 `<particles emitter="box" box_x="12.0" box_y="0.5" box_z="12.0">`
 
-where box_x, box_y and box_z indicate the size of the emitter box
+où box_x, box_y et box_z indiquent la taille de boîte de l'émetteur
 
-## Sphere Emitters
+## Emetteurs de Sphères
 
-All parameters are similar, except the opening tag is
+Tous les paramètres sont similaires, à l'exception de la variable d'ouverture qui est:
 
 `<particles emitter="sphere" radius="0.3">`

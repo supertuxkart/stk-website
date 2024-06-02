@@ -2,7 +2,7 @@
 title: 'Faire des Karts: Propriétés'
 display_title: true
 ---
-Lorsque vous ouvrez Blender avec l'addon SuperTuxKart installées, vous constaterez que de nouveaux menus ont été ajoutés. Sous **Scène** dans la fenêtre Propriétés, vous trouverez **Export Kart**, **Export Track**, **SuperTuxKart Scene Properties**, et **SuperTuxKart Image Properties**. Toujours dans la fenêtre Propriétés, sous **Objet**, vous trouverez **SperTuxKart Object Properties**. Si vous ne les voyez pas, reportez-vous à la page [Installing Tools](Installing_Tools).
+Lorsque vous ouvrez Blender avec l'addon SuperTuxKart installées, vous constaterez que de nouveaux menus ont été ajoutés. Sous **Scène** dans la fenêtre Propriétés, vous trouverez **Export Kart**, **Export Track**, **SuperTuxKart Scene Properties**, et **SuperTuxKart Image Properties**. Toujours dans la fenêtre Propriétés, sous **Objet**, vous trouverez **SperTuxKart Object Properties**. Si vous ne les voyez pas, reportez-vous à la page [Installation des outils](Installing_Tools).
 
 Après avoir ouvert Blender sur un nouveau fichier vide, allez dans **le paneau de propriété > scène SuperTuxKart Scene Properties** et cochez la case "Is a SuperTuxKart kart" (est un kart SuperTuxKart). Un bref aperçu des options les plus obscures se trouve ci-dessous. Rappelez-vous, vous pouvez toujours regarder les fichiers .blend dans le [Dépôt multimédia](Media_Repo) pour exemples.
 

@@ -2,17 +2,17 @@
 title: Créations de Pistes
 display_title: true
 ---
-Welcome to the track-making tutorial. If you're familiar with SuperTuxKart, you probably remember the old Track Maker's Guide. While most of the needed content was available in the old guide, certainly not all of it was (especially lighting) and it was difficult to follow and overall badly in need of repair.
+Bienvenue dans le tutoriel de création de pistes. Si vous êtes familier avec SuperTuxKart, vous vous souvenez probablement de l'ancien Guide Track Maker. La plupart des informations nécessaires étaient disponibles dans l'ancien guide, mais certainement pas toutes (en particulier l'éclairage), il était difficile à suivre et avait besoin d'être mis à jour.
 
-This new guide is redesigned to be much more organized. Each section, or module, is clearly defined and sometimes usable by multiple tutorials, yet designed to fit in chronological order.
+Ce nouveau guide a été repensé pour être beaucoup mieux organisé. Chaque section/module, est clairement définie et parfois utilisable par plusieurs tutoriels, tout en étant conçue pour s'intégrer dans l'ordre chronologique.
 
-This page is a list of the modules in the Making Tracks tutorial. Note that not all are only for tracks: certain pages are also used in other guides.
+Cette page est une liste des modules du didacticiel "Faire des pistes". Notez que tous ne sont pas réservés aux pistes: certaines pages sont également utilisées dans d'autres guides.
 
 {%popup_prerequisite
 * [Style](Style)
 * [Directives pour les textures](Texture_Guidelines)
 * [Directives pour les modèles 3D](3D_Model_Guidelines)
-* [Music and SFX Guidelines](Music_and_SFX_Guidelines)
+* [Directives pour musique et effets sonores](Music_and_SFX_Guidelines)
 * [Installation des outils](Installing_Tools)
 * [Dépôt multimédia](Media_Repo)
 * [Communication](Communication)
@@ -25,23 +25,23 @@ This page is a list of the modules in the Making Tracks tutorial. Note that not 
 * [Propriétés](Making_Tracks:_Properties)
 * [Modélisation](Making_Tracks:_Modeling)
 * [Drivelines and Checklines](Making_Tracks:_Drivelines_and_Checklines)
-* [Testing](Making_Tracks:_Testing)
+* [Tests](Making_Tracks:_Testing)
 * [Texturation](Texturing)
-* [Materiaux](Materials)
-* [Landscape](Making_Tracks:_Landscape)
-* [Decorations](Making_Tracks:_Decorations)
-* [Animating Decorations](Animating_Decorations)
+* [Matériaux](Materials)
+* [Paysage](Making_Tracks:_Landscape)
+* [Décorations](Making_Tracks:_Decorations)
+* [Animation des décorations](Animating_Decorations)
 * [Niveau de détail](Level_of_Detail)
-* [Effet spéciau](Special_Effects)
-* [Items](Making_Tracks:_Items)
-* [Sky and Lighting](Making_Tracks:_Sky_and_Lighting)
+* [Effet spéciaux](Special_Effects)
+* [Objets](Making_Tracks:_Items)
+* [Ciel et éclairage](Making_Tracks:_Sky_and_Lighting)
 * [Physique](Physics)
 * [Conclusion](Making_Tracks:_Conclusion)
 
 ## Appendices
-* [Appendix A: Troubleshooting](Making_Tracks:_Appendix_A:_Troubleshooting)
-* [Appendix B: Cutscenes](Cutscenes)
-* [Appendix C: Scripting](Scripting)
-* [Appendix D: Soccer and Battle Modes](Making_Tracks:_Appendix_D:_Soccer_and_Battle_Modes)
+* [Annexe A: Dépannage](Making_Tracks:_Appendix_A:_Troubleshooting)
+* [Annexe B: Cinématiques](Cutscenes)
+* [Annexe C: Scripts](Scripting)
+* [Annexe D: Modes Football et Bataille](Making_Tracks:_Appendix_D:_Soccer_and_Battle_Modes)
 
 {% include art_portal %}

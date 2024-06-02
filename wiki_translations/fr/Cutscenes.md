@@ -18,7 +18,7 @@ Créez une caméra dans Blender et réglez son type sur "Cutscene camera" dans l
 
 Dans le panneau Track Exporter, cliquez sur "Export track". Copiez le dossier résultant, ainsi que toutes les textures nécessaires, dans le répertoire `tracks` du dossier addons. (Voir la [FAQ](FAQ) pour plus d'informations sur l'emplacement de ce répertoire).
 
-Pour lancer votre scène à partir de l'interface graphique, voir [Mode débogage artiste\Cinématiques](Artist_Debug_Mode#cutscenes). Pour exécuter directement votre scène, lancez SuperTuxKart à partir de la ligne de commande comme suit :
+Pour lancer votre scène à partir de l'interface graphique, voir [Mode débogage artiste\Cinématiques](Artist_Debug_Mode/#cinématiques). Pour exécuter directement votre scène, lancez SuperTuxKart à partir de la ligne de commande comme suit :
 
 {%popup_code
 sh

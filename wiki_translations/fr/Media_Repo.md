@@ -10,9 +10,9 @@ Le dépôt multimédia a un autre rôle : en l'utilisant, vous pouvez importer b
 
 Nous recommandons d'utiliser la version de développement de STK, le meilleur moyen de télécharger le dépôt multimédia est d'utiliser un client d'une version antérieure (SVN). Néanmoins, si vous ne pouvez pas installer une version antérieure, il existe une solution de contournement simple.
 
-#### Le meilleur moyen : installer une version antérieure
+#### Le meilleur moyen: installer une version antérieure
 
-Les instructions pour installer une version antérieure sont sur la page des [Outils d'installation] (https://supertuxkart.net/Installing_Tools#subversion-client). Une fois installé, utilisez l'adresse suivante pour vérifier l'intégrité du dossier :
+Les instructions pour installer une version antérieure sont sur la page des [Outils d'installation](https://supertuxkart.net/Installing_Tools#subversion-client). Une fois installé, utilisez l'adresse suivante pour vérifier l'intégrité du dossier :
 
 * Si vous utilisez un programme à interface graphique (par exemple, Tortoise SVN), celui-ci pourrait vous demander l'URL du dépôt - `https://svn.code.sf.net/p/supertuxkart/code/media/trunk` - et un dossier d'export, qui est l'endroit sur votre ordinateur où vous souhaitez que celui-ci soit copié.
 * Avec les systèmes d'exploitation sous Unix ou assimilés, ou avec MacOS, un example de commande d'export serait :
@@ -20,7 +20,7 @@ Les instructions pour installer une version antérieure sont sur la page des [Ou
 {%popup_code
 svn checkout https://svn.code.sf.net/p/supertuxkart/code/media/trunk stk-media-repo%}
 
-#### Solution alternative : téléchargement manuel d'une snapshot
+#### Solution alternative: téléchargement manuel d'une snapshot
 
 {% start_liquid popup_info %}
 
@@ -28,7 +28,7 @@ Cette solution alternative est très simple à appliquer et télécharge les mê
 
 {% end_liquid %}
 
-Consultez ce lien pour générer une snapshot et la télécharger : <https://sourceforge.net/p/supertuxkart/code/HEAD/tarball?path=/media>
+Consultez ce lien pour générer une snapshot et la télécharger: <https://sourceforge.net/p/supertuxkart/code/HEAD/tarball?path=/media>
 
 Si on vous demande de renvoyer votre demande de snapshot, faites-le. Le téléchargement du dépôt multimédia commencera, comprenant les fichiers dans leur état actuel. Décompressez le fichier ZIP obtenu à une adresse valide où vous souhaitez retrouver votre copie du dépôt multimédia. Le voilà maintenant prêt !
 

@@ -1,26 +1,26 @@
 ---
-title: 'Making Library Nodes: Properties and Modeling'
+title: 'Faire des objets de bibliothèque: Propriétés et Modélisation'
 display_title: true
 ---
-This page won't go into detail about modeling—any Blender tutorial can help with that. See [here](https://www.blender.org/support/tutorials/) for a list of good tutorials.
+Cette page n'entrera pas dans les détails de la modélisation - n'importe quel tutoriel de Blender peut vous aider à cet égard. Voir [ici](https://www.blender.org/support/tutorials/) pour une liste de bons tutoriels.
 
-## Modeling
+## Modélisation
 
-Use whatever methods you need to model your objects. However, it helps to understand the scaling of objects a bit—for more information, see the [3D Model Guidelines](3D_Model_Guidelines) page, which you should have already read. If you are using level of detail, you may want to skip ahead to the [Level of Detail](Level_of_Detail) page and then come back to this page.
+Utilisez les méthodes dont vous avez besoin pour modéliser vos objets. Cependant, il est utile de comprendre un peu la mise à l'échelle des objets - pour plus d'informations, voir la page [Directives pour les modèles 3D]( 3D_Model_Guidelines), que vous devriez avoir déjà lue. Si vous utilisez le niveau de détail, vous pouvez passer à la page [Niveau de détail]( Level_of_Detail), puis revenir à cette page.
 
-## Properties
+## Propriété
 
-In Blender, you must first check the box **Is a SuperTuxKart library node** in the **SuperTuxKart Scene Properties** panel.
+Dans Blender, vous devez d'abord cocher la case **Is a SuperTuxKart library node** dans le panneau **SuperTuxKart Scene Properties**.
 
-Set **Code (folder name)** to the library node's ID. (You should have decided on one after reading [Notes](Making_Library_Nodes:_Notes)).
+Définissez **Code (nom du dossier)** par l'identifiant de l'objet de bibliothèque. (Vous devriez en avoir choisi un après avoir lu [Notes](Making_Library_Nodes:_Notes)).
 
-### Object Properties
+### Propriétés d'objets
 
-You should have at least one main object that will be visible in Blender when someone links to your library node.
+Vous devez avoir au moins un objet principal qui sera visible dans Blender lorsque quelqu'un utilise votre objet de bibliothèque.
 
-* If you made a library node with only a single object, that will be your main object. Simply set the object to type **Object** in the **SuperTuxKart Object Properties** panel.
-* If you are using [Level of Detail](Level_of_Detail), your **LOD Instance** will be the main object.
-* Do not use the **None** object type; this is only for tracks, arenas, and cutscenes.
-* You can use the **Ignore** type to make prevent the object from being exported.
+* Si vous avez créé un objet de bibliothèque avec un seul objet, celui-ci sera votre objet principal. Il suffit de définir l'objet comme étant de type **Object** dans le panneau de **Propriétés d'objet de SuperTuxKart**.
+* Si vous utilisez le [Niveau de détail](Level_of_Detail), votre **LOD Instance** sera l'objet principal.
+* N'utilisez pas le type d'objet **None** ; il est réservé aux pistes, aux arènes et aux cinématiques.
+* Vous pouvez utiliser le type **Ignore** pour empêcher l'exportation d'objet.
 
 {% include art_portal %}

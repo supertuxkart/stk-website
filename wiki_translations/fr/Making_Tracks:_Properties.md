@@ -1,34 +1,34 @@
 ---
-title: 'Making Tracks: Properties'
+title: 'Faire des Pistes: Propriétés'
 display_title: true
 ---
-When you open Blender with the SuperTuxKart plugins installed, you will find that some new menus have been added. Under **Scene** in the Properties window, you'll find **Kart Exporter**, **Track Exporter**, **SuperTuxKart Scene Properties**, and **SuperTuxKart Image Properties**. Also in the Properties window, under **Object**, you'll find **SuperTuxKart Object Properties**. If you do not see these, refer to the [Installing Tools](Installing_Tools) page.
+Lorsque vous ouvrez Blender avec les addons SuperTuxKart installés, vous verrez que de nouveaux menus ont été ajoutés. Sous **Scène** dans la fenêtre Propriétés, vous trouverez **Export Kart**, **Export Track**, **SuperTuxKart Scene Properties**, et **SuperTuxKart Image Properties**. Toujours dans la fenêtre Propriétés, sous **Objet**, vous trouverez **SuperTuxKart Object Properties**. Si vous ne les voyez pas, reportez-vous à la page [Installation des outils](Installing_Tools).
 
-## Setting Track Properties
+## Paramétrage des propriétés de la piste
 
-The first thing you need to do is check the **Is a SuperTuxKart track** box under **SuperTuxKart Scene Properties**. Many more options will now appear in the Scene Properties panel.
+La première chose à faire est de cocher la case **Is a SuperTuxKart track** dans **SuperTuxKart Scene Properties**. De nombreuses autres options apparaissent alors dans le panneau des propriétés de la scène.
 
-### Basic Properties
+### Propriétés de base
 
-Set these properties right away, so that you will be able to export your track:
-* In the **Track Exporter** panel, click the folder button to set the assets path. This could be the `stk-assets` or `data` folder, or the `addons` folder. When exporting your track, the track exporter will create a folder at this path called `tracks`. Inside this will be another folder containing your track.
-* In the SuperTuxKart Scene Properties, set the following:
-    * The track name
-    * The folder name
-    * The group: if you are making a track for the Add-On website, set it to **Add-Ons**. If you are hoping to have your track become part of the main game, set it to **standard**.
-    * The designer: this could be your full name or a nickname, if you wish to remain semi-anonymous.
+Définissez tout de suite ces propriétés afin de pouvoir exporter votre piste:
+* Dans le panneau **Quick Exporter**, cliquez sur le bouton "dossier" pour définir le chemin d'accès aux actifs. Cela peut être le dossier `stk-assets` ou `data`, ou le dossier `addons`. Lors de l'exportation de votre piste, l'exportateur de piste créera un dossier appelé `tracks` à partir de ce chemin. A l'intérieur de ce dossier se trouvera un autre dossier contenant votre piste.
+* Dans les propriétés de scène SuperTuxKart, définissez les éléments suivants:
+    * Le nom de la piste
+    * Le nom du dossier
+    * Le groupe: si vous créez une piste pour le site web Add-On, réglez-le sur **Add-Ons**. Si vous espérez que votre piste fasse partie du jeu principal, réglez-le sur **standard**.
+    * Le concepteur: il peut s'agir de votre nom complet ou d'un pseudonyme, si vous souhaitez rester semi-anonyme.
 
-### Optional Properties
+### Propriétés optionnelles
 
-You may wish to set these properties when you made more progress on your track, but it is not necessary to change them since they are not needed for the track to be usable.
-* **Music:** The `.music` file to be used for background music. See [Music and SFX Guidelines](Music_and_SFX_Guidelines).
-* **Screenshot:** This picture will be shown in the track selection menu. It should be a 4:3 aspect ratio image scaled onto a 1024 × 1024 image. This is because graphics cards expect textures with powers-of-two sides.
-* **Camera far clip:** This is the render distance, or the distance from the camera at which objects stop being visible. (Without fog enabled this is **not** a gradual transition.) For indoor tracks it might be able to be reduced to improve performance, but if you are creating an outdoor track with clouds you may need to increase the render distance.
+Vous souhaiterez peut-être définir ces propriétés lorsque vous aurez progressé sur votre piste, mais il n'est pas nécessaire de les modifier puisqu'elles ne sont pas nécessaires pour que la piste soit utilisable.
+* **Music:** Le fichier `.music` est à utiliser pour la musique de fond. Voir [Directives pour musique et effets sonores](Music_and_SFX_Guidelines).
+* **Screenshot:** Cette image sera affichée dans le menu de sélection des pistes. Il doit s'agir d'une image au format 4:3 mise à l'échelle sur une image 1024 × 1024. En effet, les cartes graphiques s'attendent à ce que les textures aient des puissances de deux côtés.
+* **Camera far clip:** Il s'agit de la distance de rendu, ou de la distance de la caméra à laquelle les objets cessent d'être visibles (sans activation du brouillard, **il n'y a pas** de transition progressive). Pour les pistes intérieures, cette distance peut être réduite pour améliorer les performances, mais si vous créez une piste extérieure avec des nuages, vous devrez peut-être augmenter la distance de rendu.
 * **Under Driving/laps:**
-    * **Can be driven in reverse:** If this box is checked, the option to drive backward through the track will be enabled. If jumps or other obstacles prevent the player from driving backward along the track, do not enable this.
-    * **Number of laps:** The default number of laps. Short tracks should have a larger number of laps by default, while long tracks should not have as many.
-* **Under Start line positions:** The built in help on these options should be sufficient. If SuperTuxKart crashes when you try to start your track, it may be caused by an insufficiently wide starting area. You can set a fewer number of karts allowed per row or adjust the space around karts with these options.
+    * **Can be driven in reverse:** Si cette case est cochée, l'option de conduite en sens inverse sera activée. Si des sauts ou d'autres obstacles empêchent le joueur de reculer le long de la piste, n'activez pas cette option.
+    * **Number of laps:** Le nombre de tours par défaut. Les pistes courtes devraient avoir un plus grand nombre de tours par défaut, tandis que les pistes longues devraient en avoir moins.
+* **Under Start line positions:** Les informations intégrée à ces options devraient suffire. Si SuperTuxKart se plante lorsque vous essayez de démarrer votre circuit, cela peut être dû à une zone de départ insuffisamment large. Vous pouvez réduire le nombre de karts autorisés par rangée ou ajuster l'espace autour des karts avec ces options.
 
-{%popup_info Feel free to look through other options and become familiar with the layout of the various options, but DO NOT change them. If you forget what properties you changed earlier, you'll spend too much time trying to fix it later.%}
+{%popup_info N'hésitez pas à consulter les autres options et à vous familiariser avec leur configuration, mais ne les modifiez PAS. Si vous oubliez les propriétés que vous avez modifiées précédemment, vous passerez trop de temps à essayer de les corriger plus tard.%}
 
 {% include art_portal %}
