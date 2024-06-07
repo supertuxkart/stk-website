@@ -217,8 +217,9 @@ Kje je shranjena konfiguracija?
 * Na **Windowsih**: Lokacija je `%APPDATA%/supertuxkart/config-0.10` (pot lahko vnesete v program Explorer, ki vas bo popeljal tja).
 * Na **Linuxu**: Lokacija je bodisi `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (prva izbira), `~/.config/supertuxkart/config-0.10` (druga izbira) ali `~/.supertuxkart/config-0.10` (tretja izbira).
 * Na **macOS-u**: Lokacija je `~/Library/Application Support/supertuxkart/config-0.10`. Pozor, ta imenik je lahko skrit.
-* Pri namestitvi s **Snapom**: Lokacija je `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
-* Pri namestitvi s **Flatpakom**: Lokacija je `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
+* Na **Androidu**: Lokacija je `/storage/emulated/0/Android/data/org.supertuxkart.stk/files/supertuxkart/home/supertuxkart/config-0.10`.
+* Prek sistema **Snap**: Lokacija je `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
+* Prek sistema **Flatpak**: Lokacija je `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
 Lahko tudi spremljate izpis v terminalu, da vidite, če kje piše, kje so konfiguracijske datoteke, ali poženete iskanje datoteke z imenom "config.xml".
 
@@ -236,7 +237,7 @@ To se včasih zgodi. Razvijalci se verjetno tega že zavedajo in bodo to kmalu p
 
 Kako odklenem vse proge?
 
-Predvideva se, da preigrate zgodbeni način in premagate vse izzive.
+Mišljeno je, da preigrate zgodbeni način in premagate vse izzive.
 
 Če pa hočete vse odkleniti, ne da bi preigrali zgodbeni način, lahko tudi pogoljufate in spremenite konfiguracijsko datoteko. Odprite mapo, ki jo omenjamo v vprašanju "Kje je shranjena konfiguracija?". Potem odprite mapo "config-0.10" in v poljubnem urejevalniku besedila odprite datoteko "players.xml". Zamenjajte vse vrednosti "none" s "hard" (težko) (ali "easy" (lahko) oziroma "medium" (srednje), odvisno, na kateri težavnosti ste hoteli premagati izziv).
 
