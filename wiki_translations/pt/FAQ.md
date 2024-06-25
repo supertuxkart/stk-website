@@ -96,7 +96,7 @@ Hiker anunciou então oficialmente a sua decisão de deixar o projeto depois de 
 
 A liderança do projeto foi passada para Benau, um grande contribuidor de código desde 2017, e Alayan, um grande contribuidor da versão 1.0. Deveee, um contribuidor importante ao longo de vários anos, responsável pela versão Android, permaneceu na equipa.
 
-Em janeiro de 2020, a versão 1.1 foi lançada. A jogabilidade não mudou, sendo que todas as versões 1.x são compatíveis ente si. As maiores mudanças nesta versão foram o melhoramento do código da rede e grandes melhoramentos na IU, especificamente em resoluções maiores, assim como várias correções de bugs e aperfeiçoamentos.
+Em janeiro de 2020, a versão 1.1 foi lançada. A jogabilidade não mudou, sendo que todas as versões 1.x são compatíveis entre si. As maiores mudanças nesta versão foram o melhoramento do código da rede e grandes melhoramentos na IU, especificamente em resoluções maiores, assim como várias correções de bugs e aperfeiçoamentos.
 
 Em agosto de 2020, a versão 1.2 foi lançada. Foi melhorado o suporte para comandos de jogo via SDL2, que suporta ligação a quente (ou hotplugging) e mapeamento de controlos.
 
