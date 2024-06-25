@@ -71,13 +71,11 @@ You should use decorations from the media repository whenever possible. They can
 
 {%popup_info **Stop!** Does your file structure match that described on the [Media Repo](Media_Repo) page? For other people to open your Blender file without errors, your track folder should be located inside the media repository!%}
 
-To use a model from the media repository, in Blender, in the Info window, go to File > Link. Navigate to the library folder in the media repo, find an object, then open the .blend file. In the "Object" folder, open the object that you want. (There should usually only be one object per .blend, unless the library node uses [Level of Detail](Level_of_Detail).) Make it a proxy by going to Object > Make Proxy in the 3D View window header so that you can move, rotate, and scale it.
+To use a model from the media repository, in Blender, in the Info window, go to File > Link. Navigate to the library folder in the media repo, find an object, then open the .blend file. In the "Object" folder, open the object that you want. (There should usually only be one object per .blend, unless the library node uses [Level of Detail](Level_of_Detail).) Make it a proxy by going to **Object > Make Proxy**(from blender 3.0 "make a proxy" has been replaced by "library Overrides" so use **Object > library redefinition**)  in the 3D View window header so that you can move, rotate, and scale it.
 
 {%popup_info If your decorations are of high quality, you may want to consider separating them from your track and contributing them as library nodes. See the [Making Library Nodes](Making_Library_Nodes) page for more information.%}
 
 When you duplicate a library object in your scene, be sure to use Alt + D (link duplicate) rather than Shift + D (actual duplicate). If you use an actual duplicate, the object will no longer be linked to the library.
-
-If your decorations are of high quality, you may want to consider separating them from your track and contributing them as library nodes. See the Making Library Nodes page for more information.
 
 ### Editing Decorations from the Media Repository
 

@@ -15,7 +15,7 @@ In order for other users to be able to open your Blender file without missing te
 
 ## Scaling
 
-It's important to know how sizes in Blender translate to STK, especially for the road. (More references can be found on the [3D Model Guidelines](3D_Model_Guidelines) page. Here are some references:
+It's important to know how sizes in Blender translate to STK, especially for the road. (More references can be found on the [3D Model Guidelines](3D_Model_Guidelines) page). Here are some references:
 
 * A typical track (for example, Antediluvian Abyss) is about 12 Blender units wide at an average section.
 * Certain tracks have very wide sections. For example, the width of the road at the start of Cocoa Temple is ~18 Blender units.

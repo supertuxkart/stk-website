@@ -89,7 +89,7 @@ Often, an ambient light map texture is simply a blurred and shrunken version of 
 
 ## Clouds
 
-You can add clouds by using meshes. However, make sure the camera far clip set in the SuperTuxKart Scene Properties panel is high enough. You should also set their interaction to ghost, either per-texture or per-object (see Physics). Animating the texture will also increase the realism.
+You can add clouds by using meshes. However, make sure the camera far clip set in the SuperTuxKart Scene Properties panel is high enough. You should also set their interaction to ghost, either per-texture or per-object (see [Physics](Physics)). Animating the texture will also increase the realism.
 
 ## Weather
 

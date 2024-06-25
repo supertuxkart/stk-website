@@ -57,6 +57,7 @@ title: Community
 * [{%translate Doxygen documentation%}](https://doxygen.supertuxkart.net "{%translate Doxygen documentation%}")
 * [{%translate Tasks for beginners%}](https://github.com/supertuxkart/stk-code/issues?q=is%3Aopen+is%3Aissue+label%3A%22T%3Afor+beginners%22 "{%translate Tasks for beginners%}")
 * [{%translate Scripting%}](Scripting "{%translate Scripting%}")
+* [{%translate Making Server%}](Making_server "{%translate Making Server%}")
 
 ### {%translate Misc,In Community page%}
 * [{%translate Making challenges%}](Making_challenges "{%translate Making challenges%}")
