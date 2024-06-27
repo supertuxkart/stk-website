@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Licensing - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Licensing">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Licensing is not the most exciting topic, but if you wish to contribute, you will absolutely need to read it.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+/* Add Page_Name.css with Page_Name.md */
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Licensing'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Licensing.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Licensing.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Licensing</h1>
+<article>
+<ul id="results-container"></ul><p>Licensing is not the most exciting topic, but if you wish to contribute, you will absolutely need to read it.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#why" id="markdown-toc-why">Why</a></li>
+  <li><a href="#stk-code" id="markdown-toc-stk-code">STK Code</a></li>
+  <li><a href="#considerations-to-always-keep-in-mind" id="markdown-toc-considerations-to-always-keep-in-mind">Considerations to always keep in mind</a></li>
+  <li><a href="#brands-corporations-etc" id="markdown-toc-brands-corporations-etc">Brands, corporations etc</a></li>
+  <li><a href="#which-licenses" id="markdown-toc-which-licenses">Which licenses?</a>    <ul>
+      <li><a href="#acceptable-licenses" id="markdown-toc-acceptable-licenses">Acceptable Licenses</a></li>
+      <li><a href="#licenses-requiring-modification-before-inclusion" id="markdown-toc-licenses-requiring-modification-before-inclusion">Licenses requiring modification before inclusion</a></li>
+      <li><a href="#unacceptable-licenses" id="markdown-toc-unacceptable-licenses">Unacceptable Licenses</a></li>
+    </ul>
+  </li>
+  <li><a href="#documenting-licenses" id="markdown-toc-documenting-licenses">Documenting Licenses</a></li>
+  <li><a href="#where-to-find-files" id="markdown-toc-where-to-find-files">Where to find files</a></li>
+</ul>
+<h2 id="why">Why</h2>
+
+<p>SuperTuxKart is included in many Linux distributions with strict license requirements (e.g. Debian). We cannot accept tracks/karts/textures/etc. with unclear licensing terms as this could result in SuperTuxKart being removed from their repositories, or, worse, getting sued.</p>
+
+<p>Furthermore, stk-assets is hosted (freely, I might add) by SourceForge, which require that all hosted materials be released under open licenses; therefore posting materials with improper licenses would violate our terms of hosting and be rude to the kind people who provide this hosting.</p>
+
+<h2 id="stk-code">STK Code</h2>
+
+<p>The source code of SuperTuxKart is released under GPL v3.0 (we updated all files to use this version by making use of the “or (at your option) any later version” clause of the GPL).</p>
+
+<h2 id="considerations-to-always-keep-in-mind">Considerations to always keep in mind</h2>
+
+<p>Here’s the information you should write down about any artwork you make (don’t forget to include the same information about any other artwork you integrate into your work) or someone else’s artwork that you share. Artwork includes textures, concept art, tracks, karts, 3D models, and any other artistic work. Note that while it’s OK to license a track as a whole under a single license, you must still credit the authors of individual components.</p>
+
+<ul>
+  <li>Author’s name (legal name and pseudonym, if possible)</li>
+  <li>Year of publication (copyright year—if possible)</li>
+  <li>License(s) under which the work is published</li>
+  <li>URL of where you found the artwork (It’s a good idea to save the page on the <a href="https://web.archive.org">Internet Archive</a> too, in case it goes offline.)</li>
+  <li>If you made a modified version and upgrade the license version, still note down the original license.</li>
+</ul>
+
+<p>If you fail to provide the necessary information, your work will be included neither in core SuperTuxKart nor add-ons!</p>
+
+<p>If you reuse a texture from another STK track, still note down the information above in case the texture is later removed from core STK.</p>
+
+<p>Also be sure that you have the right to actually release the art work under the license you chose. Some (usually commercial) software might restrict what you are allowed to do with anything created with that software. If the software includes bundled sound or image samples, be sure to follow the publisher’s licensing requirements if you integrate the samples into your work.</p>
+
+<h2 id="brands-corporations-etc">Brands, corporations etc</h2>
+
+<p>Trademarked logo and brands aren’t allowed in SuperTuxKart. Instead if you want to add a company or a corporation you can use fictional ones from our <a href="/Style">universe</a>.</p>
+
+<h2 id="which-licenses">Which licenses?</h2>
+
+<h3 id="acceptable-licenses">Acceptable Licenses</h3>
+
+<p>Consult the table below to choose an acceptable license. All compatibility between licenses is one-way unless specified otherwise.</p>
+
+<table class="wikitable">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Abbreviation</th>
+      <th>Summary</th>
+      <th>Compatibility</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International</a></td>
+      <td>CC-BY-SA 4.0</td>
+      <td>Ensures that you receive credit for your work and that your work (and derivative works) remain freely available under the same license. Note that the 3.0 version of this license is less internationally consistent in application and is not as compatible. Creative Commons licenses prior to version 3.0 are <strong>not</strong> acceptable. This is our recommended license.</td>
+      <td>Works licensed under the CC-BY-SA 4.0 (<em>only</em> 4.0, not 3.0) may be integrated into GPLv3 works. (But not GPLv3+ unless Creative Commons is specified as a proxy.) Works licensed under any version of the CC-BY can be integrated into CC-BY-SA works. Works licensed under the CC-BY-SA 1.0 <strong>cannot</strong> be integrated into CC-BY-SA 4.0 works. CC-BY-SA 4.0 works may be integrated into other CC-BY-SA 4.0 works. Public domain works can be integrated into any works under the CC-BY-SA 4.0. Works under the CC-BY-SA 2.0 or later <em>may</em> be able to be integrated into CC-BY-SA 4.0 works (see <a href="#licenses-requiring-modification-before-inclusion">§ Licenses requiring modification</a>).</td>
+    </tr>
+    <tr>
+      <td><a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a></td>
+      <td>CC-BY 4.0</td>
+      <td>More permissive than the CC-BY-SA in that it allows reuse under a different (potentially non-free) license. Note that older versions of this license are less internationally consistent in application.</td>
+      <td>Public domain works can be integrated into works under the CC-BY 4.0. Works under any prior version of the CC-BY license can be integrated into CC-BY 4.0 works. Works under the CC-BY 4.0 can be integrated into other works under the CC-BY 4.0.</td>
+    </tr>
+    <tr>
+      <td><a href="https://opensource.org/licenses/Artistic-2.0">Artistic License version 2</a></td>
+      <td>Artistic</td>
+      <td>The Artistic License version 2 is a permissive license allowing licensees some freedom to modify the original work without license restrictions, provided they avoid confusion with the original. (Note: I find the wording of both versions a bit confusing, however both versions are acceptable to Debian. The Free Software Foundation however <a href="https://www.gnu.org/licenses/license-list.html#ArtisticLicense">finds</a> the Artistic License version 1 to be non-free due to lack of clarity.)</td>
+      <td>Works based on those under the Artistic License version 2 can be released under the GPL. Other licenses may also be OK—decide on a case-by-case basis.</td>
+    </tr>
+    <tr>
+      <td><a href="https://opensource.org/licenses/MIT">X11 License/Expat License/”MIT License”</a></td>
+      <td>X11 or Expat</td>
+      <td>A very permissive license that requires only that a copyright notice be included in derivative works or copies. You can even re-license works under equivalent or more restrictive licenses. The only difference between X11 and Expat is that X11 includes a clause disallowing use of the company name in promotion.</td>
+      <td>Works licensed under the X11 License may be integrated into works under the CC-BY-SA 4.0, CC-BY 4.0, GPLv3, ALv2, MPLv2, and potentially others.</td>
+    </tr>
+    <tr>
+      <td>BSD Licenses (<a href="https://spdx.org/licenses/BSD-4-Clause.html">4-Clause</a>, <a href="https://opensource.org/licenses/BSD-3-Clause">3-Clause</a>, <a href="https://www.freebsd.org/copyright/freebsd-license/">2-Clause (NetBSD version)</a>, <a href="https://www.freebsd.org/copyright/freebsd-license.html">2-Clause (FreeBSD version)</a>)</td>
+      <td>BSD-4 (Four-clause version), BSD-3 (Three-clause/Revised/Modified version), BSD-2 (Two-clause/FreeBSD version), BSD-simplified (NetBSD version)</td>
+      <td>The BSD licenses are a group of very permissive licenses. They are listed in order of most to least restrictive in the “abbreviation” column to the left. All BSD licenses include an attribution (copyright notice) requirement and a disclaimer of liability. Additionally, the BSD-4 and BSD-3 include a restriction on the use of the author’s name in promotion of modified versions of the product. (Note: the latter requirement still implicitly applies under the BSD-2 and BSD-simplified since this is considered a right in most countries that cannot be taken away without explicit forfeiture.) The BSD-4 includes a controversial clause requiring attribution in advertisements and is not recommended. The BSD-2 includes a statement that the views expressed in the software or documentation are the author’s and not the organization’s. The BSD-simplified does not include the latter statement.</td>
+      <td>Works under all BSD licenses EXCEPT the BSD-4 may be integrated into GPL works and probably many others, provided you remember to note down what license the original was under. (This is a requirement for all derivative works.)</td>
+    </tr>
+    <tr>
+      <td><a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">Creative Commons Zero</a></td>
+      <td>CC0 or public-domain</td>
+      <td>Not a true license but rather a statement of release into the public domain. This means that anyone can use your work for any purpose without any type of attribution to you.</td>
+      <td>CC0 works can be integrated into any other type of work, however we ask that you still record your source to dissuade false copyright infringement claims. Because the CC0 is a declaration of forfeiture of copyright, you cannot integrate copyrighted work into your art and release it under the CC0.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.mozilla.org/en-US/MPL/2.0/">Mozilla Public License version 2</a></td>
+      <td>MPL 2.0</td>
+      <td>The MPLv2 is unique in that it requires <em>modifications</em> to be released under the MPLv2, but unmodified versions may be incorporated into “larger works” as long as they remain as individual files. Of course, this makes little sense for artistic works, where multiple works could be stored in the same file but still be able to be separated.</td>
+      <td>Only of particular note is that MPLv2 works can be integrated into differently-licensed works, provided that the MPLv2 works remain under the MPLv2 despite the “larger work” being distributed under a different license. However this is not really applicable for artistic works as e.g. including an MPLv2-licensed 3D model in a GPL-licensed track doesn’t constitute a larger work since the two objects remain separable, unlike a compiled program.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License version 2</a></td>
+      <td>Apache 2.0</td>
+      <td>The ALv2 is a very permissive license much like the BSD-2. The important thing is that it protects users from patent traps.</td>
+      <td>Of particular note is that ALv2 is compatible with GPLv3, but not other versions. Other licenses may also be OK—decide on a case-by-case basis.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU General Public License version 3</a></td>
+      <td>GPL 3.0 (GPL 3.0+ if “or later version” clause is used)</td>
+      <td>The GPL is a strong copyleft license, similar in many ways to the CC-BY-SA.</td>
+      <td>GPL-licensed works can only rarely be integrated into non-GPL works.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.gnu.org/licenses/lgpl-3.0.en.html">GNU Lesser General Public License version 3</a></td>
+      <td>LGPL 3.0 (LGPL 3.0+ if “or later version” clause is used)</td>
+      <td>Much like the GPL 3.0, except allows linking with proprietary libraries. Doesn’t make sense for artistic works.</td>
+      <td>????</td>
+    </tr>
+  </tbody>
+</table>
+
+<p></p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>Note that <strong>even if you modify the work</strong> (image, model, etc.), in general you do <strong>not have the legal right to change the license</strong> of your modified version; changing of license must be explicitly granted by the license of the work in question, or by the author. Some licenses like the GPL or CC-BY-SA expressly limit your choice of license for derivative works, while others can continue to subtly apply to your modified version after you re-license, such as the CC-BY, which requires attribution even if you change the license.</p>
+  </div>
+</div>
+
+<h3 id="licenses-requiring-modification-before-inclusion">Licenses requiring modification before inclusion</h3>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>I find this section a little dangerous. Reading in the Debian mailing list, it looks like some CC 1.0/2.x restrictions on attribution could come back to haunt you even if you license a derivative under a later version. Also why isn’t the CC-BY 1.0 OK?</p>
+  </div>
+</div>
+
+<p>These licenses are unacceptable for works submitted to SuperTuxKart, but if you make a <em>significant</em> change to a work of art under one of these licenses (for instance crop it and make it repeatable to build a texture), then you are allowed to release your modified version of the image under a later version the same license. What constitutes a significant modification is open for lawyers to debate upon but as long as your modified version does not look like a copy of the original we won’t be picky.</p>
+
+<ul>
+  <li>Creative Commons Attribution 2.0</li>
+  <li>Creative Commons Attribution 2.5</li>
+  <li>Creative Commons Attribution-ShareAlike 2.0</li>
+  <li>Creative Commons Attribution-ShareAlike 2.5</li>
+</ul>
+
+<h3 id="unacceptable-licenses">Unacceptable Licenses</h3>
+
+<p>Do not attempt to submit modified or unmodified versions of works under these licenses:</p>
+
+<ul>
+  <li>GNU Free Documentation License (all versions)</li>
+  <li>Creative Commons Sampling 1.0</li>
+  <li>Creative Commons Sampling Plus 1.0</li>
+  <li>Any Creative Commons licenses version 1.0</li>
+  <li>Any Creative Commons licenses with the <em>no derivatives</em> (ND) clause</li>
+  <li>Any Creative Commons licenses with the <em>non-commercial</em> (NC) clause</li>
+  <li>Free Art License (Licence Art Libre)—due to confusion with the translation from French</li>
+  <li><a href="http://imageafter.com/">Image*After Terms</a></li>
+  <li><a href="http://texturelib.com/license">Texturelib License</a></li>
+  <li>“Creative Commons” without a full name including the version number (because Creative Commons is an organization, not a license.)</li>
+  <li>“I-asked-the-guy-and-he-said-I-could-use-it.” This is not a license, and even if you have it in writing it doesn’t tell you what legal restrictions apply. Ask for an explicit statement, or ask the person to copy and sign/re-post the one below:</li>
+</ul>
+
+<blockquote>
+  <p>I, &lt;name here&gt;, agree to release my artistic work, &lt;name of work here&gt;, under the terms of the &lt;name of license here&gt;.</p>
+</blockquote>
+
+<p>For other licenses, we need to check on a case-by-case basis. The <a href="https://wiki.debian.org/DFSGLicenses">Debian Wiki</a> provides more details on other licenses along with <a href="https://www.gnu.org/licenses/license-list.en.html">GNU’s page</a> about licenses.</p>
+
+<h2 id="documenting-licenses">Documenting Licenses</h2>
+
+<p>Note: If you’ve made a library node or texture to be included in SuperTuxKart main, just provide the information required above to whoever is in charge of including your artwork and the licensing information will be added for you.</p>
+
+<p>So, you’ve dutifully gathered all the information needed that’s listed above. Now what? For any add-on kart, track, or arena, you will need to include this information in an organized way in a file called <code class="language-plaintext highlighter-rouge">licenses.txt</code> in the same folder as the <strong>exported</strong> kart or track’s files.</p>
+
+<p>The preferred way to document the licenses for your kart/track/arena/etc. in <code class="language-plaintext highlighter-rouge">licenses.txt</code> is to follow the <a href="https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/">Debian Machine-Readable Copyright File Format</a>. This ensures a standardized way to keep track of licenses and makes it easy to look up the license of your work should a controversy ever arise. Here is an example of what your <code class="language-plaintext highlighter-rouge">licenses.txt</code> might look like for an add-on kart:</p>
+
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Code</span></b></div>
+<div class="popup-code-line"><code>
+Format: <a href="https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/">https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/</a>
+Upstream-Name: Example SuperTuxKart Add-On Kart
+Upstream-Contact: John Doe &lt;jdoe@example.com&gt;
+Source: <a href="https://online.supertuxkart.net/addons.php?type=karts&amp;name=example">https://online.supertuxkart.net/addons.php?type=karts&amp;name=example</a>
+Comment: The Blender source files may be downloaded at the address above.
+License: CC-BY-SA 4.0
+Copyright: Copyright 2017 John Doe
+
+Files:
+ kart_main.spm
+ kart_wheel.spm
+ kart_driver.spm
+ kart.xml
+ materials.xml
+Copyright: Copyright 2017 John Doe
+License: CC-BY-SA 4.0
+
+Files:
+ kart_main_tex.png
+ kart_wheel_tex.png
+ kart_driver_tex.png
+Copyright:
+ Copyright 2003 Jane Doe
+ Copyright 2017 John Doe
+License: CC-BY-SA 4.0
+Comment:
+ Originally released by Jane Doe at <a href="https://opengameart.org/url_of_texture">https://opengameart.org/url_of_texture</a> 
+ under the Expat License. Modified by John Doe and released under the
+ CC-BY-SA 4.0 license.
+
+</code></div>
+</div>
+
+<p></p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>If you need to document a file with a space in the file path, replace the space with a question mark.</p>
+  </div>
+</div>
+
+<p>Note that current and previous licenses are noted, as are current and previous copyrights and authors.</p>
+
+<h2 id="where-to-find-files">Where to find files</h2>
+
+<p>Looking for properly licensed material?</p>
+
+<p>The following websites offer only public domain material, that is always OK to use:</p>
+
+<ul>
+  <li><a href="https://publicdomainpictures.net/">Public Domain Pictures</a> (Photo)</li>
+  <li><a href="https://www.burningwell.org/">BurningWell</a> (Photos)</li>
+  <li><a href="https://pdsounds.org/">pdsounds</a> (Audio)</li>
+  <li><a href="https://openclipart.org/">OpenClipArt</a> (2D Vector Art)</li>
+</ul>
+
+<p>The following websites provide resources under a variety of mixed licenses; you may find a lot of good material there but verify the license on a case by case basis:</p>
+
+<ul>
+  <li><a href="https://opengameart.org/">OpenGameArt</a> (Textures, 2D art, 3D models, audio)</li>
+  <li><a href="https://www.swtexture.com/">swtexture</a> (Textures)</li>
+  <li><a href="https://freesound.org/">Freesound</a> (Audio)</li>
+  <li><a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a> (Photos, drawings, audio)</li>
+  <li><a href="https://soundbible.com/">SoundBible</a> (Audio)</li>
+  <li><a href="https://archive.org/details/opensource_audio">Community Audio</a> (Audio)</li>
+  <li><a href="https://www.jamendo.com/">Jamendo</a> (Music)</li>
+  <li><a href="https://www.blendswap.com/">BlendSwap</a> (3D models)</li>
+</ul>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

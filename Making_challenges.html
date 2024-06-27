@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Making challenges - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Making challenges">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="This page documents how challenge files are written, and how to ensure they are showing up in the game.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+/* Add Page_Name.css with Page_Name.md */
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Making_challenges'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Making_challenges.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Making_challenges.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Making challenges</h1>
+<article>
+<ul id="results-container"></ul><p>This page documents how challenge files are written, and how to ensure they are showing up in the game.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#create-and-place-the-file" id="markdown-toc-create-and-place-the-file">Create and place the file</a></li>
+  <li><a href="#list-of-xml-attributes" id="markdown-toc-list-of-xml-attributes">List of XML attributes</a></li>
+</ul>
+<h2 id="create-and-place-the-file">Create and place the file</h2>
+
+<p>The easiest way is to copy an already existing .challenge file and edit to your liking. The files are in various track folders, and you need to place your own alongside in a not-empty track folder in order for STK to find it. See <a href="/Installing_Add-Ons">this page</a> if you don’t know where the track folders are. If placed and formatted correctly, you should see your challenge alongside with the rest in ‘Challenges’ entry in the main menu. Should you not find it, start the game with a terminal and see if any warnings are printed.</p>
+
+<p>The game auto-creates an entry for your challenge in the <strong>players.xml</strong> file upon game runtime. To find this file, refer to question “Where is the configuration stored?” in <a href="/FAQ">the FAQ</a>. So if you created a challenge with <code class="language-plaintext highlighter-rouge">id="mychallenge"</code>, there should be a line <code class="language-plaintext highlighter-rouge">&lt;mychallenge solved="false" /&gt;</code> in <strong>players.xml</strong>. Simply change to <em>false</em> again if you need to test unlocking later, e.g. if you change <em>unlock-track</em> after fulfilling the challenge. Do keep in mind that if you edit a challenge SuperTuxKart might stop working and you will have to restore the old challenge file.</p>
+
+<h2 id="list-of-xml-attributes">List of XML attributes</h2>
+
+<table class="wikitable">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id</td>
+      <td>Unique identification which STK knows the challenge by. This can be referenced for depend-on in other challenges.</td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>Short descriptive name for the challenge. Shows up over the main description.</td>
+    </tr>
+    <tr>
+      <td>description</td>
+      <td>Full description of the challenge.</td>
+    </tr>
+    <tr>
+      <td>unlock-track</td>
+      <td>Track which the challenge unlocks if solved. Currently a requirement to fill in, if no other unlock- property is used.</td>
+    </tr>
+    <tr>
+      <td>unlock-gp</td>
+      <td>Grand Prix which the challenge unlocks if solved.</td>
+    </tr>
+    <tr>
+      <td>unlock-mode</td>
+      <td>Game mode which the challenge unlocks if solved. For example, <em>FOLLOW_LEADER</em>.</td>
+    </tr>
+    <tr>
+      <td>depend-on</td>
+      <td>Challenge id(s) which the challenge depends on in order to be shown. This attribute is not required.</td>
+    </tr>
+    <tr>
+      <td>major</td>
+      <td>Major game mode type. Currently, possible major modes are <em>any</em>, <em>grandprix</em> and <em>single</em>.</td>
+    </tr>
+    <tr>
+      <td>minor</td>
+      <td>Minor game mode type. Currently, possible minor modes are <em>followtheleader</em>, <em>timetrial</em> and <em>quickrace</em>.</td>
+    </tr>
+    <tr>
+      <td>track</td>
+      <td>Track where challenge takes place.</td>
+    </tr>
+    <tr>
+      <td>difficulty</td>
+      <td>Difficulty mode for race. For example, <em>medium</em>.</td>
+    </tr>
+    <tr>
+      <td>karts</td>
+      <td>Number of karts.</td>
+    </tr>
+    <tr>
+      <td>laps</td>
+      <td>Number of laps.</td>
+    </tr>
+    <tr>
+      <td>position</td>
+      <td>Required rank.</td>
+    </tr>
+    <tr>
+      <td>energy</td>
+      <td>Number of energy/nitro points to collect. This attribute is not required.</td>
+    </tr>
+    <tr>
+      <td>time</td>
+      <td>Maximum amount of time in seconds.</td>
+    </tr>
+  </tbody>
+</table>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

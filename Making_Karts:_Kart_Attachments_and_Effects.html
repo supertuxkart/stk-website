@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Making Karts: Kart Attachments and Effects - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Making Karts: Kart Attachments and Effects">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Karts can have a number of attachments to achieve special effects. This page describes how to add them to your kart.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/wiki/Kart_headlight.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Making_Karts:_Kart_Attachments_and_Effects'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Making_Karts:_Kart_Attachments_and_Effects.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Making_Karts:_Kart_Attachments_and_Effects.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Making Karts: Kart Attachments and Effects</h1>
+<article>
+<ul id="results-container"></ul><p>Karts can have a number of attachments to achieve special effects. This page describes how to add them to your kart.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#nitroexhaust-emitter" id="markdown-toc-nitroexhaust-emitter">Nitro/Exhaust emitter</a></li>
+  <li><a href="#headlights" id="markdown-toc-headlights">Headlights</a>    <ul>
+      <li><a href="#if-your-headlights-are-attached-to-the-character-or-an-animated-kart" id="markdown-toc-if-your-headlights-are-attached-to-the-character-or-an-animated-kart">If your headlights are attached to the character or an animated kart</a></li>
+      <li><a href="#if-your-headlights-are-static-non-moving" id="markdown-toc-if-your-headlights-are-static-non-moving">If your headlights are static (non-moving)</a></li>
+    </ul>
+  </li>
+  <li><a href="#christmas-hats--easter-bunny-ears" id="markdown-toc-christmas-hats--easter-bunny-ears">Christmas Hats &amp; Easter Bunny Ears</a></li>
+  <li><a href="#speed-weighted-animations" id="markdown-toc-speed-weighted-animations">Speed-Weighted Animations</a></li>
+</ul>
+<h2 id="nitroexhaust-emitter">Nitro/Exhaust emitter</h2>
+
+<p>Add Blender empty-type objects at the ends of the exhaust pipes on your kart and set the type to “Nitro Emitter” in the SuperTuxKart Object Properties panel.</p>
+
+<h2 id="headlights">Headlights</h2>
+
+<p>All new karts should have headlights of some sort unless it absolutely makes no sense for your kart. This doesn’t mean you have to use traditional headlights—Gnu, for example, bears antique oil lanterns instead of normal headlights, which wouldn’t go well with a flying carpet.</p>
+
+<p>For most karts, with the exception of Gnu, the headlights are integrated into the kart model and the object specifically marked as a headlight in Blender is actually a fake light cone, since SuperTuxKart does not support real cone lights.</p>
+
+<p>To add headlights, you can copy the light cone from one of the other karts in the media repo and add it to your kart where you want it. Be sure to apply the any rotation and scaling you make in object mode with <strong>Ctrl+A</strong>. You can duplicate this mesh in object mode with <strong>Shift+D</strong>. The origin of the headlight (the small yellow dot) will be the location of the actual light on the kart. You can change the origin with <strong>Ctrl+Alt+Shift+C</strong>. From here, there are two courses of action depending on the design of your kart:</p>
+
+<h3 id="if-your-headlights-are-attached-to-the-character-or-an-animated-kart">If your headlights are attached to the character or an animated kart</h3>
+
+<p>Probably most karts will not need this special procedure. Provided that the headlights are attached to the kart and the kart does not have any special skeletal animations, the headlights will not become visibly “detached” from the kart. If, however, your kart uses special animations like Pepper’s broom, you will need this procedure. Most karts lean when turning via STK’s built-in IPO animation which will automatically move headlights too, but for Pepper, the broom has its own skeletal leaning animation in addition to this. Thus, if the headlight is not attached to the broom, it will become separated when turning and look ugly. The solution to this is to attach the headlight to a bone.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Kart_headlight.jpg"><img src="/assets/wiki/Kart_headlight.jpg" alt="Kart_headlight" /></a></div>
+</div>
+
+<p>Select the first headlight you would like to attach, make it a a child object of the armature which it should follow, then go to the <strong>Object</strong> section of the Properties window, choose “Bone” for <strong>Parent Type</strong> and select the bone it should follow immediately below, as shown in the screenshot above. Then, in the SuperTuxKart Object Properties panel, set the headlight object as a “Headlight” object type. You can also set the color of the light emitted.</p>
+
+<h3 id="if-your-headlights-are-static-non-moving">If your headlights are static (non-moving)</h3>
+
+<p>If your headlights don’t need to move besides normal tilting of the kart (which is handled by STK in code), it is much simpler to add headlights. All that’s needed is to position the light cone where you want it and mark it as a headlight in the SuperTuxKart Object Properties panel. You can also choose a color of the light emitted.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>Cut down on resource costs! If you use the same model for both headlights on your kart, make a linked copy with <strong>Alt+D</strong> instead of <strong>Shift+D</strong> and your headlight object will use instancing.</p>
+  </div>
+</div>
+
+<h2 id="christmas-hats--easter-bunny-ears">Christmas Hats &amp; Easter Bunny Ears</h2>
+
+<p>Hats are added in a way very similar to headlights. Create an object (any object, though appending <code class="language-plaintext highlighter-rouge">christmas_hat.blend</code> from the <code class="language-plaintext highlighter-rouge">models</code> folder of the media repo is recommended) and position it where you want your hat to be relative to the character. Set it as a “Hat Positioner” in the SuperTuxKart Object Properties panel. Then, <u>if and only if your character has skeletal animation,</u> make the hat object a child object of your character model, change <strong>Parent Type</strong> to “Bone” under “Relations” in Blender’s Object Properties panel, and choose the correct bone (probably your character’s neck or head bone) to attach the hat via <strong>Parent Bone</strong> chooser.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Kart_hat.jpg"><img src="/assets/wiki/Kart_hat.jpg" alt="Kart_hat" /></a></div>
+</div>
+
+<div><br /></div>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>You can also save a small amount of space in your blend file by linking the hat model instead of appending and, with the model selected, going to <strong>Object &gt; Make Local &gt; Selected Object and Data</strong> in the 3D View window.</p>
+  </div>
+</div>
+
+<h2 id="speed-weighted-animations">Speed-Weighted Animations</h2>
+
+<p>SuperTuxKart can change the speed of skeletal and/or texture animations on certain objects depending on the speed of the kart. For example, this is used for the Sara’s snowmobile to make the <a href="https://en.wikipedia.org/wiki/Continuous_track">continuous track</a> speed up and slow down with the kart. Adding speed-weighted objects is quite easy, provided the object to be speed-weighted is a separate object and not part of the same mesh as the kart.</p>
+
+<p>A speed-weighted animation can be added to an object simply by setting its type to “Speed Weighted” in the SuperTuxKart Object Properties panel. The tooltips on the settings that appear beneath explain what each setting does. Note the following regarding each setting:</p>
+
+<ul>
+  <li><strong>Strength factor</strong> has no effect on most devices. Essentially this only has an effect with the Intel HD Graphics 3000 on Windows, where hardware skinning is not supported.</li>
+  <li><strong>Speed factor</strong> will use the default value if set to <code class="language-plaintext highlighter-rouge">-1.0</code>. It will <strong>not</strong> be completely disabled. If you want speed-independent skeletal animation but speed-dependent texture animation, set this option to <code class="language-plaintext highlighter-rouge">0.0</code></li>
+  <li><strong>Texture speed X</strong> and <strong>Texture speed Y</strong> must both be set to <code class="language-plaintext highlighter-rouge">0.0</code> if you wish to disable texture animation.</li>
+</ul>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>If you add a skeletally-animated speed-weighted object, and wish to attach it to a bone as in the hat procedure above, you will need to animate the object separately in local space, making sure that the armature and the object it deforms have the same center of mass. Then make the armature and the object direct children of your main armature (for Kiki, the tail armature is a child object of the body armature). The speed-weighted object and its armature should have a sibling relationship, not parent-child.</p>
+  </div>
+</div>
+
+<ul id="art_portal_nav">
+    <li class="art_portal_nav_item" id="special_return_to_art_portal">
+    <a href="/Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="art_portal_nav_text">
+        <a href="/Community"><span class="translate">Return to Get Involved</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Library_Nodes"><span class="translate">Making Library Nodes</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Karts"><span class="translate">Making Karts</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Tracks"><span class="translate">Making Tracks</span></a>
+    </span>
+    </li>
+</ul>
+
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

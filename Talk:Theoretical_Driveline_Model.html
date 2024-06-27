@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Talk:Theoretical Driveline Model - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Talk:Theoretical Driveline Model">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Contents Concept of Quads and Drivelines Main driveline sections Normal driveline sections Detailed concept: QuadGraph Simple Loop Reverse Loop Simple Loop with Shortcut A Loop Inside of the Track Concept of Quads and Drivelines Drivelines are used to indicate to the AI where to drive and to determine the order of karts: if a kart is on the driveline, it is known how much of the track it has driven, and allows to compare the progress of karts. If a kart is off the driveline, the closest driveline point is picked to determine how far that kart has driven when comparing the distances of karts, and to determine where to drive to.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/wiki/New_driveline.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Talk:Theoretical_Driveline_Model'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Talk:Theoretical_Driveline_Model.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Talk:Theoretical_Driveline_Model.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Talk:Theoretical Driveline Model</h1>
+<article>
+<ul id="results-container"></ul><h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#concept-of-quads-and-drivelines" id="markdown-toc-concept-of-quads-and-drivelines">Concept of Quads and Drivelines</a>    <ul>
+      <li><a href="#main-driveline-sections" id="markdown-toc-main-driveline-sections">Main driveline sections</a></li>
+      <li><a href="#normal-driveline-sections" id="markdown-toc-normal-driveline-sections">Normal driveline sections</a></li>
+    </ul>
+  </li>
+  <li><a href="#detailed-concept-quadgraph" id="markdown-toc-detailed-concept-quadgraph">Detailed concept: QuadGraph</a>    <ul>
+      <li><a href="#simple-loop" id="markdown-toc-simple-loop">Simple Loop</a></li>
+      <li><a href="#reverse-loop" id="markdown-toc-reverse-loop">Reverse Loop</a></li>
+      <li><a href="#simple-loop-with-shortcut" id="markdown-toc-simple-loop-with-shortcut">Simple Loop with Shortcut</a></li>
+      <li><a href="#a-loop-inside-of-the-track" id="markdown-toc-a-loop-inside-of-the-track">A Loop Inside of the Track</a></li>
+    </ul>
+  </li>
+</ul>
+<h2 id="concept-of-quads-and-drivelines">Concept of Quads and Drivelines</h2>
+
+<p>Drivelines are used to indicate to the AI where to drive and to determine the order of karts: if a kart is on the driveline, it is known how much of the track it has driven, and allows to compare the progress of karts. If a kart is off the driveline, the closest driveline point is picked to determine how far that kart has driven when comparing the distances of karts, and to determine where to drive to.</p>
+
+<p>All places that a kart is allowed to drive on are marked by quads. Quads need not to be connected (though usually are). A sequence of quads together make a driveline, indicating in which order the AI should drive on the quads. Example:</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/New_driveline.jpg"><img src="/assets/wiki/New_driveline.jpg" alt="New_driveline" /></a></div>
+</div>
+
+<p>A <em>driveline section</em> is a sequences of quads connected to each other. These driveline sections are then connected to create the full drivelines for a track. In the example above there would be two driveline sections: the black main driveline creating the lap, and the driveline in red indicating a shortcut (or alternative path) for the karts.</p>
+
+<p>In blender the quads of a driveline section are created from a simple mesh:</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Driveline_blender.jpg"><img src="/assets/wiki/Driveline_blender.jpg" alt="Driveline_blender" /></a></div>
+</div>
+
+<p>The beginning of a driveline section is marked by two unconnected edges. The <em>start point</em> of a driveline is the middle point of the two end vertices of the edges. The <em>end point</em> is the middle point of the four vertices of the last quad. The edges connecting corresponding vertices from the left and right side are optional. So if you want to divide a quad into two (e.g. to better model the shape of the track, or to help the AI) you can just add the two vertices, you do not have to connect them. It is important though that both sides of the drivelines contain the same number of vertices (otherwise the quads can’t be created properly). If you convert the main track as described in the track making tutorial the created mesh will automatically have the same number of points on each side.</p>
+
+<p>There are two reasons why you might want to split a single driveline section into smaller driveline sections:</p>
+
+<ol>
+  <li>A driveline section can be marked as ‘insivisible’, i.e. it will not be displayed in the minimap. This should be used for hidden shortcuts that need to be discovered by the player. This is done by giving the driveline the property ‘invisible’ with a non-zearo value.</li>
+  <li>(not yet implemented): driveline section can be marked as ‘disabled’, meaning it will not be used (nor displayed) in the game. This can be used to force the AI to take a certain way and therefore make sure that the AI can drive on all possible paths.</li>
+</ol>
+
+<p>The track export script distinguish between two kind of driveline sections:</p>
+
+<h3 id="main-driveline-sections">Main driveline sections</h3>
+
+<p>The main driveline which indicates the ‘main’ way in which karts should drive. The quads of the main driveline must form a single lap. A driveline section is marked to be part of the main driveline by giving it the type “main-driveline”.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Main_driveline.jpg"><img src="/assets/wiki/Main_driveline.jpg" alt="Main_driveline" /></a></div>
+</div>
+
+<p>The example above shows a single driveline section only. The order in which the main driveline sections are connected is determined as follows:</p>
+
+<ol>
+  <li>The main driveline section with a start point closest to (0,0,0) is selected first.</li>
+  <li>From all remaining main driveline sections the one with the start point closest to the end point of the last selected main driveline section is selected next.</li>
+</ol>
+
+<p>The last step is then repeated till all main driveline sections are selected, and therefore the order in which the main driveline sections are connected is determined. The quads are then created from the separate driveline sections, and one quad is added from the last added driveline section to back to the first driveline section. This creates the main lap.</p>
+
+<p>Note: Depending on experience we might either add quads to connect each driveline section, or not add the one driveline section between the last and the first section.</p>
+
+<h3 id="normal-driveline-sections">Normal driveline sections</h3>
+
+<p>Normal driveline sections are indicated by giving the mesh the type property “driveline”. These drivelines are used to create ‘alternative’ ways for the track to drive on.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Driveline.jpg"><img src="/assets/wiki/Driveline.jpg" alt="Driveline" /></a></div>
+</div>
+
+<p>The procedure with which these driveline sections are added is similar to the procedure above:</p>
+
+<ol>
+  <li>Select all main driveline sections.</li>
+  <li>From all normal driveline sections the one with a starting point closest the center point of any quad in the selected drivelines is selected. A new connection is made from the closest quad to the newly selected driveline section.</li>
+</ol>
+
+<p>This procedure is then repeated till all quads have been added. Note that by moving the two start vertices you can exactly control which quad is selected as the predecessor of a normal driveline section: just move the two vertices close to the center of the quad you want it to be connected from.</p>
+
+<p>FIXME: What about the end of a newly selected quad? This is added as well???</p>
+
+<h2 id="detailed-concept-quadgraph">Detailed concept: QuadGraph</h2>
+
+<p>While the description so far is exactly what is supported by the track exporter, the actual concept implemented in STK allows more complicated structure. This is done by maintaining two data structures: one containing the list of all quads, and one describing how the quads are connected with each other, the so called quad graph. The main difference between the two data structures is that one quad in the list of all quads can be used several times in the graph. The graph consists of nodes - as a default, each quad corresponds to a graph node with the same number - this is exactly what the track exporter assumes. But this is not necessary: A part of the track might not be used for a particular race (think of a city track where several different race tracks can be defined.</p>
+
+<p>The graph defines for each graph node which quad it belongs to, and which are the possible successors. Usually each quad will have exactly one successor, but in case of a shortcut or branch of the track it might have more than one.</p>
+
+<p>Given the quad definitions from the picture, the following graphs could be defined:</p>
+
+<h3 id="simple-loop">Simple Loop</h3>
+
+<p>A graph with nodes 1 to 29, corresponding to the quads 1 to 29. The order is then</p>
+
+<p><code class="language-plaintext highlighter-rouge">1 → 2 → 3 → ... → 29 → 1. </code></p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Quad_graph_1.jpg"><img src="/assets/wiki/Quad_graph_1.jpg" alt="Quad_graph_1" /></a></div>
+</div>
+
+<p>This defines a simple loop, driven in clockwise direction. The shortcut is not allowed (for the AI, there is no restriction where the players are allowed to drive).</p>
+
+<h3 id="reverse-loop">Reverse Loop</h3>
+
+<p>A graph with nodes 1 to 29, corresponding to the quads 1 to 29 and the graph:</p>
+
+<p><code class="language-plaintext highlighter-rouge">1 → 29 → 28 → ... → 2 → 1.</code></p>
+
+<p>This gives a similar simple loop as the one above, but it is driven in reverse (ie. counter-clockwise).</p>
+
+<h3 id="simple-loop-with-shortcut">Simple Loop with Shortcut</h3>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Quad_graph_2.jpg"><img src="/assets/wiki/Quad_graph_2.jpg" alt="Quad_graph_2" /></a></div>
+</div>
+
+<p>For this we need a graph with 34 nodes, corresponding to the 34 quads. The main loop will be defined as in example 1, but additionally we add:</p>
+
+<p><code class="language-plaintext highlighter-rouge"> 15 → 30 → 31 ... → 34 → 23</code></p>
+
+<p>This allows the AI to pick any of the two ways (the criteria for which way is picked are not defined yet - atm it’s a random selection).</p>
+
+<p>The numbers indicate the number of the quads. This part does not define in which order the quads should be driven, or if the shortcut is to be used or not, it only defines which part of the track can be used.</p>
+
+<h3 id="a-loop-inside-of-the-track">A Loop Inside of the Track</h3>
+
+<p>The driveline structures also allows us to define a loop, i.e. forcing the AI to drive a circle before continuing, see picture:</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Quad_graph_3.jpg"><img src="/assets/wiki/Quad_graph_3.jpg" alt="Quad_graph_3" /></a></div>
+</div>
+
+<p>(note that this is most likely an absurd example only - for a track like this to be fair the player karts would have to do the same loop, which means there must be a mean to indicate this to the player, which we currently don’t have).</p>
+
+<p>To do this, we need additional graph nodes for the sections that are driven twice. So graph nodes 1 to 34 corresponds to the quads 1 to 34, and then additional graph nodes 35 to 43 which are mapped to the quads 15 to 23 (again). So the quads 15 to 23 have each two graph nodes associated with them, but each graph node still has exactly one quad. Then we can define the following graph:</p>
+
+<p><code class="language-plaintext highlighter-rouge">1 → 2 → ... 14 → 15 → 16 → ... → 23 → 34 → 33 → ... → 30 → ...</code></p>
+
+<p>This defines the first part of the loop: driving backwards on the shortcut to graph node 30 (which is quad 30). Then we use quad 15 for the second time, so we use the additional graph nodes here:</p>
+
+<p><code class="language-plaintext highlighter-rouge"> ... 30 → 35 [15] → 36 [16] → ... → 43 [23] → 24 → 25 → ... → 29 → 1</code></p>
+
+<p>In [] are the corresponding quad numbers for the graph nodes 35 to 43. By having the additional graph node layers the AI will simply follow the graph till the end (so there are no loops in the graph, except for starting a new lap), but the mappings of graph nodes to quads force the AI to drive a loop.</p>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>
