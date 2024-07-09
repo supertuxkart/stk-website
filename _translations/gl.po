@@ -356,7 +356,7 @@ msgid ""
 " which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
 msgstr ""
 "Wilber é o cámara oficial que traballa para WTXB-TV para gravar carreiras de"
-" karts, que son moi populares no Reino Mascot. É a mascota de GIMP."
+" karts, que son moi populares no Reino Mascota. É a mascota de GIMP."
 
 msgid "Puffy"
 msgstr "Puffy"
