@@ -36,7 +36,7 @@ O equipo ten que manter a calidade do código e das obras de arte. Isto signific
 ### Cando se presente un activo ou outra contribución de obra de arte
 
 * Proporcione os ficheiros fonte (.kra, .xcf, .blend, etc.).
-* Indique claramente a licenza. (Consulte [Licensing](Licenzas) para ver as opcións.)
+* Indique claramente a licenza. (Consulte [Licenzas](Licenzas) para ver as opcións.)
 * Acepta as críticas e mira o que se pode facer para mellorar a túa obra de arte.
 * Discuta co equipo mentres aínda está en proceso para obter comentarios.
 * Ten claro se a túa contribución está completa ou en proceso.
