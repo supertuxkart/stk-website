@@ -50,9 +50,9 @@ Ve a gran diferenza? A barreira é interesante de ver, hai moitos detalles como 
 
 ## Regras
 
-* Todos os modelos **DEBEN** ser aptos para nenos. SuperTuxKart debería encaixar no [rating] de "Todos" da ESRB (https://en.wikipedia.org/wiki/Entertainment_Software_Rating_Board#Ratings).
+* Todos os modelos **DEBEN** ser aptos para nenos. SuperTuxKart debería encaixar na [valoración] de "Todos" da ESRB (https://en.wikipedia.org/wiki/Entertainment_Software_Rating_Board#Ratings).
 * Os modelos deben ser capaces de verse ben tanto sós como en grupo.
-* Os modelos high-poly deberían facer uso de [Level of Detail](Nivel_de_detalle).
+* Os modelos high-poly deberían facer uso de [Nivel de Detalle](Nivel_de_detalle).
 * A menos que o teu modelo sexa inseparable da túa pista, os obxectos deberían poder usarse en moitos ambientes diferentes para que poidan converterse en nós de biblioteca.
     * Evite engadir chan ou vexetación ao redor dos seus obxectos (a menos que o seu obxecto sexa algún tipo de vexetación en si).
     * A xente xeralmente debería levar roupa de uso xeral, agás nos casos en que non tivese sentido, como a praia.
