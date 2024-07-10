@@ -12,7 +12,7 @@ Recomendamos apuntar á versión de desenvolvemento de STK, polo que a mellor fo
 
 #### A mellor forma: instalando Subversion
 
-As instrucións para instalar Subversion están na páxina [Installing Tools](https://supertuxkart.net/Installing_Tools#subversion-client). Unha vez instalado, use o seguinte enderezo para verificar o repositorio:
+As instrucións para instalar Subversion están na páxina [Ferramentas de instalación](https://supertuxkart.net/Installing_Tools#subversion-client). Unha vez instalado, use o seguinte enderezo para verificar o repositorio:
 
 * Se está a usar un programa gráfico (por exemplo, TortoiseSVN), pode solicitarlle o URL do repositorio - `https://svn.code.sf.net/p/supertuxkart/code/media/trunk` - e un checkout directorio, que é o lugar no que queres copialo no teu ordenador.
 * Baixo un sistema operativo tipo Unix ou MacOS, un exemplo de comando de pago sería:
@@ -32,4 +32,4 @@ Visita esta ligazón para xerar unha instantánea e descargala: <https://sourcef
 
 Se che pide que volvas enviar a solicitude de instantánea, faino. A continuación, comezará a descarga dos ficheiros de repositorio multimedia tal e como están actualmente. Extrae o ficheiro ZIP a un lugar de traballo onde queiras que estea a copia do repositorio multimedia. Agora xa está listo!
 
-Os cambios realízanse no repositorio multimedia [fairly often](https://sourceforge.net/p/supertuxkart/code/HEAD/log/?path=), polo que se queres descargar unha nova instantánea, terás que facer unha copia de seguridade todos os teus proxectos noutro cartafol, elimina a túa copia do repositorio de medios locais e substitúea por unha nova instantánea.
+Os cambios realízanse no repositorio multimedia [con certa frecuencia](https://sourceforge.net/p/supertuxkart/code/HEAD/log/?path=), polo que se queres descargar unha nova instantánea, terás que facer unha copia de seguridade todos os teus proxectos noutro cartafol, elimina a túa copia do repositorio de medios locais e substitúea por unha nova instantánea.
