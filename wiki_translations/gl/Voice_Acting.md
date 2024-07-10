@@ -4,7 +4,7 @@ display_title: true
 ---
 En ocasións, os desenroladores de SuperTuxKart ou os artistas independentes necesitan axuda coa actuación de voz para o xogo. Normalmente isto é para cousas como a voz de Nolok nas escenas introdutorias, pero a illa Gran Paradiso tamén presenta un locutor do aeroporto, que, se escoitas atentamente, é un pequeno ovo de Pascua satírico.
 
-Por suposto, non necesitaremos actuacións de voz todo o tempo, pero non dubides en consultar o [forum](https://forum.freegamedev.net/viewforum.php?f=16) para as solicitudes de actuación de voz. Se cumpre cos requisitos a continuación, a actuación de voz é unha forma sinxela e divertida de axudar ao proxecto.
+Por suposto, non necesitaremos actuacións de voz todo o tempo, pero non dubides en consultar o [foro](https://forum.freegamedev.net/viewforum.php?f=16) para as solicitudes de actuación de voz. Se cumpre cos requisitos a continuación, a actuación de voz é unha forma sinxela e divertida de axudar ao proxecto.
 
 ## Requisitos
 
