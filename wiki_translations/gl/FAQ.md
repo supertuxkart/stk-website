@@ -19,7 +19,7 @@ As súas 21 pistas levarache a ambientes variados. Desde as praias de illas sole
 
 O xogo tamén inclúe modos de xogo adicionais ademais das carreiras normais: contrarreloxo, seguimento do líder, fútbol, ​​captura da bandeira e dous tipos de modo de batalla.
 
-[Find more here](Descubre)!
+[Atopa máis aquí](Descubre)!
 
 {% end_liquid %}
 
@@ -168,7 +168,7 @@ Si! Despois de crear unha conta STK en liña dentro do xogo e conectarse con ela
 
 Por que algunhas teclas do teclado non funcionan cando se preme ao mesmo tempo?
 
-Cando xogas cun teclado, podes ter problemas ao premer varias teclas á vez, por exemplo ao intentar usar nitro mentres aceleras e xiras. En tales situacións, é posible que algunhas teclas non se rexistren. Non obstante, este non é un erro de SuperTuxKart, senón unha limitación física do teu teclado, a maioría dos teclados só poden manexar tantas teclas presionadas ao mesmo tempo (para obter información máis detallada, consulta [here](https://www.sjbaker.org/wiki/index.php?title=Keyboards_Are_Evil)). A solución é usar un dispositivo de entrada de xogos (gamepad ou teclado para xogos) ou modificar a configuración das teclas para atopar as teclas que o teu teclado poderá rexistrar simultaneamente.
+Cando xogas cun teclado, podes ter problemas ao premer varias teclas á vez, por exemplo ao intentar usar nitro mentres aceleras e xiras. En tales situacións, é posible que algunhas teclas non se rexistren. Non obstante, este non é un erro de SuperTuxKart, senón unha limitación física do teu teclado, a maioría dos teclados só poden manexar tantas teclas presionadas ao mesmo tempo (para obter información máis detallada, consulta [aquí](https://www.sjbaker.org/wiki/index.php?title=Keyboards_Are_Evil)). A solución é usar un dispositivo de entrada de xogos (gamepad ou teclado para xogos) ou modificar a configuración das teclas para atopar as teclas que o teu teclado poderá rexistrar simultaneamente.
 
 {% end_liquid %}
 
