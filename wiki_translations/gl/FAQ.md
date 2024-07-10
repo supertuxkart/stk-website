@@ -138,7 +138,7 @@ Preguntas de xogo
 
 A IA (kart de ordenador) disparou cara atrás, como podo facelo?
 
-A maioría dos elementos (bola de bolos, bolo, émbolo) pódense usar ao revés. Só disparalos mentres miras cara atrás.
+A maioría dos elementos (bola de bolos, torta, chupón) pódense usar ao revés. Só disparaos mentres miras cara atrás.
 
 {% end_liquid %}
 
