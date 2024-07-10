@@ -6,7 +6,7 @@ Ter boas texturas é quizais unha das cousas máis importantes á hora de crear 
 
 ## Estilo
 
-As texturas en SuperTuxKart son debuxadas ou pintadas a man, non só fotos (normalmente, aínda que podes usar fotos como referencia). Por suposto, isto non significa que necesites pinturas físicas; podes usar unha aplicación de pintura dixital como Krita. Outras aplicacións tamén están listadas na páxina [Installing Tools](Installing_Tools).
+As texturas en SuperTuxKart son debuxadas ou pintadas a man, non só fotos (normalmente, aínda que podes usar fotos como referencia). Por suposto, isto non significa que necesites pinturas físicas; podes usar unha aplicación de pintura dixital como Krita. Outras aplicacións tamén están listadas na páxina [Ferramentas de instalación](Installing_Tools).
 
 As texturas tampouco son completamente falsas, con aspecto de debuxos animados. Non dubides en engadir moitos detalles, sempre que uses só pintura a man (excepto nas circunstancias que se indican a continuación). Para obter máis información sobre a pintura de texturas, consulte [a documentación máis recente de Blender](https://docs.blender.org/manual/en/latest/sculpt_paint/texture_paint/index.html).
 
