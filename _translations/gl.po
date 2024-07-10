@@ -588,7 +588,7 @@ msgid ""
 "code/releases/preview)."
 msgstr ""
 "A versión preliminar está dispoñible "
-"[here](https://github.com/supertuxkart/stk-code/releases/preview)."
+"[aqui](https://github.com/supertuxkart/stk-code/releases/preview)."
 
 msgid "Get the latest release candidate:"
 msgstr "Obten a última versión candidata de lanzamento:"
