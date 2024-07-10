@@ -184,7 +184,7 @@ Isto podería incluír o kart sempre á esquerda, ou frear aleatoriamente ou out
 
 De súpeto apareceu un gran círculo vermello na miña pantalla, que é iso?
 
-Se hai un pingüín no medio do círculo, alguén disparoulle un desatranca-canos á cara. Podes facelo con outros disparando o desatranca-canos cara atrás (consulta a entrada de preguntas frecuentes sobre tirar elementos cara atrás).
+Se hai un pingüín no medio do círculo, alguén disparoulle un chupón á cara. Podes facelo con outros disparando o chupón cara atrás (consulta a entrada de preguntas frecuentes sobre tirar elementos cara atrás).
 
 {% end_liquid %}
 
