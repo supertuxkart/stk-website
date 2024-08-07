@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Installing Tools - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Installing Tools">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Welcome! This guide will help you get set up for creating artwork (tracks, karts, textures, etc.) for SuperTuxKart. This guide includes the software you should install and use, as well as any setup needed. You will have to make decisions in some cases, as there different programs available and you’ll have to choose which works best for you.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/wiki/Blender_tools_3.png"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Installing_Tools'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Installing_Tools.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Installing_Tools.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Installing Tools</h1>
+<article>
+<ul id="results-container"></ul><p>Welcome! This guide will help you get set up for creating artwork (tracks, karts, textures, etc.) for SuperTuxKart. This guide includes the software you should install and use, as well as any setup needed. You will have to make decisions in some cases, as there different programs available and you’ll have to choose which works best for you.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#for-2d-art-creation-textures-posters-etc" id="markdown-toc-for-2d-art-creation-textures-posters-etc">For 2D art creation (textures, posters, etc.)</a>    <ul>
+      <li><a href="#bitmap-graphics-editors" id="markdown-toc-bitmap-graphics-editors">Bitmap Graphics Editors</a>        <ul>
+          <li><a href="#krita" id="markdown-toc-krita">Krita</a></li>
+          <li><a href="#gimp" id="markdown-toc-gimp">GIMP</a></li>
+        </ul>
+      </li>
+      <li><a href="#vector-graphics-editors" id="markdown-toc-vector-graphics-editors">Vector Graphics Editors</a>        <ul>
+          <li><a href="#inkscape" id="markdown-toc-inkscape">Inkscape</a></li>
+          <li><a href="#calligra-karbon" id="markdown-toc-calligra-karbon">Calligra Karbon</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#for-3d-art-creation-karts-tracks-models" id="markdown-toc-for-3d-art-creation-karts-tracks-models">For 3D art creation (karts, tracks, models)</a>    <ul>
+      <li><a href="#blender" id="markdown-toc-blender">Blender</a>        <ul>
+          <li><a href="#installing-supertuxkart-blender-scripts" id="markdown-toc-installing-supertuxkart-blender-scripts">Installing SuperTuxKart Blender Scripts</a>            <ul>
+              <li><a href="#linux-and-other-unix-like-oses" id="markdown-toc-linux-and-other-unix-like-oses">Linux (and other Unix-like OSes)</a></li>
+              <li><a href="#macos" id="markdown-toc-macos">macOS</a></li>
+              <li><a href="#windows" id="markdown-toc-windows">Windows</a></li>
+            </ul>
+          </li>
+          <li><a href="#activating-the-supertuxkart-blender-scripts" id="markdown-toc-activating-the-supertuxkart-blender-scripts">Activating the SuperTuxKart Blender Scripts</a></li>
+        </ul>
+      </li>
+      <li><a href="#subversion-client" id="markdown-toc-subversion-client">Subversion Client</a></li>
+      <li><a href="#supertuxkart-track-editor" id="markdown-toc-supertuxkart-track-editor">SuperTuxKart Track Editor</a></li>
+    </ul>
+  </li>
+</ul>
+<h2 id="for-2d-art-creation-textures-posters-etc">For 2D art creation (textures, posters, etc.)</h2>
+
+<p>You’ll need 2D graphics programs for virtually any artwork for SuperTuxKart. You’ll mostly use bitmap (pixmap) graphics editors, but especially for textures, it’s useful to have a vector graphics editor, which allows images to be resized without losing quality. Bitmap graphics, on the other hand, are made of pixels and therefore become less pretty as they are scaled.</p>
+
+<h3 id="bitmap-graphics-editors">Bitmap Graphics Editors</h3>
+
+<p>You can use any combination of these programs for concept art, textures, and more. The programs listed here are free and open-source, but other commercial products (most prominently Adobe Photoshop and Illustrator) can be used. <strong>Keep in mind, however, that artists on the STK team cannot necessarily afford such software, and therefore cannot necessarily open the proprietary formats they use, such as PSD (Photoshop Documents). The preferred format for work-in-progress art is KRA (Krita Documents), although XCF (GIMP Documents) are also welcome.</strong></p>
+
+<h4 id="krita">Krita</h4>
+
+<ul>
+  <li><strong>Platforms:</strong> Linux, macOS, Windows, Android, Chrome OS</li>
+  <li><strong>Website:</strong> <a href="https://krita.org">krita.org</a></li>
+  <li><strong>License:</strong> GNU General Public License 3.0</li>
+</ul>
+
+<p>Krita is a powerful graphics program designed for digital painting. It supports graphics tablets from several manufacturers and allows for the installation of third-party brush engines. Krita also supports more standard image editing features, but is more limited in this respect than other software such as GIMP. Krita additionally supports vector graphics, but is not as full-featured as Inkscape.</p>
+
+<h4 id="gimp">GIMP</h4>
+
+<ul>
+  <li><strong>Platforms:</strong> Linux, macOS, Windows, FreeBSD, Solaris, AmigaOS 4</li>
+  <li><strong>Website:</strong> <a href="https://www.gimp.org">www.gimp.org</a></li>
+  <li><strong>License:</strong> GNU General Public License 3.0 (or later)</li>
+</ul>
+
+<p>GIMP, or GNU Image Manipulation Program, is a flexible and extensible photo editor and creator with support for third-party extensions. It features a wide variety of filters and and color adjustment tools, as well as tools for drawing. However, due to its focus on image editing rather than digital painting it may be less suited to the SuperTuxKart <a href="/style" title="wikilink">style</a> than Krita.</p>
+
+<h3 id="vector-graphics-editors">Vector Graphics Editors</h3>
+
+<p>Vector graphics can be scaled without losing quality, because they are based on <em>vectors</em>, which describe the path of a line mathematically rather than being the line itself. These programs are best suited to creating textures which will be used in many different ways (like a logo for a fictional company). All the editors listed here should export SVG (Scalable Vector Graphics) format images.</p>
+
+<h4 id="inkscape">Inkscape</h4>
+
+<ul>
+  <li><strong>Platforms:</strong> Linux, macOS, Windows, FreeBSD</li>
+  <li><strong>Website:</strong> <a href="https://inkscape.org">inkscape.org</a></li>
+  <li><strong>License:</strong> GNU General Public License 3.0 (or later)</li>
+</ul>
+
+<p>Inkscape is an easy-to-learn yet powerful vector graphics editor. It has a large userbase and most questions can be answered with a quick web search.</p>
+
+<h4 id="calligra-karbon">Calligra Karbon</h4>
+
+<ul>
+  <li><strong>Platforms:</strong> Linux, macOS (in-testing), Windows (in-testing), FreeBSD</li>
+  <li><strong>Website:</strong> <a href="https://calligra.org/karbon/">calligra.org/karbon/</a></li>
+  <li><strong>License:</strong> GNU Library General Public License 2.0 (or later)</li>
+</ul>
+
+<p>Karbon is a powerful application with a simple, intuitive interface. Unlike the above programs, it is part of the Calligra office suite, not a standalone program. (Krita was formerly part of Calligra but is now independent.)</p>
+
+<h2 id="for-3d-art-creation-karts-tracks-models">For 3D art creation (karts, tracks, models)</h2>
+
+<p>For 3D artwork like tracks, karts, and models, you will need 3D modeling software. Unfortunately, SuperTuxKart is a bit more limited in this respect. For making karts and objects, you must use Blender. For tracks, you have the choice of Blender or the SuperTuxKart track editor.</p>
+
+<h3 id="blender">Blender</h3>
+
+<ul>
+  <li><strong>Platforms:</strong> Linux, macOS, Windows, Android, FreeBSD, OpenBSD, NetBSD, DragonFly BSD, Haiku</li>
+  <li><strong>Website:</strong> <a href="https://www.blender.org">www.blender.org</a></li>
+  <li><strong>License:</strong> GNU General Public License 2.0 (or later)</li>
+</ul>
+
+<p>The premiere open-source 3D modeling software. Blender has a large and loyal userbase of both hobbyist and commercial users. Blender can be difficult for beginners, but has a detailed manual as well as third-party guides on YouTube and other places. An excellent and easy-to-follow guide for beginners can be found <a href="https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro">here</a>.</p>
+
+<p>Blender must be used for karts and objects, and produces better results than the SuperTuxKart track editor for tracks.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>After a major update, Blender versions may not yet be compatible with the SuperTuxKart Blender scripts. Check the <a href="https://github.com/supertuxkart/stk-blender#user-content-supertuxkart-blender-addons">minimum requirements section</a> to see which Blender versions are compatible. If necessary, <a href="https://www.blender.org/download/lts/">older Blender versions can be found here</a>.</p>
+  </div>
+</div>
+
+<h4 id="installing-supertuxkart-blender-scripts">Installing SuperTuxKart Blender Scripts</h4>
+
+<p>The SuperTuxKart Blender scripts allow you to export your Blender work to the SuperTuxKart formats. Where to get them depends on what Blender version is installed (an older version may be used to open old track files that haven’t been upgraded).</p>
+
+<ul>
+  <li>For Blender 2.80 and later:
+    <ul>
+      <li>Go to <a href="https://github.com/supertuxkart/stk-blender">https://github.com/supertuxkart/stk-blender</a> and download the files. This can be done by clicking the green Code button then selecting ‘Download ZIP’.</li>
+      <li>Open the downloaded ZIP file, select the two folders <code class="language-plaintext highlighter-rouge">io_antarctica_scene</code> and <code class="language-plaintext highlighter-rouge">io_scene_spm</code> and copy them to the clipboard using Ctrl-C or Cmd-C.</li>
+    </ul>
+  </li>
+  <li>For Blender 2.77, 2.78, and 2.79:
+    <ul>
+      <li>Go to <a href="https://sourceforge.net/p/supertuxkart/code/HEAD/tree/media/trunk/blender_26/">https://sourceforge.net/p/supertuxkart/code/HEAD/tree/media/trunk/blender_26/</a> and click the Download Snapshot button</li>
+      <li>Open the downloaded ZIP file, select all the files and the <code class="language-plaintext highlighter-rouge">stkdata</code> folder, then copy them to the clipboard using Ctrl-C or Cmd-C.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Run Blender once to create configuration directories in your user directory.</p>
+
+<h5 id="linux-and-other-unix-like-oses">Linux (and other Unix-like OSes)</h5>
+
+<p>Using your file manager, check the following locations to find one that exists</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">$XDG_CONFIG_HOME/blender</code></li>
+  <li><code class="language-plaintext highlighter-rouge">~/.config/blender</code></li>
+  <li><code class="language-plaintext highlighter-rouge">~/.blender</code></li>
+</ul>
+
+<p>Then go to the directory based on your Blender version (e.g. <code class="language-plaintext highlighter-rouge">2.77</code>), then the <code class="language-plaintext highlighter-rouge">scripts</code> directory, then <code class="language-plaintext highlighter-rouge">addons</code>. If those folders do not exist, create them.</p>
+
+<p>If you are using a standalone version of Blender, the scripts directory will be in <code class="language-plaintext highlighter-rouge">&lt;blender download directory&gt;/&lt;blender version&gt;/scripts/addons</code>. Move to this directory in your file manager.</p>
+
+<p>Once you are in the proper directory, use Ctrl-V to paste the SuperTuxKart exporter scripts.</p>
+
+<h5 id="macos">macOS</h5>
+
+<p>Right-click on Blender, select show package contents, and open <code class="language-plaintext highlighter-rouge">Contents/Resources/&lt;version&gt;/scripts/addons/</code></p>
+
+<p>Then, paste the scripts into that directory.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>Note that keyboard shortcuts for copying and pasting on macOS use the <em>Command</em> key rather than the <em>Ctrl</em> key.</p>
+  </div>
+</div>
+
+<h5 id="windows">Windows</h5>
+
+<p>Open the file manager (Windows Explorer). Click in the address bar at the top. Replace the text with the following:</p>
+
+<p><code class="language-plaintext highlighter-rouge">%APPDATA%\Blender Foundation\Blender\&lt;version&gt;</code></p>
+
+<p>where <code class="language-plaintext highlighter-rouge">&lt;version&gt;</code> is the version of Blender, without its letter suffix (e.g. 2.77).</p>
+
+<p>You should see the <code class="language-plaintext highlighter-rouge">scripts</code> directory. If not, create it, then move to it. It should contain the <code class="language-plaintext highlighter-rouge">addons</code> directory. If it does not, create it, then move to it. Now, use Ctrl-V to paste the SuperTuxKart export scripts into this directory.</p>
+
+<h4 id="activating-the-supertuxkart-blender-scripts">Activating the SuperTuxKart Blender Scripts</h4>
+
+<p>After placing the scripts into Blender’s scripts directory, open Blender. The instructions again vary depending on the Blender version installed.</p>
+
+<ul>
+  <li>For Blender 2.80 and later: All of the tools have been consolidated as more integrated packages. Go to <strong>Edit &gt; Preferences &gt; Add-ons</strong>. In the search box, search both <code class="language-plaintext highlighter-rouge">supertuxkart</code> and <code class="language-plaintext highlighter-rouge">spm</code> (one at a time) and check the box next to the following items:
+    <ul>
+      <li>SuperTuxKart Exporter Tools</li>
+      <li>SPM (Space paritioned mesh) format</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Blender_tools_3.png"><img src="/assets/wiki/Blender_tools_3.png" alt="Blender_tools_3" /></a></div>
+</div>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Blender_tools_4.png"><img src="/assets/wiki/Blender_tools_4.png" alt="Blender_tools_4" /></a></div>
+</div>
+
+<ul>
+  <li>For Blender 2.77, 2.78, and 2.79: Go to <strong>File &gt; User Preferences &gt; Add-ons</strong>. In the search box, search <code class="language-plaintext highlighter-rouge">supertuxkart</code> and check the box next to the following items:
+    <ul>
+      <li>SuperTuxKart Kart Exporter</li>
+      <li>SuperTuxKart Material Exporter</li>
+      <li>SuperTuxKart Track Exporter</li>
+      <li>SuperTuxKart Panel</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Blender_tools_1.jpg"><img src="/assets/wiki/Blender_tools_1.jpg" alt="Blender_tools_1" /></a></div>
+</div>
+
+<p>Now search for <code class="language-plaintext highlighter-rouge">spm</code>. Check the box next to <strong>SPM (Space partitioned mesh) Model Exporter</strong>.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Blender_tools_2.jpg"><img src="/assets/wiki/Blender_tools_2.jpg" alt="Blender_tools_2" /></a></div>
+</div>
+
+<p>You can click <strong>Save User Settings</strong> to avoid repeating these steps each time you open Blender.</p>
+
+<h3 id="subversion-client">Subversion Client</h3>
+
+<ul>
+  <li><strong>Platforms:</strong> Linux, macOS, Windows, BSD, etc.</li>
+  <li><strong>Website:</strong> <a href="https://subversion.apache.org">subversion.apache.org</a></li>
+  <li><strong>License:</strong> Apache License 2.0</li>
+</ul>
+
+<p>A Subversion (more commonly known as SVN) client is a must-have for fetching the latest version of the assets and <a href="/Media_Repo">media repositories</a>. It performs <em>version control,</em> a system for recording changes in a collection of files that multiple users access. Mostly it’s used by software developers, but we use it to manage artwork resources. We won’t go into detail on how to use SVN here (there’s plenty of information online for each client), but when you need to use it, we’ll provide the URL you’ll need to put into your client.</p>
+
+<ul>
+  <li>
+    <p>For Windows users, especially those unfamiliar with the command line, we recommend <a href="https://tortoisesvn.net">TortoiseSVN</a>, an easy-to-use graphical interface for SVN. Go to the download page, select the version that matches your machine (in most cases, 64-bit OS) and go through the installation. Once installed, go to the folder in Windows Explorer to where you want your working copy to be, right-click and select <code class="language-plaintext highlighter-rouge">TortoiseSVN</code> → <code class="language-plaintext highlighter-rouge">Checkout</code>, then enter the URL of the online repository and make sure the Checkout directory is where you want it to be, then click OK. To update files with changes, select them, then right-click and select <code class="language-plaintext highlighter-rouge">TortoiseSVN</code> → <code class="language-plaintext highlighter-rouge">Update</code> in the menu.</p>
+  </li>
+  <li>
+    <p>For Mac users, <a href="https://subversion.apache.org/packages.html#osx">you can easily install using Homebrew, Fink and MacPorts, among other options</a>. For Unix-like systems, <a href="https://subversion.apache.org/packages.html">you can usually install via command-line</a>.</p>
+  </li>
+</ul>
+
+<h3 id="supertuxkart-track-editor">SuperTuxKart Track Editor</h3>
+
+<p>The SuperTuxKart track editor is a fairly new effort to make creating and modifying SuperTuxKart tracks easy for enthusiasts who are not interested in dealing with the complexities (and features) of Blender. Because it is still under development, bugs and crashes should be expected. Instructions for compiling and using the STK editor can be found at the <a href="/Track_Editor">Track Editor</a> page.</p>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

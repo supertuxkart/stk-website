@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>About player rankings - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About player rankings">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="(This page is outdated and may not reflect latest specification)">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+/* Add Page_Name.css with Page_Name.md */
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/About_player_rankings'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/About_player_rankings.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/About_player_rankings.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">About player rankings</h1>
+<article>
+<ul id="results-container"></ul><p>(This page is outdated and may not reflect latest specification)</p>
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#general-principles" id="markdown-toc-general-principles">General principles</a></li>
+  <li><a href="#base-points-distribution" id="markdown-toc-base-points-distribution">Base points distribution</a></li>
+  <li><a href="#points-exchange-rules" id="markdown-toc-points-exchange-rules">Points exchange rules</a></li>
+  <li><a href="#results" id="markdown-toc-results">Results</a></li>
+  <li><a href="#expected-results" id="markdown-toc-expected-results">Expected results</a></li>
+  <li><a href="#race-scoring-importance" id="markdown-toc-race-scoring-importance">Race scoring importance</a></li>
+  <li><a href="#appendix---technical-details" id="markdown-toc-appendix---technical-details">Appendix - technical details</a></li>
+</ul>
+<h2 id="general-principles">General principles</h2>
+
+<p>The player rankings system is based on a point-exchange system between players, broadly similar to ELO.</p>
+
+<p>New points are introduced in the system when new players start playing, but they are then shared among a larger amount of players, keeping in check the amount of points a player can have (even if, over time, players stopping being active will lead to a slight points inflation).</p>
+
+<p>Once a player has received all his base points, his points evolution depends entirely on losing or winning points to others.</p>
+
+<p>You can visit <a href="https://online.supertuxkart.net/rankings.php">here</a> to see current player rankings.</p>
+
+<h2 id="base-points-distribution">Base points distribution</h2>
+
+<p>A player can receive a total of 4000 base points. Each new player is granted 2000 points to begin with by the ranked server. The other 2000 are distributed progressively over the course of the 45 first races <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>The purpose of the progressive distribution is double:</p>
+<ul>
+  <li>Reducing the points inflation, so that bad players doing only a few ranked races give away much less points to other players (by having less points to distribute to begin with and by having a worse expected result).</li>
+  <li>Make sure that, for the great majority of players, their stabilized points after some play time is higher than the points of someone having not yet done a race.</li>
+</ul>
+
+<h2 id="points-exchange-rules">Points exchange rules</h2>
+
+<p>The bulk of points evolution, and what allows it to be used as a ranking tool, happens in this step.</p>
+
+<p>For points exchange purpose, each N-players race is considered as a set of 2-players races; the players being compared by pairs.</p>
+
+<p>Each pair will then yield a points exchange, one winning exactly as much as the other is losing.</p>
+
+<p>The final points change for a player is the sum of all the points exchanges between one player and all the others. These additions are only done once all the points change have been computed.</p>
+
+<h2 id="results">Results</h2>
+
+<p>For each ordered pair of player, a result is computed. It depends solely on the finish time of each players. If a player A takes over 1025x as much time to finish than player B, then A’s result (against B) is 0. If B takes over 1025x A’s time to finish, A’s result is 1. If both take the same time, the result is 0.5. The result is linearly scaled between these points <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
+
+<p>If a player quits before having crossed the finish line and seen his kart win or lose animation, his result is automatically 0.</p>
+
+<h2 id="expected-results">Expected results</h2>
+
+<p>The current ranking points of both players in an ordered pair are used to compute an expected result. The absolute amount of points doesn’t matter, the expected results is solely dependent on the difference between both amounts <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>. A player having more points will have a higher expected result. The expected results never reaches 0 and 1, but they can get extremely close to it. The expected results is meant to predict somewhat accurately an average score over a significant number of races; it is not meant to predict the score of a single race, as having both players finishing with a less than 2.5% time difference will not be the most common case.</p>
+
+<p>The expected result is then compared to the actual result. A player having underperformed compared to his expected result will lose points, while one having overperformed will win points <sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>. This yields a scoring result.</p>
+
+<h2 id="race-scoring-importance">Race scoring importance</h2>
+
+<p>To obtain the final score change in an ordered player pair, the ranking importance of the race is computed.</p>
+
+<p>It is the result on the multiplication several factors:</p>
+<ul>
+  <li>The length of the race <sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup></li>
+  <li>The race mode <sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup></li>
+  <li>The highest points attained by the players and the number of races they did <sup id="fnref:7" role="doc-noteref"><a href="#fn:7" class="footnote" rel="footnote">7</a></sup></li>
+</ul>
+
+<p>The ranking importance is then multiplied with the scoring result to obtain the number of points change for the ordered player pair.</p>
+
+<h2 id="appendix---technical-details">Appendix - technical details</h2>
+
+<p>The points (and max obtained points) are stored in double-precision floating-point format. Using discrete integers would create significant rounding errors and generate unwanted threshold effects; while single-precision floats would too easily accumulate errors over time and generate unwanted points-creation/destruction (a single race can see several dozen of points exchange).</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>The number of base points attributed is not constant, but degressive. It follows the formula: max(2 * (45 - number_races_played), 8) <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>If A finishes before B, the formula used is min(1, 0.5 + (b_total_time - a_total_time) / (a_total_time / 20)). Otherwise, it is max(0, 0.5 - (a_total_time - b_total_time) / (b_total_time / 20)). <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>The expected result for player A is 1 / (1 + 10 ^ (diff / 2000)), where diff is (rank_player_B - rank_player_A). A 2000 points advantage for player A corresponds to an expected result of ~0.909. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>The formula here is simply (result - expected_result). <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5" role="doc-endnote">
+      <p>The time used for scaling is given by min(max(playerA_time, playerB_time), max_scaling_time); the maximum scaling time being 500s. If a player has quit, the maximum scaling time is automatically used, making quits more punishing than normal defeats. The scaling is then computed with max_time * sqrt(max_time) / sqrt(120) * max_points_per_second. The max points per second is 0.125 (1 full point every 8 seconds). This formula makes short races matter even less than simple proportionality, and longer races matter more; because 2 60s races are more random than a single 120s race. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6" role="doc-endnote">
+      <p>It is 1 for time-trials and 0.4 for races with item, which are more random. This may change. <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:7" role="doc-endnote">
+
+      <p>By default, it is 1. If a players exceeds various max attained points or ranked races done thresholds, the change is smaller.</p>
+
+      <ul>
+        <li>
+          <p>4000 points or 50 races give a 0.8 factor</p>
+        </li>
+        <li>
+          <p>5000 points or 100 races a 0.7 factor</p>
+        </li>
+        <li>
+          <p>6000 points or 250 races a 0.6 factor</p>
+        </li>
+        <li>
+          <p>7000 points or 500 races a 0.5 factor</p>
+        </li>
+        <li>
+          <p>8000 points or more gives a 0.4 factor</p>
+        </li>
+      </ul>
+
+      <p>The factors of both players are multiplied by each other, further stabilizing scores at the top of the rankings, while allowing a more dynamic evolution for bad or new players. <a href="#fnref:7" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

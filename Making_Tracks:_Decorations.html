@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Making Tracks: Decorations - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Making Tracks: Decorations">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Adding decorations is a long process. It will take many iterations of testing in-game until you can be sure everything is in the right place. This article describes not only the best ways to position decorations, but also ways to make decorations dynamic and interesting, and to keep processor load down.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/wiki/Particlesystem.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_0_300px {
+    padding: 3px;
+    width: auto;
+    height: 300px;
+}
+
+.packed_0_300px img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Making_Tracks:_Decorations'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Making_Tracks:_Decorations.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Making_Tracks:_Decorations.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Making Tracks: Decorations</h1>
+<article>
+<ul id="results-container"></ul><p>Adding decorations is a long process. It will take many iterations of testing in-game until you can be sure everything is in the right place. This article describes not only the best ways to position decorations, but also ways to make decorations dynamic and interesting, and to keep processor load down.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#guidelines-for-decoration-placement" id="markdown-toc-guidelines-for-decoration-placement">Guidelines for Decoration Placement</a>    <ul>
+      <li><a href="#around-the-starting-line" id="markdown-toc-around-the-starting-line">Around the Starting Line</a></li>
+      <li><a href="#around-shortcuts-or-alternate-routes" id="markdown-toc-around-shortcuts-or-alternate-routes">Around Shortcuts or Alternate Routes</a></li>
+      <li><a href="#along-the-main-track" id="markdown-toc-along-the-main-track">Along the Main Track</a></li>
+      <li><a href="#as-obstacles" id="markdown-toc-as-obstacles">As Obstacles</a></li>
+    </ul>
+  </li>
+  <li><a href="#multiple-copies-of-a-decoration" id="markdown-toc-multiple-copies-of-a-decoration">Multiple Copies of a Decoration</a></li>
+  <li><a href="#particle-systems-for-distributing-decorations" id="markdown-toc-particle-systems-for-distributing-decorations">Particle Systems for Distributing Decorations</a></li>
+  <li><a href="#decorations-from-the-media-repository" id="markdown-toc-decorations-from-the-media-repository">Decorations from the Media Repository</a>    <ul>
+      <li><a href="#editing-decorations-from-the-media-repository" id="markdown-toc-editing-decorations-from-the-media-repository">Editing Decorations from the Media Repository</a></li>
+    </ul>
+  </li>
+</ul>
+<h2 id="guidelines-for-decoration-placement">Guidelines for Decoration Placement</h2>
+
+<h3 id="around-the-starting-line">Around the Starting Line</h3>
+
+<p>Decorations should clearly mark the starting line. This could be an arch like in Cocoa Temple, an overhead sign, or even just a checkered line. Avoid misleading the player with decorations which look like a starting line, but aren’t, as in Hacienda: The entry archway looks very much like a starting line, but actually is not.</p>
+
+<h3 id="around-shortcuts-or-alternate-routes">Around Shortcuts or Alternate Routes</h3>
+
+<p>Shortcuts and alternate routes should be somewhat disguised, unless they are very short (e.g. two paths around an object). The village in Cocoa Temple is an excellent example of this: there are two alternate routes within the village, but they are not very noticeable unless you pay attention. Hiding alternate routes makes the player feel accomplished when he or she discovers them, and makes it more of a challenge to get the reward.</p>
+
+<h3 id="along-the-main-track">Along the Main Track</h3>
+
+<p>The track should not just be a boring loop with some pretty scenary on the sides. The scenery needs to <em>integrate</em> with the track. For example, don’t make a mountain next to the track—make it over the track, and build a tunnel. Things like this make the track more interesting and less like driving through a museum with everything behind plexiglas. (This is also why it can be difficult to build an interesting underwater track—everything really <em>is</em> behind glass.)</p>
+
+<p>However, don’t make your track unnecessarily confusing. Integrate your track <em>too</em> much and it will be impossible to tell what is track and what is decorations. STK Enterprise strikes a nice balance between integration and easy drivability. If it’s harder for other people to figure out where to go in your track than in STK Enterprise, you might want to reconsider some of your decoration placements.</p>
+
+<h3 id="as-obstacles">As Obstacles</h3>
+
+<p>You may put decorations directly on the track if you wish, as with the crates of TNT in Old Mine. However, when doing this, be sure that they interact with karts in a sensible way. (See <a href="/Physics">Physics</a> section.)</p>
+
+<h2 id="multiple-copies-of-a-decoration">Multiple Copies of a Decoration</h2>
+
+<p>If you have one decoration that is used multiple times throughout your track and it is not from the media repository, you can save space by making it a separate object. In the SuperTuxKart Object Properties panel for each of the objects, set its type to “Object” and set the the “Name” property to the same name for each of the duplicates.</p>
+
+<p>If you are using LOD for your duplicated objects (see the <a href="/Level_of_Detail">Level of Detail</a> module), you do not have to worry about this.</p>
+
+<h2 id="particle-systems-for-distributing-decorations">Particle Systems for Distributing Decorations</h2>
+
+<p>You can use Blender’s own particle system as an easy way to randomly disperse objects. First, make sure the object you would like to distribute is set as an Object, LOD Standalone, or LOD Instance type in the SuperTuxKart Object Properties panel. If you are using an object linked from the library (see below) make sure you have made a proxy already.</p>
+
+<p>Next, select the object you want the object to be distributed on. In Blender’s Properties window, in the Particles section, click the plus (+) button to add a particle system. You may want to give the particle settings a name so that you can use the settings on other objects too.</p>
+
+<div class="gallery-container">
+<div class="packed_0_300px"><a href="/assets/wiki/Particlesystem.jpg"><img src="/assets/wiki/Particlesystem.jpg" alt="Particlesystem" style="max-height: calc(100% - 1em - 10px);" /></a><p class="gallery-caption">Particle system properties</p>
+</div>
+<div class="packed_0_300px"><a href="/assets/wiki/Particlesystem3dview.jpg"><img src="/assets/wiki/Particlesystem3dview.jpg" alt="Particlesystem3dview" style="max-height: calc(100% - 1em - 10px);" /></a><p class="gallery-caption">Particle system in Blender</p>
+</div>
+<div class="packed_0_300px"><a href="/assets/wiki/Particlesystem_ingame.jpg"><img src="/assets/wiki/Particlesystem_ingame.jpg" alt="Particlesystem_ingame" style="max-height: calc(100% - 1em - 10px);" /></a><p class="gallery-caption">Particle system in-game</p>
+</div>
+</div>
+
+<div><br /></div>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>It’s best if the object the particles are being emitted from is a semi-flat surface (i.e. not a polyhedron). If is not, you’ll end up with objects being emitted all over the place where you don’t want them.</p>
+  </div>
+</div>
+
+<p>Under <strong>Emission</strong>, set the following properties:</p>
+
+<ul>
+  <li>Number: this is the number of object that will be emitted.</li>
+  <li>Set both “Frame Start” and “End” to 1.0.</li>
+  <li>You may want to check “Use Modifier Stack” if you are using modifiers on the surface that will emit objects.</li>
+</ul>
+
+<p>Under <strong>Velocity</strong>, set “Normal” to 0.0. This makes sure that objects will be upright.</p>
+
+<p>Under <strong>Physics</strong>, set the following properties:</p>
+
+<ul>
+  <li>Select “None” instead of “Newtonian.”</li>
+</ul>
+
+<p>Under <strong>Render</strong>, set the following properties:</p>
+
+<ul>
+  <li>Select “Object” instead of “Halo.”</li>
+  <li>Set “Instance Object” to the name of your Object, LOD Instance, LOD Standalone, or library node proxy.</li>
+</ul>
+
+<p>All done! Now these objects will export as part of your track!</p>
+
+<h2 id="decorations-from-the-media-repository">Decorations from the Media Repository</h2>
+
+<p>You should use decorations from the media repository whenever possible. They can be guaranteed to to match the style of SuperTuxKart, use advanced graphical effects to ensure that they look good, and save you work, since you don’t need to make and texture all your models. If you have not already checked out the media repository, see the <a href="/Media_Repo">Media Repo</a> page.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p><strong>Stop!</strong> Does your file structure match that described on the <a href="/Media_Repo">Media Repo</a> page? For other people to open your Blender file without errors, your track folder should be located inside the media repository!</p>
+  </div>
+</div>
+
+<p>To use a model from the media repository, in Blender, in the Info window, go to File &gt; Link. Navigate to the library folder in the media repo, find an object, then open the .blend file. In the “Object” folder, open the object that you want. (There should usually only be one object per .blend, unless the library node uses <a href="/Level_of_Detail">Level of Detail</a>.) Make it a proxy by going to Object &gt; Make Proxy in the 3D View window header so that you can move, rotate, and scale it.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>If your decorations are of high quality, you may want to consider separating them from your track and contributing them as library nodes. See the <a href="/Making_Library_Nodes">Making Library Nodes</a> page for more information.</p>
+  </div>
+</div>
+
+<p>When you duplicate a library object in your scene, be sure to use Alt + D (link duplicate) rather than Shift + D (actual duplicate). If you use an actual duplicate, the object will no longer be linked to the library.</p>
+
+<p>If your decorations are of high quality, you may want to consider separating them from your track and contributing them as library nodes. See the Making Library Nodes page for more information.</p>
+
+<h3 id="editing-decorations-from-the-media-repository">Editing Decorations from the Media Repository</h3>
+
+<p>Usually, objects from the media repo are good enough and can be scaled, rotated, or repositioned to fit as you need. However, if necessary, you can use File &gt; Append instead of File &gt; Link in the instructions above to actually import the object into your scene. This is not recommended, but you may do this under certain circumstances, if the edits you plan to make could not be put in the media repo itself.</p>
+
+<ul id="art_portal_nav">
+    <li class="art_portal_nav_item" id="special_return_to_art_portal">
+    <a href="/Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="art_portal_nav_text">
+        <a href="/Community"><span class="translate">Return to Get Involved</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Library_Nodes"><span class="translate">Making Library Nodes</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Karts"><span class="translate">Making Karts</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Tracks"><span class="translate">Making Tracks</span></a>
+    </span>
+    </li>
+</ul>
+
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

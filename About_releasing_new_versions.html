@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>About releasing new versions - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="About releasing new versions">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Contents Unstable releases vs stable releases Committing changes during the preparation of a stable release Checklist for stable releases Naming scheme for packages Where to advertise a new release Priority Unstable releases vs stable releases Any packages released from the trunk are considered ‘unstable’. They are not meant to be broken, but fewer steps are taken to produce it, skipping the ones that often catch bugs, which also makes them easier and faster to make, so they are better suited to make it easier to test new features quickly. The process is simply to make a package for general distribution from source of the trunk.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+/* Add Page_Name.css with Page_Name.md */
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/About_releasing_new_versions'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/About_releasing_new_versions.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/About_releasing_new_versions.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">About releasing new versions</h1>
+<article>
+<ul id="results-container"></ul><h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#unstable-releases-vs-stable-releases" id="markdown-toc-unstable-releases-vs-stable-releases">Unstable releases vs stable releases</a></li>
+  <li><a href="#committing-changes-during-the-preparation-of-a-stable-release" id="markdown-toc-committing-changes-during-the-preparation-of-a-stable-release">Committing changes during the preparation of a stable release</a></li>
+  <li><a href="#checklist-for-stable-releases" id="markdown-toc-checklist-for-stable-releases">Checklist for stable releases</a></li>
+  <li><a href="#naming-scheme-for-packages" id="markdown-toc-naming-scheme-for-packages">Naming scheme for packages</a></li>
+  <li><a href="#where-to-advertise-a-new-release" id="markdown-toc-where-to-advertise-a-new-release">Where to advertise a new release</a>    <ul>
+      <li><a href="#priority" id="markdown-toc-priority">Priority</a></li>
+    </ul>
+  </li>
+</ul>
+<h2 id="unstable-releases-vs-stable-releases">Unstable releases vs stable releases</h2>
+
+<p>Any packages released from the trunk are considered ‘unstable’. They are not meant to be broken, but fewer steps are taken to produce it, skipping the ones that often catch bugs, which also makes them easier and faster to make, so they are better suited to make it easier to test new features quickly. The process is simply to make a package for general distribution from source of the trunk.</p>
+
+<p>To make a stable package, first a separate branch off master must be created in the source tree, by copying the current trunk to a branch, as a ‘release candidate’(RC), named with the version number plus the RC number, for example, 0.3rc1. Afterwards, only bug fixes are committed to that branch (unless we all agree to introduce a feature) on this release candidate; no changes in other areas of the game, thought documentation and artwork updates are fine. If we decide we need more testing after doing all the modifications to the release candidate, a new branch is created from the previous rc branch (e.g. a new branch 1.3-rc2 created from 1.3-rc1). This allows easy access to the history of all files (it might be worth adding a tag for RCs).</p>
+
+<p>The final release is a new branch copied from the last RC branch, and a tag for the release is created. For now the branches should be kept in place, since it helps finding problems which might get reported for the release (if they can’t be reproduced in the trunk anymore). We might decide on a delete-branch policy later. Also, the license under which STK is released requires us to provide the source code for at least 3 years for any binaries we provide.</p>
+
+<h2 id="committing-changes-during-the-preparation-of-a-stable-release">Committing changes during the preparation of a stable release</h2>
+
+<ul>
+  <li>
+    <p>Any bug fixes to the RC branch should be cherry-picked to master as well (or vice versa). While this adds a bit overhead of committing a change (since it has to be committed twice), it saves the time and complexity of merging all bug fixes into the trunk when the release is done, and keeps the trunk free for further development.</p>
+  </li>
+  <li>
+    <p>Any new patches not related to the RC or release should be committed to master only.</p>
+  </li>
+</ul>
+
+<h2 id="checklist-for-stable-releases">Checklist for stable releases</h2>
+
+<ul>
+  <li>Give a deadline to translators
+    <ul>
+      <li>Run <code class="language-plaintext highlighter-rouge">data/po/update_pot.sh</code> and make sure transifex has the latest pot file for translations.</li>
+      <li>This should involve two steps: first contact translators and make them aware that a string freeze will happen in the near future, and ask them for feedback. They might find issues (e.g. incorrect strings, untranslatable strings, typos) that went undetected before. Once some feedback was received, announce the official string freeze.</li>
+    </ul>
+  </li>
+  <li>Creating a quick (~1min30) video showcasing new features/tracks/etc</li>
+  <li>After creating a source package, try to build from this package. Sometimes, files are missing.</li>
+  <li>Document the assets svn version in doc/assets_version (so that we can keep track of which assets version was used for which stk release, we don’t have branches directories for assets due to their size).</li>
+  <li>Create a ‘tag’ for the assets under <a href="https://svn.code.sf.net/p/supertuxkart/code/stk-assets-release/">https://svn.code.sf.net/p/supertuxkart/code/stk-assets-release/</a></li>
+  <li>Run <code class="language-plaintext highlighter-rouge">data/optimize_data.sh</code>.</li>
+  <li>Update ChangeLog file.</li>
+  <li>Update <code class="language-plaintext highlighter-rouge">data/CREDITS</code>.
+    <ul>
+      <li>Don’t forget the donations section in CREDITS.</li>
+      <li>Make sure <code class="language-plaintext highlighter-rouge">data/CREDITS</code> is still in UTF8 (not ascii).</li>
+    </ul>
+  </li>
+  <li>On Unix systems, make sure all files have appropriate read permissions.</li>
+  <li>Update translations from Transifex (after the publicized deadline has been reached).
+    <ul>
+      <li>Install the transifex client (<a href="http://docs.transifex.com/developer/client/setup">http://docs.transifex.com/developer/client/setup</a>). On windows place it in the <code class="language-plaintext highlighter-rouge">data/po</code> folder. Run <code class="language-plaintext highlighter-rouge">./data/po/pull_from_transifex.sh</code></li>
+      <li>Run <code class="language-plaintext highlighter-rouge">data/po/update_po_authors.py</code> on all(!) .po files to update the credit sections for translators.</li>
+    </ul>
+  </li>
+  <li>Make sure to update the version number:
+    <ul>
+      <li>CMakeLists.txt</li>
+      <li>Create a file <code class="language-plaintext highlighter-rouge">data/supertuxkart.VERSION</code> (same as ‘supertuxkart.’ + PROJECT_VERSION from CMakeLists.txt) - and delete any previous file. This file is used by stk to make sure it is reading the correct assets input data.</li>
+      <li><a href="https://github.com/supertuxkart/stk-code/commit/d37b6feb3572d129450902936594378ee9f01e7e">Example commit</a></li>
+      <li>Update builtin ghost replay files version string if they are compatible, example command <code class="language-plaintext highlighter-rouge">sed -i 's/stk_version: .*/stk_version: 1.3/g' data/replay/*</code></li>
+    </ul>
+  </li>
+  <li>Check that the addon server has all achievements defined (<code class="language-plaintext highlighter-rouge">data/achievements.xml</code> should be in sync with table v3_achievements).</li>
+  <li>Make sure to test the game and the gift package with artist debug mode disabled!</li>
+</ul>
+
+<p>For source package:</p>
+
+<ul>
+  <li>Copy stk-assets into stk-code/data</li>
+  <li>Check that make install works as expected</li>
+</ul>
+
+<p>Then:</p>
+
+<ul>
+  <li>Create a tagged release in stk-code GitHub page, it will trigger packaging release files using GitHub Actions</li>
+  <li>Linux and Android release packages required building and uploading manually</li>
+  <li>Copying all release files from GitHub to SourceForge</li>
+  <li>Update the default file settings at SourceForge</li>
+</ul>
+
+<h2 id="naming-scheme-for-packages">Naming scheme for packages</h2>
+
+<p>All files released on the STK web page should use the following naming scheme:</p>
+
+<p><code class="language-plaintext highlighter-rouge">SuperTuxKart-&lt;VERSION&gt;-&lt;ARCHITECTURE&gt;.&lt;FILE EXTENSION&gt;</code></p>
+
+<p><strong>VERSION</strong>:</p>
+
+<ul>
+  <li>Release candidates: the version number of the next stable release + “-rc” + release candidate number. Examples: 0.3-rc1 or 0.3.1-rc2</li>
+  <li>Stable release examples: the version number. Examples: 0.3, 0.4</li>
+</ul>
+
+<p><strong>ARCHITECTURE</strong>:</p>
+
+<ul>
+  <li>Source packages: src</li>
+  <li>Windows binary packages: win</li>
+  <li>Mac OS X binary packages: mac</li>
+  <li>Linux packages: linux + required processor type. Examples: linux-64bit, linux-armv7, linux-arm64</li>
+</ul>
+
+<p><strong>FILE EXTENSION</strong>:</p>
+
+<ul>
+  <li>Depends on the file type. Examples: tar.xz, zip, …</li>
+</ul>
+
+<p><em>Examples of full package file names: SuperTuxKart-1.3-linux-64bit.tar.xz, SuperTuxKart-git20211207-mac.zip, SuperTuxKart-1.3-rc1-win.zip</em></p>
+
+<h2 id="where-to-advertise-a-new-release">Where to advertise a new release</h2>
+
+<p>This page collects web pages that should be informed about a new SuperTuxKart release. If you add a note to a board, blog, web page, please add the URL here, and add your name (hoping that in upcoming releases you can contact the same pages again).</p>
+
+<h3 id="priority">Priority</h3>
+
+<ul>
+  <li><a href="https://github.com/supertuxkart/stk-website/blob/master/_includes/latest_blog_articles">https://github.com/supertuxkart/stk-website/blob/master/_includes/latest_blog_articles</a></li>
+  <li>STK blog
+    <ul>
+      <li>Make sure to include the trailer and poster (if available)</li>
+    </ul>
+  </li>
+  <li>STK GitHub download page</li>
+  <li>Upload the trailer on our youtube channel</li>
+  <li>Twitter</li>
+  <li>SourceForge page (news entry and to slashdot firehose)</li>
+  <li><a href="https://freegamer.blogspot.com">https://freegamer.blogspot.com</a> (was picked up from freegamedev forum)</li>
+  <li><a href="https://forum.freegamedev.net/">https://forum.freegamedev.net/</a></li>
+  <li>Update the game to <a href="https://supertuxkart.itch.io/supertuxkart">https://supertuxkart.itch.io/supertuxkart</a></li>
+  <li>Update the game to <a href="https://gamejolt.com/">https://gamejolt.com/</a></li>
+</ul>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Coding Style - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Coding Style">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="This is our preferred coding style. It was inspired by Google’s coding style, but this set is only a small subset of it. Currently, not all our sources are following this style, and we welcome any patches to improve this.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+/* Add Page_Name.css with Page_Name.md */
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Coding_Style'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Coding_Style.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Coding_Style.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Coding Style</h1>
+<article>
+<ul id="results-container"></ul><p>This is our preferred coding style. It was inspired by <a href="https://google.github.io/styleguide/cppguide.html">Google’s coding style</a>, but this set is only a small subset of it. Currently, not all our sources are following this style, and we welcome any patches to improve this.</p>
+
+<p>Most of the sources follow this coding style, and the rest is being re-styled as we continue development.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#file-names-and-directories" id="markdown-toc-file-names-and-directories">File names and directories</a></li>
+  <li><a href="#including-files" id="markdown-toc-including-files">Including files</a></li>
+  <li><a href="#layout" id="markdown-toc-layout">Layout</a></li>
+  <li><a href="#doxygen" id="markdown-toc-doxygen">Doxygen</a></li>
+  <li><a href="#coding" id="markdown-toc-coding">Coding</a></li>
+  <li><a href="#portability" id="markdown-toc-portability">Portability</a></li>
+  <li><a href="#logging" id="markdown-toc-logging">Logging</a></li>
+</ul>
+<h2 id="file-names-and-directories">File names and directories</h2>
+<ul>
+  <li>All include files should end in .hpp, all sources are .cpp (this allows shell commands to easily specify all sources: *.?pp).</li>
+  <li>All file names are in lower case, with _ as a word separator, e.g.: <code class="language-plaintext highlighter-rouge">grand_prix_ending.hpp</code> (while classes inside the files will use camel case, e.g. <code class="language-plaintext highlighter-rouge">GrandPrixEnding</code>).</li>
+  <li>Files should be grouped in appropriate subdirectories. Avoid having more than one level of subdirectories.</li>
+  <li>The file names should represent the name of the classes it contains, e.g. <code class="language-plaintext highlighter-rouge">grand_prix_ending.hpp</code> contains the class <code class="language-plaintext highlighter-rouge">GrandPrixEnding</code> (see <a href="#coding">Coding</a> below). Not more than one class should be declared inside a single file.</li>
+</ul>
+
+<h2 id="including-files">Including files</h2>
+<ul>
+  <li>In file XX.cpp first include the corresponding XX.hpp file if available (this guarantees that the header has no hidden dependencies). Then include:
+    <ul>
+      <li>STK header files.</li>
+      <li>Libraries that are included with the STK source code (bullet, enet, irrlicht),</li>
+      <li>External libraries used by STK (OpenAL, …),</li>
+      <li>System files and STL,</li>
+      <li>Sort the header files alphabetically in each sections - e.g. for STK sources: first files in src, then the files from the different subdirs. This makes it much easier to spot if a file is included more than once.</li>
+    </ul>
+  </li>
+  <li>Use a <code class="language-plaintext highlighter-rouge">#ifdef</code> header guard in the following form to protect against multiple include: <code class="language-plaintext highlighter-rouge">HEADER_FILE_NAME_HPP</code>. I.e. <code class="language-plaintext highlighter-rouge">HEADER_</code> followed by the filename in all caps, with “.” replaced by “_”.</li>
+  <li>Even when including a .hpp file that is in the same subdir (say <code class="language-plaintext highlighter-rouge">font/font_manager.hpp</code> in <code class="language-plaintext highlighter-rouge">font/font_with_face.cpp</code>), use the path including the subdir, i.e.:</li>
+</ul>
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Code</span></b></div>
+<div class="popup-code-line"><code>
+<span style="color: #b2fd6d;font-weight: bold">#include</span> <span style="color: #6c8b9f;font-style: italic">"font/font_manager.hpp"</span>
+
+</code></div>
+</div>
+<p>and not</p>
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Code</span></b></div>
+<div class="popup-code-line"><code>
+<span style="color: #b2fd6d;font-weight: bold">#include</span> <span style="color: #6c8b9f;font-style: italic">"font_manager.hpp"</span>
+
+</code></div>
+</div>
+<p>This makes it easier to move files into different directories.</p>
+<ul>
+  <li>If possible, use a simple <code class="language-plaintext highlighter-rouge">class XYZ</code> forward declarations instead of including the header file. This will reduce the amount of recompilation necessary when modifying files (see <a href="https://google.github.io/styleguide/cppguide.html#Forward_Declarations">here</a> for more details). Even if this means that small functions that could be inlined are moved from the header file to the cpp file (unless it’s a time critical function).</li>
+</ul>
+
+<h2 id="layout">Layout</h2>
+<ul>
+  <li>4 spaces for indentation</li>
+  <li><strong>No tabs</strong>
+    <ul>
+      <li>Using tabs means that the files might be displayed differently from one editor to the next, or when viewed in a terminal. All editors have an option to use spaces instead of tabs.</li>
+      <li>You can use <code class="language-plaintext highlighter-rouge">tools/whitespaces.py</code> to get rid of them. (They’ll be replaced with 4 spaces)</li>
+    </ul>
+  </li>
+  <li>Both the opening and the closing braces should be on a line of their own. That means:</li>
+</ul>
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Code</span></b></div>
+<div class="popup-code-line"><code>
+<span style="color: #b2fd6d;font-weight: bold">int</span> <span style="color: #a8e1fe">main</span><span style="color: #4df4ff">()</span>
+<span style="color: #4df4ff">{</span>
+    <span style="color: #f6dd62;font-weight: bold">return</span> <span style="color: #f696db;font-weight: bold">0</span><span style="color: #4df4ff">;</span>
+<span style="color: #4df4ff">}</span>
+
+</code></div>
+</div>
+
+<p>Exceptions to this are one line functions in header files:</p>
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Code</span></b></div>
+<div class="popup-code-line"><code>
+<span style="color: #b2fd6d;font-weight: bold">float</span> <span style="color: #faf6e4;background-color: #122b3b">getValue</span><span style="color: #4df4ff">()</span> <span style="color: #f6dd62;font-weight: bold">const</span> <span style="color: #4df4ff">{</span> <span style="color: #f6dd62;font-weight: bold">return</span> <span style="color: #faf6e4;background-color: #122b3b">m_my_value</span><span style="color: #4df4ff">;</span> <span style="color: #4df4ff">}</span>
+
+</code></div>
+</div>
+
+<ul>
+  <li>In header files try to align declaration and definitions in columns (e.g. first column type, 2nd column function name). This might not always be possible, but a more structured header file is easier to read and understand). Example:</li>
+</ul>
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Code</span></b></div>
+<div class="popup-code-line"><code>
+    <span style="color: #faf6e4;background-color: #122b3b">NetworkMode</span>  <span style="color: #faf6e4;background-color: #122b3b">getMode</span><span style="color: #4df4ff">()</span> <span style="color: #f6dd62;font-weight: bold">const</span>                   <span style="color: #4df4ff">{</span> <span style="color: #f6dd62;font-weight: bold">return</span> <span style="color: #faf6e4;background-color: #122b3b">m_mode</span><span style="color: #4df4ff">;</span>            <span style="color: #4df4ff">}</span>
+    <span style="color: #b2fd6d;font-weight: bold">void</span>         <span style="color: #a8e1fe">becomeServer</span><span style="color: #4df4ff">();</span>
+    <span style="color: #b2fd6d;font-weight: bold">void</span>         <span style="color: #a8e1fe">becomeClient</span><span style="color: #4df4ff">();</span>
+    <span style="color: #b2fd6d;font-weight: bold">void</span>         <span style="color: #a8e1fe">setState</span><span style="color: #4df4ff">(</span><span style="color: #faf6e4;background-color: #122b3b">NetworkState</span> <span style="color: #faf6e4;background-color: #122b3b">s</span><span style="color: #4df4ff">)</span>          <span style="color: #4df4ff">{</span> <span style="color: #faf6e4;background-color: #122b3b">m_state</span> <span style="color: #4df4ff;font-weight: bold">=</span> <span style="color: #faf6e4;background-color: #122b3b">s</span><span style="color: #4df4ff">;</span>              <span style="color: #4df4ff">}</span>
+    <span style="color: #faf6e4;background-color: #122b3b">NetworkState</span> <span style="color: #faf6e4;background-color: #122b3b">getState</span><span style="color: #4df4ff">()</span> <span style="color: #f6dd62;font-weight: bold">const</span>                  <span style="color: #4df4ff">{</span> <span style="color: #f6dd62;font-weight: bold">return</span> <span style="color: #faf6e4;background-color: #122b3b">m_state</span><span style="color: #4df4ff">;</span>           <span style="color: #4df4ff">}</span>
+    <span style="color: #b2fd6d;font-weight: bold">int</span>          <span style="color: #faf6e4;background-color: #122b3b">getMyHostId</span><span style="color: #4df4ff">()</span> <span style="color: #f6dd62;font-weight: bold">const</span>               <span style="color: #4df4ff">{</span> <span style="color: #f6dd62;font-weight: bold">return</span> <span style="color: #faf6e4;background-color: #122b3b">m_host_id</span><span style="color: #4df4ff">;</span>         <span style="color: #4df4ff">}</span>
+    <span style="color: #b2fd6d;font-weight: bold">void</span>         <span style="color: #a8e1fe">setHostId</span><span style="color: #4df4ff">(</span><span style="color: #b2fd6d;font-weight: bold">int</span> <span style="color: #faf6e4;background-color: #122b3b">host_id</span><span style="color: #4df4ff">)</span>            <span style="color: #4df4ff">{</span> <span style="color: #faf6e4;background-color: #122b3b">m_host_id</span> <span style="color: #4df4ff;font-weight: bold">=</span> <span style="color: #faf6e4;background-color: #122b3b">host_id</span><span style="color: #4df4ff">;</span>      <span style="color: #4df4ff">}</span>
+    <span style="color: #b2fd6d;font-weight: bold">unsigned</span> <span style="color: #b2fd6d;font-weight: bold">int</span> <span style="color: #faf6e4;background-color: #122b3b">getNumClients</span><span style="color: #4df4ff">()</span> <span style="color: #f6dd62;font-weight: bold">const</span>             <span style="color: #4df4ff">{</span> <span style="color: #f6dd62;font-weight: bold">return</span> <span style="color: #faf6e4;background-color: #122b3b">m_num_clients</span><span style="color: #4df4ff">;</span>     <span style="color: #4df4ff">}</span>
+    <span style="color: #f6dd62;font-weight: bold">const</span> <span style="color: #faf6e4;background-color: #122b3b">std</span><span style="color: #4df4ff;font-weight: bold">::</span><span style="color: #faf6e4;background-color: #122b3b">string</span><span style="color: #4df4ff;font-weight: bold">&amp;</span> <span style="color: #faf6e4;background-color: #122b3b">getClientName</span><span style="color: #4df4ff">(</span><span style="color: #b2fd6d;font-weight: bold">int</span> <span style="color: #faf6e4;background-color: #122b3b">i</span><span style="color: #4df4ff">)</span> <span style="color: #f6dd62;font-weight: bold">const</span>  <span style="color: #4df4ff">{</span> <span style="color: #f6dd62;font-weight: bold">return</span> <span style="color: #faf6e4;background-color: #122b3b">m_client_names</span><span style="color: #4df4ff">[</span><span style="color: #faf6e4;background-color: #122b3b">i</span><span style="color: #4df4ff">];</span> <span style="color: #4df4ff">}</span>
+    <span style="color: #b2fd6d;font-weight: bold">bool</span>         <span style="color: #a8e1fe">initialiseConnections</span><span style="color: #4df4ff">();</span>
+    <span style="color: #b2fd6d;font-weight: bold">void</span>         <span style="color: #a8e1fe">update</span><span style="color: #4df4ff">(</span><span style="color: #b2fd6d;font-weight: bold">float</span> <span style="color: #faf6e4;background-color: #122b3b">dt</span><span style="color: #4df4ff">);</span>
+
+
+</code></div>
+</div>
+<ul>
+  <li>Start with private declarations, then the public ones (this might be a bit unusual: the idea is that the doxygen output is sorted with public declarations first, which is what people studying the code should look like. If you are actually looking at the sources, you are more likely interested in the implementation, so having this come first saves scrolling down time).</li>
+  <li>Try not to use more than 80 characters in a line (soft limit).</li>
+  <li>Have a line <code class="language-plaintext highlighter-rouge">// ------------------------</code> (up to 80th column) separating each function definition (see <a href="#doxygen">Doxygen</a> for an example)</li>
+  <li>If the closing } is more than a few lines away from the opening {, or if there are multiple curly braces in-between, add a comment indicating what this } closes. This comment can be an informal comment, or just be the corresponding opening statement. E.g:</li>
+</ul>
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Code</span></b></div>
+<div class="popup-code-line"><code>
+<span style="color: #4df4ff">}</span>   <span style="color: #6c8b9f;font-style: italic">// for i in all karts</span>
+
+</code></div>
+</div>
+<p>or</p>
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Code</span></b></div>
+<div class="popup-code-line"><code>
+<span style="color: #4df4ff">}</span>   <span style="color: #6c8b9f;font-style: italic">// for(int i = 0; i &lt; m_num_karts; i++)</span>
+
+</code></div>
+</div>
+<ul>
+  <li>It should be avoided to have more than one class in a file. If you can’t avoid it, separate them with <code class="language-plaintext highlighter-rouge">// ============</code> (up to the 80th column)</li>
+  <li>In case of an <code class="language-plaintext highlighter-rouge">else if()</code> statement, the <code class="language-plaintext highlighter-rouge">else</code> and <code class="language-plaintext highlighter-rouge">if</code> go on the same line.</li>
+</ul>
+
+<h2 id="doxygen">Doxygen</h2>
+<p>Use Doxygen comments. The comments for variables should be just before their declaration, and functions should be documented where they are implemented, and not where they are defined. I.e. don’t document functions in the header file if they are implemented in the corresponding cpp file. Reason for this is that this way the documentation is on the screen when you debug. If you want to study the interface of a class, just look at the doxygen documentation, and all information is on one screen. But if you debug you want to know what a function is doing, then having to look at the header file is annoying. It’s also easier to keep implementation details and comments in sync.</p>
+
+<p>The following format should be used (Doxyfile is set up to use the first sentence as a brief description).</p>
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Code</span></b></div>
+<div class="popup-code-line"><code>
+<span style="color: #6c8b9f;font-style: italic">/** This function is called when the AI is trying to hit an item that is
+  *  pre-selected to be collected. The AI only evaluates if it's still
+  *  feasible/useful to try to collect this item, or abandon it (and then
+  *  look for a new item). At item is unselected if the kart has passed it
+  *  (so collecting it would require the kart to reverse).
+  *  \pre m_item_to_collect is defined
+  *  \param kart_aim_angle The angle towards the current aim_point.
+  *  \param aim_point The current aim_point.
+  *  \param last_node
+  *  \return True if th AI should still aim for the pre-selected item.
+  */</span>
+ <span style="color: #b2fd6d;font-weight: bold">bool</span> <span style="color: #faf6e4;background-color: #122b3b">SkiddingAI</span><span style="color: #4df4ff;font-weight: bold">::</span><span style="color: #faf6e4;background-color: #122b3b">handleSelectedItem</span><span style="color: #4df4ff">(</span><span style="color: #b2fd6d;font-weight: bold">float</span> <span style="color: #faf6e4;background-color: #122b3b">kart_aim_angle</span><span style="color: #4df4ff">,</span> <span style="color: #faf6e4;background-color: #122b3b">Vec3</span> <span style="color: #4df4ff;font-weight: bold">*</span><span style="color: #faf6e4;background-color: #122b3b">aim_point</span><span style="color: #4df4ff">)</span>
+ <span style="color: #4df4ff">{</span>
+ <span style="color: #4df4ff">}</span>   <span style="color: #6c8b9f;font-style: italic">// handleSelectedItem</span>
+
+
+</code></div>
+</div>
+
+<p>Each function should have a corresponding doxygen documentation, briefly explaining what the function does, its parameters, and any exceptions it might raise. Really simple functions (for example setters and getters), that do not raise an exception or have any preconditions, might not need documentation, this is left to the discretion of the reviewer.</p>
+
+<h2 id="coding">Coding</h2>
+<ul>
+  <li>Use <code class="language-plaintext highlighter-rouge">const</code> instead of <code class="language-plaintext highlighter-rouge">#define</code> if possible.</li>
+  <li>References should only be used as <code class="language-plaintext highlighter-rouge">const</code>: <code class="language-plaintext highlighter-rouge">const Kart&amp; k</code> . If an object is modified, pass it in as a pointer. This makes it more obvious which values are modified.</li>
+  <li>If possible, all parameters of functions should be <code class="language-plaintext highlighter-rouge">const</code> correct (i.e. if it’s not modified, it should be declared <code class="language-plaintext highlighter-rouge">const</code>).</li>
+  <li>Try to sort parameters with input first, then output parameters.</li>
+  <li>Compile time constant values should be all uppercase, e.g. <code class="language-plaintext highlighter-rouge">const float PI = 3.1415f</code>.</li>
+  <li>Member variables start with m_ , e.g. <code class="language-plaintext highlighter-rouge">m_kart</code>.</li>
+  <li>Variable names are lower case separated by _. Example: <code class="language-plaintext highlighter-rouge">sun_position</code> (member variable: <code class="language-plaintext highlighter-rouge">m_kart_pointer</code>).</li>
+  <li>Function names should be capitalized, except the first word. Example: <code class="language-plaintext highlighter-rouge">getWidth()</code>.</li>
+  <li>Avoid the use of <code class="language-plaintext highlighter-rouge">std::tuple</code> and <code class="language-plaintext highlighter-rouge">std::pair</code>, instead use a simple class or struct so that all variables are properly named (instead of say a <code class="language-plaintext highlighter-rouge">std::get&lt;2&gt;()</code>).</li>
+  <li>Type (including classes/struct/enum) names have all their words capitalized. Example: <code class="language-plaintext highlighter-rouge">KartControl</code>.</li>
+  <li>The actual enums should be in uppercase, and contain a prefix to make it obvious where the enum is coming from. Example: <code class="language-plaintext highlighter-rouge">ATTACH_BOMB</code>, <code class="language-plaintext highlighter-rouge">ATTACH_ANVIL</code>, …</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">true</code> / <code class="language-plaintext highlighter-rouge">false</code> instead of <code class="language-plaintext highlighter-rouge">TRUE</code> / <code class="language-plaintext highlighter-rouge">FALSE</code>. In <a href="http://lists.kde.org/?l=kde-devel&amp;m=111737503228222&amp;w=2">this mail</a> it’s written that uppercase booleans are used only for older compilers, so we should try to avoid this inconsistency.</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">std::string</code> instead of <code class="language-plaintext highlighter-rouge">char*</code>. If you need a C-style string, use the function <code class="language-plaintext highlighter-rouge">std::string.c_str()</code>. However, there are cases when this cannot be avoided (like when using strings with gettext).</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">std::min()</code> / <code class="language-plaintext highlighter-rouge">std::max()</code> instead of a <code class="language-plaintext highlighter-rouge">#define</code> (Windows needs <code class="language-plaintext highlighter-rouge">NOMINMAX</code> to be defined before including <code class="language-plaintext highlighter-rouge">windows.h</code>).</li>
+  <li>Avoid using <code class="language-plaintext highlighter-rouge">friend</code> for classes</li>
+  <li>Use postfix operators like <code class="language-plaintext highlighter-rouge">i++</code>, not <code class="language-plaintext highlighter-rouge">++i</code> (unless there is a difference, e.g. if i should be a class, not a simple type). It was checked that there is no difference in the created code, and we developers prefer postfix, and having our code consistent.</li>
+</ul>
+
+<h2 id="portability">Portability</h2>
+<p>Here are a few hints about keeping Super TuxKart portable. Please consider those items when adding new source code, or cleaning up existing source code. The goal is to compile STK on as many platforms as possible, and remove all the warnings we can.</p>
+
+<ul>
+  <li>Even though <code class="language-plaintext highlighter-rouge">&lt;algorithm&gt;</code> is implicitly included in <code class="language-plaintext highlighter-rouge">std::string</code> on linux, this is not the case on all platforms (and might potentially change anytime on linux as well). So please make sure to include <code class="language-plaintext highlighter-rouge">&lt;algorithm&gt;</code> when using algorithms from the STL, e.g. find etc.</li>
+  <li>On at least Windows and Macs textures are lost when switching between fullscreen and window mode. If any textures are used, please make sure that they get deleted and reloaded when switching, see <code class="language-plaintext highlighter-rouge">sdldrv::drv_toggleFullscreen</code> for this.</li>
+  <li>Windows prints out a warning whenever a double precision value is specified where a normal float is expected. So to avoid these warnings you should always mark any float constants to be single precision, e.g.: use <strong>1.0f</strong> instead of just <strong>1.0</strong>.</li>
+  <li>To link a file, be sure that there is no space between the arguments and the filename, for example, <code class="language-plaintext highlighter-rouge">-Lbullet/Demos/OpenGL</code> not <code class="language-plaintext highlighter-rouge">-L bullet/Demos/OpenGL</code>, since it causes problems on Macs.</li>
+  <li>Some compilers (for example, VC6) don’t support initialization of static member variables inside the class declaration, so write the initialization in the implementation file (the .cpp file).</li>
+  <li>Under Windows, a warning is printed if you convert an int to an OpenGL variable type implicitly <code class="language-plaintext highlighter-rouge">( GLint a = b; )</code>, so please do so explicitly <code class="language-plaintext highlighter-rouge">( GLint a = (GLint) b; )</code>.</li>
+</ul>
+
+<h2 id="logging">Logging</h2>
+<p>We have a separate class to Log messages for the user. This class should be used for any message that’s printed on the terminal (or might be redirected into a file so that users can give us this data). Normal printf/cout/cerr are still used in many files, but this is deprecated. The various levels should be used as follows:</p>
+<ul>
+  <li>fatal: Anything that causes STK to abort.</li>
+  <li>error: Any error which still allows STK to continue as normal, but might have visual (or other) impact. Missing textures would be an example.</li>
+  <li>warn: Any warning that is detected, which should not cause a difference in STK that’s important for a player. An example would be if the window location can not be read: it doesn’t matter that much that the windows is shown at a different location.</li>
+  <li>info: Any useful info a player should always have in case that something goes wrong. An example would be paths to various directories.</li>
+  <li>debug: Debug output, which would only be seen by developers. Mostly those should be either removed (or if necessary commented out) before committing (though sometimes we add those in in order to help us finding a problem someone else has - those should be removed or commented out once the issue is fixed).</li>
+  <li>verbose: Any high-frequent debug output.</li>
+</ul>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

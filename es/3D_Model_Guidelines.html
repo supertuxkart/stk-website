@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Directrices sobre modelos en 3D - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Directrices sobre modelos en 3D">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Es importante que el SuperTuxKart tenga un estilo de objetos consistente en todas partes. En cierto modo, esta página es análoga a la de directrices sobre texturas.">
+<meta property="og:locale" content="es">
+<meta property="og:image" content="/generated/assets/wiki/STK_tutorial_barrier_1-800-00e8f0b46.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_0_250px {
+    padding: 3px;
+    width: auto;
+    height: 250px;
+}
+
+.packed_0_250px img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menú</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/es/Discover'><span class="translate">Descubrir</span></a></li>
+            <li><a href='/es/Download'><span class="translate">Descargar</span></a></li>
+            <li><a href='/es/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/es/Community'><span class="translate">Participa</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/es/Donate'><span class="translate">Dona</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Herramientas</span></p>
+        <div class="toolbox-section"><p><span class="translate">Idioma</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/3D_Model_Guidelines'>български</a></li><li id="language-selector-ca"><a href='/ca/3D_Model_Guidelines'>Català</a></li><li id="language-selector-da"><a href='/da/3D_Model_Guidelines'>Dansk</a></li><li id="language-selector-de"><a href='/de/3D_Model_Guidelines'>Deutsch</a></li><li id="language-selector-en"><a href='/3D_Model_Guidelines'>English</a></li><li id="language-selector-es"><a href='/es/3D_Model_Guidelines'>Español</a></li><li id="language-selector-fil"><a href='/fil/3D_Model_Guidelines'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/3D_Model_Guidelines'>Français</a></li><li id="language-selector-gl"><a href='/gl/3D_Model_Guidelines'>Galego</a></li><li id="language-selector-ko"><a href='/ko/3D_Model_Guidelines'>한국어</a></li><li id="language-selector-nl"><a href='/nl/3D_Model_Guidelines'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/3D_Model_Guidelines'>Polski</a></li><li id="language-selector-pt"><a href='/pt/3D_Model_Guidelines'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/3D_Model_Guidelines'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/3D_Model_Guidelines'>Русский</a></li><li id="language-selector-sl"><a href='/sl/3D_Model_Guidelines'>Slovenščina</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Gestión</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">Nueva página</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_translations/es/3D_Model_Guidelines.md'><span class="translate">Edita la página</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_translations/es/3D_Model_Guidelines.md'><span class="translate">Historial de la página</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/es/Main_Page' title="Visita la página principal">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Directrices sobre modelos en 3D</h1>
+<article>
+<ul id="results-container"></ul><p>Es importante que el SuperTuxKart tenga un estilo de objetos consistente en todas partes. En cierto modo, esta página es análoga a la de <a href="/es/Texture_Guidelines">directrices sobre texturas</a>.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contenidos</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Mostrar" data-hide-text="Ocultar" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#estilo" id="markdown-toc-estilo">Estilo</a></li>
+  <li><a href="#normas" id="markdown-toc-normas">Normas</a></li>
+  <li><a href="#número-de-polígonos" id="markdown-toc-número-de-polígonos">Número de polígonos</a>    <ul>
+      <li><a href="#un-poco-de-historia" id="markdown-toc-un-poco-de-historia">Un poco de historia</a></li>
+      <li><a href="#midiendo-el-número-de-polígonos" id="markdown-toc-midiendo-el-número-de-polígonos">Midiendo el número de polígonos</a></li>
+      <li><a href="#ejemplos-de-número-de-polígonos" id="markdown-toc-ejemplos-de-número-de-polígonos">Ejemplos de número de polígonos</a></li>
+      <li><a href="#marcando-objetos-con-muchos-polígonos" id="markdown-toc-marcando-objetos-con-muchos-polígonos">Marcando objetos con muchos polígonos</a></li>
+    </ul>
+  </li>
+  <li><a href="#escalando" id="markdown-toc-escalando">Escalando</a></li>
+</ul>
+<h2 id="estilo">Estilo</h2>
+
+<p>Los objetos en el SuperTuxKart deberían ser realistas en tamaño y forma general. Sin embargo, los objetos no deberían ser tan detallados como en el mundo real. Tomemos una palmera, por ejemplo:</p>
+
+<div class="gallery-container">
+<div class="packed_0_250px"><a href="/assets/wiki/RealPalmTree.jpg"><img style="max-height: calc(100% - 1em - 10px);" src="/generated/assets/wiki/RealPalmTree-781-84930e32b.jpg" alt="RealPalmTree" srcset="/generated/assets/wiki/RealPalmTree-400-84930e32b.jpg 400w, /generated/assets/wiki/RealPalmTree-781-84930e32b.jpg 781w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Palmera real</p>
+</div>
+<div class="packed_0_250px"><a href="/assets/wiki/STK0.8.1_1.jpg"><img style="max-height: calc(100% - 1em - 10px);" src="/generated/assets/wiki/STK0.8.1_1-800-d57f09a40.jpg" alt="STK0.8.1_1" srcset="/generated/assets/wiki/STK0.8.1_1-400-d57f09a40.jpg 400w, /generated/assets/wiki/STK0.8.1_1-800-d57f09a40.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Modelo de palmera muy de dibujos animados</p>
+</div>
+<div class="packed_0_250px"><a href="/assets/wiki/STK0.9_7.jpg"><img style="max-height: calc(100% - 1em - 10px);" src="/generated/assets/wiki/STK0.9_7-800-6289e627a.jpg" alt="STK0.9_7" srcset="/generated/assets/wiki/STK0.9_7-400-6289e627a.jpg 400w, /generated/assets/wiki/STK0.9_7-800-6289e627a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Modelo realista pero simplificado</p>
+</div>
+</div>
+
+<p>Como se puede ver, el nuevo modelo de la palmera tiene una forma mucho más parecida a la de una palmera real. Pero no es tan detallado como para que parezca real. En resumen, <u>mantén el realismo en la forma general, pero guarda también una cierta apariencia de dibujos animados evitando un detalle excesivo en la forma o las texturas.</u></p>
+
+<p>Por ejemplo, si te pidieran crear una barrera de hormigón, todo el mundo sabe qué pinta tiene una barrera de hormigón (probablemente las veas cada día cuando vas a trabajar). Así que abres el Blender y haces algo como esto:</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/STK_tutorial_barrier_1.jpg"><img src="/generated/assets/wiki/STK_tutorial_barrier_1-800-00e8f0b46.jpg" alt="STK_tutorial_barrier_1" srcset="/generated/assets/wiki/STK_tutorial_barrier_1-400-00e8f0b46.jpg 400w, /generated/assets/wiki/STK_tutorial_barrier_1-800-00e8f0b46.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<p>El problema es que faltan muchos detalles y estás simplificando el objeto excesivamente. Parece muy poco trabajado, y si haces todos tus objetos así el resultado final no será tan bueno como podría llegar a ser. La solución es simplemente recopilar imágenes, dibujos, ideas, etc. que te ayuden durante el proceso de crear el objeto. Sí, es un poco como hacer trampa, pero es recomendable y está permitido. El objetivo es tener la inspiración adecuada. Con una imagen como <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/BarreiraNewJersey.JPG/1280px-BarreiraNewJersey.JPG">esta</a>, puedes ver todos los detalles y reproducirlos para tu objeto.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/STK_tutorial_barrier_2.jpg"><img src="/generated/assets/wiki/STK_tutorial_barrier_2-800-e09042534.jpg" alt="STK_tutorial_barrier_2" srcset="/generated/assets/wiki/STK_tutorial_barrier_2-400-e09042534.jpg 400w, /generated/assets/wiki/STK_tutorial_barrier_2-800-e09042534.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<p>¿Notas la gran diferencia? La barrera es interesante de ver, hay muchos detalles como los ganchos superiores para cargarlas, las franjas de advertencia inferiores, etc. No es fotorrealista pero como mínimo tenemos un objeto con detalles interesantes que podría ser una barrera del mundo real (y, además, el objetivo no es ser totalmente realista, sólo más realista).</p>
+
+<h2 id="normas">Normas</h2>
+
+<ul>
+  <li>Todos los modelos <strong>deben</strong> ser aptos para niños. SuperTuxKart debería cumplir la tipificación “Everyone” (Todos) de la <a href="https://es.wikipedia.org/wiki/Entertainment_Software_Rating_Board">clasificación ESRB</a>.</li>
+  <li>Los modelos deben de ser capaces de verse bien tanto solos como en grupo.</li>
+  <li>Los modelos con muchos polígonos deberían usar el <a href="/Level_of_Detail">Nivell de detalle</a>.</li>
+  <li>A no ser que tu modelo sea inseparable de tu circuito, los objetos deberían ser usables en muchos entornos diferentes, de forma que se puedan convertir en “library nodes”.
+    <ul>
+      <li>Evita añadir suelo o vegetación alrededor de tus objetos (a no ser que tu objeto sea algún tipo de vegetación en sí mismo).</li>
+      <li>Normalmente, la gente debería llevar ropa de propósito general, excepto en casos donde no tenga sentido, como por ejemplo una playa.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="número-de-polígonos">Número de polígonos</h2>
+
+<p>El número de polígonos (polycount) es el número de superfecies, o caras, que tienen los objetos 3D. Las versiones antiguas de Blender sólo soportaban objetos hechos de “quads” (cuadriláteros — polígonos hechos de cuatro puntos) y “tris” (triángulos — polígonos hechos de tres puntos). Polígonos se entendía que significaba cuadriláteros. Pera ahora Blender soporta n-gonos, o polígonos con un número ilimitado de puntos, y sólo reporta el número de superficies y de triángulos. De esta forma, como el número de triángulos siempre se puede confiar en que permanecerá inalterado (¡un triángulo nunca puede tener más puntos!), es más preciso contar tris en lugar de polígonos. Por tanto, estas directrices se refieren a los tris.</p>
+
+<h3 id="un-poco-de-historia">Un poco de historia</h3>
+
+<p>En los viejos tiempos de los videojuegos era imposible calcular la iluminación perfecta para todos los píxeles. Todos los cálculos intensivos se hacían para cada polígono y després se interpolaban a los píxeles dentro del polígono.</p>
+
+<p>Pero hoy en dia los motores modernos usan la iluminación por píxel. Por lo tanto, la parte más compleja no es el vertex shader sino el pixel shader. Tomemos como ejemplo un objeto que tiene ~500 polígonos. Para la GPU, gestionar un vértice son quizás ~10 instrucciones (no és unnúmero exacto, sólo es para hacernos una idea). Para cada polígono de nuestro modelo el ordenador debe ejecutar ~10 instrucciones, o sea que 500 × 10 = 5000 instrucciones para toda la malla.</p>
+
+<p>Ahora, la parte correspondiente a los píxeles. Depende de cuantos píxeles utilice tu objeto, pero pongamos el peor caso, asumamos que toda la escena esta ocupada por tu objeto. Para cada píxel a computar (la luz, el brillo, el mapa normal, etc) hacen falta ~50 instrucciones de GPU.</p>
+
+<p>Si tienes una resolución de 800 × 600 (la mayoría de la gente tiene una resolución más alta), 800 × 600 × 50 = 24.000.000 instrucciones. O sea, que incluso doblando el número de superficies no afectaría mucho a la mayor parte de la energía gastada. Ahora se calcula por píxeles, no por superficies.</p>
+
+<p>Por lo tanto, podemos incrementar el número de polígonos sin muchos problemas. Sin embargo, es importante mantenerlo bajo control.</p>
+
+<h3 id="midiendo-el-número-de-polígonos">Midiendo el número de polígonos</h3>
+
+<p>Blender muestra el número de polígonos en la barra de estado, mira la captura de pantalla inferior para activarlo si <strong>Scene Statistics</strong> no está marcado hciendo clic con el botón derecho sobre la barra de estado.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Blender_screenshot_tris.jpg"><img src="/assets/wiki/Blender_screenshot_tris.jpg" alt="Blender_screenshot_tris" /></a></div>
+</div>
+
+<p>Busca el número de <strong>Tris</strong>. Esa es la información que necesitas. Además, recuerda que el múmero de tris en toda la escena sólo se muestra en el modo de objeto.</p>
+
+<h3 id="ejemplos-de-número-de-polígonos">Ejemplos de número de polígonos</h3>
+
+<ul>
+  <li>Un avión de carga: ~4000 tris</li>
+  <li>Una palmera con nivel de detalle
+    <ul>
+      <li>Alto: 843 tris</li>
+      <li>Medio: 465 tris</li>
+      <li>Bajo: 42 tris</li>
+    </ul>
+  </li>
+  <li>Una planta básica: 32 tris</li>
+  <li>Un árbol de tamaño medio: 1380 tris</li>
+  <li>Una calabaza: 470 tris</li>
+</ul>
+
+<h3 id="marcando-objetos-con-muchos-polígonos">Marcando objetos con muchos polígonos</h3>
+
+<p>Es posible marcar objetos de forma que requieran un ordenador más potente. Para hacerlo, abre cualquier escena del STK usando Blender, selecciona el objeto que quieres marcar y activa la opción <strong>Activar los detalles de la visibilidad geométrica</strong> en el panel <strong>Propiedades del objeto de SuperTuxKart</strong>. Entonces podrás configurar la <strong>Visibilidad</strong> con cualquiera de las opciones disponibles para decidir el nivel de efectos gráficos mínimo a partir del cual tu objeto será visible.</p>
+
+<h2 id="escalando">Escalando</h2>
+
+<p>Los objetos deben tener las proporciones correctas para que se vean bien en el juego.</p>
+
+<ul>
+  <li>Una palmera tiene una altura de unas 27 unidades de Blender.</li>
+  <li>Los edificios de madera del Resort Nórdico tienen una altura aproximada de 8 unidades de Blender.</li>
+  <li>Las banderas de Lampone en Candela City tienen una altura de 10 unidades de Blender.</li>
+</ul>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Comunidad</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Foro</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Complementos</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Medios</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Galería</span></a></li>
+        <li><a href='/es/Posters'><span class="translate">Pósters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Desarrollo</span></p>
+    <ul>
+        <li><a href='/es/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentación</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Acerca de nosotros</span></p>
+    <ul>
+        <li><a href='/es/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">Acerca del equipo</span></a></li>
+        <li><a href='/es/Discover'><span class="translate">Acerca del SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Proyectes que utilizan el SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

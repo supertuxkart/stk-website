@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Repositorio de medios - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Repositorio de medios">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="El repositorio de medios es el lugar donde se guardan todos los ficheros originales de modelos 3D, texturas, sonidos y el resto de arte que se usa en el STK. Esto es necesario porque estos ficheros normalment son demasiado grandes e incluso incompatibles con el juego, así que son reducidos o convertidos antes de incluirse.">
+<meta property="og:locale" content="es">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+/* Add Page_Name.css with Page_Name.md */
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menú</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/es/Discover'><span class="translate">Descubrir</span></a></li>
+            <li><a href='/es/Download'><span class="translate">Descargar</span></a></li>
+            <li><a href='/es/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/es/Community'><span class="translate">Participa</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/es/Donate'><span class="translate">Dona</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Herramientas</span></p>
+        <div class="toolbox-section"><p><span class="translate">Idioma</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Media_Repo'>български</a></li><li id="language-selector-ca"><a href='/ca/Media_Repo'>Català</a></li><li id="language-selector-cs"><a href='/cs/Media_Repo'>Čeština</a></li><li id="language-selector-da"><a href='/da/Media_Repo'>Dansk</a></li><li id="language-selector-de"><a href='/de/Media_Repo'>Deutsch</a></li><li id="language-selector-en"><a href='/Media_Repo'>English</a></li><li id="language-selector-es"><a href='/es/Media_Repo'>Español</a></li><li id="language-selector-fil"><a href='/fil/Media_Repo'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/Media_Repo'>Français</a></li><li id="language-selector-gl"><a href='/gl/Media_Repo'>Galego</a></li><li id="language-selector-it"><a href='/it/Media_Repo'>Italiano</a></li><li id="language-selector-nl"><a href='/nl/Media_Repo'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Media_Repo'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Media_Repo'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Media_Repo'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Media_Repo'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Media_Repo'>Slovenščina</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Gestión</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">Nueva página</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_translations/es/Media_Repo.md'><span class="translate">Edita la página</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_translations/es/Media_Repo.md'><span class="translate">Historial de la página</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/es/Main_Page' title="Visita la página principal">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Repositorio de medios</h1>
+<article>
+<ul id="results-container"></ul><p>El <strong>repositorio de medios</strong> es el lugar donde se guardan todos los ficheros originales de modelos 3D, texturas, sonidos y el resto de arte que se usa en el STK. Esto es necesario porque estos ficheros normalment son demasiado grandes e incluso incompatibles con el juego, así que son reducidos o convertidos antes de incluirse.</p>
+
+<p>El repositorio de medios también tiene otra utilidad: usándolo, puedes importar una gran variedad de texturas y objetos en los circuitos que crees. Como Blender es muy sensible con la estructura de los ficheros de tus circuitos cuando se enlazan texturas y library nodes del repositorio de medios, recomendamos situar el fichero de proyecto de Blender de tu kart/circuito/library node en su propia carpeta bajo la categoria apropiada de tu copia descargada del repositorio de medios, <strong>como si fuera una parte oficial del juego</strong>.</p>
+
+<h2 style="display: none;"><span class="translate">Contenidos</span></h2>
+<ul style="display: none;" id="markdown-toc">
+  <li><a href="#instalando-el-repositorio-de-medios" id="markdown-toc-instalando-el-repositorio-de-medios">Instalando el repositorio de medios</a>    <ul>
+      <li><a href="#la-mejor-forma-instalando-subversion" id="markdown-toc-la-mejor-forma-instalando-subversion">La mejor forma: instalando Subversion</a></li>
+      <li><a href="#método-alternativo-descarga-manual" id="markdown-toc-método-alternativo-descarga-manual">Método alternativo: descarga manual</a></li>
+    </ul>
+  </li>
+</ul>
+<h3 id="instalando-el-repositorio-de-medios">Instalando el repositorio de medios</h3>
+
+<p>Recomendamos trabajar con la vesión de desarrollo del STK, así que la mejor forma de descargar el repositorio de medios es con un cliente de Subversion (SVN). Sin embargo, si no puedes instalar el SVN hay un método alternativo.</p>
+
+<h4 id="la-mejor-forma-instalando-subversion">La mejor forma: instalando Subversion</h4>
+
+<p>Las instrucciones para instalar el Subversion están en la página [Instalando las herramientas] (https://supertuxkart.net/Installing_Tools#subversion-client). Una vez instalado, usa la dirección siguiente para extraer el repositorio:</p>
+
+<ul>
+  <li>Si estás usando un programa gráfico (como por ejemplo TortoiseSVN), es posible que te pida la URL del repositorio - <code class="language-plaintext highlighter-rouge">https://svn.code.sf.net/p/supertuxkart/code/media/trunk</code> - y un directorio de extracción, que es el lugar de tu ordenador donde quieres que se copie.</li>
+  <li>En un sistema operativo de tipo Unix, un ejemplo de comando de extracción sería:</li>
+</ul>
+
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Código</span></b></div>
+<div class="popup-code-line"><code>
+svn checkout <a href="https://svn.code.sf.net/p/supertuxkart/code/media/trunk">https://svn.code.sf.net/p/supertuxkart/code/media/trunk</a> stk-media-repo
+
+</code></div>
+</div>
+
+<h4 id="método-alternativo-descarga-manual">Método alternativo: descarga manual</h4>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Información</span></b></div>
+<div class="popup-content">
+    <p>Este método alternativo es muy sencillo y descarga los mismos ficheros y carpetas, pero no actualizará tus ficheros cuando se hagan cambios en el repositorio de medios. Esto significa que si se hacen cambios relevantes en el repositorio después de que te hayas descargado la imagen, tus proyectos se podrían ver diferente en versiones más uevas o incluso no funcionar a no ser que te descargues una nueva imagen.</p>
+
+  </div>
+</div>
+
+<p>Visita este enlace para generar una imagen y descargarla: <a href="https://sourceforge.net/p/supertuxkart/code/HEAD/tarball?path=/media">https://sourceforge.net/p/supertuxkart/code/HEAD/tarball?path=/media</a></p>
+
+<p>Si te pide que vuelvas a enviar la imagen, hazlo. Entonces empezará a descargarse los ficheros del repositorio de medios tal y como están actualmente. Extrae el fichero ZIP en una ubicación de trabajo donde quieras tener tu copia del repositorio de medios. ¡Ya está listo!</p>
+
+<p>En el repositorio de medios se hacen cambios <a href="https://sourceforge.net/p/supertuxkart/code/HEAD/log/?path=">con bastante frecuencia</a>, así que, si te quieres descargar una nueva imagen, tendrás que hacer una copia de seguridad de todos tus proyectos en otra carpeta, borrar tu copia local del repositorio de medios, y sustituirlo con la nueva imagen.</p>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Comunidad</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Foro</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Complementos</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Medios</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Galería</span></a></li>
+        <li><a href='/es/Posters'><span class="translate">Pósters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Desarrollo</span></p>
+    <ul>
+        <li><a href='/es/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentación</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Acerca de nosotros</span></p>
+    <ul>
+        <li><a href='/es/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">Acerca del equipo</span></a></li>
+        <li><a href='/es/Discover'><span class="translate">Acerca del SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Proyectes que utilizan el SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

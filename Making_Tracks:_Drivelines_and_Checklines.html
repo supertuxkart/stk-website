@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Making Tracks: Drivelines and Checklines - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Making Tracks: Drivelines and Checklines">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Info This page provides practical instructions for creating drivelines. For more details and a more complex explanation, as well as discussion of not-yet-implemented features, see the Talk:Theoretical Driveline Model page.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/wiki/Driveline_bad.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Making_Tracks:_Drivelines_and_Checklines'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Making_Tracks:_Drivelines_and_Checklines.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Making_Tracks:_Drivelines_and_Checklines.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Making Tracks: Drivelines and Checklines</h1>
+<article>
+<ul id="results-container"></ul><div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>This page provides practical instructions for creating drivelines. For more details and a more complex explanation, as well as discussion of not-yet-implemented features, see the <a href="/Talk:Theoretical_Driveline_Model">Talk:Theoretical Driveline Model</a> page.</p>
+  </div>
+</div>
+
+<p>Drivelines are used to show SuperTuxKart where the track is. Drivelines are represented in Blender by a series of connected quads, with the beginning marked by a special structure. However, they are not visible while playing unless this is enabled via <a href="/Artist_Debug_Mode">Artist Debug Mode</a>.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#creating-the-main-driveline" id="markdown-toc-creating-the-main-driveline">Creating the main driveline</a>    <ul>
+      <li><a href="#if-you-followed-the-previous-module" id="markdown-toc-if-you-followed-the-previous-module">If you followed the previous module</a></li>
+      <li><a href="#if-you-made-a-track-another-way" id="markdown-toc-if-you-made-a-track-another-way">If you made a track another way</a></li>
+      <li><a href="#creating-the-start-line" id="markdown-toc-creating-the-start-line">Creating the start line</a></li>
+      <li><a href="#make-the-driveline-active" id="markdown-toc-make-the-driveline-active">Make the driveline active</a></li>
+    </ul>
+  </li>
+  <li><a href="#creating-secondary-drivelines" id="markdown-toc-creating-secondary-drivelines">Creating secondary drivelines</a></li>
+  <li><a href="#checklines" id="markdown-toc-checklines">Checklines</a>    <ul>
+      <li><a href="#creating-checklines" id="markdown-toc-creating-checklines">Creating Checklines</a></li>
+      <li><a href="#activating-checklines" id="markdown-toc-activating-checklines">Activating Checklines</a></li>
+    </ul>
+  </li>
+  <li><a href="#additional-lap-lines" id="markdown-toc-additional-lap-lines">Additional Lap Lines</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+</ul>
+<h2 id="creating-the-main-driveline">Creating the main driveline</h2>
+
+<p><em>Note: Both of methods listed recommend removing faces from the driveline. This is not actually necessary, but makes a track easier to view.</em></p>
+
+<h3 id="if-you-followed-the-previous-module">If you followed the previous module</h3>
+
+<p>You will have a flat track made of quads already. You can simply duplicate this track, switch into edit mode, select all points with the “a” keyboard shortcut, tap the Delete key and delete <strong>Only Faces</strong>. Then follow the instructions below for creating a start line.</p>
+
+<h3 id="if-you-made-a-track-another-way">If you made a track another way</h3>
+
+<p>Start with a quad plane, and delete only its face (preserving the vertices and edges). Then, attach points until you have a series of quads, each connected to its adjacent ones, all along your track in a loop. Make sure that the driveline turns smoothly around corners; otherwise the AI karts could have trouble driving.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Driveline_bad.jpg"><img src="/assets/wiki/Driveline_bad.jpg" alt="Driveline_bad" /></a></div>
+</div>
+
+<h3 id="creating-the-start-line">Creating the start line</h3>
+
+<p>The start line of a track in SuperTuxKart is denoted by a gap between two disconnected quads, and “antennae” lines from the endpoints of the quad which will be the start line. A picture does a better job of explaining this:</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Driveline_start.jpg"><img src="/assets/wiki/Driveline_start.jpg" alt="Driveline_start" /></a></div>
+</div>
+
+<h3 id="make-the-driveline-active">Make the driveline active</h3>
+
+<p>To make the exporter recognize the driveline, under Object Properties for the driveline object, under SuperTuxKart Properties, set “Type” to “Driveline (main)”. Ignore the “Activate” property for now.</p>
+
+<h2 id="creating-secondary-drivelines">Creating secondary drivelines</h2>
+
+<p>Although each track can only have one main driveline, you can use secondary drivelines for shortcuts or alternate routes. They have the same structure as a main driveline, but rather than making the driveline cyclic, place the antennae near two points of a quad of the main driveline where you want the AI karts to deviate from the main track and place the end of the last quad where you want the alternate route to rejoin the main one. Then set the type to “Driveline (additional)” in the SuperTuxKart object properties panel. A picture:</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Driveline_shortcut_entrance.jpg"><img src="/assets/wiki/Driveline_shortcut_entrance.jpg" alt="Driveline_shortcut_entrance" /></a></div>
+</div>
+
+<h2 id="checklines">Checklines</h2>
+
+<h3 id="creating-checklines">Creating Checklines</h3>
+
+<p>Checklines allow you to stop players from taking shortcuts, and allow for proper lap counting. To make one, simply create a line segment with two points and position it on a part of the track. There are some guidelines for placement, however:</p>
+
+<ul>
+  <li>They should only be used to stop major shortcuts, not karts cutting cutting off a corner.</li>
+  <li>They should be quite wide, wide enough to be triggered even by karts driving off the track.</li>
+  <li>Checklines should not be placed where they might be missed if the player or AI kart takes an alternate route. However, checkline groups (see below) can be used to mitigate this.</li>
+  <li>You should have multiple checklines in a “chain” (see below) to make sure karts drive in the proper order.</li>
+  <li>It is recommended to have at least 3 checklines per track in addition to the lapline</li>
+</ul>
+
+<h3 id="activating-checklines">Activating Checklines</h3>
+
+<p>First, set each checkline as a checkline in the SuperTuxKart object properties. You will notice that you have two options to set: the “Name” field, and the “Activate” field.</p>
+
+<p>The “Name” field is the <em>group name</em> of the checkline. If you have only one main route and no alternate routes, or if you have not placed checklines where they might be missed depending on the route taken, simply give each checkline a unique group name. The first checkline might have the name “Checkline1”, for instance.</p>
+
+<p>If you wish to have checklines along alternate routes, create a checkline along the alternate route <strong>and</strong> on the main route between the two ends of the alternate route, and give them the same group name.</p>
+
+<p>Now, for the “Activate” option for the first checkline, you would click the drop-down menu button, and choose the name of the second checkline or checkline group. Repeat this pattern for each checkline. For the last checkline, type “lap” into the “Activate” field. This allows for the lap to be counted.</p>
+
+<p>But what, you ask, activates the first checkline? For the first checkline, select the <strong>main driveline</strong>, and, in the SuperTuxKart object properties panel, set “Activate” to the name of the first checkline.</p>
+
+<h2 id="additional-lap-lines">Additional Lap Lines</h2>
+
+<p>If the beginning of the driveline cannot be made wider, and it is inconvenient to create a “gate”-style decoration to mark the start of the track, you can add additional lap lines. Simply create a line with two points, just like a checkline, give it the type “Lap line” in the SuperTuxKart Object Properties panel, and it will be activated by any checklines set to activate “lap”.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>Be sure to set the “Activate” property of any additional lap lines to the next checkline!</p>
+  </div>
+</div>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Your track is now almost ready for the first stage of testing. Let’s review what you’ve done so far:</p>
+
+<ul>
+  <li>You came up with an idea</li>
+  <li>You created concept art and decided on the layout of your track</li>
+  <li>You modeled your track in Blender</li>
+  <li>You made it possible for AIs to drive on your track</li>
+  <li>You added checklines for lap counting and to prevent cheating.</li>
+</ul>
+
+<p>In the next module, you’ll export your track and give it a try in SuperTuxKart.</p>
+
+<ul id="art_portal_nav">
+    <li class="art_portal_nav_item" id="special_return_to_art_portal">
+    <a href="/Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="art_portal_nav_text">
+        <a href="/Community"><span class="translate">Return to Get Involved</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Library_Nodes"><span class="translate">Making Library Nodes</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Karts"><span class="translate">Making Karts</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Tracks"><span class="translate">Making Tracks</span></a>
+    </span>
+    </li>
+</ul>
+
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>
