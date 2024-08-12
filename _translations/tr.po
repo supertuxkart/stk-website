@@ -1,14 +1,14 @@
 # 
 # Translators:
 # Serdar Sağlam <teknomobil@msn.com>, 2022
-# a. cem hanoğlu <cemhanoglu.ege@gmail.com>, 2024
+# A. Cem Hanoğlu <cemhanoglu.ege@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: a. cem hanoğlu <cemhanoglu.ege@gmail.com>, 2024\n"
+"Last-Translator: A. Cem Hanoğlu <cemhanoglu.ege@gmail.com>, 2024\n"
 "Language-Team: Turkish (https://app.transifex.com/supertuxkart/teams/36024/tr/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -530,7 +530,7 @@ msgstr ""
 msgid ""
 "If you are interested you can take a look at the [community](Community) "
 "page."
-msgstr "Eğer ilgileniyorsan [topluluk](Topluluk) sayfasına göz atabilirsin."
+msgstr "Eğer ilgileniyorsan [topluluk](Community) sayfasına göz atabilirsin."
 
 # Full game installer / packages for STK
 msgid "Full game"
