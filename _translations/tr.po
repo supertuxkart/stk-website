@@ -573,7 +573,7 @@ msgstr "Kaynak Kodu"
 msgid ""
 "To get the very latest code, see the page [Source control](Source_control)."
 msgstr ""
-"En son yayımlanan kod için [Kaynak kontrolü](Kaynak_kontrolü) sayfasına bak."
+"En son yayımlanan kod için [Kaynak kontrolü](Source_control) sayfasına bak."
 "  "
 
 msgid "Download from GitHub"
