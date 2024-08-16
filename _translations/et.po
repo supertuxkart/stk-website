@@ -211,7 +211,7 @@ msgid "For Everyone"
 msgstr "Kõigi jaoks"
 
 msgid "Connecting your Wiimote"
-msgstr "Sinu Wiimote lisamine"
+msgstr "Sinu Wiimote'i lisamine"
 
 msgid "Translating SuperTuxKart"
 msgstr "SuperTuxKarti tõlkimine"
