@@ -610,4 +610,4 @@ msgid ""
 msgstr "Enne selle õpetuse järgimist peaksid lugema järgmisi artikleid:"
 
 msgid "Click here if you are not redirected."
-msgstr "Klõpsa siin, kui teid ei suunata ümber."
+msgstr "Klõpsa siin, kui sind ei suunata ümber."
