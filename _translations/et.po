@@ -607,7 +607,7 @@ msgstr "Eeltingimused"
 
 msgid ""
 "You should read the following articles prior to following this tutorial:"
-msgstr "Enne selle õpetuse järgimist peaksite lugema järgmisi artikleid:"
+msgstr "Enne selle õpetuse järgimist peaksid lugema järgmisi artikleid:"
 
 msgid "Click here if you are not redirected."
 msgstr "Klõpsa siin, kui teid ei suunata ümber."
