@@ -139,7 +139,7 @@ msgid "Info"
 msgstr "Informação"
 
 msgid "Return to Get Involved"
-msgstr "Regressa para participar"
+msgstr "Voltar a Envolve-te"
 
 msgid "Making Library Nodes"
 msgstr "Fazer Nós de Biblioteca (Library Nodes)"
