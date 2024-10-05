@@ -145,6 +145,7 @@ The following websites offer only public domain material, that is always OK to u
 * [BurningWell](https://www.burningwell.org/) (Photos)
 * [pdsounds](https://pdsounds.org/) (Audio)
 * [OpenClipArt](https://openclipart.org/) (2D Vector Art)
+* [TheBaseMesh](https://gamefromscratch.com/the-base-mesh-2-0/) (3D Models)
 
 The following websites provide resources under a variety of mixed licenses; you may find a lot of good material there but verify the license on a case by case basis:
 
