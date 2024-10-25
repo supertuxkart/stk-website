@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Making Tracks: Appendix D: Soccer and Battle Modes - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Making Tracks: Appendix D: Soccer and Battle Modes">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Battle and soccer arenas are actually an extension of the track format and thus most of the instructions in this guide apply to arena creation. In fact, the process of making tracks and arenas diverge only at a few points, which this article aims to cover.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/generated/assets/wiki/The_stadium_1-800-200adf1d8.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_480px_0 {
+    padding: 3px;
+    width: 480px;
+    height: auto;
+}
+
+.packed_480px_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Making_Tracks:_Appendix_D:_Soccer_and_Battle_Modes'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Making_Tracks:_Appendix_D:_Soccer_and_Battle_Modes.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Making_Tracks:_Appendix_D:_Soccer_and_Battle_Modes.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Making Tracks: Appendix D: Soccer and Battle Modes</h1>
+<article>
+<ul id="results-container"></ul><p>Battle and soccer arenas are actually an extension of the track format and thus most of the instructions in this guide apply to arena creation. In fact, the process of making tracks and arenas diverge only at a few points, which this article aims to cover.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#design" id="markdown-toc-design">Design</a></li>
+  <li><a href="#navigation-ai" id="markdown-toc-navigation-ai">Navigation AI</a></li>
+  <li><a href="#start-positions" id="markdown-toc-start-positions">Start Positions</a></li>
+  <li><a href="#special-considerations-for-soccer-mode" id="markdown-toc-special-considerations-for-soccer-mode">Special Considerations for Soccer Mode</a>    <ul>
+      <li><a href="#properties" id="markdown-toc-properties">Properties</a></li>
+      <li><a href="#goals" id="markdown-toc-goals">Goals</a></li>
+      <li><a href="#the-soccer-ball" id="markdown-toc-the-soccer-ball">The Soccer Ball</a></li>
+    </ul>
+  </li>
+</ul>
+<h2 id="design">Design</h2>
+
+<p>Naturally, an arena is not a road circuit like a track. Arenas are a large area that contains the players and provides the features needed for battle or soccer mode. The playground area of an arena therefore needs to be more interesting and interactive than in a track. Use ramps, obstacles, tunnels, and ridges to make an arena more dynamic and interesting. An arena like this is a bit dull:</p>
+
+<div class="gallery-container">
+<div class="packed_480px_0"><a href="/assets/wiki/The_stadium_1.jpg"><img src="/generated/assets/wiki/The_stadium_1-800-200adf1d8.jpg" alt="The_stadium_1" srcset="/generated/assets/wiki/The_stadium_1-400-200adf1d8.jpg 400w, /generated/assets/wiki/The_stadium_1-800-200adf1d8.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">The arena is quite basic and lacks details as well as obstacles.</p>
+</div>
+<div class="packed_480px_0"><a href="/assets/wiki/The_stadium_2.jpg"><img src="/generated/assets/wiki/The_stadium_2-800-bdcd06cd8.jpg" alt="The_stadium_2" srcset="/generated/assets/wiki/The_stadium_2-400-bdcd06cd8.jpg 400w, /generated/assets/wiki/The_stadium_2-800-bdcd06cd8.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">The lack of detail is even more visible from the player’s perspective.</p>
+</div>
+</div>
+
+<p>Giving your arena lots of different paths will make it fun for battle mode, but avoid too many confusing paths for soccer arenas, as this will reduce the playability of your arena. However, don’t forget to add gift boxes and nitros to arenas. They’re necessary in battle mode and make soccer mode more dynamic.</p>
+
+<h2 id="navigation-ai">Navigation AI</h2>
+
+<p>To generate a minimap and allow for AI navigation, SuperTuxKart needs a <em>navmesh</em> for every arena. The navmesh is a plane above all the drivable areas, and must be made of quads. Wherever there is an obstacle, simply delete the face by selecting the face in <strong>Edit</strong> mode and hitting the <strong>Delete</strong> key, then selecting <strong>Faces</strong>. Areas with solid faces will be considered drivable by the AI.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Navmesh.jpg"><img src="/assets/wiki/Navmesh.jpg" alt="Navmesh" /></a></div>
+</div>
+
+<p>Now, select the navmesh object in <strong>Object</strong> mode, and set the type to <strong>Navmesh</strong> in the <strong>SuperTuxKart Object Properties</strong> panel.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>It is very important that the navmesh is made entirely of quads and that the normals are properly calculated. To recalculate normals in Blender, switch to <strong>Edit</strong> mode on the navmesh, select everything (shortcut: <strong>a</strong>) and hit <strong>Alt-n</strong> to recalculate normals.</p>
+  </div>
+</div>
+
+<h2 id="start-positions">Start Positions</h2>
+
+<p>Every battle or soccer arena needs a number of start positions, at which karts will begin the battle or soccer game. Create Blender <strong>empty</strong> objects and set their type to <strong>Start position (battle mode)</strong> in the <strong>SuperTuxKart Object Properties</strong> panel.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>When placing start positions (you should have several of them—at least four), make sure they are fairly distributed. Start positions shouldn’t give advantages to one team in soccer mode or one player in battle mode.</p>
+  </div>
+</div>
+
+<h2 id="special-considerations-for-soccer-mode">Special Considerations for Soccer Mode</h2>
+
+<h3 id="properties">Properties</h3>
+
+<p>In order to export a soccer field, you must first check the <strong>Is a soccer field</strong> box in the <strong>SuperTuxKart Scene Properties</strong> panel.</p>
+
+<h3 id="goals">Goals</h3>
+
+<p>Every soccer field needs two goals into which players will attempt to hit the ball. The physical goal is probably not hard for you to model, but for SuperTuxKart to detect a soccer ball crossing a goal you need two goal lines. Just like checklines, these are simply two points connected by a line, but unlike checklines, they must be set the <strong>Goal line</strong> type in the <strong>SuperTuxKart Object Properties</strong> panel.</p>
+
+<p>Selecting this will also present another option: <strong>First goal</strong>. SuperTuxKart uses this option to determine which team gets the point for scoring. Simply check this box on <u>one</u> of the goal lines.</p>
+
+<h3 id="the-soccer-ball">The Soccer Ball</h3>
+
+<p>The soccer ball should be a sphere ~1.8 Blender units in diameter (icospheres are a good choice for their uniformity all-around, unlike UV spheres) and should be placed in the space above the center of the soccer field. (It will be reset to that position and drop down after each goal.) Set the type to <strong>Object</strong> in the <strong>SuperTuxKart Object Properties</strong> panel, and set the following properties:</p>
+
+<ul>
+  <li><strong>Interaction</strong> should be set to <strong>Movable by player</strong>. This creates two more options:
+    <ul>
+      <li><strong>Mass</strong> should be set to something around 20 kg. This is obviously not realistic, but will produce the best results.</li>
+      <li><strong>Shape</strong> should be set to <strong>Sphere</strong>, unless you intend to use another shape with special custom XML to reduce friction (see below).</li>
+    </ul>
+  </li>
+  <li><strong>Is soccer ball</strong> should be selected.</li>
+</ul>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>To achieve better physics with the soccer ball, the <strong>Custom XML</strong> property is sometimes set for the soccer ball object in the <strong>SuperTuxKart Object Properties</strong> panel. This can be used for a variety of purposes. For example, the generic soccer field (soon to be replaced) sets this property to <code class="language-plaintext highlighter-rouge">restitution="0.4"</code> to reduce the “bounciness” of the soccer ball. Icy Soccer Field uses this property to allow for a cylindrical hockey puck instead of a sphere. If you wish to use this property, ask the developers for more information.</p>
+  </div>
+</div>
+
+<ul id="art_portal_nav">
+    <li class="art_portal_nav_item" id="special_return_to_art_portal">
+    <a href="/Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="art_portal_nav_text">
+        <a href="/Community"><span class="translate">Return to Get Involved</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Library_Nodes"><span class="translate">Making Library Nodes</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Karts"><span class="translate">Making Karts</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Tracks"><span class="translate">Making Tracks</span></a>
+    </span>
+    </li>
+</ul>
+
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

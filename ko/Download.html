@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="ko" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>다운로드 - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="다운로드">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="..:: Download from GitHub ::.. Linux Full game (.tar.xz) Intel / AMD 32-bit">
+<meta property="og:locale" content="ko">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+.download-opening-bracket:before {
+    float: right;
+    content: '[';
+}
+
+.download-closing-bracket:before {
+    float: right;
+    content: ']';
+}
+
+.download-left {
+    width: 90%;
+}
+
+.download-right {
+    width: 10%;
+    min-width: 50px;
+    align-self: center;
+}
+
+.download-toggle {
+    float: right;
+    cursor: pointer;
+    color: #2d9f00;
+}
+
+.download-container {
+    margin-bottom: 10px;
+    margin-right: 20%;
+}
+
+.download-title {
+    margin-right: 10%;
+    color: #414141;
+    font-size: 30px;
+    padding: 0px;
+}
+
+.download-button a {
+    color: #414141;
+}
+
+.download-button span{
+    display: inline-block;
+    width: 100%;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.download-button {
+    background-color: #7ec283;
+    border-style: none;
+    text-align: left;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.download-button:hover {
+    background-color: white;
+}
+
+input[id="linux-download-callback"] {
+    float: right;
+    display: none;
+}
+
+input[id="linux-download-callback"] + .download-toggle:after { content: attr(data-show-text); }
+input[id="linux-download-callback"]:checked + .download-toggle:after { content: attr(data-hide-text); }
+input[id="linux-download-callback"]:checked + .download-toggle + span + div > .download-content {
+    padding: 5px;
+    padding-left: 20px;
+    margin: 20px;
+    font-size: 1rem;
+    opacity: 1.0;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+input[id="linux-download-callback"]:checked + .download-toggle + span + div > .download-content:hover {
+    background-color: #9ccbd8;
+}
+
+input[id="windows-download-callback"] {
+    float: right;
+    display: none;
+}
+
+input[id="windows-download-callback"] + .download-toggle:after { content: attr(data-show-text); }
+input[id="windows-download-callback"]:checked + .download-toggle:after { content: attr(data-hide-text); }
+input[id="windows-download-callback"]:checked + .download-toggle + span + div > .download-content {
+    padding: 5px;
+    padding-left: 20px;
+    margin: 20px;
+    font-size: 1rem;
+    opacity: 1.0;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+input[id="windows-download-callback"]:checked + .download-toggle + span + div > .download-content:hover {
+    background-color: #9ccbd8;
+}
+
+input[id="apple-download-callback"] {
+    float: right;
+    display: none;
+}
+
+input[id="apple-download-callback"] + .download-toggle:after { content: attr(data-show-text); }
+input[id="apple-download-callback"]:checked + .download-toggle:after { content: attr(data-hide-text); }
+input[id="apple-download-callback"]:checked + .download-toggle + span + div > .download-content {
+    padding: 5px;
+    padding-left: 20px;
+    margin: 20px;
+    font-size: 1rem;
+    opacity: 1.0;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+input[id="apple-download-callback"]:checked + .download-toggle + span + div > .download-content:hover {
+    background-color: #9ccbd8;
+}
+
+input[id="android-download-callback"] {
+    float: right;
+    display: none;
+}
+
+input[id="android-download-callback"] + .download-toggle:after { content: attr(data-show-text); }
+input[id="android-download-callback"]:checked + .download-toggle:after { content: attr(data-hide-text); }
+input[id="android-download-callback"]:checked + .download-toggle + span + div > .download-content {
+    padding: 5px;
+    padding-left: 20px;
+    margin: 20px;
+    font-size: 1rem;
+    opacity: 1.0;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+input[id="android-download-callback"]:checked + .download-toggle + span + div > .download-content:hover {
+    background-color: #9ccbd8;
+}
+
+input[id="switch-download-callback"] {
+    float: right;
+    display: none;
+}
+
+input[id="switch-download-callback"] + .download-toggle:after { content: attr(data-show-text); }
+input[id="switch-download-callback"]:checked + .download-toggle:after { content: attr(data-hide-text); }
+input[id="switch-download-callback"]:checked + .download-toggle + span + div > .download-content {
+    padding: 5px;
+    padding-left: 20px;
+    margin: 20px;
+    font-size: 1rem;
+    opacity: 1.0;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+input[id="switch-download-callback"]:checked + .download-toggle + span + div > .download-content:hover {
+    background-color: #9ccbd8;
+}
+
+input[id="source-download-callback"] {
+    float: right;
+    display: none;
+}
+
+input[id="source-download-callback"] + .download-toggle:after { content: attr(data-show-text); }
+input[id="source-download-callback"]:checked + .download-toggle:after { content: attr(data-hide-text); }
+input[id="source-download-callback"]:checked + .download-toggle + span + div > .download-content {
+    padding: 5px;
+    padding-left: 20px;
+    margin: 20px;
+    font-size: 1rem;
+    opacity: 1.0;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+input[id="source-download-callback"]:checked + .download-toggle + span + div > .download-content:hover {
+    background-color: #9ccbd8;
+}
+
+.download-content {
+    background-color: #83bece;
+    display: flex;
+    flex-direction: row;
+
+    margin: 0px;
+    font-size: 0;
+    opacity: 0;
+    transition: 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.download-content:hover {
+    background-color: #9ccbd8;
+}
+
+iframe {
+    min-height: initial !important;
+    max-height: 167px !important;
+    max-width: 552px !important;
+    min-width: initial !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 7px !important;
+}
+
+#iframeframe {
+    height: 167px !important;
+    margin-bottom: 14px !important;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/ko/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/ko/Download'><span class="translate">다운로드</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/ko/Community'><span class="translate">참여하기</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">기부</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">언어</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Download'>български</a></li><li id="language-selector-ca"><a href='/ca/Download'>Català</a></li><li id="language-selector-cs"><a href='/cs/Download'>Čeština</a></li><li id="language-selector-da"><a href='/da/Download'>Dansk</a></li><li id="language-selector-de"><a href='/de/Download'>Deutsch</a></li><li id="language-selector-en"><a href='/Download'>English</a></li><li id="language-selector-es"><a href='/es/Download'>Español</a></li><li id="language-selector-et"><a href='/et/Download'>Eesti keel</a></li><li id="language-selector-eu"><a href='/eu/Download'>Euskara</a></li><li id="language-selector-fi"><a href='/fi/Download'>Suomi</a></li><li id="language-selector-fil"><a href='/fil/Download'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/Download'>Français</a></li><li id="language-selector-gl"><a href='/gl/Download'>Galego</a></li><li id="language-selector-it"><a href='/it/Download'>Italiano</a></li><li id="language-selector-ko"><a href='/ko/Download'>한국어</a></li><li id="language-selector-nl"><a href='/nl/Download'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Download'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Download'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Download'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Download'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Download'>Slovenščina</a></li><li id="language-selector-sr"><a href='/sr/Download'>Српски</a></li><li id="language-selector-tr"><a href='/tr/Download'>Türkçe</a></li><li id="language-selector-uk"><a href='/uk/Download'>Українська</a></li><li id="language-selector-zh_CN"><a href='/zh_CN/Download'>中文（简体）</a></li><li id="language-selector-zh_TW"><a href='/zh_TW/Download'>中文（繁體）</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">관리</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">새 페이지</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Download.md'><span class="translate">페이지 편집</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Download.md'><span class="translate">페이지 기록</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/ko/Main_Page' title="매인 페이지 방문">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper">
+<article>
+<ul id="results-container"></ul><br/><!-- ko -->
+<h2 id="-download-from-github-" class="article_main_title">..:: Download from GitHub ::..</h2>
+<div>
+<span class="download-closing-bracket"></span><input type="checkbox" id="linux-download-callback" /><label class="download-toggle" data-show-text="Show" data-hide-text="Hide" for="linux-download-callback"></label><span class="download-opening-bracket"></span>
+<div class="download-container">
+<div class="download-button download-title">
+<a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-linux-x86_64.tar.xz"><strong><span><i class="fab fa-linux fa-fw"></i> Linux</span></strong></a>
+</div>
+<div class="download-content">
+<div class="download-left">
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-linux-x86.tar.xz"><strong>Full game</strong> (.tar.xz) Intel / AMD 32-bit</a></p>
+
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-linux-x86_64.tar.xz"><strong>Full game</strong> (.tar.xz) Intel / AMD 64-bit</a></p>
+
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-linux-armv7.tar.xz"><strong>Full game</strong> (.tar.xz) ARM 32-bit</a></p>
+
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-linux-arm64.tar.xz"><strong>Full game</strong> (.tar.xz) ARM 64-bit</a></p>
+
+        <p>Extract and run <strong>run_game.sh</strong> inside the folder.</p>
+      </div>
+<div class="download-right">
+<i class="fa fa-download fa-fw fa-2x"></i>
+</div>
+</div>
+</div>
+</div>
+<div>
+<span class="download-closing-bracket"></span><input type="checkbox" id="windows-download-callback" /><label class="download-toggle" data-show-text="Show" data-hide-text="Hide" for="windows-download-callback"></label><span class="download-opening-bracket"></span>
+<div class="download-container">
+<div class="download-button download-title">
+<a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-installer-x86_64.exe"><strong><span><i class="fab fa-windows fa-fw"></i> Windows</span></strong></a>
+</div>
+<div class="download-content">
+<div class="download-left">
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-installer-i686.exe"><strong>Full game</strong> (.exe) Intel / AMD 32-bit</a></p>
+
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-installer-x86_64.exe"><strong>Full game</strong> (.exe) Intel / AMD 64-bit</a></p>
+
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-installer-aarch64.exe"><strong>Full game</strong> (.exe) ARM 64-bit</a></p>
+
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-win.zip"><strong>Installer-less archive</strong> (.zip) all architectures</a></p>
+      </div>
+<div class="download-right">
+<i class="fa fa-download fa-fw fa-2x"></i>
+</div>
+</div>
+</div>
+</div>
+<div>
+<span class="download-closing-bracket"></span><input type="checkbox" id="apple-download-callback" /><label class="download-toggle" data-show-text="Show" data-hide-text="Hide" for="apple-download-callback"></label><span class="download-opening-bracket"></span>
+<div class="download-container">
+<div class="download-button download-title">
+<a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-mac.zip"><strong><span><i class="fab fa-apple fa-fw"></i> macOS</span></strong></a>
+</div>
+<div class="download-content">
+<div class="download-left">
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-mac.zip"><strong>Full game</strong> (.zip) all architectures</a></p>
+      </div>
+<div class="download-right">
+<i class="fa fa-download fa-fw fa-2x"></i>
+</div>
+</div>
+</div>
+</div>
+<div>
+<span class="download-closing-bracket"></span><input type="checkbox" id="android-download-callback" /><label class="download-toggle" data-show-text="Show" data-hide-text="Hide" for="android-download-callback"></label><span class="download-opening-bracket"></span>
+<div class="download-container">
+<div class="download-button download-title">
+<a href="https://play.google.com/store/apps/details?id=org.supertuxkart.stk"><strong><span><i class="fab fa-android fa-fw"></i> Android</span></strong></a>
+</div>
+<div class="download-content">
+<div class="download-left">
+        <p><a href="https://play.google.com/store/apps/details?id=org.supertuxkart.stk"><strong>Get on Google Play Store</strong></a></p>
+
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4.apk"><strong>Get the APK</strong> (all architectures)</a></p>
+      </div>
+<div class="download-right">
+<i class="fa fa-download fa-fw fa-2x"></i>
+</div>
+</div>
+</div>
+</div>
+<div>
+<span class="download-closing-bracket"></span><input type="checkbox" id="switch-download-callback" /><label class="download-toggle" data-show-text="Show" data-hide-text="Hide" for="switch-download-callback"></label><span class="download-opening-bracket"></span>
+<div class="download-container">
+<div class="download-button download-title">
+<a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-switch.zip"><strong><span><i class="fas fa-gamepad fa-fw"></i> Switch Homebrew</span></strong></a>
+</div>
+<div class="download-content">
+<div class="download-left">
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-switch.zip"><strong>Full game</strong> (.zip)</a></p>
+
+        <p>Unzip the archive to microSD root to install.</p>
+      </div>
+<div class="download-right">
+<i class="fa fa-download fa-fw fa-2x"></i>
+</div>
+</div>
+</div>
+</div>
+<div>
+<span class="download-closing-bracket"></span><input type="checkbox" id="source-download-callback" /><label class="download-toggle" data-show-text="Show" data-hide-text="Hide" for="source-download-callback"></label><span class="download-opening-bracket"></span>
+<div class="download-container">
+<div class="download-button download-title">
+<a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-src.tar.xz"><strong><span><i class="fas fa-code fa-fw"></i> Source Code</span></strong></a>
+</div>
+<div class="download-content">
+<div class="download-left">
+        <p><a href="https://github.com/supertuxkart/stk-code/releases/download/1.4/SuperTuxKart-1.4-src.tar.xz"><strong>Full game</strong> (.tar.xz)</a></p>
+
+        <p>To get the very latest code, see the page <a href="/Source_control">Source control</a>.</p>
+      </div>
+<div class="download-right">
+<i class="fa fa-download fa-fw fa-2x"></i>
+</div>
+</div>
+</div>
+</div>
+<p>Preview release is available <a href="https://github.com/supertuxkart/stk-code/releases/preview">here</a>.</p>
+
+<h2 id="-get-supertuxkart-on-itchio-" class="article_main_title">..:: Get SuperTuxKart on Itch.io ::..</h2>
+
+<div class="download-content" style="font-size: 1rem; opacity: 1.0;">
+<div class="download-left" style="text-align: center;"><div id="iframeframe"><iframe src="https://itch.io/embed/83502" style="height:100%;width:100%;border:0"></iframe></div>
+</div>
+<div class="download-right">
+<i class="fa fa-download fa-fw fa-2x"></i>
+</div>
+</div>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">커뮤니티</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/ko/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">문서</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/ko/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

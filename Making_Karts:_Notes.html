@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Making Karts: Notes - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Making Karts: Notes">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Contents Scaling Polycount Guidelines Kart-specific Style Guidelines Character Design Kart Design Add-Ons vs Main Scaling At most, karts should be 1 Blender unit wide and 1.5 Blender units long. But really, it’s better to go for something slightly smaller. Also never scale in Blender’s object mode—this will cause problems.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+/* Add Page_Name.css with Page_Name.md */
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Making_Karts:_Notes'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Making_Karts:_Notes.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Making_Karts:_Notes.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Making Karts: Notes</h1>
+<article>
+<ul id="results-container"></ul><h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#scaling" id="markdown-toc-scaling">Scaling</a></li>
+  <li><a href="#polycount-guidelines" id="markdown-toc-polycount-guidelines">Polycount Guidelines</a></li>
+  <li><a href="#kart-specific-style-guidelines" id="markdown-toc-kart-specific-style-guidelines">Kart-specific Style Guidelines</a>    <ul>
+      <li><a href="#character-design" id="markdown-toc-character-design">Character Design</a></li>
+      <li><a href="#kart-design" id="markdown-toc-kart-design">Kart Design</a></li>
+    </ul>
+  </li>
+  <li><a href="#add-ons-vs-main" id="markdown-toc-add-ons-vs-main">Add-Ons vs Main</a></li>
+</ul>
+<h2 id="scaling">Scaling</h2>
+
+<p>At most, karts should be 1 Blender unit wide and 1.5 Blender units long. But really, it’s better to go for something slightly smaller. Also never scale in Blender’s object mode—this will cause problems.</p>
+
+<h2 id="polycount-guidelines">Polycount Guidelines</h2>
+
+<p>Since karts are seen up-close a lot, we need to make sure they’re detailed and nice to look at. So our polycount requirements have been increased significantly since SuperTuxKart 0.8.1.</p>
+
+<ul>
+  <li>Average number of tris for a kart is approximately 11000 or 12000.</li>
+  <li>Absolute maximum number of tris should be ~15000.</li>
+</ul>
+
+<h2 id="kart-specific-style-guidelines">Kart-specific Style Guidelines</h2>
+
+<p><em>This info is specific to karts, so it’s not on the more general <a href="/Style">Style</a> page.</em></p>
+
+<h3 id="character-design">Character Design</h3>
+
+<p>Remember that SuperTuxKart is a game for kids. Good characters like Tux, Beastie, Adiumy, etc. are smiling and happy, while evil characters like Nolok are mean and nasty looking. Try not to break the theme of Story Mode too much, though that’s not extremely important. Try to avoid suggestive character themes.</p>
+
+<h3 id="kart-design">Kart Design</h3>
+
+<p>Unlike Mario Kart, SuperTuxKart doesn’t support sharing karts between different characters, so there’s no need to meet a lowest common denominator. Generic plastic-looking karts are rather dull unless it’s something iconic like Tux’s kart (which has been in the game with more or less the same design since the first release of SuperTuxKart), so go ahead and make a kart you think fits your character. Wilber’s kart, for example, is a tube of paint because he’s the GIMP mascot. Puffy’s kart is a moving aquarium since he’s a blowfish.</p>
+
+<p>However, don’t go overboard. We can’t have karts that are disproportionately grandiose compared to regular karts (in the core game, that is. Most karts are fine in Add-Ons).</p>
+
+<h2 id="add-ons-vs-main">Add-Ons vs Main</h2>
+
+<p>It’s possible that your kart will be accepted into the main SuperTuxKart game; however this grows increasingly unlikely as we run out of old characters that need replacement. Please don’t be too disappointed if your first kart isn’t accepted into the core game—you can always distribute it on <a href="https://online.supertuxkart.net">online.supertuxkart.net</a>.</p>
+
+<ul id="art_portal_nav">
+    <li class="art_portal_nav_item" id="special_return_to_art_portal">
+    <a href="/Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="art_portal_nav_text">
+        <a href="/Community"><span class="translate">Return to Get Involved</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Library_Nodes"><span class="translate">Making Library Nodes</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Karts"><span class="translate">Making Karts</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Tracks"><span class="translate">Making Tracks</span></a>
+    </span>
+    </li>
+</ul>
+
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="nl" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Richtlijnen omtrent 3D-modellen - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Richtlijnen omtrent 3D-modellen">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Het is belanglijk om een consistente objectstijl aan te houden in SuperTuxKart. Deze pagina is dan ook vergelijkbaar met die van de textuurrichtlijnen.">
+<meta property="og:locale" content="nl">
+<meta property="og:image" content="/generated/assets/wiki/STK_tutorial_barrier_1-800-00e8f0b46.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_0_250px {
+    padding: 3px;
+    width: auto;
+    height: 250px;
+}
+
+.packed_0_250px img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/nl/Discover'><span class="translate">Ontdekken</span></a></li>
+            <li><a href='/nl/Download'><span class="translate">Downloaden</span></a></li>
+            <li><a href='/nl/FAQ'><span class="translate">Veelgestelde vragen</span></a></li>
+            <li><a href='/nl/Community'><span class="translate">Help mee</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/nl/Donate'><span class="translate">Doneren</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Hulpmiddelen</span></p>
+        <div class="toolbox-section"><p><span class="translate">Taal</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/3D_Model_Guidelines'>български</a></li><li id="language-selector-ca"><a href='/ca/3D_Model_Guidelines'>Català</a></li><li id="language-selector-da"><a href='/da/3D_Model_Guidelines'>Dansk</a></li><li id="language-selector-de"><a href='/de/3D_Model_Guidelines'>Deutsch</a></li><li id="language-selector-en"><a href='/3D_Model_Guidelines'>English</a></li><li id="language-selector-es"><a href='/es/3D_Model_Guidelines'>Español</a></li><li id="language-selector-fil"><a href='/fil/3D_Model_Guidelines'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/3D_Model_Guidelines'>Français</a></li><li id="language-selector-gl"><a href='/gl/3D_Model_Guidelines'>Galego</a></li><li id="language-selector-ko"><a href='/ko/3D_Model_Guidelines'>한국어</a></li><li id="language-selector-nl"><a href='/nl/3D_Model_Guidelines'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/3D_Model_Guidelines'>Polski</a></li><li id="language-selector-pt"><a href='/pt/3D_Model_Guidelines'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/3D_Model_Guidelines'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/3D_Model_Guidelines'>Русский</a></li><li id="language-selector-sl"><a href='/sl/3D_Model_Guidelines'>Slovenščina</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Beheer</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">Nieuwe pagina</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_translations/nl/3D_Model_Guidelines.md'><span class="translate">Pagina bewerken</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_translations/nl/3D_Model_Guidelines.md'><span class="translate">Paginageschiedenis</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/nl/Main_Page' title="Ga naar de hoofdpagina">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Richtlijnen omtrent 3D-modellen</h1>
+<article>
+<ul id="results-container"></ul><p>Het is belanglijk om een consistente objectstijl aan te houden in SuperTuxKart. Deze pagina is dan ook vergelijkbaar met die van de <a href="/nl/Texture_Guidelines">textuurrichtlijnen</a>.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Inhoud</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Tonen" data-hide-text="Verbergen" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#stijl" id="markdown-toc-stijl">Stijl</a></li>
+  <li><a href="#regels" id="markdown-toc-regels">Regels</a></li>
+  <li><a href="#aantal-polygonen" id="markdown-toc-aantal-polygonen">Aantal polygonen</a>    <ul>
+      <li><a href="#een-stukje-geschiedenis" id="markdown-toc-een-stukje-geschiedenis">Een stukje geschiedenis</a></li>
+      <li><a href="#polygoonberekening" id="markdown-toc-polygoonberekening">Polygoonberekening</a></li>
+      <li><a href="#polygoontellingsvoorbeelden" id="markdown-toc-polygoontellingsvoorbeelden">Polygoontellingsvoorbeelden</a></li>
+      <li><a href="#objecten-markeren-als-hoog-aantal-polygonen" id="markdown-toc-objecten-markeren-als-hoog-aantal-polygonen">Objecten markeren als hoog aantal polygonen</a></li>
+    </ul>
+  </li>
+  <li><a href="#afmetingen" id="markdown-toc-afmetingen">Afmetingen</a></li>
+</ul>
+<h2 id="stijl">Stijl</h2>
+
+<p>Objecten in SuperTuxKart dienen realistisch te zijn, zowel in omvang als vorm. Objecten hoeven echter niet zo gedetailleerd te zijn als in werkelijkheid. Neem bijvoorbeeld een palmboom:</p>
+
+<div class="gallery-container">
+<div class="packed_0_250px"><a href="/assets/wiki/RealPalmTree.jpg"><img style="max-height: calc(100% - 1em - 10px);" src="/generated/assets/wiki/RealPalmTree-781-84930e32b.jpg" alt="RealPalmTree" srcset="/generated/assets/wiki/RealPalmTree-400-84930e32b.jpg 400w, /generated/assets/wiki/RealPalmTree-781-84930e32b.jpg 781w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Echte palmboom</p>
+</div>
+<div class="packed_0_250px"><a href="/assets/wiki/STK0.8.1_1.jpg"><img style="max-height: calc(100% - 1em - 10px);" src="/generated/assets/wiki/STK0.8.1_1-800-d57f09a40.jpg" alt="STK0.8.1_1" srcset="/generated/assets/wiki/STK0.8.1_1-400-d57f09a40.jpg 400w, /generated/assets/wiki/STK0.8.1_1-800-d57f09a40.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Striptekeningachtige palmboom</p>
+</div>
+<div class="packed_0_250px"><a href="/assets/wiki/STK0.9_7.jpg"><img style="max-height: calc(100% - 1em - 10px);" src="/generated/assets/wiki/STK0.9_7-800-6289e627a.jpg" alt="STK0.9_7" srcset="/generated/assets/wiki/STK0.9_7-400-6289e627a.jpg 400w, /generated/assets/wiki/STK0.9_7-800-6289e627a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Realistisch doch vereenvoudigd model</p>
+</div>
+</div>
+
+<p>Zoals je kunt zien is komt het nieuwe palmboommodel véél dichter in de buurt van een echte - het enige wat er nog ontbreekt zijn de details. Om een lang verhaal kort te maken: <u>probeer zoveel mogelijk algemeen realisme te verwerken, maar zorg er ook voor dat het er stripverhaalachtig uitziet door teveel details of texturen toe te voegen.</u></p>
+
+<p>Voorbeeld: je wilt een betonnen barrière maken. Iedereen weet wel hoe zo’n ding eruitziet. Dus open je Blender en doet het volgende:</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/STK_tutorial_barrier_1.jpg"><img src="/generated/assets/wiki/STK_tutorial_barrier_1-800-00e8f0b46.jpg" alt="STK_tutorial_barrier_1" srcset="/generated/assets/wiki/STK_tutorial_barrier_1-400-00e8f0b46.jpg 400w, /generated/assets/wiki/STK_tutorial_barrier_1-800-00e8f0b46.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<p>Het probleem is dat er teveel details ontbreken en het object er te eenvoudig uitziet. Als je al je objecten er zo uit laat zien, dan is het eindresultaat niet mooi. Maak dus foto’s (of zoek ze op), teken, denk na over je ideeën, etc. Het voelt misschien niet helemaal alsof je het vanaf nul hebt gemaakt, maar wij raden aan om het zo te doen. Het doel is om de juiste inspiratie te krijgen. Op een foto als <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/BarreiraNewJersey.JPG/1280px-BarreiraNewJersey.JPG">deze</a> kun je alle details goed zien en het object nabootsen.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/STK_tutorial_barrier_2.jpg"><img src="/generated/assets/wiki/STK_tutorial_barrier_2-800-e09042534.jpg" alt="STK_tutorial_barrier_2" srcset="/generated/assets/wiki/STK_tutorial_barrier_2-400-e09042534.jpg 400w, /generated/assets/wiki/STK_tutorial_barrier_2-800-e09042534.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<p>Zie je het verschil? De barrière ziet er mooi uit en is voorzien van veel details, zoals de bedrading, waarschuwingsstreep, etc. Hij is niet foto-realistisch, maar het is tenminste een object dat er interessant uitziet. (Bovendien is volledig realisme niet het doel.)</p>
+
+<h2 id="regels">Regels</h2>
+
+<ul>
+  <li>Alle modellen <strong>MOETEN</strong> kindvriendelijk zijn. SuperTuxKart voldoet aan de ‘Everyone’-<a href="https://nl.wikipedia.org/wiki/Entertainment_Software_Rating_Board#Pictogrammen">beoordeling</a>.</li>
+  <li>Modellen moeten er goed uitzien bij zowel solo- als groepswedstrijden.</li>
+  <li>Objecten met veel polygonen dienen voorzien te zijn van <a href="/Level_of_Detail">Detailniveaus</a>.</li>
+  <li>Objecten dienen bruikbaar te zijn in veel verschillende omgevingen, tenzij het écht bij een specifiek parcours hoort.
+    <ul>
+      <li>Plaats geen gras of andere begroeiing rond je objecten, tenzij je object een vorm van begroeiing is.</li>
+      <li>Personages dienen reguliere kleding aan te hebben, tenzij een andere vorm beter past, bijvoorbeeld op het strand.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="aantal-polygonen">Aantal polygonen</h2>
+
+<p>Dit betreft het aantal oppervlakken of gezichten van 3D-objecten. Oudere Blender-versies ondersteunen alleen objecten die gemaakt zijn als ‘quads’ (polygonen bestaande uit vier punten) of ‘tris’ (polygonen bestaande uit drie punten). ‘Polygoon’ betekende toen gewoon ‘een aantal quads’. Nu ondersteunt Blender echter n-gonen of polygonen met een ongelimiteerd aantal punten. Het aantal tris blijft dus voortaan hetzelfde (een driehoek blijft een driehoek!), wat accurater is dat een polygoon. Bij deze richtlijnen is tris dan ook leidend.</p>
+
+<h3 id="een-stukje-geschiedenis">Een stukje geschiedenis</h3>
+
+<p>Vroeger was het in games onmogelijk om de belichting van alle pixels nauwkeurig te berekenen. Alles werd dan ook per polygoon berekend en vervolgens omgezet naar pixels binnen het polygoon.</p>
+
+<p>Tegenwoordig kunnen aandrijvingen echter wél gebruikmaken van belichting per pixel. Het complexe deel is dan ook niet de knooppunt‘shader’, maar de pixel‘shader’. Voorbeeld: een object bevat ~500 polygonen. De gpu kan dit als knooppunt verwerken in ~10 instructies (indicatie). Dat is dus ~10 instructies per polygoon, ofwel 500 × 10 = 5000 instructies per geheel.</p>
+
+<p>Dan nu het pixelgedeelte. Dit gedeelte is afhankelijk van het aantal pixels per object, maar laten we even uitgaan van het onwaarschijnlijkste scenario, een scherm dat geheel en al gevuld is met een object. Elke pixel (belichting, gloeiing, rest van het parcours, etc.) kost de gpu ~50 instructies.</p>
+
+<p>Als je een resolutie van 800 × 600 hebt (de meeste mensen hebben een hogere resolutie), dan is dat 800 × 600 × 50 = 24.000.000 instructies. Dus zelfs als je het dubbele aantal oppervlakken toevoegt, dan nog heeft dat weinig invloed op de rekenkracht omdat de berekening per pixel is en niet per oppervlak.</p>
+
+<p>Het aantal polygonen kan dus naar eigen inzicht verhoogd worden, maar houd wel enige controle.</p>
+
+<h3 id="polygoonberekening">Polygoonberekening</h3>
+
+<p>Blender toont het aantal polygonen op de statusbalk. Zie onderstaande schermfoto als dit niet het geval is om de functie <strong>Scènestatistieken</strong> in te schakelen.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Blender_screenshot_tris.jpg"><img src="/assets/wiki/Blender_screenshot_tris.jpg" alt="Blender_screenshot_tris" /></a></div>
+</div>
+
+<p>Zoek het aantal <strong>tris</strong> - deze informatie heb je nodig. Onthoud ook het aantal tris van de gehele scène in de objectmodus.</p>
+
+<h3 id="polygoontellingsvoorbeelden">Polygoontellingsvoorbeelden</h3>
+
+<ul>
+  <li>Een vrachtvliegtuig: ~4000 tris</li>
+  <li>Een palmboom voorzien van detailniveaus
+    <ul>
+      <li>Hoog: 843 tris</li>
+      <li>Gemiddeld: 465 tris</li>
+      <li>Laag: 42 tris</li>
+    </ul>
+  </li>
+  <li>Een basale plant: 32 tris</li>
+  <li>Een halfhoge boom: 1380 tris</li>
+  <li>Een pompoen: 470 tris</li>
+</ul>
+
+<h3 id="objecten-markeren-als-hoog-aantal-polygonen">Objecten markeren als hoog aantal polygonen</h3>
+
+<p>Het is mogelijk om bij objecten op te merken dat een krachtiger computer vereist is. Open hiervoor een STK-scène in Blender, kies het te markeren object en schakel <strong>Geometriedetails</strong> in op het <strong>SuperTuxKart-objecteigenschappen</strong>paneel. Je kunt de <strong>zichtbaarheid</strong> instellen op elk van de beschikbare opties om het minimum grafische-effectenniveau te bepalen waarop je object zichtbaar dient te zijn.</p>
+
+<h2 id="afmetingen">Afmetingen</h2>
+
+<p>Objecten dienen een goede proportie te hebben zodat ze er niet vreemd uitzien.</p>
+
+<ul>
+  <li>Een palmboom is ongeveer 27 Blender-eenheden hoog.</li>
+  <li>De houten gebouwen in het Noordelijk verblijf zijn ongeveer 8 Blender-eenheden hoog.</li>
+  <li>De lampionvlaggen in Candela-Stad zijn ongeveer 10 Blender-eenheden hoog.</li>
+</ul>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Gemeenschap</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Uitbreidingen</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Galerij</span></a></li>
+        <li><a href='/nl/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Ontwikkeling</span></p>
+    <ul>
+        <li><a href='/nl/Community'><span class="translate">Mods</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentatie</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Over ons</span></p>
+    <ul>
+        <li><a href='/nl/FAQ'><span class="translate">Veelgestelde vragen</span></a></li>
+        <li><a href='/Team'><span class="translate">Over het team</span></a></li>
+        <li><a href='/nl/Discover'><span class="translate">Over SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projecten die gebruikmaken van SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

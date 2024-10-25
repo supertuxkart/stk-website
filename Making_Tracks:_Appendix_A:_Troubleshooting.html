@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Making Tracks: Appendix A: Troubleshooting - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Making Tracks: Appendix A: Troubleshooting">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="While the track-making process is usually fairly straightforward and the exporters usually work fine, problems can appear. If you can’t find anything helpful on this page, feel free to look for your problem or ask for help on the forum. Be sure to read the Communication page too, if you are posting on the forum.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/wiki/Display_normals.jpg"/>
+<style>
+/* Special handling for showing / hiding images inside qa tag */
+.qa-question + .qa-answer > * > img {
+width: 0px;
+}
+
+input[id^="qa"]:checked + .qa-question + .qa-answer > * > img {
+width: 100%;
+}
+
+input[id="qa0-callback"] {
+    display: none;
+}
+
+input[id="qa0-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa1-callback"] {
+    display: none;
+}
+
+input[id="qa1-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa2-callback"] {
+    display: none;
+}
+
+input[id="qa2-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa3-callback"] {
+    display: none;
+}
+
+input[id="qa3-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa4-callback"] {
+    display: none;
+}
+
+input[id="qa4-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa5-callback"] {
+    display: none;
+}
+
+input[id="qa5-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Making_Tracks:_Appendix_A:_Troubleshooting'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Making_Tracks:_Appendix_A:_Troubleshooting.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Making_Tracks:_Appendix_A:_Troubleshooting.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Making Tracks: Appendix A: Troubleshooting</h1>
+<article>
+<ul id="results-container"></ul><p>While the track-making process is usually fairly straightforward and the exporters usually work fine, problems can appear. If you can’t find anything helpful on this page, feel free to look for your problem or ask for help on the <a href="https://forum.freegamedev.net/viewforum.php?f=16">forum</a>. Be sure to read the <a href="/Communication">Communication</a> page too, if you are posting on the forum.</p>
+
+<div>
+<input type="checkbox" id="qa0-callback" /><label class="qa-question" for="qa0-callback">My AI karts drive off the road!</label>
+<div class="qa-answer">
+    <p>There could be many reasons for this:</p>
+
+    <ul>
+      <li>Your driveline is misplaced.</li>
+      <li>Your driveline has a break in it.</li>
+      <li>Your road makes too sharp of a turn.</li>
+      <li>Your road is too narrow.</li>
+    </ul>
+
+    <p>Try to correct any of the issues that apply, and see if that helps.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa1-callback" /><label class="qa-question" for="qa1-callback">AI karts get rescued randomly or when launched by a zipper</label>
+<div class="qa-answer">
+    <p>To decide whether to rescue a kart, SuperTuxKart performs raycasts to decide whether a kart is on a surface or not. When a kart is launched by a zipper without any surface underneath, STK will detect that that the kart is off the track and needs to be rescued. To avoid this, create a low-poly surface below the main driving surface or launch trajectory so that STK does not detect a false-positive need for rescue. Texture the surface with a transparent texture or set it as Physics only. See <a href="/Physics#kart-object-interaction">Physics#kart-object-interaction</a> for more information.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa2-callback" /><label class="qa-question" for="qa2-callback">Transparent or translucent decorations don't appear correctly in-game!</label>
+<div class="qa-answer">
+    <p>Most likely this is a sorting issue. Try exporting transparent parts as separate objects (“Object” in SuperTuxKart Object Properties panel in Blender). If your transparent section includes part of the main drivable area, be sure the check the “Drivable” box in the SuperTuxKart Object Properties panel. Also, ensure that “Disable writing to Z-buffer” is checked for any transparent or partially transparent textures in the SuperTuxKart Image Properties panel.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa3-callback" /><label class="qa-question" for="qa3-callback">Transparent objects display weirdly in Blender!</label>
+<div class="qa-answer">
+    <p>This is for the same reason discussed in the question above: sorting issues, and is a known issue with Blender. Unfortunately, we can’t change this. Try checking the “X-Ray” box under “Display” in the “Object” section of the Blender Properties window for your transparent objects. It’s not a golden hammer, but it might help somewhat.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa4-callback" /><label class="qa-question" for="qa4-callback">My kart slides around and I can't steer/accelerate properly!</label>
+<div class="qa-answer">
+    <p>This is most likely a result of normals smoothing. Disable normals smoothing in the SuperTuxKart Scene Properties panel.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa5-callback" /><label class="qa-question" for="qa5-callback">My kart flys up in the air when I try to play my track!</label>
+<div class="qa-answer">
+    <p>Most likely your track is too narrow or you have too many karts per row at a starting line. When <a href="/Artist_Debug_Mode">Artist Debug Mode</a> is enabled, if you are placed in the air you’ll start flying; if Artist Debug Mode is not enabled, the game will crash. There are three ways to fix this problem:</p>
+
+    <ul>
+      <li>Make the track wider at the starting line.</li>
+      <li>Reduce the <strong>Karts per row</strong> on start value under <strong>Start line positions</strong> in the SuperTuxKart Scene Properties panel.</li>
+      <li>Reduce the <strong>Start sideways distance</strong> value in the same section as above.</li>
+    </ul>
+
+    <p>Another possibility is that your track has the normals on the wrong side. To check if this is the problem, switch to edit mode on your track mesh, expand your <strong>Viewport Overlays</strong> menu at the top right, at the very bottom you will find buttons to enable <strong>Normals</strong> overlays. If they appear on the bottom of the mesh, select the faces you wish to correct, and go to <strong>Mesh &gt; Normals &gt; Flip</strong>.</p>
+
+    <p><img src="/assets/wiki/Display_normals.jpg" alt="Display_normals" /></p>
+
+  </div>
+</div>
+
+<ul id="art_portal_nav">
+    <li class="art_portal_nav_item" id="special_return_to_art_portal">
+    <a href="/Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="art_portal_nav_text">
+        <a href="/Community"><span class="translate">Return to Get Involved</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Library_Nodes"><span class="translate">Making Library Nodes</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Karts"><span class="translate">Making Karts</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Tracks"><span class="translate">Making Tracks</span></a>
+    </span>
+    </li>
+</ul>
+
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

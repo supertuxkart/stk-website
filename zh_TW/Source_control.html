@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="zh-TW" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>原始碼版本控制 - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="原始碼版本控制">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="SupertTuxKart 的原始碼使用 Git，而資料檔案使用 SVN。如果您沒有，請先安裝它們。您可以在頁面底部找到安裝它們的說明。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+/* Add Page_Name.css with Page_Name.md */
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">目錄</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/zh_TW/Discover'><span class="translate">探索</span></a></li>
+            <li><a href='/zh_TW/Download'><span class="translate">下載</span></a></li>
+            <li><a href='/FAQ'><span class="translate">常見問題解答</span></a></li>
+            <li><a href='/zh_TW/Community'><span class="translate">參與</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">部落格</span></a></li>
+            <li><a class="donate-top-menu-link" href='/zh_TW/Donate'><span class="translate">捐款</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">工具</span></p>
+        <div class="toolbox-section"><p><span class="translate">語言</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Source_control'>български</a></li><li id="language-selector-ca"><a href='/ca/Source_control'>Català</a></li><li id="language-selector-cs"><a href='/cs/Source_control'>Čeština</a></li><li id="language-selector-da"><a href='/da/Source_control'>Dansk</a></li><li id="language-selector-de"><a href='/de/Source_control'>Deutsch</a></li><li id="language-selector-en"><a href='/Source_control'>English</a></li><li id="language-selector-es"><a href='/es/Source_control'>Español</a></li><li id="language-selector-fr"><a href='/fr/Source_control'>Français</a></li><li id="language-selector-gl"><a href='/gl/Source_control'>Galego</a></li><li id="language-selector-it"><a href='/it/Source_control'>Italiano</a></li><li id="language-selector-nl"><a href='/nl/Source_control'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Source_control'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Source_control'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Source_control'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Source_control'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Source_control'>Slovenščina</a></li><li id="language-selector-zh_TW"><a href='/zh_TW/Source_control'>中文（繁體）</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">管理</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">建立新頁面</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_translations/zh_TW/Source_control.md'><span class="translate">編輯頁面</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_translations/zh_TW/Source_control.md'><span class="translate">頁面歷史</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/zh_TW/Main_Page' title="造訪首頁">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">原始碼版本控制</h1>
+<article>
+<ul id="results-container"></ul><p>SupertTuxKart 的原始碼使用 Git，而資料檔案使用 SVN。如果您沒有，請先安裝它們。您可以在頁面底部找到安裝它們的說明。</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">目錄</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="顯示" data-hide-text="隱藏" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#遊戲核心" id="markdown-toc-遊戲核心">遊戲核心</a></li>
+  <li><a href="#媒體倉庫" id="markdown-toc-媒體倉庫">媒體倉庫</a></li>
+  <li><a href="#指南" id="markdown-toc-指南">指南</a></li>
+  <li><a href="#安裝-git" id="markdown-toc-安裝-git">安裝 Git</a>    <ul>
+      <li><a href="#linux" id="markdown-toc-linux">Linux</a></li>
+      <li><a href="#windows" id="markdown-toc-windows">Windows</a></li>
+    </ul>
+  </li>
+  <li><a href="#安裝-svn" id="markdown-toc-安裝-svn">安裝 SVN</a>    <ul>
+      <li><a href="#linux-1" id="markdown-toc-linux-1">Linux</a></li>
+      <li><a href="#windows-1" id="markdown-toc-windows-1">Windows</a></li>
+    </ul>
+  </li>
+</ul>
+<h2 id="遊戲核心">遊戲核心</h2>
+
+<p>核心程式碼倉庫存放在我們的 <a href="https://github.com/supertuxkart/stk-code">GitHub 頁面</a>上。範例再製指令：</p>
+
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">程式碼</span></b></div>
+<div class="popup-code-line"><code>
+git clone <a href="https://github.com/supertuxkart/stk-code.git">https://github.com/supertuxkart/stk-code.git</a> stk-code
+
+</code></div>
+</div>
+
+<p>下載大小約為 350 MB。</p>
+
+<p>資料檔案存放在 SourceForge，並使用 SVN。範例再製指令：</p>
+
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">程式碼</span></b></div>
+<div class="popup-code-line"><code>
+svn checkout <a href="https://svn.code.sf.net/p/supertuxkart/code/stk-assets">https://svn.code.sf.net/p/supertuxkart/code/stk-assets</a> stk-assets
+
+</code></div>
+</div>
+
+<p>下載大小約為 700 MB。</p>
+
+<p>這兩個倉庫應下載到同一個資料夾內，讓資料夾 <code class="language-plaintext highlighter-rouge">stk-code</code> 和 <code class="language-plaintext highlighter-rouge">stk-assets</code> 彼此可見。</p>
+
+<h2 id="媒體倉庫">媒體倉庫</h2>
+
+<p><strong>玩遊戲不需要</strong>下載媒體倉庫。其包含了資源的原始檔案（.blend 檔案、無損音樂與音效檔等等），專供藝術家使用。下載大小約為 3.2 GB。</p>
+
+<p>媒體倉庫存放在 SourceForge，並使用 SVN。範例再製指令：</p>
+
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">程式碼</span></b></div>
+<div class="popup-code-line"><code>
+svn checkout <a href="https://svn.code.sf.net/p/supertuxkart/code/media/trunk">https://svn.code.sf.net/p/supertuxkart/code/media/trunk</a> stk-media-repo
+
+</code></div>
+</div>
+
+<p>另見<a href="/Media_Repo">媒體倉庫頁面</a>。</p>
+
+<h2 id="指南">指南</h2>
+
+<p>以下是一些針對有 Git/SVN 寫入權限的開發者的指南：</p>
+
+<ul>
+  <li>加入我們的 IRC 或 Telegram 頻道（參見 <a href="/zh_TW/Community">社群</a>）。開發者通常會在那裡張貼他們的工作內容，減少發生衝突的可能性。此外，已知重要的程式錯誤也在那裡討論。</li>
+  <li>也可能值得訂閱 supertuxkart-commit 郵件清單（參見<a href="/zh_TW/Community">社群</a>）。所有 commit 的訊息都會自動傳送到此地址，因此您總是會知道正在發生的狀況，或您的工作會不會干擾其他人。</li>
+  <li>開發版本應總是編譯成功。雖然不可能在所有平台上進行測試，但請盡力編寫跨平臺程式碼。其他開發者和測試者通常會快速指出（並修復）任何問題。</li>
+  <li>經常 commit。頻繁 commit 具有作為備份的優勢，從而降低耗時的合併衝突可能性。</li>
+  <li>嘗試在一個 commit 中包含單個功能的所有變動（亦即不要單獨 commit 每個檔案），並試著不要將多個功能混合在一個大的 commit 中。</li>
+</ul>
+
+<h2 id="安裝-git">安裝 Git</h2>
+
+<h3 id="linux">Linux</h3>
+<p><code class="language-plaintext highlighter-rouge">sudo apt install git</code> 或類似指令，取決於您的散佈版。</p>
+
+<h3 id="windows">Windows</h3>
+<p>安裝 <a href="https://github.com/git-for-windows/git/releases/latest">Git for Windows</a>。如果您需要圖形介面的 Git，您可以選擇任何適合您的。否則，如果您不知道該選擇哪個，您可以在安裝 Git for Windows 後安裝 <a href="https://tortoisegit.org/download">TortoiseGit</a>。</p>
+
+<h2 id="安裝-svn">安裝 SVN</h2>
+
+<h3 id="linux-1">Linux</h3>
+<p><code class="language-plaintext highlighter-rouge">sudo apt install subversion</code> 或類似指令，取決於您的散佈版。</p>
+
+<h3 id="windows-1">Windows</h3>
+<p>您可以在多個 SVN 客戶端之間進行選擇，並使用任何適合您的，但如果您不知道選擇那個客戶端，您可以安裝 <a href="https://tortoisesvn.net/downloads.html">TortoiseSVN</a>。</p>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">社群</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">論壇</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">部落格</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">附加元件</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">媒體</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">畫廊</span></a></li>
+        <li><a href='/zh_TW/Posters'><span class="translate">海報</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">開發</span></p>
+    <ul>
+        <li><a href='/zh_TW/Community'><span class="translate">改裝</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">文件</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">關於我們</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">常見問題解答</span></a></li>
+        <li><a href='/Team'><span class="translate">關於團隊</span></a></li>
+        <li><a href='/zh_TW/Discover'><span class="translate">關於 SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">使用 SuperTuxKart 的專案</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

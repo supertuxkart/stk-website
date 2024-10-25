@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Wiimote - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wiimote">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="SuperTuxKart has support for Nintendo Wii controllers, also called Wiimotes. One current limitation is that we do not yet have support for newer Wiimotes with the text “Wii MotionPlus INSIDE” on them. If you have one of those controllers, you will unfortunately not get it to work with STK. Controllers with a separate MotionPlus nunchuck added should work as far as we are aware.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/wiki/Wii1.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Wiimote'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Wiimote.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Wiimote.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Wiimote</h1>
+<article>
+<ul id="results-container"></ul><p>SuperTuxKart has support for Nintendo Wii controllers, also called Wiimotes. One current limitation is that we do not yet have support for newer Wiimotes with the text “Wii MotionPlus INSIDE” on them. If you have one of those controllers, you will unfortunately not get it to work with STK. Controllers with a separate MotionPlus nunchuck added should work as far as we are aware.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>Some MotionPlus Wiimotes will work, but the “RVL-CNT-01-TR” won’t work!  If you have one of these, try <a href="https://andersmalmgren.github.io/FreePIE/">FreePIE</a> for Windows, <a href="https://github.com/alxn1/wjoy">wJoy</a> for macOS, or <a href="https://github.com/jgeumlek/MoltenGamepad">MoltenGamepad</a> for Linux.</p>
+  </div>
+</div>
+
+<h2 style="display: none;"><span class="translate">Contents</span></h2>
+<ul style="display: none;" id="markdown-toc">
+  <li><a href="#linux" id="markdown-toc-linux">Linux</a></li>
+  <li><a href="#macos" id="markdown-toc-macos">macOS</a></li>
+  <li><a href="#windows" id="markdown-toc-windows">Windows</a></li>
+</ul>
+<h2 id="linux">Linux</h2>
+
+<ol>
+  <li>Be sure that package ‘bluez’ is installed and enabled.</li>
+  <li>Start STK, go to options, select the “Controls” tab, select “Add a device”, “Add Wiimote”.</li>
+  <li>Press 1 and 2 buttons on your Wiimote at the same time, and click OK.</li>
+  <li>Wait for the Wiimote to connect, and click OK if there is a dialog “Found X wiimote(s)”.</li>
+  <li>If it says “Could not detect any wiimote :/” click “OK” and try again.</li>
+</ol>
+
+<h2 id="macos">macOS</h2>
+
+<ol>
+  <li>Be sure to enable Bluetooth on your Mac.</li>
+  <li>Start STK, go to options, select the “Controls” tab, select “Add a device”, “Add Wiimote”.</li>
+  <li>Press 1 and 2 buttons on your Wiimote at the same time, and click OK.</li>
+  <li>Wait for the Wiimote to connect, and click OK if there is a dialog “Found X wiimote(s)”.</li>
+  <li>If it says “Could not detect any wiimote :/” click “OK” and try again.</li>
+</ol>
+
+<h2 id="windows">Windows</h2>
+
+<ol>
+  <li>Be sure to enable Bluetooth</li>
+  <li>Open up the Control panel.</li>
+  <li>
+    <p>Add a Bluetooth device:<br />
+Vista<br />
+Go to “Bluetooth Devices” and add a Bluetooth device</p>
+
+    <p>Windows 7/8/10<br />
+Go to “View devices and printers” in “Hardware &amp; Sound” and click on “Add a device”.</p>
+  </li>
+  <li>Press 1+2 on your wiimote, and wait for it to be detected. The Wiimote might first be detected as a generic ‘input device’, but after a few seconds the device name should change to be “Nintendo RVL-CTN-01” or something similar. Make sure the wiimote LEDs are blinking, if they stop before they were connected, press 1+2 again. You should end up with a display like the following:</li>
+</ol>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Wii1.jpg"><img src="/assets/wiki/Wii1.jpg" alt="Wii1" /></a></div>
+</div>
+
+<ol>
+  <li>Select the “Nintendo RVL…” icon:</li>
+</ol>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Wii2.jpg"><img src="/assets/wiki/Wii2.jpg" alt="Wii2" /></a></div>
+</div>
+
+<ol>
+  <li>Click on “Pair without using a code”.</li>
+  <li>Start STK, go to options, select the “Controls” tab, select “Add a device”, “Add Wiimote”.</li>
+  <li>Press 1 and 2 buttons on your Wiimote at the same time, and click OK.</li>
+  <li>Wait for the Wiimote to connect, and click OK if there is a dialog “Found X wiimote(s)”.</li>
+  <li>If it says “Could not detect any wiimote :/” click “OK” and try again.</li>
+</ol>
+
+<p>Note that your wiimote will stay connected to your computer even if you exit SuperTuxKart (which means it will be using battery). The best option is to explicitly disconnect it from the Bluetooth manager. We also have seen connection problems if the wiimote is already listed in the Bluetooth device list when you try to connect it. I could only connect it to SuperTuxKart after I removed the wiimote from the list of Bluetooth devices (and let it be discovered again).</p>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

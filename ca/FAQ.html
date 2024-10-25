@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="ca" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>PMF - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PMF">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Preguntes generals Què és el SuperTuxKart? Un joc de curses de karts en 3D de codi obert. El seu objectiu és que s’ho passin bé jugadors de tots els nivells, a base de donar-los capses d’elements aleatoris, nitro, derrapades, i més coses. El realisme no és el més important.">
+<meta property="og:locale" content="ca">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+
+input[id="qa0-callback"] {
+    display: none;
+}
+
+input[id="qa0-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa1-callback"] {
+    display: none;
+}
+
+input[id="qa1-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa2-callback"] {
+    display: none;
+}
+
+input[id="qa2-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa3-callback"] {
+    display: none;
+}
+
+input[id="qa3-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa4-callback"] {
+    display: none;
+}
+
+input[id="qa4-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa5-callback"] {
+    display: none;
+}
+
+input[id="qa5-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa6-callback"] {
+    display: none;
+}
+
+input[id="qa6-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa7-callback"] {
+    display: none;
+}
+
+input[id="qa7-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa8-callback"] {
+    display: none;
+}
+
+input[id="qa8-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa9-callback"] {
+    display: none;
+}
+
+input[id="qa9-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa10-callback"] {
+    display: none;
+}
+
+input[id="qa10-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa11-callback"] {
+    display: none;
+}
+
+input[id="qa11-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa12-callback"] {
+    display: none;
+}
+
+input[id="qa12-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa13-callback"] {
+    display: none;
+}
+
+input[id="qa13-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa14-callback"] {
+    display: none;
+}
+
+input[id="qa14-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa15-callback"] {
+    display: none;
+}
+
+input[id="qa15-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa16-callback"] {
+    display: none;
+}
+
+input[id="qa16-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa17-callback"] {
+    display: none;
+}
+
+input[id="qa17-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menú</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/ca/Discover'><span class="translate">Descobreix</span></a></li>
+            <li><a href='/ca/Download'><span class="translate">Descarregar</span></a></li>
+            <li><a href='/ca/FAQ'><span class="translate">PMF</span></a></li>
+            <li><a href='/ca/Community'><span class="translate">Participa</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/ca/Donate'><span class="translate">Dona</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Eines</span></p>
+        <div class="toolbox-section"><p><span class="translate">Idioma</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/FAQ'>български</a></li><li id="language-selector-ca"><a href='/ca/FAQ'>Català</a></li><li id="language-selector-da"><a href='/da/FAQ'>Dansk</a></li><li id="language-selector-de"><a href='/de/FAQ'>Deutsch</a></li><li id="language-selector-en"><a href='/FAQ'>English</a></li><li id="language-selector-es"><a href='/es/FAQ'>Español</a></li><li id="language-selector-fil"><a href='/fil/FAQ'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/FAQ'>Français</a></li><li id="language-selector-gl"><a href='/gl/FAQ'>Galego</a></li><li id="language-selector-nl"><a href='/nl/FAQ'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/FAQ'>Polski</a></li><li id="language-selector-pt"><a href='/pt/FAQ'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/FAQ'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/FAQ'>Русский</a></li><li id="language-selector-sl"><a href='/sl/FAQ'>Slovenščina</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Gestió</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">Nova pàgina</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_translations/ca/FAQ.md'><span class="translate">Edita la pàgina</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_translations/ca/FAQ.md'><span class="translate">Historial de la pàgina</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/ca/Main_Page' title="Visita la pàgina principal">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper">
+<article>
+<ul id="results-container"></ul><br/><h2 id="preguntes-generals" class="article_main_title">Preguntes generals</h2>
+
+<div>
+<input type="checkbox" id="qa0-callback" /><label class="qa-question" for="qa0-callback">Què és el SuperTuxKart?</label>
+<div class="qa-answer">
+    <p>Un joc de curses de karts en 3D de codi obert. El seu objectiu és que s’ho passin bé jugadors de tots els nivells, a base de donar-los capses d’elements aleatoris, nitro, derrapades, i més coses. El realisme no és el més important.</p>
+
+    <p>STK ofereix un mode multijugador en línia, un mode multijugador local, i un mode d’un sol jugador contra IAs tant amb curses a mida com un mode història a completar per desbloquejar karts i circuits. També conté campionats, on l’objectiu és guanyar el màxim nombre de punts en diverses curses.</p>
+
+    <p>Els seus 21 circuits et portaran per entorns variats. Des de platges d’illes assolellades fins a les profunditats d’una antiga mina, des dels carrers de Candela City a tranquiles carreteres al mig del camp, des d’una nau espacial fins a les muntanyes, tens molt per explorar i descobrir.</p>
+
+    <p>El joc també té modes de joc addicionals a més de les curses normals: contrarrellotge, segueix al líder, futbol, capturar la bandera, i dos tipus de mode batalla.</p>
+
+    <p><a href="/ca/Discover">Descobreix més aquí</a>!</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa1-callback" /><label class="qa-question" for="qa1-callback">Qui hi ha al darrere del SuperTuxKart?</label>
+<div class="qa-answer">
+    <p>Vegeu la pàgina del nostre <a href="/Team">equip</a> per a més informació sobre la gent darrera del SuperTuxKart!</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa2-callback" /><label class="qa-question" for="qa2-callback">Quins són els requisits de maquinari?</label>
+<div class="qa-answer">
+    <p><strong>GPU</strong></p>
+
+    <p>La GPU acostuma a ser el factor que limita el rendiment del STK. Les targetes que compleixen els requisits mínims tenen el suport OpenGL per executar el joc, però necessiten d’una baixa resolució i gràfics de baixa qualitat per poder jugar bé. Les targetes que compleixen o superen els requisits recomanats poden executar el circuit més exigent del STK a 60FPS/1080p amb el renderitzador modern i els gràfics a 4.</p>
+
+    <ul>
+      <li><strong>Recomanat</strong>: NVIDIA GeForce GTX 950, AMD Radeon RX 460, o superior; Com a mínim 1 GB VRAM (memòria de vídeo).</li>
+      <li><strong>Mínim</strong>: targeta NVIDIA GeForce 470 GTX, AMD Radeon de la sèrie 6870 HD o Intel HD Graphics 4000; Com a mínim 512 MB VRAM (memòria de vídeo).</li>
+    </ul>
+
+    <p><strong>CPU</strong></p>
+
+    <p>El rendiment de la CPU podria ser el factor limitant depenent de la targeta gràfica i de la configuració dels gràfics. Principalment en el mode en línia, que en fa un ús més intensiu. Un bon rendiment de la CPU ajuda a garantir una bona quantitat de fotogrames per segon i, encara més important, suavitat. Per al STK, el rendiment amb un sol fil d’execució és primordial.</p>
+
+    <ul>
+      <li><strong>Recomanat</strong>: rendiment equivalent al d’un Core i5-2400 d’un sol fil o superior. Això inclou les CPUs AMD Ryzen d’escriptori, la majoria de CPUs d’Intel d’escriptori des de 2012 i les CPUs mòbils de gamma mitja-alta recents.</li>
+      <li><strong>Mínim</strong>: Qualsevol processador AMD o Intel amb doble nucli. Els models molt antics i els components de mòbils amb poca freqüència de rellotge podrien tenir dificultats, especialment en el mode en línia.</li>
+    </ul>
+
+    <p><strong>Altres requisits</strong></p>
+
+    <ul>
+      <li>Com a mínim 1 GB de RAM lliure</li>
+      <li>Espai en disc: 700 MB</li>
+    </ul>
+
+    <p><strong>Opcional</strong></p>
+
+    <ul>
+      <li>(Si prefereixes jugar amb una palanca de control) Una palanca de control amb un mínim de 6 botons.</li>
+    </ul>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa3-callback" /><label class="qa-question" for="qa3-callback">El meu ordinador és massa vell per executar el SuperTuxKart. Què hauria de fer?</label>
+<div class="qa-answer">
+    <p>Pots provar sort i executar el joc. El STK té un renderitzador de mínims que fa servir només OpenGL 2.1 / GLES 2 / DirectX 9 que hauria de funcionar en la majoria de dispositius, però sense el renderitzador modern.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa4-callback" /><label class="qa-question" for="qa4-callback">Quina és la història del SuperTuxKart?</label>
+<div class="qa-answer">
+    <p>Primer hi havia el <a href="http://tuxkart.sourceforge.net">TuxKart</a>. Es va treballar en això (aproximadament) entre abril de 2000 i març de 2004. Al juny de 2004, el projecte ‘Joc del mes’ del <a href="https://web.archive.org/web/20040915081722/http://www.happypenguin.org/">Linux Game Tome</a> va decidir millorar el TuxKart. Això es va fer entre juny i desembre de 2004. (La majoria d’enllaços a les pàgines del fòrum antic estan trencats, arxius aquí: <a href="https://web.archive.org/web/20041109144934/http://www.happypenguin.org/forums/viewtopic.php?t=1407">[1]</a> <a href="https://web.archive.org/web/20120607000453/http://www.happypenguin.org/forums/viewtopic.php?t=1407&amp;postdays=0&amp;postorder=asc&amp;start=15&amp;sid=e3789fa7035b89cbfc1ab2aa6366033c">[2]</a> <a href="https://web.archive.org/web/20120606235857/http://www.happypenguin.org/forums/viewtopic.php?t=1407&amp;postdays=0&amp;postorder=asc&amp;start=30&amp;sid=e3789fa7035b89cbfc1ab2aa6366033c">[3]</a> <a href="https://web.archive.org/web/20120607000143/http://www.happypenguin.org/forums/viewtopic.php?t=1407&amp;postdays=0&amp;postorder=asc&amp;start=45&amp;sid=e3789fa7035b89cbfc1ab2aa6366033c">[4]</a> <a href="https://web.archive.org/web/20120607000320/http://www.happypenguin.org/forums/viewtopic.php?t=1407&amp;postdays=0&amp;postorder=asc&amp;start=60&amp;sid=e3789fa7035b89cbfc1ab2aa6366033c">[5]</a> <a href="https://web.archive.org/web/20120606235853/http://www.happypenguin.org/forums/viewtopic.php?t=1407&amp;postdays=0&amp;postorder=asc&amp;start=75&amp;sid=e3789fa7035b89cbfc1ab2aa6366033c">[6]</a>. Malauradament, aquest projecte va acabar en un gran desacord, i finalment es va decidir guardar l’estat actual com a “SuperTuxKart”. Tot i que es van fer algunes millores gràfiques, la base de codi era molt inestable i pràcticament injugable. Ningú va treballar en el (Super)TuxKart durant molts anys.</p>
+
+    <p>Al 2006, Joerg Henrichs (a.k.a. “Hiker”) va recollir el SuperTuxKart i en va arreglar els errors pendents i els problemes de rendiment sense cap implicació per part del dissenyador original del joc o del projecte ‘Joc del mes’. Amb l’ajuda de “Coz”, es va fer una primera versió del STK al setembre de 2006.</p>
+
+    <p>Al maig de 2007, es va publicar la versió 0.3. Afegia llistes de millors temps, un nou circuit (Illa), la bomba de rellotgeria, suport per a MacOSX, i suport per a OpenAL.</p>
+
+    <p>Al febrer de 2008 es va publicar la versió 0.4. Aquesta versió feia servir Bullet Physics per millorar la gestió de les col·lisions. “Auria” es va unir i va començar a millorar circuits (Arenes movedisses, El far).</p>
+
+    <p>La versió 0.5 es va publicar el maig de 2008. Incloia molts circuits millorats, reptes desbloquejables, el mode de joc “segueix al líder”, i més traduccions (detecció de l’idioma del SO i coincidència amb la traducció més propera).</p>
+
+    <p>La versió 0.6 es va publicar el 22 de gener de 2009. Tenia una jugabilitat significativament millorada; millor física amb el nitro i els derrapatges. El sistema de so també es va millorar, es va afegir música més interessant i també nous circuits i nous karts. També es va veure per primera vegada l’arena especial multijugador per a batalles a 3 cops i noves armes/millores per fer servir.</p>
+
+    <p>La versió 0.7 es va publicar el 20 de desembre de 2010. Contenia vàries millores significatives, incloent: un nou motor de renderitzat 3D, Irrlicht, una nova IGU (Interfície Gràfica d’Usuari), noves animacions de karts i circuits, nous circuits, karts i armes/millores, i suport per a dreceres i camins alternatius. Les versions 0.7.1, 0.7.2 i 0.7.3 es van publicar al cap de poc temps amb més millores.</p>
+
+    <p>La versió 0.8 es va publicar al desembre de 2012, afegint un mode història i nous reptes, una IA millorada, millors derrapatges, mode a l’inrevés, nous circuits i música. Els menús també es van millorar. A continuació va venir la 0.8.1, que afegia i actualitzava circuits, afegia els modes de futbol i recerca d’ous, i altres millores gràfiques i de jugabilitat.</p>
+
+    <p>El 2015 vam publicar la versió 0.9, una versió innovadora propulsada per un motor de joc nou de trinca anomenat Antarctica, que afegia característiques gràfiques avançades que haurien estat impossibles en versions anteriors. Aquestes característiques incloien il·luminació dinàmica, renderitzat instanciat (permetent un gran increment de la vegetació), i més. A la 0.9 la van seguir tres versions menors, que incloien característiques addicionals i nous circuits.</p>
+
+    <p>A l’abril de 2019 vam publicar la versió 1.0, per primera vegada amb suport per a multijugador en línia. A part d’aquesta característica principal, hi va haver circuits nous i actualitzats, es van afegir els reptes de SuperTux al mode història, molts ajustos d’equilibri, i moltes més millores i correccions.</p>
+
+    <p>Aleshores en Hiker va anunciar oficialment la seva decisió de retirar-se del projecte després d’haver-lo liderat durant 13 anys. També va deixar el seu rol com a colíder, però va seguir involucrat amb el projecte.</p>
+
+    <p>El lideratge del projecte es va transferir a Benau, un dels principals contribuïdors de codi des de 2017, i Alayan, un gran contribuïdor per a la 1.0. Deveee, un important contribuïdor durant molts anys que és el responsable de la versió d’Android, es va mantenir a l’equip.</p>
+
+    <p>Al gener de 2020 es va publicar la versió 1.1. El joc no va canviar, ja que totes les versions 1.0 són compatibles. Els principals canvis de la versió van ser un codi de xarxa millorat i grans millores en la interfície, especialment en resolucions altes, juntament amb moltes correccions d’errors i altres millores.</p>
+
+    <p>A l’agost de 2020 es va publicar la versió 1.2. Millorava el suport per a comandaments via SDL2, que permet connexions en calent i mapatges de comandaments.</p>
+
+    <p>Al setembre de 2021 s’ha publicat la versió més recent, la 1.3. Conté actualitzacions per a molts dels karts oficials.</p>
+
+    <p>Per a més detalls, consulteu el <a href="https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md">registre de canvis</a>, el <a href="https://blog.supertuxkart.net">blog</a> o la llista de problemes resolts al GitHub del STK.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa5-callback" /><label class="qa-question" for="qa5-callback">El SuperTuxKart és una còpia del Mario Kart?</label>
+<div class="qa-answer">
+    <p>No! La sèrie del Mario Kart són els jocs més coneguts de curses de karts, però n’hi ha hagut molts altres.</p>
+
+    <p>Algunes versions antigues del STK intentaven imitar el Mario Kart, però ja fa molt temps que no és així. A vegades ens el mirem en busca d’inspiració, tal i com fem amb altres jocs de karts, però res més.</p>
+
+    <p>No només hi ha diferències significatives en la manera de jugar, sinó que el SuperTuxKart evoluciona a la seva manera i no intentem fer que s’assembli al Mario Kart.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa6-callback" /><label class="qa-question" for="qa6-callback">Vull ajudar! Què puc fer?</label>
+<div class="qa-answer">
+    <p>Primer, fes una ullada a la pàgina <a href="/ca/Community">Participa</a>. Hauria de contenir tota la informació que necessites per començar a programar, modelar, dissenyar o el que sigui que vulguis fer.</p>
+
+    <p>Abans de començar, hauries de contactar amb els desenvolupadors i artistes actuals a través del <a href="https://web.libera.chat/?channels=#supertuxkart">IRC</a>, el <a href="https://t.me/STKInternational">canal de Telegram</a> o el <a href="https://forum.freegamedev.net/viewforum.php?f=16">fòrum</a>, i explicar-nos què és el que vols aconseguir. Això incrementarà molt les possibilitats de que la teva contribució sigui acceptada.</p>
+
+  </div>
+</div>
+
+<h2 id="preguntes-sobre-la-jugabilitat" class="article_main_title">Preguntes sobre la jugabilitat</h2>
+
+<div>
+<input type="checkbox" id="qa7-callback" /><label class="qa-question" for="qa7-callback">La IA (kart controlat per l'ordinador) ha disparat cap enrere. Com puc fer això?</label>
+<div class="qa-answer">
+    <p>La majoria d’armes (bola de bitlles, pastís, desembussador) es poden disparar cap enrere. Simplement, dispara mentre mires cap enrere.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa8-callback" /><label class="qa-question" for="qa8-callback">La IA del joc fa trampes?</label>
+<div class="qa-answer">
+    <p>No!</p>
+
+    <p>Els límits i els increments de velocitat són exactament els mateixos per a tots els karts, IA o humans. En nivells de dificultat baixos, la IA fins i tot pot alentir-se a propòsit. Les probabilitats de les millores al recollir capses també són idèntiques. Hi ha petites diferències en com de ràpid poden els karts virar d’una direcció a una altra, però no dóna cap avantatge significatiu a la IA ni està pensat per a fer-ho.</p>
+
+    <p>La IA a vegades pot tenir reflexos sobrehumans per fer servir armes, però si un humà prem el botó adequat en el moment adequat pot aconseguir el mateix resultat. També hi ha molt marge per ser més llest que ella.</p>
+
+    <p>Si et costa derrotar a la IA, centra’t en millorar la teva conducció per estavellar-te el mínim possible mentre vas ràpid, i aprèn a fer servir el derrapatge. En els nivells alts de dificultat, derrapar és essencial per derrotar a la IA.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa9-callback" /><label class="qa-question" for="qa9-callback">Puc jugar al STK per Internet?</label>
+<div class="qa-answer">
+    <p>Sí! Després de crear un compte en línia dins del joc i connectar-te amb ell, selecciona el botó “En línia” del menú principal i després “Xarxa global” per accedir a les partides en línia a través d’Internet. Pots crear el teu propi servidor per a que altres hi puguin jugar, o unir-te a servidors gestionats per la comunitat. Per a una bona experiència, una connexió estable i un ping baix són importants.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa10-callback" /><label class="qa-question" for="qa10-callback">Per què algunes tecles del teclat no funcionen quan es premen alhora?</label>
+<div class="qa-answer">
+    <p>Quan juguis amb un teclat, pots experimentar problemes al prémer múltiples tecles simultàniament, com ara intenant fer servir nitro mentre acceleres o gires. En aquestes situacions algunes pulsacions de tecla pot ser que no quedin registrades. Però això no és un error del SuperTuxKart, sinó una limitació física del teu teclat. La majoria de teclats només poden manegar un cert nombre de tecles pitjades al mateix temps (per a una informació més detallada, consulta <a href="https://www.sjbaker.org/wiki/index.php?title=Keyboards_Are_Evil">aquesta pàgina</a>). La solució és fer servir un dispositiu d’entrada especial per a jocs (comandaments o teclats de gaming), o ajustar la configuració del teclat per trobar tecles que el teu teclat sigui capaç de registrar al mateix temps.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa11-callback" /><label class="qa-question" for="qa11-callback">Tinc problemes estranys amb el meu dispositiu d'entrada</label>
+<div class="qa-answer">
+    <p>Això pot incloure el kart anant sempre cap a l’esquerra, o frenant aleatòriament, o altres rareses similars on el joc sembla creure que has pitjat una tecla que no has tocat. Si passa això, prova d’anar al menú d’opcions, a la pantalla de dispositius d’entrada, i comprova si allà hi tens comandaments. Intenta deshabilitar tots els dispositius excepte el que estàs fent servir. A vegades es poden rebre dades d’entrada falses de comandaments o d’altres dispositius semblants que el SO veu com un comandament.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa12-callback" /><label class="qa-question" for="qa12-callback">De cop i volta m'ha aparegut un cercle vermell enorme a la pantalla. Què és això?</label>
+<div class="qa-answer">
+    <p>Si hi ha un pingüí al mig del cercle, algú t’ha disparat un desembussador a la cara. Pots fer-li el mateix als altres disparant el desembussador cap enrere (mira la pregunta sobre com disparar coses cap enrere).</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa13-callback" /><label class="qa-question" for="qa13-callback">Puc fer servir el comandament de la meva Wii amb el STK?</label>
+<div class="qa-answer">
+    <p>Sí! Mira la pàgina del <a href="/Wiimote">Wiimote</a> per a més detalls.</p>
+
+  </div>
+</div>
+
+<h2 id="preguntes-tècniques" class="article_main_title">Preguntes tècniques</h2>
+
+<div>
+<input type="checkbox" id="qa14-callback" /><label class="qa-question" for="qa14-callback">He trobat un error. Com puc contactar amb vosaltres?</label>
+<div class="qa-answer">
+    <p>Primer, mira el <a href="https://github.com/supertuxkart/stk-code/issues">STK bug tracker</a> i obre un nou error si el teu problema encara no ha estat reportat.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa15-callback" /><label class="qa-question" for="qa15-callback">On es guarda la configuració?</label>
+<div class="qa-answer">
+    <ul>
+      <li>A <strong>Windows</strong>: està a <code class="language-plaintext highlighter-rouge">%APPDATA%/supertuxkart/config-0.10</code> (podeu introduir això a l’explorador de fitxers i us hi portarà).</li>
+      <li>A <strong>Linux</strong>: O està a <code class="language-plaintext highlighter-rouge">$XDG_CONFIG_HOME/supertuxkart/config-0.10</code> (primera opció), o a <code class="language-plaintext highlighter-rouge">~/.config/supertuxkart/config-0.10</code> (segona opció) o a <code class="language-plaintext highlighter-rouge">~/.supertuxkart/config-0.10</code> (tercera opció).</li>
+      <li>A <strong>macOS</strong>: està a <code class="language-plaintext highlighter-rouge">~/Library/Application Support/supertuxkart/config-0.10</code>. Tingueu en compte que aquest directori podria estar ocult.</li>
+      <li>A <strong>Android</strong>: està a <code class="language-plaintext highlighter-rouge">/storage/emulated/0/Android/data/org.supertuxkart.stk/files/supertuxkart/home/supertuxkart/config-0.10</code>.</li>
+      <li>Amb <strong>Snap</strong>: està a <code class="language-plaintext highlighter-rouge">~/snap/supertuxkart/current/.config/supertuxkart/config-0.10</code>.</li>
+      <li>Amb <strong>Flatpak</strong>: està a <code class="language-plaintext highlighter-rouge">~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10</code>.</li>
+    </ul>
+
+    <p>També pots mirar la sortida en el terminal per veure si hi ha una nota dient on es guarden els fitxers de configuració o buscar un fitxer anomenat “config.xml”.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa16-callback" /><label class="qa-question" for="qa16-callback">La versió de Git no compila. Què haig de fer?</label>
+<div class="qa-answer">
+    <p>Això passa a vegades. Els desenvolupadors haurien de saber-ho i s’hauria d’arreglar aviat. Si el <a href="https://github.com/supertuxkart/stk-code/actions">GitHub Actions</a> diu que la versió actual de Git compila, però a tu no et funciona, aleshores probablement hi hagi alguna cosa malament en el teu entorn de compilació. (Comprova si tens totes les dependències, torna a executar el CMake…)</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa17-callback" /><label class="qa-question" for="qa17-callback">Com desbloquejo tots els circuits?</label>
+<div class="qa-answer">
+    <p>La idea és jugar al mode història i superar tots els reptes.</p>
+
+    <p>Però si el que vols és desbloquejar-ho tot sense jugar al mode història, també pots fer trampes editant un fitxer de configuració. Obre la carpeta mencionada més amunt a la pregunta “On es guarda la configuració”. Des d’allà, obre la carpeta “config-0.10”, després obre el fitxer “players.xml”. Substitueix totes les ocurrències de “none” amb “hard” (o “easy” o “medium”, indicant el nivell més alt en el qual has superat un repte).</p>
+
+  </div>
+</div>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Comunitat</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Fòrum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Complements</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Mitjans</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Galeria</span></a></li>
+        <li><a href='/ca/Posters'><span class="translate">Pòsters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Desenvolupament</span></p>
+    <ul>
+        <li><a href='/ca/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentació</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Quant a nosaltres</span></p>
+    <ul>
+        <li><a href='/ca/FAQ'><span class="translate">PMF</span></a></li>
+        <li><a href='/Team'><span class="translate">Quant a l'equip</span></a></li>
+        <li><a href='/ca/Discover'><span class="translate">Quant al SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projectes que fan servir el SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

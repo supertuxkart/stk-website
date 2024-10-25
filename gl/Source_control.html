@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="gl" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Control de fontes - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Control de fontes">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="SupertTuxKart usa Git para o código fonte e SVN para os ficheiros de datos. Polo tanto, se non tes, instálaos primeiro. Podes atopar instrucións para instalalos na parte inferior da páxina.">
+<meta property="og:locale" content="gl">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+/* Add Page_Name.css with Page_Name.md */
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menú</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/gl/Discover'><span class="translate">Descubrir</span></a></li>
+            <li><a href='/gl/Download'><span class="translate">Descargar</span></a></li>
+            <li><a href='/gl/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/gl/Community'><span class="translate">Envolver-se</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/gl/Donate'><span class="translate">Doa</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Ferramentas</span></p>
+        <div class="toolbox-section"><p><span class="translate">Lingua</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Source_control'>български</a></li><li id="language-selector-ca"><a href='/ca/Source_control'>Català</a></li><li id="language-selector-cs"><a href='/cs/Source_control'>Čeština</a></li><li id="language-selector-da"><a href='/da/Source_control'>Dansk</a></li><li id="language-selector-de"><a href='/de/Source_control'>Deutsch</a></li><li id="language-selector-en"><a href='/Source_control'>English</a></li><li id="language-selector-es"><a href='/es/Source_control'>Español</a></li><li id="language-selector-fr"><a href='/fr/Source_control'>Français</a></li><li id="language-selector-gl"><a href='/gl/Source_control'>Galego</a></li><li id="language-selector-it"><a href='/it/Source_control'>Italiano</a></li><li id="language-selector-nl"><a href='/nl/Source_control'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Source_control'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Source_control'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Source_control'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Source_control'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Source_control'>Slovenščina</a></li><li id="language-selector-zh_TW"><a href='/zh_TW/Source_control'>中文（繁體）</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Xestión</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">Nova páxina</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_translations/gl/Source_control.md'><span class="translate">Editar páxina</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_translations/gl/Source_control.md'><span class="translate">Historial da páxina</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/gl/Main_Page' title="Visita a páxina principal">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Control de fontes</h1>
+<article>
+<ul id="results-container"></ul><p>SupertTuxKart usa Git para o código fonte e SVN para os ficheiros de datos. Polo tanto, se non tes, instálaos primeiro. Podes atopar instrucións para instalalos na parte inferior da páxina.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contidos</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Amosar" data-hide-text="Ocultar" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#núcleo-do-xogo" id="markdown-toc-núcleo-do-xogo">Núcleo do xogo</a></li>
+  <li><a href="#repositorio-multimedia" id="markdown-toc-repositorio-multimedia">Repositorio multimedia</a></li>
+  <li><a href="#directrices" id="markdown-toc-directrices">Directrices</a></li>
+  <li><a href="#instalando-git" id="markdown-toc-instalando-git">Instalando Git</a>    <ul>
+      <li><a href="#linux" id="markdown-toc-linux">Linux</a></li>
+      <li><a href="#windows" id="markdown-toc-windows">Windows</a></li>
+    </ul>
+  </li>
+  <li><a href="#instalando-svn" id="markdown-toc-instalando-svn">Instalando SVN</a>    <ul>
+      <li><a href="#linux-1" id="markdown-toc-linux-1">Linux</a></li>
+      <li><a href="#windows-1" id="markdown-toc-windows-1">Windows</a></li>
+    </ul>
+  </li>
+</ul>
+<h2 id="núcleo-do-xogo">Núcleo do xogo</h2>
+
+<p>O repositorio de código principal está aloxado na nosa <a href="https://github.com/supertuxkart/stk-code">GitHub page</a>. Exemplo de comando de clonación:</p>
+
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Código</span></b></div>
+<div class="popup-code-line"><code>
+git clone <a href="https://github.com/supertuxkart/stk-code.git">https://github.com/supertuxkart/stk-code.git</a> stk-code
+
+</code></div>
+</div>
+
+<p>Ten uns 350 MB de tamaño de descarga.</p>
+
+<p>Os ficheiros de datos están aloxados en SourceForge e usan SVN. Exemplo de comando de pago:</p>
+
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Código</span></b></div>
+<div class="popup-code-line"><code>
+svn checkout <a href="https://svn.code.sf.net/p/supertuxkart/code/stk-assets">https://svn.code.sf.net/p/supertuxkart/code/stk-assets</a> stk-assets
+
+</code></div>
+</div>
+
+<p>Ten uns 700 MB de tamaño.</p>
+
+<p>Estes dous repositorios deberían descargarse no mesmo cartafol, de xeito que os cartafoles <code class="language-plaintext highlighter-rouge">stk-code</code> e <code class="language-plaintext highlighter-rouge">stk-assets</code> estean xuntos.</p>
+
+<h2 id="repositorio-multimedia">Repositorio multimedia</h2>
+
+<p>O repositorio multimedia <strong>non é necesario para xogar</strong>. Contén os ficheiros fonte dos recursos (ficheiros .blend, ficheiros de música e son sen perdas, etc.) e está pensado para artistas. Ten uns 3,2 GB de tamaño de descarga.</p>
+
+<p>O repositorio multimedia está aloxado en SourceForge e usa SVN. Exemplo de comando de pago:</p>
+
+<div class="popup-code popup">
+<div class="popup-code-info"><b><span class="translate">Código</span></b></div>
+<div class="popup-code-line"><code>
+svn checkout <a href="https://svn.code.sf.net/p/supertuxkart/code/media/trunk">https://svn.code.sf.net/p/supertuxkart/code/media/trunk</a> stk-media-repo
+
+</code></div>
+</div>
+
+<p>Vexa tamén <a href="/gl/Media_Repo">a páxina do repositorio multimedia</a>.</p>
+
+<h2 id="directrices">Directrices</h2>
+
+<p>Aquí tes algunhas pautas para desenvolvedores que teñen acceso de escritura a Git/SVN:</p>
+
+<ul>
+  <li>Únete á nosa canle IRC ou Telegram (consulta <a style="color: #ba0000;" href="Comunidade">Comunidade</a>). Os desenvolvedores adoitan publicar alí o que están a traballar, de xeito que se pode diminuír a probabilidade de conflitos. Ademais, tamén se comentan erros coñecidos de alto perfil.</li>
+  <li>Podería valer a pena subscribirse á lista de correo electrónico de supertuxkart-commit (ver <a style="color: #ba0000;" href="Comunidade">Comunidade</a>). Todas as mensaxes de confirmación envíanse automaticamente a este enderezo, polo que sempre estarás ao tanto do que está a suceder e se o teu traballo interfire co que fan outras persoas.</li>
+  <li>A versión de desenvolvemento sempre debe compilarse. Aínda que non é posible probar en todas as plataformas, fai o posible para escribir código portátil. Outros desenvolvedores e probadores adoitan sinalar (e solucionar) rapidamente calquera problema.</li>
+  <li>Comprométete a miúdo. As confirmacións frecuentes teñen a vantaxe de que actúan como unha copia de seguridade, o que fai que os conflitos de fusión que consuman moito tempo sexan menos probables.</li>
+  <li>Tenta incluír todos os cambios para unha única función nun commit (é dicir, non comprometas cada ficheiro por separado) e intenta non mesturar varias funcións nun commit grande.</li>
+</ul>
+
+<h2 id="instalando-git">Instalando Git</h2>
+
+<h3 id="linux">Linux</h3>
+<p><code class="language-plaintext highlighter-rouge">sudo apt install git</code> ou equivalente na distribución que elixas.</p>
+
+<h3 id="windows">Windows</h3>
+<p>Instala <a href="https://github.com/git-for-windows/git/releases/latest">Git para Windows</a>. Se queres unha interface gráfica para Git, podes escoller a que che funcione. En caso contrario, se non sabe cal escoller, tamén pode instalar <a href="https://tortoisegit.org/download">TortoiseGit</a> despois de instalar Git para Windows.</p>
+
+<h2 id="instalando-svn">Instalando SVN</h2>
+
+<h3 id="linux-1">Linux</h3>
+<p><code class="language-plaintext highlighter-rouge">sudo apt install subversion</code> ou equivalente na distribución que elixas.</p>
+
+<h3 id="windows-1">Windows</h3>
+<p>Podes escoller entre varios clientes SVN e usar o que che funcione, pero se non sabes cal escoller, podes instalar <a href="https://tortoisesvn.net/downloads.html">TortoiseSVN</a>.</p>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Comunidade</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Foro</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Complementos</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Medios</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Galería</span></a></li>
+        <li><a href='/gl/Posters'><span class="translate">Carteis</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Desenvolvemento</span></p>
+    <ul>
+        <li><a href='/gl/Community'><span class="translate">Modificación</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentación</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Sobre nós</span></p>
+    <ul>
+        <li><a href='/gl/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">Sobre o equipo</span></a></li>
+        <li><a href='/gl/Discover'><span class="translate">Acerca de SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Proxectos usando SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

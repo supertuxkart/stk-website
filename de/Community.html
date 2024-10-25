@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="de" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Community - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Community">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Forum GitHub IRC E-Mail-Verteiler Telegram Reddit Unterstütze uns Spenden helfen uns dabei, die Server zu betreiben und vieles mehr!">
+<meta property="og:locale" content="de">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+ul#get-involved-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+ul#get-involved-list > li {
+    display: block;
+    margin: 5px;
+}
+
+ul#get-involved-list > li > div {
+    display: table;
+    margin: 0px auto;
+    padding: 0px 5px;
+}
+
+.get-involved-icon {
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.get-involved-name {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.community-link {
+    color: black;
+}
+
+.community-link .fa {
+    font-size: 100px;
+}
+
+.community-link .get-involved-icons
+{
+    font-size: 125px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.get-involved-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.get-involved-panel
+{
+    min-width: 50%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menü</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/de/Discover'><span class="translate">Entdecke</span></a></li>
+            <li><a href='/de/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/de/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/de/Community'><span class="translate">Mach mit</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/de/Donate'><span class="translate">Spenden</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Werkzeuge</span></p>
+        <div class="toolbox-section"><p><span class="translate">Sprache</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Community'>български</a></li><li id="language-selector-ca"><a href='/ca/Community'>Català</a></li><li id="language-selector-cs"><a href='/cs/Community'>Čeština</a></li><li id="language-selector-da"><a href='/da/Community'>Dansk</a></li><li id="language-selector-de"><a href='/de/Community'>Deutsch</a></li><li id="language-selector-en"><a href='/Community'>English</a></li><li id="language-selector-es"><a href='/es/Community'>Español</a></li><li id="language-selector-et"><a href='/et/Community'>Eesti keel</a></li><li id="language-selector-eu"><a href='/eu/Community'>Euskara</a></li><li id="language-selector-fi"><a href='/fi/Community'>Suomi</a></li><li id="language-selector-fil"><a href='/fil/Community'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/Community'>Français</a></li><li id="language-selector-gl"><a href='/gl/Community'>Galego</a></li><li id="language-selector-it"><a href='/it/Community'>Italiano</a></li><li id="language-selector-ko"><a href='/ko/Community'>한국어</a></li><li id="language-selector-nl"><a href='/nl/Community'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Community'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Community'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Community'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Community'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Community'>Slovenščina</a></li><li id="language-selector-sr"><a href='/sr/Community'>Српски</a></li><li id="language-selector-tr"><a href='/tr/Community'>Türkçe</a></li><li id="language-selector-uk"><a href='/uk/Community'>Українська</a></li><li id="language-selector-zh_CN"><a href='/zh_CN/Community'>中文（简体）</a></li><li id="language-selector-zh_TW"><a href='/zh_TW/Community'>中文（繁體）</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Verwaltung</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">Neue Seite</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Community.md'><span class="translate">Seite bearbeiten</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Community.md'><span class="translate">Seitenverlauf</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/de/Main_Page' title="Besuche die Hauptseite">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper">
+<article>
+<ul id="results-container"></ul><br/><!-- de -->
+<ul id="get-involved-list">
+    <li>
+        <a class="community-link" href="https://forum.freegamedev.net/viewforum.php?f=16">
+            <div class="get-involved-icon"><i class="fas fa-cog" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
+            <div class="get-involved-name">Forum</div>
+        </a>
+    </li>
+    <li>
+        <a class="community-link" href="https://github.com/supertuxkart/stk-code">
+            <div class="get-involved-icon"><i class="fab fa-github" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
+            <div class="get-involved-name">GitHub</div>
+        </a>
+    </li>
+    <li>
+        <a class="community-link" href="https://web.libera.chat/?channels=#supertuxkart">
+            <div class="get-involved-icon"><i class="far fa-comments" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
+            <div class="get-involved-name">IRC</div>
+        </a>
+    </li>
+    <li>
+        <a class="community-link" href="https://sourceforge.net/p/supertuxkart/mailman/supertuxkart-devel/">
+            <div class="get-involved-icon"><i class="fa fa-envelope"></i></div>
+            <div class="get-involved-name">E-Mail-Verteiler</div>
+        </a>
+    </li>
+    <li>
+        <a class="community-link" href="https://t.me/STKInternational">
+            <div class="get-involved-icon"><i class="fab fa-telegram-plane" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
+            <div class="get-involved-name">Telegram</div>
+        </a>
+    </li>
+   <li>
+        <a class="community-link" href="https://www.reddit.com/r/SuperTuxKart/">
+            <div class="get-involved-icon"><i class="fab fa-reddit-alien" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
+            <div class="get-involved-name">Reddit</div>
+        </a>
+    </li>
+</ul>
+
+<div style="text-align: center; margin-top: 20px; margin-bottom: 10px">
+<a href="/de/Donate" style="color: red;">
+<h2><i class="fa fa-heart"></i> Unterstütze uns</h2>
+<p>Spenden helfen uns dabei, die Server zu betreiben und vieles mehr!</p>
+</a>
+</div>
+
+<div class="get-involved-container">
+  <div class="get-involved-panel">
+    <h2 style="display: none;"><span class="translate">Inhalt</span></h2>
+<ul style="display: none;" id="markdown-toc">
+  <li><a href="#fr-programmierer" id="markdown-toc-fr-programmierer"><i style="margin: 0px 5px;" class="fa fa-code"></i> Für Programmierer</a>    <ul>
+      <li><a href="#programmieren" id="markdown-toc-programmieren">Programmieren</a></li>
+      <li><a href="#sonstiges" id="markdown-toc-sonstiges">Sonstiges</a></li>
+    </ul>
+  </li>
+  <li><a href="#fr-alle" id="markdown-toc-fr-alle"><i style="margin: 0px 5px;" class="fa fa-users"></i> Für Alle</a></li>
+  <li><a href="#fr-knstler" id="markdown-toc-fr-knstler"><i style="margin: 0px 5px;" class="fa fa-paint-brush"></i> Für Künstler</a>    <ul>
+      <li><a href="#allgemeine-informationen" id="markdown-toc-allgemeine-informationen">Allgemeine Informationen</a></li>
+      <li><a href="#richtlinien" id="markdown-toc-richtlinien">Richtlinien</a></li>
+      <li><a href="#kreatives" id="markdown-toc-kreatives">Kreatives</a></li>
+    </ul>
+  </li>
+</ul>
+    <h2 id="fr-programmierer"><i style="margin: 0px 5px;" class="fa fa-code"></i> Für Programmierer</h2>
+    <h3 id="programmieren">Programmieren</h3>
+    <ul>
+      <li><a href="/de/Source_control" title="Versionsverwaltung">Versionsverwaltung</a></li>
+      <li><a href="https://github.com/supertuxkart/stk-code/blob/master/INSTALL.md" title="Selbst kompilieren">Selbst kompilieren</a></li>
+      <li><a href="/Coding_Style" title="Programmierstil-Richtlinien">Programmierstil-Richtlinien</a></li>
+      <li><a href="https://doxygen.supertuxkart.net" title="Doxygen-Dokumentation">Doxygen-Dokumentation</a></li>
+      <li><a href="https://github.com/supertuxkart/stk-code/issues?q=is%3Aopen+is%3Aissue+label%3A%22T%3Afor+beginners%22" title="Aufgaben für Anfänger">Aufgaben für Anfänger</a></li>
+      <li><a href="/Scripting" title="Scripting">Scripting</a></li>
+    </ul>
+
+    <h3 id="sonstiges">Sonstiges</h3>
+    <ul>
+      <li><a href="/Making_challenges" title="Erstellen von Herausforderungen">Erstellen von Herausforderungen</a></li>
+      <li><a href="/About_releasing_new_versions" title="Veröffentlichung neuer Versionen">Veröffentlichung neuer Versionen</a></li>
+      <li><a href="/About_player_rankings" title="Über die Spieler-Rangliste">Über die Spieler-Rangliste</a></li>
+    </ul>
+
+    <h2 id="fr-alle"><i style="margin: 0px 5px;" class="fa fa-users"></i> Für Alle</h2>
+    <ul>
+      <li><a href="/Wiimote" title="Verbindung zu deiner Wiimote">Verbindung zu deiner Wiimote</a></li>
+      <li><a href="/Translating_STK" title="SuperTuxKart übersetzen">SuperTuxKart übersetzen</a></li>
+      <li><a href="/de/Communication" title="Probleme melden">Probleme melden</a></li>
+      <li><a href="/de/Voice_Acting" title="Sprach-Synchronisation">Sprach-Synchronisation</a></li>
+      <li><a href="/Terms" title="Allgemeine Geschäftsbedingungen">Allgemeine Geschäftsbedingungen</a></li>
+      <li><a href="/Privacy" title="Datenschutzerklärung">Datenschutzerklärung</a></li>
+    </ul>
+  </div>
+
+  <div class="get-involved-panel">
+    <h2 id="fr-knstler"><i style="margin: 0px 5px;" class="fa fa-paint-brush"></i> Für Künstler</h2>
+    <h3 id="allgemeine-informationen">Allgemeine Informationen</h3>
+    <ul>
+      <li><a href="/Installing_Tools" title="Tools installieren">Tools installieren</a></li>
+      <li><a href="/Style" title="Stil">Stil</a></li>
+      <li><a href="/Licensing" title="Lizenzierung">Lizenzierung</a></li>
+      <li><a href="/Artist_Debug_Mode" title="Debug-Modus für Künstler">Debug-Modus für Künstler</a></li>
+    </ul>
+
+    <h3 id="richtlinien">Richtlinien</h3>
+    <ul>
+      <li><a href="/de/Texture_Guidelines" title="Richtlinien für Texturen">Richtlinien für Texturen</a></li>
+      <li><a href="/de/3D_Model_Guidelines" title="3D-Modell-Richtlinien">3D-Modell-Richtlinien</a></li>
+      <li><a href="/Music_and_SFX_Guidelines" title="Musik- und SFX-Richtlinien">Musik- und SFX-Richtlinien</a></li>
+      <li><a href="/File_naming_conventions" title="Konventionen zur Benennung von Dateien">Konventionen zur Benennung von Dateien</a></li>
+    </ul>
+
+    <h3 id="kreatives">Kreatives</h3>
+    <ul>
+      <li><a href="/Making_Library_Nodes" title="Erstellen von Bibliotheks-Knoten">Erstellen von Bibliotheks-Knoten</a></li>
+      <li><a href="/Making_Karts" title="Erstellen von Karts">Erstellen von Karts</a></li>
+      <li><a href="/Making_Tracks" title="Erstellen von Strecken">Erstellen von Strecken</a></li>
+    </ul>
+
+  </div>
+</div>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Add-ons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Medien</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Galerie</span></a></li>
+        <li><a href='/de/Posters'><span class="translate">Poster</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Entwicklung </span></p>
+    <ul>
+        <li><a href='/de/Community'><span class="translate">Modifizierungen</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Dokumentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Über uns</span></p>
+    <ul>
+        <li><a href='/de/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">Über das Team</span></a></li>
+        <li><a href='/de/Discover'><span class="translate">Über SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projekte mit SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

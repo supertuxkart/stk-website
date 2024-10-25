@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="sl" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Skupnost - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Skupnost">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Forum GitHub IRC Dopisni seznam Telegram Reddit Podprite nas Prispevki nam pomagajo vzdrževati strežnike in druge stvari!">
+<meta property="og:locale" content="sl">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+ul#get-involved-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+ul#get-involved-list > li {
+    display: block;
+    margin: 5px;
+}
+
+ul#get-involved-list > li > div {
+    display: table;
+    margin: 0px auto;
+    padding: 0px 5px;
+}
+
+.get-involved-icon {
+    width: 100px;
+    height: 100px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+.get-involved-name {
+    margin: 5px auto;
+    text-align: center;
+}
+
+.community-link {
+    color: black;
+}
+
+.community-link .fa {
+    font-size: 100px;
+}
+
+.community-link .get-involved-icons
+{
+    font-size: 125px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+.get-involved-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.get-involved-panel
+{
+    min-width: 50%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Meni</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/sl/Discover'><span class="translate">O igri</span></a></li>
+            <li><a href='/sl/Download'><span class="translate">Prenos</span></a></li>
+            <li><a href='/sl/FAQ'><span class="translate">Pogosta vprašanja</span></a></li>
+            <li><a href='/sl/Community'><span class="translate">Pomagaj</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Spletni dnevnik</span></a></li>
+            <li><a class="donate-top-menu-link" href='/sl/Donate'><span class="translate">Prispevaj</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Orodja</span></p>
+        <div class="toolbox-section"><p><span class="translate">Jezik</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Community'>български</a></li><li id="language-selector-ca"><a href='/ca/Community'>Català</a></li><li id="language-selector-cs"><a href='/cs/Community'>Čeština</a></li><li id="language-selector-da"><a href='/da/Community'>Dansk</a></li><li id="language-selector-de"><a href='/de/Community'>Deutsch</a></li><li id="language-selector-en"><a href='/Community'>English</a></li><li id="language-selector-es"><a href='/es/Community'>Español</a></li><li id="language-selector-et"><a href='/et/Community'>Eesti keel</a></li><li id="language-selector-eu"><a href='/eu/Community'>Euskara</a></li><li id="language-selector-fi"><a href='/fi/Community'>Suomi</a></li><li id="language-selector-fil"><a href='/fil/Community'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/Community'>Français</a></li><li id="language-selector-gl"><a href='/gl/Community'>Galego</a></li><li id="language-selector-it"><a href='/it/Community'>Italiano</a></li><li id="language-selector-ko"><a href='/ko/Community'>한국어</a></li><li id="language-selector-nl"><a href='/nl/Community'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Community'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Community'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Community'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Community'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Community'>Slovenščina</a></li><li id="language-selector-sr"><a href='/sr/Community'>Српски</a></li><li id="language-selector-tr"><a href='/tr/Community'>Türkçe</a></li><li id="language-selector-uk"><a href='/uk/Community'>Українська</a></li><li id="language-selector-zh_CN"><a href='/zh_CN/Community'>中文（简体）</a></li><li id="language-selector-zh_TW"><a href='/zh_TW/Community'>中文（繁體）</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Upravljanje</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">Nova stran</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Community.md'><span class="translate">Uredi stran</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Community.md'><span class="translate">Zgodovina strani</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/sl/Main_Page' title="Obišči glavno stran">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper">
+<article>
+<ul id="results-container"></ul><br/><!-- sl -->
+<ul id="get-involved-list">
+    <li>
+        <a class="community-link" href="https://forum.freegamedev.net/viewforum.php?f=16">
+            <div class="get-involved-icon"><i class="fas fa-cog" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
+            <div class="get-involved-name">Forum</div>
+        </a>
+    </li>
+    <li>
+        <a class="community-link" href="https://github.com/supertuxkart/stk-code">
+            <div class="get-involved-icon"><i class="fab fa-github" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
+            <div class="get-involved-name">GitHub</div>
+        </a>
+    </li>
+    <li>
+        <a class="community-link" href="https://web.libera.chat/?channels=#supertuxkart">
+            <div class="get-involved-icon"><i class="far fa-comments" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
+            <div class="get-involved-name">IRC</div>
+        </a>
+    </li>
+    <li>
+        <a class="community-link" href="https://sourceforge.net/p/supertuxkart/mailman/supertuxkart-devel/">
+            <div class="get-involved-icon"><i class="fa fa-envelope"></i></div>
+            <div class="get-involved-name">Dopisni seznam</div>
+        </a>
+    </li>
+    <li>
+        <a class="community-link" href="https://t.me/STKInternational">
+            <div class="get-involved-icon"><i class="fab fa-telegram-plane" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
+            <div class="get-involved-name">Telegram</div>
+        </a>
+    </li>
+   <li>
+        <a class="community-link" href="https://www.reddit.com/r/SuperTuxKart/">
+            <div class="get-involved-icon"><i class="fab fa-reddit-alien" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
+            <div class="get-involved-name">Reddit</div>
+        </a>
+    </li>
+</ul>
+
+<div style="text-align: center; margin-top: 20px; margin-bottom: 10px">
+<a href="/sl/Donate" style="color: red;">
+<h2><i class="fa fa-heart"></i> Podprite nas</h2>
+<p>Prispevki nam pomagajo vzdrževati strežnike in druge stvari!</p>
+</a>
+</div>
+
+<div class="get-involved-container">
+  <div class="get-involved-panel">
+    <h2 style="display: none;"><span class="translate">Vsebina</span></h2>
+<ul style="display: none;" id="markdown-toc">
+  <li><a href="#za-programerje" id="markdown-toc-za-programerje"><i style="margin: 0px 5px;" class="fa fa-code"></i> Za programerje</a>    <ul>
+      <li><a href="#programiranje" id="markdown-toc-programiranje">Programiranje</a></li>
+      <li><a href="#razno" id="markdown-toc-razno">Razno</a></li>
+    </ul>
+  </li>
+  <li><a href="#za-kogarkoli" id="markdown-toc-za-kogarkoli"><i style="margin: 0px 5px;" class="fa fa-users"></i> Za kogarkoli</a></li>
+  <li><a href="#za-umetnike" id="markdown-toc-za-umetnike"><i style="margin: 0px 5px;" class="fa fa-paint-brush"></i> Za umetnike</a>    <ul>
+      <li><a href="#splone-informacije" id="markdown-toc-splone-informacije">Splošne informacije</a></li>
+      <li><a href="#smernice" id="markdown-toc-smernice">Smernice</a></li>
+      <li><a href="#ustvarjanje" id="markdown-toc-ustvarjanje">Ustvarjanje</a></li>
+    </ul>
+  </li>
+</ul>
+    <h2 id="za-programerje"><i style="margin: 0px 5px;" class="fa fa-code"></i> Za programerje</h2>
+    <h3 id="programiranje">Programiranje</h3>
+    <ul>
+      <li><a href="/sl/Source_control" title="Upravljanje izvorne kode">Upravljanje izvorne kode</a></li>
+      <li><a href="https://github.com/supertuxkart/stk-code/blob/master/INSTALL.md" title="Gradnja iz izvorne kode">Gradnja iz izvorne kode</a></li>
+      <li><a href="/Coding_Style" title="Smernice za programiranje">Smernice za programiranje</a></li>
+      <li><a href="https://doxygen.supertuxkart.net" title="Doxygen dokumentacija">Doxygen dokumentacija</a></li>
+      <li><a href="https://github.com/supertuxkart/stk-code/issues?q=is%3Aopen+is%3Aissue+label%3A%22T%3Afor+beginners%22" title="Naloge za začetnike">Naloge za začetnike</a></li>
+      <li><a href="/Scripting" title="Skriptiranje">Skriptiranje</a></li>
+    </ul>
+
+    <h3 id="razno">Razno</h3>
+    <ul>
+      <li><a href="/Making_challenges" title="Ustvarjanje izzivov">Ustvarjanje izzivov</a></li>
+      <li><a href="/About_releasing_new_versions" title="O izdajanju novih različic">O izdajanju novih različic</a></li>
+      <li><a href="/About_player_rankings" title="O uvrstitvah igralcev">O uvrstitvah igralcev</a></li>
+    </ul>
+
+    <h2 id="za-kogarkoli"><i style="margin: 0px 5px;" class="fa fa-users"></i> Za kogarkoli</h2>
+    <ul>
+      <li><a href="/Wiimote" title="Povezovanje Wii daljinca">Povezovanje Wii daljinca</a></li>
+      <li><a href="/Translating_STK" title="Prevajanje SuperTuxKarta">Prevajanje SuperTuxKarta</a></li>
+      <li><a href="/sl/Communication" title="Prijavljanje težav">Prijavljanje težav</a></li>
+      <li><a href="/sl/Voice_Acting" title="Posojanje glasov">Posojanje glasov</a></li>
+      <li><a href="/Terms" title="Pogoji uporabe">Pogoji uporabe</a></li>
+      <li><a href="/Privacy" title="Politika zasebnosti">Politika zasebnosti</a></li>
+    </ul>
+  </div>
+
+  <div class="get-involved-panel">
+    <h2 id="za-umetnike"><i style="margin: 0px 5px;" class="fa fa-paint-brush"></i> Za umetnike</h2>
+    <h3 id="splone-informacije">Splošne informacije</h3>
+    <ul>
+      <li><a href="/Installing_Tools" title="Nameščanje orodij">Nameščanje orodij</a></li>
+      <li><a href="/Style" title="Slog">Slog</a></li>
+      <li><a href="/Licensing" title="Izbira licence">Izbira licence</a></li>
+      <li><a href="/Artist_Debug_Mode" title="Razhroščevanje za umetnike">Razhroščevanje za umetnike</a></li>
+    </ul>
+
+    <h3 id="smernice">Smernice</h3>
+    <ul>
+      <li><a href="/sl/Texture_Guidelines" title="Smernice za teksture">Smernice za teksture</a></li>
+      <li><a href="/sl/3D_Model_Guidelines" title="Smernice za 3D modele">Smernice za 3D modele</a></li>
+      <li><a href="/Music_and_SFX_Guidelines" title="Smernice za glasbo in zvočne učinke">Smernice za glasbo in zvočne učinke</a></li>
+      <li><a href="/File_naming_conventions" title="Dogovor za poimenovanje datotek">Dogovor za poimenovanje datotek</a></li>
+    </ul>
+
+    <h3 id="ustvarjanje">Ustvarjanje</h3>
+    <ul>
+      <li><a href="/Making_Library_Nodes" title="Ustvarjanje knjižničnih vozlišč">Ustvarjanje knjižničnih vozlišč</a></li>
+      <li><a href="/Making_Karts" title="Ustvarjanje vozil">Ustvarjanje vozil</a></li>
+      <li><a href="/Making_Tracks" title="Ustvarjanje prog">Ustvarjanje prog</a></li>
+    </ul>
+
+  </div>
+</div>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Skupnost</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Spletni dnevnik</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Dodatki</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Medijske vsebine</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Galerija</span></a></li>
+        <li><a href='/sl/Posters'><span class="translate">Plakati</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Razvoj</span></p>
+    <ul>
+        <li><a href='/sl/Community'><span class="translate">Prilagajanje (modding)</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Dokumentacija</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">O nas</span></p>
+    <ul>
+        <li><a href='/sl/FAQ'><span class="translate">Pogosta vprašanja</span></a></li>
+        <li><a href='/Team'><span class="translate">O ekipi</span></a></li>
+        <li><a href='/sl/Discover'><span class="translate">O SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projekti, ki uporabljajo SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

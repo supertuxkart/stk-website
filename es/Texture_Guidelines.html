@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Directrices sobre texturas - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Directrices sobre texturas">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Tener buenas texturas es quizás una de las cosas más importantes cuando se crea arte en 3D. Incluso un objeto exquisitamente modelado puede parecer horrible con malas texturas, así que es importante que las texturas que crees y uses sigan estas directrices.">
+<meta property="og:locale" content="es">
+<meta property="og:image" content="/assets/wiki/Palmtree3.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.packed_0_300px {
+    padding: 3px;
+    width: auto;
+    height: 300px;
+}
+
+.packed_0_300px img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menú</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/es/Discover'><span class="translate">Descubrir</span></a></li>
+            <li><a href='/es/Download'><span class="translate">Descargar</span></a></li>
+            <li><a href='/es/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/es/Community'><span class="translate">Participa</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/es/Donate'><span class="translate">Dona</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Herramientas</span></p>
+        <div class="toolbox-section"><p><span class="translate">Idioma</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Texture_Guidelines'>български</a></li><li id="language-selector-ca"><a href='/ca/Texture_Guidelines'>Català</a></li><li id="language-selector-da"><a href='/da/Texture_Guidelines'>Dansk</a></li><li id="language-selector-de"><a href='/de/Texture_Guidelines'>Deutsch</a></li><li id="language-selector-en"><a href='/Texture_Guidelines'>English</a></li><li id="language-selector-es"><a href='/es/Texture_Guidelines'>Español</a></li><li id="language-selector-fr"><a href='/fr/Texture_Guidelines'>Français</a></li><li id="language-selector-gl"><a href='/gl/Texture_Guidelines'>Galego</a></li><li id="language-selector-nl"><a href='/nl/Texture_Guidelines'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Texture_Guidelines'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Texture_Guidelines'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Texture_Guidelines'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Texture_Guidelines'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Texture_Guidelines'>Slovenščina</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Gestión</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">Nueva página</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_translations/es/Texture_Guidelines.md'><span class="translate">Edita la página</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_translations/es/Texture_Guidelines.md'><span class="translate">Historial de la página</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/es/Main_Page' title="Visita la página principal">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Directrices sobre texturas</h1>
+<article>
+<ul id="results-container"></ul><p>Tener buenas texturas es quizás una de las cosas más importantes cuando se crea arte en 3D. Incluso un objeto exquisitamente modelado puede parecer horrible con malas texturas, así que es importante que las texturas que crees y uses sigan estas directrices.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contenidos</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Mostrar" data-hide-text="Ocultar" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#estilo" id="markdown-toc-estilo">Estilo</a>    <ul>
+      <li><a href="#cuándo-usar-fotos" id="markdown-toc-cuándo-usar-fotos">Cuándo usar fotos</a></li>
+    </ul>
+  </li>
+  <li><a href="#color-e-iluminación" id="markdown-toc-color-e-iluminación">Color e iluminación</a></li>
+  <li><a href="#patrones" id="markdown-toc-patrones">Patrones</a></li>
+  <li><a href="#detalles-de-las-texturas" id="markdown-toc-detalles-de-las-texturas">Detalles de las texturas</a></li>
+  <li><a href="#restricciones-técnicas" id="markdown-toc-restricciones-técnicas">Restricciones técnicas</a></li>
+</ul>
+<h2 id="estilo">Estilo</h2>
+
+<p>Las texturas del SuperTuxKart son dibuijadas a mano o pintadas, no simplemente fotos (normalmente, aunque se pueden usar fotos como referencia). Obviamente, esto no significa que sea necesario usar pintura real, se pueden usar programas de pintura digital como Krita. Otras aplicaciones también están listadas en la página <a href="/Installing_Tools">Instalando las herramientas</a>.</p>
+
+<p>Además, las texturas no solamente son completamente falsas, con apariencia de dibujos animados. Puedes añadir todos los detalles que quieras, siempre que los pintes a mano (excepto bajo las circunstancias explicadas debajo). Para más información sobre como pintar texturas, mira <a href="https://docs.blender.org/manual/en/latest/sculpt_paint/texture_paint/index.html">la documentación más reciente de Blender</a>.</p>
+
+<h3 id="cuándo-usar-fotos">Cuándo usar fotos</h3>
+
+<p>En determinadas circunstancias, pintar una textura a mano no aporta nada. Cuando pintar a mano una textura detallada consume demasiado tiempo, como por ejemplo vegetación, puede ser más conveniente utilizar una foto real, siempre que la foto sea lo bastante genérica y no cree un patrón feo de mosaico. Toma como ejemplo la textura inferior:</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Palmtree3.jpg"><img src="/assets/wiki/Palmtree3.jpg" alt="Palmtree3" /></a></div>
+</div>
+
+<p>Este caso es un ejemplo interesante, porque esta textura incluye características buenas y malas. La hoja de la palmera es una buena textura (nota: la transparencia se hace con una mascara alfa en esta textura) por su iluminación uniforme, la falta de otros detalles, y su naturaleza genérica. Además, no se utiliza en un lugar donde estaría sujeta a los problemas de mosaico mencionados más arriba. La textura del tronco del árbol de la derecha, en cambio, no es tan buena debido a su iluminación no uniforme. Aplicar esta textura a un tronco de árbol provocaría una serie de bandas claras y oscuras, un defecto muy evidente. El hecho de que la textura del tronco se pueda usar en un objeto sólido también la hace poco adecuada debido al potencial de más defectos de mosaico.</p>
+
+<p>En general, las fotos no deberían usarse para las texturas de objetos cercanos al jugador, ya que sus detalles serán más visibles y será obvio que sólo se trata de una fotografía.</p>
+
+<h2 id="color-e-iluminación">Color e iluminación</h2>
+
+<p>Las texturas del SuperTuxKart son coloridas y con contraste, pero no deben colisionar. Texturas extremadamente brillantes, o con colores de neón/plástico/caramelo no se aceptarán en el repositorio principal a no ser que sólo se usen en un área muy pequeña, como el cartel de inicio en XR591. La misma regla es aplicable a texturas que solamente tienen un color. Las texturas totalmente blancas o totalmente negras tampoco se recomiendan, ya que se pierde información de color con blanco o negro al 100%</p>
+
+<p>Las texturas deberían dibujarse como si el color ambiental y la luz del dibujo fueran neutrales. El motor del SuperTuxKart cambiará automáticamente el balance de colores y el brillo basándose en la iluminación de la escena y la coloración de los vértices.</p>
+
+<h2 id="patrones">Patrones</h2>
+
+<p>La textura no debería tener un patrón inmediatamente visible. Los patrones obvios hacen que el kart o el circuito tengan una apariencia ridícula. Aquí hay un ejemplo de lo que <strong>no</strong> debe hacerse:</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Bad_repeating_texture.jpg"><img src="/assets/wiki/Bad_repeating_texture.jpg" alt="Bad_repeating_texture" /></a></div>
+</div>
+
+<p>Otro problema aparece, sin embargo, con las texturas que carecen completamente de patrón. Esto es un motivo de peso para no usar fotos como texturas:</p>
+
+<div class="gallery-container">
+<div class="packed_0_300px"><a href="/assets/wiki/Bad_texture_border_notmatching.jpg"><img src="/assets/wiki/Bad_texture_border_notmatching.jpg" alt="Bad_texture_border_notmatching" /></a></div>
+<div class="packed_0_300px"><a href="/assets/wiki/Bad_texture_border_notmatching_blender.jpg"><img src="/assets/wiki/Bad_texture_border_notmatching_blender.jpg" alt="Bad_texture_border_notmatching_blender" /></a></div>
+</div>
+
+<p>Fíjate que hacer texturas con Blender crea un patrón feo de mosaico, aunque la textura en sí misma no tenga patrón. Eliminando parte del detalle, sin embargo, y suavizando los bordes, puedes obtener un resultado mucho mejor, aunque que no perfecto.</p>
+
+<div class="gallery-container">
+<div class="packed_0_300px"><a href="/assets/wiki/Bad_texture_border.jpg"><img src="/assets/wiki/Bad_texture_border.jpg" alt="Bad_texture_border" /></a></div>
+<div class="packed_0_300px"><a href="/assets/wiki/Bad_texture_border_blender.jpg"><img src="/assets/wiki/Bad_texture_border_blender.jpg" alt="Bad_texture_border_blender" /></a></div>
+</div>
+
+<h2 id="detalles-de-las-texturas">Detalles de las texturas</h2>
+
+<p>Procura evitar crear texturas con detalles que no formarían parte del material en la vida real. Por ejemplo, si quieres una cuerda colgada en una pared, pero no quieres hacer servir una malla, no crees una textura nueva sólo para añadir una cuerda encima de la textura de madera. El SuperTuxKart incluye un decal shader, que permite simplemente ponerle una textura de cuerda a la segunda capa UV y hacer que aparezca encima de la textura de madera, sin convertir la textura de madera en inusable para otras aplicaciones. Para más información, ve a <a href="/Texturing#Decals">aquí</a>.</p>
+
+<h2 id="restricciones-técnicas">Restricciones técnicas</h2>
+<ul>
+  <li>Las dimensiones de las imágenes deberían ser potencias de dos. Una textura genérica de tamaño estándar, por ejemplo, es de 1024 × 1024, o 2<sup>10</sup> × 2<sup>10</sup>. Sin embargo, las texturas no tienen por qué ser cuadradas, se podría tener una textura de 1024 × 512, o 2<sup>10</sup> × 2<sup>9</sup>.</li>
+  <li>No utilices texturas grandes para objetos pequeños, esto desperdicia memoria de vídeo.</li>
+  <li>Evita crear texturas exremadamente pequeñas (por ejemplo, 4x4 o más pequeña), incluso para colores planos. Pueden tener resultados inesperados cuando la compresión de texturas está activada en la configuración gráfica.</li>
+  <li>Los ficheros de textura <strong>deben</strong> estar situados en la misma carpeta que vuestro objeto exportado.</li>
+  <li>Las texturas deberían estar en formato PNG cuando
+    <ul>
+      <li>La textura se utilizará en un objeto cercano que requiera mucho detalle</li>
+      <li>El objeto contiene partes transparentes o parcialmente transparentes</li>
+    </ul>
+  </li>
+  <li>Las texturas deberían estar en formato JPEG para
+    <ul>
+      <li>Objetos lejanos</li>
+      <li>Texturas del cielo (a veces)</li>
+      <li>Mapas de luz ambiental</li>
+    </ul>
+  </li>
+</ul>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Comunidad</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Foro</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Complementos</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Medios</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Galería</span></a></li>
+        <li><a href='/es/Posters'><span class="translate">Pósters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Desarrollo</span></p>
+    <ul>
+        <li><a href='/es/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentación</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Acerca de nosotros</span></p>
+    <ul>
+        <li><a href='/es/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">Acerca del equipo</span></a></li>
+        <li><a href='/es/Discover'><span class="translate">Acerca del SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Proyectes que utilizan el SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="sl" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Smernice za 3D modele - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Smernice za 3D modele">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Pomembno je, da ima SuperTuxKart dosleden videz predmetov. Na nek način je ta stran podobna smernicam za teksture.">
+<meta property="og:locale" content="sl">
+<meta property="og:image" content="/generated/assets/wiki/STK_tutorial_barrier_1-800-00e8f0b46.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_0_250px {
+    padding: 3px;
+    width: auto;
+    height: 250px;
+}
+
+.packed_0_250px img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Meni</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/sl/Discover'><span class="translate">O igri</span></a></li>
+            <li><a href='/sl/Download'><span class="translate">Prenos</span></a></li>
+            <li><a href='/sl/FAQ'><span class="translate">Pogosta vprašanja</span></a></li>
+            <li><a href='/sl/Community'><span class="translate">Pomagaj</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Spletni dnevnik</span></a></li>
+            <li><a class="donate-top-menu-link" href='/sl/Donate'><span class="translate">Prispevaj</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Orodja</span></p>
+        <div class="toolbox-section"><p><span class="translate">Jezik</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/3D_Model_Guidelines'>български</a></li><li id="language-selector-ca"><a href='/ca/3D_Model_Guidelines'>Català</a></li><li id="language-selector-da"><a href='/da/3D_Model_Guidelines'>Dansk</a></li><li id="language-selector-de"><a href='/de/3D_Model_Guidelines'>Deutsch</a></li><li id="language-selector-en"><a href='/3D_Model_Guidelines'>English</a></li><li id="language-selector-es"><a href='/es/3D_Model_Guidelines'>Español</a></li><li id="language-selector-fil"><a href='/fil/3D_Model_Guidelines'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/3D_Model_Guidelines'>Français</a></li><li id="language-selector-gl"><a href='/gl/3D_Model_Guidelines'>Galego</a></li><li id="language-selector-ko"><a href='/ko/3D_Model_Guidelines'>한국어</a></li><li id="language-selector-nl"><a href='/nl/3D_Model_Guidelines'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/3D_Model_Guidelines'>Polski</a></li><li id="language-selector-pt"><a href='/pt/3D_Model_Guidelines'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/3D_Model_Guidelines'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/3D_Model_Guidelines'>Русский</a></li><li id="language-selector-sl"><a href='/sl/3D_Model_Guidelines'>Slovenščina</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Upravljanje</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">Nova stran</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_translations/sl/3D_Model_Guidelines.md'><span class="translate">Uredi stran</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_translations/sl/3D_Model_Guidelines.md'><span class="translate">Zgodovina strani</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/sl/Main_Page' title="Obišči glavno stran">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Smernice za 3D modele</h1>
+<article>
+<ul id="results-container"></ul><p>Pomembno je, da ima SuperTuxKart dosleden videz predmetov. Na nek način je ta stran podobna <a href="/sl/Texture_Guidelines">smernicam za teksture</a>.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Vsebina</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Pokaži" data-hide-text="Skrij" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#slog" id="markdown-toc-slog">Slog</a></li>
+  <li><a href="#pravila" id="markdown-toc-pravila">Pravila</a></li>
+  <li><a href="#število-poligonov" id="markdown-toc-število-poligonov">Število poligonov</a>    <ul>
+      <li><a href="#malo-zgodovine" id="markdown-toc-malo-zgodovine">Malo zgodovine</a></li>
+      <li><a href="#merjenje-št-poligonov" id="markdown-toc-merjenje-št-poligonov">Merjenje št. poligonov</a></li>
+      <li><a href="#primeri-količin-poligonov" id="markdown-toc-primeri-količin-poligonov">Primeri količin poligonov</a></li>
+      <li><a href="#označevanje-objektov-kot-high-poly" id="markdown-toc-označevanje-objektov-kot-high-poly">Označevanje objektov kot “High-Poly”</a></li>
+    </ul>
+  </li>
+  <li><a href="#merila-in-velikosti" id="markdown-toc-merila-in-velikosti">Merila in velikosti</a></li>
+</ul>
+<h2 id="slog">Slog</h2>
+
+<p>Predmeti v SuperTuxKartu naj bodo po obliki in velikosti realistični, vendar naj imajo manj podrobnosti kot v resnici. Za primer vzemimo palmo:</p>
+
+<div class="gallery-container">
+<div class="packed_0_250px"><a href="/assets/wiki/RealPalmTree.jpg"><img style="max-height: calc(100% - 1em - 10px);" src="/generated/assets/wiki/RealPalmTree-781-84930e32b.jpg" alt="RealPalmTree" srcset="/generated/assets/wiki/RealPalmTree-400-84930e32b.jpg 400w, /generated/assets/wiki/RealPalmTree-781-84930e32b.jpg 781w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Prava palma</p>
+</div>
+<div class="packed_0_250px"><a href="/assets/wiki/STK0.8.1_1.jpg"><img style="max-height: calc(100% - 1em - 10px);" src="/generated/assets/wiki/STK0.8.1_1-800-d57f09a40.jpg" alt="STK0.8.1_1" srcset="/generated/assets/wiki/STK0.8.1_1-400-d57f09a40.jpg 400w, /generated/assets/wiki/STK0.8.1_1-800-d57f09a40.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Zelo risankast model palme</p>
+</div>
+<div class="packed_0_250px"><a href="/assets/wiki/STK0.9_7.jpg"><img style="max-height: calc(100% - 1em - 10px);" src="/generated/assets/wiki/STK0.9_7-800-6289e627a.jpg" alt="STK0.9_7" srcset="/generated/assets/wiki/STK0.9_7-400-6289e627a.jpg 400w, /generated/assets/wiki/STK0.9_7-800-6289e627a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Realističen, a poenostavljen model</p>
+</div>
+</div>
+
+<p>Vidimo lahko, da je novi model palme po obliki veliko bližje resnični palmi. Ni pa tako natančen, da je videti resničen. Na kratko, <u>ohranite realizem splošne oblike, a hkrati obdržite nekoliko stiliziran videz tako, da se ognete prekomernim detajlom v obliki in teksturah.</u></p>
+
+<p>Odločite se na primer, da boste ustvarili betonsko oviro. Vsi vedo, kakšnega videza je betonska ovira – mogoče jih vidite vsak dan na poti v službo. In tako odprete Blender ter izdelate nekaj takega:</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/STK_tutorial_barrier_1.jpg"><img src="/generated/assets/wiki/STK_tutorial_barrier_1-800-00e8f0b46.jpg" alt="STK_tutorial_barrier_1" srcset="/generated/assets/wiki/STK_tutorial_barrier_1-400-00e8f0b46.jpg 400w, /generated/assets/wiki/STK_tutorial_barrier_1-800-00e8f0b46.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<p>Težava je, da ste izpustili veliko podrobnosti in preveč poenostavili predmet. Videti je grdo, in če boste vse svoje predmete izdelali tako, končni rezultat ne bo tako dober, kot bi lahko bil. Rešitev je, da zberete fotografije, skice in ideje, skratka vse, kar vam bo pomagalo pri izdelavi. Res se mogoče zdi kot goljufanje, vendar se zelo priporoča. Cilj je dobiti pravi navdih. Na <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/BarreiraNewJersey.JPG/1280px-BarreiraNewJersey.JPG">tej sliki</a> lahko recimo vidite pomembne značilnosti, ki jih lahko potem vnesete v svoj izdelek.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/STK_tutorial_barrier_2.jpg"><img src="/generated/assets/wiki/STK_tutorial_barrier_2-800-e09042534.jpg" alt="STK_tutorial_barrier_2" srcset="/generated/assets/wiki/STK_tutorial_barrier_2-400-e09042534.jpg 400w, /generated/assets/wiki/STK_tutorial_barrier_2-800-e09042534.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<p>Vidite razliko? Ovira je zanimiva na pogled, veliko je podrobnosti, recimo nalagalne žice na vrhu, opozorilni trak na dnu itd. Ni fotorealistična, je pa zanimiv predmet, ki bi lahko bil podoben resnični oviri. (Poleg tega cilj ni čisti realizem, ampak precejšnji.)</p>
+
+<h2 id="pravila">Pravila</h2>
+
+<ul>
+  <li>Vsi modeli <strong>MORAJO</strong> biti primerni za otroke. SuperTuxKart naj bo po <a href="https://en.wikipedia.org/wiki/Entertainment_Software_Rating_Board#Ratings">oceni ESRB</a> primeren za vse.</li>
+  <li>Modeli naj lepo izgledajo tako samostojno kot v skupinah.</li>
+  <li>Modeli z veliko količino poligonov naj uporabljajo <a href="/Level_of_Detail">stopnje natančnosti</a>.</li>
+  <li>Razen če je vaš model neločljiv od proge, naj bo narejen tako, da ga bo možno uporabiti v različnih okoliščinah in bo iz njega mogoče narediti knjižnična vozlišča.
+    <ul>
+      <li>Okoli svojih objektov ne polagajte tal ali rastlinja (razen če je objekt sam po sebi rastlinje).</li>
+      <li>Ljudje naj v glavnem nosijo splošna oblačila, razen v primerih, ko to nima smisla, na primer na plaži.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="število-poligonov">Število poligonov</h2>
+
+<p>Število poligonov (angl. polycount) pove, koliko površin oz. ploskev imajo 3D predmeti. Starejše različice Blenderja so podpirale le objekte iz štirikotnikov in trikotnikov. “Poly” je tako večinoma pomenilo število štirikotnikov. Toda Blender zdaj podpira poljubne večkotnike in ponuja štetje dveh količin – večkotnikov in trikotnikov. Ker je število trikotnikov edino zanesljivo (trikotnik nikoli ne dobi več točk!), je bolj pravilno upoštevati trikotnike kot poligone. Spodnje smernice se zato navezujejo na trikotnike.</p>
+
+<h3 id="malo-zgodovine">Malo zgodovine</h3>
+
+<p>V starih časih igranja iger je bilo nemogoče izračunati popolno svetlobo za vse piksle. Vse zahtevne izračune se je izračunalo za vsak poligon enkrat in se jih potem interpoliralo po pikslih znotraj poligona.</p>
+
+<p>A dandanes sodobni upodabljalniki računajo svetlobo za vsak piksel. Najzahtevnejši del ni več senčilnik oglišč, pač pa senčilnik pikslov. Poglejmo si predmet, ki ima približno ~500 poligonov. Na grafični procesni enoti posamezno oglišče terja okoli ~10 inštrukcij (to ni točka cifra, ampak neka približna ocena). Za vsak poligon vašega modela bo računalnik poračunal cirka ~10 inštrukcij, se pravi 500 × 10 = 5000 inštrukcij za cel predmet.</p>
+
+<p>Zdaj šele sledi računanje pikslov. To se razlikuje glede na to, koliko pikslov bo zajemal vaš predmet, ampak za primer vzemimo ekstrem – privzemimo, da vaš predmet seže čez cel zaslon. Za vsak piksel se bo moralo na grafični procesni enoti izvesti okoli ~50 inštrukcij (osvetljava, odblesk, lepljenje normal itd.).</p>
+
+<p>Če je vaša ločljivost zaslona 800 × 600 (večina ljudi ima višje ločljivosti), sledi 800 × 600 × 50 = 24.000.000 inštrukcij. Tudi če podvojite število ploskev, ne boste pretirano upočasnili procesa. Zdaj se vse računa po pikslih, ne po ploskvah.</p>
+
+<p>Zaradi tega lahko brez težav povečamo število poligonov. A vseeno v mejah normale.</p>
+
+<h3 id="merjenje-št-poligonov">Merjenje št. poligonov</h3>
+
+<p>Blender izpisuje število poligonov v vrstici stanja, kot prikazuje spodnja slika. Če števila poligonov ne vidite, kliknite z desnim gumbom na vrstico stanja in odkljukajte možnost <strong>Scene Statistics</strong> (glejte sliko).</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Blender_screenshot_tris.jpg"><img src="/assets/wiki/Blender_screenshot_tris.jpg" alt="Blender_screenshot_tris" /></a></div>
+</div>
+
+<p>Poglejte število z oznako <strong>Tris</strong>. To je podatek, ki ga potrebujete. Zapomnite si, da to število upošteva vse objekte v prizoru samo, kadar ste v objektnem načinu (object mode).</p>
+
+<h3 id="primeri-količin-poligonov">Primeri količin poligonov</h3>
+
+<ul>
+  <li>Tovorno letalo: ~4000 trikotnikov</li>
+  <li>Palma s stopnjami natančnosti (LoD)
+    <ul>
+      <li>Visoka stopnja natančnosti: 843 trikotnikov</li>
+      <li>Srednja stopnja natančnosti: 465 trikotnikov</li>
+      <li>Nizka stopnja natančnosti: 42 trikotnikov</li>
+    </ul>
+  </li>
+  <li>Preprosta rastlina: 32 trikotnikov</li>
+  <li>Povprečno drevo: 1380 trikotnikov</li>
+  <li>Buča: 470 trikotnikov</li>
+</ul>
+
+<h3 id="označevanje-objektov-kot-high-poly">Označevanje objektov kot “High-Poly”</h3>
+
+<p>Lahko označite, da objekti potrebujejo za upodobitev močnejši računalnik. Z Blenderjem odprite kateri koli STK prizor, izberite objekt, ki ga želite označiti, in odkljukajte <strong>Enable geometry visibility details</strong> v razdelku <strong>SuperTuxKart Object Properties</strong>. Nato lahko nastavite <strong>Visibility</strong> (vidljivost) na katerokoli od razpoložljivih možnosti in tako določite minimalno stopnjo grafičnih učinkov, pri kateri bo vaš objekt viden.</p>
+
+<h2 id="merila-in-velikosti">Merila in velikosti</h2>
+
+<p>Objekti morajo imeti pravilna razmerja, da v igri niso videti čudno.</p>
+
+<ul>
+  <li>Palma je visoka približno 27 Blenderjevih enot.</li>
+  <li>Lesene stavbe v Severnem letovišču so visoke približno 8 Blenderjevih enot.</li>
+  <li>Zastave v Svetilnem mestu so visoke 10 Blenderjevih enot.</li>
+</ul>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Skupnost</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Spletni dnevnik</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Dodatki</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Medijske vsebine</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Galerija</span></a></li>
+        <li><a href='/sl/Posters'><span class="translate">Plakati</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Razvoj</span></p>
+    <ul>
+        <li><a href='/sl/Community'><span class="translate">Prilagajanje (modding)</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Dokumentacija</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">O nas</span></p>
+    <ul>
+        <li><a href='/sl/FAQ'><span class="translate">Pogosta vprašanja</span></a></li>
+        <li><a href='/Team'><span class="translate">O ekipi</span></a></li>
+        <li><a href='/sl/Discover'><span class="translate">O SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projekti, ki uporabljajo SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>
