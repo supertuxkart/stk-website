@@ -1,9 +1,11 @@
 {% blog_article
+SuperTuxkart 1.5-beta1 is available!
+
 Boo!
 
 The SuperTuxKart team is happy to announce the release of the first beta for STK 1.5.
 
-Binaries for Linux, Windows, Android and Mac are available here: https://github.com/supertuxkart/stk-code/releases/tag/1.5-beta1
+Binaries for Linux, Windows, Android and Mac are available [here](https://github.com/supertuxkart/stk-code/releases/tag/1.5-beta1)
 
 Read the full [blog post here](https://blog.supertuxkart.net/2024/10/supertuxkart-15-beta1-is-available.html).
 
