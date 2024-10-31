@@ -1,11 +1,13 @@
 {% blog_article
-Why average FPS and 1% low FPS are misleading
+Boo!
 
-SuperTuxKart 1.5 will feature a new integrated benchmark helping players to pick settings and to easily compare how different devices perform.
+The SuperTuxKart team is happy to announce the release of the first beta for STK 1.5.
 
-This blog post dives on some of the details behind the design of this feature and showcase the benchmark mode in action. [Check it out here](https://blog.supertuxkart.net/2024/07/why-average-fps-and-1-low-fps-are.html).
+Binaries for Linux, Windows, Android and Mac are available here: https://github.com/supertuxkart/stk-code/releases/tag/1.5-beta1
 
-July 7, 2024 by [Alayan](https://github.com/Alayan-stk-2)
+Read the full [blog post here](https://blog.supertuxkart.net/2024/10/supertuxkart-15-beta1-is-available.html).
+
+October 31, 2024 by [Deve](https://github.com/deveee)
 %}
 
 {% blog_article
