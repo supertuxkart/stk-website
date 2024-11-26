@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Making Tracks: Notes - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Making Tracks: Notes">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Info This page contains guidelines and information about track making that apply to multiple sections. Other sections may list their own guidelines for that specific topic.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/wiki/Detail_distant_compared_to_near.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_48per_0 {
+    padding: 3px;
+    width: 48%;
+    height: auto;
+}
+
+.packed_48per_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Making_Tracks:_Notes'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Making_Tracks:_Notes.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Making_Tracks:_Notes.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Making Tracks: Notes</h1>
+<article>
+<ul id="results-container"></ul><div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>This page contains guidelines and information about track making that apply to multiple sections. Other sections may list their own guidelines for that specific topic.</p>
+  </div>
+</div>
+<div><br /></div>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#blender" id="markdown-toc-blender">Blender</a></li>
+  <li><a href="#file-structure" id="markdown-toc-file-structure">File Structure</a></li>
+  <li><a href="#scaling" id="markdown-toc-scaling">Scaling</a></li>
+  <li><a href="#polycount-guidelines" id="markdown-toc-polycount-guidelines">Polycount Guidelines</a></li>
+  <li><a href="#gameplay" id="markdown-toc-gameplay">Gameplay</a></li>
+  <li><a href="#style" id="markdown-toc-style">Style</a></li>
+  <li><a href="#about-including-your-track-in-main" id="markdown-toc-about-including-your-track-in-main">About Including Your Track in Main</a></li>
+</ul>
+<h2 id="blender">Blender</h2>
+
+<p>Blender is currently used for all detailed and professional-grade tracks in SuperTuxKart. While Blender is very advanced, and actually fairly easy-to-use once you are used to it, it can be daunting for new users and a SuperTuxKart track is <strong><u>not</u></strong> a good place to start for those who have never used Blender.</p>
+
+<h2 id="file-structure">File Structure</h2>
+
+<p>In order for other users to be able to open your Blender file without missing textures, it’s important to have a standardized file structure. Your track’s Blender project file should be in a folder located <strong>inside</strong> the <a href="/Media_Repo">media repository</a>’s <strong><code class="language-plaintext highlighter-rouge">tracks</code></strong> folder. Yes, <em>even</em> if you don’t expect your track to be included in the core game, put your track’s folder inside the media repository as if it already were part of the core game. It’s important in any case because it makes it easier for other artists to figure out where it needs to go so that Blender can find all the right textures.</p>
+
+<h2 id="scaling">Scaling</h2>
+
+<p>It’s important to know how sizes in Blender translate to STK, especially for the road. (More references can be found on the <a href="/3D_Model_Guidelines">3D Model Guidelines</a> page. Here are some references:</p>
+
+<ul>
+  <li>A typical track (for example, Antediluvian Abyss) is about 12 Blender units wide at an average section.</li>
+  <li>Certain tracks have very wide sections. For example, the width of the road at the start of Cocoa Temple is ~18 Blender units.</li>
+  <li>Tracks like Blackhill Mansion have certain sections (such as the path through the graveyard) that are as narrow as 8 units wide.</li>
+</ul>
+
+<h2 id="polycount-guidelines">Polycount Guidelines</h2>
+
+<p><em>For more details about polycount, as well examples for decorations, see <a href="/3D_Model_Guidelines">3D Model Guidelines</a>.</em></p>
+
+<ul>
+  <li>The polycount for a track should be ~290000 tris. Cocoa Temple exceeds this limit at 295058 tris, but Cocoa Temple is an exceptionally large and complicated track. Your track should not exceed the limit unless <strong><em><u>ABSOLUTELY</u>**’’ necessary. (In this case, “</em></strong><u>ABSOLUTELY</u>**’’ necessary” means that your track is as detailed or more than Cocoa Temple, has the same or better quality, and is not unnecessarily wasting poly.) Most tracks will not even come close to this limit. Antediluvian Abyss, for example, uses 230810 tris, and Gran Paradiso Island uses 235411 tris.</li>
+  <li>Use an appropriate balance of high- and low-poly. Partially-covered objects and objects that are always seen from far away should be low poly.</li>
+  <li>Avoid unnecessary objects. Objects that cannot be seen or would not be noticed if they were missing should be avoided.</li>
+</ul>
+
+<div class="gallery-container">
+<div class="packed_48per_0"><a href="/assets/wiki/Detail_distant_compared_to_near.jpg"><img src="/assets/wiki/Detail_distant_compared_to_near.jpg" alt="Detail_distant_compared_to_near" /></a><p class="gallery-caption">The fence, vegetation, and water are detailed near where karts drive, but far away the fence is very basic, there is no vegetation, and the water has no bottom, only the skybox.</p>
+</div>
+<div class="packed_48per_0"><a href="/assets/wiki/Player_point_of_view.jpg"><img src="/assets/wiki/Player_point_of_view.jpg" alt="Player_point_of_view" /></a><p class="gallery-caption">From the player’s point of view, you don’t notice the lack of detail far away.</p>
+</div>
+</div>
+
+<h2 id="gameplay">Gameplay</h2>
+
+<p>Gameplay is important to consider during many steps of the track-making process: when designing the track, when modeling it, testing, placing decorations, etc. Many modules link back to this section as a reference, so you should take the time to read these guidelines thoroughly:</p>
+
+<ul>
+  <li>Each track should have a main path that is fairly balanced and not too difficult to drive. Some tracks, of course, will be harder than others, but the most difficult sections should be kept for side roads and shortcuts.</li>
+  <li>Easier tracks should not have turns that require drifting. Bank curves if necessary!</li>
+  <li>Alternate roads should not not allow for a shortcut unless there is some sort of risk in taking the shortcut. For example, there is shortcut in Gran Paradiso Island, but the player risks falling into the water.</li>
+  <li>Reward players for trying something unusual with items or a shortcut. For example, Zen Garden has some hidden nitros if you are careful.</li>
+  <li>Use items or nitros to help mark the path, where necessary.</li>
+  <li>It should ALWAYS be very clear where you are allowed to go and what areas are restricted. That doesn’t means the track can’t be a bit like a maze, but the player should always know where the main driveline is, although alternate routes can also be visible. (i.e. What constitutes the drivable area should be clearly visible, though of course there can be more than one path leading to the finish line.)</li>
+  <li>Try to not break the flow of the track, imagine the track like a river flowing, you should avoid “turbulent” sections</li>
+  <li>In most cases, you should avoid making the track too narrow—when playing with lots of AI karts especially, this will result in a lot of frustrating collisions between karts.</li>
+  <li>Avoid making the track too long. Over 1:30 is definitely too long; between approximately 1 minute and 1 minute 30 seconds is considered appropriate for one lap without using boosters and other items (like nitro).</li>
+  <li>Always try to find an appropriate balance between straights and turns. Too many straights may be boring, but too many curves (especially very tight ones) will make the track hard to drive.</li>
+  <li>There should be plenty of space to land after a jump—make the track quite wide. Cocoa Temple is a good example of this.</li>
+</ul>
+
+<h2 id="style">Style</h2>
+
+<p>“What?!” you say? Wasn’t style covered on the Style page? These guidelines are specific to tracks, and thus reduce the noise for other types of artists.</p>
+
+<ul>
+  <li>When creating a track, choose a color palette of just one or two colors to set the theme of the track. Obviously you can use different variations of the colors to add variety, and a red barrel will always be red, regardless of your palette. But to keep the track consistent, you must use the same colors throughout. The main colors in Antediluvian Abyss, for example, are blue and gray.</li>
+  <li>Complementing the note about color palettes above, each track’s style should be consistent. Although your track might have multiple sections, the main theme does not change. Cocoa Temple is a good example of this.</li>
+  <li>Avoid façades that look awful as soon as a kart leaves the road. Your track should have a beautiful landscape. The new version of STK has a render view of 16km if needed.</li>
+</ul>
+
+<h2 id="about-including-your-track-in-main">About Including Your Track in Main</h2>
+
+<p>The visual quality of SuperTuxKart has steadily improved from version to version. We thus have to say that unfortunately we can’t accept everyone’s contributions (but you may put them on the <a href="https://online.supertuxkart.net">Add-On site</a>). Keeping the visual side improving is important to achieve a high-quality game. Therefore, in general only contributions from people with decent Blender experience will become part of the main game. If you are new to Blender, you are free (and even welcome) to try learning by making tracks; however it must be said right from the beginning that unless you learn very fast or have natural talent, your (first?) tracks will most likely not go in main. Note, however, that there is nothing preventing you from releasing your own add-ons on the forums or Add-On site, to share with others.</p>
+
+<p>Also be sure to read about <a href="/Communication">Communication</a>. Following the guidelines there will help keep the community a happier and friendlier place.</p>
+
+<ul id="art_portal_nav">
+    <li class="art_portal_nav_item" id="special_return_to_art_portal">
+    <a href="/Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="art_portal_nav_text">
+        <a href="/Community"><span class="translate">Return to Get Involved</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Library_Nodes"><span class="translate">Making Library Nodes</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Karts"><span class="translate">Making Karts</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Tracks"><span class="translate">Making Tracks</span></a>
+    </span>
+    </li>
+</ul>
+
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

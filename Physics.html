@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Physics - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Physics">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="In SuperTuxKart, most modifications to standard physics are controlled per-texture. Textures in the media repository are already configured for physics via materials.xml in the textures folder of the stk-assets repository. See the Materials xml page for information on understanding the file.">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/wiki/Basic_jump_dimesions.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Physics'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Physics.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Physics.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Physics</h1>
+<article>
+<ul id="results-container"></ul><p>In SuperTuxKart, most modifications to standard physics are controlled per-texture. Textures in the media repository are already configured for physics via <code class="language-plaintext highlighter-rouge">materials.xml</code> in the <code class="language-plaintext highlighter-rouge">textures</code> folder of the <code class="language-plaintext highlighter-rouge">stk-assets</code> repository. See the <a href="/Materials_xml">Materials xml</a> page for information on understanding the file.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>Any textures in the <code class="language-plaintext highlighter-rouge">gfx</code> folder in the textures folder of the media repository with the suffix “AlphaTest” or “AlphaTested” will not appear in-game. For more information, see the <a href="/Media_Repo">Media Repo</a> page.</p>
+  </div>
+</div>
+
+<p>Where to configure these physics properties depends on the Blender version being used. For Blender 2.80+, they are located in the Antarctica/SuperTuxKart Properties panel, which in turn is located in the <strong>Material Properties</strong> section of the <strong>Properties</strong> window. For Blender &lt;= 2.79, they are located in the SuperTuxKart Image Properties panel, which in turn is located in the <strong>Scene</strong> section of the <strong>Properties</strong> window. The rest of this page assumes the usage of the Antarctica/SuperTuxKart Properties panel.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#zippers-speed-booosters" id="markdown-toc-zippers-speed-booosters">Zippers (Speed Booosters)</a>    <ul>
+      <li><a href="#tuning-zippers" id="markdown-toc-tuning-zippers">Tuning Zippers</a></li>
+    </ul>
+  </li>
+  <li><a href="#magnet-sections" id="markdown-toc-magnet-sections">Magnet Sections</a></li>
+  <li><a href="#reset-rescue-player" id="markdown-toc-reset-rescue-player">Reset (Rescue) Player</a>    <ul>
+      <li><a href="#on-drive" id="markdown-toc-on-drive">On Drive</a></li>
+      <li><a href="#on-collision-per-texture" id="markdown-toc-on-collision-per-texture">On Collision (Per-Texture)</a></li>
+    </ul>
+  </li>
+  <li><a href="#traction-collision-and-friction" id="markdown-toc-traction-collision-and-friction">Traction, Collision, and Friction</a>    <ul>
+      <li><a href="#force-fields" id="markdown-toc-force-fields">Force fields</a></li>
+    </ul>
+  </li>
+  <li><a href="#normals-smoothing" id="markdown-toc-normals-smoothing">Normals Smoothing</a></li>
+  <li><a href="#kart-object-interaction" id="markdown-toc-kart-object-interaction">Kart-Object Interaction</a></li>
+  <li><a href="#cannons" id="markdown-toc-cannons">Cannons</a></li>
+</ul>
+<h2 id="zippers-speed-booosters">Zippers (Speed Booosters)</h2>
+
+<p>If you have your own texture for zippers, or you will be using a texture from the media repository that is not configured as a zipper, you can use <code class="language-plaintext highlighter-rouge">gfx_booster_AlphaTest.png</code> as a texture wherever you want a zipper.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>A favorite method of our lead artist, Jean-Manuel Clémençon, is to use a a checkerboard texture from the <code class="language-plaintext highlighter-rouge">textures/flags</code> folder of the media repository, in conjunction with an arrow texture from the same folder to denote a zipper. <code class="language-plaintext highlighter-rouge">gfx_booster_AlphaTest.png</code> serves as the actual zipper texture, in a section of the mesh slightly above the checkered texture. The arrow texture is in a section of the mesh between the checkerboard and the zipper texture. Usually, he makes the arrow texture animated and adds point lights above the booster, too.</p>
+  </div>
+</div>
+
+<p>You can also use your own textures for zippers, by selecting your texture in the SuperTuxKart Image Properties panel, and, under “Interaction”, checking the box “Zipper (speed boost)”. This allows you to modify the following options:</p>
+
+<ul>
+  <li><strong>Zipper duration:</strong> The time, in seconds, that the speed boost will last. If this value is negative, the kart-specific value will be used.</li>
+  <li><strong>Zipper max speed increase:</strong> Additional speed allowed on top of the kart-specific maximum kart speed if a zipper is used. If this value is negative, the kart-specific value will be used.</li>
+  <li><strong>Zipper fade out time:</strong> The time it takes for a kart to slow down to normal top speed after using a zipper. If this value is negative, the kart-specific value will be used.</li>
+  <li><strong>Zipper speed gain:</strong> A one time additional speed gain—the kart will instantly add this amount of speed to its current speed. If this value is negative, the kart-specific value will be used.</li>
+  <li><strong>Zipper minimum speed:</strong> Set a minimum speed for karts launched from the zipper (e.g. for jumps). If this value is negative, no minimum speed will be set.</li>
+</ul>
+
+<h3 id="tuning-zippers">Tuning Zippers</h3>
+
+<p>It’s very difficult to make zippers exactly how you want, but this guide from OzoneOne should help.</p>
+
+<ol>
+  <li>Space the jump so that there is a large landing area suitable for the high speeds of SuperTux mode.</li>
+  <li>Decrease the <strong>Zipper speed gain</strong> property to something very small, like 0.5. This results in only a minor boost in SuperTux mode, so that players do not completely overshoot the jump.</li>
+  <li>Set the <strong>Zipper minimum speed</strong> property to a value high enough for the player to get over the jump on any difficulty from novice to SuperTux.</li>
+</ol>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Basic_jump_dimesions.jpg"><img src="/assets/wiki/Basic_jump_dimesions.jpg" alt="Basic_jump_dimesions" /></a></div>
+</div>
+
+<h2 id="magnet-sections">Magnet Sections</h2>
+
+<p>Magnet sections allow karts to drive on any surface, no matter what its orientation. This allows karts to drive on walls, roofs, etc. Magnet sections are controlled per-texture, so simply select the texture used on the angled or upside-down part of your track in the Antarctica/SuperTuxKart Properties panel, and, under “Interaction”, check the “Affect gravity” box.</p>
+
+<p>Many textures in the media repository are also configured to be magnet sections. Check the <a href="/Materials_xml">Materials.xml</a> file in the <code class="language-plaintext highlighter-rouge">textures</code> folder of the <code class="language-plaintext highlighter-rouge">stk-assets</code> repository.</p>
+
+<h2 id="reset-rescue-player">Reset (Rescue) Player</h2>
+
+<p>Resetting the player returns them to the track. Players who fall into the abyss will be automatically rescued, but to make the track more enjoyable, be sure to have some system for resetting players who go far off the track. However, do not immediately rescue any kart that goes off the road. Use other methods, like a slowdown effect, to keep players on the road.</p>
+
+<h3 id="on-drive">On Drive</h3>
+
+<p>You can set a texture to reset the player whenever they drive on it. To do so, select a material first, then in the Antarctica/SuperTuxKart Properties panel under “Interaction”, check the “Reset kart (on drive)” box.</p>
+
+<h3 id="on-collision-per-texture">On Collision (Per-Texture)</h3>
+
+<p>Select a material first, then in the Antarctica/SuperTuxKart Properties panel under “Interaction”, check the “Collision action” checkbox. In the “Action” menu, select “Rescue kart”.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>Rescuing the player upon collision with an object is discussed in the <a href="#kart-object-interaction">Kart-Object Interaction</a> section below.</p>
+  </div>
+</div>
+
+<h2 id="traction-collision-and-friction">Traction, Collision, and Friction</h2>
+
+<p>Select any material, then in the SuperTuxKart Image Properties panel under “Interaction”, check any of the following boxes:</p>
+
+<ul>
+  <li><strong>Enable Slowdown:</strong> Slow down any karts that drive on this texture; useful for textures that are off the main road</li>
+  <li><strong>High tires adhesion:</strong> Give karts extra grip on this texture</li>
+  <li><strong>Ignore (ghost material):</strong> The texture is still visible, but karts can drive through it as if it doesn’t exist</li>
+</ul>
+
+<h3 id="force-fields">Force fields</h3>
+
+<p>To enable a force field-like effect on a material, you can check the “Collision action” checkbox and set “Action” to “Push back kart.” The translucent spheres in the overworld (challenge selection) use this to prevent you from entering locked challenges.</p>
+
+<h2 id="normals-smoothing">Normals Smoothing</h2>
+
+<p>Normals smoothing allows for smoother driving by interpolating <em>normals,</em> imaginary lines perpendicular to surfaces. This allows for tracks to be smoother in the physics engine without increasing polycount for the track in the graphical engine. However, because normals have to be interpolated, this can cause problems when the object being driven on is not separate from the walls. You should use it with caution.</p>
+
+<p>To enable normals smoothing, check the “Smooth Normals” box in the SuperTuxKart Scene Properties panel.</p>
+
+<h2 id="kart-object-interaction">Kart-Object Interaction</h2>
+
+<p>Making objects interactive makes your track more interesting. Some things are only possible with scripting, which is covered in a future module, but for basic interaction a few actions can be easily set.</p>
+
+<p>Select an object in Blender’s 3D View window, then, in the SuperTuxKart Object Properties panel, give the object the type “Object”, “LOD Instance”, or “LOD Standalone” (depending on if you are using LOD for that object). The “Interaction” menu has several options:</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>All interaction types except for “Ghost” allow for configuring the <strong>Shape</strong> property. This is used for animated objects, but applies to all objects that are not exported as part of the main track. Choose a shape carefully or set “Interaction” to “Ghost”, otherwise you might end up with invisible barriers in your track. (See <a href="/Animating_Decorations">Animating Decorations</a>))</p>
+  </div>
+</div>
+
+<ul>
+  <li><strong>Ghost:</strong> The object is visible, but karts drive through it as if it does not exist. This can be applied to many objects to reduce load on the physics engine.</li>
+  <li><strong>Static (won’t move):</strong> This is the default option. The object cannot be moved by karts.</li>
+  <li><strong>Movable by player:</strong> Karts can push this object around; ideal for road cones or balls. However, they may NOT have IPO animation (it wouldn’t make sense anyway). This also creates a new option:
+    <ul>
+      <li><strong>Mass (kg):</strong> The heavier an object is, the harder it will be for a kart to push it. A medium-weight kart is 225 kg. The beach balls in Gran Paradiso Island are an unrealistic 5 kg.</li>
+    </ul>
+  </li>
+  <li><strong>Reset player:</strong> The kart will be reset back to the track upon collision with this object.</li>
+  <li><strong>Knock player:</strong> The kart will be thrown into the air upon collision with this object, like being hit with a bowling ball.</li>
+  <li><strong>Flatten player:</strong> The kart will be flattened, like being hit with a fly swatter.</li>
+</ul>
+
+<p>The Object type also features an interaction option which LOD Instance and LOD Standalone lack: <strong>“Physics only”</strong>. This is the opposite of “Ghost”—the object will be invisible, but can still be collided with by karts.</p>
+
+<h2 id="cannons">Cannons</h2>
+
+<p>Cannons allow you to launch karts long distances without the unreliability of zippers. It simulates being shot through a cannon.</p>
+
+<p>To make a cannon, first make a line with two points where you want the cannon to start. When a kart drives over this line, it will be shot by the cannon. Next make a Bézier curve with its beginning near the cannon start line, and its ending near where you want the karts to land. The karts will follow this path during their flight from the cannon. Finally, make another line with two points near the end of the Bézier curve. This is where the karts will actually end.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>Try to make the start and end lines approximately perpendicular to the Bézier curve. This will result in a more smooth transition from driving to flight. If you rotate or scale them in object mode, be sure to go to <strong>Object &gt; Apply &gt; Rotation &amp; Scale</strong> in the 3D View window menu.</p>
+  </div>
+</div>
+
+<p>Give the second line the type “Cannon End” in the SuperTuxKart Object Properties panel. (Note: You do not need to give the Bézier curve a special object type.) Give the first line the type “Cannon Start”. This opens up the following options in the SuperTuxKart Object Properties panel for the cannon start line:</p>
+
+<ul>
+  <li><strong>Flight end line:</strong> Use the drop-down menu to select the cannon end line you created above.</li>
+  <li><strong>Path:</strong> Use the drop-down menu to select the Bézier curve you created above.</li>
+  <li><strong>Speed:</strong> This is the speed of the kart. For long distances, make sure the kart travels quickly.</li>
+</ul>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>Make sure the driveline or navmesh includes the cannon start line and the flight path!</p>
+  </div>
+</div>
+
+<ul id="art_portal_nav">
+    <li class="art_portal_nav_item" id="special_return_to_art_portal">
+    <a href="/Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="art_portal_nav_text">
+        <a href="/Community"><span class="translate">Return to Get Involved</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Library_Nodes"><span class="translate">Making Library Nodes</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Karts"><span class="translate">Making Karts</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Tracks"><span class="translate">Making Tracks</span></a>
+    </span>
+    </li>
+</ul>
+
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>

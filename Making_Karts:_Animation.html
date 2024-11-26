@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Making Karts: Animation - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Making Karts: Animation">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Animation is a major part taking a kart from basic to professional. While your character’s animations don’t have to be lavishly complicated, we do ask that you put some effort into coming up with interesting animations (unfortunately a lot of our characters have rather generic animations, so animation of preexisting karts is also welcome).">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/wiki/Kart_animation_markers.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Making_Karts:_Animation'>English</a></li></ul>
+        </div>
+        <div class="toolbox-section"><p><span class="translate">Management</span></p>
+        <ul>
+            <li><a href='https://github.com/supertuxkart/stk-website/new/master?filename=wiki/'><span class="translate">New page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/edit/master/wiki_untranslated/Making_Karts:_Animation.md'><span class="translate">Edit page</span></a></li>
+            <li><a href='https://github.com/supertuxkart/stk-website/commits/master/wiki_untranslated/Making_Karts:_Animation.md'><span class="translate">Page history</span></a></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Making Karts: Animation</h1>
+<article>
+<ul id="results-container"></ul><p>Animation is a major part taking a kart from basic to professional. While your character’s animations don’t have to be lavishly complicated, we do ask that you put some effort into coming up with interesting animations (unfortunately a lot of our characters have rather generic animations, so animation of preexisting karts is also welcome).</p>
+
+<p>You can do a lot of cool things will skeletal animation, like Nolok’s pellet gun which he shoots after winning a race or the revolving console into which Tux used to disappear upon losing with the old Tux kart (prior to 0.9). But mostly, just try to make the character’s animation lively and suitable for the application; e.g. don’t make your character jump with joy in the losing animation.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>For karts, only skeletal animation is supported, <strong>not</strong> interpolation (IPO) animation. This includes animations of objects that are not binded to bones, toggling the visibility of objects, and any other properties that can be animated, but which do not relate to armatures.</p>
+  </div>
+</div>
+
+<div><br /></div>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Info</span></b></div>
+<div class="popup-content">
+    <p>If you use Inverse Kinematics or other bone constraints, make sure to add extra keyframes, since only keyframes get exported to STK’s mesh format.</p>
+  </div>
+</div>
+
+<div><br /></div>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#how-kart-animation-characters-works" id="markdown-toc-how-kart-animation-characters-works">How Kart Animation Characters Works</a>    <ul>
+      <li><a href="#steering-animations" id="markdown-toc-steering-animations">Steering Animations</a></li>
+      <li><a href="#jump-animations" id="markdown-toc-jump-animations">Jump Animations</a></li>
+      <li><a href="#winning-and-losing-animations" id="markdown-toc-winning-and-losing-animations">Winning and Losing Animations</a></li>
+      <li><a href="#kart-selection-screen-animations" id="markdown-toc-kart-selection-screen-animations">Kart Selection Screen Animations</a></li>
+      <li><a href="#backpedal-looking-backward-animations" id="markdown-toc-backpedal-looking-backward-animations">Backpedal (Looking backward) animations</a></li>
+    </ul>
+  </li>
+</ul>
+<h2 id="how-kart-animation-characters-works">How Kart Animation Characters Works</h2>
+
+<p><em>This relates only to character animation like steering. For objects that should be animated independently of the kart’s movement, make them a speed-weighted object. See <a href="/Making_Karts:_Kart_Attachments_and_Effects">Making Karts: Kart Attachments and Effects</a> for more information.</em></p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/Kart_animation_markers.jpg"><img src="/assets/wiki/Kart_animation_markers.jpg" alt="Kart_animation_markers" /></a></div>
+</div>
+
+<p>It’s necessary to tell SuperTuxKart where your animations start and stop. To do this, you add markers to the timeline in Blender’s Timeline window or Dope Sheet window. Here’s the generic procedure for adding any of the markers described later on:</p>
+
+<ol>
+  <li>In the Timeline window, in the Marker menu, click <strong>Add Marker</strong></li>
+  <li>Select the marker you just added by right-clicking on it (if it is not already selected).</li>
+  <li>Click <strong>Rename Marker</strong> in the Marker menu, type the name you want, and hit <strong>OK</strong>.</li>
+</ol>
+
+<h3 id="steering-animations">Steering Animations</h3>
+
+<p>In the order listed below, add these markers to the timeline. If you’re confused, consult the screenshot above:</p>
+<ul>
+  <li>left</li>
+  <li>straight</li>
+  <li>right</li>
+</ul>
+
+<p>At the “left” marker, your character should have a pose steering full left; and vice versa for the “right” marker. Note that the time between these markers is disregarded; STK will use an “in-between” value for partial steering (such as with a Wiimote) which allows steering at a shallower angle.</p>
+
+<h3 id="jump-animations">Jump Animations</h3>
+
+<p>The animations between the <strong>start-jump</strong> and <strong>end-jump</strong> markers (see above picture) will be looped when a kart is in the air. For these markers, unlike the steering ones, the number of frames between them corresponds to the amount of time the animation plays. Increasing the time between these markers will allow you to have slower jump animations.</p>
+
+<h3 id="winning-and-losing-animations">Winning and Losing Animations</h3>
+
+<p>Winning animations use three markers. The number of frames between markers again relates to time in-game. The markers are, in order:</p>
+
+<ul>
+  <li>start-winning</li>
+  <li>start-winning-loop</li>
+  <li>end-winning</li>
+  <li>end-winning-straight</li>
+</ul>
+
+<p>The animations between the first two will be played once immediately after the race ends. The animations between <strong>start-winning-loop</strong> and <strong>end-winning</strong> will be played repeatedly, so make sure the character ends in the same position as it is at the <strong>start-winning-loop</strong> marker. <strong>end-winning-straight</strong> allows for a smooth transition back to <strong>straight</strong>, but it is used only in soccer and capture-the-flag (CTF) modes.</p>
+
+<p>Losing animations are basically the same as winning animations. The only difference is in the marker names:</p>
+
+<ul>
+  <li>start-losing</li>
+  <li>start-losing-loop</li>
+  <li>end-losing</li>
+  <li>end-losing-straight</li>
+</ul>
+
+<h3 id="kart-selection-screen-animations">Kart Selection Screen Animations</h3>
+
+<p>It is not necessary to make a special animation for the kart selection screen. If you do not, the winning animation will be played. However, you can put a special animation between the <strong>selection-start</strong> and <strong>selection-end</strong> markers.</p>
+
+<h3 id="backpedal-looking-backward-animations">Backpedal (Looking backward) animations</h3>
+
+<p>You can have your character look backward or perform some other action when driving in reverse. The backpedal animations are just like the regular steering animations in every way except for the names:</p>
+
+<ul>
+  <li>backpedal-left</li>
+  <li>backpedal</li>
+  <li>backpedal-right</li>
+</ul>
+
+<ul id="art_portal_nav">
+    <li class="art_portal_nav_item" id="special_return_to_art_portal">
+    <a href="/Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="art_portal_nav_text">
+        <a href="/Community"><span class="translate">Return to Get Involved</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Library_Nodes"><span class="translate">Making Library Nodes</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Karts"><span class="translate">Making Karts</span></a>
+    </span>
+    </li>
+    <li class="art_portal_nav_item">
+    <span class="art_portal_nav_text">
+        <a href="/Making_Tracks"><span class="translate">Making Tracks</span></a>
+    </span>
+    </li>
+</ul>
+
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.freegamedev.net/viewforum.php?f=16'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://twitter.com/supertuxkart'><span class="translate">Twitter</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://t.me/STKInternational/'><span class="translate">Telegram</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/channel/UCJ9hmn6MG_ggpQUhmbMS2mQ'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://doxygen.supertuxkart.net/'><span class="translate">Documentation</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2024
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script>
+</body>
+</html>
