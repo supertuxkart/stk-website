@@ -256,7 +256,7 @@ msgid "Guidelines"
 msgstr "Retningslinjer"
 
 msgid "Texture Guidelines"
-msgstr "Retningslinjer til struktur"
+msgstr "Retningslinjer til strukturer"
 
 msgid "3D Model Guidelines"
 msgstr "Retningslinjer til 3D-modeller"
