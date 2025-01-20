@@ -3,7 +3,7 @@ title: Donér
 ---
 {% start_liquid main_title %}
 
-..:: Donating to SuperTuxKart ::..
+..:: Donation til SuperTuxKart ::..
 
 {% end_liquid %}
 
