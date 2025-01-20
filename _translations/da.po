@@ -378,7 +378,7 @@ msgid ""
 "Pidgin's ability to fly makes him perfect to deliver the results of the "
 "Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
 msgstr ""
-"Pidgin's evne til at flyve gør ham perfekt til at aflevere resulaterne af "
+"Pidgin's evne til at flyve gør ham perfekt til at aflevere resultaterne af "
 "grandprixet til maskotkongeriget. Han er maskotten for Pidgin."
 
 msgid "Godette"
