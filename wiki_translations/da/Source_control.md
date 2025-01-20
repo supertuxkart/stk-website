@@ -35,7 +35,7 @@ Se også [mediedepotsiden](Media_Repo).
 
 ## Retningslinjer
 
-Her  et par retningslinjer for udviklere, der har skriveadgang til Git/SVN:
+Her  et nogle retningslinjer for udviklere, der har skriveadgang til Git/SVN:
 
 * Tilslut vores IRC eller telegram-kanal (see [Community](Community)). Udviklere skriver normalt, hvad de arbejder på dér, så sandsynlighed for konflikter kan minimeres. Og kendte højt profilerede fejl diskuteres også der.
 * Det kan måske være en god ide at abbonnere på e-maillisten supertuxkart-commit. (Se [fællesskab](Community).) Alle commit-meddelelser sendes automatisk til adressen, så du vil altid være klar over, hvad der sker, og om dit arbejde går ind på områder som andre arbejder på.
