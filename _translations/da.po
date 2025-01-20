@@ -566,7 +566,7 @@ msgid "Unzip the archive to microSD root to install."
 msgstr "Pak arkivet ud på mikroSD i roden for at installere."
 
 msgid "Source Code"
-msgstr "Kildekode."
+msgstr "Kildekode"
 
 msgid ""
 "To get the very latest code, see the page [Source control](Source_control)."
