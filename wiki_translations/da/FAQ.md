@@ -3,7 +3,7 @@ title: FAQ
 ---
 {% start_liquid main_title %}
 
-General Questions
+Generelle spørgsmål
 
 {% end_liquid %}
 
