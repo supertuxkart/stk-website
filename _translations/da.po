@@ -494,7 +494,7 @@ msgid ""
 "painting program."
 msgstr ""
 "En Krita-bruger var den første, der tegnede Kiki til en træningsmanuel. Men "
-"så snart manuelen var skrevet, besluttede Kikki at hoppe ud af siderne og "
+"så snart manualen var skrevet, besluttede Kikki at hoppe ud af siderne og "
 "race i hele verden på hendes tegnependrevne flyvemaskine. Kiki er maskotten "
 "for det digitale tegneprogram Krita."
 
