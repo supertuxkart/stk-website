@@ -14,7 +14,7 @@ Hvad er SuperTuxKart?
 SuperTuxKart er et 3D open-source kart racerspil. Det går efter, at det skal være sjovt for spillere uanset niveau ved hjælp af gaveæsker med tilfældigt indhold, nitro, drifting og mere.
 Fokus er ikke på realisme.
 
-STK har multiplayertilstand, lokal multiplayertilstand, enkeltspillertilstand mod AI'er både med tilpassede løb og en fortælletilstand til at låse op for nye karts og baner. Det indeholder også Grand Prix, hvor målet er at få flest point over mange løb.
+STK har multiplayertilstand, lokal multiplayertilstand, enkeltspillertilstand mod AI'er både med tilpassede løb og en fortælletilstand til at låse op for nye karts og baner. Det indeholder også grandprix, hvor målet er at få flest point over mange løb.
 
 De 21 baner vil lede dig ind i forskellige miljøer. Fra strandene på solfyldte øer til underjordiske dybder i en gammel mine, fra Candela City's gader til fredfyldte veje på landet, fra et rumskib til bjergene. Du har meget at udforske og opdage.
 
