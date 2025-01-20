@@ -210,7 +210,7 @@ msgstr "Om spillerplaceringer"
 
 # In Community page
 msgid "For Everyone"
-msgstr "For Alle"
+msgstr "For alle"
 
 msgid "Connecting your Wiimote"
 msgstr "Tilslut din Wiimote"
