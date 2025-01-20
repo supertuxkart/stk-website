@@ -27,7 +27,7 @@ msgid "Download"
 msgstr "Download"
 
 msgid "Discover"
-msgstr "Opdag"
+msgstr "Introduktion"
 
 msgid "Community"
 msgstr "Fællesskab"
