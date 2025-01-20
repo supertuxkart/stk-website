@@ -434,7 +434,7 @@ msgid ""
 "scary noises, tricking people into thinking the house is haunted. He is the "
 "mascot of MediaGoblin."
 msgstr ""
-"Gavroche er en goblin, som ejer Ravenbridge palæet. Af og til laver han "
+"Gavroche er en goblin, som ejer ravnebros palæet. Af og til laver han "
 "uhyggelige lyde, der narrer folk til at tro, palæet er hjemsøgt. Han er "
 "maskot for MediaGoblin."
 
