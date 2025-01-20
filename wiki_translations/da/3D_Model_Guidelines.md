@@ -1,5 +1,5 @@
 ---
-title: 3D model retningslinjer
+title: Retningslinjer til 3D-modeller
 toc: true
 ---
 Det er vigtigt, SuperTuxKart har et gennemgående konsistent design. På mange måder har denne side det samme som [tekstur retningslinjer](Texture_Guidelines).
@@ -40,7 +40,7 @@ F.eks. hvis du skal skabe en betonbarriere, så ved alle, hvordan det ser ud. Du
 /assets/wiki/STK_tutorial_barrier_1.jpg
 %}
 
-Problemet er, at du mangler mange detaljer, og objektet er oversimplificeret. Det ser meget billigt ud, og hvis du laver alle objekter sådan, bliver slutresultatet ikke så godt, som det kunne blive. Løsningen er simpelthen at samle billeder, tegninger, idéer osv., som vil hjælpd ig gennem processen med at skabe objektet. Ja. Det er lidt som at snyde. Men det er anbefalet og tilladt. Målet er at have den rette inspiration. Med et billede som [det her] (https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/BarreiraNewJersey.JPG/1280px-BarreiraNewJersey.JPG) kan du se alle detaljer og genskabe dem i dit objekt.
+Problemet er, at du mangler mange detaljer, og objektet er oversimplificeret. Det ser meget billigt ud, og hvis du laver alle objekter sådan, bliver slutresultatet ikke så godt, som det kunne blive. Løsningen er simpelthen at samle billeder, tegninger, idéer osv., som vil hjælpd ig gennem processen med at skabe objektet. Ja. Det er lidt som at snyde. Men det er anbefalet og tilladt. Målet er at have den rette inspiration. Med et billede som [det her](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/BarreiraNewJersey.JPG/1280px-BarreiraNewJersey.JPG) kan du se alle detaljer og genskabe dem i dit objekt.
 
 {% gallery
 /assets/wiki/STK_tutorial_barrier_2.jpg
@@ -52,7 +52,7 @@ Kan du se den store forskel? Barrieren er interessant at se på. Der er masser a
 
 * Alle modeller **SKAL** være børnevenlige. SuperTuxKart vil overholde ESRB "Alle" [ratingen](https://en.wikipedia.org/wiki/Entertainment_Software_Rating_Board#Ratings).
 * Modeller skal kunne se godt ud alene og i grupper.
-* Høj-poly-modeller bør anvende [Detaljeringsgrad] (Level_of_Detail).
+* Høj-poly-modeller bør anvende [Detaljeringsgrad](Level_of_Detail).
 * Medmindre din model er uadskillelig fra din bane, bør objekter kunne anvendes i mange forskellige miljøer, så de kan blive til biblioteksknudepunkter.
     * Undgå at tilføje jor eller beplantning rundt om dine objekter (medmindre dine objekter er en slags beplantning).
     * Folk bør generelt bære almindeligt tøj. Undtagen de tilfælde, hvor det ikke giver mening. Som på stranden.
