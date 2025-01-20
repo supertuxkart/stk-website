@@ -551,7 +551,7 @@ msgid "all architectures"
 msgstr "Alle arkitekturer"
 
 msgid "Extract and run **run_game.sh** inside the folder."
-msgstr "Uddrag og udfør **run_game.sh** i folderen."
+msgstr "Udpak og kør **run_game.sh** i folderen."
 
 msgid "Installer-less archive"
 msgstr "Arkiv uden installation"
