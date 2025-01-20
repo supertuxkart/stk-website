@@ -184,7 +184,7 @@ msgid "Building from source"
 msgstr "Byg fra kildekode"
 
 msgid "Coding style guidelines"
-msgstr "Retningslinjer til kildekodeformattering"
+msgstr "Retningslinjer til formattering af kildekode"
 
 msgid "Doxygen documentation"
 msgstr "Doxygen dokumentation"
