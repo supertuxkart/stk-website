@@ -145,10 +145,10 @@ msgid "Making Library Nodes"
 msgstr "Fremstilling af biblioteksknudepunkter"
 
 msgid "Making Karts"
-msgstr "Fremstille Karts"
+msgstr "Fremstilling af karts"
 
 msgid "Making Tracks"
-msgstr "Fremstille baner"
+msgstr "Fremstilling af baner"
 
 # Title of code popup which displays code snippet
 msgid "Code"
