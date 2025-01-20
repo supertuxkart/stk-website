@@ -589,7 +589,7 @@ msgid ""
 "Preview release is available [here](https://github.com/supertuxkart/stk-"
 "code/releases/preview)."
 msgstr ""
-"Previewudgave kan hentes [her](https://github.com/supertuxkart/stk-"
+"Preview-udgivelse findes [her](https://github.com/supertuxkart/stk-"
 "code/releases/preview)."
 
 msgid "Get the latest release candidate:"
