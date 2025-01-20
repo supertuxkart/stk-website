@@ -259,7 +259,7 @@ msgid "Texture Guidelines"
 msgstr "Retningslinjer til struktur"
 
 msgid "3D Model Guidelines"
-msgstr "3D modelretningslinjer"
+msgstr "Retningslinjer til 3D-modeller"
 
 msgid "Music and SFX Guidelines"
 msgstr "Musik- og SFX-retningslinjer"
