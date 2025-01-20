@@ -600,7 +600,7 @@ msgid "Get SuperTuxKart on Itch.io"
 msgstr "Hent SuperTuxKart på Itch.io"
 
 msgid "Discover more..."
-msgstr "Opdag mere..."
+msgstr "Se mere ..."
 
 msgid "Latest Blog Post"
 msgstr "Seneste blogindlæg"
