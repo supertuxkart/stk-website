@@ -337,7 +337,7 @@ msgstr ""
 "brændende lavaslot."
 
 msgid "Additional Characters"
-msgstr "Biroller"
+msgstr "Yderligere karakterer"
 
 msgid "Sara"
 msgstr "Sara"
