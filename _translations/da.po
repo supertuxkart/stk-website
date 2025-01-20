@@ -282,7 +282,7 @@ msgid ""
 "for all ages."
 msgstr ""
 "Karts. Nitro. Action! SuperTuxKart e et 3D open-source arkaderacerspil med "
-"en bred vifte af karakterer, baner og måder at spille på. Vores mål er at "
+"et stor udvalg af karakterer, baner og måder at spille på. Vores mål er at "
 "skabe et spil, der er mere er sjovt end det er realistisk, og det samtidig "
 "giver en fornøjelig oplevelse for personer i alle aldre."
 
