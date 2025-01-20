@@ -347,7 +347,7 @@ msgid ""
 "using a specialised snowmobile. She is the mascot of the OpenGameArt "
 "website."
 msgstr ""
-"Sara er en mægtig magiker og hersker i Maskot kongeriget. Hun racer i en "
+"Sara er en mægtig magiker og hersker i Maskotkongeriget. Hun racer i en "
 "specialbygget snescooter. Hun er maskotten for OpenGameArt websiderne."
 
 msgid "Wilber"
