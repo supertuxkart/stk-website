@@ -79,7 +79,7 @@ I 2006 genoptog Joerg Henrichs (kendt som "Hiker") SuperTuxKart. Rettede udestå
 
 I maj 2007 blev version 0.3 frigivet. Den tilføjede highscorelister, en ny bane (Island), tidsbomber, MacOSX-understøttelse og OpenAL-understøttelse.
 
-Februar 2008 blev version 0.4 frigivet. Denne version brugte kuglefysik til at forbedre kollisionshåndtering. "Auria" kom til og begyndte at forbedre baner (Shifting Sands, Lighthouse).
+Februar 2008 blev version 0.4 frigivet. Denne version brugte kuglefysik til at forbedre kollisionshåndtering. "Auria" kom til og begyndte at forbedre baner (Sanddyner, Rundt om fyrtårnet).
 
 Version 0.5 blev frigivet maj 2008. Den havde mange forbedrede baner, oplåselige udfordringer, følg lederen spiltilstand og flere oversættelser (OS sprogdetektor og tilpasning til nærmeste oversættelse).
 
@@ -103,7 +103,7 @@ August 2020 blev version 1.2 frigivet. Med forbedret gamepad-understøttelse via
 
 September 2021 blev den seneste version 1.3 frigivet. Den indehold opdateringer til mange officielle karts.
 
-For flere detaljer, se venligst [changelog](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md),  [blog posts](https://blog.supertuxkart.net) eller listen med rettede fejl på STK's GitHub.
+For flere detaljer, se venligst [ændringsloggen](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), [blogindlægget](https://blog.supertuxkart.net) eller listen med rettede fejl på STK's GitHub.
 
 {% end_liquid %}
 
