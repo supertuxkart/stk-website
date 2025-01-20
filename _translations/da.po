@@ -269,7 +269,7 @@ msgstr "Filnavngivningskonventioner"
 
 # In Community page
 msgid "Creating"
-msgstr "Skabende"
+msgstr "Fremstilling"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
