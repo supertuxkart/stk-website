@@ -528,8 +528,7 @@ msgstr ""
 msgid ""
 "If you are interested you can take a look at the [community](Community) "
 "page."
-msgstr ""
-"Hvis du er interesseret, kan du se på [fællesskabs](Community) websiden."
+msgstr "Hvis du er interesseret, så se [fællesskabs-siden](Community)."
 
 # Full game installer / packages for STK
 msgid "Full game"
