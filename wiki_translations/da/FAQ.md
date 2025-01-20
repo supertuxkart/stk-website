@@ -230,7 +230,7 @@ Du kan også se output på terminalen for at undersøge, om der er et notat om, 
 
 Git-versionen vil ikke kompilere. Hvad kan jeg gøre?
 
-Det sker af og til: Udviklerne bør vide det, og det burde hurtigt blive fikset. Hvis [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) siger, at den nuværende GIT-version kompilerer, men det ikke fungerer for dig, er der sandsynligvis noget galt med din kompileropsætning. (Check om du har alle afhængigheder på plads, kør CMake igen, skrig lidt mens du hopper op og ned og trækker i dine hår... Rækkefølgen kan være vigtig.)
+Det sker af og til: Udviklerne bør vide det, og det burde hurtigt blive fikset. Hvis [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) siger, at den nuværende GIT-version kompilerer, men det ikke fungerer for dig, er der sandsynligvis noget galt med din kompileropsætning. (Check om du har alle afhængigheder på plads, kør CMake igen, skrig lidt mens du hopper op og ned og trækker i dine hår ... Rækkefølgen kan være vigtig.)
 
 {% end_liquid %}
 
