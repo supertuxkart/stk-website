@@ -273,7 +273,7 @@ msgstr "Fremstilling"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
-msgstr "Velkommen til Maskotkongeriget!"
+msgstr "Velkommen til maskotkongeriget!"
 
 msgid ""
 "Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a "
@@ -295,7 +295,7 @@ msgid ""
 "with other players all over the world."
 msgstr ""
 "I historietilstand skal du op imod den onde Nolok og vinde over ham for at "
-"gøre Maskotkongeriget sikkert igen! Du kan køre alene, mod computeren, "
+"gøre maskotkongeriget sikkert igen! Du kan køre alene, mod computeren, "
 "konkurrere i flere grandprix cups eller prøve at slå din bedste tid i "
 "tidskørsel. Du kan også køre, kæmpe eller spille fodbold med op til otte "
 "venner på en enkelt computer, spille på et lokalt netværk eller spille "
