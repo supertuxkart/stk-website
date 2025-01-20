@@ -3,7 +3,7 @@ title: Doneringspolitik
 ---
 {% start_liquid main_title %}
 
-Donation Policy
+Doneringspolitik
 
 {% end_liquid %}
 
@@ -11,10 +11,10 @@ Denne side dokumenterer vores politik vedrørende donationer, og hvad der sker m
 
 ## Normalt forbrug
 Prioriteten er at betale for det normale forbrug indlejret i projektet.
-* Hosting af websiderne.
-* Hosting af websiderne for tilføjelser
+* Hosting af det primære websted
+* Hosting af websted for tilføjelser
 * Fremtidig netværksinfrastruktur
-* Domænenavn betalinger
+* Udgifter til domænenavn
 
 ## Hardware
 Afhængig af udvikler og kunstnerbehov bruger vi også penge på at skaffe specifik hardware til udvikling af SuperTuxKart.
