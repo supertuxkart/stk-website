@@ -184,7 +184,7 @@ msgid "Building from source"
 msgstr "Byg fra kildekode"
 
 msgid "Coding style guidelines"
-msgstr "Retningslinjer til formattering af kildekode"
+msgstr "Retningslinjer til formatering af kildekode"
 
 msgid "Doxygen documentation"
 msgstr "Doxygen-dokumentation"
@@ -243,7 +243,7 @@ msgstr "Installation af værktøjer"
 
 # Page links to art style documentaion of STK
 msgid "Style"
-msgstr "Formattering"
+msgstr "Formatering"
 
 msgid "Licensing"
 msgstr "Licensering"
