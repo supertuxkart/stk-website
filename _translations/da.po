@@ -139,7 +139,7 @@ msgid "Info"
 msgstr "Information"
 
 msgid "Return to Get Involved"
-msgstr "Gå tilbage til Hjælp med"
+msgstr "Gå tilbage til Vær med"
 
 msgid "Making Library Nodes"
 msgstr "Fremstille biblioteksknudepunkter"
