@@ -560,7 +560,7 @@ msgid "Get on Google Play Store"
 msgstr "Hent på Google Play Store"
 
 msgid "Get the APK"
-msgstr "Hent APK pakken"
+msgstr "Hent APK-pakken"
 
 msgid "Unzip the archive to microSD root to install."
 msgstr "Pak arkivet ud på mikroSD i roden for at installere."
