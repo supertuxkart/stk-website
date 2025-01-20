@@ -273,7 +273,7 @@ msgstr "Skabende"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
-msgstr "Velkommen til Maskot kongeriget!"
+msgstr "Velkommen til Maskotkongeriget!"
 
 msgid ""
 "Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a "
