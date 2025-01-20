@@ -302,7 +302,7 @@ msgstr ""
 "online med spillere fra hele verden."
 
 msgid "Main Characters"
-msgstr "Hovedroller"
+msgstr "De primære karakterer"
 
 msgid "Tux"
 msgstr "Tux"
