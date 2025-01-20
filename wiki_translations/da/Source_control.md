@@ -6,7 +6,7 @@ SuperTuxKart anvender Git til kildekode og SVN til datafiler. Så hvis du ikke h
 
 ## Spilkerne
 
-Kernekodedepotet er på vores [GitHub side] (https://github.com/supertuxkart/stk-code). Klon-kommandoeksempel:
+Kernekodedepotet er på vores [GitHub side](https://github.com/supertuxkart/stk-code). Klon-kommandoeksempel:
 
 {%popup_code
 git clone https://github.com/supertuxkart/stk-code.git stk-code%}
@@ -38,7 +38,7 @@ Se også [mediedepotsiden](Media_Repo).
 Her  et par retningslinjer for udviklere, der har skriveadgang til Git/SVN:
 
 * Tilslut vores IRC eller telegram-kanal (see [Community](Community)). Udviklere skriver normalt, hvad de arbejder på dér, så sandsynlighed for konflikter kan minimeres. Og kendte højt profilerede fejl diskuteres også der.
-* Måske har det værdi at abonnere på supertuxkart-commit emaillisten. (Se [Community](Community).) Alle commit-meddelelser sendes automatisk til den adresse, så du vil altid være klar over, hvad der sker, og hvis dit arbejde forstyrrer, hvad andre arbejder på.
+* Det kan måske være en god ide at abbonnere på e-maillisten supertuxkart-commit. (Se [fællesskab](Community).) Alle commit-meddelelser sendes automatisk til adressen, så du vil altid være klar over, hvad der sker, og om dit arbejde går ind på områder som andre arbejder på.
 * Udviklingsversionen bør altid kunne kompilere. Du kan ikke teste alle platforme, men du kan gøre dit bedste for at skrive flytbar kode. Andre udviklere og testere vil normalt hurtigt udpege (og rette) problemer.
 * Commit ofte. Hyppige commits giver den fordel, at de fungerer som backup, og det gør tidsslugende fusionskonflikter mindre sandsynlige.
 * Prøv at have alle ændringer til en enkelt funktion med i et commit (undgå enkeltfil commit) og prøv at undgå mix af flere funktioner i et stort commit.
