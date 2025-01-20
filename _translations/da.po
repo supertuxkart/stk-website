@@ -2,14 +2,15 @@
 # Translators:
 # Benau, 2021
 # Lars Lyngby <larslyngby@hotmail.com>, 2022
+# scootergrisen, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Lars Lyngby <larslyngby@hotmail.com>, 2022\n"
-"Language-Team: Danish (https://www.transifex.com/supertuxkart/teams/36024/da/)\n"
+"Last-Translator: scootergrisen, 2025\n"
+"Language-Team: Danish (https://app.transifex.com/supertuxkart/teams/36024/da/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: da\n"
@@ -50,7 +51,7 @@ msgid "FAQ"
 msgstr "FAQ"
 
 msgid "Get Involved"
-msgstr "Hjælp med"
+msgstr "Vær med"
 
 msgid "Blog"
 msgstr "Blog"
