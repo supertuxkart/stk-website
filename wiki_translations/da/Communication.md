@@ -4,7 +4,7 @@ toc: true
 ---
 Før du kontakter teamet, indrapporterer en fejl, skriver på forumer osv., bør du læse denne side. Projektet kører mere effektivt og lykkeligt, når regningslinjer og instruktioner på siden følges. Selvom denne side kan lyde lidt barsk, må du ikke være bange for at indrapportere. Teamet er generelt særdeles tålmodigt, medmindre du er en serieforbryder. ;)
 
-## Husk venligst...
+## Husk venligst ...
 
 ### Udviklerne får ingen betaling
 
