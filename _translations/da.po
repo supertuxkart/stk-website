@@ -379,7 +379,7 @@ msgid ""
 "Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
 msgstr ""
 "Pidgin's evne til at flyve gør ham perfekt til at aflevere resulaterne af "
-"grandprixet til Maskotkongeriget. Han er maskotten for Pidgin."
+"grandprixet til maskotkongeriget. Han er maskotten for Pidgin."
 
 msgid "Godette"
 msgstr "Godette"
