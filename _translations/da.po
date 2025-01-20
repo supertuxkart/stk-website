@@ -142,7 +142,7 @@ msgid "Return to Get Involved"
 msgstr "Gå tilbage til Deltag"
 
 msgid "Making Library Nodes"
-msgstr "Fremstille biblioteksknudepunkter"
+msgstr "Fremstilling af biblioteksknudepunkter"
 
 msgid "Making Karts"
 msgstr "Fremstille Karts"
