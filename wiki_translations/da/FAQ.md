@@ -137,7 +137,7 @@ Spørgsmål om gameplay
 
 {% start_liquid qa %}
 
-AI'en (computer karten) skød bagud - hvordan kan jeg gøre det?
+AI'en (computerkarten) skød bagud - hvordan kan jeg gøre det?
 
 De fleste ting (bowlingkugler, kager, svuppere) kan bruges bagud. Bare skyd dem afsted, mens du ser bagud.
 
