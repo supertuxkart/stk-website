@@ -51,7 +51,7 @@ msgid "FAQ"
 msgstr "FAQ"
 
 msgid "Get Involved"
-msgstr "Vær med"
+msgstr "Deltag"
 
 msgid "Blog"
 msgstr "Blog"
@@ -139,7 +139,7 @@ msgid "Info"
 msgstr "Information"
 
 msgid "Return to Get Involved"
-msgstr "Gå tilbage til Vær med"
+msgstr "Gå tilbage til Deltag"
 
 msgid "Making Library Nodes"
 msgstr "Fremstille biblioteksknudepunkter"
