@@ -131,7 +131,7 @@ Før du starter, bør du kontakte udviklerne og kunstnerne gennem [IRC](https://
 
 {% start_liquid main_title %}
 
-Spørgsmål til gameplay
+Spørgsmål om gameplay
 
 {% end_liquid %}
 
