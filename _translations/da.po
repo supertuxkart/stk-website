@@ -187,7 +187,7 @@ msgid "Coding style guidelines"
 msgstr "Retningslinjer til formattering af kildekode"
 
 msgid "Doxygen documentation"
-msgstr "Doxygen dokumentation"
+msgstr "Doxygen-dokumentation"
 
 msgid "Tasks for beginners"
 msgstr "Opgaver for begyndere"
