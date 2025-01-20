@@ -13,6 +13,6 @@ Doneringer hjælper os med at forbedre spillet, da vi kan købe hardware, hostin
 
 **Tøv ikke med at kontakte os, hvis du har spørgsmål eller problemer!**
 
-SuperTuxKart anvender nu itch.io til modtagelse af donationer. Klik på "Hent Nu" knappen og vælg dit doneringsbeløb.
+SuperTuxKart bruger nu itch.io til at modtage donationer. Klik på "Download Now"-knappen og vælg dit doneringsbeløb.
 
 {% include donation_frame %}
