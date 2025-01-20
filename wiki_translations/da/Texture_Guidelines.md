@@ -1,5 +1,5 @@
 ---
-title: Tekstur retningslinjer
+title: Retningslinjer til strukturer
 toc: true
 ---
 En god tekstur er måske en af de vigtigste ting i 3D-kunst. Selv et smukt modelleret objekt kan se hæsligt ud med dårlig tekstur. Så det er vigtigt, dine teksturer passer til retningslinjerne.
