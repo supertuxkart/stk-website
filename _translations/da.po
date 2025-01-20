@@ -348,7 +348,7 @@ msgid ""
 "website."
 msgstr ""
 "Sara er en mægtig magiker og hersker i Maskotkongeriget. Hun racer i en "
-"specialbygget snescooter. Hun er maskotten for OpenGameArt-websiderne."
+"specialbygget snescooter. Hun er maskotten for OpenGameArt-webstedet."
 
 msgid "Wilber"
 msgstr "Wilber"
