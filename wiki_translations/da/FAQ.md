@@ -123,7 +123,7 @@ Udover de mange signifikante forskelle i gameplay udvikler SuperTuxKart sig på 
 
 Jeg vil gerne hjælpe! Hvad kan jeg gøre?
 
-Prøv først at se på [Deltag](Community)-siden. Den bør have al information, du behøver, til at gå i gang med kodning, modellering, design eller hvad du har lyst til at gøre.
+Prøv først at se på [deltag](Community)-siden. Den bør have al information, du behøver, til at gå i gang med kodning, modellering, design eller hvad du har lyst til at gøre.
 
 Før du starter, bør du kontakte udviklerne og kunstnerne gennem [IRC](https://web.libera.chat/?channels=#supertuxkart), [Telegram-kanal](https://t.me/STKInternational) eller [forum](https://forum.freegamedev.net/viewforum.php?f=16) og sig os, hvad du vil opnå. Det forbedrer dine chancer for accept af dit bidrag gevaldigt.
 
