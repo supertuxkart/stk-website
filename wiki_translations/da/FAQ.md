@@ -153,7 +153,7 @@ Hastighedsgrænser og hastighedsforøgelser er de samme for alle karts, computer
 
 Computerstyrede karts kan af og til have superhurtige reflekser, når de bruger powerups, men hvis et menneske trykker på højre knap på rette tid, kan han opnå samme resultat. Der er også råderum til at overgå den.
 
-Hvis det er en kamp at slå AI'en fokusér på at forbedre din kørsel, så du undgår sammenstød så meget som muligt ved høje hastigheder. Lær at bruge udskridning. På højere sværhedsgrader er udskridning essentielt for at kunne slå AI'en.
+Hvis det er svært at slå de computerstyrede karts, så fokusér på at forbedre din kørsel, så du undgår sammenstød så meget som muligt ved høje hastigheder. Lær at bruge udskridning. På højere sværhedsgrader er udskridning essentielt for at kunne slå de computerstyrede karts.
 
 {% end_liquid %}
 
