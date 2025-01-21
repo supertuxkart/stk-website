@@ -6,7 +6,7 @@ En god tekstur er måske en af de vigtigste ting i 3D-kunst. Selv et smukt model
 
 ## Stil
 
-Teksturer i SuperTuxKart er håndtegnede eller malede. Ikke bare fotografier (selvom du sagtens kan bruge fotografier som reference). Du skal ikke male med fysisk maling. Du kan bruge en digital tegne-app som Krita. Andre apps er listet på [Værktøjsinstallation](Installing_Tools)-siden. 
+Teksturer i SuperTuxKart er håndtegnede eller malede. Ikke bare fotografier (selvom du sagtens kan bruge fotografier som reference). Du skal ikke male med fysisk maling. Du kan bruge en digital tegne-app som Krita. Andre apps er listet på [værktøjsinstallation](Installing_Tools)-siden. 
 
 Teksturer må ikke være komplet falske eller tegneserieagtige. Tilføj gerne mængder af detaljer, så længe du udelukkende bruger håndtegning (undtaget omstændigheder beskrevet herunder). Mere information om tesksturmaling på [Seneste Blender-dokumentation](https://docs.blender.org/manual/en/latest/sculpt_paint/texture_paint/index.html).
 
