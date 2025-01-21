@@ -40,7 +40,7 @@ msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
 "tracks, and modes to play."
 msgstr ""
-"SuperTuxKart er et 3D open-source arkaderacerspil med et stort udvalg af "
+"SuperTuxKart er et open source 3D-arkaderacerspil med et stort udvalg af "
 "karakterer, baner og måder at spille på."
 
 # Drop down menu when viewing SuperTuxKart homepage in mobile device
