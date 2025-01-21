@@ -145,7 +145,7 @@ De fleste ting (bowlingkugler, kager, svuppere) kan bruges bagud. Bare skyd dem 
 
 {% start_liquid qa %}
 
-Snyder AI'en?
+Snyder de computerstyrede karts?
 
 Nej!
 
