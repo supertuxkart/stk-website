@@ -572,7 +572,7 @@ msgid ""
 "To get the very latest code, see the page [Source control](Source_control)."
 msgstr ""
 "For at få den allerseneste kode, se "
-"[Kildekodestyring](Source_control)-siden."
+"[kildekodestyring](Source_control)-siden."
 
 msgid "Download from GitHub"
 msgstr "Hent fra GitHub"
