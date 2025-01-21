@@ -151,7 +151,7 @@ Nej!
 
 Hastighedsgrænser og hastighedsforøgelser er de samme for alle karts, computerstyrede eller mennesker. På lavere sværhedsgrader sænker computerstyrede karts måske også farten med vilje. Powerup-sandsynligheder i gavepakker er identiske. Der er mindre forskelle i, hvor hurtigt karts kan styre fra en retning til en anden, men det giver ingen meningsfuld fordel til computerstyrede karts, og det er heller ikke meningen.
 
-Computerstyrede karts kan af og til have superhurtige reflekser, når de bruger powerups, men hvis et menneske trykker på højre knap på rette tid, kan han opnå samme resultat. Der er også råderum til at overgå den.
+Computerstyrede karts kan af og til have superhurtige reflekser, når de bruger powerups, men hvis et menneske trykker på den rette knap på det rette tid, så kan han opnå det samme resultat. Der er også god plads til at overgå dem.
 
 Hvis det er svært at slå de computerstyrede karts, så fokusér på at forbedre din kørsel, så du undgår sammenstød så meget som muligt ved høje hastigheder. Lær at bruge udskridning. På højere sværhedsgrader er udskridning essentielt for at kunne slå de computerstyrede karts.
 
