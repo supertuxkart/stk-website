@@ -87,7 +87,7 @@ Version 0.6 blev frigivet 22. januar 2009. Den havde væsentligt forbedret gamep
 
 Version 0.7 blev frigivet 20. december 2010. Den havde adskillige bemærkelsesværdige forbedringer som: Ny 3D-renderingsmaskine, Irrlicht, en ny GUI, nye kart- og baneanimationer, nye baner, karts og enheder/powerups og understøttelse af genveje/alternative veje. Versionerne 0.7.1, 0.7.2 og 0.7.3 blev frigivet kort efter med flere forbedringer.
 
-Version 0.8 blev frigivet december 2012 med tilføjelse af fortælletilstand, nye udfordringer, forbedret AI og udskridning, omvendt tilstand, nye baner og musik. Menuerne blev også forbedret. Den blev fulgt op af 0.8.1, der tilføjede og opdaterede baner, tilføjede fodbold og æggejagt tilstande og andre grafiske og gameplay udvidelser.
+Version 0.8 blev frigivet december 2012 med tilføjelse af fortælletilstand, nye udfordringer, forbedret computerstyrede karts og udskridning, omvendt tilstand, nye baner og musik. Menuerne blev også forbedret. Den blev fulgt op af 0.8.1, der tilføjede og opdaterede baner, tilføjede fodbold og æggejagt tilstande og andre grafiske og gameplay udvidelser.
 
 I 2015 frigav vi version 0.9. En banebrydende udgave drevet af en helt ny spillemaskine kaldet Antarctica, der tilføjede avancerede grafiske funktioner, som før ville have været umulige. Disse funktioner inkluderer dynamisk belysning, instansrendering (der muliggør en stor forøgelse af vegetation) og meget mere. 0.9 blev fulgt af tre punktfrigivelser, der tilføjede yderligere funktioner og nye baner.
 
