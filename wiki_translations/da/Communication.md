@@ -13,7 +13,7 @@ Udviklerne gør det, fordi de kan lide det. Ikke fordi du betaler dem. De får i
 ### Udviklerne arbejder kun i deres fritid
 De har måske ingen mulighed for at svare med det samme. Vær tålmodig. De vil svare på et tidspunkt. Hvis de ikke gør, så udfør en **venlig** 'bump' af dit indlæg. Det betyder også, at du hverken bør skrive betydningsløse indlæg eller ekstremt krævende ønsker.
 
-### Open-source betyder ikke altid, at dine tilføjelser eller forslag vil blive accepteret.
+### Open source betyder ikke altid, at dine tilføjelser eller forslag vil blive accepteret.
 Teamet er nødt til at bevare kvaliteten af kode og kunstværk. Det vil medføre, at dit arbejde undertiden ikke kan accepteres. Lad dig ikke afskrække. Teamet vil gladeligt give hjælp eller råd.
 
 ## Retningslinjer
