@@ -149,7 +149,7 @@ Snyder de computerstyrede karts?
 
 Nej!
 
-Hastighedsgrænser og hastighedsforøgelser er de samme for alle karts, AI eller menneskelig. På lavere sværhedsgrader sænker AI'en  måske også farten med vilje. Powerup-sandsynligheder i gavepakker er identiske. Der er mindre forskelle i, hvor hurtigt karts kan styre fra en retning til en anden, men det giver ingen meningsfuld fordel til AI'en, og det er heller ikke meningen.
+Hastighedsgrænser og hastighedsforøgelser er de samme for alle karts, computerstyrede eller mennesker. På lavere sværhedsgrader sænker computerstyrede karts måske også farten med vilje. Powerup-sandsynligheder i gavepakker er identiske. Der er mindre forskelle i, hvor hurtigt karts kan styre fra en retning til en anden, men det giver ingen meningsfuld fordel til computerstyrede karts, og det er heller ikke meningen.
 
 AI'en kan af og til have superhurtige reflekser, når den bruger powerups, men hvis et menneske trykker på højre knap på rette tid, kan han opnå samme resultat. Der er også råderum til at overgå den.
 
