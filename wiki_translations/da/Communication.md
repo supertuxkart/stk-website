@@ -43,7 +43,7 @@ Teamet er nødt til at bevare kvaliteten af kode og kunstværk. Det vil medføre
 
 ### Når du kommer med forslag til STK
 
-Det er et følsomt område. Selvfølgelig er vi nødt til at acceptere kritik og forslag. Hvis vi ikke gør det, vil det stå i modsætning til open source idealet: At software er til gavn for alle. Men hvornår bliver et forslag for meget? Her må vi også være på udkig efter konflikter med et andet open-source ideal: At alle bør bidrage, når det er muligt. Så når du kommer med forslag til STK, så spørg venligst dig selv om:
+Det er et følsomt område. Selvfølgelig er vi nødt til at acceptere kritik og forslag. Hvis vi ikke gør det, vil det stå i modsætning til open source idealet: At software er til gavn for alle. Men hvornår bliver et forslag for meget? Her må vi også være på udkig efter konflikter med et andet open source ideal: At alle bør bidrage, når det er muligt. Så når du kommer med forslag til STK, så spørg venligst dig selv om:
 
 * Har jeg bidraget til SuperTuxKart før?
   * Det kan være ved at donere, fremstille objekter, baner, strukturer osv. Tilføjelser fremmer også spillet.
