@@ -115,7 +115,7 @@ Nej! Mario Kart-serien er det bedst kendte racerkart-spil, men der har været ma
 
 Ældre udgaver af STK forsøgte at efterabe Mario Kart, men det har ikke været tilfældet i meget lang tid. Vi ser af og til på det for at få inspiration, som vi gør det med andre kartspil. Men det er alt.
 
-Udover de mange signifikante forskelle i gameplay udvikler SuperTuxKart sig på sin egen måde, og vi prøver ikke at tilpasse det tættere mod Mario Kart.
+Udover de mange store forskelle i gameplay udvikler SuperTuxKart sig på sin egen måde, og vi prøver ikke at få det til at være ligesom Mario Kart.
 
 {% end_liquid %}
 
@@ -238,7 +238,7 @@ Det sker af og til: Udviklerne bør vide det, og det burde hurtigt blive fikset.
 
 Hvordan låser jeg alle baner op?
 
-Idéen i spillet er, at du spiller historietilstanden og klarer alle udfordringer.
+Det er meningen at du i spillet skal spille fortælletilstand og klarer alle udfordringerne.
 
 Hvis du alligevel vil være en doven-Lars og låse alt op uden at klare udfordringerne, fordi det er alt for svært for dig, kan du SNYDE ved at rette i konfigurationsfilen. Først laver du tyve armbøjninger. Dernæst tyve mavebøjninger. Dernæst lærer du tifingersystemet, åbner folderen nævnt herover i spørgsmålet "Hvor er STK brugerkonfigurationsfilen", åbner underfolderen "config-0.10", åbner filen"players.xml". Erstat nu alle forekomster af "none" med "hard" (eller "easy" eller "medium", som viser det højeste niveau, du har 'løst' en udfordring - tsk tsk).
 
