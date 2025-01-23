@@ -48,7 +48,7 @@ GPU'en er normalt begrænsningen for STK's ydeevne. Kort, der opfylder minimumsk
 CPU-ydelse kan være flaskehalsen afhængig af grafikkort og grafikindstillinger, primært ved ved onlinespil der kræver mere af CPU'en. God CPU-ydelse hjælper med til at sikre høj framerate og endnu mere vigtigt, flydende grafik uden hakken. For STK er enkelttrådsydelse allervigtigst.
 
 * **Anbefalet**: Core i5-2400 enkelttrådsperformance eller bedre. Det omfatter AMD Ryzen desktop CPU'er, de fleste Intel desktop CPU'er efter 2012 og nyere middel- til høj-ydelse mobile CPU'er.
-* **Minimum**: Alle Intel eller AMD CPU'er med to kerne. Meget gamle modeller og lavfrekvens mobile CPU'er kan have det svært. Specielt ved online gaming.
+* **Minimum**: Alle Intel- eller AMD-CPU'er med to kerner. Meget gamle modeller og bærbare dele der er indstillet til at køre med lav frekvens kan have svært med at følge med. Specielt ved onlinegaming.
 
 **Andre forudsætninger**
 
