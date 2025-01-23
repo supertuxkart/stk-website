@@ -548,7 +548,7 @@ msgstr "ARM 64-bit"
 
 # All-in-one architectures for STK installer / packages
 msgid "all architectures"
-msgstr "Alle arkitekturer"
+msgstr "alle arkitekturer"
 
 msgid "Extract and run **run_game.sh** inside the folder."
 msgstr "Udpak og kør **run_game.sh** i folderen."
