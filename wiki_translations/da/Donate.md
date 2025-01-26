@@ -11,7 +11,7 @@ Hvis du kunne lide SuperTuxKart og gerne vil hjælpe projektet eller bare sige t
 
 Doneringer hjælper os med at forbedre spillet, da vi kan købe hardware, hosting af filer og distributioneringsservices, server til vært hjemmesider, betaling til kunstnerer for at fremstille forbedret kunst og mere. Du kan lære mere om vores politik [her](Donation_Policy).
 
-**Tøv ikke med at kontakte os, hvis du har spørgsmål eller problemer!**
+**Vent ikke med at kontakte os, hvis du har spørgsmål eller problemer!**
 
 SuperTuxKart bruger nu itch.io til at modtage donationer. Klik på "Download Now"-knappen og vælg dit doneringsbeløb.
 
