@@ -240,6 +240,7 @@ Hvordan låser jeg alle baner op?
 
 Det er meningen at du skal klare alle udfordringerne i fortælletilstand.
 
-Hvis du alligevel vil være en doven-Lars og låse alt op uden at klare udfordringerne, fordi det er alt for svært for dig, kan du SNYDE ved at rette i konfigurationsfilen. Først laver du tyve armbøjninger. Dernæst tyve mavebøjninger. Dernæst lærer du tifingersystemet, åbner folderen nævnt herover i spørgsmålet "Hvor er STK brugerkonfigurationsfilen", åbner underfolderen "config-0.10", åbner filen"players.xml". Erstat nu alle forekomster af "none" med "hard" (eller "easy" eller "medium", som viser det højeste niveau, du har 'løst' en udfordring - tsk tsk).
+Men hvis du vil låse op for alt, uden at spille fortælletilstand, så kan du også snyde ved at redigere en konfigurationsfil. Åbn mappen som nævnes ovenfor i spørgsmålet "Hvor gemmes konfigurationen?". Herfra åbnes mappen "config-0.10", og så åbnes filen "players.xml". Erstat alle forekomster af "none" med "hard" (eller "easy" eller "medium", som er det højeste niveau, du har gennemført udfordringen på).
+
 
 {% end_liquid %}
