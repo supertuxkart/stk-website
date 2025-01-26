@@ -175,7 +175,7 @@ Når du spiller med dit tastatur får du måske problemer, når flere taster sam
 
 {% start_liquid qa %}
 
-Jeg har mærkelige input-problemer
+Jeg oplever mærkelige problemer med input
 
 Det kan omfatte, at karten altid trækker til venstre eller tilfældigt bremser eller en anden mærkværdighed, hvor spillet ser ud til at tro, at du trykker en tast ned, når du ikke gør det. Hvis det sker så prøv at gå til indstillinger på inputskærmen og check om du har gamepads der. Prøv at slå alle gamepads fra undtagen den enhed, du bruger. Af og til kommer falsk input fra gamepads eller lignende enheder, som OS ser som en gamepad.
 
