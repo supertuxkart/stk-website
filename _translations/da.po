@@ -203,7 +203,7 @@ msgid "Making challenges"
 msgstr "Fremstilling af udfordringer"
 
 msgid "About releasing new versions"
-msgstr "Om at frigive nye versioner"
+msgstr "Om at udgive nye versioner"
 
 msgid "About player rankings"
 msgstr "Om spillerplaceringer"
