@@ -228,7 +228,7 @@ Du kan også holde øje med outputtet i terminalen, for at se om der er en bemæ
 
 {% start_liquid qa %}
 
-Git-versionen vil ikke kompilere. Hvad kan jeg gøre?
+Git-versionen vil ikke kompilere. Hvad gør jeg?
 
 Det sker af og til: Udviklerne bør vide det, og det burde hurtigt blive fikset. Hvis [GitHub Actions](https://github.com/supertuxkart/stk-code/actions) siger, at den nuværende GIT-version kompilerer, men det ikke fungerer for dig, er der sandsynligvis noget galt med din kompileropsætning. (Check om du har alle afhængigheder på plads, kør CMake igen, skrig lidt mens du hopper op og ned og trækker i dine hår ... Rækkefølgen kan være vigtig.)
 
