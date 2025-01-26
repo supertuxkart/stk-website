@@ -38,7 +38,7 @@ Hvad er hardwarekravene?
 
 **GPU**
 
-GPU'en er normalt begrænsningen for STK's ydeevne. Kort, der opfylder minimumskravene, har OpenGL-understøttelse til at køre spillet, men kræver lav opløsning og lav grafik for at spille flydende. Kort, der opfylder eller overstiger de anbefalede krav, kan køre STK's mest krævende bane ved 60 FPS/1080p med den moderne renderingspipeline på grafik 4.
+GPU'en er normalt begrænsningen for STK's ydelse. Kort, der opfylder minimumskravene, har OpenGL-understøttelse til at køre spillet, men kræver lav opløsning og lav grafik for at spille flydende. Kort, der opfylder eller overstiger de anbefalede krav, kan køre STK's mest krævende bane ved 60 FPS/1080p med den moderne gengivelsespipeline på grafik 4.
 
 * **Anbefalet**: NVIDIA GeForce GTX 950, AMD Radeon RX 460 eller bedre. Mindst 1 GB VRAM (videohukommelse).
 * **Minimum**: NVIDIA GeForce 470 GTX, AMD Radeon 6870 HD-serie kort eller Intel HD Graphics 4000. Mindst 512 MB VRAM (videohukommelse).
