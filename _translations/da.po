@@ -536,10 +536,10 @@ msgid "Full game"
 msgstr "Hele spillet"
 
 msgid "Intel / AMD 32-bit"
-msgstr "Intel / AMD 32-bit"
+msgstr "Intel/AMD 32-bit"
 
 msgid "Intel / AMD 64-bit"
-msgstr "Intel / AMD 64-bit"
+msgstr "Intel/AMD 64-bit"
 
 msgid "ARM 32-bit"
 msgstr "ARM 32-bit"
