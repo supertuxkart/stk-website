@@ -217,7 +217,7 @@ Hvor gemmes konfigurationen?
 
 * I **Windows**: den er i `%APPDATA%/supertuxkart/config-0.10` (du kan skrive det ind i Stifinder for at komme derhen).
 * I **Linux**: den er enten i `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (første valg), `~/.config/supertuxkart/config-0.10` (andet valg) eller i `~/.supertuxkart/config-0.10` (tredje valg).
-* I **macOS**: er det i `~/Library/Application Support/supertuxkart/config-0.10`. Bemærk at mappen måske er skjult.
+* I **macOS**: den er i `~/Library/Application Support/supertuxkart/config-0.10`. Bemærk at mappen kan være skjult.
 * På **Android**: Er det i `/storage/emulated/0/Android/data/org.supertuxkart.stk/files/supertuxkart/home/supertuxkart/config-0.10`.
 * Med **Snap**: Er det i `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
 * Med **Flatpak**: Er det i `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
