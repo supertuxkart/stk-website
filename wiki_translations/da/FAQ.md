@@ -40,14 +40,14 @@ Hvad er hardwarekravene?
 
 GPU'en er normalt begrænsningen for STK's ydelse. Kort, der opfylder minimumskravene, har OpenGL-understøttelse til at køre spillet, men kræver lav opløsning og lav grafik for at spille flydende. Kort, der opfylder eller overstiger de anbefalede krav, kan køre STK's mest krævende bane ved 60 FPS/1080p med den moderne gengivelsespipeline på grafik 4.
 
-* **Anbefalede**: NVIDIA GeForce GTX 950, AMD Radeon RX 460 eller bedre. Mindst 1 GB VRAM (videohukommelse).
+* **Anbefalet**: NVIDIA GeForce GTX 950, AMD Radeon RX 460 eller bedre. Mindst 1 GB VRAM (videohukommelse).
 * **Minimum**: NVIDIA GeForce 470 GTX, AMD Radeon 6870 HD-serie kort eller Intel HD Graphics 4000. Mindst 512 MB VRAM (videohukommelse).
 
 **CPU**
 
 CPU-ydelse kan være flaskehalsen afhængig af grafikkort og grafikindstillinger, primært ved onlinespil der kræver mere af CPU'en. God CPU-ydelse hjælper med til at sikre høj framerate og endnu mere vigtigt, flydende grafik uden hakken. For STK er enkelttrådsydelse allervigtigst.
 
-* **Anbefalede**: Core i5-2400 enkelttrådsperformance eller bedre. Det omfatter AMD Ryzen desktop CPU'er, de fleste Intel desktop CPU'er efter 2012 og nyere middel- til høj-ydelse mobile CPU'er.
+* **Anbefalet**: Core i5-2400 enkelttrådsperformance eller bedre. Det omfatter AMD Ryzen desktop CPU'er, de fleste Intel desktop CPU'er efter 2012 og nyere middel- til høj-ydelse mobile CPU'er.
 * **Minimum**: Alle Intel- eller AMD-CPU'er med to kerner. Meget gamle modeller og bærbare dele der er indstillet til at køre med lav frekvens kan have svært med at følge med. Specielt ved onlinegaming.
 
 **Andre forudsætninger**
