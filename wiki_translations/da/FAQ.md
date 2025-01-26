@@ -57,7 +57,7 @@ CPU-ydelsen kan være begrænsningen afhængig af grafikkort og grafikindstillin
 
 **Valgfrit**
 
-* (Hvis du foretrækker at spille med et joystick.) Et joystick med mindst 6 knapper.
+* Et joystick med mindst 6 knapper (hvis du foretrækker at spille med et joystick).
 
 {% end_liquid %}
 
