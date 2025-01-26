@@ -358,7 +358,7 @@ msgid ""
 " which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
 msgstr ""
 "Wilber er den officielle kameramand, der arbejder for WTXB-TV med at optage "
-"kartracerløb. De er meget populære i maskotkongeriget. Han er maskot for "
+"kartracerløb. De er meget populære i maskotkongeriget. Han er maskotten for "
 "GIMP."
 
 msgid "Puffy"
