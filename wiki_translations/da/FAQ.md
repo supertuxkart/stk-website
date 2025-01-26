@@ -238,7 +238,7 @@ Det sker af og til: Udviklerne bør vide det, og det burde hurtigt blive fikset.
 
 Hvordan låser jeg alle baner op?
 
-Det er meningen at du i spillet skal spille fortælletilstand og klarer alle udfordringerne.
+Det er meningen at du skal klare alle udfordringerne i fortælletilstand.
 
 Hvis du alligevel vil være en doven-Lars og låse alt op uden at klare udfordringerne, fordi det er alt for svært for dig, kan du SNYDE ved at rette i konfigurationsfilen. Først laver du tyve armbøjninger. Dernæst tyve mavebøjninger. Dernæst lærer du tifingersystemet, åbner folderen nævnt herover i spørgsmålet "Hvor er STK brugerkonfigurationsfilen", åbner underfolderen "config-0.10", åbner filen"players.xml". Erstat nu alle forekomster af "none" med "hard" (eller "easy" eller "medium", som viser det højeste niveau, du har 'løst' en udfordring - tsk tsk).
 
