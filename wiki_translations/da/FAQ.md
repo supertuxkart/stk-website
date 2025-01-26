@@ -63,7 +63,7 @@ CPU-ydelsen kan være begrænsningen afhængig af grafikkort og grafikindstillin
 
 {% start_liquid qa %}
 
-Min computer er for gammel til at køre SuperTuxKart. Hvad skal jeg gøre?
+Min computer er for gammel til at køre SuperTuxKart. Hvad gør jeg?
 
 Du kan prøve, om det fungerer for dig. STK kan falde tilbage til en rendering, der kun bruger OpenGL 2.1 / GLES2 / DirectX 9, der burge fungere på de fleste enheder. Men det har ingen moderne renderingsstyring.
 
