@@ -103,7 +103,7 @@ August 2020 blev version 1.2 frigivet. Med forbedret gamepad-understøttelse via
 
 September 2021 blev den seneste version 1.3 frigivet. Den indehold opdateringer til mange officielle karts.
 
-For flere detaljer, se venligst [ændringsloggen](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), [blogindlægget](https://blog.supertuxkart.net) eller listen med rettede fejl på STK's GitHub.
+For flere detaljer, se venligst [ændringsloggen](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), [blogindlægget](https://blog.supertuxkart.net) eller listen med løste problemstillinger på STK's GitHub.
 
 {% end_liquid %}
 
