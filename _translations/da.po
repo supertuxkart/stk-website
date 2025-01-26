@@ -322,7 +322,7 @@ msgid ""
 "pagoda. When Nolok captures him, the entire kingdom will try to save him. "
 "Gnu is the mascot of the GNU Project."
 msgstr ""
-"Tux's vise mentor Gnu svæver på et flyvende tæppe, og lever fredeligt i en "
+"Tux's vise mentor Gnu sidder på et flyvende tæppe, og lever fredeligt i en "
 "pagode. Når Nolok fanger ham, vil hele kongeriget forsøge at redde ham. Gnu "
 "er maskotten for GNU-projektet."
 
