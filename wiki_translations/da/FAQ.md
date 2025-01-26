@@ -50,7 +50,7 @@ CPU-ydelsen kan være begrænsningen afhængig af grafikkort og grafikindstillin
 * **Anbefalet**: Core i5-2400 enkelttrådsperformance eller bedre. Det omfatter AMD Ryzen desktop CPU'er, de fleste Intel desktop CPU'er efter 2012 og nyere middel- til høj-ydelse mobile CPU'er.
 * **Minimum**: Alle Intel- eller AMD-CPU'er med to kerner. Meget gamle modeller og bærbare dele der er indstillet til at køre med lav frekvens kan have svært med at følge med. Specielt ved onlinegaming.
 
-**Andre forudsætninger**
+**Andre krav**
 
 * Mindst 1 GB fri hukommelse
 * 700 MB diskplads
