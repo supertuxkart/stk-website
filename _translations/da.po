@@ -312,7 +312,7 @@ msgid ""
 "Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
 msgstr ""
 "Helten i SuperTuxKart. Tux er en modig pingvin, der skal redde sin ven Gnu "
-"fra Noloks onde kløer. Tux er maskotten for Linux."
+"fra Nolok's onde kløer. Tux er maskotten for Linux."
 
 msgid "Gnu"
 msgstr "Gnu"
