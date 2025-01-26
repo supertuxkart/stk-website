@@ -262,7 +262,7 @@ msgid "3D Model Guidelines"
 msgstr "Retningslinjer til 3D-modeller"
 
 msgid "Music and SFX Guidelines"
-msgstr "Retningslinjer til musik og SFX"
+msgstr "Retningslinjer til musik og lydeffekter"
 
 msgid "File naming conventions"
 msgstr "Filnavngivningskonventioner"
