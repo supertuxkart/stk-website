@@ -67,7 +67,7 @@ msgid "Language"
 msgstr "Sprog"
 
 msgid "Management"
-msgstr "Behandling"
+msgstr "Håndtering"
 
 msgid "New page"
 msgstr "Ny side"
