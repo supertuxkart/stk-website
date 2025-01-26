@@ -207,7 +207,7 @@ Tekniske spørgsmål
 
 Jeg fandt en fejl. Hvordan kontakter jeg dig?
 
-Se først på [STK bug tracker](https://github.com/supertuxkart/stk-code/issues) og åbn en ny problemstilling, hvis dit problem ikke er blevet inrapporteret.
+Se først på [STK bug tracker](https://github.com/supertuxkart/stk-code/issues) og åbn en ny problemstilling, hvis dit problem ikke er blevet indrapporteret.
 
 {% end_liquid %}
 
