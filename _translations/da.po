@@ -200,7 +200,7 @@ msgid "Misc"
 msgstr "Diverse"
 
 msgid "Making challenges"
-msgstr "Oprette udfordringer"
+msgstr "Fremstilling af udfordringer"
 
 msgid "About releasing new versions"
 msgstr "Om at frigive nye versioner"
