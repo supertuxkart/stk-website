@@ -576,7 +576,7 @@ msgstr ""
 "[kildekodestyring](Source_control)-siden."
 
 msgid "Download from GitHub"
-msgstr "Hent fra GitHub"
+msgstr "Download fra GitHub"
 
 # Toggle for table of contents
 msgid "Show"
