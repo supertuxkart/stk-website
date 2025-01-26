@@ -79,7 +79,7 @@ msgid "Page history"
 msgstr "Sidehistorik"
 
 msgid "Visit the main page"
-msgstr "Besøg hjemmesiden"
+msgstr "Besøg startsiden"
 
 msgid "Forum"
 msgstr "Forum"
