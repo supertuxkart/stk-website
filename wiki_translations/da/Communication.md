@@ -27,7 +27,7 @@ Teamet er nødt til at bevare kvaliteten af kode og kunstværk. Det vil medføre
   * Gør titlen tydelig og beskrivende - på ENGELSK.
   * Inkludér en detaljeret beskrivelse af problemet. Trin for trin instruktioner til pålidelig genskabelse af problemet er særligt hjælpsomme. Igen på ENGELSK.
   * Inkludér systeminformation som dit operativsystem, operativsystemsversionsnummer, CPU-model, grafikprocessor (GPU) model og mærke og grafikdriverversion.
-  * Inkludér stdout.log filen. (Se "Hvor gemmer STK brugerkonfigurationsfilen" på [FAQ](FAQ) websiden for information om filplacering.)
+  * Inkludér stdout.log filen. (Se "Hvor gemmes konfigurationen?" på [FAQ](FAQ) websiden for information om filplacering.)
   * Inkludér skærmbilleder om nødvendigt.
   * Hvis du selv kan kompilere STK og køre det i en debugger (som GDB, Valgrind eller Visual Studio Debugger), så kan det hjælpe, hvis du kompilerer STK i debug-tilstand, kører det, og sender output med fra debuggeren.
   * Inkludér al anden relevant information.
