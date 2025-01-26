@@ -213,7 +213,7 @@ Se først på [STK bug tracker](https://github.com/supertuxkart/stk-code/issues)
 
 {% start_liquid qa %}
 
-Hvor er opsætningen gemt?
+Hvor gemmes konfigurationen?
 
 * I **Windows**: er det i `%APPDATA%/supertuxkart/config-0.10`. (Du kan skrive det ind i Explorer, og det vil tage dig derhen.)
 * I **Linux**: er det enten i `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (første valg), `~/.config/supertuxkart/config-0.10` (andet valg) eller i `~/.supertuxkart/config-0.10` (tredje valg).
