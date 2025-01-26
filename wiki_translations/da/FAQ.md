@@ -121,7 +121,7 @@ Udover de mange store forskelle i gameplay udvikler SuperTuxKart sig på sin ege
 
 {% start_liquid qa %}
 
-Jeg vil gerne hjælpe! Hvad kan jeg gøre?
+Jeg vil gerne hjælpe! Hvad gør jeg?
 
 Prøv først at se på [deltag](Community)-siden. Den bør have al information, du behøver, til at gå i gang med kodning, modellering, design eller hvad du har lyst til at gøre.
 
