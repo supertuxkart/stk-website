@@ -238,7 +238,7 @@ Det sker af og til: Udviklerne bør vide det, og det burde hurtigt blive fikset.
 
 Hvordan låser jeg alle baner op?
 
-Det er meningen at du skal klare alle udfordringerne i fortælletilstand.
+Det er hensigten med spillet at du skal gennemføre alle udfordringerne i fortælletilstand.
 
 Men hvis du vil låse op for alt, uden at spille fortælletilstand, så kan du også snyde ved at redigere en konfigurationsfil. Åbn mappen som nævnes ovenfor i spørgsmålet "Hvor gemmes konfigurationen?". Herfra åbnes mappen "config-0.10", og så åbnes filen "players.xml". Erstat alle forekomster af "none" med "hard" (eller "easy" eller "medium", som er det højeste niveau, du har gennemført udfordringen på).
 
