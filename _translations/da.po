@@ -265,7 +265,7 @@ msgid "Music and SFX Guidelines"
 msgstr "Retningslinjer til musik og lydeffekter"
 
 msgid "File naming conventions"
-msgstr "Filnavngivningskonventioner"
+msgstr "Konventioner for navngivning af filer"
 
 # In Community page
 msgid "Creating"
