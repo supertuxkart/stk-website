@@ -594,7 +594,7 @@ msgstr ""
 "code/releases/preview)."
 
 msgid "Get the latest release candidate:"
-msgstr "Hent den senere udgivelseskandidat:"
+msgstr "Hent den seneste udgivelseskandidat:"
 
 msgid "Get SuperTuxKart on Itch.io"
 msgstr "Hent SuperTuxKart på Itch.io"
