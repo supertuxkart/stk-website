@@ -612,7 +612,7 @@ msgstr "Forudsætninger"
 
 msgid ""
 "You should read the following articles prior to following this tutorial:"
-msgstr "Du bør læse disse artikler, før du følger denne denne vejledning:"
+msgstr "Læs følgende artikler, inden du følger vejledningen:"
 
 msgid "Click here if you are not redirected."
 msgstr "Klik her, hvis du ikke bliver omdirigeret."
