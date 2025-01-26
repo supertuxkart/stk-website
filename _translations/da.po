@@ -219,7 +219,7 @@ msgid "Translating SuperTuxKart"
 msgstr "Oversæt SuperTuxKart"
 
 msgid "Reporting Problems"
-msgstr "Indrapportér problemer"
+msgstr "Rapportér problemer"
 
 msgid "Voice Acting"
 msgstr "Stemmeskuespil"
