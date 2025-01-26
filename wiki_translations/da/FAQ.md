@@ -222,7 +222,7 @@ Hvor gemmes konfigurationen?
 * Med **Snap**: Er det i `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
 * Med **Flatpak**: Er det i `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
-Du kan også se output på terminalen for at undersøge, om der er et notat om, hvor konfigurationsfiler lagres, eller du kan søge efter filen "config.xml".
+Du kan også holde øje med outputtet i terminalen, for at se om der er en bemærkning om, hvor konfigurationsfilerne gemmes, eller du kan søge efter filen "config.xml".
 
 {% end_liquid %}
 
