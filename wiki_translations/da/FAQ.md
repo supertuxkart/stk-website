@@ -220,7 +220,7 @@ Hvor gemmes konfigurationen?
 * I **macOS**: den er i `~/Library/Application Support/supertuxkart/config-0.10`. Bemærk at mappen kan være skjult.
 * I **Android**: den er i `/storage/emulated/0/Android/data/org.supertuxkart.stk/files/supertuxkart/home/supertuxkart/config-0.10`.
 * Med **Snap**: den er i `~/snap/supertuxkart/current/.config/supertuxkart/config-0.10`.
-* Med **Flatpak**: Er det i `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
+* Med **Flatpak**: den er i `~/.var/app/net.supertuxkart.SuperTuxKart/config/supertuxkart/config-0.10`.
 
 Du kan også holde øje med outputtet i terminalen, for at se om der er en bemærkning om, hvor konfigurationsfilerne gemmes, eller du kan søge efter filen "config.xml".
 
