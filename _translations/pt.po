@@ -51,7 +51,7 @@ msgid "FAQ"
 msgstr "Perguntas Frequentes"
 
 msgid "Get Involved"
-msgstr "Participe"
+msgstr "Envolve-te"
 
 msgid "Blog"
 msgstr "Blogue"
