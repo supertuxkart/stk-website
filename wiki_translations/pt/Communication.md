@@ -2,7 +2,7 @@
 title: Comunicação
 toc: true
 ---
-Antes de contactares a equipa, reportares um bug, postar nos fórums, etc, Deves ler cuidadosamente esta página. Seguindo estas diretrizes e instruções fará a comunidade e o projeto funcione mais eficientemente e em alegria! Apesar de soar duro, por favor não tenhas medo de postar. A equipa é geralmente muito paciente, a não ser que sejas um infrator. ;)
+Antes que vás contactar a equipa, reportar um bug, postar nos fórums etc., deves ler cuidadosamente esta página. Seguir estas diretrizes e instruções fará a comunidade e o projeto funcionarem mais eficientemente e em alegria! Apesar de este artigo soar um pouco duro, por favor não tenhas medo de postar. A equipa é geralmente muito paciente, a não ser que sejas um infrator recorrente. ;)
 
 ## Por favor, tem em mente...
 
