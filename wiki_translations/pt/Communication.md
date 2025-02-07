@@ -46,7 +46,7 @@ A equipa têm de manter a qualidade do código e da arte. Isto pode significar q
 Este é um tópico sensível. Cláro que precisamos de aceitar criticismo e sugestões — e se não o fizermos, seria o contrário ideal de um open-source: que o software é para o beneficio de todos. Mas quando é que um pedido se torna demais? Para isso devemos estar atentos a conflitos com um ideal open-source: todos devem contribuir onde possivel. Portanto, antes de fazerem um sugestão para o STK, por favor façam estas perguntas a vós mesmos:
 
 * Já fiz alguma contribuição para o SuperTuxKart?
-  * Isto pode ser doações, fazer objetos, pistas, texturas, etc. Até add-ons ajudam o jogo.
+  * Isto pode ser doar, fazer objetos, pistas, texturas, etc. Até extensões ajudam o jogo.
 * Se podesse fazer o que peço, estaria disposto a o fazer?
 * Compreendo o esforço necessário para fazer esta tarefa?
 * Eu pelo menos expresso suporte pela equipa e o seu trabalho?
