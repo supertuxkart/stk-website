@@ -51,4 +51,4 @@ Este é um tópico sensível. Cláro que precisamos de aceitar criticismo e suge
 * Compreendo o esforço necessário para fazer esta tarefa?
 * Eu pelo menos expresso suporte pela equipa e o seu trabalho?
 * Fiz muitos pedidos de recursos recentemente?
-  * Isto poderá soar mundano, mas isto é um sinal de que respeitas o trabalho da equipa. Se respeitares o seu trabalho, irás reclamar menos.
+  * Isto poderá soar mundano, mas é um sinal de que respeitas o trabalho da equipa. Se respeitares o seu trabalho, possivelmente reclamarás menos.
