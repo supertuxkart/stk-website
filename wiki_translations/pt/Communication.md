@@ -22,7 +22,7 @@ A equipa têm de manter a qualidade do código e da arte. Isto pode significar q
 
 * Se o bug já foi reportado no [GitHub](https://github.com/supertuxkart/stk-code/issues?q=is%3Aissue):
   * Se a discussão do bug estiver aberta, verifica se podem reportar mais informações para a equipa
-  * Se a discussão do bug estiver fechada, provavelmente terás de esperar pelo próximo lançamento para que as correções sejam incluídas no jogo, a não ser que queiras construir o jogo com a fonte.
+  * Se a discussão do bug estiver fechada, provavelmente terás de esperar pelo próximo lançamento para que as correções sejam incluídas no jogo, a não ser que queiras construir o jogo a partir da fonte.
 * Se o bug não foi reportado:
   * Usa um título claro e descritivo.
   * Incluiem uma explicação detalhada do problema. Instruções passo-a-passo de como reproduzir o problema são muito úteis.
