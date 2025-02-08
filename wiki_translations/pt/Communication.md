@@ -11,7 +11,7 @@ Antes que vás contactar a equipa, reportar um bug, postar nos fórums etc., dev
 Os desenvolvedores fazem isto porque gostam, não porque lhes pagam. Não são pagos para te agradar, mas tentarão ter as tuas sugestões em conta se possível.
 
 ### Os desenvolvedores só trabalham no tempo livre
-Eles poderam não responder de imediato. Sejam pacientes — eles irão responder mais cedo ou mais tarde. E se não o fizerem, **educadamente** comentem no mesmo post para o trazer ao topo. Isto também significa que não devem fazer pedidos desnecessárias sem importância, ou demasiado exigentes.
+Poderão não responder de imediato. Sê paciente — eles responderão mais cedo ou mais tarde. E, se não o fizerem, **educadamente** comenta no mesmo post para o trazer ao topo. Isto também significa que não deves fazer pedidos triviais sem importância, nem pedidos extremamente exigentes.
 
 ### Open-source não significa que as vossas contribuições serão sempre aceites
 A equipa têm de manter a qualidade do código e da arte. Isto pode significar que o vosso trabalho seja recusado. Por favor não sejam timidos — a equipa estará ao dispor de ajudar ou de dar conselhos.
