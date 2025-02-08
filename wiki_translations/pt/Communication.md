@@ -21,7 +21,7 @@ A equipa tem de manter a qualidade do código e da arte. Isto poderá implicar q
 ### Quando reportas um bug ou crash no jogo
 
 * Se o bug já foi reportado no [GitHub](https://github.com/supertuxkart/stk-code/issues?q=is%3Aissue):
-  * Se a discussão do bug estiver aberta, verifica se podem reportar mais informações para a equipa
+  * Se a discussão do bug estiver aberta, verifica se podes reportar mais informações para a equipa.
   * Se a discussão do bug estiver fechada, provavelmente terás de esperar pelo próximo lançamento para que as correções sejam incluídas no jogo, a não ser que queiras construir o jogo a partir da fonte.
 * Se o bug não foi reportado:
   * Usa um título claro e descritivo.
