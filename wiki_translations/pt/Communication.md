@@ -14,7 +14,7 @@ Os desenvolvedores fazem isto porque gostam, não porque lhes pagam. Não são p
 Poderão não responder de imediato. Sê paciente — eles responderão mais cedo ou mais tarde. E, se não o fizerem, **educadamente** comenta no mesmo post para o trazer ao topo. Isto também significa que não deves fazer pedidos triviais sem importância, nem pedidos extremamente exigentes.
 
 ### Ser "código aberto" não significa que as tuas contribuições serão sempre aceites
-A equipa têm de manter a qualidade do código e da arte. Isto pode significar que o vosso trabalho seja recusado. Por favor não sejam timidos — a equipa estará ao dispor de ajudar ou de dar conselhos.
+A equipa tem de manter a qualidade do código e da arte. Isto poderá implicar que o teu trabalho não seja aceite. E, por favor, não te deixes desanimar — a equipa estará ao dispor para ajudar ou dar conselhos.
 
 ## Diretrizes
 
