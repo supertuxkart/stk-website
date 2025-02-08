@@ -13,7 +13,7 @@ Os desenvolvedores fazem isto porque gostam, não porque lhes pagam. Não são p
 ### Os desenvolvedores só trabalham no tempo livre
 Poderão não responder de imediato. Sê paciente — eles responderão mais cedo ou mais tarde. E, se não o fizerem, **educadamente** comenta no mesmo post para o trazer ao topo. Isto também significa que não deves fazer pedidos triviais sem importância, nem pedidos extremamente exigentes.
 
-### Open-source não significa que as vossas contribuições serão sempre aceites
+### Ser "código aberto" não significa que as tuas contribuições serão sempre aceites
 A equipa têm de manter a qualidade do código e da arte. Isto pode significar que o vosso trabalho seja recusado. Por favor não sejam timidos — a equipa estará ao dispor de ajudar ou de dar conselhos.
 
 ## Diretrizes
