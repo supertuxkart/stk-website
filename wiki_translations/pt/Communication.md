@@ -8,7 +8,7 @@ Antes que vás contactar a equipa, reportar um bug, postar nos fórums etc., dev
 
 ### Os desenvolvedores não são pagos
 
-Os desenvolvedores fazem isto porque gostam de o fazer, não porque vocês os pagam. Não são pagos para vos dar prazer, mas tentaram notar as vossas sugestões se for possivel.
+Os desenvolvedores fazem isto porque gostam, não porque lhes pagam. Não são pagos para te agradar, mas tentarão ter as tuas sugestões em conta se possível.
 
 ### Os desenvolvedores só trabalham quando estão livres.
 Eles poderam não responder de imediato. Sejam pacientes — eles irão responder mais cedo ou mais tarde. E se não o fizerem, **educadamente** comentem no mesmo post para o trazer ao topo. Isto também significa que não devem fazer pedidos desnecessárias sem importância, ou demasiado exigentes.
