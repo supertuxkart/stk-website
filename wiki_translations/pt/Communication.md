@@ -26,7 +26,7 @@ A equipa tem de manter a qualidade do código e da arte. Isto poderá implicar q
 * Se o bug não foi reportado:
   * Usa um título claro e descritivo.
   * Inclui uma explicação detalhada do problema. Instruções passo-a-passo de como reproduzir fielmente o problema são especialmente úteis.
-  * Incluiem as informações do vosso sistema como o operador do sistema, a sua versão, o modelo processador de gráficos (GPU) e marca, a versão do driver de gráficos, e o modelo do CPU.
+  * Inclui informações do teu sistema como o sistema operativo e a sua versão, o modelo e fabricante do processador gráfico (GPU), a versão do driver de gráficos e o modelo do CPU.
   * Incluiem o ficheiro stdout.log. (Vê "Onde é que o STK guarda o ficheiro de configuração do utilizador" na página [FAQ](FAQ) para mais informações sobre a localização do ficheiro.)
   * Incluiem fotos de ecrã, se necessário.
   * Se forem capazes de compilar o STK vós própios e inicia-lo em um depurador (como GDB, Valgrind, ou Visual Studio Debugger), por favor compilem o jogo no mode de depuração e postem a saída do depurador.
