@@ -47,7 +47,7 @@ Este é um tópico sensível. É claro que precisamos de acolher críticas e sug
 
 * Já fiz alguma contribuição para o SuperTuxKart?
   * Isto pode ser doar, fazer objetos, pistas, texturas, etc. Até extensões ajudam o jogo.
-* Se podesse fazer o que peço, estaria disposto a o fazer?
+* Se eu pudesse fazer o que peço, estaria disposto a fazê-lo?
 * Compreendo o esforço necessário para fazer esta tarefa?
 * Eu pelo menos expresso suporte pela equipa e o seu trabalho?
 * Fiz muitos pedidos de recursos recentemente?
