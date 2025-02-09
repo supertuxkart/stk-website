@@ -39,7 +39,7 @@ A equipa tem de manter a qualidade do código e da arte. Isto poderá implicar q
 * Indica explicitamente a licença. (Consulta [Licenciamento](Licensing) para opções.)
 * Acolhe as críticas e vê o que podes fazer para melhorar a tua arte.
 * Discute com a equipa durante o processo de criação para receberes feedback.
-* Sejam claros quando a tua contribuição é final ou um trabalho-em-progresso.
+* Deixa claro se a tua contribuição é final ou um trabalho em curso.
 
 ### Quando sugerir algo para o STK:
 
