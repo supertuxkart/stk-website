@@ -33,7 +33,7 @@ A equipa tem de manter a qualidade do código e da arte. Isto poderá implicar q
   * Inclui outras informações que consideres necessárias.
   * Responde a todas as perguntas da equipa da forma mais completa possível.
 
-### Quando apresentando um recurso ou outra contribuição de arte
+### Quando apresentas um recurso ou outra contribuição de arte
 
 * Forneçam os ficheiros fonte (.kra, .xcf, .blend, etc.).
 * Claramente ditem a licença. (Vê[Licenciamento](Licensing) para opções.)
