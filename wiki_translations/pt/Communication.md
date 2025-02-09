@@ -51,4 +51,4 @@ Este é um tópico sensível. É claro que precisamos de acolher críticas e sug
 * Compreendo o esforço necessário para fazer esta tarefa?
 * Será que, no mínimo, manifesto o meu apoio à equipa e ao trabalho que fazem?
 * Tenho feito muitos pedidos de funcionalidades ultimamente?
-  * Isto poderá soar banal, mas é sinal de que respeitas o trabalho da equipa. Se respeitares o seu trabalho, é possível que te queixes menos.
+  * Isto poderá soar banal, mas é sinal de que respeitas o trabalho da equipa. Se respeitares o seu trabalho, possivelmente reclamarás menos.
