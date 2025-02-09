@@ -31,7 +31,7 @@ A equipa tem de manter a qualidade do código e da arte. Isto poderá implicar q
   * Inclui capturas de ecrã, se necessário.
   * Se fores capaz de compilar por ti mesmo o STK e corrê-lo sob um depurador (tipo o GDB, o Valgrind ou o depurador do Visual Studio), por favor compila o STK no modo de depuração, corre-o e posta o resultado de saída do depurador.
   * Inclui outras informações que consideres necessárias.
-  * Respondam às perguntas da equipa o mais completo que conseguirem.
+  * Responde a todas as perguntas da equipa da forma mais completa possível.
 
 ### Quando apresentando um recurso ou outra contribuição de arte
 
