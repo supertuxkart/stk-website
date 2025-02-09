@@ -50,5 +50,5 @@ Este é um tópico sensível. É claro que precisamos de acolher críticas e sug
 * Se eu pudesse fazer o que peço, estaria disposto a fazê-lo?
 * Compreendo o esforço necessário para fazer esta tarefa?
 * Será que, no mínimo, manifesto o meu apoio à equipa e ao trabalho que fazem?
-* Fiz muitos pedidos de recursos recentemente?
+* Tenho feito muitos pedidos de funcionalidades ultimamente?
   * Isto poderá soar mundano, mas é um sinal de que respeitas o trabalho da equipa. Se respeitares o seu trabalho, possivelmente reclamarás menos.
