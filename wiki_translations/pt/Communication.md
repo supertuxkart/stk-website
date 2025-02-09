@@ -28,7 +28,7 @@ A equipa tem de manter a qualidade do código e da arte. Isto poderá implicar q
   * Inclui uma explicação detalhada do problema. Instruções passo-a-passo de como reproduzir fielmente o problema são especialmente úteis.
   * Inclui informações do teu sistema como o sistema operativo e a sua versão, o modelo e fabricante do processador gráfico (GPU), a versão do driver de gráficos e o modelo do CPU.
   * Inclui o ficheiro stdout.log. (Consulta "Onde fica armazenada a configuração do jogo" na página [Perguntas Frequentes](FAQ) para informações sobre a localização deste ficheiro.)
-  * Incluiem fotos de ecrã, se necessário.
+  * Inclui capturas de ecrã, se necessário.
   * Se forem capazes de compilar o STK vós própios e inicia-lo em um depurador (como GDB, Valgrind, ou Visual Studio Debugger), por favor compilem o jogo no mode de depuração e postem a saída do depurador.
   * Incluem outras informações que achem que devem ser descritas.
   * Respondam às perguntas da equipa o mais completo que conseguirem.
