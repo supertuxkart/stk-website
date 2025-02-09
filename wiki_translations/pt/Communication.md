@@ -38,7 +38,7 @@ A equipa tem de manter a qualidade do código e da arte. Isto poderá implicar q
 * Fornece os ficheiros fonte (.kra, .xcf, .blend, etc.).
 * Indica explicitamente a licença. (Consulta [Licenciamento](Licensing) para opções.)
 * Acolhe as críticas e vê o que podes fazer para melhorar a tua arte.
-* Discutem com a equipa durante o processo de criação para receber feedback.
+* Discute com a equipa durante o processo de criação para receber feedback.
 * Sejam claros quando a tua contribuição é final ou um trabalho-em-progresso.
 
 ### Quando sugerir algo para o STK:
