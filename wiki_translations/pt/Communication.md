@@ -49,6 +49,6 @@ Este é um tópico sensível. É claro que precisamos de acolher críticas e sug
   * Isto pode ser doar, fazer objetos, pistas, texturas, etc. Até extensões ajudam o jogo.
 * Se eu pudesse fazer o que peço, estaria disposto a fazê-lo?
 * Compreendo o esforço necessário para fazer esta tarefa?
-* Eu pelo menos expresso suporte pela equipa e o seu trabalho?
+* Será que, no mínimo, manifesto o meu apoio à equipa e ao trabalho que fazem?
 * Fiz muitos pedidos de recursos recentemente?
   * Isto poderá soar mundano, mas é um sinal de que respeitas o trabalho da equipa. Se respeitares o seu trabalho, possivelmente reclamarás menos.
