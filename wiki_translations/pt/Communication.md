@@ -30,7 +30,7 @@ A equipa tem de manter a qualidade do código e da arte. Isto poderá implicar q
   * Inclui o ficheiro stdout.log. (Consulta "Onde fica armazenada a configuração do jogo" na página [Perguntas Frequentes](FAQ) para informações sobre a localização deste ficheiro.)
   * Inclui capturas de ecrã, se necessário.
   * Se fores capaz de compilar por ti mesmo o STK e corrê-lo sob um depurador (tipo o GDB, o Valgrind ou o depurador do Visual Studio), por favor compila o STK no modo de depuração, corre-o e posta o resultado de saída do depurador.
-  * Incluem outras informações que achem que devem ser descritas.
+  * Inclui outras informações que consideres necessárias.
   * Respondam às perguntas da equipa o mais completo que conseguirem.
 
 ### Quando apresentando um recurso ou outra contribuição de arte
