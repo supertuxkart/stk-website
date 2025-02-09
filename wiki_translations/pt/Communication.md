@@ -36,7 +36,7 @@ A equipa tem de manter a qualidade do código e da arte. Isto poderá implicar q
 ### Quando apresentas um recurso ou outra contribuição de arte
 
 * Fornece os ficheiros fonte (.kra, .xcf, .blend, etc.).
-* Claramente ditem a licença. (Vê[Licenciamento](Licensing) para opções.)
+* Indica explicitamente a licença. (Consulta [Licenciamento](Licensing) para opções.)
 * Aceitem criticismo para ver o que pode ser melhorado.
 * Discutem com a equipa durante o processo de criação para receber feedback.
 * Sejam claros quando a tua contribuição é final ou um trabalho-em-progresso.
