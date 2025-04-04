@@ -179,7 +179,7 @@ msgid "Programming"
 msgstr "Programação"
 
 msgid "Source control"
-msgstr "Controlo de fonte"
+msgstr "Controlo de versões"
 
 msgid "Building from source"
 msgstr "Compilar a partir da fonte"
