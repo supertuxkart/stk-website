@@ -28,7 +28,7 @@ Essa solução alternativa é muito simples e descarrega os mesmos arquivos e pa
 
 {% end_liquid %}
 
-Visita este link para gerar um snapshot e descarregares: <https://sourceforge.net/p/supertuxkart/code/HEAD/tarball?path=/media>
+Visita este link para gerar um snapshot e o descarregares: <https://sourceforge.net/p/supertuxkart/code/HEAD/tarball?path=/media>
 
 Se este solicitar que reenvies a solicitação do snapshot, faz isso. Em seguida, este iniciará o download dos arquivos do repositório de mídia como estão atualmente. Extraia o arquivo ZIP para um local de trabalho onde desejas que a cópia do repositório de mídia esteja. Agora está pronto!
 
