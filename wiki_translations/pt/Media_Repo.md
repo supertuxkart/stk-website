@@ -32,4 +32,4 @@ Visita este link para gerar um snapshot e o descarregares: <https://sourceforge.
 
 Se este solicitar que reenvies o pedido de snapshot, faz isso. Em seguida, este descarregará os ficheiros do repositório da média tal como se encontram atualmente. Extrai o arquivo ZIP para um local de trabalho onde desejes que a cópia do repositório da média fique. Já está pronto!
 
-As alterações são feitas no repositório de mídia [com bastante frequência](https://sourceforge.net/p/supertuxkart/code/HEAD/log/?path=), portanto, se quiseres descarregar um novo snapshot, terás que fazer backup de todos os teus projetos para outra pasta, apaga a tua cópia do repositório de mídia local e substitua-a por um novo instantâneo.
+As alterações são feitas no repositório da média [com frequência](https://sourceforge.net/p/supertuxkart/code/HEAD/log/?path=), portanto, se quiseres descarregar um novo snapshot, terás que fazer uma cópia de segurança de todos os teus projetos para outra pasta, apagar a tua cópia local do repositório da média e substituí-la por um novo snapshot.
