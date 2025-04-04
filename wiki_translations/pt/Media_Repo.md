@@ -14,7 +14,7 @@ Recomendamos o uso da versão de desenvolvimento do STK, por isso a melhor forma
 
 As instruções para instalar o Subversion estão na página [Instalando ferramentas](https://supertuxkart.net/Installing_Tools#subversion-client). Uma vez instalado, usa o seguinte endereço para fazer o checkout do repositório:
 
-* Se estiveres a usar um programa gráfico (por exemplo, TortoiseSVN), este pode solicitar a URL do repositório - `https://svn.code.sf.net/p/supertuxkart/code/media/trunk` - e um diretório de checkout, que é onde tu vais querer onde seja copiado no teu computador.
+* Se estiveres a usar um programa gráfico (por exemplo, TortoiseSVN), este pode solicitar a URL do repositório - `https://svn.code.sf.net/p/supertuxkart/code/media/trunk` - e um diretório de checkout, que é para onde vais querer que seja copiado no teu computador.
 * Em sistemas operativos tipo Unix ou MacOS, um exemplo de comando de checkout seria:
 
 {%popup_code
