@@ -30,6 +30,6 @@ Essa solução alternativa é muito simples e descarrega os mesmos arquivos e pa
 
 Visita este link para gerar um snapshot e o descarregares: <https://sourceforge.net/p/supertuxkart/code/HEAD/tarball?path=/media>
 
-Se este solicitar que reenvies a solicitação do snapshot, faz isso. Em seguida, este iniciará o download dos arquivos do repositório de mídia como estão atualmente. Extraia o arquivo ZIP para um local de trabalho onde desejas que a cópia do repositório de mídia esteja. Agora está pronto!
+Se este solicitar que reenvies o pedido de snapshot, faz isso. Em seguida, este descarregará os ficheiros do repositório da média tal como se encontram atualmente. Extrai o arquivo ZIP para um local de trabalho onde desejes que a cópia do repositório da média fique. Já está pronto!
 
 As alterações são feitas no repositório de mídia [com bastante frequência](https://sourceforge.net/p/supertuxkart/code/HEAD/log/?path=), portanto, se quiseres descarregar um novo snapshot, terás que fazer backup de todos os teus projetos para outra pasta, apaga a tua cópia do repositório de mídia local e substitua-a por um novo instantâneo.
