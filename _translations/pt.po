@@ -577,7 +577,7 @@ msgid ""
 "To get the very latest code, see the page [Source control](Source_control)."
 msgstr ""
 "Para obteres o código mais recente, vê a página [Controlo de "
-"Fonte](Source_control)."
+"versões](Source_control)."
 
 msgid "Download from GitHub"
 msgstr "Instalar do GitHub"
