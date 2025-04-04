@@ -24,7 +24,7 @@ svn checkout https://svn.code.sf.net/p/supertuxkart/code/media/trunk stk-media-r
 
 {% start_liquid popup_info %}
 
-Essa solução alternativa é muito simples e descarrega os mesmos arquivos e pastas, mas não atualizará os teus arquivos quando forem feitas alterações no repositório de mídia. Isto significa que, se alterações relevantes forem feitas no repositório após o download do instantâneo, os teus projetos podem parecer diferentes em versões mais recentes ou possivelmente até não funcionar corretamente, a menos que descarregues um novo snapshot.
+Esta solução alternativa é muito simples e descarrega os mesmos ficheiros e pastas, mas não atualizará os teus ficheiros quando forem feitas alterações no repositório da média. Isto significa que, se alterações relevantes forem feitas no repositório depois de teres descarregado o snapshot, os teus projetos podem parecer diferentes em versões mais recentes ou possivelmente até não funcionar corretamente, a menos que descarregues um novo snapshot.
 
 {% end_liquid %}
 
