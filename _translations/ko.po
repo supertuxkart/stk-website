@@ -399,7 +399,7 @@ msgstr ""
 "이뮬은 기계공학에 대한 뛰어난 지식을 바탕으로 터보차저 엔진이 장착된 카트를 직접 제작했습니다. 이뮬은 eMule의 마스코트입니다."
 
 msgid "Suzanne"
-msgstr "수잔느"
+msgstr "수잔"
 
 msgid ""
 "Racing has been Suzanne's dream since childhood. She began her racing career"
