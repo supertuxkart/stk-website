@@ -409,7 +409,7 @@ msgstr ""
 " in the prestigious Kart Academy of Val Verde. She is the mascot of Blender."
 
 msgid "Gavroche"
-msgstr "Gavroche"
+msgstr "가브로슈"
 
 msgid ""
 "Gavroche is a goblin that owns the Ravenbridge mansion. Sometimes he makes "
