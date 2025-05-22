@@ -553,8 +553,7 @@ msgstr "소스 코드"
 
 msgid ""
 "To get the very latest code, see the page [Source control](Source_control)."
-msgstr ""
-"To get the very latest code, see the page [Source control](Source_control)."
+msgstr "최신 코드를 받으려면 [소스 제어](Source_control) 페이지를 참조하세요."
 
 msgid "Download from GitHub"
 msgstr "GitHub에서 다운로드"
