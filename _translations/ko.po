@@ -592,8 +592,7 @@ msgstr "필수 조건"
 
 msgid ""
 "You should read the following articles prior to following this tutorial:"
-msgstr ""
-"You should read the following articles prior to following this tutorial:"
+msgstr "이 튜토리얼을 따르기 전에 다음 기사를 읽어야 합니다:"
 
 msgid "Click here if you are not redirected."
 msgstr "Click here if you are not redirected."
