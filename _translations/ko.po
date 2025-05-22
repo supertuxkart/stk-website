@@ -537,7 +537,7 @@ msgid "Extract and run **run_game.sh** inside the folder."
 msgstr "압축을 풀고 폴더 안에서 **run_game.sh**를 실행하세요."
 
 msgid "Installer-less archive"
-msgstr "Installer-less archive"
+msgstr "설치 프로그램이 없는 아카이브"
 
 msgid "Get on Google Play Store"
 msgstr "Google Play 스토어에서 받기"
