@@ -495,7 +495,7 @@ msgstr ""
 "main character of the Pepper & Carrot project."
 
 msgid "...And many more!"
-msgstr "...And many more!"
+msgstr "...그리고 더 많은 캐릭터!"
 
 msgid ""
 "You can create your own characters, tracks, and arenas and share them with "
