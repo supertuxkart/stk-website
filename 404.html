@@ -1,0 +1,28 @@
+<script type="text/javascript">
+    var page = window.location.pathname.split('/').pop();
+    var all_pages = ["Community","Discover","Download","Main_Page","Wiimote","Voice_Acting","Translating_STK","Track_Editor_Tutorial","Track_Editor","Texturing","Texture_Guidelines","Terms","Team","Talk:Theoretical_Driveline_Model","Style","Special_Effects","Source_control","Scripting","STK_Dual_licensing","Projects","Privacy","Posters","Physics","Particles_File","Music_and_SFX_Guidelines","Media_Repo","Materials_xml","Materials","Making_challenges","Making_Tracks:_Testing","Making_Tracks:_Sky_and_Lighting","Making_Tracks:_Properties","Making_Tracks:_Notes","Making_Tracks:_Modeling","Making_Tracks:_Landscape","Making_Tracks:_Items","Making_Tracks:_Ideas_and_Concept_Art","Making_Tracks:_Drivelines_and_Checklines","Making_Tracks:_Decorations","Making_Tracks:_Conclusion","Making_Tracks:_Appendix_D:_Soccer_and_Battle_Modes","Making_Tracks:_Appendix_A:_Troubleshooting","Making_Tracks","Making_Library_Nodes:_Properties_and_Modeling","Making_Library_Nodes:_Notes","Making_Library_Nodes:_Lights","Making_Library_Nodes:_Exporting","Making_Library_Nodes:_Conclusion","Making_Library_Nodes","Making_Karts:_Testing","Making_Karts:_Shadow_Files","Making_Karts:_Properties","Making_Karts:_Notes","Making_Karts:_Modeling","Making_Karts:_Kart_Attachments_and_Effects","Making_Karts:_Ideas_and_Concept_Art","Making_Karts:_Icons","Making_Karts:_Animation","Making_Karts","Licensing","Level_of_Detail","Installing_Tools","Installing_Add-Ons","Gallery","File_naming_conventions","FAQ","Donation_Policy","Donate","Delete_Account","Cutscenes","Communication","Coding_Style","Artist_Debug_Mode","Animating_Decorations","About_releasing_new_versions","About_player_rankings","3D_Model_Guidelines"];
+
+    var url = '';
+    var exists_page = false;
+    for (var i = 0; i < all_pages.length; i++)
+    {
+        if (page == all_pages[i])
+        {
+            exists_page = true;
+            break;
+        }
+    }
+    if (exists_page)
+    {
+        url = 'https://supertuxkart.net' + '' + '/' + page;
+    }
+    else
+    {
+        if (!page.endsWith('.md'))
+            page += '.md';
+        <!-- redirect to page creator if not exists -->
+        url = 'https://github.com/supertuxkart/stk-website/new/master?filename=wiki/' + page;
+    }
+    window.location.replace(url);
+</script>
+<noscript>Enable javascript for redirection</noscript>
