@@ -534,7 +534,8 @@ msgid "all architectures"
 msgstr "모든 아키텍처"
 
 msgid "Extract and run **run_game.sh** inside the folder."
-msgstr "Extract and run **run_game.sh** inside the folder."
+msgstr ""
+"압축을 풀고 폴더 안에서 **run_game.sh**를 실행하세요축을 풀고 폴더 안에서 **run_game.sh**를 실행하세요."
 
 msgid "Installer-less archive"
 msgstr "Installer-less archive"
