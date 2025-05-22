@@ -1,13 +1,14 @@
 # 
 # Translators:
 # 최이준, 2023
+# Myeongjin <aranet100@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: 최이준, 2023\n"
+"Last-Translator: Myeongjin <aranet100@gmail.com>, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/supertuxkart/teams/36024/ko/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,32 +17,32 @@ msgstr ""
 
 # Shown if empty search result
 msgid "No results found"
-msgstr "결과 찾지 못함"
+msgstr "찾은 결과 없음"
 
 msgid "SuperTuxKart"
-msgstr "SuperTuxKart"
+msgstr "슈퍼턱스카트"
 
 msgid "Download"
 msgstr "다운로드"
 
 msgid "Discover"
-msgstr "Discover"
+msgstr "발견"
 
 msgid "Community"
 msgstr "커뮤니티"
 
 # Table of contents which display near the top of each page
 msgid "Contents"
-msgstr "Contents"
+msgstr "콘텐츠"
 
 msgid ""
 "SuperTuxKart is a 3D open-source arcade racer with a variety characters, "
 "tracks, and modes to play."
-msgstr "SuperTuxKart는 다양한 캐릭터, 트랙, 모드가 있는 오픈소스 3D 아케이드 레이싱 게임입니다."
+msgstr "슈퍼턱스카트는 다양한 캐릭터, 트랙 및 모드로 플레이할 수 있는 3D 오픈 소스 아케이드 레이싱 게임입니다."
 
 # Drop down menu when viewing SuperTuxKart homepage in mobile device
 msgid "Menu"
-msgstr "Menu"
+msgstr "메뉴"
 
 msgid "FAQ"
 msgstr "FAQ"
@@ -50,14 +51,14 @@ msgid "Get Involved"
 msgstr "참여하기"
 
 msgid "Blog"
-msgstr "Blog"
+msgstr "블로그"
 
 msgid "Donate"
 msgstr "기부"
 
 # Dropdown menu which shows language selection, etc.
 msgid "Tools"
-msgstr "Tools"
+msgstr "툴"
 
 msgid "Language"
 msgstr "언어"
@@ -72,42 +73,42 @@ msgid "Edit page"
 msgstr "페이지 편집"
 
 msgid "Page history"
-msgstr "페이지 기록"
+msgstr "페이지 이력"
 
 msgid "Visit the main page"
-msgstr "매인 페이지 방문"
+msgstr "주요 페이지 방문"
 
 msgid "Forum"
-msgstr "Forum"
+msgstr "포럼"
 
 msgid "Twitter"
 msgstr "Twitter"
 
 # Clicking Addons will go to online.supertuxkart.net
 msgid "Addons"
-msgstr "Addons"
+msgstr "부가 기능"
 
 msgid "Telegram"
-msgstr "Telegram"
+msgstr "텔레그램"
 
 msgid "Media"
-msgstr "Media"
+msgstr "미디어"
 
 msgid "YouTube"
 msgstr "YouTube"
 
 msgid "Gallery"
-msgstr "Gallery"
+msgstr "갤러리"
 
 msgid "Posters"
-msgstr "Posters"
+msgstr "포스터"
 
 msgid "Development"
-msgstr "Development"
+msgstr "개발"
 
 # Clicking Modding will go to Commuity page
 msgid "Modding"
-msgstr "Modding"
+msgstr "모딩"
 
 msgid "GitHub"
 msgstr "GitHub"
@@ -117,159 +118,159 @@ msgid "Documentation"
 msgstr "문서"
 
 msgid "About us"
-msgstr "About us"
+msgstr "우리에 대하여"
 
 # Clicking About the team will go to a page which show SuperTuxKart team
 # member infos
 msgid "About the team"
-msgstr "About the team"
+msgstr "팀에 대하여"
 
 msgid "About SuperTuxKart"
-msgstr "About SuperTuxKart"
+msgstr "슈퍼턱스카트에 대하여"
 
 msgid "Projects using SuperTuxKart"
-msgstr "Projects using SuperTuxKart"
+msgstr "슈퍼턱스카트를 사용한 프로젝트"
 
 # Title of info popup which describes extra info
 msgid "Info"
 msgstr "정보"
 
 msgid "Return to Get Involved"
-msgstr "Return to Get Involved"
+msgstr "참여하기로 돌아가기"
 
 msgid "Making Library Nodes"
-msgstr "Making Library Nodes"
+msgstr "라이브러리 노드 만들기"
 
 msgid "Making Karts"
-msgstr "Making Karts"
+msgstr "카트 만들기"
 
 msgid "Making Tracks"
-msgstr "Making Tracks"
+msgstr "트랙 만들기"
 
 # Title of code popup which displays code snippet
 msgid "Code"
-msgstr "Code"
+msgstr "코드"
 
 msgid "IRC"
 msgstr "IRC"
 
 msgid "Mailing List"
-msgstr "Mailing List"
+msgstr "메일링 리스트"
 
 msgid "Reddit"
 msgstr "Reddit"
 
 msgid "Support Us"
-msgstr "Support Us"
+msgstr "우리를 지원"
 
 msgid "Donations help us keep servers running and more!"
-msgstr "Donations help us keep servers running and more!"
+msgstr "기부는 우리에게 서버 운영 및 기타 여러 가지 용도로 유지하는데 도움이 됩니다!"
 
 # In Community page
 msgid "For Programmers"
-msgstr "For Programmers"
+msgstr "프로그래머를 위해"
 
 # In Community page
 msgid "Programming"
-msgstr "Programming"
+msgstr "프로그래밍"
 
 msgid "Source control"
-msgstr "Source control"
+msgstr "소스 제어"
 
 msgid "Building from source"
-msgstr "Building from source"
+msgstr "소스에서 빌드하기"
 
 msgid "Coding style guidelines"
-msgstr "Coding style guidelines"
+msgstr "코딩 스타일 가이드라인"
 
 msgid "Doxygen documentation"
-msgstr "Doxygen documentation"
+msgstr "Doxygen 문서"
 
 msgid "Tasks for beginners"
-msgstr "Tasks for beginners"
+msgstr "초보자를 위한 작업"
 
 msgid "Scripting"
-msgstr "Scripting"
+msgstr "스크립팅"
 
 # In Community page
 msgid "Misc"
-msgstr "Misc"
+msgstr "기타"
 
 msgid "Making challenges"
-msgstr "Making challenges"
+msgstr "도전 만들기"
 
 msgid "About releasing new versions"
-msgstr "About releasing new versions"
+msgstr "새로운 버전 출시에 대하여"
 
 msgid "About player rankings"
-msgstr "About player rankings"
+msgstr "플레이어 순위에 대하여"
 
 # In Community page
 msgid "For Everyone"
-msgstr "For Everyone"
+msgstr "모두를 위해"
 
 msgid "Connecting your Wiimote"
-msgstr "Connecting your Wiimote"
+msgstr "Wii 리모컨 연결하기"
 
 msgid "Translating SuperTuxKart"
-msgstr "Translating SuperTuxKart"
+msgstr "슈퍼턱스카트 번역하기"
 
 msgid "Reporting Problems"
-msgstr "Reporting Problems"
+msgstr "문제 보고하기"
 
 msgid "Voice Acting"
-msgstr "Voice Acting"
+msgstr "성우 연기"
 
 msgid "Terms and conditions"
-msgstr "Terms and conditions"
+msgstr "이용 약관"
 
 msgid "Privacy policy"
-msgstr "Privacy policy"
+msgstr "개인정보처리방침"
 
 # In Community page
 msgid "For Artists"
-msgstr "For Artists"
+msgstr "아티스트를 위해"
 
 # In Community page
 msgid "General Information"
-msgstr "General Information"
+msgstr "일반 정보"
 
 msgid "Installing Tools"
-msgstr "Installing Tools"
+msgstr "툴 설치하기"
 
 # Page links to art style documentaion of STK
 msgid "Style"
-msgstr "Style"
+msgstr "스타일"
 
 msgid "Licensing"
-msgstr "Licensing"
+msgstr "라이선싱"
 
 msgid "Artist Debug Mode"
-msgstr "Artist Debug Mode"
+msgstr "아티스트 디버그 모드"
 
 # In Community page
 msgid "Guidelines"
-msgstr "Guidelines"
+msgstr "가이드라인"
 
 msgid "Texture Guidelines"
-msgstr "Texture Guidelines"
+msgstr "텍스처 가이드라인"
 
 msgid "3D Model Guidelines"
-msgstr "3D Model Guidelines"
+msgstr "3D 모델 가이드라인"
 
 msgid "Music and SFX Guidelines"
-msgstr "Music and SFX Guidelines"
+msgstr "음악 및 효과음 가이드라인"
 
 msgid "File naming conventions"
-msgstr "File naming conventions"
+msgstr "파일 명명 규칙"
 
 # In Community page
 msgid "Creating"
-msgstr "Creating"
+msgstr "만들기"
 
 # Page title of discover page
 msgid "Welcome to the Mascot Kingdom!"
-msgstr "Welcome to the Mascot Kingdom!"
+msgstr "마스코트 왕국에 오신 것을 환영합니다!"
 
 msgid ""
 "Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a "
@@ -277,10 +278,8 @@ msgid ""
 "game that is more fun than realistic, and provide an enjoyable experience "
 "for all ages."
 msgstr ""
-"Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a "
-"variety of characters, tracks, and modes to play. Our aim is to create a "
-"game that is more fun than realistic, and provide an enjoyable experience "
-"for all ages."
+"카트. 니트로. 액션! 슈퍼턱스카트는 다양한 캐릭터, 트랙 및 모드로 플레이할 수 있는 3D 오픈 소스 아케이드 레이싱 게임입니다. "
+"우리의 목표는 현실적일 뿐만 아니라 재밌는 게임을 만들고, 모든 연령대가 즐길 수 있는 경험을 제공하는 것입니다."
 
 msgid ""
 "In Story mode, you must face the evil Nolok, and defeat him in order to make"
@@ -304,8 +303,8 @@ msgid ""
 "The hero of SuperTuxKart. Tux is a brave penguin who must save his friend, "
 "Gnu, from the evil clutches of Nolok. Tux is the mascot of Linux."
 msgstr ""
-"SuperTuxKart의 영웅입니다. 턱스는 악당 놀록에게 붙잡힌 그누 선생을 빈드시 구해야하는 용감한 펭귄입니다. 턱스는 리눅스 커널의"
-" 마스코트입니다."
+"슈퍼턱스카트의 영웅입니다. 턱스는 악당 놀록에게 붙잡힌 그누 선생을 빈드시 구해야하는 용감한 펭귄입니다. 턱스는 리눅스 커널의 "
+"마스코트입니다."
 
 msgid "Gnu"
 msgstr "그누"
@@ -316,7 +315,7 @@ msgid ""
 "Gnu is the mascot of the GNU Project."
 msgstr ""
 "턱스의 지혜로운 스승입니다. 그누는 날아다니는 양탄자를 타고 다닙니다. 그리거 아파고다에 삽니다. 놀록이 그누를 납치했을 때 모든 "
-"왕국들은 그누를 구하려 했습니다. 그누는 그누 프로젝트의 마스코트입니다."
+"왕국들은 그누를 구하려 했습니다. 그누는 GNU 프로젝트의 마스코트입니다."
 
 msgid "Nolok"
 msgstr "놀록"
@@ -324,9 +323,7 @@ msgstr "놀록"
 msgid ""
 "The villain of SuperTuxKart, Nolok is always concocting some sort of "
 "malevolent plan inside his fiery lava castle."
-msgstr ""
-"The villain of SuperTuxKart, Nolok is always concocting some sort of "
-"malevolent plan inside his fiery lava castle."
+msgstr "슈퍼턱스카트의 악당인 놀록은 불타는 용암성 안에서 항상 어떤 사악한 계획을 꾸며내고 있습니다."
 
 msgid "Additional Characters"
 msgstr "추가 캐릭터"
@@ -349,8 +346,7 @@ msgid ""
 "Wilber is the official cameraman who works for WTXB-TV to record kart races,"
 " which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
 msgstr ""
-"Wilber is the official cameraman who works for WTXB-TV to record kart races,"
-" which are very popular in the Mascot Kingdom. He is the mascot of GIMP."
+"윌버는 WTXB-TV의 공식 카메라맨으로, 마스코트 왕국에서 매우 인기 있는 카트 경주를 녹화합니다. 윌버는 GIMP의 마스코트입니다."
 
 msgid "Puffy"
 msgstr "퍼피"
@@ -359,8 +355,8 @@ msgid ""
 "Puffy races mainly to earn enough money to accomplish his dream: to buy a "
 "submarine. He is the mascot of the OpenBSD project."
 msgstr ""
-"Puffy races mainly to earn enough money to accomplish his dream: to buy a "
-"submarine. He is the mascot of the OpenBSD project."
+"퍼피는 주로 자신의 꿈인 잠수함을 사는 것을 이루기 위해 충분한 돈을 벌기 위해 경쟁합니다. 퍼피는 OpenBSD 프로젝트의 "
+"마스코트입니다."
 
 msgid "Pidgin"
 msgstr "피진"
@@ -369,20 +365,18 @@ msgid ""
 "Pidgin's ability to fly makes him perfect to deliver the results of the "
 "Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
 msgstr ""
-"Pidgin's ability to fly makes him perfect to deliver the results of the "
-"Grand Prix around the Mascot Kingdom. He is the mascot of Pidgin."
+"피진은 날 수 있는 능력이 뛰어나 마스코트 왕국에서 그랑프리의 결과를 전달하는 데 적합합니다. 피진은 Pidgin의 마스코트입니다."
 
 msgid "Godette"
-msgstr "Godette"
+msgstr "고데트"
 
 msgid ""
 "Godette is the mascot of Godot and truly a tech girl. She is never seen "
 "without her friend, GDBot, a robot she built and programmed herself. They "
 "even race together in a unique tandem kart."
 msgstr ""
-"Godette is the mascot of Godot and truly a tech girl. She is never seen "
-"without her friend, GDBot, a robot she built and programmed herself. They "
-"even race together in a unique tandem kart."
+"고데트는 Godot의 마스코트이며 진정한 기술 소녀입니다. 고데트는 자신이 직접 빌드하고 프로그래밍한 로봇인 친구 GDBot과 함께 있지"
+" 않는 모습은 절대 보이지 않습니다. 그들은 독특한 탠덤 카트를 타고 함께 경주하기도 합니다."
 
 msgid "Amanda"
 msgstr "아만다"
@@ -392,19 +386,17 @@ msgid ""
 "now teaches the ancient art of racing in a monastery. She is the mascot of "
 "Window Maker."
 msgstr ""
-"Amanda was rescued by monks when they found her in a basket as a cub. She "
-"now teaches the ancient art of racing in a monastery. She is the mascot of "
-"Window Maker."
+"아만다는 새끼였을 때 바구니에 담겨 있던 것을 승려들이 발견해 구출했습니다. 아만다는 현재 수도원에서 고대 경주 기술을 가르치고 "
+"있습니다. 아만다는 Window Maker의 마스코트입니다."
 
 msgid "Emule"
-msgstr "Emule"
+msgstr "이뮬"
 
 msgid ""
 "Emule's superior knowledge of mechanical engineering allowed him to build "
 "his own kart with a turbocharged engine. He is the mascot of eMule."
 msgstr ""
-"Emule's superior knowledge of mechanical engineering allowed him to build "
-"his own kart with a turbocharged engine. He is the mascot of eMule."
+"이뮬은 기계공학에 대한 뛰어난 지식을 바탕으로 터보차저 엔진이 장착된 카트를 직접 제작했습니다. 이뮬은 eMule의 마스코트입니다."
 
 msgid "Suzanne"
 msgstr "수잔느"
@@ -523,7 +515,7 @@ msgstr ""
 
 # Full game installer / packages for STK
 msgid "Full game"
-msgstr "Full game"
+msgstr "전체 게임"
 
 msgid "Intel / AMD 32-bit"
 msgstr "Intel / AMD 32-bit"
@@ -539,7 +531,7 @@ msgstr "ARM 64-bit"
 
 # All-in-one architectures for STK installer / packages
 msgid "all architectures"
-msgstr "all architectures"
+msgstr "모든 아키텍처"
 
 msgid "Extract and run **run_game.sh** inside the folder."
 msgstr "Extract and run **run_game.sh** inside the folder."
@@ -548,16 +540,16 @@ msgid "Installer-less archive"
 msgstr "Installer-less archive"
 
 msgid "Get on Google Play Store"
-msgstr "Get on Google Play Store"
+msgstr "Google Play 스토어에서 받기"
 
 msgid "Get the APK"
-msgstr "Get the APK"
+msgstr "APK 받기"
 
 msgid "Unzip the archive to microSD root to install."
 msgstr "Unzip the archive to microSD root to install."
 
 msgid "Source Code"
-msgstr "Source Code"
+msgstr "소스 코드"
 
 msgid ""
 "To get the very latest code, see the page [Source control](Source_control)."
@@ -565,15 +557,15 @@ msgstr ""
 "To get the very latest code, see the page [Source control](Source_control)."
 
 msgid "Download from GitHub"
-msgstr "Download from GitHub"
+msgstr "GitHub에서 다운로드"
 
 # Toggle for table of contents
 msgid "Show"
-msgstr "Show"
+msgstr "보이기"
 
 # Toggle for table of contents
 msgid "Hide"
-msgstr "Hide"
+msgstr "숨기기"
 
 msgid ""
 "Preview release is available [here](https://github.com/supertuxkart/stk-"
@@ -592,7 +584,7 @@ msgid "Discover more..."
 msgstr "Discover more..."
 
 msgid "Latest Blog Post"
-msgstr "Latest Blog Post"
+msgstr "최신 블로그 게시글"
 
 # Title of prerequisites popup which describes prerequisites before reading
 # some articles
