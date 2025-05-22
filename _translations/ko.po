@@ -509,9 +509,7 @@ msgstr ""
 msgid ""
 "If you are interested you can take a look at the [community](Community) "
 "page."
-msgstr ""
-"If you are interested you can take a look at the [community](Community) "
-"page."
+msgstr "관심이 있으시다면 [커뮤니티](Community) 페이지를 살펴볼 수 있습니다."
 
 # Full game installer / packages for STK
 msgid "Full game"
