@@ -588,7 +588,7 @@ msgstr "최신 블로그 게시글"
 # Title of prerequisites popup which describes prerequisites before reading
 # some articles
 msgid "Prerequisites"
-msgstr "Prerequisites"
+msgstr "필수 조건"
 
 msgid ""
 "You should read the following articles prior to following this tutorial:"
