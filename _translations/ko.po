@@ -580,7 +580,7 @@ msgid "Get SuperTuxKart on Itch.io"
 msgstr "Itch.io에서 슈퍼턱스카트 받기"
 
 msgid "Discover more..."
-msgstr "Discover more..."
+msgstr "더 발견하기..."
 
 msgid "Latest Blog Post"
 msgstr "최신 블로그 게시글"
