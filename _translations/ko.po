@@ -421,7 +421,7 @@ msgstr ""
 "mascot of MediaGoblin."
 
 msgid "Hexley"
-msgstr "Hexley"
+msgstr "헥슬리"
 
 msgid ""
 "Hexley's ancestors started kart racing many years ago, and generation after "
@@ -431,7 +431,7 @@ msgstr ""
 "generation, they became very good at it. He is the mascot of Darwin."
 
 msgid "Xue"
-msgstr "Xue"
+msgstr "줴"
 
 msgid ""
 "Xue likes to stand out from the crowd, and her unusual kart reflects this. "
