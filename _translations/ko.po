@@ -574,7 +574,7 @@ msgstr ""
 "사용할 수 있습니다."
 
 msgid "Get the latest release candidate:"
-msgstr "Get the latest release candidate:"
+msgstr "최신 릴리스 후보 받기:"
 
 msgid "Get SuperTuxKart on Itch.io"
 msgstr "Get SuperTuxKart on Itch.io"
