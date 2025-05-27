@@ -2,13 +2,14 @@
 # Translators:
 # 최이준, 2023
 # Myeongjin <aranet100@gmail.com>, 2025
+# skyblue7070, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: Myeongjin <aranet100@gmail.com>, 2025\n"
+"Last-Translator: skyblue7070, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/supertuxkart/teams/36024/ko/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -592,4 +593,4 @@ msgid ""
 msgstr "이 튜토리얼을 따르기 전에 다음 기사를 읽어야 합니다:"
 
 msgid "Click here if you are not redirected."
-msgstr "Click here if you are not redirected."
+msgstr "리디렉션되지 않았으면 여기를 클릭하세요."
