@@ -1,4 +1,17 @@
 {% blog_article
+Announcing SuperTuxKart Evolution
+
+The SuperTuxKart project is entering a new phase of its development, with SuperTuxKart Evolution as the next step in its journey.
+
+Unfortunately, to make this renewed development a reality, the STK team had to part ways with a major team member.
+
+Read the full [blog post here](https://blog.supertuxkart.net/2025/08/announcing-supertuxkart-evolution.html). Additional information is available in our [FAQ about STK Evolution](STK_Evolution_FAQ).
+
+August 26, 2025 by [Alayan](https://github.com/Alayan-stk-2)
+%}
+
+
+{% blog_article
 Release Candidate for SuperTuxKart 1.5
 
 The way to 1.5 was longer and windier than anticipated, but it's finally around the corner.

@@ -109,23 +109,23 @@ os="switch" name="Switch Homebrew" content=switch_content
 os="source" name=source_code content=source_content
 -%}
 
-{%translate Preview release is available [here](https://github.com/supertuxkart/stk-code/releases/preview).%}
+{%translate The main download links provided above are for the last stable release, SuperTuxKart 1.4.
+
+You can find the 1.5 RC1 builds [here](https://github.com/supertuxkart/stk-code/releases/tag/1.5-rc1).
+
+The automated preview release builds are available [here](https://github.com/supertuxkart/stk-code/releases/preview).
+
+Public testing builds for SuperTuxKart Evolution are not yet available. %}
 
 {% capture rc_string -%}
-{%translate_sentence Get the latest release candidate:%}
+{%translate Get the latest release candidate:%}
 {%- endcapture %}
 
 {%- if site.stk_rc != '' -%}
 {{ rc_string }}[{{ site.stk_rc }}](https://github.com/supertuxkart/stk-code/releases/{{ site.stk_rc }})
 {%- endif -%}
-
-{% capture itch_title -%}
-..:: {%translate Get SuperTuxKart on Itch.io%} ::..
-{%- endcapture %}
-{% main_title {{ itch_title }}%}
 <div class="download-content" style="font-size: 1rem; opacity: 1.0;">
 <div class="download-left" style="text-align: center;">
-{%- include donation_frame -%}
 </div>
 <div class="download-right">
 <i class="fa fa-download fa-fw fa-2x"></i>

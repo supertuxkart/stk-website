@@ -3,12 +3,6 @@ title: Community
 ---
 <ul id="get-involved-list">
     <li>
-        <a class="community-link" href="https://forum.freegamedev.net/viewforum.php?f=16">
-            <div class="get-involved-icon"><i class="fas fa-cog" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
-            <div class="get-involved-name">{%translate Forum%}</div>
-        </a>
-    </li>
-    <li>
         <a class="community-link" href="https://github.com/supertuxkart/stk-code">
             <div class="get-involved-icon"><i class="fab fa-github" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
             <div class="get-involved-name">{%translate GitHub%}</div>
@@ -20,18 +14,6 @@ title: Community
             <div class="get-involved-name">{%translate IRC%}</div>
         </a>
     </li>
-    <li>
-        <a class="community-link" href="https://sourceforge.net/p/supertuxkart/mailman/supertuxkart-devel/">
-            <div class="get-involved-icon"><i class="fa fa-envelope"></i></div>
-            <div class="get-involved-name">{%translate Mailing List%}</div>
-        </a>
-    </li>
-    <li>
-        <a class="community-link" href="https://t.me/STKInternational">
-            <div class="get-involved-icon"><i class="fab fa-telegram-plane" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
-            <div class="get-involved-name">{%translate Telegram%}</div>
-        </a>
-    </li>
    <li>
         <a class="community-link" href="https://www.reddit.com/r/SuperTuxKart/">
             <div class="get-involved-icon"><i class="fab fa-reddit-alien" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
@@ -41,8 +23,11 @@ title: Community
 </ul>
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 10px">
+
+<h2 style="color: blue;">{%translate The new Forum is coming soon!%}</h2>
+
 <a href="Donate" style="color: red;">
-<h2><i class="fa fa-heart"></i> {%translate Support Us%}</h2>
+<h2><i class="fa fa-heart"></i> {%translate Donations are coming soon!%}</h2>
 <p>{%translate Donations help us keep servers running and more!%}</p>
 </a>
 </div>
@@ -54,7 +39,6 @@ title: Community
 * [{%translate Source control%}](Source_control "{%translate Source control%}")
 * [{%translate Building from source%}](https://github.com/supertuxkart/stk-code/blob/master/INSTALL.md "{%translate Building from source%}")
 * [{%translate Coding style guidelines%}](Coding_Style "{%translate Coding style guidelines%}")
-* [{%translate Doxygen documentation%}](https://doxygen.supertuxkart.net "{%translate Doxygen documentation%}")
 * [{%translate Tasks for beginners%}](https://github.com/supertuxkart/stk-code/issues?q=is%3Aopen+is%3Aissue+label%3A%22T%3Afor+beginners%22 "{%translate Tasks for beginners%}")
 * [{%translate Scripting%}](Scripting "{%translate Scripting%}")
 

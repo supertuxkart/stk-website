@@ -1,6 +1,20 @@
 ---
 title: Gallery
 ---
+
+{%main_title SuperTuxKart Evolution (preview)%}
+
+{%minor_title Screenshots%}
+
+{% gallery widths=32%
+/assets/wiki/STKEvolution_1.jpg
+/assets/wiki/STKEvolution_2.jpg
+/assets/wiki/STKEvolution_3.jpg
+/assets/wiki/STKEvolution_4.jpg
+/assets/wiki/STKEvolution_5.jpg
+/assets/wiki/STKEvolution_6.jpg
+%}
+
 {%main_title 1.3%}
 
 {%minor_title Video%}

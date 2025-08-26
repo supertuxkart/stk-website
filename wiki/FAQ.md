@@ -1,6 +1,9 @@
 ---
 title: FAQ
 ---
+
+Please see our [SuperTuxKart Evolution FAQ](STK_Evolution_FAQ) for more information about this project and about the internal disagreements that we are now moving beyond.
+
 {% start_liquid main_title %}
 
 General Questions
@@ -11,13 +14,9 @@ General Questions
 
 What is SuperTuxKart?
 
-SuperTuxKart is a 3D open-source kart racing game. It aims towards fun for players of all skill levels, with item boxes giving random items, nitro, drifting and more. Realism is not the focus.
+SuperTuxKart is an open source Kart racing game for Linux, PC, Mac and Android. You can play offline and online against other players.
 
-STK offers an online multiplayer mode, a local multiplayer mode, and a single player mode against AIs with both custom races and a story mode to complete to unlock new karts and tracks. It features Grand Prix where the goal is to get the most points over several races.
-
-Its 21 tracks will take you in varied environments. From the beaches of sunny islands to the depth of an old mine, from the streets of Candela City to peaceful countryside roads, from a spaceship to the mountains, you have much to explore and discover.
-
-The game also features additional game modes besides normal races: time trials, follow-the-leader, soccer, capture-the-flag and two types of battle mode.
+It features many different game modes with a variety of different tracks and arenas.
 
 [Find more here](Discover)!
 
@@ -25,9 +24,15 @@ The game also features additional game modes besides normal races: time trials, 
 
 {% start_liquid qa %}
 
-Who is behind SuperTuxKart?
+Who is behind SuperTuxKart ?
 
-See our [Team](Team) page for information about the people behind SuperTuxKart!
+A great number of people have contributed to SuperTuxKart over the years.
+
+Our current team is led by Alayan, co-leader of SuperTuxKart since 2019, and Sven, lead artist of the project after Samuncle's departure.
+
+Among the most significant past contributors are Hiker, project leader from 2006 to 2009, Auria who assisted him for a decade, Samuncle who was the game's lead artist for many years, Devee who created and maintained the Android version, and Benau, who became co-leader after Hiker's departure.
+
+See our [Team](Team) page for more information about the people behind SuperTuxKart!
 
 {% end_liquid %}
 
@@ -104,6 +109,8 @@ In September 2021, the most recent version, 1.3, has been released. It contains 
 
 For more details, please see the [changelog](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), the [blog posts](https://blog.supertuxkart.net) or the list of resolved issues on STK's GitHub.
 
+In August 2025 the SuperTuxKart Evolution project was started.
+
 {% end_liquid %}
 
 {% start_liquid qa %}
@@ -124,7 +131,7 @@ I want to help! What can I do?
 
 First, have a look at the [Get involved](Community) page. It should contain all the information you need to start with coding, modeling, designing or whatever you'd like to do.
 
-Before you start, you should contact the current developers and artists through the [IRC](https://web.libera.chat/?channels=#supertuxkart), [Telegram channel](https://t.me/STKInternational) or the [forum](https://forum.freegamedev.net/viewforum.php?f=16) and tell us what you want to achieve. This will greatly improve the chance that you contribution will be accepted.
+Before you start, you should contact the current developers and artists through the [IRC](https://web.libera.chat/?channels=#supertuxkart) or the forum (new forum coming soon!) and tell us what you want to achieve. This will greatly improve the chance that you contribution will be accepted.
 
 {% end_liquid %}
 
@@ -213,7 +220,7 @@ First, look at the [STK bug tracker](https://github.com/supertuxkart/stk-code/is
 {% start_liquid qa %}
 
 Where is the configuration stored?
-
+Note: this applies to the 1.5 version, for the next major release this page will be updated.
 * On **Windows**: It is in `%APPDATA%/supertuxkart/config-0.10` (you can enter that in the Explorer and it will take you there).
 * On **Linux**: It is either in `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (first choice), `~/.config/supertuxkart/config-0.10` (second choice) or in `~/.supertuxkart/config-0.10` (third choice).
 * On **macOS**: It is in `~/Library/Application Support/supertuxkart/config-0.10`. Note that this directory may be hidden.
