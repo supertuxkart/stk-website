@@ -8,7 +8,7 @@ This policy describes what data SuperTuxKart will collect, and how this data is 
 
 ### Introduction
 
-The [SuperTuxKart Add-Ons website](https://online.supertuxkart.net) (hereafter noted as STKAddons) is a service provided to complement the SuperTuxKart racing game (STK). The information collected by this website is to be used solely to enrich the quality of the STK game.
+The [SuperTuxKart Add-Ons website](https://online.supertuxkart-evolution.com) (hereafter noted as STKAddons) is a service provided to complement the SuperTuxKart racing game (STK). The information collected by this website is to be used solely to enrich the quality of the STK game.
 
 ### Collected Information
 

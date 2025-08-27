@@ -11,7 +11,7 @@ New points are introduced in the system when new players start playing, but they
 
 Once a player has received all his base points, his points evolution depends entirely on losing or winning points to others.
 
-You can visit [here](https://online.supertuxkart.net/rankings.php) to see current player rankings.
+You can visit [here](https://online.supertuxkart-evolution.com/rankings.php) to see current player rankings.
 
 ## Base points distribution
 

@@ -193,7 +193,7 @@ title: Discover
 {%- endcapture %}
 {%main_title {{ many_more }}%}
 
-{%translate "You can create your own characters, tracks, and arenas and share them with the SuperTuxKart community! You can do this by going to [online.supertuxkart.net](https://online.supertuxkart.net)."%}
+{%translate "You can create your own characters, tracks, and arenas and share them with the SuperTuxKart community! You can do this by going to [online.supertuxkart-evolution.com](https://online.supertuxkart-evolution.com)."%}
 
 {%translate If you are interested you can take a look at the [community](Community) page.%}
 

@@ -29,6 +29,6 @@ However, don't go overboard. We can't have karts that are disproportionately gra
 
 ## Add-Ons vs Main
 
-It's possible that your kart will be accepted into the main SuperTuxKart game; however this grows increasingly unlikely as we run out of old characters that need replacement. Please don't be too disappointed if your first kart isn't accepted into the core game—you can always distribute it on [online.supertuxkart.net](https://online.supertuxkart.net).
+It's possible that your kart will be accepted into the main SuperTuxKart game; however this grows increasingly unlikely as we run out of old characters that need replacement. Please don't be too disappointed if your first kart isn't accepted into the core game—you can always distribute it on [online.supertuxkart-evolution.com](https://online.supertuxkart-evolution.com).
 
 {% include art_portal %}

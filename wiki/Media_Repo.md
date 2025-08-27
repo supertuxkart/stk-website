@@ -12,7 +12,7 @@ We recommend targeting the development version of STK, so the best way to downlo
 
 #### Best way: Installing Subversion
 
-Instructions for installing Subversion are on the [Installing Tools](https://supertuxkart.net/Installing_Tools#subversion-client) page. Once it is installed, use the following address to checkout the repo:
+Instructions for installing Subversion are on the [Installing Tools](Installing_Tools#subversion-client) page. Once it is installed, use the following address to checkout the repo:
 
 * If you are using a graphical program (e.g. TortoiseSVN), it may ask you for the URL of the repository - `https://svn.code.sf.net/p/supertuxkart/code/media/trunk` - and a checkout directory, which is where on your computer you want it to be copied to.
 * Under Unix-like operating system or MacOS, an example checkout command would be:
