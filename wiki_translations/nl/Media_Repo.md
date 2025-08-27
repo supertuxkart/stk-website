@@ -12,7 +12,7 @@ We raden aan om de ontwikkelingsversie van STK aan te houden. De beste manier om
 
 #### Aanbevolen methode: installeer Subversion
 
-Instructies voor het installeren van Subversion zijn  te vinden op de pagina [Hulpmiddelen installeren](https://supertuxkart.net/Installing_Tools#subversion-client). Na het installeren kun je met behulp van het volgende adres de opslagruimte klonen:
+Instructies voor het installeren van Subversion zijn  te vinden op de pagina [Hulpmiddelen installeren](Installing_Tools#subversion-client). Na het installeren kun je met behulp van het volgende adres de opslagruimte klonen:
 
 * Als je een grafisch programma gebruikt, zoals TortoiseSVN, kan er worden gevraagd om de opslagruimte-url - `https://svn.code.sf.net/p/supertuxkart/code/media/trunk` - en een map. De map is de bestemming van de bestanden op je computer.
 * Op Unix-achtige besturingssystemen en macOS gebruik je daarvoor bijv. de volgende ‘checkout’-opdracht:
