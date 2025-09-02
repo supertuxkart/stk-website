@@ -2,7 +2,7 @@
 title: FAQ
 ---
 
-Please see our [SuperTuxKart Evolution FAQ](STK_Evolution_FAQ) for more information about this project and about the internal disagreements that we are now moving beyond.
+Please see our [SuperTuxKart Evolution FAQ](STK_Evolution_FAQ) for more information about this project.
 
 {% start_liquid main_title %}
 

@@ -41,9 +41,7 @@ We already know what our main goals are for the SuperTuxKart Evolution release a
 
 What about the 1.5 release?
 
-We have not forgotten about 1.5, and aim to release it as soon as we can.
-
-See the "Organisational changes" section below for additional explanations on the release's delays.
+We have not forgotten about 1.5. We aim to release it as soon as we can.
 
 {% end_liquid %}
 
@@ -51,9 +49,7 @@ See the "Organisational changes" section below for additional explanations on th
 
 Why was the STK Evolution project started?
 
-STK Evolution started as a project foremost due to the desire to offer a fresh experience to STK players. To offer refined and renewed gameplay, to add and revise tracks, and more, means finally moving on from the gameplay compatibility that has characterized releases since 1.0.
-
-At the same time, this new branding is also motivated by the need to create new online resources after the conflict with Benau, see explanations below in the "Organisational changes" section.
+STK Evolution started as a project foremost due to the desire to offer a fresh experience to STK players. To offer refined and renewed gameplay, to add and revise tracks, and more, means finally moving on from the gameplay compatibility that has characterized releases since 1.0. This new name symbolizes this major step.
 
 {% end_liquid %}
 
@@ -61,7 +57,7 @@ At the same time, this new branding is also motivated by the need to create new 
 
 Is this project really going to move forward after years of stagnation by STK?
 
-The past contributions of our lead artist, Sven, and of our lead developer, Alayan, prove that our team has the capability to undertake this challenge. Part of the stagnation that has afflicted SuperTuxKart is directly tied to Benau's behavior inhibiting contributions and his decisions delaying releases.
+The past contributions of our lead artist, Sven, and of our lead developer, Alayan, prove that our team has the capability to undertake this challenge.
 
 But in the end, we don't ask people to simply trust our word, but to judge this project on its own merits. We will strive to provide regular updates on the game's development and in the end it will be by playing our next major release that skeptics will be convinced that this project is where SuperTuxKart's story lives on.
 
@@ -97,7 +93,7 @@ Part of what has motivated us to become FOSS contributors is our belief that sof
 
 {% start_liquid main_title %}
 
-Organisational changes
+STK Team
 
 {% end_liquid %}
 
@@ -105,82 +101,18 @@ Organisational changes
 
 Can you explain briefly what has happened in the SuperTuxKart team?
 
-Benau, a project administrator, has been removed from the STK organization on GitHub and SourceForge, where the game's code and assets repositories are located. He still holds sole control over some key resources, such as the official domain name. Despite having greatly reduced his own contributions and having expressed disinterest over the project's future, Benau repeatedly refused to discuss the situation, while showing a willingness to take unilateral decisions and not letting the project make proper use of many of the resources he controlled. While we recognize the many contributions Benau made over the years, the conditions he ended creating were paralyzing the project.
+Failed efforts at communicating had fostered misunderstandings, harmed trust, and prevented proper cooperation to release 1.5. This led us to conclude that a continuation of the statu quo was hampering progress for the project, and that it was not possible to keep working with Benau, who was co-leader of STK since 2019.
+
+Thankfully, over the days that followed the STK Evolution announcement, renewed efforts have allowed both sides to better understand each other, and Benau has agreed to help transfer the project resources he had sole control over, in order to allow their continued use for SuperTuxKart and to facilitate the project's progress. The 1.5 release will be made jointly.
+
+The STK Evolution team salutes this cool-headed choice, putting the good of the project first. We will strive to honor the trust put into us.
 
 {% end_liquid %}
 
 {% start_liquid qa %}
 
-How could such a situation arise?
+What steps have been taken to ensure the project's resilience?
 
-After the release of STK 1.0 in 2019, Benau became co-leader of the STK project alongside Alayan. Communication was never Benau's strong point, but in the early years the team could still discuss together, and Benau's efforts played a central role in the releases that followed. Alayan became less involved, and lost access to key credentials due to a computer issue. Over time, Benau lost much of his interest for the project, becoming more withdrawn and ceasing most contributions. In late 2023, plans for a new major release began to take shape, with Sven having worked on several new tracks while Alayan returned as an active contributor. However, over time, it became ever clearer that Benau was not interested in those efforts succeeding, and the obstacles created by his hostile attitude became unacceptable.
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-What brought about the decision to remove Benau from the project?
-
-The decision to split has been brought about by the impasse in which SuperTuxKart development has gotten into under Benau. While communication was never his strong point, he has withdrawn over the last two years, making communication much worse and contributing significantly less. At the same time, he refused to share any access to multiple key resources of the project he was alone to control, keeping a stranglehold over the project. This has prevented us from addressing some issues, such as the unreliable server causing drops for online players, has been delaying the 1.5 release for months, and has created a climate of doubt and uncertainty. We could not put significant efforts into improving the game without first addressing this situation.
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-Why not wait for the 1.5 release before going ahead with the split?
-
-We have tried hard to release 1.5 in cooperation with Benau and Devee. We were asked to delay the RC release by nearly a month to incorporate Vulkan changes that won't change the experience of 1.5 players (OpenGL remains the default rendering engine). Then after the RC test period, we were asked to wait weeks more to finish incorporating some other Vulkan changes. Then there was summer vacations. When we recently tried to clarify timelines and get a solid date, as well as talk about the project's future, all we received was a vague answer leaving the release date uncertain but likely months into the future, peppered with scorn and disparaging comments. We had been strung along for months and that was the last straw.
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-What about the decision to also remove other people ?
-
-Devee, whose history of contribution we recognize, has expressed both a disinterest for continued contributions and a strong support for Benau's attitude and choices that have been paralyzing the project. For months, Benau's occasional commits (mostly concerned with his Vulkan code) have been made using Devee's account. Unfortunately, this meant we had to also remove him if we wanted to be able to save SuperTuxKart from a slow death. Some other contributors also saw their access removed, but that was only on the basis of yearslong inactivity, as a security measure.
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-Has there been any communication with Benau regarding his dismissal?
-
-We have informed him of our actions and motivations. We made him an offer to relinquish control of key STK resources he holds, and remain open to discussion.
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-What specific resources was the removed administrator controlling?
-
-The most notable resources controlled exclusively by Benau were the game's official domain name, the default online server controlling online features, the official YouTube channel, the official email address, the itch.io account and the paypal account receiving donations, as well as, shared with Devee, the Google Play account used to distribute STK on Android. There are also a number of secondary accounts such as, X/Twitter, and others.
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-How has this control affected the project's progress thus far?
-
-Firstly, the difficulty of persuading Benau to do or let do anything requiring those resources has been directly preventing actions such as upgrading the underpowered online server, setting up a new forum, promoting the game through the YouTube channel.
-
-But, more insidiously, this control meant Benau held a complete veto on any potential change. The most glaring example is the 1.5 release, pretty much ready since April but delayed endlessly over Benau's desire to add more Vulkan updates, despite the game using OpenGL by default. Having to always fear the whims of someone uncommunicative and unreasonable, willing to undo or prevent changes that don't align with his unspoken vision, making impossible to use all the project's ressources to move it forward, is very demotivating.
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-How will the loss of the ressources controlled by Benau affect SuperTuxKart moving forward?
-
-The answer to this question is partly dependent on what Benau will decide to do. We are currently in the process of replacing all the lost resources, however in some cases this won't be straightforward.
-
-Some of the most problematic elements include all versions up to 1.5 RC1 pointing, for online features, to servers on the domain name that Benau alone controls (which also means, for end users, a split of the online playerbases), us not controlling STK's distribution on the Google Play store, confusion when searching for the official website, and generally the need to rebuild visibility and followers from scratch on different platforms.
-
-{% end_liquid %}
-
-{% start_liquid qa %}
-
-What steps have been taken to ensure that other key resources will not be monopolized by a single person again?
-
-Our aim is to ensure that at least 2, and preferably 3, trusted persons have access to each important resource needed to continue developping or promoting the project, to ensure redudancy in case someone becomes unable to assume his role. We have trust that everyone in our initial team is open to discussion and reasonable, protecting us from a repeat of the current situation in the mid-term. We are nonetheless exploring options to implement further safeguards.
+Our aim is to ensure that at least 2, and preferably 3, trusted persons have access to each important resource needed to continue developping or promoting the project, to ensure redudancy in case someone becomes unable to assume his role. We are nonetheless exploring options to implement further safeguards so that disagreements within the team don't threaten the project's continuity.
 
 {% end_liquid %}
