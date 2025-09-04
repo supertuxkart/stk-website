@@ -3,7 +3,7 @@ title: Delete Account
 ---
 ## Deleting an account
 
-The SuperTuxKart online account can be deleted on the [SuperTuxKart Add-Ons website](https://online.supertuxkart-evolution.com). This guide will show you how to do it step by step.
+The SuperTuxKart online account can be deleted on the [SuperTuxKart Add-Ons website](https://online.supertuxkart.net). This guide will show you how to do it step by step.
 
 ### Open the Login page
 

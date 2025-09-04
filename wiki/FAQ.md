@@ -107,7 +107,7 @@ In August 2020, version 1.2, was released. It improved gamepad support via SDL2 
 
 In September 2021, the most recent version, 1.3, has been released. It contains updates for many official karts.
 
-For more details, please see the [changelog](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), the [blog posts](https://blog.supertuxkart-evolution.com) or the list of resolved issues on STK's GitHub.
+For more details, please see the [changelog](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), the [blog posts](https://blog.supertuxkart.net) or the list of resolved issues on STK's GitHub.
 
 In August 2025 the SuperTuxKart Evolution project was started.
 

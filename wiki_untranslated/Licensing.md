@@ -102,7 +102,7 @@ The preferred way to document the licenses for your kart/track/arena/etc. in `li
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Example SuperTuxKart Add-On Kart
 Upstream-Contact: John Doe <jdoe@example.com>
-Source: https://online.supertuxkart-evolution.com/addons.php?type=karts&name=example
+Source: https://online.supertuxkart.net/addons.php?type=karts&name=example
 Comment: The Blender source files may be downloaded at the address above.
 License: CC-BY-SA 4.0
 Copyright: Copyright 2017 John Doe

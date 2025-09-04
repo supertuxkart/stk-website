@@ -4,7 +4,7 @@ display_title: true
 ---
 ## Terms and Conditions
 
-Welcome to SuperTuxKart. If you continue to browse and use this website and the [online service (STKAddons)](https://online.supertuxkart-evolution.com) in SuperTuxKart, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern SuperTuxKart's relationship with you in relation to this service. If you disagree with any part of these terms and conditions, please do not use this website or the online features of SuperTuxKart. Please also check our [privacy policy](Privacy).
+Welcome to SuperTuxKart. If you continue to browse and use this website and the [online service (STKAddons)](https://online.supertuxkart.net) in SuperTuxKart, you are agreeing to comply with and be bound by the following terms and conditions of use, which together with our privacy policy govern SuperTuxKart's relationship with you in relation to this service. If you disagree with any part of these terms and conditions, please do not use this website or the online features of SuperTuxKart. Please also check our [privacy policy](Privacy).
 
 The term 'SuperTuxKart' or 'us' or 'we' refers to the SuperTuxKart open source game. The term 'you' refers to the user or viewer of our website and the SuperTuxKart online service; and the term 'addon' refers user created content (karts, tracks, arenas, music, and other art work).
 

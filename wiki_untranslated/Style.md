@@ -2,7 +2,7 @@
 title: Style
 toc: true
 ---
-This article details the way things are in the SuperTuxKart Universe (known as the Mascot Kingdom). It is important to make sure that your artwork fits into this universe—if it doesn't, it will not become part of SuperTuxKart, though it is still welcome on the [Add-Ons Website](https://online.supertuxkart-evolution.com).
+This article details the way things are in the SuperTuxKart Universe (known as the Mascot Kingdom). It is important to make sure that your artwork fits into this universe—if it doesn't, it will not become part of SuperTuxKart, though it is still welcome on the [Add-Ons Website](https://online.supertuxkart.net).
 
 However, **SuperTuxKart is NOT an RPG**. SuperTuxKart has *narrative*, not plot. (Well, there's the cutscenes in Story Mode, but that's all.) Each track, arena, or kart has a sort-of background, but that does not really appear prominently in the game. It's analogous to a picture and a video: things in SuperTuxKart are like pictures—there's no plot, but you can still see what's happening. An RPG is more like a video—things change, and there's a plot.
 

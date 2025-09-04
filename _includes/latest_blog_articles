@@ -5,7 +5,7 @@ The SuperTuxKart project is entering a new phase of its development, with SuperT
 
 Unfortunately, to make this renewed development a reality, the STK team had to part ways with a major team member.
 
-Read the full [blog post here](https://blog.supertuxkart-evolution.com/2025/08/announcing-supertuxkart-evolution.html). Additional information is available in our [FAQ about STK Evolution](STK_Evolution_FAQ).
+Read the full [blog post here](https://blog.supertuxkart.net/2025/08/announcing-supertuxkart-evolution.html). Additional information is available in our [FAQ about STK Evolution](STK_Evolution_FAQ).
 
 August 26, 2025 by [Alayan](https://github.com/Alayan-stk-2)
 %}
@@ -18,7 +18,7 @@ The way to 1.5 was longer and windier than anticipated, but it's finally around 
 
 Binaries for Linux, Windows, Android and Mac are available [here](https://github.com/supertuxkart/stk-code/releases/tag/1.5-rc1).
 
-Read the full [blog post here](https://blog.supertuxkart-evolution.com/2025/05/release-candidate-for-supertuxkart-15.html).
+Read the full [blog post here](https://blog.supertuxkart.net/2025/05/release-candidate-for-supertuxkart-15.html).
 
 May 27, 2025 by [Alayan](https://github.com/Alayan-stk-2)
 %}
@@ -32,7 +32,7 @@ The SuperTuxKart team is happy to announce the release of the first beta for STK
 
 Binaries for Linux, Windows, Android and Mac are available [here](https://github.com/supertuxkart/stk-code/releases/tag/1.5-beta1).
 
-Read the full [blog post here](https://blog.supertuxkart-evolution.com/2024/10/supertuxkart-15-beta1-is-available.html).
+Read the full [blog post here](https://blog.supertuxkart.net/2024/10/supertuxkart-15-beta1-is-available.html).
 
 October 31, 2024 by [Deve](https://github.com/deveee)
 %}
@@ -42,7 +42,7 @@ Why average FPS and 1% low FPS are misleading
 
 SuperTuxKart 1.5 will feature a new integrated benchmark helping players to pick settings and to easily compare how different devices perform.
 
-This blog post dives on some of the details behind the design of this feature and showcase the benchmark mode in action. [Check it out here](https://blog.supertuxkart-evolution.com/2024/07/why-average-fps-and-1-low-fps-are.html).
+This blog post dives on some of the details behind the design of this feature and showcase the benchmark mode in action. [Check it out here](https://blog.supertuxkart.net/2024/07/why-average-fps-and-1-low-fps-are.html).
 
 July 7, 2024 by [Alayan](https://github.com/Alayan-stk-2)
 %}
@@ -54,7 +54,7 @@ On the way towards 1.5... and 2.0!
 
 But the team has also started to work on the next major release that will feature new tracks and major gameplay changes.
 
-Read the full [blog post here](https://blog.supertuxkart-evolution.com/2024/04/on-way-towards-15-and-20.html).
+Read the full [blog post here](https://blog.supertuxkart.net/2024/04/on-way-towards-15-and-20.html).
 
 April 27, 2024 by [Alayan](https://github.com/Alayan-stk-2)
 %}
@@ -66,7 +66,7 @@ Hi everyone,
 
 STK 1.4 is now available, we recommend macOS <= 10.14 players to try this release since it fixed the Gatekeeper crashing issue found in 1.3.
 
-For details read our [blog post](https://blog.supertuxkart-evolution.com/2022/11/supertuxkart-14-release.html).
+For details read our [blog post](https://blog.supertuxkart.net/2022/11/supertuxkart-14-release.html).
 
 Download now [here](https://github.com/supertuxkart/stk-code/releases/tag/1.4).
 
@@ -80,7 +80,7 @@ Hi everyone,
 
 First release candidate of STK 1.4 is now available!
 
-This is the first release featuring an experimental Vulkan renderer, for details read our [blog](https://blog.supertuxkart-evolution.com/2022/09/supertuxkart-14-release-candidate-1.html).
+This is the first release featuring an experimental Vulkan renderer, for details read our [blog](https://blog.supertuxkart.net/2022/09/supertuxkart-14-release-candidate-1.html).
 
 Download now [here](https://github.com/supertuxkart/stk-code/releases/tag/1.4-rc1).
 
@@ -100,7 +100,7 @@ STK 1.3 is now available:
 
 {{ trailer_1_3 }}
 
-For details read our [blog post](https://blog.supertuxkart-evolution.com/2021/09/supertuxkart-13-release.html)
+For details read our [blog post](https://blog.supertuxkart.net/2021/09/supertuxkart-13-release.html)
 
 Download now [here](https://github.com/supertuxkart/stk-code/releases/tag/1.3)
 
@@ -114,7 +114,7 @@ Hi everyone,
 
 First release candidate of STK 1.3 is now available:
 
-For details read our [blog post](https://blog.supertuxkart-evolution.com/2021/08/supertuxkart-13-release-candiate.html)
+For details read our [blog post](https://blog.supertuxkart.net/2021/08/supertuxkart-13-release-candiate.html)
 
 Download now [here](https://github.com/supertuxkart/stk-code/releases/tag/1.3-rc1)
 
@@ -134,7 +134,7 @@ STK 1.2 is now available:
 
 {{ trailer_1_2 }}
 
-For details read our [blog post](https://blog.supertuxkart-evolution.com/2020/08/supertuxkart-12-release.html)
+For details read our [blog post](https://blog.supertuxkart.net/2020/08/supertuxkart-12-release.html)
 
 Download now [here](https://github.com/supertuxkart/stk-code/releases/tag/1.2)
 
@@ -148,7 +148,7 @@ Hi everyone,
 
 STK 1.1 is now available:
 
-For details read our [blog post](https://blog.supertuxkart-evolution.com/2020/01/supertuxkart-11-released.html)
+For details read our [blog post](https://blog.supertuxkart.net/2020/01/supertuxkart-11-released.html)
 
 Download now [here](https://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/1.1/)
 
@@ -166,7 +166,7 @@ The long awaited 1.0 release of SuperTuxKart, supporting online multiplayer for 
 
 {{ trailer_1_0 }}
 
-For details visit [our blog](https://blog.supertuxkart-evolution.com/2019/04/supertuxkart-10-release.html), download it now [here](https://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/1.0/)
+For details visit [our blog](https://blog.supertuxkart.net/2019/04/supertuxkart-10-release.html), download it now [here](https://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/1.0/)
 
 April 20, 2019 by [Benau](https://github.com/Benau)
 %}
