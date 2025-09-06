@@ -111,7 +111,7 @@ os="source" name=source_code content=source_content
 
 {%translate The main download links provided above are for the last stable release, SuperTuxKart 1.4.
 
-You can find the 1.5 RC1 builds [here](https://github.com/supertuxkart/stk-code/releases/tag/1.5-rc1).
+You can find the 1.5 RC2 builds [here](https://github.com/supertuxkart/stk-code/releases/tag/1.5-rc2).
 
 The automated preview release builds are available [here](https://github.com/supertuxkart/stk-code/releases/preview).
 

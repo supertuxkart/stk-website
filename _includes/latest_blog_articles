@@ -1,4 +1,14 @@
 {% blog_article
+1.5-rc2 released, new Forum, and more !
+
+The second release candidate for SuperTuxKart 1.5 is now [available for download](https://github.com/supertuxkart/stk-code/releases/tag/1.5-rc2), and [a brand new forum](https://forum.supertuxkart.net/) has been opened.
+
+All the details about this, and some other exciting news, [in our full blog post](https://blog.supertuxkart.net/2025/09/15-rc2-released-new-forum-and-more.html).
+
+September 7, 2025 by [Alayan](https://github.com/Alayan-stk-2)
+%}
+
+{% blog_article
 Announcing SuperTuxKart Evolution
 
 The SuperTuxKart project is entering a new phase of its development, with SuperTuxKart Evolution as the next step in its journey.
