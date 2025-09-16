@@ -3,7 +3,7 @@
 ul#get-involved-list {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     margin: 0;
     list-style: none;
@@ -30,6 +30,12 @@ ul#get-involved-list > li > div {
 
 .get-involved-name {
     margin: 5px auto;
+    text-align: center;
+}
+
+.get-involved-desc {
+    margin: 5px auto;
+    max-width: 200px;
     text-align: center;
 }
 
@@ -60,4 +66,11 @@ ul#get-involved-list > li > div {
 .get-involved-panel
 {
     min-width: 50%;
+}
+
+.additional-info
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }

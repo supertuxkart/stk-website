@@ -6,12 +6,21 @@ title: Community
         <a class="community-link" href="https://github.com/supertuxkart/stk-code">
             <div class="get-involved-icon"><i class="fab fa-github" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
             <div class="get-involved-name">{%translate GitHub%}</div>
+            <div class="get-involved-desc">{%translate "Report bugs, follow developpment or contribute code"%}</div>
+        </a>
+    </li>
+    <li>
+        <a class="community-link" href="https://forum.supertuxkart.net">
+            <div class="get-involved-icon"><i class="fas fa-cog" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
+            <div class="get-involved-name">{%translate Forum%}</div>
+            <div class="get-involved-desc">{%translate "Share your experience with SuperTuxKart and make suggestions"%}</div>
         </a>
     </li>
     <li>
         <a class="community-link" href="https://web.libera.chat/?channels=#supertuxkart">
             <div class="get-involved-icon"><i class="far fa-comments" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
             <div class="get-involved-name">{%translate IRC%}</div>
+            <div class="get-involved-desc">{%translate "For a quick chat with other players"%}</div>
         </a>
     </li>
    <li>
@@ -22,10 +31,11 @@ title: Community
     </li>
 </ul>
 
-<div style="text-align: center; margin-top: 20px; margin-bottom: 10px">
+<div class="additional-info" markdown="1">
+{%translate "You can also look at the [archived old forum](https://forum.freegamedev.net/viewforum.php?f=16) for past discussions."%}
+</div>
 
-<h2 style="color: blue;">{%translate The new Forum is coming soon!%}</h2>
-
+<div class="additional-info">
 <a href="Donate" style="color: red;">
 <h2><i class="fa fa-heart"></i> {%translate Donations are coming soon!%}</h2>
 <p>{%translate Donations help us keep servers running and more!%}</p>
