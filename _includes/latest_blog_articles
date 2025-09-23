@@ -1,4 +1,14 @@
 {% blog_article
+SuperTuxKart Evolution Roadmap
+
+An overview of the roadmap for SuperTuxKart Evolution is now available!
+
+Get all the details by reading the full [blog post here](https://blog.supertuxkart.net/2025/09/supertuxkart-evolution-roadmap.html).
+
+September 23, 2025 by the [SuperTuxKart Team](https://github.com/supertuxkart/)
+%}
+
+{% blog_article
 1.5-rc2 released, new Forum, and more !
 
 The second release candidate for SuperTuxKart 1.5 is now [available for download](https://github.com/supertuxkart/stk-code/releases/tag/1.5-rc2), and [a brand new forum](https://forum.supertuxkart.net/) has been opened.
@@ -12,8 +22,6 @@ September 7, 2025 by [Alayan](https://github.com/Alayan-stk-2)
 Announcing SuperTuxKart Evolution
 
 The SuperTuxKart project is entering a new phase of its development, with SuperTuxKart Evolution as the next step in its journey.
-
-Unfortunately, to make this renewed development a reality, the STK team had to part ways with a major team member.
 
 Read the full [blog post here](https://blog.supertuxkart.net/2025/08/announcing-supertuxkart-evolution.html). Additional information is available in our [FAQ about STK Evolution](STK_Evolution_FAQ).
 
