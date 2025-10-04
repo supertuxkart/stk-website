@@ -60,18 +60,6 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
-msgid "Management"
-msgstr ""
-
-msgid "New page"
-msgstr ""
-
-msgid "Edit page"
-msgstr ""
-
-msgid "Page history"
-msgstr ""
-
 msgid "Visit the main page"
 msgstr ""
 
