@@ -441,14 +441,11 @@ msgstr ""
 
 msgid "The main download links provided above are for the last stable release, SuperTuxKart 1.4.
 
-You can find the 1.5 RC2 builds [here](https://github.com/supertuxkart/stk-code/releases/tag/1.5-rc2).
+ the 1.5 RC2 builds [here](https://github.com/supertuxkart/stk-code/releases/tag/1.5-rc2).
 
 The automated preview release builds are available [here](https://github.com/supertuxkart/stk-code/releases/preview).
 
 Public testing builds for SuperTuxKart Evolution are not yet available. "
-msgstr ""
-
-msgid "Get the latest release candidate:"
 msgstr ""
 
 msgid "The next major release of SuperTuxKart, named SuperTuxKart Evolution is currently under development. Building upon the foundation laid by all those who made STK what it is today, <strong>SuperTuxKart Evolution will be the biggest release in STK's history in terms of new content</strong>: new tracks, new features, improved gameplay, enhanced graphics, and much more. A roadmap will be released in an upcoming update.

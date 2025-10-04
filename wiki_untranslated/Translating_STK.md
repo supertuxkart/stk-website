@@ -2,9 +2,9 @@
 title: Translating STK
 toc: true
 ---
-**Link: [SuperTuxKart home at Transifex](https://www.transifex.com/supertuxkart/supertuxkart).**
+**Link: [SuperTuxKart home at Transifex](https://app.transifex.com/supertuxkart/).**
 
-SuperTuxKart translation is web-based and involves using the [Transifex web application](https://www.transifex.com/supertuxkart/supertuxkart) for translations.
+SuperTuxKart translation is web-based and involves using the [Transifex web application](https://app.transifex.com/supertuxkart/) for translations.
 
 ## Join the translation group
 

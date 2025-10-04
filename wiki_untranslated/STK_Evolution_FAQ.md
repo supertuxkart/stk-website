@@ -33,7 +33,7 @@ See our [Team](Team) page for more information about the people behind SuperTuxK
 
 Do you have a roadmap?
 
-We already know what our main goals are for the SuperTuxKart Evolution release and have an informal internal roadmap. We aim to release a new public roadmap for the community in an upcoming update.
+We already know what our main goals are for the SuperTuxKart Evolution release and have an informal internal roadmap. A general overview of our roadmap is publicly [available on our blog](https://blog.supertuxkart.net/2025/09/supertuxkart-evolution-roadmap.html).
 
 {% end_liquid %}
 

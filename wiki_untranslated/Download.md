@@ -111,23 +111,8 @@ os="source" name=source_code content=source_content
 
 {%translate The main download links provided above are for the last stable release, SuperTuxKart 1.4.
 
-You can find the 1.5 RC2 builds [here](https://github.com/supertuxkart/stk-code/releases/tag/1.5-rc2).
+ the 1.5 RC2 builds [here](https://github.com/supertuxkart/stk-code/releases/tag/1.5-rc2).
 
 The automated preview release builds are available [here](https://github.com/supertuxkart/stk-code/releases/preview).
 
 Public testing builds for SuperTuxKart Evolution are not yet available. %}
-
-{% capture rc_string -%}
-{%translate Get the latest release candidate:%}
-{%- endcapture %}
-
-{%- if site.stk_rc != '' -%}
-{{ rc_string }}[{{ site.stk_rc }}](https://github.com/supertuxkart/stk-code/releases/{{ site.stk_rc }})
-{%- endif -%}
-<div class="download-content" style="font-size: 1rem; opacity: 1.0;">
-<div class="download-left" style="text-align: center;">
-</div>
-<div class="download-right">
-<i class="fa fa-download fa-fw fa-2x"></i>
-</div>
-</div>
