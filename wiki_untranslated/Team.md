@@ -7,35 +7,41 @@ title: Team
 
 {% end_liquid %}
 
-{% include character_presentation name="Alayan: Lead Developer, Lead Gameplay Designer" type="odd" description="Alayan began to play STK in the days of STK 0.7.3, and started to contribute actively in 2017, playing an important role in the lead up to the 1.0 release. Upon Hiker's retirement from the project in 2019, Alayan became co-leader of STK. After a period away from the game, he came back in 2023 to lead efforts towards a new major version. " icon="/assets/wiki/Alayan_icon.png" %}
+{% include character_presentation name="Alayan: Lead Developer, Lead Gameplay Designer" type="odd" description="Alayan began to play STK in the days of STK 0.7.3, and started to contribute actively in 2017, playing an important role in the lead up to the 1.0 release. Upon Hiker's retirement from the project in 2019, Alayan became co-leader of STK. After a period away from the game, he came back in 2023 to lead efforts towards a new major version." icon="/assets/wiki/Alayan_icon.png" %}
 
-{% include character_presentation name="Sven: Lead Artist" type="odd" description="I started to play STK in 2016 on a very old PC. Because of that I could only play the 0.8.1 release even though at that time 0.9.2 was the newest one.
-But still at that time I started to learn blender to create my own tracks.
-I’ve contributed some tracks to the add-ons and Black Forest was my first track that made it into the main game.
-For the first release of SuperTuxKart Evolution there will be many new tracks created by me." icon="/assets/wiki/Sven_icon.png" %}
+{% include character_presentation name="Sven: Lead Artist" type="even" description="Sven started to play STK in 2016 on a very old PC. Because of that he could only play the 0.8.1 version, although at that time 0.9.2 was the newest one. But still he started to learn blender to create his own tracks. After several addons, Black Forest was his first track used in the main game, and he has gone on to improve his artistic skills. He is now working on many new tracks that will feature in SuperTuxKart Evolution." icon="/assets/wiki/Sven_icon.png" %}
 
 {% start_liquid main_title %}
 
-Other contributors
+Other team members
 
 {% end_liquid %}
 
 * Vollstock: GUI designer
 * ALBatross: Composer
-* Typhoon: Artist
+* Typhon: Artist
 * BcfWorld: Online services
+* Devee: Android maintainer
 
 {% start_liquid main_title %}
 
-Major former contributors
+Former major contributors
 
 {% end_liquid %}
 
-* Hiker: (project leader from 2006 to 2019)
-* Auria
-* Samuncle (former lead artist)
-* Benau
-* Devee
+<table>
+<tr>
+{% include character_presentation_small name="Hiker: Former Project Leader" type="odd" description="Hiker revived the SuperTuxKart project in 2006, and led its developpment until the release of the 1.0 version in 2019." icon="/assets/wiki/Hiker_icon.png" %}
+
+{% include character_presentation_small name="Samuncle: Former Lead Artist" type="even" description="Samuncle contributed new tracks from 2010 to 2019. Over the years he strove to increase the game's graphical quality, and he is behind many of STK's most iconic tracks." icon="/assets/wiki/Samuncle_icon.png" %}
+</tr>
+
+<tr>
+{% include character_presentation_small name="Benau: Former Project Leader" type="odd" description="Benau started contributing in 2016, and became co-leader of STK after Hiker's retirement in 2019. His main contributions are found in the graphics and networking code." icon="/assets/wiki/Benau_icon.png" %}
+
+{% include character_presentation_small name="Auria: Former Lead Programmer" type="even" description="For over ten years, Auria played a major role in STK's developpment, contributing through code but also in many other ways according to the project's needs." icon="/assets/wiki/Auria_icon.png" %}
+</tr>
+</table>
 
 {% start_liquid main_title %}
 
