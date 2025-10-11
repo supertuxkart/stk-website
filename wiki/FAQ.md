@@ -57,7 +57,7 @@ The CPU performance might be the limitation depending on graphics card and graph
 **Other requirements**
 
 * At least 1 GB of free RAM
-* Disk space: 700MB
+* Disk space: 800MB
 
 **Optional**
 
@@ -131,7 +131,7 @@ I want to help! What can I do?
 
 First, have a look at the [Get involved](Community) page. It should contain all the information you need to start with coding, modeling, designing or whatever you'd like to do.
 
-Before you start, you should contact the current developers and artists through the [IRC](https://web.libera.chat/?channels=#supertuxkart) or the forum (new forum coming soon!) and tell us what you want to achieve. This will greatly improve the chance that you contribution will be accepted.
+Before you start, you should contact the current developers and artists through the [forum](https://forum.supertuxkart.net/) or the [IRC](https://web.libera.chat/?channels=#supertuxkart) and tell us what you want to achieve. This will greatly improve the chance that you contribution will be accepted.
 
 {% end_liquid %}
 
