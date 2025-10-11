@@ -30,7 +30,7 @@ A great number of people have contributed to SuperTuxKart over the years.
 
 Our current team is led by Alayan, co-leader of SuperTuxKart since 2019, and Sven, lead artist of the project after Samuncle's departure.
 
-Among the most significant past contributors are Hiker, project leader from 2006 to 2009, Auria who assisted him for a decade, Samuncle who was the game's lead artist for many years, Devee who created and maintained the Android version, and Benau, who became co-leader after Hiker's departure.
+Among the most significant past contributors are Hiker, project leader from 2006 to 2019, Auria who assisted him for a decade, Samuncle who was the game's lead artist for many years, Devee who created and maintained the Android version, and Benau, who became co-leader after Hiker's departure.
 
 See our [Team](Team) page for more information about the people behind SuperTuxKart!
 
