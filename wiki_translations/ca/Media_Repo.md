@@ -8,11 +8,11 @@ El repositori de mitjans també té una altra utilitat: fent-lo servir, podeu im
 
 ### Instal·lant el repositori de mitjans
 
-Recomanem treballar amb la versió de desenvolupament del STK, així que la millor manera de descarregar el repositori de mitjans és amb un client de Subversion (SVN). Tanmateix, si no podeu instal·lar el SVN, hi ha un mètode alternatiu.
+Recomanem treballar amb la versió de desenvolupament del STK, així que la millor manera de descarregar el repositori de mitjans és amb un client de Subversion (SVN). Tanmateix, si no podeu instal·lar el SVN hi ha un mètode alternatiu.
 
 #### La millor manera: instal·lant Subversion
 
-Les instruccions per instal·lar el Subversion estan a la pàgina [Instal·lant les eines] (https://supertuxkart.net/Installing_Tools#subversion-client). Un cop instal·lat, feu servir l'adreça següent per extreure el repositori:
+Les instruccions per instal·lar el Subversion estan a la pàgina [Instal·lant les eines] (Installing_Tools#subversion-client). Un cop instal·lat, feu servir l'adreça següent per extreure el repositori:
 
 * Si esteu fent servir un programa gràfic (com ara TortoiseSVN), pot ser que us demani la URL del repositori - `https://svn.code.sf.net/p/supertuxkart/code/media/trunk` - i un directori d'extracció, que és a on del vostre ordinador voleu que es copiï.
 * En un sistema operatiu de tipus Unix, un exemple de comanda d'extracció seria:

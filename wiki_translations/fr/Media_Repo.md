@@ -12,7 +12,7 @@ Nous recommandons d'utiliser la version de développement de STK, le meilleur mo
 
 #### Le meilleur moyen : installer une version antérieure
 
-Les instructions pour installer une version antérieure sont sur la page des [Outils d'installation] (https://supertuxkart.net/Installing_Tools#subversion-client). Une fois installé, utilisez l'adresse suivante pour vérifier l'intégrité du dossier :
+Les instructions pour installer une version antérieure sont sur la page des [Outils d'installation](Installing_Tools#subversion-client). Une fois installé, utilisez l'adresse suivante pour vérifier l'intégrité du dossier :
 
 * Si vous utilisez un programme à interface graphique (par exemple, Tortoise SVN), celui-ci pourrait vous demander l'URL du dépôt - `https://svn.code.sf.net/p/supertuxkart/code/media/trunk` - et un dossier d'export, qui est l'endroit sur votre ordinateur où vous souhaitez que celui-ci soit copié.
 * Avec les systèmes d'exploitation sous Unix ou assimilés, ou avec MacOS, un example de commande d'export serait :

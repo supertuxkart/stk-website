@@ -12,7 +12,7 @@ Recomendamos trabajar con la vesión de desarrollo del STK, así que la mejor fo
 
 #### La mejor forma: instalando Subversion
 
-Las instrucciones para instalar el Subversion están en la página [Instalando las herramientas] (https://supertuxkart.net/Installing_Tools#subversion-client). Una vez instalado, usa la dirección siguiente para extraer el repositorio:
+Las instrucciones para instalar el Subversion están en la página [Instalando las herramientas] (Installing_Tools#subversion-client). Una vez instalado, usa la dirección siguiente para extraer el repositorio:
 
 * Si estás usando un programa gráfico (como por ejemplo TortoiseSVN), es posible que te pida la URL del repositorio - `https://svn.code.sf.net/p/supertuxkart/code/media/trunk` - y un directorio de extracción, que es el lugar de tu ordenador donde quieres que se copie.
 * En un sistema operativo de tipo Unix, un ejemplo de comando de extracción sería:

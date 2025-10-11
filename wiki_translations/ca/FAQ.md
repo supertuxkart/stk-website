@@ -1,6 +1,9 @@
 ---
 title: PMF
 ---
+
+Consulta les [PMF del SuperTuxKart Evolution](STK_Evolution_FAQ) per a més informació sobre aquest projecte.
+
 {% start_liquid main_title %}
 
 Preguntes generals
@@ -11,13 +14,9 @@ Preguntes generals
 
 Què és el SuperTuxKart?
 
-Un joc de curses de karts en 3D de codi obert. El seu objectiu és que s'ho passin bé jugadors de tots els nivells, a base de donar-los capses d'elements aleatoris, nitro, derrapades, i més coses. El realisme no és el més important.
+SuperTuxKart és un joc de curses de karts de codi obert per a Linux, PC, Mac i Android. Es pot jugar fora de línia i en línia contra altres jugadors.
 
-STK ofereix un mode multijugador en línia, un mode multijugador local, i un mode d'un sol jugador contra IAs tant amb curses a mida com un mode història a completar per desbloquejar karts i circuits. També conté campionats, on l'objectiu és guanyar el màxim nombre de punts en diverses curses.
-
-Els seus 21 circuits et portaran per entorns variats. Des de platges d'illes assolellades fins a les profunditats d'una antiga mina, des dels carrers de Candela City a tranquiles carreteres al mig del camp, des d'una nau espacial fins a les muntanyes, tens molt per explorar i descobrir.
-
-El joc també té modes de joc addicionals a més de les curses normals: contrarrellotge, segueix al líder, futbol, capturar la bandera, i dos tipus de mode batalla.
+Disposa de diferents modes de joc amb una gran varietat de circuits i arenes.
 
 [Descobreix més aquí](Discover)!
 
@@ -26,6 +25,12 @@ El joc també té modes de joc addicionals a més de les curses normals: contrar
 {% start_liquid qa %}
 
 Qui hi ha al darrere del SuperTuxKart?
+
+Molta gent ha contribuït al SupertuxKart al llarg dels anys.
+
+El nostre equip actual està liderat per l'Alayan, colíder del SuperTuxKart des del 2019, i el Sven, artista en cap del projecte després de la marxa de Samuncle.
+
+Among the most significant past contributors are Hiker, project leader from 2006 to 2019, Auria who assisted him for a decade, Samuncle who was the game's lead artist for many years, Devee who created and maintained the Android version, and Benau, who became co-leader after Hiker's departure.
 
 Vegeu la pàgina del nostre [equip](Team) per a més informació sobre la gent darrera del SuperTuxKart!
 
@@ -52,7 +57,7 @@ El rendiment de la CPU podria ser el factor limitant depenent de la targeta grà
 **Altres requisits**
 
 * Com a mínim 1 GB de RAM lliure
-* Espai en disc: 700 MB
+* Disk space: 800MB
 
 **Opcional**
 
@@ -104,6 +109,8 @@ Al setembre de 2021 s'ha publicat la versió més recent, la 1.3. Conté actuali
 
 Per a més detalls, consulteu el [registre de canvis](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), el [blog](https://blog.supertuxkart.net) o la llista de problemes resolts al GitHub del STK.
 
+A l'agost de 2025 es va iniciar el projecte SuperTuxKart Evolution.
+
 {% end_liquid %}
 
 {% start_liquid qa %}
@@ -124,7 +131,7 @@ Vull ajudar! Què puc fer?
 
 Primer, fes una ullada a la pàgina [Participa](Community). Hauria de contenir tota la informació que necessites per començar a programar, modelar, dissenyar o el que sigui que vulguis fer.
 
-Abans de començar, hauries de contactar amb els desenvolupadors i artistes actuals a través del [IRC](https://web.libera.chat/?channels=#supertuxkart), el [canal de Telegram](https://t.me/STKInternational) o el [fòrum](https://forum.freegamedev.net/viewforum.php?f=16), i explicar-nos què és el que vols aconseguir. Això incrementarà molt les possibilitats de que la teva contribució sigui acceptada.
+Before you start, you should contact the current developers and artists through the [forum](https://forum.supertuxkart.net/) or the [IRC](https://web.libera.chat/?channels=#supertuxkart) and tell us what you want to achieve. This will greatly improve the chance that you contribution will be accepted.
 
 {% end_liquid %}
 
@@ -213,7 +220,7 @@ Primer, mira el [STK bug tracker](https://github.com/supertuxkart/stk-code/issue
 {% start_liquid qa %}
 
 On es guarda la configuració?
-
+Nota: això és aplicable a la versió 1.5, per a la següent versió aquesta pàgina s'actualitzarà.
 * A **Windows**: està a `%APPDATA%/supertuxkart/config-0.10` (podeu introduir això a l'explorador de fitxers i us hi portarà).
 * A **Linux**: O està a `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primera opció), o a `~/.config/supertuxkart/config-0.10` (segona opció) o a `~/.supertuxkart/config-0.10` (tercera opció).
 * A **macOS**: està a `~/Library/Application Support/supertuxkart/config-0.10`. Tingueu en compte que aquest directori podria estar ocult.
