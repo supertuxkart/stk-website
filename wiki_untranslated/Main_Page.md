@@ -17,6 +17,6 @@ Additional information is available in our [STK Evolution FAQ](STK_Evolution_FAQ
 <p class="landing-page-download-os">Linux | Windows | macOS | Android</p>
 </div>
 
-## {%translate Latest Blog Post%}
+## {%translate Latest Blog Posts%}
 
 {% include latest_blog_articles %}

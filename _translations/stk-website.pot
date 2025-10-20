@@ -403,6 +403,9 @@ msgstr ""
 msgid "ARM 64-bit"
 msgstr ""
 
+msgid "RISC-V 64-bit"
+msgstr ""
+
 # All-in-one architectures for STK installer / packages
 msgid "all architectures"
 msgstr ""
@@ -439,9 +442,18 @@ msgstr ""
 msgid "Hide"
 msgstr ""
 
-msgid "The main download links provided above are for the last stable release, SuperTuxKart 1.4.
+msgid "Download from Itch.io"
+msgstr ""
 
- the 1.5 RC2 builds [here](https://github.com/supertuxkart/stk-code/releases/tag/1.5-rc2).
+msgid "You can also download SuperTuxKart using itch.io.
+
+A gift package with two tracks is also available for donators. See the [Donation page](Donate) for more details. "
+msgstr ""
+
+msgid "Other downloads"
+msgstr ""
+
+msgid "The main download links provided above are for the last stable release, SuperTuxKart 1.5.
 
 The automated preview release builds are available [here](https://github.com/supertuxkart/stk-code/releases/preview).
 
@@ -458,7 +470,7 @@ msgstr ""
 msgid "Discover more..."
 msgstr ""
 
-msgid "Latest Blog Post"
+msgid "Latest Blog Posts"
 msgstr ""
 
 # Title of prerequisites popup which describes prerequisites before reading some articles

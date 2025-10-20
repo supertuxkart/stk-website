@@ -31,7 +31,7 @@ Former major contributors
 
 <table>
 <tr>
-{% include character_presentation_small name="Hiker: Former Project Leader" type="odd" description="Hiker revived the SuperTuxKart project in 2006, and led its developpment until the release of the 1.0 version in 2019." icon="/assets/wiki/Hiker_icon.png" %}
+{% include character_presentation_small name="Hiker: Former Project Leader" type="odd" description="Hiker revived the SuperTuxKart project in 2006, and led its development until the release of the 1.0 version in 2019." icon="/assets/wiki/Hiker_icon.png" %}
 
 {% include character_presentation_small name="Samuncle: Former Lead Artist" type="even" description="Samuncle contributed new tracks from 2010 to 2019. Over the years he strove to increase the game's graphical quality, and he is behind many of STK's most iconic tracks." icon="/assets/wiki/Samuncle_icon.png" %}
 </tr>
@@ -39,7 +39,7 @@ Former major contributors
 <tr>
 {% include character_presentation_small name="Benau: Former Project Leader" type="odd" description="Benau started contributing in 2016, and became co-leader of STK after Hiker's retirement in 2019. His main contributions are found in the graphics and networking code." icon="/assets/wiki/Benau_icon.png" %}
 
-{% include character_presentation_small name="Auria: Former Lead Programmer" type="even" description="For over ten years, Auria played a major role in STK's developpment, contributing through code but also in many other ways according to the project's needs." icon="/assets/wiki/Auria_icon.png" %}
+{% include character_presentation_small name="Auria: Former Lead Programmer" type="even" description="For over ten years, Auria played a major role in STK's development, contributing through code but also in many other ways according to the project's needs." icon="/assets/wiki/Auria_icon.png" %}
 </tr>
 </table>
 
