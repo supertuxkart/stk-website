@@ -131,7 +131,7 @@ msgstr ""
 msgid "Code"
 msgstr ""
 
-msgid "Report bugs, follow developpment or contribute code"
+msgid "Report bugs, follow development or contribute code"
 msgstr ""
 
 msgid "Share your experience with SuperTuxKart and make suggestions"

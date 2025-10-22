@@ -79,7 +79,7 @@ The development of a new major version with new tracks and gameplay changes will
 
 At the same time, we also want to improve communication between the playerbase and the development team.
 
-Finally, to help support a higher pace of developpment, we hope to revitalize external contributions, and aim to bring the next major version on Steam and to gather donations to be able to dedicate more time on the game.
+Finally, to help support a higher pace of development, we hope to revitalize external contributions, and aim to bring the next major version on Steam and to gather donations to be able to dedicate more time on the game.
 
 {% end_liquid %}
 
@@ -113,6 +113,6 @@ The STK Evolution team salutes this cool-headed choice, putting the good of the 
 
 What steps have been taken to ensure the project's resilience?
 
-Our aim is to ensure that at least 2, and preferably 3, trusted persons have access to each important resource needed to continue developping or promoting the project, to ensure redudancy in case someone becomes unable to assume his role. We are nonetheless exploring options to implement further safeguards so that disagreements within the team don't threaten the project's continuity.
+Our aim is to ensure that at least 2, and preferably 3, trusted persons have access to each important resource needed to continue developing or promoting the project, to ensure redudancy in case someone becomes unable to assume his role. We are nonetheless exploring options to implement further safeguards so that disagreements within the team don't threaten the project's continuity.
 
 {% end_liquid %}

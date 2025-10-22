@@ -6,7 +6,7 @@ title: Community
         <a class="community-link" href="https://github.com/supertuxkart/stk-code">
             <div class="get-involved-icon"><i class="fab fa-github" style="font-size: 90px; margin-top: 5px; margin-bottom: -5px;"></i></div>
             <div class="get-involved-name">{%translate GitHub%}</div>
-            <div class="get-involved-desc">{%translate "Report bugs, follow developpment or contribute code"%}</div>
+            <div class="get-involved-desc">{%translate "Report bugs, follow development or contribute code"%}</div>
         </a>
     </li>
     <li>
