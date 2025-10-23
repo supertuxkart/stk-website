@@ -431,6 +431,12 @@ msgstr ""
 msgid "To get the very latest code, see the page [Source control](Source_control)."
 msgstr ""
 
+msgid "Recommended Installation"
+msgstr ""
+
+msgid "Loading your recommended download..."
+msgstr ""
+
 msgid "Download from GitHub"
 msgstr ""
 

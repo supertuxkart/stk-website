@@ -90,6 +90,15 @@ https://github.com/supertuxkart/stk-code/releases/download/{{ site.stk_version }
 {%translate "To get the very latest code, see the page [Source control](Source_control)."%}
 {%- endcapture -%}
 
+{%- capture recommended_title -%}
+..:: {%translate Recommended Installation%} ::..
+{%- endcapture -%}
+{%- main_title {{ recommended_title }}-%}
+
+<div id="recommended-download-placeholder">
+<span class="translate">{%translate Loading your recommended download...%}</span>
+</div>
+
 {%- capture github_title -%}
 ..:: {%translate Download from GitHub%} ::..
 {%- endcapture -%}

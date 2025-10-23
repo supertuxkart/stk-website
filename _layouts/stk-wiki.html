@@ -157,5 +157,8 @@ SuperTuxKart Team © {{ site.time | date: '%Y' }}
 <script src="{{ '/assets/js/lang_redirect.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/simple-jekyll-search.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/searchdata.js' | relative_url }}" async></script>
+{%- if page.name == 'Download.md' -%}
+<script src="{{ '/assets/js/platform-detection.js' | relative_url }}"></script>
+{%- endif -%}
 </body>
 </html>
