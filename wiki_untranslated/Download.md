@@ -54,7 +54,7 @@ https://github.com/supertuxkart/stk-code/releases/download/{{ site.stk_version }
 {%- endcapture -%}
 
 {%- capture apple_link -%}
-https://github.com/supertuxkart/stk-code/releases/download/{{ site.stk_version }}/SuperTuxKart-{{ site.stk_version }}-mac.zip
+https://github.com/supertuxkart/stk-code/releases/download/{{ site.stk_version }}/SuperTuxKart-{{ site.stk_version }}-mac-signed.zip
 {%- endcapture -%}
 {%- capture apple_content -%}
 [**{{ full_game }}** (.zip) {{ all_archs }}](https://github.com/supertuxkart/stk-code/releases/download/{{ site.stk_version }}/SuperTuxKart-{{ site.stk_version }}-mac-signed.zip)
