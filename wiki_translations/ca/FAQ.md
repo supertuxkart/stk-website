@@ -30,7 +30,7 @@ Molta gent ha contribuït al SupertuxKart al llarg dels anys.
 
 El nostre equip actual està liderat per l'Alayan, colíder del SuperTuxKart des del 2019, i el Sven, artista en cap del projecte després de la marxa de Samuncle.
 
-Among the most significant past contributors are Hiker, project leader from 2006 to 2019, Auria who assisted him for a decade, Samuncle who was the game's lead artist for many years, Devee who created and maintained the Android version, and Benau, who became co-leader after Hiker's departure.
+Entre els principals contribuïdors del passat hi ha en Hiker, líder del projecte des del 2006 fins al 2019; Auria, que el va ajudar durant una dècada; Samuncle, que va ser l'artista en cap durant molts anys; Devee, que va crear i mantenir la versió d'Android; i Benau, que es va convertir en colíder després de la marxa de Hiker.
 
 Vegeu la pàgina del nostre [equip](Team) per a més informació sobre la gent darrera del SuperTuxKart!
 
@@ -57,7 +57,7 @@ El rendiment de la CPU podria ser el factor limitant depenent de la targeta grà
 **Altres requisits**
 
 * Com a mínim 1 GB de RAM lliure
-* Disk space: 800MB
+* Espai en disc: 800 MB
 
 **Opcional**
 
@@ -131,7 +131,7 @@ Vull ajudar! Què puc fer?
 
 Primer, fes una ullada a la pàgina [Participa](Community). Hauria de contenir tota la informació que necessites per començar a programar, modelar, dissenyar o el que sigui que vulguis fer.
 
-Before you start, you should contact the current developers and artists through the [forum](https://forum.supertuxkart.net/) or the [IRC](https://web.libera.chat/?channels=#supertuxkart) and tell us what you want to achieve. This will greatly improve the chance that you contribution will be accepted.
+Abans de començar, hauries de contactar amb els desenvolupadors i artistes actuals a través del [fòrum](https://forum.supertuxkart.net/) o l'[IRC](https://web.libera.chat/?channels=#supertuxkart) i explicar-nos què és el que vols aconseguir. Això incrementarà molt les possibilitats de que la teva contribució sigui acceptada.
 
 {% end_liquid %}
 

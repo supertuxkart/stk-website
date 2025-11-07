@@ -30,7 +30,7 @@ Mucha gente ha contribuido a SupertuxKart a lo largo de los años.
 
 Nuestro equipo actual está liderado por Alayan, co-líder de SuperTuxKart desde 2019, y Sven, jefe artístico del proyecto después de que Samuncle se haya retir.ado.
 
-Among the most significant past contributors are Hiker, project leader from 2006 to 2019, Auria who assisted him for a decade, Samuncle who was the game's lead artist for many years, Devee who created and maintained the Android version, and Benau, who became co-leader after Hiker's departure.
+Entre los principales contribuidores del pasado está Hiker, líder del proyecto desde 2006 hasta 2019; Auria, que le ayudó durante una década; Samuncle, que fue el jefe artístico durante muchos años; Devee, que creó y mantuvo la versión de Android; y Benau, que se convirtió en co-líder después de la marcha de Hiker.
 
 ¡Mira la página de nuestro [equipo](Team) para más información sobre la gente que està detrás de SuperTuxKart!
 
@@ -57,7 +57,7 @@ El rendimiento de la CPU podría ser el factor limitante dependiendo de la tarje
 **Otros requisitos**
 
 * Como mínimo 1 GB de RAM libre
-* Disk space: 800MB
+* Espacio en disco: 800 MB
 
 **Opcional**
 
@@ -131,7 +131,7 @@ No solo hay diferencias significativas en la forma de jugar, sino que SuperTuxKa
 
 Primero, echa un vistazo a la página [Participa](Community). Debería contener toda la información que necesitas para empezar a programar, modelar, diseñar, o lo que sea que quieras hacer.
 
-Before you start, you should contact the current developers and artists through the [forum](https://forum.supertuxkart.net/) or the [IRC](https://web.libera.chat/?channels=#supertuxkart) and tell us what you want to achieve. This will greatly improve the chance that you contribution will be accepted.
+Antes de empezar, deberías contactar con los desarrolladores y artistas actuales a través del [foro](https://forum.supertuxkart.net/) o el [IRC](https://web.libera.chat/?channels=#supertuxkart) y explicarnos qué es lo que quieres conseguir. Esto incrementará mucho las posibilidades de que tu contribución sea aceptada.
 
 {% end_liquid %}
 
