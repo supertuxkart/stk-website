@@ -37,8 +37,8 @@ title: Community
 
 <div class="additional-info">
 <a href="Donate" style="color: red;">
-<h2><i class="fa fa-heart"></i> {%translate Donations are coming soon!%}</h2>
-<p>{%translate Donations help us keep servers running and more!%}</p>
+<h2><i class="fa fa-heart"></i> {%translate You can also support us with a donation!%}</h2>
+<p>{%translate "Donations help us to spend more time improving the game, to keep servers running, and more!"%}</p>
 </a>
 </div>
 
