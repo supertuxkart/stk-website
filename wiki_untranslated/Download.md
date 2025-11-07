@@ -139,7 +139,7 @@ os="source" name=source_code content=source_content
 {%- endcapture -%}
 {%- main_title {{ other_title }}-%}
 
-{%translate The main download links provided above are for the last stable release, SuperTuxKart 1.5. %}
+{%translate "The main download links provided above are for the last stable release, SuperTuxKart 1.5."%}
 
 {%translate The automated preview release builds are available [here](https://github.com/supertuxkart/stk-code/releases/preview). %}
 

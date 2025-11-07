@@ -460,8 +460,7 @@ msgstr ""
 msgid "Other downloads"
 msgstr ""
 
-#  SuperTuxKart 1.5.
-msgid "The main download links provided above are for the last stable release"
+msgid "The main download links provided above are for the last stable release, SuperTuxKart 1.5."
 msgstr ""
 
 msgid "The automated preview release builds are available [here](https://github.com/supertuxkart/stk-code/releases/preview). "
