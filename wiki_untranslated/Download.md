@@ -128,9 +128,9 @@ os="source" name=source_code content=source_content
 {%- endcapture -%}
 {%- main_title {{ itch_title }}-%}
 
-{%translate You can also download SuperTuxKart using itch.io.
+{%translate You can also download SuperTuxKart using itch.io. %}
 
-A gift package with two tracks is also available for donators. See the [Donation page](Donate) for more details. %}
+{%translate A gift package with two tracks is also available for donators. See the [Donation page](Donate) for more details. %}
 
 {% include donation_frame %}
 
@@ -139,8 +139,8 @@ A gift package with two tracks is also available for donators. See the [Donation
 {%- endcapture -%}
 {%- main_title {{ other_title }}-%}
 
-{%translate The main download links provided above are for the last stable release, SuperTuxKart 1.5.
+{%translate The main download links provided above are for the last stable release, SuperTuxKart 1.5. %}
 
-The automated preview release builds are available [here](https://github.com/supertuxkart/stk-code/releases/preview).
+{%translate The automated preview release builds are available [here](https://github.com/supertuxkart/stk-code/releases/preview). %}
 
-Public testing builds for SuperTuxKart Evolution are not yet available. %}
+{%translate Public testing builds for SuperTuxKart Evolution are not yet available. %}
