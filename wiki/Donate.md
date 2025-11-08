@@ -23,6 +23,10 @@ Donations help us improve the game, as they may be used for purchasing hardware,
 
 Alongside SuperTuxKart 1.5, a donation package including two tracks developed for SuperTuxKart Evolution - Drainage Dash and Freytra Peaks - is available for donations of 5$ or more.
 
+<div style="text-align: center; max-width: 100%;">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/tzTJgzzymBs" title="SuperTuxKart 1.5 Gift Package Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 640px;"></iframe>
+</div>
+
 {% gallery widths=90%
 /assets/wiki/1.5_gift_package.jpg
 %}

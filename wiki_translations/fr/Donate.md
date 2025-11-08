@@ -23,6 +23,10 @@ Les dons nous aident à améliorer le jeu, ils peuvent être utilisés pour ache
 
 En sus de SuperTuxKart 1.5, un paquet cadeau contenant deux circuits conçus pour SuperTuxKart Evolution - "Drainage Dash" et "Freytra Peaks" - est disponible pour les dons de 5$ ou plus.
 
+<div style="text-align: center; max-width: 100%;">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/tzTJgzzymBs" title="SuperTuxKart 1.5 Gift Package Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 640px;"></iframe>
+</div>
+
 {% gallery widths=90%
 /assets/wiki/1.5_gift_package.jpg
 %}
