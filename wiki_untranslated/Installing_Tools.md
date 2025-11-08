@@ -50,7 +50,7 @@ Karbon is a powerful application with a simple, intuitive interface. Unlike the 
 
 ## For 3D art creation (karts, tracks, models)
 
-For 3D artwork like tracks, karts, and models, you will need 3D modeling software. Unfortunately, SuperTuxKart is a bit more limited in this respect. For making karts and objects, you must use Blender. For tracks, you have the choice of Blender or the SuperTuxKart track editor.
+For 3D artwork like tracks, karts, and models, you will need 3D modeling software. Unfortunately, SuperTuxKart is a bit more limited in this respect. For making karts, tracks and objects, you must use Blender. The SuperTuxKart track editor that was created over a decade ago to try to make track-making more accessible was always extremely limited and is unsupported.
 
 ### Blender
 
@@ -59,8 +59,6 @@ For 3D artwork like tracks, karts, and models, you will need 3D modeling softwar
 * **License:** GNU General Public License 2.0 (or later)
 
 The premiere open-source 3D modeling software. Blender has a large and loyal userbase of both hobbyist and commercial users. Blender can be difficult for beginners, but has a detailed manual as well as third-party guides on YouTube and other places. An excellent and easy-to-follow guide for beginners can be found [here](https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro).
-
-Blender must be used for karts and objects, and produces better results than the SuperTuxKart track editor for tracks.
 
 {%popup_info After a major update, Blender versions may not yet be compatible with the SuperTuxKart Blender scripts. Check the [minimum requirements section](https://github.com/supertuxkart/stk-blender#user-content-supertuxkart-blender-addons) to see which Blender versions are compatible. If necessary, [older Blender versions can be found here](https://www.blender.org/download/lts/).%}
 
@@ -146,7 +144,3 @@ A Subversion (more commonly known as SVN) client is a must-have for fetching the
 * For Windows users, especially those unfamiliar with the command line, we recommend [TortoiseSVN](https://tortoisesvn.net), an easy-to-use graphical interface for SVN. Go to the download page, select the version that matches your machine (in most cases, 64-bit OS) and go through the installation. Once installed, go to the folder in Windows Explorer to where you want your working copy to be, right-click and select `TortoiseSVN` → `Checkout`, then enter the URL of the online repository and make sure the Checkout directory is where you want it to be, then click OK. To update files with changes, select them, then right-click and select `TortoiseSVN` → `Update` in the menu.
 
 * For Mac users, [you can easily install using Homebrew, Fink and MacPorts, among other options](https://subversion.apache.org/packages.html#osx). For Unix-like systems, [you can usually install via command-line](https://subversion.apache.org/packages.html).
-
-### SuperTuxKart Track Editor
-
-The SuperTuxKart track editor is a fairly new effort to make creating and modifying SuperTuxKart tracks easy for enthusiasts who are not interested in dealing with the complexities (and features) of Blender. Because it is still under development, bugs and crashes should be expected. Instructions for compiling and using the STK editor can be found at the [Track Editor](Track_Editor) page.
