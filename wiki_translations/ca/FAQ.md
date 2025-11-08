@@ -220,6 +220,7 @@ Primer, mira el [STK bug tracker](https://github.com/supertuxkart/stk-code/issue
 {% start_liquid qa %}
 
 On es guarda la configuració?
+
 Nota: això és aplicable a la versió 1.5, per a la següent versió aquesta pàgina s'actualitzarà.
 * A **Windows**: està a `%APPDATA%/supertuxkart/config-0.10` (podeu introduir això a l'explorador de fitxers i us hi portarà).
 * A **Linux**: O està a `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primera opció), o a `~/.config/supertuxkart/config-0.10` (segona opció) o a `~/.supertuxkart/config-0.10` (tercera opció).

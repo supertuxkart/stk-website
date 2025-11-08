@@ -223,6 +223,7 @@ D'abord, regardez sur le [répertoire des bugs de STK](https://github.com/supert
 {% start_liquid qa %}
 
 Où est enregistrée la configuration ?
+
 Note: ceci s'applique à la version 1.5, pour la prochaine version majeure cette page sera mise à jour.
 * Sur **Windows**: Dans `%APPDATA%/supertuxkart/config-0.10` (vous pouvez entrer cette adresse dans l'Explorateur de fichiers).
 * Sur **Linux**: Ça peut être dans `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (premier choix), `~/.config/supertuxkart/config-0.10` (second choix) ou dans `~/.supertuxkart/config-0.10` (troisième choix).

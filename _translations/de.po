@@ -4,13 +4,15 @@
 # luva, 2022
 # Tim, 2022
 # FabianF, 2023
+# Alayan, 2025
+# Sven Andreas Belting, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: stk-website\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: 2021-11-10 17:58+0000\n"
-"Last-Translator: FabianF, 2023\n"
+"Last-Translator: Sven Andreas Belting, 2025\n"
 "Language-Team: German (https://app.transifex.com/supertuxkart/teams/36024/de/)\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,7 +27,7 @@ msgid "SuperTuxKart"
 msgstr "SuperTuxKart"
 
 msgid "Download"
-msgstr "Download"
+msgstr "Herunterladen"
 
 msgid "Discover"
 msgstr "Entdecke"
@@ -51,6 +53,9 @@ msgstr "Menü"
 msgid "FAQ"
 msgstr "FAQ"
 
+msgid "Team"
+msgstr "Team"
+
 msgid "Get Involved"
 msgstr "Mach mit"
 
@@ -67,33 +72,18 @@ msgstr "Werkzeuge"
 msgid "Language"
 msgstr "Sprache"
 
-msgid "Management"
-msgstr "Verwaltung"
-
-msgid "New page"
-msgstr "Neue Seite"
-
-msgid "Edit page"
-msgstr "Seite bearbeiten"
-
-msgid "Page history"
-msgstr "Seitenverlauf"
-
 msgid "Visit the main page"
 msgstr "Besuche die Hauptseite"
 
 msgid "Forum"
 msgstr "Forum"
 
-msgid "Twitter"
-msgstr "Twitter"
+msgid "Twitter / X"
+msgstr "Twitter / X"
 
 # Clicking Addons will go to online.supertuxkart.net
 msgid "Addons"
 msgstr "Add-ons"
-
-msgid "Telegram"
-msgstr "Telegram"
 
 msgid "Media"
 msgstr "Medien"
@@ -110,16 +100,15 @@ msgstr "Poster"
 msgid "Development"
 msgstr "Entwicklung "
 
-# Clicking Modding will go to Commuity page
+# Clicking Modding will go to Community page
 msgid "Modding"
 msgstr "Modifizierungen"
 
 msgid "GitHub"
 msgstr "GitHub"
 
-# Clicking Documentation will go to SuperTuxKart doxygen
-msgid "Documentation"
-msgstr "Dokumentation"
+msgid "SVN"
+msgstr "SVN"
 
 msgid "About us"
 msgstr "Über uns"
@@ -155,20 +144,39 @@ msgstr "Erstellen von Strecken"
 msgid "Code"
 msgstr "Code"
 
+msgid "Report bugs, follow development or contribute code"
+msgstr "Melde Fehler, folge der Entwicklung oder trage Code bei"
+
+msgid "Share your experience with SuperTuxKart and make suggestions"
+msgstr "Teile deine Erfahrungen mit SuperTuxKart und mache Vorschläge"
+
 msgid "IRC"
 msgstr "IRC"
 
-msgid "Mailing List"
-msgstr "E-Mail-Verteiler"
+msgid "For a quick chat with other players"
+msgstr "Für einen kurzen Chat mit anderen Spielern"
 
 msgid "Reddit"
 msgstr "Reddit"
 
-msgid "Support Us"
-msgstr "Unterstütze uns"
+msgid ""
+"You can also look at the [archived old "
+"forum](https://forum.freegamedev.net/viewforum.php?f=16) for past "
+"discussions."
+msgstr ""
+"Du kannst auch das [alte archivierte Forum] "
+"(https://forum.freegamedev.net/viewforum.php?f=16) für vergangene "
+"Diskussionen ansehen."
 
-msgid "Donations help us keep servers running and more!"
-msgstr "Spenden helfen uns dabei, die Server zu betreiben und vieles mehr!"
+msgid "You can also support us with a donation!"
+msgstr "Du kannst uns auch mit einer Spende unterstützen!"
+
+msgid ""
+"Donations help us to spend more time improving the game, to keep servers "
+"running, and more!"
+msgstr ""
+"Spenden helfen uns mehr Zeit zu investieren um das Spiel zu verbessern, die "
+"Server zu betreiben und vieles mehr!"
 
 # In Community page
 msgid "For Programmers"
@@ -186,9 +194,6 @@ msgstr "Selbst kompilieren"
 
 msgid "Coding style guidelines"
 msgstr "Programmierstil-Richtlinien"
-
-msgid "Doxygen documentation"
-msgstr "Doxygen-Dokumentation"
 
 msgid "Tasks for beginners"
 msgstr "Aufgaben für Anfänger"
@@ -558,6 +563,9 @@ msgstr "ARM 32-bit"
 msgid "ARM 64-bit"
 msgstr "ARM 64-bit"
 
+msgid "RISC-V 64-bit"
+msgstr "RISC-V 64-bit"
+
 # All-in-one architectures for STK installer / packages
 msgid "all architectures"
 msgstr "Alle Architekturen"
@@ -586,8 +594,14 @@ msgstr ""
 "Um die aktuellste Version zu erhalten, schaue auf die Seite "
 "[Versionsverwaltung](Source_control)."
 
+msgid "Recommended Installation"
+msgstr "Empfohlene Installation"
+
+msgid "Loading your recommended download..."
+msgstr "Dein empfohlener Download wird geladen..."
+
 msgid "Download from GitHub"
-msgstr "Download von GitHub"
+msgstr "Herunterladen von GitHub"
 
 # Toggle for table of contents
 msgid "Show"
@@ -597,24 +611,88 @@ msgstr "Anzeigen"
 msgid "Hide"
 msgstr "Verbergen"
 
+msgid "Download from Itch.io"
+msgstr "Herunterladen von Itch.io"
+
+msgid "You can also download SuperTuxKart using itch.io. "
+msgstr "Sie können SuperTuxKart auch auf itch.io herunterladen."
+
 msgid ""
-"Preview release is available [here](https://github.com/supertuxkart/stk-"
-"code/releases/preview)."
+"A gift package with two tracks is also available for donators. See the "
+"[Donation page](Donate) for more details. "
 msgstr ""
-"Der Vorschau-Release ist [hier] (https://github.com/supertuxkart/stk-"
-"code/releases/preview) verfügbar."
+"Ein Geschenkpaket mit zwei Strecken ist ebenfalls für Unterstützer "
+"verfügbar. Besuche die [Spendenseite](Donate) für weitere Informationen. "
 
-msgid "Get the latest release candidate:"
-msgstr "Hol dir den aktuellen Release-Kandidaten:"
+msgid "Other downloads"
+msgstr "Andere Downloads"
 
-msgid "Get SuperTuxKart on Itch.io"
-msgstr "Hol dir SuperTuxKart auf Itch.io"
+msgid ""
+"The main download links provided above are for the last stable release, "
+"SuperTuxKart 1.5."
+msgstr ""
+"Die Download-Links oben sind für die neueste stabile Version, SuperTuxKart "
+"1.5"
+
+msgid ""
+"The automated preview release builds are available "
+"[here](https://github.com/supertuxkart/stk-code/releases/preview). "
+msgstr ""
+"Die automatisierten Vorabversion sind "
+"[hier](https://github.com/supertuxkart/stk-code/releases/preview) verfügbar."
+" "
+
+msgid ""
+"Public testing builds for SuperTuxKart Evolution are not yet available. "
+msgstr ""
+"Öffentliche Testversionen für SuperTuxKart Evolution sind noch nicht "
+"verfügbar."
+
+msgid ""
+"The next major release of SuperTuxKart, named SuperTuxKart Evolution is "
+"currently under development. Building upon the foundation laid by all those "
+"who made STK what it is today, **SuperTuxKart Evolution will be the biggest "
+"release in STK's history in terms of new content**: new tracks, new "
+"features, improved gameplay, enhanced graphics, and much more. An overview "
+"of our roadmap is [available "
+"here](https://blog.supertuxkart.net/2025/09/supertuxkart-evolution-"
+"roadmap.html)."
+msgstr ""
+"Die nächste große Veröffentlichung von SuperTuxKart, genannt SuperTuxKart "
+"Evolution, befindet sich derzeit in Entwicklung. Aufbauend auf dem Fundament"
+" von allen, die STK zu dem gemacht haben, was es heute ist, wird "
+"SuperTuxKart Evolution das größte Release in der Geschichte von STK bezogen "
+"auf neue Inhalte: neue Strecken, neue Funktionen, verbessertes Gameplay, "
+"verbesserte Grafik und vieles mehr. Eine Übersicht über unsere Roadmap ist "
+"[hier verfügbar](https://blog.supertuxkart.net/2025/09/supertuxkart-"
+"evolution-roadmap.html)."
+
+msgid ""
+"As part of our efforts towards SuperTuxKart Evolution, the SuperTuxKart team"
+" will also improve communication with the community, with more frequent "
+"updates on our plans. A [new forum](https://forum.supertuxkart.net/) has "
+"been opened for people to talk about the game and ask us questions. We also "
+"want to make it easier for new contributors to join us on our journey."
+msgstr ""
+"Als Teil unserer Arbeit an SuperTuxKart Evolution wird das SuperTuxKart-Team"
+" auch die Kommunikation mit der Community verbessern, mit häufigeren Updates"
+" über unsere Pläne. Ein [neues Forum](https://forum.supertuxkart.net/) wurde"
+" eröffnet, in dem Spieler über das Spiel chatten und uns Fragen stellen "
+"können. Außerdem möchten wir es neuen Mitwirkenden leichter machen, sich uns"
+" auf unserem Weg anzuschließen."
+
+msgid ""
+"Additional information is available in our [STK Evolution "
+"FAQ](STK_Evolution_FAQ)."
+msgstr ""
+"Weitere Information ist in unserer [STK Evolution FAQ](STK_Evolution_FAQ) "
+"verfügbar."
 
 msgid "Discover more..."
 msgstr "Entdecke mehr..."
 
-msgid "Latest Blog Post"
-msgstr "Aktuellster Blogeintrag"
+msgid "Latest Blog Posts"
+msgstr "Aktuellste Blogeinträge"
 
 # Title of prerequisites popup which describes prerequisites before reading
 # some articles
