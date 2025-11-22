@@ -139,6 +139,8 @@ os="source" name=source_code content=source_content
 {%- endcapture -%}
 {%- main_title {{ other_title }}-%}
 
+{%translate "SuperTuxKart 1.5 is also available for iOS users [on the Apple App Store](https://apps.apple.com/us/app/supertuxkart/id6737858957)."%}
+
 {%translate "The main download links provided above are for the last stable release, SuperTuxKart 1.5."%}
 
 {%translate The automated preview release builds are available [here](https://github.com/supertuxkart/stk-code/releases/preview). %}

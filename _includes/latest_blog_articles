@@ -1,4 +1,14 @@
 {% blog_article
+SuperTuxKart 1.5 is now available on iOS
+
+Devee, a former member of the STK team who previously authored the Android port, has recently published the game on the Apple App Store.
+
+Learn more in [our blog post](https://blog.supertuxkart.net/2025/11/supertuxkart-15-is-now-available-on-ios.html).
+
+November 22, 2025 by [Alayan](https://github.com/Alayan-stk-2)
+%}
+
+{% blog_article
 SuperTuxKart 1.5 Gift Package trailer
 
 A new STK video showcasing Freytra Peaks and Drainage Dash, two of the new tracks designed for SuperTuxKart Evolution, has been released. These tracks are available in early access for donators as part of the [1.5 gift package](Donate).

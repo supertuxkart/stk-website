@@ -21,7 +21,6 @@ Other team members
 * ALBatross: Composer
 * Typhon: Artist
 * BcfWorld: Online services
-* Devee: Android maintainer
 
 {% start_liquid main_title %}
 
@@ -49,12 +48,12 @@ Former Contributors
 
 {% end_liquid %}
 
+* Dawid Gan (Devee): Android port & General improvements & many many bugfixes
 * OzoneOne: Music
 * Csaba Molnar
 * Krobonil: Music
 * Stephen Just: Network & Addon website
 * Daniel Butum: Network & Addon website
-* Dawid Gan: Android port & General improvements & many many bugfixes
 * Marc Coll: Grand Prix editor
 * Flakebi
 * Konstin

@@ -460,6 +460,9 @@ msgstr ""
 msgid "Other downloads"
 msgstr ""
 
+msgid "SuperTuxKart 1.5 is also available for iOS users [on the Apple App Store](https://apps.apple.com/us/app/supertuxkart/id6737858957)."
+msgstr ""
+
 msgid "The main download links provided above are for the last stable release, SuperTuxKart 1.5."
 msgstr ""
 
