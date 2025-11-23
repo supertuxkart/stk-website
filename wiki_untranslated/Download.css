@@ -147,3 +147,9 @@ iframe {
     height: 167px !important;
     margin-bottom: 14px !important;
 }
+
+.download-content-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
