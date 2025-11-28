@@ -50,6 +50,9 @@ msgstr "Menu"
 msgid "FAQ"
 msgstr "Perguntas Frequentes"
 
+msgid "Team"
+msgstr "Equipa"
+
 msgid "Get Involved"
 msgstr "Envolve-te"
 
@@ -66,33 +69,18 @@ msgstr "Ferramentas"
 msgid "Language"
 msgstr "Idioma"
 
-msgid "Management"
-msgstr "Manutenção"
-
-msgid "New page"
-msgstr "Nova página"
-
-msgid "Edit page"
-msgstr "Editar página"
-
-msgid "Page history"
-msgstr "Histórico da página"
-
 msgid "Visit the main page"
 msgstr "Visitar a página inicial"
 
 msgid "Forum"
 msgstr "Fórum"
 
-msgid "Twitter"
-msgstr "Twitter"
+msgid "Twitter / X"
+msgstr "Twitter / X"
 
 # Clicking Addons will go to online.supertuxkart.net
 msgid "Addons"
 msgstr "Extensões"
-
-msgid "Telegram"
-msgstr "Telegram"
 
 msgid "Media"
 msgstr "Média"
@@ -109,16 +97,15 @@ msgstr "Pósteres"
 msgid "Development"
 msgstr "Desenvolvimento"
 
-# Clicking Modding will go to Commuity page
+# Clicking Modding will go to Community page
 msgid "Modding"
 msgstr "Modding"
 
 msgid "GitHub"
 msgstr "GitHub"
 
-# Clicking Documentation will go to SuperTuxKart doxygen
-msgid "Documentation"
-msgstr "Documentação"
+msgid "SVN"
+msgstr "SVN"
 
 msgid "About us"
 msgstr "Sobre nós"
@@ -154,21 +141,39 @@ msgstr "Fazer Pistas"
 msgid "Code"
 msgstr "Código"
 
+msgid "Report bugs, follow development or contribute code"
+msgstr "Reporta erros, acompanha o desenvolvimento ou contribui com código"
+
+msgid "Share your experience with SuperTuxKart and make suggestions"
+msgstr "Partilha a tua experiência com o SuperTuxKart e deixa sugestões"
+
 msgid "IRC"
 msgstr "IRC"
 
-msgid "Mailing List"
-msgstr "Lista de e-mails"
+msgid "For a quick chat with other players"
+msgstr "Para uma conversa rápida com outros jogadores"
 
 msgid "Reddit"
 msgstr "Reddit"
 
-msgid "Support Us"
-msgstr "Apoia-nos"
-
-msgid "Donations help us keep servers running and more!"
+msgid ""
+"You can also look at the [archived old "
+"forum](https://forum.freegamedev.net/viewforum.php?f=16) for past "
+"discussions."
 msgstr ""
-"Doações ajudam-nos a manter os nossos servidores a funcionar e muito mais!"
+"Podes ainda consultar o [arquivo do antigo "
+"fórum](https://forum.freegamedev.net/viewforum.php?f=16) para discussões "
+"anteriores."
+
+msgid "You can also support us with a donation!"
+msgstr "Também podes ajudar-nos com uma doação!"
+
+msgid ""
+"Donations help us to spend more time improving the game, to keep servers "
+"running, and more!"
+msgstr ""
+"As doações ajudam-nos a dedicar mais tempo a melhorar o jogo, manter os "
+"servidores em funcionamento e muito mais!"
 
 # In Community page
 msgid "For Programmers"
@@ -186,9 +191,6 @@ msgstr "Compilar a partir da fonte"
 
 msgid "Coding style guidelines"
 msgstr "Diretrizes do estilo de código"
-
-msgid "Doxygen documentation"
-msgstr "Documentação doxygen"
 
 msgid "Tasks for beginners"
 msgstr "Tarefas para principiantes"
@@ -551,6 +553,9 @@ msgstr "ARM 32-bit"
 msgid "ARM 64-bit"
 msgstr "ARM 64-bit"
 
+msgid "RISC-V 64-bit"
+msgstr "RISC-V 64-bit"
+
 # All-in-one architectures for STK installer / packages
 msgid "all architectures"
 msgstr "todas as arquiteturas"
@@ -579,6 +584,12 @@ msgstr ""
 "Para obteres o código mais recente, vê a página [Controlo de "
 "versões](Source_control)."
 
+msgid "Recommended Installation"
+msgstr "Instalação Recomendada"
+
+msgid "Loading your recommended download..."
+msgstr "A carregar a descarga recomendada..."
+
 msgid "Download from GitHub"
 msgstr "Instalar do GitHub"
 
@@ -590,24 +601,87 @@ msgstr "Mostrar"
 msgid "Hide"
 msgstr "Ocultar"
 
+msgid "Download from Itch.io"
+msgstr "Descarregar pelo Itch.io"
+
+msgid "You can also download SuperTuxKart using itch.io. "
+msgstr "Também podes descarregar o SuperTuxKart pelo itch.io. "
+
 msgid ""
-"Preview release is available [here](https://github.com/supertuxkart/stk-"
-"code/releases/preview)."
+"A gift package with two tracks is also available for donators. See the "
+"[Donation page](Donate) for more details. "
 msgstr ""
-"Uma versão experimental está disponível "
+"Para os doadores, está ainda disponível um pacote de oferta com duas pistas."
+" Consulta a [página de doações](Donate) para mais detalhes. "
+
+msgid "Other downloads"
+msgstr "Outras descargas"
+
+msgid ""
+"The main download links provided above are for the last stable release, "
+"SuperTuxKart 1.5."
+msgstr ""
+"Os principais links de descarga fornecidos acima são para a última versão "
+"estável, o SuperTuxKart 1.5."
+
+msgid ""
+"The automated preview release builds are available "
+"[here](https://github.com/supertuxkart/stk-code/releases/preview). "
+msgstr ""
+"As versões automáticas de pré-lançamento estão disponíveis "
 "[aqui](https://github.com/supertuxkart/stk-code/releases/preview)."
 
-msgid "Get the latest release candidate:"
-msgstr "Obter a última versão candidata a lançamento:"
+msgid ""
+"Public testing builds for SuperTuxKart Evolution are not yet available. "
+msgstr ""
+"As versões de teste público do SuperTuxKart Evolution ainda não estão "
+"disponíveis. "
 
-msgid "Get SuperTuxKart on Itch.io"
-msgstr "Obter SuperTuxKart no Itch.io"
+msgid ""
+"The next major release of SuperTuxKart, named SuperTuxKart Evolution is "
+"currently under development. Building upon the foundation laid by all those "
+"who made STK what it is today, **SuperTuxKart Evolution will be the biggest "
+"release in STK's history in terms of new content**: new tracks, new "
+"features, improved gameplay, enhanced graphics, and much more. An overview "
+"of our roadmap is [available "
+"here](https://blog.supertuxkart.net/2025/09/supertuxkart-evolution-"
+"roadmap.html)."
+msgstr ""
+"A próxima grande versão do SuperTuxKart, chamada SuperTuxKart Evolution, "
+"está atualmente em desenvolvimento. Assente no trabalho de todos os que "
+"tornaram o STK no que é hoje, o **SuperTuxKart Evolution será o maior "
+"lançamento da história do STK em termos de novo conteúdo**: novas pistas, "
+"novas funcionalidades, jogabilidade aprimorada, gráficos melhorados e muito "
+"mais. Uma visão geral do nosso plano de desenvolvimento está [disponível "
+"aqui](https://blog.supertuxkart.net/2025/09/supertuxkart-evolution-"
+"roadmap.html)."
+
+msgid ""
+"As part of our efforts towards SuperTuxKart Evolution, the SuperTuxKart team"
+" will also improve communication with the community, with more frequent "
+"updates on our plans. A [new forum](https://forum.supertuxkart.net/) has "
+"been opened for people to talk about the game and ask us questions. We also "
+"want to make it easier for new contributors to join us on our journey."
+msgstr ""
+"Como parte dos nossos esforços rumo ao SuperTuxKart Evolution, a equipa do "
+"SuperTuxKart irá também melhorar a comunicação com a comunidade, com "
+"atualizações mais frequentes sobre os nossos planos. Um [novo "
+"fórum](https://forum.supertuxkart.net/) foi aberto para que todos possam "
+"conversar sobre o jogo e colocar-nos questões. Queremos igualmente facilitar"
+" a entrada de novos colaboradores nesta jornada connosco."
+
+msgid ""
+"Additional information is available in our [STK Evolution "
+"FAQ](STK_Evolution_FAQ)."
+msgstr ""
+"Informações adicionais disponíveis nas [Perguntas Frequentes do STK "
+"Evolution](STK_Evolution_FAQ)."
 
 msgid "Discover more..."
 msgstr "Descobre mais..."
 
-msgid "Latest Blog Post"
-msgstr "Última Postagem no Blogue"
+msgid "Latest Blog Posts"
+msgstr "Últimas Publicações no Blogue"
 
 # Title of prerequisites popup which describes prerequisites before reading
 # some articles

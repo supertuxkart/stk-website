@@ -1,6 +1,9 @@
 ---
 title: Perguntas Frequentes
 ---
+
+Consulta as nossas [Perguntas Frequentes do SuperTuxKart Evolution](STK_Evolution_FAQ) para mais informações sobre este projeto.
+
 {% start_liquid main_title %}
 
 Perguntas Gerais
@@ -11,13 +14,9 @@ Perguntas Gerais
 
 O que é o SuperTuxKart?
 
-SuperTuxKart é um jogo de karting 3D em código aberto. Procura proporcionar diversão para jogadores de todos os níveis de habilidade, com caixas de itens que dão itens aleatórios, nitro, derrapagens e mais. O realismo não é o foco.
+SuperTuxKart é um jogo de karting 3D em código aberto para Linux, PC, Mac e Android. Podes jogar localmente ou online contra outros jogadores.
 
-O STK oferece um multijogador online, um multijogador local e um modo Um Jogador contra IAs tanto em corridas personalizadas como num modo História para completar e desbloquear novos karts e pistas. Inclui Campeonatos onde o objetivo é obter o máximo de pontos numa série de corridas.
-
-As suas 21 pistas levar-te-ão a uma variedade de ambientes. Desde praias em ilhas ensolaradas à profundidade de uma mina velha, desde as ruas da Cidade de Candela a pacíficas estradas rurais, desde uma nave espacial até às montanhas, tens muito para explorar e descobrir.
-
-O jogo inclui ainda modos adicionais além de corridas normais: Contrarrelógio, Seguir o Líder, Futebol, Capturar a Bandeira e dois tipos de modo de Batalha.
+Apresenta uma diversidade de modos de jogo, com uma variedade de diferentes pistas e arenas.
 
 [Descobre mais aqui](Discover)!
 
@@ -26,6 +25,12 @@ O jogo inclui ainda modos adicionais além de corridas normais: Contrarrelógio,
 {% start_liquid qa %}
 
 Quem está por detrás do SuperTuxKart?
+
+Um grande número de pessoas tem contribuído para o SuperTuxKart ao longo dos anos.
+
+A nossa equipa atual é liderada por Alayan, co-líder do SuperTuxKart desde 2019, e Sven, artista principal do projeto após a saída de Samuncle.
+
+Entre os contribuidores mais significativos do passado estão Hiker, líder do projeto de 2006 a 2019, Auria, que o auxiliou por uma década, Samuncle, que foi o artista principal do jogo por muitos anos, Devee, que criou e manteve a versão Android, e Benau, que se tornou co-líder após a saída de Hiker.
 
 Vê a nossa página da [equipa](Team) para informação sobre o pessoal por detrás do SuperTuxKart!
 
@@ -52,7 +57,7 @@ O desempenho do CPU poderá ser o que limita, dependendo da placa gráfica e das
 **Outros requisitos**
 
 * Pelo menos 1 GB livre de RAM
-* Espaço no disco: 700MB
+* Espaço no disco: 800MB
 
 **Opcional**
 
@@ -104,6 +109,8 @@ Em setembro de 2021, a versão mais recente, 1.3, foi lançada. Foram melhorados
 
 Para mais detalhes, por favor vê o [registo de alterações](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), as [postagens no blogue](https://blog.supertuxkart.net) ou a lista de problemas resolvidos no GitHub do STK.
 
+Em agosto de 2025, foi iniciado o projeto SuperTuxKart Evolution.
+
 {% end_liquid %}
 
 {% start_liquid qa %}
@@ -120,11 +127,11 @@ Não só há várias diferenças notáveis na jogabilidade, como também o Super
 
 {% start_liquid qa %}
 
-Eu quero ajudar! O que é que eu posso fazer?
+Eu quero ajudar! O que posso fazer?
 
 Primeiro, dá uma olhada à página [Envolve-te](Community). Deverá conter toda a informação de que precisas para começar a fazer código, modelos, design ou o que prefiras fazer.
 
-Antes de começar, deves contactar os desenvolvedores e artistas atuais através do [IRC](https://web.libera.chat/?channels=#supertuxkart), do [canal de Telegram](https://t.me/STKInternational) ou do [fórum](https://forum.freegamedev.net/viewforum.php?f=16) e diz-nos o que queres fazer. Isto aumentará as chances de a tua contribuição ser aceite.
+Antes de começar, deves contactar os desenvolvedores e artistas atuais através do [fórum](https://forum.supertuxkart.net/) ou do [IRC](https://web.libera.chat/?channels=#supertuxkart) e diz-nos o que queres fazer. Isto aumentará as chances de a tua contribuição ser aceite.
 
 {% end_liquid %}
 
@@ -144,7 +151,7 @@ A maioria dos itens pode ser disparada à retaguarda (bola de bólingue, bolo, d
 
 {% start_liquid qa %}
 
-Os karts de computador fazem batota?
+Os karts de IA fazem batota?
 
 Não!
 
@@ -214,7 +221,8 @@ Primeiro, observa o [Rastreador de Bugs do STK](https://github.com/supertuxkart/
 
 Onde fica armazenada a configuração do jogo?
 
-* No **Windows**:  fica em `%APPDATA%/supertuxkart/config-0.10` (podes introduzir isto no Explorador que ele leva-te lá).
+Nota: isto aplica-se à versão 1.5. Na próxima grande versão, esta página será atualizada.
+* No **Windows**: fica em `%APPDATA%/supertuxkart/config-0.10` (podes introduzir isto no Explorador que ele leva-te lá).
 * No **Linux**: ou fica em `$XDG_CONFIG_HOME/supertuxkart/config-0.10` (primeira opção), em `~/.config/supertuxkart/config-0.10` (segunda opção) ou então em `~/.supertuxkart/config-0.10` (terceira opção).
 * No **macOS**: fica em `~/Library/Application Support/supertuxkart/config-0.10`. Repara que este diretório poderá estar oculto.
 * No **Android**: fica em `/storage/emulated/0/Android/data/org.supertuxkart.stk/files/supertuxkart/home/supertuxkart/config-0.10`.
