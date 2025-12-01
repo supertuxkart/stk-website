@@ -1,0 +1,23 @@
+<ul id="code_portal_nav">
+    <li class="code_portal_nav_item" id="special_return_to_code_portal">
+    <a href="Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="code_portal_nav_text">
+        <a href="Community">{%translate_span Return to Get Involved%}</a>
+    </span>
+    </li>
+    <li class="code_portal_nav_item">
+    <span class="code_portal_nav_text">
+        <a href="How_to_contribute_code">{%translate_span How to contribute code%}</a>
+    </span>
+    </li>
+    <li class="code_portal_nav_item">
+    <span class="code_portal_nav_text">
+        <a href="Source_control">{%translate_span Source control%}</a>
+    </span>
+    </li>
+    <li class="code_portal_nav_item">
+    <span class="code_portal_nav_text">
+        <a href="Coding_Style">{%translate_span Coding style%}</a>
+    </span>
+    </li>
+</ul>

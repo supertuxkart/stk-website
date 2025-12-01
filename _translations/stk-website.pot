@@ -131,6 +131,15 @@ msgstr ""
 msgid "Code"
 msgstr ""
 
+msgid "How to contribute code"
+msgstr ""
+
+msgid "Source control"
+msgstr ""
+
+msgid "Coding style"
+msgstr ""
+
 msgid "Report bugs, follow development or contribute code"
 msgstr ""
 
@@ -161,9 +170,6 @@ msgstr ""
 
 # In Community page
 msgid "Programming"
-msgstr ""
-
-msgid "Source control"
 msgstr ""
 
 msgid "Building from source"

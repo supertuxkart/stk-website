@@ -46,6 +46,7 @@ title: Community
 <div class="get-involved-panel" markdown="1">
 ## <i style="margin: 0px 5px;" class="fa fa-code"></i> {%translate For Programmers,In Community page%}
 ### {%translate Programming,In Community page%}
+* [{%translate How to contribute code%}](How_to_contribute_code "{%translate How to contribute code%}")
 * [{%translate Source control%}](Source_control "{%translate Source control%}")
 * [{%translate Building from source%}](https://github.com/supertuxkart/stk-code/blob/master/INSTALL.md "{%translate Building from source%}")
 * [{%translate Coding style guidelines%}](Coding_Style "{%translate Coding style guidelines%}")

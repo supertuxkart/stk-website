@@ -138,3 +138,5 @@ We have a separate class to Log messages for the user. This class should be used
 * info: Any useful info a player should always have in case that something goes wrong. An example would be paths to various directories.
 * debug: Debug output, which would only be seen by developers. Mostly those should be either removed (or if necessary commented out) before committing (though sometimes we add those in in order to help us finding a problem someone else has - those should be removed or commented out once the issue is fixed).
 * verbose: Any high-frequent debug output.
+
+{% include code_portal %}

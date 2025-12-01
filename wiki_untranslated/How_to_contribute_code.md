@@ -78,6 +78,7 @@ Here are some general reminders:
 * Pick clear names for your variables and functions that tell what they are for.
 * While it's not possible to test on all platforms, do your best to write portable code, and to resolve any warning that the compiler gives you for your code.
 * Try to minimize data dependencies. A more complex tree of interactions means a more difficult to understand code and higher odds for bugs.
+* Write the code yourself. Code hallucinated by a LLM is not acceptable.
 * **Test your code often.** Validating the correctness of each new step will often save you a lot of time in the end, as the source of the error will be clearer. When you think you are done, try to think of potential corner cases and test them. It's not fun for anyone when the reviewer uncovers a significant bug within two minutes of testing.
 * Before making a commit, read over your code and check if everything makes sense. This often helps to catch mistakes or unnecessary pieces of code.
 
@@ -102,3 +103,5 @@ The duration between the submission and the merge of the PR can vary from a few 
 If you think your PR has been forgotten, you can tag a team member to request a review, but do not abuse this possibility.
 
 Once your PR has been merged, congratulations, you helped to make the next version of SuperTuxKart!
+
+{% include code_portal %}

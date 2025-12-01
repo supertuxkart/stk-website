@@ -33,20 +33,12 @@ svn checkout https://svn.code.sf.net/p/supertuxkart/code/media/trunk stk-media-r
 
 Also see [the Media repository page](Media_Repo).
 
-## Guidelines
-
-Here are some guidelines for developers who have write access to Git/SVN:
-
-* Join our IRC or Telegram channel (see [Community](Community)). Developers usually post what they are working on there, so that the likelihood of conflicts can be decreased. Additionally, known high-profile bugs are discussed there, too.
-* It might be worth subscribing to the supertuxkart-commit email list (see [Community](Community)). All commit messages are automatically sent to this address, so you will always be aware of what is happening, and if your work interferes with what other people are doing.
-* The development version should always compile. While it's not possible to test on all platforms, do your best to write portable code. Other developers and testers will usually quickly point out (and fix) any problems.
-* Commit often. Frequent commits have the advantage that they act as a backup which makes time-consuming merge conflicts less likely.
-* Try to include all changes for a single feature in one commit (i.e. don't commit each file separately) and try not to mix several features in one large commit.
-
 ## Installing Git
 
 ### Linux
 `sudo apt install git` or equivalent in your distribution of choice.
+
+Many Linux distributions come with Git pre-installed.
 
 ### Windows
 Install [Git for Windows](https://github.com/git-for-windows/git/releases/latest). If you want a graphical interface for Git you can choose whichever works for you. Otherwise if you don't know which to choose you can install [TortoiseGit](https://tortoisegit.org/download) as well after installing Git for Windows.
@@ -56,5 +48,9 @@ Install [Git for Windows](https://github.com/git-for-windows/git/releases/latest
 ### Linux
 `sudo apt install subversion` or equivalent in your distribution of choice.
 
+After subversion has been installed, there is also the possibility to use a graphical client such as KDEsvn.
+
 ### Windows
 You can choose between several SVN clients and use whichever works for you, but if you don't know which to choose you can install [TortoiseSVN](https://tortoisesvn.net/downloads.html).
+
+{% include code_portal %}
