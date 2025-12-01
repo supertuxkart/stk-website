@@ -231,7 +231,7 @@ layout: null
                             </strong>
                         </a>
                     </div>
-                    <div class="download-content">
+                    <a href="${downloadUrl}" class="download-content download-content-link">
                         <div class="download-left" markdown="1">
                             <p><strong>${thisIsRecommendedText}</strong></p>
                             <p>${instructions}</p>
@@ -240,7 +240,7 @@ layout: null
                         <div class="download-right">
                             <i class="fa fa-download fa-fw fa-2x"></i>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         `;
