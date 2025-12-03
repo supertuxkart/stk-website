@@ -17,10 +17,11 @@ Other team members
 
 {% end_liquid %}
 
-* Vollstock: GUI designer
 * ALBatross: Composer
-* Typhon: Artist
 * BcfWorld: Online services
+* LLS: Blender scripts
+* Typhon: Artist
+* Vollstock: GUI designer
 
 {% start_liquid main_title %}
 
