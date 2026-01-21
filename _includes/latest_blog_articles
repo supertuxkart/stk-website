@@ -1,4 +1,14 @@
 {% blog_article
+My return to SuperTuxKart
+
+In 2017, I left SuperTuxKart on the highest note imaginable - a standing ovation at the Blender Conference in Amsterdam as we launched the mobile version. I believed then, and still do, that it's better to end with a firework than fade slowly to irrelevance. I thought that chapter was closed. But sometimes, a project you love calls you back - not because your story wasn't complete, but because there's a new story to write.
+
+Read [my blog post](https://blog.supertuxkart.net/2026/01/my-return-to-supertuxkart.html) to learn about my journey with STK.
+
+January 21, 2026 by Samuncle
+%}
+
+{% blog_article
 SuperTuxKart Evolution: Karting without a hitch
 
 This first blog post exploring the gameplay novelties and improvements we are working on for SuperTuxKart Evolution looks at collisions between karts, the collection of track items, jumps, and several others topics.
