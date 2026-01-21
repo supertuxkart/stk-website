@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>How to contribute code - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="How to contribute code">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="(Last verified to be up-to-date: 01/12/2025)">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/images/logo.png"/>
+<style>
+/* Add Page_Name.css with Page_Name.md */
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Team'><span class="translate">Team</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/How_to_contribute_code'>English</a></li></ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">How to contribute code</h1>
+<article>
+<ul id="results-container"></ul><p><em>(Last verified to be up-to-date: 01/12/2025)</em></p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Contents</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Show" data-hide-text="Hide" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
+  <li><a href="#what-are-the-needed-skills" id="markdown-toc-what-are-the-needed-skills">What are the needed skills?</a></li>
+  <li><a href="#building-from-source" id="markdown-toc-building-from-source">Building from source</a></li>
+  <li><a href="#what-to-work-on" id="markdown-toc-what-to-work-on">What to work on?</a></li>
+  <li><a href="#communicating-with-the-team" id="markdown-toc-communicating-with-the-team">Communicating with the team</a></li>
+  <li><a href="#writing-good-code" id="markdown-toc-writing-good-code">Writing good code</a></li>
+  <li><a href="#opening-a-pull-request" id="markdown-toc-opening-a-pull-request">Opening a Pull Request</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+
+<p>The libre licensing of SuperTuxKart’s code allows anyone to review and modify it. There are several codebases to which contributions are possible under the umbrella of the STK project: <a href="https://github.com/supertuxkart/stk-code">the main codebase</a> used by the game itself, but also the code <a href="https://github.com/supertuxkart/stk-addons">for the addons website</a> and the code <a href="https://github.com/supertuxkart/stk-blender">for the blender scripts</a>.</p>
+
+<p>The rest of this page focuses primarily on the game’s code, but many points are relevant for contributions to the secondary repositories.</p>
+
+<p>Code contributions by new developers play a significant role to keep the project improving, whether it is about fixing a specific issue, implementing a specific feature, or becoming a more regular contributor helping to increase the pace of development.</p>
+
+<p>Read this page carefully to learn how to contribute effectively to the improvement of SuperTuxKart!</p>
+
+<h2 id="what-are-the-needed-skills">What are the needed skills?</h2>
+
+<p>The game’s main codebase is primarily written in C++, while the Blender scripts are written in Python and the addons website code is primarily PHP.</p>
+
+<p>For each of those, some general familiarity with Git, with programming and with the specific programming language involved is useful. It’s fine to still be learning those skills provided you’re willing to put in the effort to produce a good result and to search for information you are missing.</p>
+
+<p>Finally, it is useful to be willing to communicate, to be open to feedback, and to have basic proficiency in English.</p>
+
+<h2 id="building-from-source">Building from source</h2>
+
+<p>To contribute code to the game, it is very important that you can test your changes first.</p>
+
+<p>In order to test your code changes, you need to be able to compile the project yourself.</p>
+
+<p>SuperTuxKart uses Git for source code and SVN for assets. You should follow the instructions on the <a href="/Source_control">Source Control page</a> to install a Git-client, an SVN client and setup your code and assets folder.</p>
+
+<p>Once that is done, you can refer to the <a href="https://github.com/supertuxkart/stk-code/blob/master/INSTALL.md">installation instructions</a> to find how to build the game on your operating system.</p>
+
+<p>After having successfully built the game from source, you can start experimenting with code changes.</p>
+
+<h2 id="what-to-work-on">What to work on?</h2>
+
+<p>Seasoned contributors regularly have to work on tasks that they don’t particularly like but that are necessary to improve the game, and bringing a new release together is an important motivation.</p>
+
+<p>For new contributors, it is usually best to start with something simple, that you’re comfortable with or that you would really like seeing in the game. That way, it will be easier to complete the task, and it’s a good way to familiarize yourself with different parts of the process (such as using git or opening a pull-request on GitHub).</p>
+
+<p>Things you can work on include:</p>
+
+<ul>
+  <li>A new feature or capability you’d like to see in the game. See the “Communicating with the team” section to maximize chances it will be merged.</li>
+  <li>Solving <a href="https://github.com/supertuxkart/stk-code/issues">existing tickets</a>. Check the list and find something you’d like to work on.</li>
+  <li>Changes that improve code quality. This is usually not the focus of new contributors because it feels less exciting, but be assured that <strong>the STK team will be much happier seeing the code become simpler, clearer and faster rather than being made more complicated</strong>. As is, the game code of STK has a significant amount of technical debt, and there is plenty to do. Check first however if the problem is still relevant in the <a href="https://github.com/supertuxkart/stk-code/tree/BalanceSTK2">STK Evolution branch</a>, as it also includes some code quality improvements.</li>
+</ul>
+
+<p>A complementary way to approach this is to look at the main areas of development:</p>
+
+<ul>
+  <li>User Interface – this can involve fixing issues specific to a screen, but most useful are improvements to the GUI Engine itself that will help making all the GUI screens better.</li>
+  <li>Gameplay – a core part of the code with a very wide variety of components: physics, powerups, game modes… This is the part of the game that modders most often change. For gameplay contributions to be accepted in the main game, communication with the team is particularly important.</li>
+  <li>Graphics – a crucial part of the code, but not suited for newbies. Our team is currently lacking the manpower to properly focus on it, so help would be very valuable.</li>
+  <li>Networking – this can involve for example enhancing the features of online servers, or improving the quality of the net-code (a lot of it is arcane).</li>
+  <li>Utilities and Libraries – this can involve updating libraries and dependencies used by the game (for example, STK is currently using SDL2 but it would be beneficial to move to SDL3), ensuring proper support of newer toolchains, as well as improving various utilities used throughout the main code.</li>
+  <li>Extra functionalities – replays, achievements, scripting…</li>
+</ul>
+
+<h2 id="communicating-with-the-team">Communicating with the team</h2>
+
+<p>Depending on what you want to do, there are different possible approaches:</p>
+
+<ul>
+  <li>For unambiguous fixes, such as correcting compiler warnings or clear improvements to code quality, opening a pull-request is generally sufficient.</li>
+  <li>If you want to take care of an existing issue, it is a good idea to write a comment saying so under the issue. This helps to avoid duplicate work, but can also be helpful to ask questions and clarify the intended scope of the ticket.</li>
+  <li>If you want to implement a completely new feature and would like to see it in the main game, it is best to create a thread <a href="https://forum.supertuxkart.net/">on our forum</a> about it, to explain what you want to do and to gather feedback. This will help ensure that what you create meets our needs. Of course, possibilities are endless when it comes to mods, but understand that for the main game we need to be selective.</li>
+  <li>Finally, if you are not sure which issue to pick but would like to contribute, you can offer your services on the forum and our team will suggest things to work on.</li>
+  <li>If you have questions related to the code, you can use a forum thread or write a private message to Alayan, our lead developer. The existing game code can sometimes be arcane. Understand however that some autonomy is expected. The STK team can give you tips, but we shouldn’t spend more time advising you and reviewing your code than we would have doing things ourselves.</li>
+</ul>
+
+<p>The default language used for communication is English, but it is also fine to use French or German for the forum threads (use the appropriate sections) and for direct communication with the team.</p>
+
+<p>Keep in mind that feedback will focus more on what’s unsatisfactory with your code or idea than on what’s already good, because what’s already good doesn’t need to be changed. In general, assuming good intentions from the other party is helpful to clear up potential misunderstandings.</p>
+
+<h2 id="writing-good-code">Writing good code</h2>
+
+<p>Teaching how to write good quality code is beyond the scope of this document. However, to maximize the chances of your contribution being merged and to simplify future updates to the codebase, clear and well-structured code is very important.</p>
+
+<p>Here are some general reminders:</p>
+<ul>
+  <li>Try to ensure that your new code fits in with the style of existing code. The <a href="/Coding_Style">coding style</a> page is not fully up-to-date but contains some valuable advice.</li>
+  <li>Pick clear names for your variables and functions that tell what they are for.</li>
+  <li>While it’s not possible to test on all platforms, do your best to write portable code, and to resolve any warning that the compiler gives you for your code.</li>
+  <li>Try to minimize data dependencies. A more complex tree of interactions means a more difficult to understand code and higher odds for bugs.</li>
+  <li>Write the code yourself. Code hallucinated by a LLM is not acceptable.</li>
+  <li><strong>Test your code often.</strong> Validating the correctness of each new step will often save you a lot of time in the end, as the source of the error will be clearer. When you think you are done, try to think of potential corner cases and test them. It’s not fun for anyone when the reviewer uncovers a significant bug within two minutes of testing.</li>
+  <li>Before making a commit, read over your code and check if everything makes sense. This often helps to catch mistakes or unnecessary pieces of code.</li>
+</ul>
+
+<h2 id="opening-a-pull-request">Opening a Pull Request</h2>
+
+<p>Once your code is finished, and you have properly tested it works as intended, it is time to submit your changes to the main repository. You can look at <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request">Github’s documentation</a> for how to create a pull request.</p>
+
+<p><strong>Make sure to avoid pull requests that are mixing several unrelated changes, or that are trying to do too much at once</strong> (such as implementing a new feature, and then adding a lot of bells and whistles to the base feature).</p>
+
+<p>The more changes a PR contains, and the more complex it becomes to review. The commit history of the branch can help to make sense of a PR, however those commits often contain intermediate changes that got removed in the final version, and it increases the review workload to try to piece things together. Furthermore, the final history of the ‘master’ branch will only contain one commit. Therefore, if your PR is too complex, you will be asked to split it up in smaller PRs.</p>
+
+<p>As a general guideline, if your PR has more than 200 lines of change, you should double-check that it all really need to be in the same PR. At the same time, the code in the PR still needs to function as an independent unit: it should compile and work.</p>
+
+<p><strong>Pick a clear title, and summarize what your changes are about.</strong> The main comment is also a good place to explain some of the technical decisions you have made, easing the task of the reviewer. The GPLv3/MPLv2 dual-licensing notice has to be kept.</p>
+
+<p>Check the “Allow edits by maintainers” box so that small issues (for example, a typo in a comment or a small coding style issue) can be directly fixed without needing a round of back-and-forth.</p>
+
+<p>If a member of the STK team asks you a question about your code or gives you feedback about an element that should be improved, try to satisfy the request.</p>
+
+<p>The duration between the submission and the merge of the PR can vary from a few hours to a few weeks depending on code complexity and the availability of the team’s developers, although usually you will receive comments within a few days. PRs older that are a few months old usually contain some element that make them unsuitable for direct merging in their current state.</p>
+
+<p>If you think your PR has been forgotten, you can tag a team member to request a review, but do not abuse this possibility.</p>
+
+<p>Once your PR has been merged, congratulations, you helped to make the next version of SuperTuxKart!</p>
+
+<ul id="code_portal_nav">
+    <li class="code_portal_nav_item" id="special_return_to_code_portal">
+    <a href="/Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="code_portal_nav_text">
+        <a href="/Community"><span class="translate">Return to Get Involved</span></a>
+    </span>
+    </li>
+    <li class="code_portal_nav_item">
+    <span class="code_portal_nav_text">
+        <a href="/How_to_contribute_code"><span class="translate">How to contribute code</span></a>
+    </span>
+    </li>
+    <li class="code_portal_nav_item">
+    <span class="code_portal_nav_text">
+        <a href="/Source_control"><span class="translate">Source control</span></a>
+    </span>
+    </li>
+    <li class="code_portal_nav_item">
+    <span class="code_portal_nav_text">
+        <a href="/Coding_Style"><span class="translate">Coding style</span></a>
+    </span>
+    </li>
+</ul>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.supertuxkart.net/'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://x.com/supertuxkart'><span class="translate">Twitter / X</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/@SuperTuxKartOfficial?sub_confirmation=1'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://sourceforge.net/p/supertuxkart/code/HEAD/tree/'><span class="translate">SVN</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2026
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script></body>
+</html>
