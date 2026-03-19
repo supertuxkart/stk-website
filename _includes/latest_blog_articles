@@ -1,4 +1,17 @@
 {% blog_article
+SuperTuxKart Evolution: Freytra Peaks making of
+
+After years of racing through Snow Peak's icy slopes, racers are getting a new track. In this blog post, we'll look at the creation process behind the upcoming track "Freytra Peaks", which will be included in the main game with the release of STK Evolution. Explore the creative process behind the track's design and the techniques used to bring it to life, illustrated with images and a video in the full blog post.
+
+<div style="text-align: center; max-width: 100%;">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/rVmVqc-b9VM" title="SuperTuxKart Evolution: Freytra Peaks making of" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 640px;"></iframe>
+</div>
+
+Read [the full blog post](https://blog.supertuxkart.net/2026/03/freytra-peaks-making-of.html).
+March 19, 2026 by Sven
+%}
+
+{% blog_article
 My return to SuperTuxKart
 
 In 2017, I left SuperTuxKart on the highest note imaginable - a standing ovation at the Blender Conference in Amsterdam as we launched the mobile version. I believed then, and still do, that it's better to end with a firework than fade slowly to irrelevance. I thought that chapter was closed. But sometimes, a project you love calls you back - not because your story wasn't complete, but because there's a new story to write.
