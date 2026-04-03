@@ -7,12 +7,13 @@ require_relative 'utils'
 module STKWebsite
     class PopupInfo < Liquid::Tag
         def render(context)
+            content = Liquid::Template.parse(@markup).render(context)
             result =
 '<div class="popup-warning popup">
 <div class="popup-info"><b><span class="translate">' +
 PoUtils::translate_string(context['site'], context['page']['lang'], 'Info', 'Title of info popup which describes extra info', true) +
 '</span></b></div>
-<div class="popup-content" markdown="1">' + "\n" + @markup + "\n" +
+<div class="popup-content" markdown="1">' + "\n" + content + "\n" +
 '</div>
 </div>'
             return result
