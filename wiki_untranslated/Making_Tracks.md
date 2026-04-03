@@ -36,6 +36,7 @@ This page is a list of the modules in the Making Tracks tutorial. Note that not 
 * [Items](Making_Tracks:_Items)
 * [Sky and Lighting](Making_Tracks:_Sky_and_Lighting)
 * [Physics](Physics)
+* [Optimization](Making_Tracks:_Optimization)
 * [Conclusion](Making_Tracks:_Conclusion)
 
 ## Appendices
