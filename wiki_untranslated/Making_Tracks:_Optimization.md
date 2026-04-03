@@ -6,6 +6,10 @@ Optimization is one of the less fun parts of track creation but it’s very impo
 
 If your track only has a few objects and not much geometry you don’t necessarily have to optimize your track but if you have a lot of triangles you should definitely look into optimizing your track.
 
+{%popup_prerequisite
+* [Performance Testing](Performance_testing)
+%}
+
 ## When should you optimize
 
 **As a benchmark you can look at Black Forest. If you’re getting similar FPS or even less you should definitely optimize your track.**

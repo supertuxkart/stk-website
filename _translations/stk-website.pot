@@ -15,6 +15,9 @@ msgstr ""
 msgid "No results found"
 msgstr ""
 
+msgid "Performance Testing"
+msgstr ""
+
 msgid "SuperTuxKart"
 msgstr ""
 
@@ -498,6 +501,105 @@ msgid "Prerequisites"
 msgstr ""
 
 msgid "You should read the following articles prior to following this tutorial:"
+msgstr ""
+
+msgid "When to measure performance?"
+msgstr ""
+
+msgid "There are a few situations that warrant measuring the game’s performance:"
+msgstr ""
+
+msgid "Trying to optimize your settings to get the best balance of visual quality and smoothness for your taste."
+msgstr ""
+
+msgid "Designing a track and [ensuring performance is good](Making_Tracks:_Optimization). Even if it's acceptable on your machine, think of players that might have weaker hardware."
+msgstr ""
+
+msgid "Testing the effect of code changes that are supposed to improve performance or that carry a significant computational load that may degrade performance."
+msgstr ""
+
+msgid "Or just [comparing your hardware’s performance with other users](https://forum.supertuxkart.net/thread-43.html)."
+msgstr ""
+
+msgid "Using the built-in FPS counter"
+msgstr ""
+
+msgid "The built-in FPS counter’s main advantage is how easy it is to activate it : just go in the UI options and toggle the relevant checkbox."
+msgstr ""
+
+msgid "A purple bar then shows up at the top of your screen. It contains three FPS values : minimum FPS, current FPS, maximum FPS. It also contains a few other informations relevant for track creator such as the polycount."
+msgstr ""
+
+msgid "However, this method suffers from several limitations: it is rater inaccurate, the current FPS value is a poor indicator as its doesn’t capture the effect of short spikes, and the values change between tests as the driving is different each time."
+msgstr ""
+
+msgid "This makes it impossible to reliably assess the effect of small performance changes (<15%) or the significance of small stutters, which play a major role in perceived smoothness."
+msgstr ""
+
+msgid "Using the built-in benchmark"
+msgstr ""
+
+msgid "The built-in performance test available starting with SuperTuxKart 1.5 is a good solution to those issues."
+msgstr ""
+
+msgid "**Because it uses a replay, it is highly repeatable and even small differences of a few percent can be identified.** The built-in replay uses the most demanding standard track, making it particularly useful for the optimization of graphics settings and the test of hardware performance."
+msgstr ""
+
+msgid "Note that your camera settings can also slightly influence the results as they change how much of the track the game has to render."
+msgstr ""
+
+msgid "Furthermore, the metrics displayed at the end of the test give their proper importance to short spikes in frame duration that degrade player experience. This is explained in more detail in [the blog post presenting the benchmark tool](https://blog.supertuxkart.net/2024/07/why-average-fps-and-1-low-fps-are.html)."
+msgstr ""
+
+msgid "To use it, simply go to the ‘Graphics’ options menu and click on the ‘Performance test of the current settings’ button."
+msgstr ""
+
+msgid "**Online multiplayer is noticeably more CPU-intensive than single player, so if you want to play online, you may want to include some extra margin.**"
+msgstr ""
+
+msgid "Adding a custom benchmark"
+msgstr ""
+
+msgid "Finally, the last method is to use a custom replay with the built-in performance test tool. This allows to test any track of your choice."
+msgstr ""
+
+msgid "This is especially useful for track creators, who obviously need to test their own track and not one already present in the game. **If you follow [the track optimization guide](Making_Tracks:_Optimization), this is a great way to measure the effects of your changes.**"
+msgstr ""
+
+msgid "The first step is to record a replay. Select time-trial mode, and after having selected your track simply check the appropriate checkbox to record your race."
+msgstr ""
+
+msgid "Depending on what system you are using, replay files can be found in one of the following folders:"
+msgstr ""
+
+msgid "On Windows:"
+msgstr ""
+
+msgid "On Linux:"
+msgstr ""
+
+msgid "On Mac OS X:"
+msgstr ""
+
+msgid "Once you have your replay, the next step is to tell the game to use it."
+msgstr ""
+
+msgid "With SuperTuxKart 1.5, the only way is to replace the contents of ‘benchmark_black_forest.replay’ located in the game’s ‘data/replay’ folder with the contents of your replay file, preferably after backing up the original file."
+msgstr ""
+
+msgid "With the latest development version, and, when they release, with SuperTuxKart 1.5.1 and SuperTuxKart Evolution, the game can detect multiple benchmark files."
+msgstr ""
+
+msgid "First add your file to the ‘data/replay’ folder, then open ‘stk_config.xml’ located in the ‘data’ folder and look for ‘benchmark’. Add another ‘file’ entry following the model of the one already present, with the name of your replay."
+msgstr ""
+
+msgid "Once this is done, simply start the game and go to the ‘Graphics’ option menu. Below the button to start the test, you will find a new UI element with which you can select which of the available benchmark files you want to use."
+msgstr ""
+
+msgid "From this point on, everything is the same as for the standard built-in benchmark."
+msgstr ""
+
+msgid "The limitation of this method is that it relies on a replay, so it is currently not possible to test battle arenas and soccer fields without extra tricks."
 msgstr ""
 
 msgid "Click here if you are not redirected."

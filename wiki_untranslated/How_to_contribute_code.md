@@ -2,7 +2,7 @@
 title: How to contribute code
 toc: true
 ---
-_(Last verified to be up-to-date: 01/12/2025)_
+_(Last verified to be up-to-date: 03/04/2026)_
 
 ## Introduction
 
