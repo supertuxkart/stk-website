@@ -164,7 +164,7 @@ msgid ""
 "forum](https://forum.freegamedev.net/viewforum.php?f=16) for past "
 "discussions."
 msgstr ""
-"Du kannst auch das [alte archivierte Forum] "
+"Du kannst auch das [alte archivierte Forum]"
 "(https://forum.freegamedev.net/viewforum.php?f=16) für vergangene "
 "Diskussionen ansehen."
 
