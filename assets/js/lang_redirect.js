@@ -85,7 +85,15 @@ function getSuitableLang(lang, locale)
 
 var site_url = '{{ site.url }}' + '{{ site.baseurl }}' + '/';
 var page = window.location.href.substring(site_url.length).split("/").pop();
-var page_only = page.split('#')[0];
+var page_only = page.split('#')[0].split('?')[0];
+function wikiPageKey(segment)
+{
+    var s = segment.split('#')[0].split('?')[0];
+    if (s.endsWith('.html'))
+        s = s.substring(0, s.length - 5);
+    return s;
+}
+var page_key = wikiPageKey(page_only);
 
 function getURLLanguage(url)
 {
@@ -94,6 +102,29 @@ function getURLLanguage(url)
     var sl = url.slice(site_url.length).split('/')[0];
     if (supported_languages.indexOf(sl) != -1)
         return sl;
+    return '';
+}
+
+function getURLLanguageFromPath()
+{
+    var pathname = window.location.pathname || '';
+    var base = '{{ site.baseurl }}';
+    if (base && pathname.length >= base.length && pathname.indexOf(base) === 0)
+        pathname = pathname.substring(base.length);
+    pathname = pathname.replace(/^\/+/, '');
+    var sl = pathname.split('/')[0];
+    if (supported_languages.indexOf(sl) != -1)
+        return sl;
+    return '';
+}
+
+function supportedLangFromDocumentHtml()
+{
+    var raw = (document.documentElement.getAttribute('lang') || '').trim().replace(/-/g, '_');
+    if (raw === '' || raw === 'en')
+        return '';
+    if (supported_languages.indexOf(raw) !== -1)
+        return raw;
     return '';
 }
 
@@ -108,10 +139,10 @@ function changeLanguage(lang)
     try
     {
         sessionStorage.setItem('overridden_lang', lang);
-        if (page_translations.hasOwnProperty(page_only) &&
-            page_translations[page_only].indexOf(lang) != -1)
+        if (page_translations.hasOwnProperty(page_key) &&
+            page_translations[page_key].indexOf(lang) != -1)
         {
-            window.location.replace(site_url + lang + '/' + page_only);
+            window.location.replace(site_url + lang + '/' + page_key);
         }
         else
         {
@@ -127,10 +158,10 @@ for (cur_lang in language_names)
     new_node.id = 'language-selector-' + cur_lang;
     var ahref = new_node.getElementsByTagName('A')[0];
     if (cur_lang != 'en' && fallback_languages.indexOf(cur_lang) == -1 &&
-        page_translations.hasOwnProperty(page_only) &&
-        page_translations[page_only].indexOf(cur_lang) != -1)
+        page_translations.hasOwnProperty(page_key) &&
+        page_translations[page_key].indexOf(cur_lang) != -1)
     {
-        ahref.href = site_url + cur_lang + '/' + page_only;
+        ahref.href = site_url + cur_lang + '/' + page_key;
     }
     else
     {
@@ -148,16 +179,8 @@ for (var i = 0; i < lis.length; i++)
 
 var preferred_lang = document.documentElement.lang.replace("-", "_");
 var preferred_locale = '';
-var redirect = false;
 try
 {
-    if (!sessionStorage.getItem('first_visit'))
-    {
-        sessionStorage.setItem('first_visit', true);
-        redirect = document.referrer.length == 0 ||
-            document.referrer == site_url;
-    }
-
     // Prevent error when cookies disabled
     if (!sessionStorage.getItem('preferred_lang'))
     {
@@ -183,13 +206,17 @@ try
     }
     else
     {
-        // Override preferred language if language tag is supplied in url
-        // or the referrer
-        var site_url_lang = getURLLanguage(window.location.href);
-        if (site_url_lang == '')
-            site_url_lang = getURLLanguage(document.referrer);
-        if (site_url_lang != '')
-            sessionStorage.setItem('preferred_lang', site_url_lang);
+        var html_lang = supportedLangFromDocumentHtml();
+        if (html_lang !== '')
+            sessionStorage.setItem('preferred_lang', html_lang);
+        else
+        {
+            var site_url_lang = getURLLanguage(window.location.href);
+            if (site_url_lang === '')
+                site_url_lang = getURLLanguageFromPath();
+            if (site_url_lang !== '')
+                sessionStorage.setItem('preferred_lang', site_url_lang);
+        }
         preferred_lang = sessionStorage.getItem('preferred_lang');
     }
 } catch (error) {}
@@ -197,18 +224,15 @@ try
 var doc_lang = document.documentElement.lang.replace("-", "_");
 if (doc_lang == 'en' && doc_lang != preferred_lang)
 {
-    // Only redirect if page translation exists and first time visit the page
-    // without referrer (so search engine clicking is not affected),
-    // otherwise translate the layout texts and links
     var success = false;
-    if (redirect && page_translations.hasOwnProperty(page))
+    if (page_translations.hasOwnProperty(page_key))
     {
-        var arr = page_translations[page];
+        var arr = page_translations[page_key];
         for (var i = 0; i < arr.length; i++)
         {
             if (preferred_lang == arr[i])
             {
-                window.location.replace(site_url + preferred_lang + '/' + page);
+                window.location.replace(site_url + preferred_lang + '/' + page_key);
                 success = true;
                 break;
             }
@@ -252,14 +276,15 @@ if (doc_lang == 'en' && doc_lang != preferred_lang)
             if (!links[i].href.startsWith(site_url))
                 continue;
             var link_page = links[i].href.split("/").pop();
-            if (!page_translations.hasOwnProperty(link_page))
+            var link_key = wikiPageKey(link_page);
+            if (!page_translations.hasOwnProperty(link_key))
                 continue;
-            var arr = page_translations[link_page];
+            var arr = page_translations[link_key];
             for (var j = 0; j < arr.length; j++)
             {
                 if (preferred_lang == arr[j])
                 {
-                    links[i].href = site_url + preferred_lang + '/' + link_page;
+                    links[i].href = site_url + preferred_lang + '/' + link_key;
                     break;
                 }
             }
