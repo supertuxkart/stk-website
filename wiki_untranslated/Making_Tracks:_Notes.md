@@ -36,19 +36,15 @@ It's important to know how sizes in Blender translate to STK, especially for the
 
 ## Gameplay
 
-Gameplay is important to consider during many steps of the track-making process: when designing the track, when modeling it, testing, placing decorations, etc. Many modules link back to this section as a reference, so you should take the time to read these guidelines thoroughly:
+Gameplay is a crucial aspect to what makes a good track. Beautiful visuals and good theming are enjoyable, but if the driving itself is boring, players will quickly tire of playing your track.
 
-* Each track should have a main path that is fairly balanced and not too difficult to drive. Some tracks, of course, will be harder than others, but the most difficult sections should be kept for side roads and shortcuts.
-* Easier tracks should not have turns that require drifting. Bank curves if necessary!
-* Alternate roads should not not allow for a shortcut unless there is some sort of risk in taking the shortcut. For example, there is shortcut in Gran Paradiso Island, but the player risks falling into the water.
-* Reward players for trying something unusual with items or a shortcut. For example, Zen Garden has some hidden nitros if you are careful.
-* Use items or nitros to help mark the path, where necessary.
-* It should ALWAYS be very clear where you are allowed to go and what areas are restricted. That doesn't means the track can't be a bit like a maze, but the player should always know where the main driveline is, although alternate routes can also be visible. (i.e. What constitutes the drivable area should be clearly visible, though of course there can be more than one path leading to the finish line.)
-* Try to not break the flow of the track, imagine the track like a river flowing, you should avoid "turbulent" sections
-* In most cases, you should avoid making the track too narrow—when playing with lots of AI karts especially, this will result in a lot of frustrating collisions between karts.
-* Avoid making the track too long. Over 1:30 is definitely too long; between approximately 1 minute and 1 minute 30 seconds is considered appropriate for one lap without using boosters and other items (like nitro).
-* Always try to find an appropriate balance between straights and turns. Too many straights may be boring, but too many curves (especially very tight ones) will make the track hard to drive.
-* There should be plenty of space to land after a jump—make the track quite wide. Cocoa Temple is a good example of this.
+It should be an integral part of your track design process instead of an afterthought.
+
+This guide contains three pages dedicated to gameplay concepts. You should take your time to read them, applying the lessons given there carefully as you craft your track.
+
+* [Gameplay basics](Making_Tracks:_Gameplay_Basics) covers core concepts that should be taken into account for every track. They are crucial to make it enjoyable and give it high replayability.
+* [Advanced gameplay design](Making_Tracks:_Advanced_Gameplay_Design) covers the concepts that are optional. Nonetheless, for a track to be great, it should likely apply at least some of the ideas presented there.
+* [Placing items](Making_Tracks:_Placing_Items) covers adding things such as gift boxes and nitro cans to your track. Changing the location of items takes very little time, so while you may want to use some simple placements early on, it is best to wait until the rest of the gameplay elements are finalized before optimizing item placement.
 
 ## Style
 

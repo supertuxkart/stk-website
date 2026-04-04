@@ -1,5 +1,5 @@
 ---
-title: 'Making Tracks: Items'
+title: 'Making Tracks: Placing Items'
 display_title: true
 ---
 Though seemingly trivial and unimportant, adding items is an important step in making a fun track. Items add elements of randomness and rewards to players, and make each race different, even on the same track. Therefore, while not difficult to add, you should take some time when placing items. Here are some hints for placement to make things more fun:
