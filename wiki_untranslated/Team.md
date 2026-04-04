@@ -86,6 +86,7 @@ Software used by SuperTuxKart
 /assets/wiki/Openal_logo.png,,https://www.openal.org
 /assets/wiki/Php_logo.png,,https://www.php.net
 /assets/wiki/Vorbis_logo.png,,https://xiph.org/vorbis
+/assets/wiki/Opus_logo.png,,https://www.opus-codec.org/
 /assets/wiki/Wiiuse_logo.jpg,,https://github.com/wiiuse/wiiuse
 /assets/wiki/Zlib_logo.png,,https://zlib.net
 %}
