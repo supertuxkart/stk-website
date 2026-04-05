@@ -45,7 +45,7 @@ module GalleryUtils
                 @widths = 'auto_min120'
             end
         end
-        def get_img_content(context, image, caption, href)
+        def get_img_content(context, image, caption, href, c_alt_text)
             preset = context['site'].data['picture']['presets']['default']
             orig_val = preset['link_source']
             preset['link_source'] = false
@@ -55,7 +55,7 @@ module GalleryUtils
                     href = context['site']['baseurl'] + href
                 end
             end
-            alt_text = File.basename(image, File.extname(image))
+            alt_text = c_alt_text ? c_alt_text : File.basename(image, File.extname(image))
             @raw_params = image + ' --alt ' + alt_text
             if caption.length > 0 and @heights != '0' and @gallery_type == :packed then
                 @raw_params += ' --img style="max-height: calc(100% - 1em - 10px);"'
@@ -72,6 +72,7 @@ module GalleryUtils
                 image = data[0][0]
                 caption = ''
                 href = ''
+                c_alt_text = ''
                 if data[0].length > 1 then
                     if data[0][1] and data[0][1].length > 0 then
                         expended = Liquid::Template.parse(data[0][1]).render(context)
@@ -80,9 +81,12 @@ module GalleryUtils
                     end
                     if data[0].length > 2 then
                         href = Liquid::Template.parse(data[0][2]).render(context)
+                        if data[0].length > 3 and data[0][3].length > 0 then
+                            c_alt_text = Liquid::Template.parse(data[0][3]).render(context)
+                        end
                     end
                 end
-                result += get_img_content(context, image, caption, href)
+                result += get_img_content(context, image, caption, href, c_alt_text)
                 if caption.length > 0 then
                     result += caption
                 end
@@ -161,8 +165,8 @@ module GalleryUtils
         end
     end
     class SingleGallery < Gallery
-        def get_img_content(context, image, caption, href)
-            alt_text = File.basename(image, File.extname(image))
+        def get_img_content(context, image, caption, href, c_alt_text)
+            alt_text = c_alt_text ? c_alt_text : File.basename(image, File.extname(image))
             if context['site']['baseurl'] then
                 image = context['site']['baseurl'] + image
             end
