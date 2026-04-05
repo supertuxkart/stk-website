@@ -21,6 +21,9 @@ msgstr ""
 msgid "SuperTuxKart"
 msgstr ""
 
+msgid "Gallery"
+msgstr ""
+
 msgid "Download"
 msgstr ""
 
@@ -80,9 +83,6 @@ msgid "Media"
 msgstr ""
 
 msgid "YouTube"
-msgstr ""
-
-msgid "Gallery"
 msgstr ""
 
 msgid "Posters"
@@ -479,6 +479,12 @@ msgid "The automated preview release builds are available [here](https://github.
 msgstr ""
 
 msgid "Public testing builds for SuperTuxKart Evolution are not yet available. "
+msgstr ""
+
+msgid "From version 1.0 to version 1.5, SuperTuxKart has seen several improved kart models, enhancements to the graphics code, as well as a few new soccer fields and battle arenas. However, track pictures from previous 1.x versions are still fairly representative of 1.5."
+msgstr ""
+
+msgid "You can look at pictures from older STK versions by clicking the boxes below!"
 msgstr ""
 
 msgid "The next major release of SuperTuxKart, named SuperTuxKart Evolution is currently under development. Building upon the foundation laid by all those who made STK what it is today, **SuperTuxKart Evolution will be the biggest release in STK's history in terms of new content**: new tracks, new features, improved gameplay, enhanced graphics, and much more. An overview of our roadmap is [available here](https://blog.supertuxkart.net/2025/09/supertuxkart-evolution-roadmap.html)."

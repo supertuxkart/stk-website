@@ -7,29 +7,63 @@ title: Gallery
 {%minor_title Screenshots%}
 
 {% gallery widths=32%
-/assets/wiki/STKEvolution_1.jpg
-/assets/wiki/STKEvolution_2.jpg
-/assets/wiki/STKEvolution_3.jpg
-/assets/wiki/STKEvolution_4.jpg
-/assets/wiki/STKEvolution_5.jpg
-/assets/wiki/STKEvolution_6.jpg
+/assets/wiki/STKEvolution_1.jpg,,,SuperTuxKart Evolution preview: A view from Freytra Peak's hamlet with a beautiful brick and wood building on the left and electric lines crossing the road farther back
+/assets/wiki/STKEvolution_2.jpg,,,SuperTuxKart Evolution preview: A sunny view of Black Forest with a small river flowing
+/assets/wiki/STKEvolution_3.jpg,,,SuperTuxKart Evolution preview: A hall in New Fort Magma with ominous ball chains threatening drivers
+/assets/wiki/STKEvolution_4.jpg,,,SuperTuxKart Evolution preview: Dashie facing the starting line in an improved version of Shifting Sands
+/assets/wiki/STKEvolution_5.jpg,,,SuperTuxKart Evolution preview: Konqi driving in Drainage Dash's main curve, with toxic sludge flowing from pipes in a pool in the background
+/assets/wiki/STKEvolution_6.jpg,,,SuperTuxKart Evolution preview: a peaceful mountain landscape in Alpine Valley with a waterfall and a church in the background
+%}
+
+{%main_title 1.5%}
+
+{%minor_title Video%}
+
+<div style="text-align: center; max-width: 100%;">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/H1Lo7PlTGBk" title="SuperTuxKart 1.5 Release Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 640px;"></iframe>
+</div>
+
+{% capture one_dot_x_info %}
+
+{%translate "From version 1.0 to version 1.5, SuperTuxKart has seen several improved kart models, enhancements to the graphics code, as well as a few new soccer fields and battle arenas. However, track pictures from previous 1.x versions are still fairly representative of 1.5."%}
+
+{% endcapture %}
+
+{%popup_info
+{{ one_dot_x_info }}
 %}
 
 {%main_title 1.3%}
 
 {%minor_title Video%}
 
-[Trailer](https://trailer.supertuxkart.net/1.3/trailer.mp4)
+[Trailer](https://www.youtube.com/watch?v=ef9vYcuEDL4)
 
 {%minor_title Screenshots%}
 
 {% gallery widths=32%
-/assets/wiki/STK1.3_1.jpg
-/assets/wiki/STK1.3_2.jpg
-/assets/wiki/STK1.3_3.jpg
-/assets/wiki/STK1.3_4.jpg
-/assets/wiki/STK1.3_5.jpg
-/assets/wiki/STK1.3_6.jpg
+/assets/wiki/STK1.3_1.jpg,,,SuperTuxKart 1.3: The new Pepper kart driving in Black Forest heading toward a road fork
+/assets/wiki/STK1.3_2.jpg,,,SuperTuxKart 1.3: Adiumy driving in Northern Resort with a green aurora borealis in the background lighting up the night sky
+/assets/wiki/STK1.3_3.jpg,,,SuperTuxKart 1.3: Beastie driving around Candela City's sharp bend with a small building advertising a gondola ride service visible on the right
+/assets/wiki/STK1.3_4.jpg,,,SuperTuxKart 1.3: Kiki maneuvering with a Capture-The-Flag flag in Ancient Colosseum Labyrinth
+/assets/wiki/STK1.3_5.jpg,,,SuperTuxKart 1.3: An improved Sara kart driving in the battle arena Alien Signal set on a decrepit radiotelescope
+/assets/wiki/STK1.3_6.jpg,,,SuperTuxKart 1.3: An improved GNU kart with night lights facing the camera in Las Dunas Soccer with a big soccer ball visible behind
+%}
+
+{%main_title 1.0%}
+
+{%minor_title Video%}
+
+[Trailer](https://www.youtube.com/watch?v=Lm1TFDBiIIg)
+
+{% capture box_info %}
+
+{%translate "You can look at pictures from older STK versions by clicking the boxes below!"%}
+
+{% endcapture %}
+
+{%popup_info
+{{ box_info }}
 %}
 
 <!-- Screenshots from old versions are in collapsible boxes -->
@@ -43,9 +77,9 @@ title: Gallery
 {%minor_title Screenshots%}
 
 {% gallery widths=32%
-/assets/wiki/STK0.9.3_1.jpg
-/assets/wiki/STK0.9.3_2.jpg
-/assets/wiki/STK0.9.3_3.jpg
+/assets/wiki/STK0.9.3_1.jpg,,,SuperTuxKart 0.9.3: Tux facing Cinéma le Quartz in Candela City
+/assets/wiki/STK0.9.3_2.jpg,,,SuperTuxKart 0.9.3: Suzanne heading towards Cornfield Crossing's barn
+/assets/wiki/STK0.9.3_3.jpg,,,SuperTuxKart 0.9.3: Konqi driving in Antediluvian Abysses with swimming fishes visible behind the glass walls
 %}
 
 {% endcapture %}
