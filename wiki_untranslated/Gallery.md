@@ -32,7 +32,9 @@ title: Gallery
 /assets/wiki/STK1.3_6.jpg
 %}
 
-{%main_title 0.9.3%}
+<!-- Screenshots from old versions are in collapsible boxes -->
+
+{% capture version_zero_nine_three %}
 
 {%minor_title Video%}
 
@@ -46,7 +48,9 @@ title: Gallery
 /assets/wiki/STK0.9.3_3.jpg
 %}
 
-{%main_title 0.9.2%}
+{% endcapture %}
+
+{% capture version_zero_nine_two %}
 
 {%minor_title Video%}
 
@@ -63,7 +67,9 @@ title: Gallery
 /assets/wiki/STK0.9.2_6.jpg
 %}
 
-{%main_title 0.9.1%}
+{% endcapture %}
+
+{% capture version_zero_nine_one %}
 
 {%minor_title Video%}
 
@@ -81,7 +87,9 @@ title: Gallery
 /assets/wiki/STK0.9.1_7.jpg
 %}
 
-{%main_title 0.9%}
+{% endcapture %}
+
+{% capture version_zero_nine %}
 
 {%minor_title Video%}
 
@@ -100,7 +108,9 @@ title: Gallery
 /assets/wiki/STK0.9_8.jpg
 %}
 
-{%main_title 0.8.1%}
+{% endcapture %}
+
+{% capture version_zero_eight_one %}
 
 {%minor_title Video%}
 
@@ -119,7 +129,9 @@ title: Gallery
 /assets/wiki/STK0.8.1_8.jpg
 %}
 
-{%main_title 0.8%}
+{% endcapture %}
+
+{% capture version_zero_eight %}
 
 {%minor_title Video%}
 
@@ -136,7 +148,9 @@ title: Gallery
 /assets/wiki/STK0.8_6.jpg
 %}
 
-{%main_title 0.7%}
+{% endcapture %}
+
+{% capture version_zero_seven %}
 
 {%minor_title Videos%}
 
@@ -165,7 +179,9 @@ title: Gallery
 /assets/wiki/STK0.7_6.jpg
 %}
 
-{%main_title 0.6%}
+{% endcapture %}
+
+{% capture version_zero_six %}
 
 {%minor_title Video%}
 
@@ -187,7 +203,9 @@ title: Gallery
 /assets/wiki/STK0.6_11.jpg
 %}
 
-{%main_title 0.5%}
+{% endcapture %}
+
+{% capture version_zero_five %}
 
 {%minor_title Screenshots%}
 
@@ -201,7 +219,9 @@ title: Gallery
 /assets/wiki/STK0.5_7.jpg
 %}
 
-{%main_title 0.4%}
+{% endcapture %}
+
+{% capture version_zero_four %}
 
 {%minor_title Screenshots%}
 
@@ -210,7 +230,9 @@ title: Gallery
 /assets/wiki/STK0.4_2.jpg
 %}
 
-{%main_title 0.3 (Halloween edition)%}
+{% endcapture %}
+
+{% capture version_zero_three_halloween %}
 
 {%minor_title Screenshots%}
 
@@ -219,7 +241,9 @@ title: Gallery
 /assets/wiki/STK0.3h_2.jpg
 %}
 
-{%main_title 0.3%}
+{% endcapture %}
+
+{% capture version_zero_three %}
 
 {%minor_title Screenshots%}
 
@@ -228,7 +252,9 @@ title: Gallery
 /assets/wiki/STK0.3_2.jpg
 %}
 
-{%main_title 0.2%}
+{% endcapture %}
+
+{% capture version_zero_two %}
 
 {%minor_title Screenshots%}
 
@@ -237,7 +263,9 @@ title: Gallery
 /assets/wiki/STK0.2_2.jpg
 %}
 
-{%main_title 0.0.0%}
+{% endcapture %}
+
+{% capture version_zero_zero_zero %}
 
 {%minor_title Screenshots%}
 
@@ -245,3 +273,117 @@ title: Gallery
 /assets/wiki/STK0.0.0_1.jpg
 /assets/wiki/STK0.0.0_2.jpg
 %}
+
+{% endcapture %}
+
+{% start_liquid ubox %}
+
+0.9.3
+
+{{ version_zero_nine_three }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.9.2
+
+{{ version_zero_nine_two }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.9.1
+
+{{ version_zero_nine_one }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.9
+
+{{ version_zero_nine }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.8.1
+
+{{ version_zero_eight_one }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.8
+
+{{ version_zero_eight }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.7 to 0.7.3
+
+{{ version_zero_seven }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.6 to 0.6.2
+
+{{ version_zero_six }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.5
+
+{{ version_zero_five }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.4
+
+{{ version_zero_four }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.3 (Halloween Edition)
+
+{{ version_zero_three_halloween }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.3
+
+{{ version_zero_three }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.2
+
+{{ version_zero_two }}
+
+{% end_liquid %}
+
+{% start_liquid ubox %}
+
+0.0.0
+
+{{ version_zero_zero_zero }}
+
+{% end_liquid %}
