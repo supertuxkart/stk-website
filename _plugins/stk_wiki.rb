@@ -118,6 +118,60 @@ input[id="' + input_id + '"]:checked + .qa-question + .qa-answer {
         end
     end
 
+    # Same general principle as QA boxes, but with different styling, e.g. for Gallery sections
+    class UBox < Liquid::Tag
+        def render(context)
+            title_raw = @markup.split("\n").first
+            boxcontent_raw = @markup[title_raw.length + 2..]
+            title = Liquid::Template.parse(title_raw).render(context)
+            boxcontent = Liquid::Template.parse(boxcontent_raw).render(context)
+            context['ubox-callback'] = 0 if not context['ubox-callback']
+            id = context['ubox-callback']
+            context['ubox-callback'] += 1
+            input_id = 'ubox' + id.to_s + '-callback'
+            # Same format as MainTitle
+            title_html = '<h2 id="' + STKWebsite::get_title_id(context, title) + '" class="article_main_title">' + title + '</h2>'
+            result =
+'<div>
+<input type="checkbox" id="' + input_id + '"><label class="ubox-title" for="' + input_id + '">
+    ' + title_html + '
+    </label>
+<div class="ubox-boxcontent" markdown="1">
+' + boxcontent +
+'</div>
+</div>'
+            page = context['page']
+            # Only need to append css for original (in English) post
+            if page['lang'] == 'en' then
+                css_page = STKWebsite::get_css_page(context)
+                css_page.content +=
+'
+input[id="' + input_id + '"] {
+    display: none;
+}
+
+input[id="' + input_id + '"]:checked + .ubox-title + .ubox-boxcontent {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.35s, padding 0.35s, font-size 0.35s, opacity 0.35s 0.35s;
+    /* This has to be a value larger than the max possible height of the box content */
+    max-height: 3000px; 
+    transition: max-height 0.35s ease-in;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+'
+            end
+            return result
+        end
+    end
+
     class BlogArticle < Liquid::Tag
         def render(context)
             data = Liquid::Template.parse(@markup).render(context)
@@ -162,6 +216,7 @@ Liquid::Template.register_tag('popup_code', STKWebsite::PopupCode)
 Liquid::Template.register_tag('popup_info', STKWebsite::PopupInfo)
 Liquid::Template.register_tag('popup_prerequisite', STKWebsite::PopupPrerequisite)
 Liquid::Template.register_tag('qa', STKWebsite::QA)
+Liquid::Template.register_tag('ubox', STKWebsite::UBox)
 Liquid::Template.register_tag('blog_article', STKWebsite::BlogArticle)
 Liquid::Template.register_tag('main_title', STKWebsite::MainTitle)
 Liquid::Template.register_tag('minor_title', STKWebsite::MinorTitle)

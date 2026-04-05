@@ -187,6 +187,73 @@ span[id="markdown-closing-bracket"]:before {
     -ms-user-select: none;
 }
 
+/* css for unroll-boxes (same general principle as qa boxes but different styling) */
+.ubox-title {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 3px;
+    background-color: transparent;
+    color: #414141;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    text-align: center;
+    position: relative; /* Important for positioning the arrows */
+}
+
+.ubox-title h2 {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+/* Arrows to hint that the title-box can be opened */
+.ubox-title h2::before {
+    display: inline-block;
+    content: "▼"; /* replaced by an upward arrow when opened */
+    position: absolute;
+    left: 15px; /* Distance from the left edge */
+    font-size: 0.8em;
+    color: #998;
+}
+.ubox-title h2::after {
+    display: inline-block;
+    content: "▼"; /* replaced by an upward arrow when opened */
+    position: absolute;
+    right: 15px; /* Distance from the right edge */
+    font-size: 0.8em;
+    color: #998;
+}
+
+/* Downward triangles when the unroll box is closed */
+.ubox-title h2::before,
+.ubox-title h2::after {
+    transform: translateY(10%) rotate(0deg); /* TranslateY to adjust vertical positioning */
+}
+
+/* Upward triangles when the unroll box has been opened */
+input:checked + .ubox-title h2::before,
+input:checked + .ubox-title h2::after {
+    transform: translateY(20%) rotate(180deg); /* Display ▲ instead */
+}
+
+.ubox-title:hover {
+    background-color: #bdbdb3;
+}
+
+.ubox-boxcontent {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
 #art_portal_nav
 {
     background-color: rgba(0, 0, 0, 0.9);
