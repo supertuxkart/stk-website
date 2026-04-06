@@ -57,9 +57,6 @@ module GalleryUtils
             end
             alt_text = c_alt_text ? c_alt_text : File.basename(image, File.extname(image))
             @raw_params = image + ' --alt ' + alt_text
-            if caption.length > 0 and @heights != '0' and @gallery_type == :packed then
-                @raw_params += ' --img style="max-height: calc(100% - 1em - 10px);"'
-            end
             result = '<div class="' + get_css_class() + '"><a href="' + href + '">' +
                 method(:render).super_method.call(context) + '</a>'
             preset['link_source'] = orig_val
@@ -110,6 +107,7 @@ module GalleryUtils
             css_page = STKWebsite::get_css_page(context)
             if not context['gallery-container'] then
                 context['gallery-container'] = true
+                caption_padding = (@widths!= '0') ? '3px;' : '3px 20px;'
                 css_page.content +=
 '
 .gallery-container {
@@ -123,9 +121,11 @@ module GalleryUtils
 }
 
 .gallery-caption {
+    display: block;
     margin: 3px;
-    padding: 3px;
+    padding: ' + caption_padding + '
     text-align: center;
+    font-style: italic;
 }
 '
             end
@@ -133,6 +133,8 @@ module GalleryUtils
                 context[get_css_class()] = true
                 has_box = (@gallery_type == :traditional or @gallery_type == :nolines ? true : false)
                 scale = (has_box ? '85%' : '100%')
+                picture_max_height = (@heights == '0') ? 'none' : @heights
+
                 css_page.content +=
 '
 .' + get_css_class() + ' {
@@ -149,7 +151,7 @@ module GalleryUtils
 '
     width: ' + (@widths == '0' ? 'auto' : @widths == 'auto_min120' ?
         'calc(100% / ' + @total_images + ");\n    min-width: 120px" : @widths) +';
-    height: ' + (@heights == '0' ? 'auto' : @heights) +';
+    height: auto;
 }
 
 .' + get_css_class() + ' img {
@@ -157,7 +159,7 @@ module GalleryUtils
     margin: auto;
     width: auto;
     height: auto;
-    max-height: ' + scale + ';
+    max-height: ' + picture_max_height + ';
     max-width: ' + scale + ';
 }
 '
@@ -172,9 +174,6 @@ module GalleryUtils
             end
             href = image if href == ''
             style = ''
-            if caption.length > 0 and @heights != '0' and @gallery_type == :packed then
-                style = ' style="max-height: calc(100% - 1em - 10px);"'
-            end
             return '<div class="' + get_css_class() + '"><a href="' + href + '"><img src="' + image + '" alt="' + alt_text + '"' + style + '></a>'
         end
     end
