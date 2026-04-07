@@ -481,10 +481,46 @@ msgstr ""
 msgid "Public testing builds for SuperTuxKart Evolution are not yet available. "
 msgstr ""
 
-msgid "From version 1.0 to version 1.5, SuperTuxKart has seen several improved kart models, enhancements to the graphics code, as well as a few new soccer fields and battle arenas. However, track pictures from previous 1.x versions are still fairly representative of 1.5."
+msgid "Screenshots"
 msgstr ""
 
-msgid "You can look at pictures from older STK versions by clicking the boxes below!"
+msgid "Videos"
+msgstr ""
+
+msgid "SuperTuxKart Evolution (preview)"
+msgstr ""
+
+msgid "Freytra Peaks"
+msgstr ""
+
+msgid "Black Forest"
+msgstr ""
+
+msgid "Fort Magma (Evolution)"
+msgstr ""
+
+msgid "Shifting Sands (Evolution)"
+msgstr ""
+
+msgid "Drainage Dash"
+msgstr ""
+
+msgid "Alpine Valley"
+msgstr ""
+
+msgid "Modern Era: 1.0 to 1.5"
+msgstr ""
+
+msgid "Antarctica: 0.9 to 0.9.3"
+msgstr ""
+
+msgid "Classic Era: 0.7 to 0.8.1"
+msgstr ""
+
+msgid "Rising Recognition: 0.5 to 0.6.2"
+msgstr ""
+
+msgid "Early days: 0.0.0 to 0.4"
 msgstr ""
 
 msgid "The next major release of SuperTuxKart, named SuperTuxKart Evolution is currently under development. Building upon the foundation laid by all those who made STK what it is today, **SuperTuxKart Evolution will be the biggest release in STK's history in terms of new content**: new tracks, new features, improved gameplay, enhanced graphics, and much more. An overview of our roadmap is [available here](https://blog.supertuxkart.net/2025/09/supertuxkart-evolution-roadmap.html)."

@@ -2,44 +2,76 @@
 title: Gallery
 ---
 
-{%main_title SuperTuxKart Evolution (preview)%}
+{% capture screenshot_title -%}
+{%translate "Screenshots"%}
+{%- endcapture -%}
 
-{%minor_title Screenshots%}
+{% capture video_title_plural -%}
+{%translate "Videos"%}
+{%- endcapture -%}
+
+{% capture evolution_title%}
+
+{%translate "SuperTuxKart Evolution (preview)"%}
+
+{% endcapture %}
+
+{%main_title {{ evolution_title }}%}
+
+{%minor_title {{ screenshot_title }}%}
+
+{% capture freytra -%}
+{%translate "Freytra Peaks"%}
+{%- endcapture -%}
+
+{% capture blackforest -%}
+{%translate "Black Forest"%}
+{%- endcapture -%}
+
+{% capture newfm -%}
+{%translate "Fort Magma (Evolution)"%}
+{%- endcapture -%}
+
+{% capture shiftingsands -%}
+{%translate "Shifting Sands (Evolution)"%}
+{%- endcapture -%}
+
+{% capture draindash -%}
+{%translate "Drainage Dash"%}
+{%- endcapture -%}
+
+{% capture alpinevalley -%}
+{%translate "Alpine Valley"%}
+{%- endcapture -%}
 
 {% gallery widths=32%
-/assets/wiki/STKEvolution_1.jpg,,,SuperTuxKart Evolution preview: A view from Freytra Peak's hamlet with a beautiful brick and wood building on the left and electric lines crossing the road farther back
-/assets/wiki/STKEvolution_2.jpg,,,SuperTuxKart Evolution preview: A sunny view of Black Forest with a small river flowing
-/assets/wiki/STKEvolution_3.jpg,,,SuperTuxKart Evolution preview: A hall in New Fort Magma with ominous ball chains threatening drivers
-/assets/wiki/STKEvolution_4.jpg,,,SuperTuxKart Evolution preview: Dashie facing the starting line in an improved version of Shifting Sands
-/assets/wiki/STKEvolution_5.jpg,,,SuperTuxKart Evolution preview: Konqi driving in Drainage Dash's main curve, with toxic sludge flowing from pipes in a pool in the background
-/assets/wiki/STKEvolution_6.jpg,,,SuperTuxKart Evolution preview: a peaceful mountain landscape in Alpine Valley with a waterfall and a church in the background
+/assets/wiki/STKEvolution_1.jpg,{{ freytra | strip }},,SuperTuxKart Evolution preview: A view from Freytra Peak's hamlet with a beautiful brick and wood building on the left and electric lines crossing the road farther back
+/assets/wiki/STKEvolution_2.jpg,{{ blackforest | strip }},,SuperTuxKart Evolution preview: A sunny view of Black Forest with a small river flowing
+/assets/wiki/STKEvolution_3.jpg,{{ newfm | strip }},,SuperTuxKart Evolution preview: A hall in New Fort Magma with ominous ball chains threatening drivers
+/assets/wiki/STKEvolution_4.jpg,{{ shiftingsands | strip }},,SuperTuxKart Evolution preview: Dashie facing the starting line in an improved version of Shifting Sands
+/assets/wiki/STKEvolution_5.jpg,{{ draindash | strip }},,SuperTuxKart Evolution preview: Konqi driving in Drainage Dash's main curve, with toxic sludge flowing from pipes in a pool in the background
+/assets/wiki/STKEvolution_6.jpg,{{ alpinevalley | strip }},,SuperTuxKart Evolution preview: a peaceful mountain landscape in Alpine Valley with a waterfall and a church in the background
 %}
 
-{%main_title 1.5%}
+{% capture modern_title%}
 
-{%minor_title Video%}
+{%translate "Modern Era: 1.0 to 1.5"%}
+
+{% endcapture %}
+
+{%main_title {{ modern_title }}%}
+
+{%minor_title {{ video_title_plural }}%}
 
 <div style="text-align: center; max-width: 100%;">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/H1Lo7PlTGBk" title="SuperTuxKart 1.5 Release Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 640px;"></iframe>
 </div>
 
-{% capture one_dot_x_info %}
+[1.3 Trailer](https://www.youtube.com/watch?v=ef9vYcuEDL4)
 
-{%translate "From version 1.0 to version 1.5, SuperTuxKart has seen several improved kart models, enhancements to the graphics code, as well as a few new soccer fields and battle arenas. However, track pictures from previous 1.x versions are still fairly representative of 1.5."%}
+[1.0 Trailer](https://www.youtube.com/watch?v=Lm1TFDBiIIg)
 
-{% endcapture %}
-
-{%popup_info
-{{ one_dot_x_info }}
-%}
-
-{%main_title 1.3%}
-
-{%minor_title Video%}
-
-[Trailer](https://www.youtube.com/watch?v=ef9vYcuEDL4)
-
-{%minor_title Screenshots%}
+{%minor_title {{ screenshot_title }} (1.3)%}
 
 {% gallery widths=32%
 /assets/wiki/STK1.3_1.jpg,,,SuperTuxKart 1.3: The new Pepper kart driving in Black Forest heading toward a road fork
@@ -50,31 +82,27 @@ title: Gallery
 /assets/wiki/STK1.3_6.jpg,,,SuperTuxKart 1.3: An improved GNU kart with night lights facing the camera in Las Dunas Soccer with a big soccer ball visible behind
 %}
 
-{%main_title 1.0%}
+<!-- Screenshots from old versions are in collapsible boxes -->
 
-{%minor_title Video%}
+{% capture antarctica_title%}
 
-[Trailer](https://www.youtube.com/watch?v=Lm1TFDBiIIg)
-
-{% capture box_info %}
-
-{%translate "You can look at pictures from older STK versions by clicking the boxes below!"%}
+{%translate "Antarctica: 0.9 to 0.9.3"%}
 
 {% endcapture %}
 
-{%popup_info
-{{ box_info }}
-%}
+{% capture antarctica_content%}
 
-<!-- Screenshots from old versions are in collapsible boxes -->
+{%minor_title {{ video_title_plural }}%}
 
-{% capture version_zero_nine_three %}
+[0.9.3 Trailer](https://www.youtube.com/watch?v=hcgDUT4bwls)
 
-{%minor_title Video%}
+[0.9.2 Trailer](https://www.youtube.com/watch?v=ev8Zltau4zw)
 
-[Trailer](https://www.youtube.com/watch?v=hcgDUT4bwls)
+[0.9.1 Trailer](https://www.youtube.com/watch?v=tKD3aWJDg3M)
 
-{%minor_title Screenshots%}
+[0.9 Trailer](https://www.youtube.com/watch?v=0FEwDH7XU9Q)
+
+{%minor_title {{ screenshot_title }} (0.9.3)%}
 
 {% gallery widths=32%
 /assets/wiki/STK0.9.3_1.jpg,,,SuperTuxKart 0.9.3: Tux facing Cinéma le Quartz in Candela City
@@ -82,15 +110,8 @@ title: Gallery
 /assets/wiki/STK0.9.3_3.jpg,,,SuperTuxKart 0.9.3: Konqi driving in Antediluvian Abysses with swimming fishes visible behind the glass walls
 %}
 
-{% endcapture %}
 
-{% capture version_zero_nine_two %}
-
-{%minor_title Video%}
-
-[Trailer](https://www.youtube.com/watch?v=ev8Zltau4zw)
-
-{%minor_title Screenshots%}
+{%minor_title {{ screenshot_title }} (0.9.2)%}
 
 {% gallery widths=32%
 /assets/wiki/STK0.9.2_1.jpg
@@ -101,15 +122,7 @@ title: Gallery
 /assets/wiki/STK0.9.2_6.jpg
 %}
 
-{% endcapture %}
-
-{% capture version_zero_nine_one %}
-
-{%minor_title Video%}
-
-[Trailer](https://www.youtube.com/watch?v=tKD3aWJDg3M)
-
-{%minor_title Screenshots%}
+{%minor_title {{ screenshot_title }} (0.9.1)%}
 
 {% gallery widths=32%
 /assets/wiki/STK0.9.1_1.jpg
@@ -121,15 +134,7 @@ title: Gallery
 /assets/wiki/STK0.9.1_7.jpg
 %}
 
-{% endcapture %}
-
-{% capture version_zero_nine %}
-
-{%minor_title Video%}
-
-[Trailer](https://www.youtube.com/watch?v=0FEwDH7XU9Q)
-
-{%minor_title Screenshots%}
+{%minor_title {{ screenshot_title }} (0.9)%}
 
 {% gallery widths=32%
 /assets/wiki/STK0.9_1.jpg
@@ -144,49 +149,19 @@ title: Gallery
 
 {% endcapture %}
 
-{% capture version_zero_eight_one %}
+{% capture classic_era_title%}
 
-{%minor_title Video%}
-
-[Trailer](https://www.youtube.com/watch?v=WutAN4i98_o)
-
-{%minor_title Screenshots%}
-
-{% gallery widths=24%
-/assets/wiki/STK0.8.1_1.jpg
-/assets/wiki/STK0.8.1_2.jpg
-/assets/wiki/STK0.8.1_3.jpg
-/assets/wiki/STK0.8.1_4.jpg
-/assets/wiki/STK0.8.1_5.jpg
-/assets/wiki/STK0.8.1_6.jpg
-/assets/wiki/STK0.8.1_7.jpg
-/assets/wiki/STK0.8.1_8.jpg
-%}
+{%translate "Classic Era: 0.7 to 0.8.1"%}
 
 {% endcapture %}
 
-{% capture version_zero_eight %}
+{% capture classic_era_content%}
 
-{%minor_title Video%}
+{%minor_title {{ video_title_plural }}%}
 
-[Trailer](https://www.youtube.com/watch?v=wwSXCrNjTm4)
+[0.8.1 Trailer](https://www.youtube.com/watch?v=WutAN4i98_o)
 
-{%minor_title Screenshots%}
-
-{% gallery widths=32%
-/assets/wiki/STK0.8_1.jpg
-/assets/wiki/STK0.8_2.jpg
-/assets/wiki/STK0.8_3.jpg
-/assets/wiki/STK0.8_4.jpg
-/assets/wiki/STK0.8_5.jpg
-/assets/wiki/STK0.8_6.jpg
-%}
-
-{% endcapture %}
-
-{% capture version_zero_seven %}
-
-{%minor_title Videos%}
+[0.8 Trailer](https://www.youtube.com/watch?v=wwSXCrNjTm4)
 
 0.7.3 [[1]](https://www.youtube.com/watch?v=4ZoguEjB5XY)
 
@@ -200,11 +175,40 @@ title: Gallery
 [[7]](https://www.youtube.com/watch?v=k9Bt2J5CbLY)
 [[8]](https://www.youtube.com/watch?v=_D5D2AZaq5o)
 
-{%minor_title Screenshots%}
+{%minor_title {{ screenshot_title }} (0.8.1)%}
 
 {% gallery widths=24%
+/assets/wiki/STK0.8.1_1.jpg
+/assets/wiki/STK0.8.1_2.jpg
+/assets/wiki/STK0.8.1_3.jpg
+/assets/wiki/STK0.8.1_4.jpg
+/assets/wiki/STK0.8.1_5.jpg
+/assets/wiki/STK0.8.1_6.jpg
+/assets/wiki/STK0.8.1_7.jpg
+/assets/wiki/STK0.8.1_8.jpg
+%}
+
+{%minor_title {{ screenshot_title }} (0.8)%}
+
+{% gallery widths=32%
+/assets/wiki/STK0.8_1.jpg
+/assets/wiki/STK0.8_2.jpg
+/assets/wiki/STK0.8_3.jpg
+/assets/wiki/STK0.8_4.jpg
+/assets/wiki/STK0.8_5.jpg
+/assets/wiki/STK0.8_6.jpg
+%}
+
+{%minor_title {{ screenshot_title }} (0.7.2)%}
+
+{% gallery widths=40%
 /assets/wiki/STK0.7.2_1.jpg
 /assets/wiki/STK0.7.2_2.jpg
+%}
+
+{%minor_title {{ screenshot_title }} (0.7)%}
+
+{% gallery widths=32%
 /assets/wiki/STK0.7_1.jpg
 /assets/wiki/STK0.7_2.jpg
 /assets/wiki/STK0.7_3.jpg
@@ -215,15 +219,21 @@ title: Gallery
 
 {% endcapture %}
 
-{% capture version_zero_six %}
+{% capture rising_title%}
 
-{%minor_title Video%}
+{%translate "Rising Recognition: 0.5 to 0.6.2"%}
 
-[Trailer](https://www.vimeo.com/2891554)
+{% endcapture %}
 
-{%minor_title Screenshots%}
+{% capture rising_content %}
 
-{% single_gallery widths=18%
+{%minor_title {{ video_title_plural }}%}
+
+[0.6 Trailer](https://www.vimeo.com/2891554)
+
+{%minor_title {{ screenshot_title }} (0.6)%}
+
+{% single_gallery widths=24%
 /assets/wiki/STK0.6_1.jpg
 /assets/wiki/STK0.6_2.jpg
 /assets/wiki/STK0.6_3.jpg
@@ -237,13 +247,9 @@ title: Gallery
 /assets/wiki/STK0.6_11.jpg
 %}
 
-{% endcapture %}
+{%minor_title {{ screenshot_title }} (0.5)%}
 
-{% capture version_zero_five %}
-
-{%minor_title Screenshots%}
-
-{% single_gallery widths=18%
+{% single_gallery widths=24%
 /assets/wiki/STK0.5_1.jpg
 /assets/wiki/STK0.5_2.jpg
 /assets/wiki/STK0.5_3.jpg
@@ -255,55 +261,45 @@ title: Gallery
 
 {% endcapture %}
 
-{% capture version_zero_four %}
+{% capture early_days_title %}
 
-{%minor_title Screenshots%}
+{%translate "Early days: 0.0.0 to 0.4"%}
 
-{% single_gallery widths=48%
+{% endcapture %}
+
+{% capture early_days_content %}
+
+{%minor_title {{ screenshot_title }} (0.4)%}
+
+{% single_gallery widths=40%
 /assets/wiki/STK0.4_1.jpg
 /assets/wiki/STK0.4_2.jpg
 %}
 
-{% endcapture %}
+{%minor_title  {{ screenshot_title }} (0.3 Halloween Edition)%}
 
-{% capture version_zero_three_halloween %}
-
-{%minor_title Screenshots%}
-
-{% single_gallery widths=48%
+{% single_gallery widths=40%
 /assets/wiki/STK0.3h_1.jpg
 /assets/wiki/STK0.3h_2.jpg
 %}
 
-{% endcapture %}
+{%minor_title {{ screenshot_title }} (0.3)%}
 
-{% capture version_zero_three %}
-
-{%minor_title Screenshots%}
-
-{% gallery widths=48%
+{% single_gallery widths=40%
 /assets/wiki/STK0.3_1.jpg
 /assets/wiki/STK0.3_2.jpg
 %}
 
-{% endcapture %}
+{%minor_title {{ screenshot_title }} (0.2)%}
 
-{% capture version_zero_two %}
-
-{%minor_title Screenshots%}
-
-{% single_gallery widths=48%
+{% single_gallery widths=40%
 /assets/wiki/STK0.2_1.jpg
 /assets/wiki/STK0.2_2.jpg
 %}
 
-{% endcapture %}
+{%minor_title {{ screenshot_title }} (0.0.0)%}
 
-{% capture version_zero_zero_zero %}
-
-{%minor_title Screenshots%}
-
-{% single_gallery widths=48%
+{% single_gallery widths=40%
 /assets/wiki/STK0.0.0_1.jpg
 /assets/wiki/STK0.0.0_2.jpg
 %}
@@ -312,112 +308,32 @@ title: Gallery
 
 {% start_liquid ubox %}
 
-0.9.3
+{{ antarctica_title }}
 
-{{ version_zero_nine_three }}
-
-{% end_liquid %}
-
-{% start_liquid ubox %}
-
-0.9.2
-
-{{ version_zero_nine_two }}
+{{ antarctica_content }}
 
 {% end_liquid %}
 
 {% start_liquid ubox %}
 
-0.9.1
+{{ classic_era_title }}
 
-{{ version_zero_nine_one }}
-
-{% end_liquid %}
-
-{% start_liquid ubox %}
-
-0.9
-
-{{ version_zero_nine }}
+{{ classic_era_content }}
 
 {% end_liquid %}
 
 {% start_liquid ubox %}
 
-0.8.1
+{{ rising_title }}
 
-{{ version_zero_eight_one }}
-
-{% end_liquid %}
-
-{% start_liquid ubox %}
-
-0.8
-
-{{ version_zero_eight }}
+{{ rising_content }}
 
 {% end_liquid %}
 
 {% start_liquid ubox %}
 
-0.7 to 0.7.3
+{{ early_days_title }}
 
-{{ version_zero_seven }}
-
-{% end_liquid %}
-
-{% start_liquid ubox %}
-
-0.6 to 0.6.2
-
-{{ version_zero_six }}
-
-{% end_liquid %}
-
-{% start_liquid ubox %}
-
-0.5
-
-{{ version_zero_five }}
-
-{% end_liquid %}
-
-{% start_liquid ubox %}
-
-0.4
-
-{{ version_zero_four }}
-
-{% end_liquid %}
-
-{% start_liquid ubox %}
-
-0.3 (Halloween Edition)
-
-{{ version_zero_three_halloween }}
-
-{% end_liquid %}
-
-{% start_liquid ubox %}
-
-0.3
-
-{{ version_zero_three }}
-
-{% end_liquid %}
-
-{% start_liquid ubox %}
-
-0.2
-
-{{ version_zero_two }}
-
-{% end_liquid %}
-
-{% start_liquid ubox %}
-
-0.0.0
-
-{{ version_zero_zero_zero }}
+{{ early_days_content }}
 
 {% end_liquid %}
