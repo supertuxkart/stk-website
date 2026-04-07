@@ -57,7 +57,7 @@ module GalleryUtils
             end
             alt_text = c_alt_text ? c_alt_text : File.basename(image, File.extname(image))
             @raw_params = image + ' --alt ' + alt_text
-            result = '<div class="' + get_css_class() + '"><a href="' + href + '">' +
+            result = '<div class="' + get_css_class() + '"><a href="' + href + '" target="_blank">' +
                 method(:render).super_method.call(context) + '</a>'
             preset['link_source'] = orig_val
             return result
@@ -174,7 +174,7 @@ module GalleryUtils
             end
             href = image if href == ''
             style = ''
-            return '<div class="' + get_css_class() + '"><a href="' + href + '"><img src="' + image + '" alt="' + alt_text + '"' + style + '></a>'
+            return '<div class="' + get_css_class() + '"><a href="' + href + '" target="_blank"><img src="' + image + '" alt="' + alt_text + '"' + style + '></a>'
         end
     end
 end

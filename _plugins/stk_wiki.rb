@@ -158,7 +158,7 @@ input[id="' + input_id + '"]:checked + .ubox-title + .ubox-boxcontent {
     opacity: 1.0;
     transition: margin 0.35s, padding 0.35s, font-size 0.35s, opacity 0.35s 0.35s;
     /* This has to be a value larger than the max possible height of the box content */
-    max-height: 3000px; 
+    max-height: 8000px; 
     transition: max-height 0.35s ease-in;
     user-select: text;
     -webkit-user-select: text;
