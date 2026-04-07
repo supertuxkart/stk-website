@@ -6,6 +6,10 @@ title: Gallery
 {%translate "Screenshots"%}
 {%- endcapture -%}
 
+{% capture trailer_text -%}
+{%translate "Trailer"%}
+{%- endcapture -%}
+
 {% capture video_title_plural -%}
 {%translate "Videos"%}
 {%- endcapture -%}
@@ -24,15 +28,15 @@ title: Gallery
 {%translate "Freytra Peaks"%}
 {%- endcapture -%}
 
-{% capture blackforest -%}
-{%translate "Black Forest"%}
+{% capture blackforest_evo -%}
+{%translate "Black Forest (Evolution)"%}
 {%- endcapture -%}
 
 {% capture newfm -%}
 {%translate "Fort Magma (Evolution)"%}
 {%- endcapture -%}
 
-{% capture shiftingsands -%}
+{% capture shiftingsands_evo -%}
 {%translate "Shifting Sands (Evolution)"%}
 {%- endcapture -%}
 
@@ -45,19 +49,56 @@ title: Gallery
 {%- endcapture -%}
 
 {% gallery widths=32%
-/assets/wiki/STKEvolution_1.jpg,{{ freytra | strip }},,SuperTuxKart Evolution preview: A view from Freytra Peak's hamlet with a beautiful brick and wood building on the left and electric lines crossing the road farther back
-/assets/wiki/STKEvolution_2.jpg,{{ blackforest | strip }},,SuperTuxKart Evolution preview: A sunny view of Black Forest with a small river flowing
-/assets/wiki/STKEvolution_3.jpg,{{ newfm | strip }},,SuperTuxKart Evolution preview: A hall in New Fort Magma with ominous ball chains threatening drivers
-/assets/wiki/STKEvolution_4.jpg,{{ shiftingsands | strip }},,SuperTuxKart Evolution preview: Dashie facing the starting line in an improved version of Shifting Sands
-/assets/wiki/STKEvolution_5.jpg,{{ draindash | strip }},,SuperTuxKart Evolution preview: Konqi driving in Drainage Dash's main curve, with toxic sludge flowing from pipes in a pool in the background
-/assets/wiki/STKEvolution_6.jpg,{{ alpinevalley | strip }},,SuperTuxKart Evolution preview: a peaceful mountain landscape in Alpine Valley with a waterfall and a church in the background
+/assets/gallery/STKEvolution_1.jpg,{{ freytra | strip }},,SuperTuxKart Evolution preview: A view from Freytra Peak's hamlet with a beautiful brick and wood building on the left and electric lines crossing the road farther back
+/assets/gallery/STKEvolution_2.jpg,{{ blackforest_evo | strip }},,SuperTuxKart Evolution preview: A sunny view of Black Forest with a small river flowing
+/assets/gallery/STKEvolution_3.jpg,{{ newfm | strip }},,SuperTuxKart Evolution preview: A hall in New Fort Magma with ominous ball chains threatening drivers
+/assets/gallery/STKEvolution_4.jpg,{{ shiftingsands_evo | strip }},,SuperTuxKart Evolution preview: Dashie facing the starting line in an improved version of Shifting Sands
+/assets/gallery/STKEvolution_5.jpg,{{ draindash | strip }},,SuperTuxKart Evolution preview: Konqi driving in Drainage Dash's main curve, with toxic sludge flowing from pipes in a pool in the background
+/assets/gallery/STKEvolution_6.jpg,{{ alpinevalley | strip }},,SuperTuxKart Evolution preview: a peaceful mountain landscape in Alpine Valley with a waterfall and a church in the background
 %}
+
 
 {% capture modern_title%}
 
 {%translate "Modern Era: 1.0 to 1.5"%}
 
 {% endcapture %}
+
+{% capture xr_soccer -%}
+{%translate "XR-4R3N4 (soccer field)"%}
+{%- endcapture -%}
+
+{% capture bf_egg -%}
+{%translate "Black Forest (egg hunt)"%}
+{%- endcapture -%}
+
+{% capture oasis_soccer -%}
+{%translate "Oasis (soccer field)"%}
+{%- endcapture -%}
+
+{% capture bf_pepper -%}
+{%translate "Black Forest"%}
+{%- endcapture -%}
+
+{% capture northern_adiumy -%}
+{%translate "Northern Resort"%}
+{%- endcapture -%}
+
+{% capture candela_beastie -%}
+{%translate "Candela City"%}
+{%- endcapture -%}
+
+{% capture labyrinth_kiki -%}
+{%translate "Ancient Colosseum Labyrinth (arena)"%}
+{%- endcapture -%}
+
+{% capture alien_signal_sara -%}
+{%translate "Alien Signal (arena)"%}
+{%- endcapture -%}
+
+{% capture lasdunas_soccer_gnu -%}
+{%translate "Las Dunas Soccer Stadium"%}
+{%- endcapture -%}
 
 {%main_title {{ modern_title }}%}
 
@@ -67,19 +108,29 @@ title: Gallery
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/H1Lo7PlTGBk" title="SuperTuxKart 1.5 Release Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 640px;"></iframe>
 </div>
 
-[1.3 Trailer](https://www.youtube.com/watch?v=ef9vYcuEDL4)
+{% gallery widths=32%
+/assets/gallery/Trailer_thumb_1.3.jpg,{{ trailer_text }} (1.3),https://www.youtube.com/watch?v=ef9vYcuEDL4
+/assets/gallery/Trailer_thumb_1.2.jpg,{{ trailer_text }} (1.2),https://www.youtube.com/watch?v=_kNtEKfN4Hg
+/assets/gallery/Trailer_thumb_1.0.jpg,{{ trailer_text }} (1.0),https://www.youtube.com/watch?v=Lm1TFDBiIIg
+%}
 
-[1.0 Trailer](https://www.youtube.com/watch?v=Lm1TFDBiIIg)
+{%minor_title {{ screenshot_title }} (1.5)%}
+
+{% gallery widths=32%
+/assets/gallery/SuperTuxKart_1.5_1.jpg,{{ xr_soccer }},,SuperTuxKart 1.5: Emule driving towards a green ball in the new soccer field XR-4R3N4 themed after XR591
+/assets/gallery/SuperTuxKart_1.5_2.jpg,{{ bf_egg }},,SuperTuxKart 1.5: Kiki next to an egg on a shaded house balcony in Black Forest with a monastery visible in the background on a hill
+/assets/gallery/SuperTuxKart_1.5_3.jpg,{{ oasis_soccer }},,SuperTuxKart 1.5: Godette driving in the shallow pool of water in the middle of the new soccer field Oasis with other karts driving towards the soccer ball
+%}
 
 {%minor_title {{ screenshot_title }} (1.3)%}
 
 {% gallery widths=32%
-/assets/wiki/STK1.3_1.jpg,,,SuperTuxKart 1.3: The new Pepper kart driving in Black Forest heading toward a road fork
-/assets/wiki/STK1.3_2.jpg,,,SuperTuxKart 1.3: Adiumy driving in Northern Resort with a green aurora borealis in the background lighting up the night sky
-/assets/wiki/STK1.3_3.jpg,,,SuperTuxKart 1.3: Beastie driving around Candela City's sharp bend with a small building advertising a gondola ride service visible on the right
-/assets/wiki/STK1.3_4.jpg,,,SuperTuxKart 1.3: Kiki maneuvering with a Capture-The-Flag flag in Ancient Colosseum Labyrinth
-/assets/wiki/STK1.3_5.jpg,,,SuperTuxKart 1.3: An improved Sara kart driving in the battle arena Alien Signal set on a decrepit radiotelescope
-/assets/wiki/STK1.3_6.jpg,,,SuperTuxKart 1.3: An improved GNU kart with night lights facing the camera in Las Dunas Soccer with a big soccer ball visible behind
+/assets/gallery/STK1.3_1.jpg,{{ bf_pepper }},,SuperTuxKart 1.3: The new Pepper kart driving in Black Forest heading toward a road fork
+/assets/gallery/STK1.3_2.jpg,{{ northern_adiumy }},,SuperTuxKart 1.3: Adiumy driving in Northern Resort with a green aurora borealis in the background lighting up the night sky
+/assets/gallery/STK1.3_3.jpg,{{ candela_beastie }},,SuperTuxKart 1.3: Beastie driving around Candela City's sharp bend with a small building advertising a gondola ride service visible on the right
+/assets/gallery/STK1.3_4.jpg,{{ labyrinth_kiki }},,SuperTuxKart 1.3: Kiki maneuvering with a Capture-The-Flag flag in Ancient Colosseum Labyrinth
+/assets/gallery/STK1.3_5.jpg,{{ alien_signal_sara }},,SuperTuxKart 1.3: An improved Sara kart driving in the battle arena Alien Signal set on a decrepit radiotelescope
+/assets/gallery/STK1.3_6.jpg,{{ lasdunas_soccer_gnu }},,SuperTuxKart 1.3: An improved GNU kart with night lights facing the camera in Las Dunas Soccer with a big soccer ball visible behind
 %}
 
 <!-- Screenshots from old versions are in collapsible boxes -->
@@ -94,13 +145,12 @@ title: Gallery
 
 {%minor_title {{ video_title_plural }}%}
 
-[0.9.3 Trailer](https://www.youtube.com/watch?v=hcgDUT4bwls)
-
-[0.9.2 Trailer](https://www.youtube.com/watch?v=ev8Zltau4zw)
-
-[0.9.1 Trailer](https://www.youtube.com/watch?v=tKD3aWJDg3M)
-
-[0.9 Trailer](https://www.youtube.com/watch?v=0FEwDH7XU9Q)
+{% gallery widths=24%
+/assets/gallery/Trailer_thumb_0.9.3.jpg,{{ trailer_text }} (0.9.3),https://www.youtube.com/watch?v=hcgDUT4bwls
+/assets/gallery/Trailer_thumb_0.9.2.jpg,{{ trailer_text }} (0.9.2),https://www.youtube.com/watch?v=ev8Zltau4zw
+/assets/gallery/Trailer_thumb_0.9.1.jpg,{{ trailer_text }} (0.9.1),https://www.youtube.com/watch?v=tKD3aWJDg3M
+/assets/gallery/Trailer_thumb_0.9.jpg,{{ trailer_text }} (0.9),https://www.youtube.com/watch?v=0FEwDH7XU9Q
+%}
 
 {%minor_title {{ screenshot_title }} (0.9.3)%}
 
@@ -149,6 +199,8 @@ title: Gallery
 
 {% endcapture %}
 
+
+
 {% capture classic_era_title%}
 
 {%translate "Classic Era: 0.7 to 0.8.1"%}
@@ -159,21 +211,14 @@ title: Gallery
 
 {%minor_title {{ video_title_plural }}%}
 
-[0.8.1 Trailer](https://www.youtube.com/watch?v=WutAN4i98_o)
+{% capture trailer_caption_1.3 -%}
+{%translate "1.3 Trailer"%}
+{%- endcapture -%}
 
-[0.8 Trailer](https://www.youtube.com/watch?v=wwSXCrNjTm4)
-
-0.7.3 [[1]](https://www.youtube.com/watch?v=4ZoguEjB5XY)
-
-0.7.2 [[2]](https://www.youtube.com/watch?v=7CHqMdDo_LU)
-
-0.7.1 [[3]](https://www.youtube.com/watch?v=J4zMhV8Lb60)
-
-0.7 [[4]](https://www.youtube.com/v/tAgDWSfEESA)
-[[5]](https://www.youtube.com/watch?v=OB8B8ZxufEs)
-[[6]](https://www.youtube.com/watch?v=HK9b9d6M_6s)
-[[7]](https://www.youtube.com/watch?v=k9Bt2J5CbLY)
-[[8]](https://www.youtube.com/watch?v=_D5D2AZaq5o)
+{% gallery widths=40%
+/assets/gallery/Trailer_thumb_0.8.1.jpg,{{ trailer_text }} (0.8.1),https://www.youtube.com/watch?v=WutAN4i98_o
+/assets/gallery/Trailer_thumb_0.8.jpg,{{ trailer_text }} (0.8),https://www.youtube.com/watch?v=wwSXCrNjTm4
+%}
 
 {%minor_title {{ screenshot_title }} (0.8.1)%}
 
@@ -226,10 +271,6 @@ title: Gallery
 {% endcapture %}
 
 {% capture rising_content %}
-
-{%minor_title {{ video_title_plural }}%}
-
-[0.6 Trailer](https://www.vimeo.com/2891554)
 
 {%minor_title {{ screenshot_title }} (0.6)%}
 

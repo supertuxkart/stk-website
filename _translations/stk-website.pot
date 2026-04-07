@@ -484,6 +484,9 @@ msgstr ""
 msgid "Screenshots"
 msgstr ""
 
+msgid "Trailer"
+msgstr ""
+
 msgid "Videos"
 msgstr ""
 
@@ -493,7 +496,7 @@ msgstr ""
 msgid "Freytra Peaks"
 msgstr ""
 
-msgid "Black Forest"
+msgid "Black Forest (Evolution)"
 msgstr ""
 
 msgid "Fort Magma (Evolution)"
@@ -511,10 +514,40 @@ msgstr ""
 msgid "Modern Era: 1.0 to 1.5"
 msgstr ""
 
+msgid "XR-4R3N4 (soccer field)"
+msgstr ""
+
+msgid "Black Forest (egg hunt)"
+msgstr ""
+
+msgid "Oasis (soccer field)"
+msgstr ""
+
+msgid "Black Forest"
+msgstr ""
+
+msgid "Northern Resort"
+msgstr ""
+
+msgid "Candela City"
+msgstr ""
+
+msgid "Ancient Colosseum Labyrinth (arena)"
+msgstr ""
+
+msgid "Alien Signal (arena)"
+msgstr ""
+
+msgid "Las Dunas Soccer Stadium"
+msgstr ""
+
 msgid "Antarctica: 0.9 to 0.9.3"
 msgstr ""
 
 msgid "Classic Era: 0.7 to 0.8.1"
+msgstr ""
+
+msgid "1.3 Trailer"
 msgstr ""
 
 msgid "Rising Recognition: 0.5 to 0.6.2"
