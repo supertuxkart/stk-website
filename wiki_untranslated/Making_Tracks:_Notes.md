@@ -25,7 +25,7 @@ It's important to know how sizes in Blender translate to STK, especially for the
 
 *For more details about polycount, as well examples for decorations, see [3D Model Guidelines](3D_Model_Guidelines).*
 
-* The polycount for a track should be ~290000 tris. Cocoa Temple exceeds this limit at 295058 tris, but Cocoa Temple is an exceptionally large and complicated track. Your track should not exceed the limit unless ***<u>ABSOLUTELY</u>**'' necessary. (In this case, "***<u>ABSOLUTELY</u>**'' necessary" means that your track is as detailed or more than Cocoa Temple, has the same or better quality, and is not unnecessarily wasting poly.) Most tracks will not even come close to this limit. Antediluvian Abyss, for example, uses 230810 tris, and Gran Paradiso Island uses 235411 tris.
+* The polycount for a track should be ~290000 tris. Cocoa Temple exceeds this limit at 295058 tris, but Cocoa Temple is an exceptionally large and complicated track. Your track should not exceed the limit unless **<u>ABSOLUTELY</u>**'' necessary. (In this case, "**<u>ABSOLUTELY</u>**'' necessary" means that your track is as detailed or more than Cocoa Temple, has the same or better quality, and is not unnecessarily wasting poly.) Most tracks will not even come close to this limit. Antediluvian Abyss, for example, uses 230810 tris, and Gran Paradiso Island uses 235411 tris.
 * Use an appropriate balance of high- and low-poly. Partially-covered objects and objects that are always seen from far away should be low poly.
 * Avoid unnecessary objects. Objects that cannot be seen or would not be noticed if they were missing should be avoided.
 
@@ -42,7 +42,7 @@ It should be an integral part of your track design process instead of an afterth
 
 This guide contains three pages dedicated to gameplay concepts. You should take your time to read them, applying the lessons given there carefully as you craft your track.
 
-* [Gameplay basics](Making_Tracks:_Gameplay_Basics) covers core concepts that should be taken into account for every track. They are crucial to make it enjoyable and give it high replayability.
+* [Gameplay fundamentals](Making_Tracks:_Gameplay_Fundamentals) covers core concepts that should be taken into account for every track. They are crucial to make it enjoyable and give it high replayability.
 * [Advanced gameplay design](Making_Tracks:_Advanced_Gameplay_Design) covers the concepts that are optional. Nonetheless, for a track to be great, it should likely apply at least some of the ideas presented there.
 * [Placing items](Making_Tracks:_Placing_Items) covers adding things such as gift boxes and nitro cans to your track. Changing the location of items takes very little time, so while you may want to use some simple placements early on, it is best to wait until the rest of the gameplay elements are finalized before optimizing item placement.
 

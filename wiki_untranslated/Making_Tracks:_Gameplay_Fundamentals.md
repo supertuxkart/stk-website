@@ -1,19 +1,57 @@
 ---
-title: 'Making Tracks: Gameplay Basics'
+title: 'Making Tracks: Gameplay Fundamentals'
 toc: true
 ---
 
-If your track is beautiful but boring or confusing, the player experience will suffer and most players won't want to keep playing it. Tracks with solid gameplay and average visuals are usually more popular than nicer looking tracks that are not fun to play.
+To make a track that players will enjoy, it is important to take gameplay into consideration. You don't want to discover that there is a layout issue after you've spent a lot of time making the road's surroundings pretty!
 
 Gameplay is important to consider during many steps of the track-making process: when designing the track, when modeling it, when testing it, when placing decorations, etc.
 
+The best tracks of course combine beauty and gameplay, but players will more easily tolerate tracks with simpler graphics than tracks that leave them bored or confused.
+
+This page covers fundamental concepts that are important for every track.
+
 **How well a track follow these gameplay guidelines also plays a role when determining if it should be showcased in the addons explorer.**
+
+## Key principles
+
+To obtain the best results, it is strongly advised that you read the detailed sections and try to incorporate their advice in your work. However, if you are new to track-making, you may want to get started without getting into all the details.
+
+So here are the most important principles for your track's gameplay to be fun:
+* **The player should clearly see where the road** (as opposed to off-road) **is and where the road goes next.** The access to alternative paths may be concealed.
+* Don't make the track too narrow, especially around the start line. Races with up to 20 karts should still be playable.
+* Ensure there are some difficult curves as well as some easier sections where it's relatively safe to use speed boosts.
+* **Use visuals to communicate hints about gameplay** (such as using grass or sand terrain to communicate an off-road area) and avoid misleading players with fake or missing cues (such as invisible walls and dead ends).
+* The ideal length of a track is between 40s and 70s driving at SuperTux speeds without nitro and drifts. However, shorter tracks are a good way to learn for your first few tracks.
+* Try to keep the minimap clear.
+* You can use some zipper pads, but there should be several track sections without them.
+* **Alternative paths can be fun, but if you choose to use them, you have to ensure they are reasonably balanced**:
+  * If a path is slower, it should be easier.
+  * The time difference between paths should be moderate, ideally less than 1 second, no more than 2.
+* Jumps are a fun element so you can place some, but provide proper landing space after the jump, and, if your jump is mandatory, that it doesn't prevent completing the track for newbies driving at slow speeds.
+* Dynamic obstacles are great if you can add them, however the player should be able to see them and avoid losing much time if he reacts properly.
+* Place a reasonable amount of gift boxes and some bananas.
+* Avoid placing too much nitro, especially big nitro cans. This is a common trap for new track-maker. If a kart can collect more nitro than it can use, it removes a lot of strategy and there is less value in being accurate to collect it.
+* **It should be very difficult if not impossible to accidentally miss checklines**. Few things are as disappointing to a player than seeing their lap not count.
+* There should be enough well-placed checklines to prevent exploits skipping part of the track.
+
+The more detailed sections on this page as well as on the [Advanced gameplay design](Making_Tracks:_Advanced_Gameplay_Design), [Placing items](Making_Tracks:_Placing_Items), and [Drivelines and Checklines](Making_Tracks:_Drivelines_and_Checklines) pages cover all these points (and more!) with explanations, practical advice and examples.
 
 ## Road visibility and clarity
 
 This is perhaps the most important gameplay rule of all. While you can hide alternate secret paths, **it is imperative that the player sees clearly where the road is and where it goes next**.
 
-This is not negotiable, a track where the road is difficult to distinguish from the off-road or where the will confuse and frustrate players discovering the track for the first time, and depending on how severe the issue is, it will also aggravate players that have driven it many times before.
+This is not negotiable, a track where the road is difficult to distinguish from the off-road will confuse and frustrate players discovering the track for the first time, and depending on how severe the issue is, it will also aggravate players that have driven it many times before. Tracks where there is a vast area without clear indications on the correct direction to follow are likewise problematic.
+
+{% capture stk_enterprise_unclear -%}
+
+This room in the original STK Enterprise track often confuses new players who lose time trying to figure out where to go.
+
+{%- endcapture -%}
+
+{% single_gallery heights=360px
+/assets/wiki/STK_unclear_direction.jpg,{{ stk_enterprise_unclear | strip }},,A view from the main room inside the STK Enterprise with the kart Gavroche
+%}
 
 There are a few simple methods to get a good result here:
 * **Have contrasting colors between the road the player should follow and the surrounding off-road areas.** This is the easiest and most important method to tell your players where to go next.
@@ -32,8 +70,8 @@ XR591 gives here an example of what not to do: poor color contrast, inconsistent
 
 {%- endcapture -%}
 
-{% single_gallery heights=400px
-/assets/wiki/Gameplay_XR_poor_design.jpg,{{ xr_bad_visibility | strip }}
+{% single_gallery heights=360px
+/assets/wiki/Gameplay_XR_poor_design.jpg,{{ xr_bad_visibility | strip }},,The kart Pidgin facing a bend in XR591 with a tower and hearts visible in the background
 %}
 
 If your track features an alternative path, it is fine if the access to the alternative path itself is concealed, such as for example the bridge in Grand Paradiso Island. But once a player has entered an alternative path, the same general rules as for the main path apply.
@@ -123,3 +161,23 @@ This minimap of Dyson Speedway shows how useless the minimap can become if you d
 When you have to mark the driveable area later on with drivequads, take care of marking the entirety of the driveable area, instead of leaving out some on the side. This can cause issues with 1.x's AI karts, but it's best practice going forward.
 
 Finally, the initial orientation you choose for your road will determine the minimap orientation, so it's worth to stop and think what will give the best result before committing one way or another.
+
+## Marking the lapline
+
+If a lapline isn't visually indicated, players may be unsure where precisely it is located. Although this might seem a minor point, this can be genuinely annoying for players and it's easy to take care of.
+
+There are two usual methods to mark the lapline:
+* An archway around the lapline. There are many possible visual styles, choose something that looks like it belongs with the rest of your track.
+* Markings on the road (often black-and-white checkered markings like on real race tracks).
+
+The archway is often more visible at a distance, but road markings are more precise, especially if the archway is large. You can use either of them, and both methods can also be combined. 
+
+{% capture bf_start_line -%}
+
+Black Forest's start line uses both an archway and checkered road markings.
+
+{%- endcapture -%}
+
+{% single_gallery heights=360px
+/assets/wiki/Black_Forest_start_line.jpg,{{ bf_start_line | strip }},,The SuperTuxKart kart Sara on a slope is looking towards the start line from Black Forest, with houses visible in the distance
+%}
