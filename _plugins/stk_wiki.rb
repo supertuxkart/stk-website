@@ -205,7 +205,7 @@ input[id="' + input_id + '"]:checked + .ubox-title + .ubox-boxcontent {
         def render(context)
             data = Liquid::Template.parse(@markup.delete("\n")).render(context)
             result =
-'<h4 id="' + STKWebsite::get_title_id(context, data) + '" class="article_minor_title">' + data + '</h4>
+'<h3 id="' + STKWebsite::get_title_id(context, data) + '" class="article_minor_title">' + data + '</h3>
 '
             return result
         end
