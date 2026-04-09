@@ -12,6 +12,57 @@ module GalleryUtils
         sidebar: 'sidebar'
     }
     class Gallery < PictureTag::Picture
+        # We want to be able to handle commas inside quoted strings
+        # for the sidebar galleries. So we can't just split at the commas
+        def parse_gallery_params(param_line)
+            params = {}
+            current_param = nil
+            current_value = ""
+            in_quotes = false
+            quote_char = nil
+            
+            i = 0
+            while i < param_line.length
+                char = param_line[i]
+                
+                # Quote characters change the in_quotes status
+                # We note which type it is to only close with the correct type
+                if (char == '"' || char == "'") && !in_quotes
+                    in_quotes = true
+                    quote_char = char
+                elsif char == quote_char && in_quotes
+                    in_quotes = false
+                    quote_char = nil
+                # Outside of quotes, commas separate parameters
+                elsif char == ',' && !in_quotes
+                    # Push the previous parameter
+                    if current_param
+                        params[current_param.to_sym] = current_value.strip
+                    end
+                    current_param = nil
+                    current_value = ""
+                # Outside of quotes, the equal sign separates a param name
+                # from a param value. If we already encountered a previous
+                # equal sign, we treat the second one as part of the param value.
+                elsif char == '=' && !in_quotes && current_param.nil?
+                    current_param = current_value.strip
+                    current_value = ""
+                # Default case, we add the character to the param name or value
+                # depending on the current state.
+                else
+                    current_value += char
+                end
+                i += 1
+            end
+            
+            # Push the last parameter
+            if current_param
+                params[current_param.to_sym] = current_value.strip
+            end
+
+            return params
+        end
+
         def initialize(tag_name, markup, parse_context)
             super
             @gallery_type = :packed
@@ -22,27 +73,28 @@ module GalleryUtils
             @images = @raw_params.split("\n")
             param_exists = false
             if @images.length > 0
-                for param in @images[0].split(',') do
-                    param.strip!
-                    if param.start_with?('mode=') then
-                        type = param['mode='.length..]
-                        if GalleryType.has_value?(type) then
-                            @gallery_type = GalleryType.key(type)
+                # The first line contains gallery parameters such as width
+                params = parse_gallery_params(@images[0])
+                params.each do |key, value|
+                    case key
+                    when :mode
+                        if GalleryType.has_value?(value) then
+                            @gallery_type = GalleryType.key(value)
                         end
                         param_exists = true
-                    elsif param.start_with?('widths=') then
-                        @widths = param['widths='.length..]
+                    when :widths
+                        @widths = value
                         param_exists = true
-                    elsif param.start_with?('heights=') then
-                        @heights = param['heights='.length..]
+                    when :heights
+                        @heights = value
                         param_exists = true
-                    elsif param.start_with?('picture_side=') then
-                        @sidebar_picture_location = param['picture_side='.length..]
+                    when :picture_side
+                        @sidebar_picture_location = value
                         param_exists = true
-                    elsif param.start_with?('text=') then
-                        @sidebar_text = param['text='.length..]
-                        param_exists = true
+                    when :text
+                        @sidebar_text = value
                         @gallery_type = :sidebar
+                        param_exists = true
                     end
                 end
             end
@@ -145,14 +197,14 @@ module GalleryUtils
                     img_style = 'style="order: ' + img_order + '; --sidebar-width: ' + img_width
                     result += '<div class="gallery-sidebar-img" ' + img_style + ';">' + img_html
                     if components[:caption].length > 0
-                        result += components[:caption] 
+                        result += components[:caption]
                     end
                     result += "</div>\n"
                 else
                     # Wrap in standard grid structure
                     result += '<div class="' + get_css_class() + '">' + img_html
                     if components[:caption].length > 0
-                        result += components[:caption] 
+                        result += components[:caption]
                     end
                     result += "</div>\n"
                 end
@@ -219,7 +271,7 @@ module GalleryUtils
 .gallery-sidebar {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
     margin: 20px 0;
 }
@@ -240,6 +292,13 @@ module GalleryUtils
 .gallery-sidebar-text {
     flex: 1 1 0%;
     min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
 }
 
 /* On narrow screens where we want to wrap around,
