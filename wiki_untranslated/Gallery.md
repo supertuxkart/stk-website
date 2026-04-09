@@ -10,6 +10,10 @@ title: Gallery
 {%translate "Trailer"%}
 {%- endcapture -%}
 
+{% capture gameplay_text -%}
+{%translate "Gameplay footage"%}
+{%- endcapture -%}
+
 {% capture video_title_plural -%}
 {%translate "Videos"%}
 {%- endcapture -%}
@@ -215,9 +219,10 @@ title: Gallery
 {%translate "1.3 Trailer"%}
 {%- endcapture -%}
 
-{% gallery widths=40%
+{% gallery widths=32%
 /assets/gallery/Trailer_thumb_0.8.1.jpg,{{ trailer_text }} (0.8.1),https://www.youtube.com/watch?v=WutAN4i98_o
-/assets/gallery/Trailer_thumb_0.8.jpg,{{ trailer_text }} (0.8),https://www.youtube.com/watch?v=wwSXCrNjTm4
+/assets/gallery/Trailer_thumb_0.8b.jpg,{{ trailer_text }} (0.8),https://www.youtube.com/watch?v=wwSXCrNjTm4
+/assets/gallery/Gameplay_thumb_0.7b.jpg,{{ gameplay_text }} (0.7),https://www.youtube.com/watch?v=_D5D2AZaq5o
 %}
 
 {%minor_title {{ screenshot_title }} (0.8.1)%}

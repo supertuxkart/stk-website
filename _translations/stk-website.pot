@@ -519,6 +519,9 @@ msgstr ""
 msgid "Trailer"
 msgstr ""
 
+msgid "Gameplay footage"
+msgstr ""
+
 msgid "Videos"
 msgstr ""
 
