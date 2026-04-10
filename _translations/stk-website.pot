@@ -18,6 +18,9 @@ msgstr ""
 msgid "Projects using SuperTuxKart"
 msgstr ""
 
+msgid "Posters"
+msgstr ""
+
 msgid "Performance Testing"
 msgstr ""
 
@@ -27,6 +30,7 @@ msgstr ""
 msgid "Gallery"
 msgstr ""
 
+# Posters page
 msgid "Download"
 msgstr ""
 
@@ -86,9 +90,6 @@ msgid "Media"
 msgstr ""
 
 msgid "YouTube"
-msgstr ""
-
-msgid "Posters"
 msgstr ""
 
 msgid "Development"
@@ -710,6 +711,22 @@ msgid "From this point on, everything is the same as for the standard built-in b
 msgstr ""
 
 msgid "The limitation of this method is that it relies on a replay, so it is currently not possible to test battle arenas and soccer fields without extra tricks."
+msgstr ""
+
+# Posters page
+msgid "On this page you will find SuperTuxKart's official posters."
+msgstr ""
+
+# Posters page
+msgid "You can enlarge them by clicking on the picture, and you can download them by clicking the 'Download' button in the caption."
+msgstr ""
+
+# Posters page - section title
+msgid "Archived posters"
+msgstr ""
+
+# Posters page - a credit for one of the posters
+msgid "Credit: Mariam Lamrani"
 msgstr ""
 
 # Projects page
