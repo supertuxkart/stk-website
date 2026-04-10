@@ -121,7 +121,7 @@ module GalleryUtils
                     href = context['site']['baseurl'] + href
                 end
             end
-            alt_text = c_alt_text ? c_alt_text : File.basename(image, File.extname(image))
+            alt_text = c_alt_text.empty? ? File.basename(image, File.extname(image)) : c_alt_text
             @raw_params = image + ' --alt ' + alt_text
             result = '<a href="' + href + '" target="_blank">' +
                 method(:render).super_method.call(context) + '</a>'
@@ -362,7 +362,7 @@ module GalleryUtils
     end
     class SingleGallery < Gallery
         def get_img_content(context, image, caption, href, c_alt_text)
-            alt_text = c_alt_text ? c_alt_text : File.basename(image, File.extname(image))
+            alt_text = c_alt_text.empty? ? File.basename(image, File.extname(image)) : c_alt_text
             if context['site']['baseurl'] then
                 image = context['site']['baseurl'] + image
             end
