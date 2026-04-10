@@ -25,7 +25,7 @@ title: Posters
 
 {% capture poster_caption_greenlit %}
 
-[Steam Greenlight](http://steamcommunity.com/sharedfiles/filedetails/?id=850895445) - <a href="/assets/wiki/OfficialPoster_greenlit.jpg" download="SuperTuxKart Steam Greenlight poster.jpg">{%translate "Download","Posters page"%}</a>
+Steam Greenlight - <a href="/assets/wiki/OfficialPoster_greenlit.jpg" download="SuperTuxKart Steam Greenlight poster.jpg">{%translate "Download","Posters page"%}</a>
 
 {% endcapture %}
 

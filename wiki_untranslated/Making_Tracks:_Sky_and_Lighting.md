@@ -5,8 +5,8 @@ toc: true
 Sky and lighting may not seem like very important or time-consuming element of track creation, but just because this is one of the last sections, <u>do not slack off</u> on it. Lighting is probably the single most important step in setting the theme or mood of your track—more than even decorations. Decorations should complement the mood, but even the way in which they do this is greatly affected by the lighting. Compare Cocoa Temple with its nighttime version, Carnival del Cacao.
 
 {% gallery widths=48%
-/assets/wiki/STK0.9_2.jpg
-/assets/wiki/STK0.9.1_3.jpg
+/assets/gallery/STK0.9_2.jpg
+/assets/gallery/STK0.9.1_3.jpg
 %}
 
 The nighttime sky in Carnival del Cacao is contrasted by the colorful light from the fireworks and the more noticeable light from the torches, creating a more festive atmosphere. Cocoa Temple seems quite everyday and ordinary in comparison.
@@ -24,14 +24,14 @@ Though simple in design, skyboxes are not always easy to create. Textures must f
 Don't worry too much if edges are visible. As long as your track is interesting enough, players won't be bothered much by a slightly visible edge, as is visible in the top center of this picture:
 
 {% gallery widths=48%
-/assets/wiki/STK0.9_1.jpg
+/assets/gallery/STK0.9_1.jpg
 %}
 
 Another way to avoid visible lines in a skybox is to hide them with vegetation and land formations. The skybox in Cocoa Temple is barely visible, but the vegetation in front of it does not look strange because the skybox texture itself suggests vegetation:
 
 {% gallery heights=300px
 /assets/wiki/Skybox_aa.jpg,Skybox texture
-/assets/wiki/STK0.9_2.jpg,In-game
+/assets/gallery/STK0.9_2.jpg,In-game
 %}
 
 ### Plain Color

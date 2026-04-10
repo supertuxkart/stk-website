@@ -159,46 +159,46 @@ title: Gallery
 {%minor_title {{ screenshot_title }} (0.9.3)%}
 
 {% gallery widths=32%
-/assets/wiki/STK0.9.3_1.jpg,,,SuperTuxKart 0.9.3: Tux facing Cinéma le Quartz in Candela City
-/assets/wiki/STK0.9.3_2.jpg,,,SuperTuxKart 0.9.3: Suzanne heading towards Cornfield Crossing's barn
-/assets/wiki/STK0.9.3_3.jpg,,,SuperTuxKart 0.9.3: Konqi driving in Antediluvian Abysses with swimming fishes visible behind the glass walls
+/assets/gallery/STK0.9.3_1.jpg,,,SuperTuxKart 0.9.3: Tux facing Cinéma le Quartz in Candela City
+/assets/gallery/STK0.9.3_2.jpg,,,SuperTuxKart 0.9.3: Suzanne heading towards Cornfield Crossing's barn
+/assets/gallery/STK0.9.3_3.jpg,,,SuperTuxKart 0.9.3: Konqi driving in Antediluvian Abysses with swimming fishes visible behind the glass walls
 %}
 
 
 {%minor_title {{ screenshot_title }} (0.9.2)%}
 
 {% gallery widths=32%
-/assets/wiki/STK0.9.2_1.jpg
-/assets/wiki/STK0.9.2_2.jpg
-/assets/wiki/STK0.9.2_3.jpg
-/assets/wiki/STK0.9.2_4.jpg
-/assets/wiki/STK0.9.2_5.jpg
-/assets/wiki/STK0.9.2_6.jpg
+/assets/gallery/STK0.9.2_1.jpg
+/assets/gallery/STK0.9.2_2.jpg
+/assets/gallery/STK0.9.2_3.jpg
+/assets/gallery/STK0.9.2_4.jpg
+/assets/gallery/STK0.9.2_5.jpg
+/assets/gallery/STK0.9.2_6.jpg
 %}
 
 {%minor_title {{ screenshot_title }} (0.9.1)%}
 
 {% gallery widths=32%
-/assets/wiki/STK0.9.1_1.jpg
-/assets/wiki/STK0.9.1_2.jpg
-/assets/wiki/STK0.9.1_3.jpg
-/assets/wiki/STK0.9.1_4.jpg
-/assets/wiki/STK0.9.1_5.jpg
-/assets/wiki/STK0.9.1_6.jpg
-/assets/wiki/STK0.9.1_7.jpg
+/assets/gallery/STK0.9.1_1.jpg
+/assets/gallery/STK0.9.1_2.jpg
+/assets/gallery/STK0.9.1_3.jpg
+/assets/gallery/STK0.9.1_4.jpg
+/assets/gallery/STK0.9.1_5.jpg
+/assets/gallery/STK0.9.1_6.jpg
+/assets/gallery/STK0.9.1_7.jpg
 %}
 
 {%minor_title {{ screenshot_title }} (0.9)%}
 
 {% gallery widths=32%
-/assets/wiki/STK0.9_1.jpg
-/assets/wiki/STK0.9_2.jpg
-/assets/wiki/STK0.9_3.jpg
-/assets/wiki/STK0.9_4.jpg
-/assets/wiki/STK0.9_5.jpg
-/assets/wiki/STK0.9_6.jpg
-/assets/wiki/STK0.9_7.jpg
-/assets/wiki/STK0.9_8.jpg
+/assets/gallery/STK0.9_1.jpg
+/assets/gallery/STK0.9_2.jpg
+/assets/gallery/STK0.9_3.jpg
+/assets/gallery/STK0.9_4.jpg
+/assets/gallery/STK0.9_5.jpg
+/assets/gallery/STK0.9_6.jpg
+/assets/gallery/STK0.9_7.jpg
+/assets/gallery/STK0.9_8.jpg
 %}
 
 {% endcapture %}
@@ -228,43 +228,43 @@ title: Gallery
 {%minor_title {{ screenshot_title }} (0.8.1)%}
 
 {% gallery widths=24%
-/assets/wiki/STK0.8.1_1.jpg
-/assets/wiki/STK0.8.1_2.jpg
-/assets/wiki/STK0.8.1_3.jpg
-/assets/wiki/STK0.8.1_4.jpg
-/assets/wiki/STK0.8.1_5.jpg
-/assets/wiki/STK0.8.1_6.jpg
-/assets/wiki/STK0.8.1_7.jpg
-/assets/wiki/STK0.8.1_8.jpg
+/assets/gallery/STK0.8.1_1.jpg
+/assets/gallery/STK0.8.1_2.jpg
+/assets/gallery/STK0.8.1_3.jpg
+/assets/gallery/STK0.8.1_4.jpg
+/assets/gallery/STK0.8.1_5.jpg
+/assets/gallery/STK0.8.1_6.jpg
+/assets/gallery/STK0.8.1_7.jpg
+/assets/gallery/STK0.8.1_8.jpg
 %}
 
 {%minor_title {{ screenshot_title }} (0.8)%}
 
 {% gallery widths=32%
-/assets/wiki/STK0.8_1.jpg
-/assets/wiki/STK0.8_2.jpg
-/assets/wiki/STK0.8_3.jpg
-/assets/wiki/STK0.8_4.jpg
-/assets/wiki/STK0.8_5.jpg
-/assets/wiki/STK0.8_6.jpg
+/assets/gallery/STK0.8_1.jpg
+/assets/gallery/STK0.8_2.jpg
+/assets/gallery/STK0.8_3.jpg
+/assets/gallery/STK0.8_4.jpg
+/assets/gallery/STK0.8_5.jpg
+/assets/gallery/STK0.8_6.jpg
 %}
 
 {%minor_title {{ screenshot_title }} (0.7.2)%}
 
 {% gallery widths=40%
-/assets/wiki/STK0.7.2_1.jpg
-/assets/wiki/STK0.7.2_2.jpg
+/assets/gallery/STK0.7.2_1.jpg
+/assets/gallery/STK0.7.2_2.jpg
 %}
 
 {%minor_title {{ screenshot_title }} (0.7)%}
 
 {% gallery widths=32%
-/assets/wiki/STK0.7_1.jpg
-/assets/wiki/STK0.7_2.jpg
-/assets/wiki/STK0.7_3.jpg
-/assets/wiki/STK0.7_4.jpg
-/assets/wiki/STK0.7_5.jpg
-/assets/wiki/STK0.7_6.jpg
+/assets/gallery/STK0.7_1.jpg
+/assets/gallery/STK0.7_2.jpg
+/assets/gallery/STK0.7_3.jpg
+/assets/gallery/STK0.7_4.jpg
+/assets/gallery/STK0.7_5.jpg
+/assets/gallery/STK0.7_6.jpg
 %}
 
 {% endcapture %}
@@ -280,29 +280,29 @@ title: Gallery
 {%minor_title {{ screenshot_title }} (0.6)%}
 
 {% single_gallery widths=24%
-/assets/wiki/STK0.6_1.jpg
-/assets/wiki/STK0.6_2.jpg
-/assets/wiki/STK0.6_3.jpg
-/assets/wiki/STK0.6_4.jpg
-/assets/wiki/STK0.6_5.jpg
-/assets/wiki/STK0.6_6.jpg
-/assets/wiki/STK0.6_7.jpg
-/assets/wiki/STK0.6_8.jpg
-/assets/wiki/STK0.6_9.jpg
-/assets/wiki/STK0.6_10.jpg
-/assets/wiki/STK0.6_11.jpg
+/assets/gallery/STK0.6_1.jpg
+/assets/gallery/STK0.6_2.jpg
+/assets/gallery/STK0.6_3.jpg
+/assets/gallery/STK0.6_4.jpg
+/assets/gallery/STK0.6_5.jpg
+/assets/gallery/STK0.6_6.jpg
+/assets/gallery/STK0.6_7.jpg
+/assets/gallery/STK0.6_8.jpg
+/assets/gallery/STK0.6_9.jpg
+/assets/gallery/STK0.6_10.jpg
+/assets/gallery/STK0.6_11.jpg
 %}
 
 {%minor_title {{ screenshot_title }} (0.5)%}
 
 {% single_gallery widths=24%
-/assets/wiki/STK0.5_1.jpg
-/assets/wiki/STK0.5_2.jpg
-/assets/wiki/STK0.5_3.jpg
-/assets/wiki/STK0.5_4.jpg
-/assets/wiki/STK0.5_5.jpg
-/assets/wiki/STK0.5_6.jpg
-/assets/wiki/STK0.5_7.jpg
+/assets/gallery/STK0.5_1.jpg
+/assets/gallery/STK0.5_2.jpg
+/assets/gallery/STK0.5_3.jpg
+/assets/gallery/STK0.5_4.jpg
+/assets/gallery/STK0.5_5.jpg
+/assets/gallery/STK0.5_6.jpg
+/assets/gallery/STK0.5_7.jpg
 %}
 
 {% endcapture %}
@@ -318,36 +318,36 @@ title: Gallery
 {%minor_title {{ screenshot_title }} (0.4)%}
 
 {% single_gallery widths=40%
-/assets/wiki/STK0.4_1.jpg
-/assets/wiki/STK0.4_2.jpg
+/assets/gallery/STK0.4_1.jpg
+/assets/gallery/STK0.4_2.jpg
 %}
 
 {%minor_title  {{ screenshot_title }} (0.3 Halloween Edition)%}
 
 {% single_gallery widths=40%
-/assets/wiki/STK0.3h_1.jpg
-/assets/wiki/STK0.3h_2.jpg
+/assets/gallery/STK0.3h_1.jpg
+/assets/gallery/STK0.3h_2.jpg
 %}
 
 {%minor_title {{ screenshot_title }} (0.3)%}
 
 {% single_gallery widths=40%
-/assets/wiki/STK0.3_1.jpg
-/assets/wiki/STK0.3_2.jpg
+/assets/gallery/STK0.3_1.jpg
+/assets/gallery/STK0.3_2.jpg
 %}
 
 {%minor_title {{ screenshot_title }} (0.2)%}
 
 {% single_gallery widths=40%
-/assets/wiki/STK0.2_1.jpg
-/assets/wiki/STK0.2_2.jpg
+/assets/gallery/STK0.2_1.jpg
+/assets/gallery/STK0.2_2.jpg
 %}
 
 {%minor_title {{ screenshot_title }} (0.0.0)%}
 
 {% single_gallery widths=40%
-/assets/wiki/STK0.0.0_1.jpg
-/assets/wiki/STK0.0.0_2.jpg
+/assets/gallery/STK0.0.0_1.jpg
+/assets/gallery/STK0.0.0_2.jpg
 %}
 
 {% endcapture %}

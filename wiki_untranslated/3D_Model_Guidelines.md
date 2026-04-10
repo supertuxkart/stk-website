@@ -28,8 +28,8 @@ Objects in SuperTuxKart should be realistic in size, shape, general form. Howeve
 
 {% gallery heights=250px
 /assets/wiki/RealPalmTree.jpg,{{ real_plam_tree | strip }}
-/assets/wiki/STK0.8.1_1.jpg,{{ cartoony_plam_tree | strip }}
-/assets/wiki/STK0.9_7.jpg,{{ realistic | strip }}
+/assets/gallery/STK0.8.1_1.jpg,{{ cartoony_plam_tree | strip }}
+/assets/gallery/STK0.9_7.jpg,{{ realistic | strip }}
 %}
 
 You can see that the the new palm tree model far more closely matches the shape of a real palm tree. However, it is not so detailed that it looks real. In short, <u>maintain realism in general form, but also retain a cartoony appearance by avoiding excessive detail in shape or textures.</u>

@@ -121,7 +121,7 @@ These organizations and companies should be used to brand objects in your artwor
 <td>A computer and smartphone manufacturer
 </td>
 <td>
-{% picture /assets/wiki/STK0.9_3.jpg --picture --alt STK0.9_3 --img style="width:100%;" %}
+{% picture /assets/gallery/STK0.9_3.jpg --picture --alt STK0.9_3 --img style="width:100%;" %}
 </td></tr>
 <tr>
 <td>Myrtille
