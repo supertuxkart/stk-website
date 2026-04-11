@@ -104,6 +104,18 @@ title: Gallery
 {%translate "Las Dunas Soccer Stadium"%}
 {%- endcapture -%}
 
+{% capture ravenbridge -%}
+{%translate "Ravenbridge Mansion"%}
+{%- endcapture -%}
+
+{% capture bf_train -%}
+{%translate "Black Forest"%}
+{%- endcapture -%}
+
+{% capture volcan_island -%}
+{%translate "Volcan Island"%}
+{%- endcapture -%}
+
 {%main_title {{ modern_title }}%}
 
 {%minor_title {{ video_title_plural }}%}
@@ -135,6 +147,14 @@ title: Gallery
 /assets/gallery/STK1.3_4.jpg,{{ labyrinth_kiki }},,SuperTuxKart 1.3: Kiki maneuvering with a Capture-The-Flag flag in Ancient Colosseum Labyrinth
 /assets/gallery/STK1.3_5.jpg,{{ alien_signal_sara }},,SuperTuxKart 1.3: An improved Sara kart driving in the battle arena Alien Signal set on a decrepit radiotelescope
 /assets/gallery/STK1.3_6.jpg,{{ lasdunas_soccer_gnu }},,SuperTuxKart 1.3: An improved GNU kart with night lights facing the camera in Las Dunas Soccer with a big soccer ball visible behind
+%}
+
+{%minor_title {{ screenshot_title }} (1.0)%}
+
+{% gallery widths=32%
+/assets/gallery/STK1.0_1.jpg,{{ ravenbridge }},,SuperTuxKart 1.0: Beastie in front of the entrance the Ravenbridge estate in Ravenbridge Mansion with the full moon visible in the background
+/assets/gallery/STK1.0_2.jpg,{{ bf_train }},,SuperTuxKart 1.0: Xue driving towards the main bridge in Black Forest with a train steaming ahead on the railtrack running next to the road
+/assets/gallery/STK1.0_3.jpg,{{ volcan_island }},,SuperTuxKart 1.0: Emule drifting in Volcan Island going towards bananas that were added for 1.0 to make the track more difficult
 %}
 
 <!-- Screenshots from old versions are in collapsible boxes -->
