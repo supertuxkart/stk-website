@@ -71,6 +71,11 @@ module GalleryUtils
             @sidebar_text = ''
             @sidebar_picture_location = 'left'
             @images = @raw_params.split("\n")
+            # Sidebar flow is best used when the text is expected to take
+            # noticeably more vertical height than the picture.
+            # Sidebar flow pictures stack up above the text in narrow
+            # screens while normal sidebar pictures stack below.
+            @sidebar_flow = false
             param_exists = false
             if @images.length > 0
                 # The first line contains gallery parameters such as width
@@ -100,6 +105,13 @@ module GalleryUtils
             end
             if param_exists then
                 @images.delete(@images[0])
+            end
+            if @sidebar_picture_location == 'flow-left'
+                @sidebar_picture_location = 'left'
+                @sidebar_flow = true
+            elsif @sidebar_picture_location == 'flow-right'
+                @sidebar_picture_location = 'right'
+                @sidebar_flow = true
             end
             @images.each do |img| img.strip! end
             @total_images = @images.length.to_s
@@ -195,7 +207,16 @@ module GalleryUtils
                     img_width = @widths == '0' ? 'auto' : @widths
                     # We use a variable to be able to override the value when wrapping is needed on small screens
                     img_style = 'style="order: ' + img_order + '; --sidebar-width: ' + img_width
-                    result += '<div class="gallery-sidebar-img" ' + img_style + ';">' + img_html
+                    if @sidebar_flow == false
+                        result += '<div class="gallery-sidebar-img" ' + img_style + ';">' + img_html
+                    else
+                        if @sidebar_picture_location == 'left'
+                            img_style += "; float: left; margin-right: 20px"
+                        else
+                            img_style += "; float: right; margin-left: 20px"
+                        end
+                        result += '<div class="gallery-sidebar-flow-img" ' + img_style + ';">' + img_html
+                    end
                     if components[:caption].length > 0
                         result += components[:caption]
                     end
@@ -213,10 +234,16 @@ module GalleryUtils
             # Wrap the results in the appropriate container
             final_result = ""
             if @gallery_type == :sidebar
-                final_result = '<div class="gallery-sidebar">'
-                text_order = (@sidebar_picture_location == 'left') ? '2' : '1'
-                final_result += '<div class="gallery-sidebar-text" style="order: ' + text_order + '">' + text_html + '</div>'
-                final_result += result # This adds the image
+                if @sidebar_flow == false
+                    final_result = '<div class="gallery-sidebar">'
+                    text_order = (@sidebar_picture_location == 'left') ? '2' : '1'
+                    final_result += '<div class="gallery-sidebar-text" style="order: ' + text_order + '">' + text_html + '</div>'
+                    final_result += result # This adds the image
+                else
+                    final_result = '<div class="gallery-sidebar-flow">'
+                    final_result += result # This adds the image
+                    final_result += text_html
+                end
                 final_result += "</div>\n"
             else
                 final_result = "<div class=\"gallery-container\">\n" + result + "</div>\n"
@@ -276,6 +303,12 @@ module GalleryUtils
     margin: 20px 0;
 }
 
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
 .gallery-sidebar-img {
     flex: 0 0 auto;
     max-width: 100%;
@@ -283,10 +316,16 @@ module GalleryUtils
     max-width: var(--sidebar-width, 50%);
 }
 
-.gallery-sidebar-img img {
+.gallery-sidebar-flow-img {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+    display: block;
     max-width: 100%;
     height: auto;
-    display: block;
 }
 
 .gallery-sidebar-text {
@@ -301,6 +340,15 @@ module GalleryUtils
     margin-bottom: 1em;
 }
 
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 3px
+}
+
 /* On narrow screens where we want to wrap around,
    we avoid applying the width limits and also center the picture
    The limit is 767 because at 767 or less the sizes parameter
@@ -308,10 +356,16 @@ module GalleryUtils
 @media (max-width: 767px) {
     .gallery-sidebar-img {
         --sidebar-width: 100% !important;
-        text-align: center
+        text-align: center;
+        order: 3 !important;
     }
 
-    .gallery-sidebar-img img {
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
         margin: 0 auto;
     }
     

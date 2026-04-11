@@ -43,7 +43,7 @@ toc: true
 {%- endcapture -%}
 
 {% capture illumiroom_caption -%}
-{%translate "Illumiroom with SuperTuxKart on the TV"%}
+{%translate "Illumiroom with SuperTuxKart 0.8 on the TV"%}
 {%- endcapture -%}
 
 {% gallery mode=sidebar, widths=400px, picture_side=right, text={{ illumiroom_demo }}
