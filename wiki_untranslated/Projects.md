@@ -32,6 +32,24 @@ toc: true
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/DkEe8zKMhlA" title="SuperTuxKart being played in a Mercedes CLA at MWC 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 640px;"></iframe>
 </div>
 
+### {%translate "Cybersecurity Researchers Use a Car to Play at SuperTuxKart","Projects page - section title"%}
+
+{% capture CAN_hacking -%}
+{%translate "The Controller Area Network (CAN) bus is used by modern cars to pass on data between different parts of the vehicle.","Projects page"%}
+
+{%translate "Intercepting and injecting messages on the CAN bus can allow hacking a car, for good or bad purposes. SuperTuxKart was used at least twice by cybersecurity researchers to demonstrate the interception of messages on the CAN bus:","Projects page"%}
+* {%translate "In 2024, researchers from Darmstatd University showcased [in a DEFCON presentation](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Timm%20Lauser%20Jannis%20Hamborg%20-%20Redefining%20V2G%20-%20How%20to%20use%20your%20vehicle%20as%20a%20game%20controller.pdf) the use of intercepted CAN data from a Volkswagen ID.3 to play at SuperTuxKart using the car as a controller, using a separate screen placed in front of the car to display the game.","Projects page"%}
+* {%translate "In 2025, security researchers from Pen Test Partners [made a similar demo](https://www.pentestpartners.com/security-blog/how-we-turned-a-real-car-into-a-mario-kart-controller-by-intercepting-can-data/) on a 2016 Renault Clio.","Projects page"%}
+{%- endcapture -%}
+
+{% capture defcon_caption -%}
+{%translate "A Volkswagen ID.3 used as a SuperTuxKart gaming wheel"%}
+{%- endcapture -%}
+
+{% gallery mode=sidebar, widths=400px, picture_side=left, text={{ CAN_hacking }}
+/assets/wiki/Projects_DEFCON.jpg, {{ defcon_caption }},,A picture showing in the foreground the steering wheel and dashboard of a Volkswagen ID.3 with Tux driving in SuperTuxKart's Nessie's Pond visible on a screen in front of the car
+%}
+
 ### {%translate "Microsoft IllumiRoom Demo","Projects page - section title"%}
 
 {% capture illumiroom_demo -%}
@@ -54,7 +72,7 @@ toc: true
 
 {%translate "The [Gesture Therapy platform](https://pdfs.semanticscholar.org/b3f1/36317f77d67d269d09c2005254fe52baae49.pdf) is a system for upper limb rehabilitation developed by a Mexican team.","Projects page"%}
 
-{%translate "To showcase the capabilities of the Virtual Joystick system it uses, they released a [demo video](https://www.youtube.com/watch?v=8vSfHG7BHUk) showing the acceleration and steering of a kart in SuperTuxKart 0.8 being controlled through the movements of an arm.","Projects page"%}
+{%translate "In 2013, to showcase the capabilities of the Virtual Joystick system it uses, they released a [demo video](https://www.youtube.com/watch?v=8vSfHG7BHUk) showing the acceleration and steering of a kart in SuperTuxKart 0.8 being controlled through the movements of an arm.","Projects page"%}
 
 ## {%translate "Academic Research and Teaching","Projects page - section title"%}
 
