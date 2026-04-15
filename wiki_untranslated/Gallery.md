@@ -269,11 +269,11 @@ title: Gallery
 /assets/gallery/STK0.8_6.jpg
 %}
 
-{%minor_title {{ screenshot_title }} (0.7.2)%}
+{%minor_title {{ screenshot_title }} (0.7.3)%}
 
 {% gallery widths=40%
-/assets/gallery/STK0.7.2_1.jpg
-/assets/gallery/STK0.7.2_2.jpg
+/assets/gallery/STK0.7.3_1.jpg,,,SuperTuxKart 0.7.3: A new kart - Suzanne - is looking down a slope in the newly introduced Minigolf track
+/assets/gallery/STK0.7.3_2.jpg,,,SuperTuxKart 0.7.3: Beastie - a kart introduced in 0.7.2 - is driving in an improved Snow Peak
 %}
 
 {%minor_title {{ screenshot_title }} (0.7)%}

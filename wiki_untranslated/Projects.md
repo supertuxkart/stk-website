@@ -2,7 +2,7 @@
 title: Projects using SuperTuxKart
 toc: true
 ---
-{%translate "Due to the libre and open source nature of SuperTuxKart, the game is used in various research project, studies or simply prototypes made by fans","Projects page"%}
+{%translate "Due to the libre and open source nature of SuperTuxKart, the game is used in various research project, studies or simply prototypes made by fans.","Projects page"%}
 
 {%translate "On this page, you can discover various projects that have been done with our game.","Projects page"%}
 
