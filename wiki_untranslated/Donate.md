@@ -2,7 +2,7 @@
 title: Donate
 ---
 {% capture donation_heading -%}
-..:: {%translate "Donating to SuperTuxKart","Section title in the Donate page"%} ::..
+{%translate "Donating to SuperTuxKart","Section title in the Donate page"%}
 {%- endcapture %}
 
 {% start_liquid main_title %}
@@ -20,12 +20,12 @@ title: Donate
 {% include donation_frame %}
 
 {% capture gift_package_heading -%}
-..:: {%translate "Gift Package","Section title in the Donate page"%} ::..
+{%translate "Gift Package","Section title in the Donate page"%}
 {%- endcapture %}
 
 {% start_liquid main_title %}
 
- {{ gift_package_heading }}
+{{ gift_package_heading }}
 
 {% end_liquid %}
 
@@ -42,3 +42,27 @@ title: Donate
 {%translate "To install the package, first retrieve the '1.5 Gift Package' on itch.io, unzip the file, and follow the instructions in the included README. The procedure follows the [manual addons installation](Installing_Add-Ons) procedure.","Donate page - avoid double-quotes to not break the layout!"%}
 
 {%translate "Unfortunately as of now, we are not able to offer an in-game installation procedure or a simple installation procedure for Android users. We are aware of this limitation, but we didn't want to delay 1.5's release to all users to solve it.","Donate page"%}
+
+{% capture other_donation_heading -%}
+{%translate "Other donation methods","Section title in the Donate page"%}
+{%- endcapture %}
+
+{% start_liquid main_title %}
+
+{{ other_donation_heading }}
+
+{% end_liquid %}
+
+{%translate "Several community members have requested other methods to help fund SuperTuxKart.","Donate page"%}
+
+{%translate "We are looking into ways to make recurrent donations possible.","Donate page"%}
+
+{%translate "As a response to the request for more anonymous methods, we have established a way to donate using cryptocurrencies. Simply follow the instruction below. Everything is handled on supertuxkart.net! At the end of the process, you will also be able to retrieve the gift package.","Donate page"%}
+
+{%translate "Please note that the minimum donation with this method is higher to avoid overhead from tiny transactions.","Donate page"%}
+
+{% include alt_donation_frame %}
+
+
+
+

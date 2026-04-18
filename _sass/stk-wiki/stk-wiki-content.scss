@@ -345,3 +345,28 @@ input:checked + .ubox-title h2::after {
     padding-right: 20px;
     margin-right: 5px;
 }
+
+iframe.alt-donate
+{
+  display: block;
+  max-width: 650px;
+  width: 90%;
+  border: 0;
+  margin: 0 auto;
+  height: 970px;
+}
+
+/* Mobile layout */
+@media (max-width: 768px)
+{
+  iframe.alt-donate {
+    height: 1020px;
+  }
+}
+
+@media (max-width: 731px)
+{
+  iframe.alt-donate {
+    height: 1540px;
+  }
+}
