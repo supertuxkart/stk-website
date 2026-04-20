@@ -24,10 +24,19 @@ msgstr ""
 msgid "Performance Testing"
 msgstr ""
 
+msgid "Making Tracks: Advanced Gameplay Design"
+msgstr ""
+
 msgid "SuperTuxKart"
 msgstr ""
 
+msgid "The History of SuperTuxKart"
+msgstr ""
+
 msgid "Gallery"
+msgstr ""
+
+msgid "FAQ"
 msgstr ""
 
 # Posters page
@@ -52,9 +61,6 @@ msgstr ""
 
 # Drop down menu when viewing SuperTuxKart homepage in mobile device
 msgid "Menu"
-msgstr ""
-
-msgid "FAQ"
 msgstr ""
 
 msgid "Team"
@@ -429,6 +435,26 @@ msgstr ""
 msgid "Unfortunately as of now, we are not able to offer an in-game installation procedure or a simple installation procedure for Android users. We are aware of this limitation, but we didn't want to delay 1.5's release to all users to solve it."
 msgstr ""
 
+# Section title in the Donate page
+msgid "Other donation methods"
+msgstr ""
+
+# Donate page
+msgid "Several community members have requested other methods to help fund SuperTuxKart."
+msgstr ""
+
+# Donate page
+msgid "We are looking into ways to make recurrent donations possible."
+msgstr ""
+
+# Donate page
+msgid "As a response to the request for more anonymous methods, we have established a way to donate using cryptocurrencies. Simply follow the instruction below. Everything is handled on supertuxkart.net! At the end of the process, you will also be able to retrieve the gift package."
+msgstr ""
+
+# Donate page
+msgid "Please note that the minimum donation with this method is higher to avoid overhead from tiny transactions."
+msgstr ""
+
 # Full game installer / packages for STK
 msgid "Full game"
 msgstr ""
@@ -514,6 +540,34 @@ msgstr ""
 msgid "Public testing builds for SuperTuxKart Evolution are not yet available. "
 msgstr ""
 
+# FAQ page - question
+msgid "What is the history of SuperTuxKart?"
+msgstr ""
+
+# FAQ page
+msgid "The SuperTuxKart project as we know it exists since 2006, when Hiker began working on it, with roots in the older TuxKart."
+msgstr ""
+
+# FAQ page
+msgid "Over the years, with the help of many contributors, the game grew to become a reference among open-source games, with steady improvements in graphics and gameplay alike."
+msgstr ""
+
+# FAQ page
+msgid "Thanks to this recognition as well as its open nature, SuperTuxKart was and is used in [many projects](Projects), including numerous academic papers and demos from major companies."
+msgstr ""
+
+# FAQ page
+msgid "By the release of version 1.0 in 2019 with online multiplayer, SuperTuxKart was a mature project. Hiker passed the torch, and the project continued with a focus on polish and stability."
+msgstr ""
+
+# FAQ page
+msgid "Now, our team is actively working on writing the next page of history with SuperTuxKart Evolution, with a myriad of novelties in the works."
+msgstr ""
+
+# FAQ page
+msgid "You can consult our [illustrated history of SuperTuxKart](History_of_SuperTuxKart) for more details about the game's history."
+msgstr ""
+
 msgid "Screenshots"
 msgstr ""
 
@@ -577,6 +631,12 @@ msgstr ""
 msgid "Las Dunas Soccer Stadium"
 msgstr ""
 
+msgid "Ravenbridge Mansion"
+msgstr ""
+
+msgid "Volcan Island"
+msgstr ""
+
 msgid "Antarctica: 0.9 to 0.9.3"
 msgstr ""
 
@@ -590,6 +650,72 @@ msgid "Rising Recognition: 0.5 to 0.6.2"
 msgstr ""
 
 msgid "Early days: 0.0.0 to 0.4"
+msgstr ""
+
+msgid "Tux Tollway in the original TuxKart"
+msgstr ""
+
+msgid "The main menu of SuperTuxKart 0.0.0"
+msgstr ""
+
+msgid "The old Lighthouse track in SuperTuxKart 0.4"
+msgstr ""
+
+msgid "Amazonian Journey in SuperTuxKart 0.6"
+msgstr ""
+
+msgid "Tux Tollway in SuperTuxKart 0.6.1a"
+msgstr ""
+
+msgid "Hacienda in SuperTuxKart 0.7"
+msgstr ""
+
+msgid "The main menu UI from version 0.7.1b"
+msgstr ""
+
+msgid "Minigolf, a track added in SuperTuxKart 0.7.3"
+msgstr ""
+
+msgid "Tux flying above STK 0.8's overworld"
+msgstr ""
+
+msgid "Beagle drifting in Green Valley in SuperTuxKart 0.8"
+msgstr ""
+
+msgid "STK Enterprise, Xue, and the modern nitro cans in SuperTuxKart 0.8.1, where they all first appeared"
+msgstr ""
+
+msgid "Gran Paradiso Island, one of the two new tracks from SuperTuxKart 0.9"
+msgstr ""
+
+msgid "Carnaval del Cacao, a night-time version of Cocoa Temple first available as part of the gift package"
+msgstr ""
+
+msgid "Antediluvian Abysses, which became part of the base game with SuperTuxKart 0.9.2"
+msgstr ""
+
+msgid "A poster celebrating STK's Steam Greenlight campaign"
+msgstr ""
+
+msgid "1.0 offered a new dark theme, as well as a vertical tab layout"
+msgstr ""
+
+msgid "Black Forest in SuperTuxKart 1.0"
+msgstr ""
+
+msgid "Pumpkin Park was added to the base game in SuperTuxKart 1.1"
+msgstr ""
+
+msgid "Litspore Moor, one of many addons created during the 1.x era"
+msgstr ""
+
+msgid "XR-4R3N4, one of the three soccer fields added in SuperTuxKart 1.5"
+msgstr ""
+
+msgid "A preliminary version of Alpine Valley"
+msgstr ""
+
+msgid "Freytra Peaks, one of SuperTuxKart Evolution's new tracks"
 msgstr ""
 
 msgid "The next major release of SuperTuxKart, named SuperTuxKart Evolution is currently under development. Building upon the foundation laid by all those who made STK what it is today, **SuperTuxKart Evolution will be the biggest release in STK's history in terms of new content**: new tracks, new features, improved gameplay, enhanced graphics, and much more. An overview of our roadmap is [available here](https://blog.supertuxkart.net/2025/09/supertuxkart-evolution-roadmap.html)."
@@ -612,6 +738,15 @@ msgid "Prerequisites"
 msgstr ""
 
 msgid "You should read the following articles prior to following this tutorial:"
+msgstr ""
+
+msgid "A small slope over the bridge"
+msgstr ""
+
+msgid "A banked curve"
+msgstr ""
+
+msgid "A long slope"
 msgstr ""
 
 msgid "When to measure performance?"
@@ -730,7 +865,7 @@ msgid "Credit: Mariam Lamrani"
 msgstr ""
 
 # Projects page
-msgid "Due to the libre and open source nature of SuperTuxKart, the game is used in various research project, studies or simply prototypes made by fans"
+msgid "Due to the libre and open source nature of SuperTuxKart, the game is used in various research project, studies or simply prototypes made by fans."
 msgstr ""
 
 # Projects page
@@ -782,6 +917,29 @@ msgid "STK's open nature further allowed Mercedes to synchronize the car's light
 msgstr ""
 
 # Projects page - section title
+msgid "Cybersecurity Researchers Use a Car to Play at SuperTuxKart"
+msgstr ""
+
+# Projects page
+msgid "The Controller Area Network (CAN) bus is used by modern cars to pass on data between different parts of the vehicle."
+msgstr ""
+
+# Projects page
+msgid "Intercepting and injecting messages on the CAN bus can allow hacking a car, for good or bad purposes. SuperTuxKart was used at least twice by cybersecurity researchers to demonstrate the interception of messages on the CAN bus:"
+msgstr ""
+
+# Projects page
+msgid "In 2024, researchers from Darmstatd University showcased [in a DEFCON presentation](https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Timm%20Lauser%20Jannis%20Hamborg%20-%20Redefining%20V2G%20-%20How%20to%20use%20your%20vehicle%20as%20a%20game%20controller.pdf) the use of intercepted CAN data from a Volkswagen ID.3 to play at SuperTuxKart using the car as a controller, using a separate screen placed in front of the car to display the game."
+msgstr ""
+
+# Projects page
+msgid "In 2025, security researchers from Pen Test Partners [made a similar demo](https://www.pentestpartners.com/security-blog/how-we-turned-a-real-car-into-a-mario-kart-controller-by-intercepting-can-data/) on a 2016 Renault Clio."
+msgstr ""
+
+msgid "A Volkswagen ID.3 used as a SuperTuxKart gaming wheel"
+msgstr ""
+
+# Projects page - section title
 msgid "Microsoft IllumiRoom Demo"
 msgstr ""
 
@@ -797,7 +955,7 @@ msgstr ""
 msgid "Showcased in 2013, it featured SuperTuxKart 0.8 in [its demo video](https://www.youtube.com/watch?v=re1EatGRV0w&t=49s), with white circles projected on the wall representing falling snow."
 msgstr ""
 
-msgid "Illumiroom with SuperTuxKart on the TV"
+msgid "Illumiroom with SuperTuxKart 0.8 on the TV"
 msgstr ""
 
 # Projects page - section title
@@ -809,7 +967,7 @@ msgid "The [Gesture Therapy platform](https://pdfs.semanticscholar.org/b3f1/3631
 msgstr ""
 
 # Projects page
-msgid "To showcase the capabilities of the Virtual Joystick system it uses, they released a [demo video](https://www.youtube.com/watch?v=8vSfHG7BHUk) showing the acceleration and steering of a kart in SuperTuxKart 0.8 being controlled through the movements of an arm."
+msgid "In 2013, to showcase the capabilities of the Virtual Joystick system it uses, they released a [demo video](https://www.youtube.com/watch?v=8vSfHG7BHUk) showing the acceleration and steering of a kart in SuperTuxKart 0.8 being controlled through the movements of an arm."
 msgstr ""
 
 # Projects page - section title

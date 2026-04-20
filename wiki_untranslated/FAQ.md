@@ -73,43 +73,34 @@ You can try your luck and run the game. STK features a fallback renderer which u
 
 {% end_liquid %}
 
+
+{% capture question_history %}
+
+{%translate "What is the history of SuperTuxKart?","FAQ page - question"%}
+
+{% endcapture %}
+
+{% capture answer_history %}
+
+{%translate "The SuperTuxKart project as we know it exists since 2006, when Hiker began working on it, with roots in the older TuxKart.","FAQ page"%}
+
+{%translate "Over the years, with the help of many contributors, the game grew to become a reference among open-source games, with steady improvements in graphics and gameplay alike.","FAQ page"%}
+
+{%translate "Thanks to this recognition as well as its open nature, SuperTuxKart was and is used in [many projects](Projects), including numerous academic papers and demos from major companies.","FAQ page"%}
+
+{%translate "By the release of version 1.0 in 2019 with online multiplayer, SuperTuxKart was a mature project. Hiker passed the torch, and the project continued with a focus on polish and stability.","FAQ page"%}
+
+{%translate "Now, our team is actively working on writing the next page of history with SuperTuxKart Evolution, with a myriad of novelties in the works.","FAQ page"%}
+
+{%translate "You can consult our [illustrated history of SuperTuxKart](History_of_SuperTuxKart) for more details about the game's history.","FAQ page"%}
+
+{% endcapture %}
+
 {% start_liquid qa %}
 
-What is the history of SuperTuxKart?
+{{ question_history }}
 
-First there was [TuxKart](http://tuxkart.sourceforge.net). Work on this happened (roughly) between April 2000 and March 2004. In June 2004, the 'Game of the Month' project of the [Linux Game Tome](https://web.archive.org/web/20040915081722/http://www.happypenguin.org/) decided to improve TuxKart. This was done between June and December 2004. (Most links to the old forum thread pages are broken, archives here: [[1]](https://web.archive.org/web/20041109144934/http://www.happypenguin.org/forums/viewtopic.php?t=1407) [[2]](https://web.archive.org/web/20120607000453/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=15&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[3]](https://web.archive.org/web/20120606235857/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=30&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[4]](https://web.archive.org/web/20120607000143/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=45&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[5]](https://web.archive.org/web/20120607000320/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=60&sid=e3789fa7035b89cbfc1ab2aa6366033c) [[6]](https://web.archive.org/web/20120606235853/http://www.happypenguin.org/forums/viewtopic.php?t=1407&postdays=0&postorder=asc&start=75&sid=e3789fa7035b89cbfc1ab2aa6366033c). Unfortunately, this project ended in a big disagreement, and it was finally decided to save the current state as "SuperTuxKart". While some graphical improvements were done, the code base itself was very unstable and practically unplayable. Nobody worked on (Super)TuxKart for several years.
-
-In 2006, Joerg Henrichs (a.k.a. "Hiker") picked up SuperTuxKart, fixed the outstanding bugs and performance issues without any involvement of the original game designer or the Game of the Month project. With the help of "Coz" a first release of STK was done in September 2006.
-
-In May 2007, version 0.3 was released. It added high-score lists, a new track (Island), the time bomb, MacOSX support, and OpenAL support.
-
-In February 2008 version 0.4 was released. This version used Bullet Physics to improve the collision handling. "Auria" joined and started improving tracks (Shifting Sands, Lighthouse).
-
-Version 0.5 was released in May 2008. It included many improved tracks, unlockable challenges, Follow-the-leader game mode, and more translations (OS language detector and matching to closest translation).
-
-Version 0.6 was released on January 22, 2009. It had significantly improved gameplay; better physics with Nitro and skidding. The sound system was also improved, more interesting music was added and many new tracks and karts were added. It also saw the first special multi-player arena for 3-Strikes battle and new items/powerups to use.
-
-Version 0.7 was released on December 20, 2010. It contained several significant improvements including: a new 3D rendering engine, Irrlicht, a new GUI (Graphical User Interface), new kart and track animations, new tracks, karts and items/powerups, and support for shortcuts/alternative paths. Versions 0.7.1, 0.7.2, 0.7.3 were released shortly after with more improvements.
-
-Version 0.8 was released in December 2012, adding a story mode and new challenges, improved AI and skidding, reverse mode, new tracks and music. The menus were also improved. This was followed by 0.8.1, which added and updated tracks, added the Soccer and Egg Hunt modes, and other graphical and gameplay enhancements.
-
-In 2015, we released version 0.9, a groundbreaking release powered by a brand new game engine called Antarctica, adding advanced graphical features which would have been impossible in previous versions. These features include dynamic lighting, instanced rendering (allowing for a large increase in vegetation), and more. 0.9 has been followed by three point releases, which have added additional features and new tracks.
-
-In April 2019, we released version 1.0, with for the first time support for online multiplayer. Besides this major feature, there have been new tracks and updated tracks, the addition of SuperTux challenges in the story mode, many balancing tweaks, and many more improvements and fixes.
-
-Hiker then officially announced his choice to retire from the project after leading it for 13 years. Auria also stepped down from her role of co-lead but remained involved with the project.
-
-The project's lead was transferred to Benau, a major code contributor since 2017, and Alayan, a major contributor for 1.0. Deveee, an important contributor for several years who is responsible for the Android version, remained in the team.
-
-In January 2020, version 1.1 was released. The gameplay was not changed, as all 1.x versions are compatible. The major changes for this version were improved networking code and major UI improvements especially on big resolutions, along many bugfixes and enhancements.
-
-In August 2020, version 1.2, was released. It improved gamepad support via SDL2 which supports hotplugging and gamepad mappings.
-
-In September 2021, the most recent version, 1.3, has been released. It contains updates for many official karts.
-
-For more details, please see the [changelog](https://github.com/supertuxkart/stk-code/blob/master/CHANGELOG.md), the [blog posts](https://blog.supertuxkart.net) or the list of resolved issues on STK's GitHub.
-
-In August 2025 the SuperTuxKart Evolution project was started.
+{{ answer_history }}
 
 {% end_liquid %}
 
