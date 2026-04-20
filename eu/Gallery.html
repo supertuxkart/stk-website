@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="eu" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Galeria - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Galeria">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="SuperTuxKart Evolution (preview) Screenshots Freytra Peaks">
+<meta property="og:locale" content="eu">
+<meta property="og:image" content="/generated/assets/gallery/STKEvolution_1-800-17bc58c4e.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.packed_32per_0 {
+    padding: 3px;
+    width: 32%;
+    height: auto;
+}
+
+.packed_32per_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+.packed_24per_0 {
+    padding: 3px;
+    width: 24%;
+    height: auto;
+}
+
+.packed_24per_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+.packed_40per_0 {
+    padding: 3px;
+    width: 40%;
+    height: auto;
+}
+
+.packed_40per_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+input[id="ubox0-callback"] {
+    display: none;
+}
+
+input[id="ubox0-callback"]:checked + .ubox-title + .ubox-boxcontent {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.35s, padding 0.35s, font-size 0.35s, opacity 0.35s 0.35s;
+    /* This has to be a value larger than the max possible height of the box content */
+    max-height: 8000px; 
+    transition: max-height 0.35s ease-in;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="ubox1-callback"] {
+    display: none;
+}
+
+input[id="ubox1-callback"]:checked + .ubox-title + .ubox-boxcontent {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.35s, padding 0.35s, font-size 0.35s, opacity 0.35s 0.35s;
+    /* This has to be a value larger than the max possible height of the box content */
+    max-height: 8000px; 
+    transition: max-height 0.35s ease-in;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="ubox2-callback"] {
+    display: none;
+}
+
+input[id="ubox2-callback"]:checked + .ubox-title + .ubox-boxcontent {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.35s, padding 0.35s, font-size 0.35s, opacity 0.35s 0.35s;
+    /* This has to be a value larger than the max possible height of the box content */
+    max-height: 8000px; 
+    transition: max-height 0.35s ease-in;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="ubox3-callback"] {
+    display: none;
+}
+
+input[id="ubox3-callback"]:checked + .ubox-title + .ubox-boxcontent {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.35s, padding 0.35s, font-size 0.35s, opacity 0.35s 0.35s;
+    /* This has to be a value larger than the max possible height of the box content */
+    max-height: 8000px; 
+    transition: max-height 0.35s ease-in;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menua</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/eu/Discover'><span class="translate">Aurkitu</span></a></li>
+            <li><a href='/eu/Download'><span class="translate">Deskargatu</span></a></li>
+            <li><a href='/eu/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Team'><span class="translate">Team</span></a></li>
+            <li><a href='/eu/Community'><span class="translate">Sartu</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Bloga</span></a></li>
+            <li><a class="donate-top-menu-link" href='/eu/Donate'><span class="translate">Donazio</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tresnak</span></p>
+        <div class="toolbox-section"><p><span class="translate">Hizkuntza</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Gallery'>български</a></li><li id="language-selector-ca"><a href='/ca/Gallery'>Català</a></li><li id="language-selector-cs"><a href='/cs/Gallery'>Čeština</a></li><li id="language-selector-da"><a href='/da/Gallery'>Dansk</a></li><li id="language-selector-de"><a href='/de/Gallery'>Deutsch</a></li><li id="language-selector-en"><a href='/Gallery'>English</a></li><li id="language-selector-es"><a href='/es/Gallery'>Español</a></li><li id="language-selector-et"><a href='/et/Gallery'>Eesti keel</a></li><li id="language-selector-eu"><a href='/eu/Gallery'>Euskara</a></li><li id="language-selector-fi"><a href='/fi/Gallery'>Suomi</a></li><li id="language-selector-fil"><a href='/fil/Gallery'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/Gallery'>Français</a></li><li id="language-selector-gl"><a href='/gl/Gallery'>Galego</a></li><li id="language-selector-it"><a href='/it/Gallery'>Italiano</a></li><li id="language-selector-ko"><a href='/ko/Gallery'>한국어</a></li><li id="language-selector-nl"><a href='/nl/Gallery'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Gallery'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Gallery'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Gallery'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Gallery'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Gallery'>Slovenščina</a></li><li id="language-selector-sr"><a href='/sr/Gallery'>Српски</a></li><li id="language-selector-tr"><a href='/tr/Gallery'>Türkçe</a></li><li id="language-selector-uk"><a href='/uk/Gallery'>Українська</a></li><li id="language-selector-zh_CN"><a href='/zh_CN/Gallery'>中文（简体）</a></li><li id="language-selector-zh_TW"><a href='/zh_TW/Gallery'>中文（繁體）</a></li></ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/eu/Main_Page' title="Orrialde nagusira joan">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper">
+<article>
+<ul id="results-container"></ul><br/><!-- eu -->
+
+<h2 id="supertuxkart-evolution-preview" class="article_main_title">
+
+SuperTuxKart Evolution (preview)
+
+</h2>
+
+<h3 id="screenshots" class="article_minor_title">Screenshots</h3>
+
+<div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/STKEvolution_1.jpg" target="_blank"><img src="/generated/assets/gallery/STKEvolution_1-800-17bc58c4e.jpg" alt="SuperTuxKart Evolution preview: A view from Freytra Peak's hamlet with a beautiful brick and wood building on the left and electric lines crossing the road farther back" srcset="/generated/assets/gallery/STKEvolution_1-400-17bc58c4e.jpg 400w, /generated/assets/gallery/STKEvolution_1-800-17bc58c4e.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Freytra Peaks</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STKEvolution_2.jpg" target="_blank"><img src="/generated/assets/gallery/STKEvolution_2-800-2d4506bd5.jpg" alt="SuperTuxKart Evolution preview: A sunny view of Black Forest with a small river flowing" srcset="/generated/assets/gallery/STKEvolution_2-400-2d4506bd5.jpg 400w, /generated/assets/gallery/STKEvolution_2-800-2d4506bd5.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Black Forest (Evolution)</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STKEvolution_3.jpg" target="_blank"><img src="/generated/assets/gallery/STKEvolution_3-800-a6a84b25f.jpg" alt="SuperTuxKart Evolution preview: A hall in New Fort Magma with ominous ball chains threatening drivers" srcset="/generated/assets/gallery/STKEvolution_3-400-a6a84b25f.jpg 400w, /generated/assets/gallery/STKEvolution_3-800-a6a84b25f.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Fort Magma (Evolution)</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STKEvolution_4.jpg" target="_blank"><img src="/generated/assets/gallery/STKEvolution_4-800-7d5865915.jpg" alt="SuperTuxKart Evolution preview: Dashie facing the starting line in an improved version of Shifting Sands" srcset="/generated/assets/gallery/STKEvolution_4-400-7d5865915.jpg 400w, /generated/assets/gallery/STKEvolution_4-800-7d5865915.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Shifting Sands (Evolution)</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STKEvolution_5.jpg" target="_blank"><img src="/generated/assets/gallery/STKEvolution_5-800-4cf7a7136.jpg" alt="SuperTuxKart Evolution preview: Konqi driving in Drainage Dash's main curve" srcset="/generated/assets/gallery/STKEvolution_5-400-4cf7a7136.jpg 400w, /generated/assets/gallery/STKEvolution_5-800-4cf7a7136.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Drainage Dash</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STKEvolution_6.jpg" target="_blank"><img src="/generated/assets/gallery/STKEvolution_6-800-760bc038d.jpg" alt="SuperTuxKart Evolution preview: a peaceful mountain landscape in Alpine Valley with a waterfall and a church in the background" srcset="/generated/assets/gallery/STKEvolution_6-400-760bc038d.jpg 400w, /generated/assets/gallery/STKEvolution_6-800-760bc038d.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Alpine Valley</p>
+</div>
+</div>
+
+<h2 id="modern-era-10-to-15" class="article_main_title">
+
+Modern Era: 1.0 to 1.5
+
+</h2>
+
+<h3 id="videos" class="article_minor_title">Videos</h3>
+
+<div style="text-align: center; max-width: 100%;">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/H1Lo7PlTGBk" title="SuperTuxKart 1.5 Release Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="max-width: 640px;"></iframe>
+</div>
+
+<div class="gallery-container">
+<div class="packed_32per_0"><a href="https://www.youtube.com/watch?v=ef9vYcuEDL4" target="_blank"><img src="/generated/assets/gallery/Trailer_thumb_1.3-800-90d55bab6.jpg" alt="Trailer_thumb_1.3" srcset="/generated/assets/gallery/Trailer_thumb_1.3-400-90d55bab6.jpg 400w, /generated/assets/gallery/Trailer_thumb_1.3-800-90d55bab6.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Trailer (1.3)</p>
+</div>
+<div class="packed_32per_0"><a href="https://www.youtube.com/watch?v=_kNtEKfN4Hg" target="_blank"><img src="/generated/assets/gallery/Trailer_thumb_1.2-640-8a210a743.jpg" alt="Trailer_thumb_1.2" srcset="/generated/assets/gallery/Trailer_thumb_1.2-400-8a210a743.jpg 400w, /generated/assets/gallery/Trailer_thumb_1.2-640-8a210a743.jpg 640w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Trailer (1.2)</p>
+</div>
+<div class="packed_32per_0"><a href="https://www.youtube.com/watch?v=Lm1TFDBiIIg" target="_blank"><img src="/generated/assets/gallery/Trailer_thumb_1.0-800-09795afcc.jpg" alt="Trailer_thumb_1.0" srcset="/generated/assets/gallery/Trailer_thumb_1.0-400-09795afcc.jpg 400w, /generated/assets/gallery/Trailer_thumb_1.0-800-09795afcc.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Trailer (1.0)</p>
+</div>
+</div>
+
+<h3 id="screenshots-15" class="article_minor_title">Screenshots (1.5)</h3>
+
+<div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/SuperTuxKart_1.5_1.jpg" target="_blank"><img src="/generated/assets/gallery/SuperTuxKart_1.5_1-800-bf3de0f67.jpg" alt="SuperTuxKart 1.5: Emule driving towards a green ball in the new soccer field XR-4R3N4 themed after XR591" srcset="/generated/assets/gallery/SuperTuxKart_1.5_1-400-bf3de0f67.jpg 400w, /generated/assets/gallery/SuperTuxKart_1.5_1-800-bf3de0f67.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">XR-4R3N4 (soccer field)</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/SuperTuxKart_1.5_2.jpg" target="_blank"><img src="/generated/assets/gallery/SuperTuxKart_1.5_2-800-f464a3f1a.jpg" alt="SuperTuxKart 1.5: Kiki next to an egg on a shaded house balcony in Black Forest with a monastery visible in the background on a hill" srcset="/generated/assets/gallery/SuperTuxKart_1.5_2-400-f464a3f1a.jpg 400w, /generated/assets/gallery/SuperTuxKart_1.5_2-800-f464a3f1a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Black Forest (egg hunt)</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/SuperTuxKart_1.5_3.jpg" target="_blank"><img src="/generated/assets/gallery/SuperTuxKart_1.5_3-800-56247d509.jpg" alt="SuperTuxKart 1.5: Godette driving in the shallow pool of water in the middle of the new soccer field Oasis with other karts driving towards the soccer ball" srcset="/generated/assets/gallery/SuperTuxKart_1.5_3-400-56247d509.jpg 400w, /generated/assets/gallery/SuperTuxKart_1.5_3-800-56247d509.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Oasis (soccer field)</p>
+</div>
+</div>
+
+<h3 id="screenshots-13" class="article_minor_title">Screenshots (1.3)</h3>
+
+<div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_1.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_1-800-a45abd9dd.jpg" alt="SuperTuxKart 1.3: The new Pepper kart driving in Black Forest heading toward a road fork" srcset="/generated/assets/gallery/STK1.3_1-400-a45abd9dd.jpg 400w, /generated/assets/gallery/STK1.3_1-800-a45abd9dd.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Black Forest</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_2-800-08bbf5c0c.jpg" alt="SuperTuxKart 1.3: Adiumy driving in Northern Resort with a green aurora borealis in the background lighting up the night sky" srcset="/generated/assets/gallery/STK1.3_2-400-08bbf5c0c.jpg 400w, /generated/assets/gallery/STK1.3_2-800-08bbf5c0c.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Northern Resort</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_3.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_3-800-0ac38fe5a.jpg" alt="SuperTuxKart 1.3: Beastie driving around Candela City's sharp bend with a small building advertising a gondola ride service visible on the right" srcset="/generated/assets/gallery/STK1.3_3-400-0ac38fe5a.jpg 400w, /generated/assets/gallery/STK1.3_3-800-0ac38fe5a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Candela City</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_4.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_4-800-2af6c383a.jpg" alt="SuperTuxKart 1.3: Kiki maneuvering with a Capture-The-Flag flag in Ancient Colosseum Labyrinth" srcset="/generated/assets/gallery/STK1.3_4-400-2af6c383a.jpg 400w, /generated/assets/gallery/STK1.3_4-800-2af6c383a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Ancient Colosseum Labyrinth (arena)</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_5.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_5-800-59815c9d9.jpg" alt="SuperTuxKart 1.3: An improved Sara kart driving in the battle arena Alien Signal set on a decrepit radiotelescope" srcset="/generated/assets/gallery/STK1.3_5-400-59815c9d9.jpg 400w, /generated/assets/gallery/STK1.3_5-800-59815c9d9.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Alien Signal (arena)</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_6.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_6-800-b585c4962.jpg" alt="SuperTuxKart 1.3: An improved GNU kart with night lights facing the camera in Las Dunas Soccer with a big soccer ball visible behind" srcset="/generated/assets/gallery/STK1.3_6-400-b585c4962.jpg 400w, /generated/assets/gallery/STK1.3_6-800-b585c4962.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Las Dunas Soccer Stadium</p>
+</div>
+</div>
+
+<h3 id="screenshots-10" class="article_minor_title">Screenshots (1.0)</h3>
+
+<div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.0_1.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.0_1-800-cb4117e74.jpg" alt="SuperTuxKart 1.0: Beastie in front of the entrance the Ravenbridge estate in Ravenbridge Mansion with the full moon visible in the background" srcset="/generated/assets/gallery/STK1.0_1-400-cb4117e74.jpg 400w, /generated/assets/gallery/STK1.0_1-800-cb4117e74.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Ravenbridge Mansion</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.0_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.0_2-800-6aa68513a.jpg" alt="SuperTuxKart 1.0: Xue driving towards the main bridge in Black Forest with a train steaming ahead on the railtrack running next to the road" srcset="/generated/assets/gallery/STK1.0_2-400-6aa68513a.jpg 400w, /generated/assets/gallery/STK1.0_2-800-6aa68513a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Black Forest</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.0_3.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.0_3-800-6d378e96f.jpg" alt="SuperTuxKart 1.0: Emule drifting in Volcan Island going towards bananas that were added for 1.0 to make the track more difficult" srcset="/generated/assets/gallery/STK1.0_3-400-6d378e96f.jpg 400w, /generated/assets/gallery/STK1.0_3-800-6d378e96f.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Volcan Island</p>
+</div>
+</div>
+
+<!-- Screenshots from old versions are in collapsible boxes -->
+
+<div>
+<input type="checkbox" id="ubox0-callback" /><label class="ubox-title" for="ubox0-callback">
+    <h2 id="antarctica-09-to-093" class="article_main_title">
+
+Antarctica: 0.9 to 0.9.3
+
+</h2>
+    </label>
+<div class="ubox-boxcontent">
+
+    <h3 id="videos-1" class="article_minor_title">Videos</h3>
+
+    <div class="gallery-container">
+<div class="packed_24per_0"><a href="https://www.youtube.com/watch?v=hcgDUT4bwls" target="_blank"><img src="/generated/assets/gallery/Trailer_thumb_0.9.3-800-4c5d8e5b7.jpg" alt="Trailer_thumb_0.9.3" srcset="/generated/assets/gallery/Trailer_thumb_0.9.3-400-4c5d8e5b7.jpg 400w, /generated/assets/gallery/Trailer_thumb_0.9.3-800-4c5d8e5b7.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Trailer (0.9.3)</p>
+</div>
+<div class="packed_24per_0"><a href="https://www.youtube.com/watch?v=ev8Zltau4zw" target="_blank"><img src="/generated/assets/gallery/Trailer_thumb_0.9.2-800-5329b87f9.jpg" alt="Trailer_thumb_0.9.2" srcset="/generated/assets/gallery/Trailer_thumb_0.9.2-400-5329b87f9.jpg 400w, /generated/assets/gallery/Trailer_thumb_0.9.2-800-5329b87f9.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Trailer (0.9.2)</p>
+</div>
+<div class="packed_24per_0"><a href="https://www.youtube.com/watch?v=tKD3aWJDg3M" target="_blank"><img src="/generated/assets/gallery/Trailer_thumb_0.9.1-800-5f1b8df8c.jpg" alt="Trailer_thumb_0.9.1" srcset="/generated/assets/gallery/Trailer_thumb_0.9.1-400-5f1b8df8c.jpg 400w, /generated/assets/gallery/Trailer_thumb_0.9.1-800-5f1b8df8c.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Trailer (0.9.1)</p>
+</div>
+<div class="packed_24per_0"><a href="https://www.youtube.com/watch?v=0FEwDH7XU9Q" target="_blank"><img src="/generated/assets/gallery/Trailer_thumb_0.9-800-e86122df7.jpg" alt="Trailer_thumb_0.9" srcset="/generated/assets/gallery/Trailer_thumb_0.9-400-e86122df7.jpg 400w, /generated/assets/gallery/Trailer_thumb_0.9-800-e86122df7.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Trailer (0.9)</p>
+</div>
+</div>
+
+    <h3 id="screenshots-093" class="article_minor_title">Screenshots (0.9.3)</h3>
+
+    <div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.3_1.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.3_1-800-17b401db7.jpg" alt="SuperTuxKart 0.9.3: Tux facing Cinéma le Quartz in Candela City" srcset="/generated/assets/gallery/STK0.9.3_1-400-17b401db7.jpg 400w, /generated/assets/gallery/STK0.9.3_1-800-17b401db7.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.3_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.3_2-800-76bc4ddb1.jpg" alt="SuperTuxKart 0.9.3: Suzanne heading towards Cornfield Crossing's barn" srcset="/generated/assets/gallery/STK0.9.3_2-400-76bc4ddb1.jpg 400w, /generated/assets/gallery/STK0.9.3_2-800-76bc4ddb1.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.3_3.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.3_3-800-b271438cd.jpg" alt="SuperTuxKart 0.9.3: Konqi driving in Antediluvian Abysses with swimming fishes visible behind the glass walls" srcset="/generated/assets/gallery/STK0.9.3_3-400-b271438cd.jpg 400w, /generated/assets/gallery/STK0.9.3_3-800-b271438cd.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+    <h3 id="screenshots-092" class="article_minor_title">Screenshots (0.9.2)</h3>
+
+    <div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.2_1.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.2_1-800-abefc1c5e.jpg" alt="STK0.9.2_1" srcset="/generated/assets/gallery/STK0.9.2_1-400-abefc1c5e.jpg 400w, /generated/assets/gallery/STK0.9.2_1-800-abefc1c5e.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.2_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.2_2-800-5a369e1a4.jpg" alt="STK0.9.2_2" srcset="/generated/assets/gallery/STK0.9.2_2-400-5a369e1a4.jpg 400w, /generated/assets/gallery/STK0.9.2_2-800-5a369e1a4.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.2_3.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.2_3-800-c029af30d.jpg" alt="STK0.9.2_3" srcset="/generated/assets/gallery/STK0.9.2_3-400-c029af30d.jpg 400w, /generated/assets/gallery/STK0.9.2_3-800-c029af30d.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.2_4.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.2_4-800-01d4bc3d1.jpg" alt="STK0.9.2_4" srcset="/generated/assets/gallery/STK0.9.2_4-400-01d4bc3d1.jpg 400w, /generated/assets/gallery/STK0.9.2_4-800-01d4bc3d1.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.2_5.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.2_5-800-411d86f46.jpg" alt="STK0.9.2_5" srcset="/generated/assets/gallery/STK0.9.2_5-400-411d86f46.jpg 400w, /generated/assets/gallery/STK0.9.2_5-800-411d86f46.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.2_6.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.2_6-800-87a4657ad.jpg" alt="STK0.9.2_6" srcset="/generated/assets/gallery/STK0.9.2_6-400-87a4657ad.jpg 400w, /generated/assets/gallery/STK0.9.2_6-800-87a4657ad.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+    <h3 id="screenshots-091" class="article_minor_title">Screenshots (0.9.1)</h3>
+
+    <div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.1_1.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.1_1-800-36739bed0.jpg" alt="STK0.9.1_1" srcset="/generated/assets/gallery/STK0.9.1_1-400-36739bed0.jpg 400w, /generated/assets/gallery/STK0.9.1_1-800-36739bed0.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.1_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.1_2-800-f8194693f.jpg" alt="STK0.9.1_2" srcset="/generated/assets/gallery/STK0.9.1_2-400-f8194693f.jpg 400w, /generated/assets/gallery/STK0.9.1_2-800-f8194693f.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.1_3.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.1_3-800-b69fe63f5.jpg" alt="STK0.9.1_3" srcset="/generated/assets/gallery/STK0.9.1_3-400-b69fe63f5.jpg 400w, /generated/assets/gallery/STK0.9.1_3-800-b69fe63f5.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.1_4.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.1_4-800-0ef201c1e.jpg" alt="STK0.9.1_4" srcset="/generated/assets/gallery/STK0.9.1_4-400-0ef201c1e.jpg 400w, /generated/assets/gallery/STK0.9.1_4-800-0ef201c1e.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.1_5.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.1_5-800-e0b093b31.jpg" alt="STK0.9.1_5" srcset="/generated/assets/gallery/STK0.9.1_5-400-e0b093b31.jpg 400w, /generated/assets/gallery/STK0.9.1_5-800-e0b093b31.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.1_6.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.1_6-800-a8a1ef86a.jpg" alt="STK0.9.1_6" srcset="/generated/assets/gallery/STK0.9.1_6-400-a8a1ef86a.jpg 400w, /generated/assets/gallery/STK0.9.1_6-800-a8a1ef86a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9.1_7.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.1_7-800-dc3a68837.jpg" alt="STK0.9.1_7" srcset="/generated/assets/gallery/STK0.9.1_7-400-dc3a68837.jpg 400w, /generated/assets/gallery/STK0.9.1_7-800-dc3a68837.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+    <h3 id="screenshots-09" class="article_minor_title">Screenshots (0.9)</h3>
+
+    <div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9_1.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9_1-800-5f6af6710.jpg" alt="STK0.9_1" srcset="/generated/assets/gallery/STK0.9_1-400-5f6af6710.jpg 400w, /generated/assets/gallery/STK0.9_1-800-5f6af6710.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9_2-800-6c855f74e.jpg" alt="STK0.9_2" srcset="/generated/assets/gallery/STK0.9_2-400-6c855f74e.jpg 400w, /generated/assets/gallery/STK0.9_2-800-6c855f74e.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9_3.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9_3-800-28c28b1dd.jpg" alt="STK0.9_3" srcset="/generated/assets/gallery/STK0.9_3-400-28c28b1dd.jpg 400w, /generated/assets/gallery/STK0.9_3-800-28c28b1dd.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9_4.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9_4-800-7bac2d59a.jpg" alt="STK0.9_4" srcset="/generated/assets/gallery/STK0.9_4-400-7bac2d59a.jpg 400w, /generated/assets/gallery/STK0.9_4-800-7bac2d59a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9_5.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9_5-800-7eb16ae6e.jpg" alt="STK0.9_5" srcset="/generated/assets/gallery/STK0.9_5-400-7eb16ae6e.jpg 400w, /generated/assets/gallery/STK0.9_5-800-7eb16ae6e.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9_6.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9_6-800-9ee9f8466.jpg" alt="STK0.9_6" srcset="/generated/assets/gallery/STK0.9_6-400-9ee9f8466.jpg 400w, /generated/assets/gallery/STK0.9_6-800-9ee9f8466.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9_7.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9_7-800-6289e627a.jpg" alt="STK0.9_7" srcset="/generated/assets/gallery/STK0.9_7-400-6289e627a.jpg 400w, /generated/assets/gallery/STK0.9_7-800-6289e627a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.9_8.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9_8-800-990bc064e.jpg" alt="STK0.9_8" srcset="/generated/assets/gallery/STK0.9_8-400-990bc064e.jpg 400w, /generated/assets/gallery/STK0.9_8-800-990bc064e.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="ubox1-callback" /><label class="ubox-title" for="ubox1-callback">
+    <h2 id="classic-era-07-to-081" class="article_main_title">
+
+Classic Era: 0.7 to 0.8.1
+
+</h2>
+    </label>
+<div class="ubox-boxcontent">
+
+    <h3 id="videos-2" class="article_minor_title">Videos</h3>
+
+    <div class="gallery-container">
+<div class="packed_32per_0"><a href="https://www.youtube.com/watch?v=WutAN4i98_o" target="_blank"><img src="/generated/assets/gallery/Trailer_thumb_0.8.1-800-889f4760f.jpg" alt="Trailer_thumb_0.8.1" srcset="/generated/assets/gallery/Trailer_thumb_0.8.1-400-889f4760f.jpg 400w, /generated/assets/gallery/Trailer_thumb_0.8.1-800-889f4760f.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Trailer (0.8.1)</p>
+</div>
+<div class="packed_32per_0"><a href="https://www.youtube.com/watch?v=wwSXCrNjTm4" target="_blank"><img src="/generated/assets/gallery/Trailer_thumb_0.8b-640-b3ce9f04e.jpg" alt="Trailer_thumb_0.8b" srcset="/generated/assets/gallery/Trailer_thumb_0.8b-400-b3ce9f04e.jpg 400w, /generated/assets/gallery/Trailer_thumb_0.8b-640-b3ce9f04e.jpg 640w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Trailer (0.8)</p>
+</div>
+<div class="packed_32per_0"><a href="https://www.youtube.com/watch?v=_D5D2AZaq5o" target="_blank"><img src="/generated/assets/gallery/Gameplay_thumb_0.7b-800-ae2a6a37c.jpg" alt="Gameplay_thumb_0.7b" srcset="/generated/assets/gallery/Gameplay_thumb_0.7b-400-ae2a6a37c.jpg 400w, /generated/assets/gallery/Gameplay_thumb_0.7b-800-ae2a6a37c.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Gameplay footage (0.7)</p>
+</div>
+</div>
+
+    <h3 id="screenshots-081" class="article_minor_title">Screenshots (0.8.1)</h3>
+
+    <div class="gallery-container">
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.8.1_1.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8.1_1-800-d57f09a40.jpg" alt="STK0.8.1_1" srcset="/generated/assets/gallery/STK0.8.1_1-400-d57f09a40.jpg 400w, /generated/assets/gallery/STK0.8.1_1-800-d57f09a40.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.8.1_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8.1_2-800-03f30aac6.jpg" alt="STK0.8.1_2" srcset="/generated/assets/gallery/STK0.8.1_2-400-03f30aac6.jpg 400w, /generated/assets/gallery/STK0.8.1_2-800-03f30aac6.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.8.1_3.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8.1_3-800-bf4bd4c00.jpg" alt="STK0.8.1_3" srcset="/generated/assets/gallery/STK0.8.1_3-400-bf4bd4c00.jpg 400w, /generated/assets/gallery/STK0.8.1_3-800-bf4bd4c00.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.8.1_4.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8.1_4-800-33d441ec9.jpg" alt="STK0.8.1_4" srcset="/generated/assets/gallery/STK0.8.1_4-400-33d441ec9.jpg 400w, /generated/assets/gallery/STK0.8.1_4-800-33d441ec9.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.8.1_5.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8.1_5-800-f457ea230.jpg" alt="STK0.8.1_5" srcset="/generated/assets/gallery/STK0.8.1_5-400-f457ea230.jpg 400w, /generated/assets/gallery/STK0.8.1_5-800-f457ea230.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.8.1_6.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8.1_6-800-7f4ca4195.jpg" alt="STK0.8.1_6" srcset="/generated/assets/gallery/STK0.8.1_6-400-7f4ca4195.jpg 400w, /generated/assets/gallery/STK0.8.1_6-800-7f4ca4195.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.8.1_7.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8.1_7-800-185b034f6.jpg" alt="STK0.8.1_7" srcset="/generated/assets/gallery/STK0.8.1_7-400-185b034f6.jpg 400w, /generated/assets/gallery/STK0.8.1_7-800-185b034f6.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.8.1_8.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8.1_8-800-6cd936e46.jpg" alt="STK0.8.1_8" srcset="/generated/assets/gallery/STK0.8.1_8-400-6cd936e46.jpg 400w, /generated/assets/gallery/STK0.8.1_8-800-6cd936e46.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+    <h3 id="screenshots-08" class="article_minor_title">Screenshots (0.8)</h3>
+
+    <div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.8_1.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8_1-800-57092b6d3.jpg" alt="STK0.8_1" srcset="/generated/assets/gallery/STK0.8_1-400-57092b6d3.jpg 400w, /generated/assets/gallery/STK0.8_1-800-57092b6d3.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.8_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8_2-800-351c2b2b8.jpg" alt="STK0.8_2" srcset="/generated/assets/gallery/STK0.8_2-400-351c2b2b8.jpg 400w, /generated/assets/gallery/STK0.8_2-800-351c2b2b8.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.8_3.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8_3-800-cac77a5db.jpg" alt="STK0.8_3" srcset="/generated/assets/gallery/STK0.8_3-400-cac77a5db.jpg 400w, /generated/assets/gallery/STK0.8_3-800-cac77a5db.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.8_4.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8_4-800-528db5438.jpg" alt="STK0.8_4" srcset="/generated/assets/gallery/STK0.8_4-400-528db5438.jpg 400w, /generated/assets/gallery/STK0.8_4-800-528db5438.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.8_5.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8_5-800-c1496e56a.jpg" alt="STK0.8_5" srcset="/generated/assets/gallery/STK0.8_5-400-c1496e56a.jpg 400w, /generated/assets/gallery/STK0.8_5-800-c1496e56a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.8_6.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.8_6-800-24f3407b5.jpg" alt="STK0.8_6" srcset="/generated/assets/gallery/STK0.8_6-400-24f3407b5.jpg 400w, /generated/assets/gallery/STK0.8_6-800-24f3407b5.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+    <h3 id="screenshots-073" class="article_minor_title">Screenshots (0.7.3)</h3>
+
+    <div class="gallery-container">
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.7.3_1.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.7.3_1-800-3d7e4c030.jpg" alt="SuperTuxKart 0.7.3: A new kart - Suzanne - is looking down a slope in the newly introduced Minigolf track" srcset="/generated/assets/gallery/STK0.7.3_1-400-3d7e4c030.jpg 400w, /generated/assets/gallery/STK0.7.3_1-800-3d7e4c030.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.7.3_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.7.3_2-800-400247688.jpg" alt="SuperTuxKart 0.7.3: Beastie - a kart introduced in 0.7.2 - is driving in an improved Snow Peak" srcset="/generated/assets/gallery/STK0.7.3_2-400-400247688.jpg 400w, /generated/assets/gallery/STK0.7.3_2-800-400247688.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+    <h3 id="screenshots-07" class="article_minor_title">Screenshots (0.7)</h3>
+
+    <div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.7_1.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.7_1-800-5dacba244.jpg" alt="STK0.7_1" srcset="/generated/assets/gallery/STK0.7_1-400-5dacba244.jpg 400w, /generated/assets/gallery/STK0.7_1-800-5dacba244.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.7_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.7_2-800-dfa5c4e38.jpg" alt="STK0.7_2" srcset="/generated/assets/gallery/STK0.7_2-400-dfa5c4e38.jpg 400w, /generated/assets/gallery/STK0.7_2-800-dfa5c4e38.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.7_3.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.7_3-800-b642e5826.jpg" alt="STK0.7_3" srcset="/generated/assets/gallery/STK0.7_3-400-b642e5826.jpg 400w, /generated/assets/gallery/STK0.7_3-800-b642e5826.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.7_4.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.7_4-800-9d40c30fe.jpg" alt="STK0.7_4" srcset="/generated/assets/gallery/STK0.7_4-400-9d40c30fe.jpg 400w, /generated/assets/gallery/STK0.7_4-800-9d40c30fe.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.7_5.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.7_5-800-819a92638.jpg" alt="STK0.7_5" srcset="/generated/assets/gallery/STK0.7_5-400-819a92638.jpg 400w, /generated/assets/gallery/STK0.7_5-800-819a92638.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK0.7_6.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.7_6-800-0744fc909.jpg" alt="STK0.7_6" srcset="/generated/assets/gallery/STK0.7_6-400-0744fc909.jpg 400w, /generated/assets/gallery/STK0.7_6-800-0744fc909.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="ubox2-callback" /><label class="ubox-title" for="ubox2-callback">
+    <h2 id="rising-recognition-05-to-062" class="article_main_title">
+
+Rising Recognition: 0.5 to 0.6.2
+
+</h2>
+    </label>
+<div class="ubox-boxcontent">
+
+    <h3 id="screenshots-06" class="article_minor_title">Screenshots (0.6)</h3>
+
+    <div class="gallery-container">
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.6_1.jpg" target="_blank"><img src="/assets/gallery/STK0.6_1.jpg" alt="STK0.6_1" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.6_2.jpg" target="_blank"><img src="/assets/gallery/STK0.6_2.jpg" alt="STK0.6_2" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.6_3.jpg" target="_blank"><img src="/assets/gallery/STK0.6_3.jpg" alt="STK0.6_3" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.6_4.jpg" target="_blank"><img src="/assets/gallery/STK0.6_4.jpg" alt="STK0.6_4" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.6_5.jpg" target="_blank"><img src="/assets/gallery/STK0.6_5.jpg" alt="STK0.6_5" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.6_6.jpg" target="_blank"><img src="/assets/gallery/STK0.6_6.jpg" alt="STK0.6_6" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.6_7.jpg" target="_blank"><img src="/assets/gallery/STK0.6_7.jpg" alt="STK0.6_7" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.6_8.jpg" target="_blank"><img src="/assets/gallery/STK0.6_8.jpg" alt="STK0.6_8" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.6_9.jpg" target="_blank"><img src="/assets/gallery/STK0.6_9.jpg" alt="STK0.6_9" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.6_10.jpg" target="_blank"><img src="/assets/gallery/STK0.6_10.jpg" alt="STK0.6_10" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.6_11.jpg" target="_blank"><img src="/assets/gallery/STK0.6_11.jpg" alt="STK0.6_11" /></a></div>
+</div>
+
+    <h3 id="screenshots-05" class="article_minor_title">Screenshots (0.5)</h3>
+
+    <div class="gallery-container">
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.5_1.jpg" target="_blank"><img src="/assets/gallery/STK0.5_1.jpg" alt="STK0.5_1" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.5_2.jpg" target="_blank"><img src="/assets/gallery/STK0.5_2.jpg" alt="STK0.5_2" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.5_3.jpg" target="_blank"><img src="/assets/gallery/STK0.5_3.jpg" alt="STK0.5_3" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.5_4.jpg" target="_blank"><img src="/assets/gallery/STK0.5_4.jpg" alt="STK0.5_4" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.5_5.jpg" target="_blank"><img src="/assets/gallery/STK0.5_5.jpg" alt="STK0.5_5" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.5_6.jpg" target="_blank"><img src="/assets/gallery/STK0.5_6.jpg" alt="STK0.5_6" /></a></div>
+<div class="packed_24per_0"><a href="/assets/gallery/STK0.5_7.jpg" target="_blank"><img src="/assets/gallery/STK0.5_7.jpg" alt="STK0.5_7" /></a></div>
+</div>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="ubox3-callback" /><label class="ubox-title" for="ubox3-callback">
+    <h2 id="early-days-000-to-04" class="article_main_title">
+
+Early days: 0.0.0 to 0.4
+
+</h2>
+    </label>
+<div class="ubox-boxcontent">
+
+    <h3 id="screenshots-04" class="article_minor_title">Screenshots (0.4)</h3>
+
+    <div class="gallery-container">
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.4_1.jpg" target="_blank"><img src="/assets/gallery/STK0.4_1.jpg" alt="STK0.4_1" /></a></div>
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.4_2.jpg" target="_blank"><img src="/assets/gallery/STK0.4_2.jpg" alt="STK0.4_2" /></a></div>
+</div>
+
+    <h3 id="screenshots-03-halloween-edition" class="article_minor_title">Screenshots (0.3 Halloween Edition)</h3>
+
+    <div class="gallery-container">
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.3h_1.jpg" target="_blank"><img src="/assets/gallery/STK0.3h_1.jpg" alt="STK0.3h_1" /></a></div>
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.3h_2.jpg" target="_blank"><img src="/assets/gallery/STK0.3h_2.jpg" alt="STK0.3h_2" /></a></div>
+</div>
+
+    <h3 id="screenshots-03" class="article_minor_title">Screenshots (0.3)</h3>
+
+    <div class="gallery-container">
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.3_1.jpg" target="_blank"><img src="/assets/gallery/STK0.3_1.jpg" alt="STK0.3_1" /></a></div>
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.3_2.jpg" target="_blank"><img src="/assets/gallery/STK0.3_2.jpg" alt="STK0.3_2" /></a></div>
+</div>
+
+    <h3 id="screenshots-02" class="article_minor_title">Screenshots (0.2)</h3>
+
+    <div class="gallery-container">
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.2_1.jpg" target="_blank"><img src="/assets/gallery/STK0.2_1.jpg" alt="STK0.2_1" /></a></div>
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.2_2.jpg" target="_blank"><img src="/assets/gallery/STK0.2_2.jpg" alt="STK0.2_2" /></a></div>
+</div>
+
+    <h3 id="screenshots-000" class="article_minor_title">Screenshots (0.0.0)</h3>
+
+    <div class="gallery-container">
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.0.0_1.jpg" target="_blank"><img src="/assets/gallery/STK0.0.0_1.jpg" alt="STK0.0.0_1" /></a></div>
+<div class="packed_40per_0"><a href="/assets/gallery/STK0.0.0_2.jpg" target="_blank"><img src="/assets/gallery/STK0.0.0_2.jpg" alt="STK0.0.0_2" /></a></div>
+</div>
+
+  </div>
+</div>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Elkarte</span></p>
+    <ul>
+        <li><a href='https://forum.supertuxkart.net/'><span class="translate">Foroa</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Bloga</span></a></li>
+        <li><a href='https://x.com/supertuxkart'><span class="translate">Twitter / X</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/@SuperTuxKartOfficial?sub_confirmation=1'><span class="translate">Youtube</span></a></li>
+        <li><a href='/eu/Gallery'><span class="translate">Galeria</span></a></li>
+        <li><a href='/eu/Posters'><span class="translate">Posterrak</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Garapena</span></p>
+    <ul>
+        <li><a href='/eu/Community'><span class="translate">Komunitatea</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://sourceforge.net/p/supertuxkart/code/HEAD/tree/'><span class="translate">SVN</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Guri buruz</span></p>
+    <ul>
+        <li><a href='/eu/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">Taldeari buruz</span></a></li>
+        <li><a href='/eu/Discover'><span class="translate">SuperTuxKart-i buruz</span></a></li>
+        <li><a href='/eu/Projects'><span class="translate">Proiektuak SuperTuxKart erabiliz</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2026
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script></body>
+</html>
