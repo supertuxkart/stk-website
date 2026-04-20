@@ -7,6 +7,10 @@ This page gives an illustrated overview of two decades of development of SuperTu
 
 A complete history of SuperTuxKart could fill an entire book: if you are interested in all the small details that don't fit here, you can explore the sources listed in the [additional references](#additional-references) at the end.
 
+{% gallery widths=90%
+/assets/wiki/SuperTuxKart_History_Title.jpg,,,A picture titled 'The History of SuperTuxKart' showing the evolution of Oliver's Maths Class and Fort Magma throughout the project's history
+%}
+
 ## TuxKart
 
 {% capture tuxkart_story -%}

@@ -1,4 +1,20 @@
 {% blog_article
+The History of SuperTuxKart
+
+To celebrate the 7th anniversary of SuperTuxKart 1.0's release, the SuperTuxKart team is happy to present an [entirely new history page](History_of_SuperTuxKart) that explores over two decades of development!
+
+From the times of TuxKart to SuperTuxKart Evolution, this history page, illustrated with many pictures, will let you discover your favorite game's journey.
+
+The [full blog post](https://blog.supertuxkart.net/2026/04/the-history-of-supertuxkart.html) announcing this new page also gives an update on some recent changes to our website and upcoming plans so be sure to check it out!
+
+April 20, 2026 by Alayan
+%}
+
+{% gallery widths=90%
+/assets/wiki/SuperTuxKart_History_Title.jpg,,https://blog.supertuxkart.net/2026/04/the-history-of-supertuxkart.html,A picture titled 'The History of SuperTuxKart' showing the evolution of Oliver's Maths Class and Fort Magma throughout the project's history
+%}
+
+{% blog_article
 SuperTuxKart Evolution: Freytra Peaks making of
 
 After years of racing through Snow Peak's icy slopes, racers are getting a new track. In this blog post, we'll look at the creation process behind the upcoming track "Freytra Peaks", which will be included in the main game with the release of STK Evolution. Explore the creative process behind the track's design and the techniques used to bring it to life, illustrated with images and a video in the full blog post.
