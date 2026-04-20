@@ -284,7 +284,7 @@ module GalleryUtils
 
 .gallery-caption {
     display: block;
-    margin: 3px;
+    margin: 0px;
     padding: ' + caption_padding + '
     text-align: center;
     font-style: italic;
@@ -346,7 +346,7 @@ module GalleryUtils
 }
 
 .gallery-sidebar-flow p.gallery-caption {
-    margin: 3px
+    margin: 0px
 }
 
 /* On narrow screens where we want to wrap around,
@@ -363,6 +363,8 @@ module GalleryUtils
     .gallery-sidebar-flow-img {
         float: none !important;
         --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 
     .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
