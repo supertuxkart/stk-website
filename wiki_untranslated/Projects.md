@@ -157,3 +157,7 @@ toc: true
 {%translate "What about driving on the streets you know in SuperTuxKart? This is what a project from 2013 wanted to make possible, with a method using OpenStreetMap data and importing real world data explained [on the project's page](https://wiki.openstreetmap.org/wiki/SuperTuxKart).","Projects page"%}
 
 {%translate "As it requires the use of the now very old SuperTuxKart 0.7.3 and also a fair amount of manual work for good results, it is not very practical, but it shows how SuperTuxKart is a game uniquely suited for cool experiments.","Projects page"%}
+
+### {%translate "KDE Plasma Bigscreen","Projects page - section title"%}
+
+{%translate "On 2025, the KDE project, more specifically the KDE Plasma Bigscreen project, decided [to revive the project](https://espi.dev/posts/2025/07/plasma-bigscreen/), with the intention of enabling the usage of GNU/Linux systems on televisions and other large displays. One of the projects chosen to showcase the viability of gaming on the platform was SuperTuxKart, which was praised for having great controller compatibility, but had some problems with performance, due to the usage of an underpowered device.","Projects page"%}
