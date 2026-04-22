@@ -64,7 +64,7 @@ With the help of Eduardo "Coz" Hernandez Munoz, **a first public release of Supe
 In May 2007, version 0.3 was released. It added various features and bugfixes, but of particular interest are MacOSX support, support for OpenAL, which constitute the basis of SuperTuxKart's audio to this day, and the addition of the bomb, which is still among the potential penalties karts can get when driving through bananas in modern versions of SuperTuxKart.
 
 {% capture supertuxkart_early -%}
-At the time, the game didn't offer any form of drifting. Instead, when going sufficiently fast, it was possible to do a wheelie to go even faster at the cost of not being able to turn properly. Of course, normally a wheelie is something that two-wheelers do, not karts with four wheels, but in those early days, a lot of the game was quite experimental. It was still possible to get honing missiles from the item boxes!
+At the time, the game didn't offer any form of drifting. Instead, when going sufficiently fast, it was possible to do a wheelie to go even faster at the cost of not being able to turn properly. Of course, normally a wheelie is something that two-wheelers do, not karts with four wheels, but in those early days, a lot of the game was quite experimental. It was still possible to get homing missiles from the item boxes!
 
 **Marianne Gagnon (a.k.a. "Auria") joined during the development of version 0.4.** She started by improving tracks, but she would go on to expand her contributions in all the areas where she could prove useful, doing a lot of code and even composing [a nice piece of music](https://www.youtube.com/watch?v=zB-4_ak5GqI) for a track she created.
 

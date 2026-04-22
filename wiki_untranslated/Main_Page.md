@@ -8,7 +8,7 @@ title: SuperTuxKart
 
 {%translate "As part of our efforts towards SuperTuxKart Evolution, the SuperTuxKart team will also improve communication with the community, with more frequent updates on our plans. A [new forum](https://forum.supertuxkart.net/) has been opened for people to talk about the game and ask us questions. We also want to make it easier for new contributors to join us on our journey."%}
 
-{%translate "Additional information is available in our [STK Evolution FAQ](STK_Evolution_FAQ)."%}
+{%translate "Additional information is available in our [STK Evolution FAQ](FAQ#supertuxkart-evolution)."%}
 <br><br>
 [{%translate Discover more...%}](Discover)
 
