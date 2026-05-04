@@ -26,6 +26,8 @@ The final release of the original TuxKart was done in March 2004, but by that po
 * The rescue key was introduced in TuxKart already. It has remained in SuperTuxKart despite enormous improvements to auto-rescue.
 * In TuxKart green herrings would give a random penalty: a parachute or an anvil. The random parachutes and anchors that SuperTuxKart bananas can give can be traced back to this concept.
 * The zipper powerup that gives a strong speed boost also traces its roots all the way to TuxKart.
+
+Inspiration from Mario Kart 64 was apparent in TuxKart, indirectly through the popularization of the genre, and more directly in tracks such as Tux Tollway and Gown's Bow.
 {%- endcapture -%}
 
 {% capture tuxkart_caption -%}
