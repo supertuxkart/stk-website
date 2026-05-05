@@ -32,7 +32,7 @@ title: Community
 </ul>
 
 <div class="additional-info" markdown="1">
-{%translate "You can also look at the [archived old forum](https://forum.freegamedev.net/viewforum.php?f=16) for past discussions."%}
+{%translate "You can also look at the [archived old forum](https://web.archive.org/web/20250831014534/https://forum.freegamedev.net/viewforum.php?f=16) for past discussions."%}
 </div>
 
 <div class="additional-info">

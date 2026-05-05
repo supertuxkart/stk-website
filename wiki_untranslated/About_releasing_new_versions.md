@@ -90,8 +90,6 @@ This page collects web pages that should be informed about a new SuperTuxKart re
 * STK GitHub download page
 * Upload the trailer on our youtube channel
 * Twitter
-* SourceForge page (news entry and to slashdot firehose)
-* <https://freegamer.blogspot.com> (was picked up from freegamedev forum)
-* <https://forum.freegamedev.net/>
 * Update the game to <https://supertuxkart.itch.io/supertuxkart>
-* Update the game to <https://gamejolt.com/>
+* <https://forum.supertuxkart.net/>
+* SourceForge page (news entry and to slashdot firehose)

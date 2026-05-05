@@ -20,7 +20,7 @@ After copying your icon file to both the same folder as the one containing your 
 Icon files should generally be a drawing of the character's face, as are all of the default icons. While we would like all icons to be of exactly the same style, we understand that this is not reasonably possible. Thus, here are some friendly stylistic guidelines that you can use to make your character's icon fit in.
 
 * Your character should be smiling, unless it's and evil character.
-* The drawing should be cartoony and not overly detailed. Our motif (pioneered by yeKcim, who designed icons for the 0.7 release) is wide, connected eyes and a slight gradient for the main color, though [Jymis's style](https://forum.freegamedev.net/viewtopic.php?f=18&t=7144) is also quite suitable, expanding the style with more sophisticated facial expressions.
+* The drawing should be cartoony and not overly detailed. Our motif (pioneered by yeKcim, who designed icons for the 0.7 release) is wide, connected eyes and a slight gradient for the main color.
 * Don't try to paint the Mona Lisa. Don't go overboard and waste tons of time; the icon should be nice-looking, but if necessary, ignore feedback you get unless it brings up real issues with the icon.
 * Make the character face ~45° to his left. That is, the eyes will be more on the right side when you look at the character. An icon with the character staring out of the screen is likely to be a bit creepy.
 

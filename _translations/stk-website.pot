@@ -165,7 +165,7 @@ msgstr ""
 msgid "Reddit"
 msgstr ""
 
-msgid "You can also look at the [archived old forum](https://forum.freegamedev.net/viewforum.php?f=16) for past discussions."
+msgid "You can also look at the [archived old forum](https://web.archive.org/web/20250831014534/https://forum.freegamedev.net/viewforum.php?f=16) for past discussions."
 msgstr ""
 
 msgid "You can also support us with a donation!"

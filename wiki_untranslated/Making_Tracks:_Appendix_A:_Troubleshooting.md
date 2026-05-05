@@ -2,7 +2,7 @@
 title: 'Making Tracks: Appendix A: Troubleshooting'
 display_title: true
 ---
-While the track-making process is usually fairly straightforward and the exporters usually work fine, problems can appear. If you can't find anything helpful on this page, feel free to look for your problem or ask for help on the [forum](https://forum.freegamedev.net/viewforum.php?f=16). Be sure to read the [Communication](Communication) page too, if you are posting on the forum.
+While the track-making process is usually fairly straightforward and the exporters usually work fine, problems can appear. If you can't find anything helpful on this page, feel free to look for your problem or ask for help on the [forum](https://forum.supertuxkart.net/). Be sure to read the [Communication](Communication) page too, if you are posting on the forum.
 
 {% start_liquid qa %}
 
