@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="ru" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Performance Testing - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Performance Testing">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="When to measure performance? There are a few situations that warrant measuring the game’s performance:">
+<meta property="og:locale" content="ru">
+<meta property="og:image" content="/assets/wiki/PerfTest_FPS_toolbar.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.packed_0_500px {
+    padding: 3px;
+    width: auto;
+    height: auto;
+}
+
+.packed_0_500px img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 500px;
+    max-width: 100%;
+}
+
+.packed_auto_min120_0 {
+    padding: 3px;
+    width: calc(100% / 1);
+    min-width: 120px;
+    height: auto;
+}
+
+.packed_auto_min120_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Меню</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/ru/Discover'><span class="translate">Обзор</span></a></li>
+            <li><a href='/ru/Download'><span class="translate">Скачать</span></a></li>
+            <li><a href='/ru/FAQ'><span class="translate">ЧаВо</span></a></li>
+            <li><a href='/Team'><span class="translate">Team</span></a></li>
+            <li><a href='/ru/Community'><span class="translate">Сообщество</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Блог</span></a></li>
+            <li><a class="donate-top-menu-link" href='/ru/Donate'><span class="translate">Поддержать</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Сервис</span></p>
+        <div class="toolbox-section"><p><span class="translate">Язык</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Performance_testing'>български</a></li><li id="language-selector-ca"><a href='/ca/Performance_testing'>Català</a></li><li id="language-selector-cs"><a href='/cs/Performance_testing'>Čeština</a></li><li id="language-selector-da"><a href='/da/Performance_testing'>Dansk</a></li><li id="language-selector-de"><a href='/de/Performance_testing'>Deutsch</a></li><li id="language-selector-en"><a href='/Performance_testing'>English</a></li><li id="language-selector-es"><a href='/es/Performance_testing'>Español</a></li><li id="language-selector-et"><a href='/et/Performance_testing'>Eesti keel</a></li><li id="language-selector-eu"><a href='/eu/Performance_testing'>Euskara</a></li><li id="language-selector-fi"><a href='/fi/Performance_testing'>Suomi</a></li><li id="language-selector-fil"><a href='/fil/Performance_testing'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/Performance_testing'>Français</a></li><li id="language-selector-gl"><a href='/gl/Performance_testing'>Galego</a></li><li id="language-selector-it"><a href='/it/Performance_testing'>Italiano</a></li><li id="language-selector-ko"><a href='/ko/Performance_testing'>한국어</a></li><li id="language-selector-nl"><a href='/nl/Performance_testing'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Performance_testing'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Performance_testing'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Performance_testing'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Performance_testing'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Performance_testing'>Slovenščina</a></li><li id="language-selector-sr"><a href='/sr/Performance_testing'>Српски</a></li><li id="language-selector-tr"><a href='/tr/Performance_testing'>Türkçe</a></li><li id="language-selector-uk"><a href='/uk/Performance_testing'>Українська</a></li><li id="language-selector-zh_CN"><a href='/zh_CN/Performance_testing'>中文（简体）</a></li><li id="language-selector-zh_TW"><a href='/zh_TW/Performance_testing'>中文（繁體）</a></li></ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/ru/Main_Page' title="Перейти на главную страницу">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Performance Testing</h1>
+<article>
+<ul id="results-container"></ul><!-- ru -->
+<h2 id="when-to-measure-performance">When to measure performance?</h2>
+
+<p>There are a few situations that warrant measuring the game’s performance:</p>
+<ul>
+  <li>Trying to optimize your settings to get the best balance of visual quality and smoothness for your taste.</li>
+  <li>Designing a track and <a href="/Making_Tracks:_Optimization">ensuring performance is good</a>. Even if it’s acceptable on your machine, think of players that might have weaker hardware.</li>
+  <li>Testing the effect of code changes that are supposed to improve performance or that carry a significant computational load that may degrade performance.</li>
+  <li>Or just <a href="https://forum.supertuxkart.net/thread-43.html">comparing your hardware’s performance with other users</a>.</li>
+</ul>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Содержимое</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Показать" data-hide-text="Скрыть" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#when-to-measure-performance" id="markdown-toc-when-to-measure-performance">When to measure performance?</a></li>
+  <li><a href="#using-the-built-in-fps-counter" id="markdown-toc-using-the-built-in-fps-counter">Using the built-in FPS counter</a></li>
+  <li><a href="#using-the-built-in-benchmark" id="markdown-toc-using-the-built-in-benchmark">Using the built-in benchmark</a></li>
+  <li><a href="#adding-a-custom-benchmark" id="markdown-toc-adding-a-custom-benchmark">Adding a custom benchmark</a></li>
+</ul>
+<h2 id="using-the-built-in-fps-counter">Using the built-in FPS counter</h2>
+
+<p>The built-in FPS counter’s main advantage is how easy it is to activate it : just go in the UI options and toggle the relevant checkbox.</p>
+
+<p>A purple bar then shows up at the top of your screen. It contains three FPS values : minimum FPS, current FPS, maximum FPS. It also contains a few other informations relevant for track creator such as the polycount.</p>
+
+<div class="gallery-container">
+<div class="packed_0_500px"><a href="/assets/wiki/PerfTest_FPS_toolbar.jpg" target="_blank"><img src="/assets/wiki/PerfTest_FPS_toolbar.jpg" alt="PerfTest_FPS_toolbar" /></a></div>
+</div>
+
+<p>However, this method suffers from several limitations: it is rater inaccurate, the current FPS value is a poor indicator as its doesn’t capture the effect of short spikes, and the values change between tests as the driving is different each time.</p>
+
+<p>This makes it impossible to reliably assess the effect of small performance changes (&lt;15%) or the significance of small stutters, which play a major role in perceived smoothness.</p>
+
+<h2 id="using-the-built-in-benchmark">Using the built-in benchmark</h2>
+
+<p>The built-in performance test available starting with SuperTuxKart 1.5 is a good solution to those issues.</p>
+
+<p><strong>Because it uses a replay, it is highly repeatable and even small differences of a few percent can be identified.</strong> The built-in replay uses the most demanding standard track, making it particularly useful for the optimization of graphics settings and the test of hardware performance.</p>
+
+<p>Note that your camera settings can also slightly influence the results as they change how much of the track the game has to render.</p>
+
+<div class="gallery-container">
+<div class="packed_0_500px"><a href="/assets/wiki/PerfTest_benchmark_results.jpg" target="_blank"><img src="/assets/wiki/PerfTest_benchmark_results.jpg" alt="PerfTest_benchmark_results" /></a></div>
+</div>
+
+<p>Furthermore, the metrics displayed at the end of the test give their proper importance to short spikes in frame duration that degrade player experience. This is explained in more detail in <a href="https://blog.supertuxkart.net/2024/07/why-average-fps-and-1-low-fps-are.html">the blog post presenting the benchmark tool</a>.</p>
+
+<p>To use it, simply go to the ‘Graphics’ options menu and click on the ‘Performance test of the current settings’ button.</p>
+
+<p><strong>Online multiplayer is noticeably more CPU-intensive than single player, so if you want to play online, you may want to include some extra margin.</strong></p>
+
+<h2 id="adding-a-custom-benchmark">Adding a custom benchmark</h2>
+
+<p>Finally, the last method is to use a custom replay with the built-in performance test tool. This allows to test any track of your choice.</p>
+
+<p>This is especially useful for track creators, who obviously need to test their own track and not one already present in the game. <strong>If you follow <a href="/Making_Tracks:_Optimization">the track optimization guide</a>, this is a great way to measure the effects of your changes.</strong></p>
+
+<p>The first step is to record a replay. Select time-trial mode, and after having selected your track simply check the appropriate checkbox to record your race.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Информация</span></b></div>
+<div class="popup-content">
+
+    <p>Depending on what system you are using, replay files can be found in one of the following folders:</p>
+
+    <p>On Windows:</p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">%APPDATA%\supertuxkart\replay</code></li>
+    </ul>
+
+    <p>On Linux:</p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">~/.local/share/supertuxkart/replay</code></li>
+    </ul>
+
+    <p>On Mac OS X:</p>
+
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">~/Library/Application Support/SuperTuxKart/Replay</code></li>
+    </ul>
+
+  </div>
+</div>
+
+<p>Once you have your replay, the next step is to tell the game to use it.</p>
+
+<p>With SuperTuxKart 1.5, the only way is to replace the contents of ‘benchmark_black_forest.replay’ located in the game’s ‘data/replay’ folder with the contents of your replay file, preferably after backing up the original file.</p>
+
+<p>With the latest development version, and, when they release, with SuperTuxKart 1.5.1 and SuperTuxKart Evolution, the game can detect multiple benchmark files.</p>
+
+<p>First add your file to the ‘data/replay’ folder, then open ‘stk_config.xml’ located in the ‘data’ folder and look for ‘benchmark’. Add another ‘file’ entry following the model of the one already present, with the name of your replay.</p>
+
+<div class="gallery-container">
+<div class="packed_auto_min120_0"><a href="/assets/wiki/PerfTest_custom_replay.png" target="_blank"><img src="/assets/wiki/PerfTest_custom_replay.png" alt="PerfTest_custom_replay" /></a></div>
+</div>
+
+<p>Once this is done, simply start the game and go to the ‘Graphics’ option menu. Below the button to start the test, you will find a new UI element with which you can select which of the available benchmark files you want to use.</p>
+
+<p>From this point on, everything is the same as for the standard built-in benchmark.</p>
+
+<p>The limitation of this method is that it relies on a replay, so it is currently not possible to test battle arenas and soccer fields without extra tricks.</p>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Сообщество</span></p>
+    <ul>
+        <li><a href='https://forum.supertuxkart.net/'><span class="translate">Форум</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Блог</span></a></li>
+        <li><a href='https://x.com/supertuxkart'><span class="translate">Twitter / X</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Дополнения</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Медиа</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/@SuperTuxKartOfficial?sub_confirmation=1'><span class="translate">Канал в YouTube</span></a></li>
+        <li><a href='/ru/Gallery'><span class="translate">Галерея</span></a></li>
+        <li><a href='/ru/Posters'><span class="translate">Постеры</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Разработка</span></p>
+    <ul>
+        <li><a href='/ru/Community'><span class="translate">Модификация</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">Хранилище GitHub</span></a></li>
+        <li><a href='https://sourceforge.net/p/supertuxkart/code/HEAD/tree/'><span class="translate">SVN</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">О нас</span></p>
+    <ul>
+        <li><a href='/ru/FAQ'><span class="translate">ЧаВо</span></a></li>
+        <li><a href='/Team'><span class="translate">О команде</span></a></li>
+        <li><a href='/ru/Discover'><span class="translate">О SuperTuxKart</span></a></li>
+        <li><a href='/ru/Projects'><span class="translate">Проекты, использующие SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2026
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script></body>
+</html>

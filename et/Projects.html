@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="et" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Projektid, milles kasutatakse SuperTuxKart - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Projektid, milles kasutatakse SuperTuxKart">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Due to the libre and open source nature of SuperTuxKart, the game is used in various research project, studies or simply prototypes made by fans.">
+<meta property="og:locale" content="et">
+<meta property="og:image" content="/generated/assets/wiki/Projects_DEFCON-800-af19e10b9.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.sidebar_400px_0 {
+    padding: 3px;
+    width: 400px;
+    height: auto;
+}
+
+.sidebar_400px_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menüü</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/et/Discover'><span class="translate">Lisateave</span></a></li>
+            <li><a href='/et/Download'><span class="translate">Alla laadida</span></a></li>
+            <li><a href='/et/FAQ'><span class="translate">KKK</span></a></li>
+            <li><a href='/Team'><span class="translate">Team</span></a></li>
+            <li><a href='/et/Community'><span class="translate">Osaleda</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Ajaveeb</span></a></li>
+            <li><a class="donate-top-menu-link" href='/et/Donate'><span class="translate">Annetada</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tööriistad</span></p>
+        <div class="toolbox-section"><p><span class="translate">Keel</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Projects'>български</a></li><li id="language-selector-ca"><a href='/ca/Projects'>Català</a></li><li id="language-selector-cs"><a href='/cs/Projects'>Čeština</a></li><li id="language-selector-da"><a href='/da/Projects'>Dansk</a></li><li id="language-selector-de"><a href='/de/Projects'>Deutsch</a></li><li id="language-selector-en"><a href='/Projects'>English</a></li><li id="language-selector-es"><a href='/es/Projects'>Español</a></li><li id="language-selector-et"><a href='/et/Projects'>Eesti keel</a></li><li id="language-selector-eu"><a href='/eu/Projects'>Euskara</a></li><li id="language-selector-fi"><a href='/fi/Projects'>Suomi</a></li><li id="language-selector-fil"><a href='/fil/Projects'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/Projects'>Français</a></li><li id="language-selector-gl"><a href='/gl/Projects'>Galego</a></li><li id="language-selector-it"><a href='/it/Projects'>Italiano</a></li><li id="language-selector-ko"><a href='/ko/Projects'>한국어</a></li><li id="language-selector-nl"><a href='/nl/Projects'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Projects'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Projects'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Projects'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Projects'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Projects'>Slovenščina</a></li><li id="language-selector-sr"><a href='/sr/Projects'>Српски</a></li><li id="language-selector-tr"><a href='/tr/Projects'>Türkçe</a></li><li id="language-selector-uk"><a href='/uk/Projects'>Українська</a></li><li id="language-selector-zh_CN"><a href='/zh_CN/Projects'>中文（简体）</a></li><li id="language-selector-zh_TW"><a href='/zh_TW/Projects'>中文（繁體）</a></li></ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/et/Main_Page' title="Külasta põhilehte">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Projektid, milles kasutatakse SuperTuxKart</h1>
+<article>
+<ul id="results-container"></ul><!-- et -->
+<p>Due to the libre and open source nature of SuperTuxKart, the game is used in various research project, studies or simply prototypes made by fans.</p>
+
+<p>On this page, you can discover various projects that have been done with our game.</p>
+
+<p>If you have a project using SuperTuxKart not listed here, or if you want to use the game in your own project, you can contact us.</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Sisu</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Näidata" data-hide-text="Peita" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#driver-development" id="markdown-toc-driver-development">Driver Development</a>    <ul>
+      <li><a href="#tyr" id="markdown-toc-tyr">Tyr</a></li>
+    </ul>
+  </li>
+  <li><a href="#technical-demonstrations" id="markdown-toc-technical-demonstrations">Technical Demonstrations</a>    <ul>
+      <li><a href="#a-mercedes-as-supertuxkart-controller" id="markdown-toc-a-mercedes-as-supertuxkart-controller">A Mercedes as SuperTuxKart Controller</a></li>
+      <li><a href="#cybersecurity-researchers-use-a-car-to-play-at-supertuxkart" id="markdown-toc-cybersecurity-researchers-use-a-car-to-play-at-supertuxkart">Cybersecurity Researchers Use a Car to Play at SuperTuxKart</a></li>
+      <li><a href="#microsoft-illumiroom-demo" id="markdown-toc-microsoft-illumiroom-demo">Microsoft IllumiRoom Demo</a></li>
+      <li><a href="#virtual-joystick-using-kinect" id="markdown-toc-virtual-joystick-using-kinect">Virtual Joystick using Kinect</a></li>
+    </ul>
+  </li>
+  <li><a href="#academic-research-and-teaching" id="markdown-toc-academic-research-and-teaching">Academic Research and Teaching</a>    <ul>
+      <li><a href="#a-reduction-of-imitation-learning-and-structured-prediction-to-no-regret-online-learning" id="markdown-toc-a-reduction-of-imitation-learning-and-structured-prediction-to-no-regret-online-learning">A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning</a></li>
+      <li><a href="#other-machine-learning-projects" id="markdown-toc-other-machine-learning-projects">Other Machine Learning Projects</a></li>
+      <li><a href="#game-based-rehabilitation-for-myoelectric-prosthesis-control" id="markdown-toc-game-based-rehabilitation-for-myoelectric-prosthesis-control">Game-Based Rehabilitation for Myoelectric Prosthesis Control</a></li>
+      <li><a href="#comparing-the-effectiveness-and-ergonomics-of-smartphone-based-gamepads" id="markdown-toc-comparing-the-effectiveness-and-ergonomics-of-smartphone-based-gamepads">Comparing the Effectiveness and Ergonomics of Smartphone-Based Gamepads</a></li>
+      <li><a href="#service-oriented-integration-of-supertuxkart" id="markdown-toc-service-oriented-integration-of-supertuxkart">Service-oriented Integration of SuperTuxKart</a></li>
+      <li><a href="#concepts-for-advanced-integration-of-supertuxkart-into-connected-cars" id="markdown-toc-concepts-for-advanced-integration-of-supertuxkart-into-connected-cars">Concepts for Advanced Integration of SuperTuxKart into Connected Cars</a></li>
+      <li><a href="#a-study-on-qoe-improvement-of-online-games-with-udp-multipathization-by-sdn" id="markdown-toc-a-study-on-qoe-improvement-of-online-games-with-udp-multipathization-by-sdn">A Study on QoE Improvement of Online Games with UDP Multipathization by SDN</a></li>
+      <li><a href="#teaching-video-game-translation-first-steps-systems-and-hands-on-experience" id="markdown-toc-teaching-video-game-translation-first-steps-systems-and-hands-on-experience">Teaching video game translation: first steps, systems and hands-on experience</a></li>
+      <li><a href="#localization-in-the-era-of-inclusivity" id="markdown-toc-localization-in-the-era-of-inclusivity">Localization in the Era of Inclusivity</a></li>
+      <li><a href="#towards-more-accurate-open-source-kart-race-balancing" id="markdown-toc-towards-more-accurate-open-source-kart-race-balancing">Towards More Accurate Open Source Kart Race Balancing</a></li>
+    </ul>
+  </li>
+  <li><a href="#fun-projects" id="markdown-toc-fun-projects">Fun projects</a>    <ul>
+      <li><a href="#controlling-a-stk-kart-with-hand-gestures" id="markdown-toc-controlling-a-stk-kart-with-hand-gestures">Controlling a STK kart with hand gestures</a></li>
+      <li><a href="#open-street-map" id="markdown-toc-open-street-map">Open Street Map</a></li>
+    </ul>
+  </li>
+</ul>
+<h2 id="driver-development">Driver Development</h2>
+
+<h3 id="tyr">Tyr</h3>
+
+<p>SuperTuxKart was used as a target for the development of Tyr, a driver for the Mali GPUs found in ARM SoCs, porting the C code of Panthor to Rust.</p>
+
+<p>In November 2025, Tyr’s ability to render SuperTuxKart races at low settings with reasonable performance for the tested SoC was showcased in Collabora’s <a href="https://www.collabora.com/news-and-blog/news-and-events/racing-karts-on-a-rust-gpu-kernel-driver.html">blog post about Tyr’s progress</a> as well as through <a href="https://www.youtube.com/watch?v=wX9cTGenBDk">a video</a> showing STK played with the new driver.</p>
+
+<h2 id="technical-demonstrations">Technical Demonstrations</h2>
+
+<h3 id="a-mercedes-as-supertuxkart-controller">A Mercedes as SuperTuxKart Controller</h3>
+
+<p>When it comes to driving a car in the real world, the big touchscreens that have become commonplace in modern cars are often distracting. And a real car is a tad expensive to use as a gaming device.</p>
+
+<p>Nonetheless, when Mercedes-Benz showcased SuperTuxKart being played with a car’s controls at the 2019 Mobile World Congress, <a href="https://www.theverge.com/2019/2/27/18243256/mario-kart-mercedes-benz-daimler-driving-game-mwc-2019">journalists were wowed</a>.</p>
+
+<p>Many outlets referred to ‘Mario Kart’ in their reporting, probably because any kart game is ‘Mario Kart’ to some, but it’s SuperTuxKart which powered this impressive demo. And perhaps this carelessness in naming could be seen as a testament to SuperTuxKart quality.</p>
+
+<p>STK’s open nature further allowed Mercedes to synchronize the car’s lighting, air conditioning and even seatbelt with in-game events, making the experience exceptional.</p>
+
+<div style="text-align: center; max-width: 100%;">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/DkEe8zKMhlA" title="SuperTuxKart being played in a Mercedes CLA at MWC 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" style="max-width: 640px;"></iframe>
+</div>
+
+<h3 id="cybersecurity-researchers-use-a-car-to-play-at-supertuxkart">Cybersecurity Researchers Use a Car to Play at SuperTuxKart</h3>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 2"><p>The Controller Area Network (CAN) bus is used by modern cars to pass on data between different parts of the vehicle.</p>
+
+<p>Intercepting and injecting messages on the CAN bus can allow hacking a car, for good or bad purposes. SuperTuxKart was used at least twice by cybersecurity researchers to demonstrate the interception of messages on the CAN bus:</p>
+<ul>
+  <li>In 2024, researchers from Darmstatd University showcased <a href="https://media.defcon.org/DEF%20CON%2032/DEF%20CON%2032%20presentations/DEF%20CON%2032%20-%20Timm%20Lauser%20Jannis%20Hamborg%20-%20Redefining%20V2G%20-%20How%20to%20use%20your%20vehicle%20as%20a%20game%20controller.pdf">in a DEFCON presentation</a> the use of intercepted CAN data from a Volkswagen ID.3 to play at SuperTuxKart using the car as a controller, using a separate screen placed in front of the car to display the game.</li>
+  <li>In 2025, security researchers from Pen Test Partners <a href="https://www.pentestpartners.com/security-blog/how-we-turned-a-real-car-into-a-mario-kart-controller-by-intercepting-can-data/">made a similar demo</a> on a 2016 Renault Clio.</li>
+</ul>
+</div><div class="gallery-sidebar-img" style="order: 1; --sidebar-width: 400px;"><a href="/assets/wiki/Projects_DEFCON.jpg" target="_blank"><img src="/generated/assets/wiki/Projects_DEFCON-800-af19e10b9.jpg" alt="A picture showing in the foreground the steering wheel and dashboard of a Volkswagen ID.3 with Tux driving in SuperTuxKart's Nessie's Pond visible on a screen in front of the car" srcset="/generated/assets/wiki/Projects_DEFCON-400-af19e10b9.jpg 400w, /generated/assets/wiki/Projects_DEFCON-800-af19e10b9.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">A Volkswagen ID.3 used as a SuperTuxKart gaming wheel</p>
+</div>
+</div>
+
+<h3 id="microsoft-illumiroom-demo">Microsoft IllumiRoom Demo</h3>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 1"><p><a href="https://www.microsoft.com/en-us/research/project/illumiroom-peripheral-projected-illusions-for-interactive-experiences/">IllumiRoom</a> was a proof-of-concept system from Microsoft Research.</p>
+
+<p>It used projected visualizations around a television screen to enhance the traditional living room entertainment experience.</p>
+
+<p>Showcased in 2013, it featured SuperTuxKart 0.8 in <a href="https://www.youtube.com/watch?v=re1EatGRV0w&amp;t=49s">its demo video</a>, with white circles projected on the wall representing falling snow.</p>
+</div><div class="gallery-sidebar-img" style="order: 2; --sidebar-width: 400px;"><a href="/assets/wiki/Projects_Illumiroom2.jpg" target="_blank"><img src="/generated/assets/wiki/Projects_Illumiroom2-750-3d7ef87b4.jpg" alt="A screenshot from Microsoft Illumiroom with Mozilla from SuperTuxKart 0.8 driving in Northern Resort and snow falling effect on the walls surrounding the TV screen" srcset="/generated/assets/wiki/Projects_Illumiroom2-400-3d7ef87b4.jpg 400w, /generated/assets/wiki/Projects_Illumiroom2-750-3d7ef87b4.jpg 750w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">Illumiroom with SuperTuxKart 0.8 on the TV</p>
+</div>
+</div>
+
+<h3 id="virtual-joystick-using-kinect">Virtual Joystick using Kinect</h3>
+
+<p>The <a href="https://pdfs.semanticscholar.org/b3f1/36317f77d67d269d09c2005254fe52baae49.pdf">Gesture Therapy platform</a> is a system for upper limb rehabilitation developed by a Mexican team.</p>
+
+<p>In 2013, to showcase the capabilities of the Virtual Joystick system it uses, they released a <a href="https://www.youtube.com/watch?v=8vSfHG7BHUk">demo video</a> showing the acceleration and steering of a kart in SuperTuxKart 0.8 being controlled through the movements of an arm.</p>
+
+<h2 id="academic-research-and-teaching">Academic Research and Teaching</h2>
+
+<h3 id="a-reduction-of-imitation-learning-and-structured-prediction-to-no-regret-online-learning">A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning</h3>
+
+<p><strong>A landmark paper from 2010 by Stéphane Ross &amp; al introducing the ‘DAgger’ method for machine learning</strong>, improving the methods of imitation learning. This paper is <a href="https://arstechnica.com/ai/2025/07/how-a-big-shift-in-training-llms-led-to-a-capability-explosion/">still referenced</a> well over a decade later. <strong>It used SuperTuxKart as a core part of its experiments.</strong></p>
+
+<p>The <a href="https://arxiv.org/pdf/1011.0686">full paper</a> is available as well as an <a href="https://www.youtube.com/watch?v=V00npNnWzSU">old video</a> showing the simple machine learning models attempting to drive.</p>
+
+<h3 id="other-machine-learning-projects">Other Machine Learning Projects</h3>
+
+<p>SuperTuxKart is used regularly by people learning machine learning at universities. Here are some example of such projects:</p>
+<ul>
+  <li>A 2022 project combining reinforcement learning with a transformer model to play STK races on Around the Lighthouse (<a href="https://github.com/vibalcam/deep-rl-supertux-race">Github repository</a> and <a href="https://github.com/vibalcam/deep-rl-supertux-race/blob/master/deep_rl_supertux_race_report.pdf">full paper</a>)</li>
+  <li>A 2020 project as <a href="https://github.com/jwgrogan/Super-Tux-Kart-AI">part of a course from the University of Texas</a> using deep learning to play STK’s Icy Soccer (<a href="https://github.com/vibalcam/SuperTuxKart-hockey">GitHub repository</a> and <a href="https://adivekar.com/files/UTCS-Deep-Learning-Final-Autonomous-agents-for-realtime-multiplayer-ice-hockey.pdf">full paper</a>).</li>
+</ul>
+
+<h3 id="game-based-rehabilitation-for-myoelectric-prosthesis-control">Game-Based Rehabilitation for Myoelectric Prosthesis Control</h3>
+
+<p>An <a href="https://games.jmir.org/2017/1/e3/">Austrian study from 2017</a> evaluating the use of video games for the rehabilitation of upper-limb amputees. As, according to the study, many ‘prosthesis users abandon their devices due to difficulties in prosthesis control’, it explored games as a way to make the training process more enjoyable and efficient.</p>
+
+<p>SuperTuxKart is one of the three games that was used as part of the study.</p>
+
+<h3 id="comparing-the-effectiveness-and-ergonomics-of-smartphone-based-gamepads">Comparing the Effectiveness and Ergonomics of Smartphone-Based Gamepads</h3>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 2"><p>A 2024 study from the University of Regensburg setting 24 people to drive in SuperTuxKart, comparing both their objective performance and subjective experience with different smartphone-based gamepads as well as a physical gamepad.</p>
+
+<p>The detailed methodology and results highlighted in the <a href="https://dl.acm.org/doi/fullHtml/10.1145/3670653.3670676">full paper</a> are very interesting.</p>
+
+<p>Many participants felt that the absence of shoulder triggers was the biggest limitation of the smartphone-based gamepads (and the STK team agrees).</p>
+
+<p>Smartphones with shoulder triggers are now available on the market. Through this study, SuperTuxKart is playing a small role in making them more common!</p>
+</div><div class="gallery-sidebar-img" style="order: 1; --sidebar-width: 400px;"><a href="/assets/wiki/Projects_gamepad_testing2.jpg" target="_blank"><img src="/generated/assets/wiki/Projects_gamepad_testing2-464-537c040e8.jpg" alt="A figure from a scientific paper comparing SuperTuxKart round times between a physical gamepad and smartphone-based gamepads" srcset="/generated/assets/wiki/Projects_gamepad_testing2-400-537c040e8.jpg 400w, /generated/assets/wiki/Projects_gamepad_testing2-464-537c040e8.jpg 464w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">The physical gamepad proved noticeably better, despite input latency being equalized between the tested devices.</p>
+</div>
+</div>
+
+<h3 id="service-oriented-integration-of-supertuxkart">Service-oriented Integration of SuperTuxKart</h3>
+
+<p>A <a href="https://dl.acm.org/doi/abs/10.1007/978-3-031-26507-5_33">paper from 2022</a> proposing the use of a REST API to make it easier for services to interface with the game, and presenting <a href="https://github.com/rpesl/stk-code">a possible implementation</a>.</p>
+
+<h3 id="concepts-for-advanced-integration-of-supertuxkart-into-connected-cars">Concepts for Advanced Integration of SuperTuxKart into Connected Cars</h3>
+
+<p>A detailed master’s thesis from the University of Stuttgart published in 2021 exploring how a connected car could be used to play games. The <a href="https://elib.uni-stuttgart.de/bitstream/11682/11901/1/Master%27s%20Thesis.pdf">full text is freely available</a>.</p>
+
+<h3 id="a-study-on-qoe-improvement-of-online-games-with-udp-multipathization-by-sdn">A Study on QoE Improvement of Online Games with UDP Multipathization by SDN</h3>
+
+<p>A <a href="https://www.shs-conferences.org/articles/shsconf/pdf/2020/05/shsconf_etltc2020_04004.pdf">paper from 2020</a> from the Nagoya Institute of Technology exploring the use of multipathization for online multiplayer. SuperTuxKart is one of the two games used in the study.</p>
+
+<h3 id="teaching-video-game-translation-first-steps-systems-and-hands-on-experience">Teaching video game translation: first steps, systems and hands-on experience</h3>
+
+<p>A Brazilian paper from 2018 published in <em>Texto Livre Linguagem e Tecnologia</em>, with <a href="https://www.researchgate.net/publication/326137347">the full research paper</a> freely available online. In section 3 ‘Why choose SuperTuxKart?’, the authors explain how SuperTuxKart’s open nature made it a natural fit for didactical purposes.</p>
+
+<h3 id="localization-in-the-era-of-inclusivity">Localization in the Era of Inclusivity</h3>
+
+<p>A master’s thesis from the University of Geneva published in 2024, <a href="https://access.archive-ouverte.unige.ch/access/metadata/43585e58-977a-46fb-b99b-1d513d6dda46/download">available in French</a>.</p>
+
+<h3 id="towards-more-accurate-open-source-kart-race-balancing">Towards More Accurate Open Source Kart Race Balancing</h3>
+
+<p>A <a href="https://ieeexplore.ieee.org/document/7048073/">paper from 2014</a> from the Central Michigan University comparing the powerup distribution between SuperTuxKart 0.8, Super Mario Kart, and Mario Kart 7.</p>
+
+<h2 id="fun-projects">Fun projects</h2>
+
+<h3 id="controlling-a-stk-kart-with-hand-gestures">Controlling a STK kart with hand gestures</h3>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 1"><p>A <a href="https://www.reddit.com/r/SuperTuxKart/comments/1hdfz35/playing_supertuxkart_with_my_gaming_chair/">fun project from 2024</a> used hand gestures and chair orientation to control a kart. A script emulated a joystick using the data from a vision recognition system identifying gestures and from a phone on the player’s chair which determined the turning angle depending on the chair’s orientation.</p>
+
+<p>The driving level possible with this control method is surprisingly good considering how funny it looks!</p>
+</div><div class="gallery-sidebar-img" style="order: 2; --sidebar-width: 400px;"><a href="/assets/wiki/Projects_Gaming_chair_controller.jpg" target="_blank"><img src="/generated/assets/wiki/Projects_Gaming_chair_controller-800-eb0ff5381.jpg" alt="A SuperTuxKart window and a camera feed where gestures are analyzed to drive a kart." srcset="/generated/assets/wiki/Projects_Gaming_chair_controller-400-eb0ff5381.jpg 400w, /generated/assets/wiki/Projects_Gaming_chair_controller-800-eb0ff5381.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<h3 id="open-street-map">Open Street Map</h3>
+
+<p>What about driving on the streets you know in SuperTuxKart? This is what a project from 2013 wanted to make possible, with a method using OpenStreetMap data and importing real world data explained <a href="https://wiki.openstreetmap.org/wiki/SuperTuxKart">on the project’s page</a>.</p>
+
+<p>As it requires the use of the now very old SuperTuxKart 0.7.3 and also a fair amount of manual work for good results, it is not very practical, but it shows how SuperTuxKart is a game uniquely suited for cool experiments.</p>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Kogukond</span></p>
+    <ul>
+        <li><a href='https://forum.supertuxkart.net/'><span class="translate">Foorum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Ajaveeb</span></a></li>
+        <li><a href='https://x.com/supertuxkart'><span class="translate">Twitter / X</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Lisandid</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Meedia jaoks</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/@SuperTuxKartOfficial?sub_confirmation=1'><span class="translate">YouTube</span></a></li>
+        <li><a href='/et/Gallery'><span class="translate">Galerii</span></a></li>
+        <li><a href='/et/Posters'><span class="translate">Plakatid</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Arendus</span></p>
+    <ul>
+        <li><a href='/et/Community'><span class="translate">Mänguarendus</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://sourceforge.net/p/supertuxkart/code/HEAD/tree/'><span class="translate">SVN</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Meie kohta</span></p>
+    <ul>
+        <li><a href='/et/FAQ'><span class="translate">KKK</span></a></li>
+        <li><a href='/Team'><span class="translate">Meeskonnast</span></a></li>
+        <li><a href='/et/Discover'><span class="translate">SuperTuxKartist</span></a></li>
+        <li><a href='/et/Projects'><span class="translate">Projektid, milles kasutatakse SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2026
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script></body>
+</html>

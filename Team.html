@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Team - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Team">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="..:: Meet the team behind the game ::.. Alayan: Project Leader, Lead Developer">
+<meta property="og:locale" content="en">
+<meta property="og:image" content="/assets/wiki/Alayan_icon.png"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.packed_0_74px {
+    padding: 3px;
+    width: auto;
+    height: auto;
+}
+
+.packed_0_74px img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: 74px;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menu</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/Discover'><span class="translate">Discover</span></a></li>
+            <li><a href='/Download'><span class="translate">Download</span></a></li>
+            <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/Team'><span class="translate">Team</span></a></li>
+            <li><a href='/Community'><span class="translate">Get Involved</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Blog</span></a></li>
+            <li><a class="donate-top-menu-link" href='/Donate'><span class="translate">Donate</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Tools</span></p>
+        <div class="toolbox-section"><p><span class="translate">Language</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-en"><a href='/Team'>English</a></li></ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/Main_Page' title="Visit the main page">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper">
+<article>
+<ul id="results-container"></ul><br/><h2 id="-meet-the-team-behind-the-game-" class="article_main_title">..:: Meet the team behind the game ::..</h2>
+
+<table class="character_container">
+<caption>Alayan: Project Leader, Lead Developer</caption>
+<tr><td>
+      <p><img src="/assets/wiki/Alayan_icon.png" alt="Alayan: Project Leader, Lead Developer" /></p>
+    </td><td class="character_description">
+      <p>Alayan began to play STK in the days of STK 0.7.3, and started to contribute actively in 2017, playing an important role in the lead up to the 1.0 release. Upon Hiker’s retirement from the project in 2019, Alayan became co-leader of STK. After a period away from the game, he came back in 2023 to lead efforts towards a new major version.</p>
+
+      <p>He maintains SuperTuxKart’s code, reviewing tickets and contributions and designing the changes for SuperTuxKart Evolution. He is also involved in many other facets of the project, coordinating the team’s efforts.</p>
+    </td></tr>
+</table>
+
+<table class="character_container">
+<caption>Sven: Lead Artist</caption>
+<tr><td class="character_description">
+      <p>Sven started to play STK in 2016 on a very old PC. Because of that he could only play the 0.8.1 version, although at that time 0.9.2 was the newest one. But still he started to learn blender to create his own tracks. After several addons, Black Forest was his first track used in the main game, and he has gone on to improve his artistic skills.</p>
+
+      <p>He is now working on many new tracks that will feature in SuperTuxKart Evolution, as well as updating existing tracks.</p>
+    </td><td>
+      <p><img src="/assets/wiki/Sven_icon.png" alt="Sven: Lead Artist" /></p>
+    </td></tr>
+</table>
+
+<table class="character_container">
+<caption>Samuncle: Executive Producer, Former Lead Artist</caption>
+<tr><td>
+      <p><img src="/assets/wiki/Samuncle_icon.png" alt="Samuncle: Executive Producer, Former Lead Artist" /></p>
+    </td><td class="character_description">
+      <p>Samuncle started contributing new tracks to STK when challenged to do better after criticizing what existed at the time. From 2010 to 2019, he strove to increase the game’s graphical quality, and he is behind many of STK’s most iconic tracks, such as Cocoa Temple and Gran Paradiso Island.</p>
+
+      <p>He has now rejoined the project to help bring about and promote SuperTuxKart Evolution.</p>
+    </td></tr>
+</table>
+
+<table class="character_container">
+<caption>BcfWorld: Online Services Manager</caption>
+<tr><td class="character_description">
+      <p>BcfWorld first discovered SuperTuxKart with version 1.1, and became involved in hosting online STK servers after 1.4. He became part of the team in 2025, when he helped move online services to a better, stronger server.</p>
+
+      <p>He’s now the primary caretaker for STK’s online services, and is leading efforts to create a more reliable and performant replacement for the outdated STK addons code.</p>
+    </td><td>
+      <p><img src="/assets/wiki/Bcf_icon.png" alt="BcfWorld: Online Services Manager" /></p>
+    </td></tr>
+</table>
+
+<h2 id="other-team-members" class="article_main_title">Other team members</h2>
+
+<ul>
+  <li>ALBatross: Composer</li>
+  <li>LLS: Blender scripts</li>
+  <li>Typhon: Artist</li>
+  <li>Vollstock: GUI designer</li>
+</ul>
+
+<h2 id="former-major-contributors" class="article_main_title">Former major contributors</h2>
+
+<table>
+<tr>
+<td class="character_presentation_small">
+<table class="character_container">
+<caption>Hiker: Former Project Leader</caption>
+<tr><td>
+            <p><img src="/assets/wiki/Hiker_icon.png" alt="Hiker: Former Project Leader" /></p>
+          </td><td class="character_description">
+            <p>Hiker revived the SuperTuxKart project in 2006, and led its development until the release of the 1.0 version in 2019. His considerable work laid the foundations upon which SuperTuxKart still rests today.</p>
+          </td></tr>
+</table>
+</td>
+
+
+<td class="character_presentation_small">
+<table class="character_container">
+<caption>Auria: Former Lead Programmer</caption>
+<tr><td class="character_description">
+            <p>For over ten years, Auria played a major role in STK’s development, contributing through code but also in many other ways according to the project’s needs.</p>
+          </td><td>
+            <p><img src="/assets/wiki/Auria_icon.png" alt="Auria: Former Lead Programmer" /></p>
+          </td></tr>
+</table>
+</td>
+
+
+</tr>
+
+<tr>
+<td class="character_presentation_small">
+<table class="character_container">
+<caption>Benau: Former Project Leader</caption>
+<tr><td>
+            <p><img src="/assets/wiki/Benau_icon.png" alt="Benau: Former Project Leader" /></p>
+          </td><td class="character_description">
+            <p>Benau started contributing in 2016, and became co-leader of STK after Hiker’s retirement in 2019, a role he occupied until 2025. His main contributions are found in the graphics and networking code.</p>
+          </td></tr>
+</table>
+</td>
+
+
+
+</tr>
+</table>
+
+<h2 id="former-contributors" class="article_main_title">Former Contributors</h2>
+
+<ul>
+  <li>Dawid Gan (Devee): Android port &amp; General improvements &amp; many many bugfixes</li>
+  <li>OzoneOne: Music</li>
+  <li>Csaba Molnar</li>
+  <li>Krobonil: Music</li>
+  <li>Stephen Just: Network &amp; Addon website</li>
+  <li>Daniel Butum: Network &amp; Addon website</li>
+  <li>Marc Coll: Grand Prix editor</li>
+  <li>Flakebi</li>
+  <li>Konstin</li>
+  <li>math07</li>
+  <li>Elderme: Work on graphical engine</li>
+  <li>QwertyChouskie</li>
+  <li>CodingJellyfish</li>
+  <li>Mrxx99</li>
+  <li>Riso</li>
+  <li>Richard Qian (Worldblender): <a href="https://github.com/supertuxkart/stk-blender">2.8x blender exporter</a></li>
+</ul>
+
+<h2 id="software-used-by-supertuxkart" class="article_main_title">Software used by SuperTuxKart</h2>
+
+<div class="gallery-container">
+<div class="packed_0_74px"><a href="https://www.blender.org" target="_blank"><img src="/assets/wiki/Blender_logo.png" alt="Blender_logo" /></a></div>
+<div class="packed_0_74px"><a href="http://www.bluez.org" target="_blank"><img src="/assets/wiki/Bluez_logo.jpg" alt="Bluez_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://pybullet.org/wordpress" target="_blank"><img src="/assets/wiki/Bullet_logo.png" alt="Bullet_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://curl.se" target="_blank"><img src="/assets/wiki/Curl_logo.png" alt="Curl_logo" /></a></div>
+<div class="packed_0_74px"><a href="http://enet.bespin.org" target="_blank"><img src="/assets/wiki/Enet_logo.jpg" alt="Enet_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://freetype.org" target="_blank"><img src="/assets/wiki/Freetype_logo.jpg" alt="Freetype_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://harfbuzz.github.io" target="_blank"><img src="/assets/wiki/Harfbuzz_logo.png" alt="Harfbuzz_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://irrlicht.sourceforge.io" target="_blank"><img src="/assets/wiki/Irrlicht_logo.png" alt="Irrlicht_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://jekyllrb.com" target="_blank"><img src="/assets/wiki/Jekyll_logo.png" alt="Jekyll_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://xiph.org/ogg" target="_blank"><img src="/assets/wiki/Ogg_logo.png" alt="Ogg_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://www.openal.org" target="_blank"><img src="/assets/wiki/Openal_logo.png" alt="Openal_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://www.opus-codec.org/" target="_blank"><img src="/assets/wiki/Opus_logo.png" alt="Opus_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://www.php.net" target="_blank"><img src="/assets/wiki/Php_logo.png" alt="Php_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://xiph.org/vorbis" target="_blank"><img src="/assets/wiki/Vorbis_logo.png" alt="Vorbis_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://github.com/wiiuse/wiiuse" target="_blank"><img src="/assets/wiki/Wiiuse_logo.jpg" alt="Wiiuse_logo" /></a></div>
+<div class="packed_0_74px"><a href="https://zlib.net" target="_blank"><img src="/assets/wiki/Zlib_logo.png" alt="Zlib_logo" /></a></div>
+</div>
+
+<h2 id="original-tuxkart" class="article_main_title">Original "TuxKart"</h2>
+
+<ul>
+  <li><a href="https://www.sjbaker.org">Steve Baker</a></li>
+  <li>Oliver Baker</li>
+</ul>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Community</span></p>
+    <ul>
+        <li><a href='https://forum.supertuxkart.net/'><span class="translate">Forum</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://x.com/supertuxkart'><span class="translate">Twitter / X</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Addons</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/@SuperTuxKartOfficial?sub_confirmation=1'><span class="translate">YouTube</span></a></li>
+        <li><a href='/Gallery'><span class="translate">Gallery</span></a></li>
+        <li><a href='/Posters'><span class="translate">Posters</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Development</span></p>
+    <ul>
+        <li><a href='/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://sourceforge.net/p/supertuxkart/code/HEAD/tree/'><span class="translate">SVN</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">About us</span></p>
+    <ul>
+        <li><a href='/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">About the team</span></a></li>
+        <li><a href='/Discover'><span class="translate">About SuperTuxKart</span></a></li>
+        <li><a href='/Projects'><span class="translate">Projects using SuperTuxKart</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2026
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script></body>
+</html>

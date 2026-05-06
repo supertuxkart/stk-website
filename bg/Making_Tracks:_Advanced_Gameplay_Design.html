@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="bg" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Making Tracks: Advanced Gameplay Design - Супер Тъкс Карт</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Making Tracks: Advanced Gameplay Design">
+<meta property="og:site_name" content="Супер Тъкс Карт">
+<meta property="og:description" content="When this page is finished, it will discuss the topics listed below and more :)">
+<meta property="og:locale" content="bg">
+<meta property="og:image" content="/generated/assets/wiki/Gameplay_small_slope-800-33c496da2.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.packed_32per_0 {
+    padding: 3px;
+    width: 32%;
+    height: auto;
+}
+
+.packed_32per_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Меню</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/bg/Discover'><span class="translate">Разгледайте</span></a></li>
+            <li><a href='/bg/Download'><span class="translate">Сваляне</span></a></li>
+            <li><a href='/bg/FAQ'><span class="translate">ЧЗВ</span></a></li>
+            <li><a href='/Team'><span class="translate">Team</span></a></li>
+            <li><a href='/bg/Community'><span class="translate">Включете се</span></a></li>
+            <li><a href="https://blog.supertuxkart.net/"><span class="translate">Блог</span></a></li>
+            <li><a class="donate-top-menu-link" href='/bg/Donate'><span class="translate">Даряване</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Инструменти</span></p>
+        <div class="toolbox-section"><p><span class="translate">Език</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Making_Tracks:_Advanced_Gameplay_Design'>български</a></li><li id="language-selector-ca"><a href='/ca/Making_Tracks:_Advanced_Gameplay_Design'>Català</a></li><li id="language-selector-cs"><a href='/cs/Making_Tracks:_Advanced_Gameplay_Design'>Čeština</a></li><li id="language-selector-da"><a href='/da/Making_Tracks:_Advanced_Gameplay_Design'>Dansk</a></li><li id="language-selector-de"><a href='/de/Making_Tracks:_Advanced_Gameplay_Design'>Deutsch</a></li><li id="language-selector-en"><a href='/Making_Tracks:_Advanced_Gameplay_Design'>English</a></li><li id="language-selector-es"><a href='/es/Making_Tracks:_Advanced_Gameplay_Design'>Español</a></li><li id="language-selector-et"><a href='/et/Making_Tracks:_Advanced_Gameplay_Design'>Eesti keel</a></li><li id="language-selector-eu"><a href='/eu/Making_Tracks:_Advanced_Gameplay_Design'>Euskara</a></li><li id="language-selector-fi"><a href='/fi/Making_Tracks:_Advanced_Gameplay_Design'>Suomi</a></li><li id="language-selector-fil"><a href='/fil/Making_Tracks:_Advanced_Gameplay_Design'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/Making_Tracks:_Advanced_Gameplay_Design'>Français</a></li><li id="language-selector-gl"><a href='/gl/Making_Tracks:_Advanced_Gameplay_Design'>Galego</a></li><li id="language-selector-it"><a href='/it/Making_Tracks:_Advanced_Gameplay_Design'>Italiano</a></li><li id="language-selector-ko"><a href='/ko/Making_Tracks:_Advanced_Gameplay_Design'>한국어</a></li><li id="language-selector-nl"><a href='/nl/Making_Tracks:_Advanced_Gameplay_Design'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Making_Tracks:_Advanced_Gameplay_Design'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Making_Tracks:_Advanced_Gameplay_Design'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Making_Tracks:_Advanced_Gameplay_Design'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Making_Tracks:_Advanced_Gameplay_Design'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Making_Tracks:_Advanced_Gameplay_Design'>Slovenščina</a></li><li id="language-selector-sr"><a href='/sr/Making_Tracks:_Advanced_Gameplay_Design'>Српски</a></li><li id="language-selector-tr"><a href='/tr/Making_Tracks:_Advanced_Gameplay_Design'>Türkçe</a></li><li id="language-selector-uk"><a href='/uk/Making_Tracks:_Advanced_Gameplay_Design'>Українська</a></li><li id="language-selector-zh_CN"><a href='/zh_CN/Making_Tracks:_Advanced_Gameplay_Design'>中文（简体）</a></li><li id="language-selector-zh_TW"><a href='/zh_TW/Making_Tracks:_Advanced_Gameplay_Design'>中文（繁體）</a></li></ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/bg/Main_Page' title="Към главната страница">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper"><h1 class="article-title">Making Tracks: Advanced Gameplay Design</h1>
+<article>
+<ul id="results-container"></ul><!-- bg -->
+<p>When this page is finished, it will discuss the topics listed below and more :)</p>
+
+<h2 id="toc_header" style="margin: 0px"><span class="translate">Съдържание</span></h2>
+<span id="markdown-opening-bracket"></span><input type="checkbox" id="markdown-callback"><label id="markdown-toggle" data-show-text="Показване" data-hide-text="Скриване" for="markdown-callback"></label><span id="markdown-closing-bracket"></span>
+<ul id="markdown-toc">
+  <li><a href="#elevation-changes" id="markdown-toc-elevation-changes">Elevation changes</a></li>
+  <li><a href="#ground-zippers" id="markdown-toc-ground-zippers">Ground zippers</a></li>
+  <li><a href="#alternative-paths" id="markdown-toc-alternative-paths">Alternative paths</a>    <ul>
+      <li><a href="#secret-paths" id="markdown-toc-secret-paths">Secret Paths</a></li>
+      <li><a href="#balancing-paths" id="markdown-toc-balancing-paths">Balancing paths</a></li>
+    </ul>
+  </li>
+  <li><a href="#jumps-and-cannons" id="markdown-toc-jumps-and-cannons">Jumps and Cannons</a>    <ul>
+      <li><a href="#jumps" id="markdown-toc-jumps">Jumps</a></li>
+      <li><a href="#cannons" id="markdown-toc-cannons">Cannons</a></li>
+    </ul>
+  </li>
+  <li><a href="#dynamic-elements" id="markdown-toc-dynamic-elements">Dynamic elements</a></li>
+  <li><a href="#gravity-changes" id="markdown-toc-gravity-changes">Gravity changes</a></li>
+</ul>
+<h2 id="elevation-changes">Elevation changes</h2>
+
+<p><strong>Elevation changes are an excellent way to make your track feel more fun for players.</strong> They give a sense of dynamism and change that help to keep players entertained, and they are an excellent tool to create beautiful views.</p>
+
+<p>The direct gameplay effect of driveable slopes is rather minor in SuperTuxKart, but karts have a more difficult time accelerating uphill and an easier time accelerating downhill so this can be used purposefully.</p>
+
+<p>Elevation changes can come in many different forms:</p>
+<ul>
+  <li>Short and moderate slopes mainly have a visual effect. This effect comes not only from how they look but also from how they affect the camera orientation as the player drives on them.</li>
+  <li>Long slopes with important elevation changes, which can be used to create breathtaking views as well as having meaningful effects on acceleration.</li>
+  <li>Road banking, which is particularly useful to increase the visibility of a curve.</li>
+  <li>Strong curvatures and sharp changes in elevation can be used to create jumps. This is discussed in more details in the <a href="#jumps-and-cannons">jump section</a>.</li>
+</ul>
+
+<div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/wiki/Gameplay_small_slope.jpg" target="_blank"><img src="/generated/assets/wiki/Gameplay_small_slope-800-33c496da2.jpg" alt="Pepper in front of a small wooden bridge in Black Forest" srcset="/generated/assets/wiki/Gameplay_small_slope-400-33c496da2.jpg 400w, /generated/assets/wiki/Gameplay_small_slope-800-33c496da2.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">A small slope over the bridge</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/wiki/Gameplay_banked_curve.jpg" target="_blank"><img src="/generated/assets/wiki/Gameplay_banked_curve-800-01d6cf6f1.jpg" alt="GNU in a long banked curve in the snowy landscape of Freytra Peaks" srcset="/generated/assets/wiki/Gameplay_banked_curve-400-01d6cf6f1.jpg 400w, /generated/assets/wiki/Gameplay_banked_curve-800-01d6cf6f1.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">A banked curve</p>
+</div>
+<div class="packed_32per_0"><a href="/assets/wiki/Gameplay_great_slope.jpg" target="_blank"><img src="/generated/assets/wiki/Gameplay_great_slope-800-4c4e5a5ec.jpg" alt="Pepper on a downhill road section in Black Forest with an uphill road section visible next and with houses and a combine harvester at work in the backround" srcset="/generated/assets/wiki/Gameplay_great_slope-400-4c4e5a5ec.jpg 400w, /generated/assets/wiki/Gameplay_great_slope-800-4c4e5a5ec.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a><p class="gallery-caption">A long slope</p>
+</div>
+</div>
+
+<p>When designing areas with elevation changes, it is important to keep in mind that <strong>the curvature chosen for slopes can significantly influence the track’s clarity.</strong> The principles from the Gameplay fundamentals page regarding <a href="/Making_Tracks:_Gameplay_Fundamentals#road-visibility-and-clarity">track clarity</a> contain practical advice in this regard.</p>
+
+<h2 id="ground-zippers">Ground zippers</h2>
+
+<p>Some ground zippers are good, but don’t abuse them.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Информация</span></b></div>
+<div class="popup-content">
+    <p>This section will be expanded at a later point.</p>
+
+  </div>
+</div>
+
+<h2 id="alternative-paths">Alternative paths</h2>
+
+<p>It should be done, but not overdone, common sections are important for player interaction.</p>
+
+<ul>
+  <li>Each track should have a main path that is fairly balanced and not too difficult to drive. Some tracks, of course, will be harder than others, but the most difficult sections should be kept for side roads and shortcuts.</li>
+</ul>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Информация</span></b></div>
+<div class="popup-content">
+    <p>This section will be expanded at a later point.</p>
+
+  </div>
+</div>
+
+<h3 id="secret-paths">Secret Paths</h3>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Информация</span></b></div>
+<div class="popup-content">
+    <p>This section will be expanded at a later point.</p>
+
+  </div>
+</div>
+
+<h3 id="balancing-paths">Balancing paths</h3>
+
+<ul>
+  <li>
+    <p>Alternate roads should not not allow for a shortcut unless there is some sort of risk in taking the shortcut. For example, there is shortcut in Gran Paradiso Island, but the player risks falling into the water.</p>
+  </li>
+  <li>
+    <p>Reward players for trying something unusual with items or a shortcut. For example, Zen Garden has some hidden nitros if you are careful.</p>
+  </li>
+</ul>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Информация</span></b></div>
+<div class="popup-content">
+    <p>This section will be expanded at a later point.</p>
+
+  </div>
+</div>
+
+<h2 id="jumps-and-cannons">Jumps and Cannons</h2>
+
+<h3 id="jumps">Jumps</h3>
+
+<p>In SuperTuxKart, there is no extra game mechanic tied to jumps, such as in some other games that reward pressing an input as you jump. This is partly historical, as most tracks didn’t offer jumps that could take advantage of such a mechanic, but it is mostly due to the very simplistic nature of such an interaction that hardly justifies requiring an extra button to play the game.</p>
+
+<p>But that doesn’t mean track creators shouldn’t use them! <strong>Jumps are largely perceived as enjoyable by players, and, when well designed, can bring an element of skill.</strong></p>
+
+<p>Of course, like with all good things, you shouldn’t overuse them. And jumps are not needed to make a good track either! They simply are a tool at the disposal of track-makers that can be used if it fits the track’s theming and its general gameplay.</p>
+
+<p>There are two major categories of jumps that come with different requirements:</p>
+<ul>
+  <li>Mandatory jumps, which cover the entire width of the road.</li>
+  <li>Optional jumps, which can be easily driven around or which require extremely high speed.</li>
+</ul>
+
+<p><strong>With mandatory jumps, you need all the players</strong>, even rather inexperienced ones playing in the lowest difficulty, <strong>to be able to complete the jump.</strong></p>
+
+<p>This usually means that there should either be no impassable area to jump over (e.g. in Volcano Island where a short jump lands the player in shallow waters that don’t prevent continuing on) or that there should be a zipper pad with a minimum speed to guarantee that the kart as enough velocity to cross the gap (e.g. in Cocoa Temple’s last jump).</p>
+
+<p>You should also be mindful of the landing area and of the shape of the road leading to the jump. Thankfully, SuperTuxKart’s physics are such that you don’t really have to worry about karts managing to land upright.</p>
+
+<p>The road should prepare the karts to be in the right orientation to land safely (a short straight is usually the safest way) and the landing area should be reasonably wide. It is fine, however, if it is possible to fail the jump by driving in a risky or stupid way, such as trying to take the jump while driving at a weird angle to the road. Make sure that rescue planes or walls are there to catch the karts in a sufficiently controlled fashion, however.</p>
+
+<p><strong>Optional jumps can be made more challenging as players can simply choose to avoid them.</strong> This difficulty can come in a few different ways: reduced visibility (e.g. to access Gran Paradiso’s alternate path), a narrower set of safe angles to land without crashing, a path leading to the jump that doesn’t automatically set the kart in the right angle, no safeguard to guarantee that the player goes fast enough to jump successfully. Starting with STK Evolution, this last method can be combined with moderate slowdown textures to reserve a jump for karts having an off-road bonus, through a zipper, an electro-shield, or a third-tier drift boost.</p>
+
+<p>Optional jumps don’t necessarily have to stand out visually: they can require the player falling down to a path that’s not clearly noticeable from the main path, or they can be a simple side-effect of a natural-looking track element that provide the small slope and rapid elevation change needed for a kart to become airborne.</p>
+
+<p>Of course, <strong>for the optional jump to make sense, the player has to be rewarded in some way</strong>. There are several methods that can be used for this purpose: the jump can allow to cut a corner and gain a bit of time, the jump can be located as part of a secret path (like in Cocoa Temple), there can be track items (such as nitro cans) that can be caught when taking the jump accurately.</p>
+
+<p>Please note that, for jumps that require a high speed to take off, <strong>the jumping characteristics of various kart classes <a href="https://blog.supertuxkart.net/2025/12/karting-without-hitch.html">have been mostly unified</a> in SuperTuxKart Evolution</strong>. In SuperTuxKart 1.5 and previous versions, heavy karts would take off much more easily, making jumps with a speed-based take-off impractical.</p>
+
+<p>Note finally that it is possible to design optional jumps that are not meant to be used by players, but which rather are meant to punish careless players using too many speed boosts before it. You should be careful to not make something too treacherous, but if a zipper or another powerup is required to get to the dangerous speeds, this is a fine design element.</p>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Информация</span></b></div>
+<div class="popup-content">
+    <p>This section will be expanded at a later point.</p>
+
+  </div>
+</div>
+
+<h3 id="cannons">Cannons</h3>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Информация</span></b></div>
+<div class="popup-content">
+    <p>This section will be expanded at a later point.</p>
+
+  </div>
+</div>
+
+<h2 id="dynamic-elements">Dynamic elements</h2>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Информация</span></b></div>
+<div class="popup-content">
+    <p>This section will be expanded at a later point.</p>
+
+  </div>
+</div>
+
+<h2 id="gravity-changes">Gravity changes</h2>
+
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Информация</span></b></div>
+<div class="popup-content">
+    <p>This section will be expanded at a later point.</p>
+
+  </div>
+</div>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div><p><span class="translate">Общност</span></p>
+    <ul>
+        <li><a href='https://forum.supertuxkart.net/'><span class="translate">Форум</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Блог</span></a></li>
+        <li><a href='https://x.com/supertuxkart'><span class="translate">Twitter / X</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Добавки</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Медии</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/@SuperTuxKartOfficial?sub_confirmation=1'><span class="translate">YouTube</span></a></li>
+        <li><a href='/bg/Gallery'><span class="translate">Галерия</span></a></li>
+        <li><a href='/bg/Posters'><span class="translate">Плакати</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">Разработка</span></p>
+    <ul>
+        <li><a href='/bg/Community'><span class="translate">Модификации</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://sourceforge.net/p/supertuxkart/code/HEAD/tree/'><span class="translate">SVN</span></a></li>
+    </ul>
+    </div>
+    <div><p><span class="translate">За нас</span></p>
+    <ul>
+        <li><a href='/bg/FAQ'><span class="translate">ЧЗВ</span></a></li>
+        <li><a href='/Team'><span class="translate">За екипа</span></a></li>
+        <li><a href='/bg/Discover'><span class="translate">За Супер Тъкс Карт</span></a></li>
+        <li><a href='/bg/Projects'><span class="translate">Проекти, използващи Супер Тъкс Карт</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2026
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script></body>
+</html>
