@@ -52,15 +52,23 @@ title: FAQ
 
 {% end_liquid %}
 
+{% capture question_free %}
+{%translate "Is SuperTuxKart really free?","FAQ page - question"%}
+{% endcapture %}
+
+{% capture answer_free %}
+{%translate "Yes! **SuperTuxKart is available for free, without any kind of active ads or microtransactions.**","FAQ page"%}
+
+{%translate "Some new tracks are available in early access for donators as part of our [gift package](Donate), they will however be made available to everyone for free in upcoming releases.","FAQ page"%}
+
+{%translate "The SuperTuxKart team has a firm belief that **software should respect and serve its users**. This means respecting privacy, but also being respectful of the users' time and fun. This disqualifies nearly all forms of advertisement. However, we may name sponsors in the credits, or include passive environmental advertising elements (like billboards near race tracks) provided they fit the game’s aesthetic.","FAQ page"%}
+{% endcapture %}
+
 {% start_liquid qa %}
 
-Is SuperTuxKart really free?
+{{ question_free }}
 
-Yes! **SuperTuxKart is available for free, without any kind of active ads or microtransactions.**
-
-Some new tracks are available in early access for donators as part of our [gift package](Donate), they will however be made available to everyone for free in upcoming releases.
-
-The SuperTuxKart team has a firm belief that **software should respect and serve its users**. This means respecting privacy, but also being respectful of the users' time and fun. This disqualifies nearly all forms of advertisement. However, we may name sponsors in the credits, or include passive environmental advertising elements (like billboards near race tracks) provided they fit the game’s aesthetic.
+{{ answer_free }}
 
 {% end_liquid %}
 

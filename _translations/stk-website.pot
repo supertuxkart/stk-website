@@ -681,6 +681,22 @@ msgid "SuperTuxKart is also available unofficially [on **iOS**](https://apps.app
 msgstr ""
 
 # FAQ page - question
+msgid "Is SuperTuxKart really free?"
+msgstr ""
+
+# FAQ page
+msgid "Yes! **SuperTuxKart is available for free, without any kind of active ads or microtransactions.**"
+msgstr ""
+
+# FAQ page
+msgid "Some new tracks are available in early access for donators as part of our [gift package](Donate), they will however be made available to everyone for free in upcoming releases."
+msgstr ""
+
+# FAQ page
+msgid "The SuperTuxKart team has a firm belief that **software should respect and serve its users**. This means respecting privacy, but also being respectful of the users' time and fun. This disqualifies nearly all forms of advertisement. However, we may name sponsors in the credits, or include passive environmental advertising elements (like billboards near race tracks) provided they fit the game’s aesthetic."
+msgstr ""
+
+# FAQ page - question
 msgid "What are the hardware requirements?"
 msgstr ""
 
