@@ -76,27 +76,27 @@ font-size: 1.4rem;
     font-size: 12px;
 }
 
-.character_presentation_small {
+.character_presentation_small, .presentation_small_with_flow {
    width: 50%;
    vertical-align: top;
 }
 
 @media only screen and (max-width: 480px) {
-    .character_presentation_small {
+    .character_presentation_small, .presentation_small_with_flow {
         display: block;
         height: auto;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    .character_presentation_small {
+    .character_presentation_small, .presentation_small_with_flow {
         display: block;
         width: 100%;
         height: auto;
     }
 }
 
-.character_container caption {
+.character_container caption, .presentation_container caption {
     background-color: #7ec283;
     padding-top: 1px;
     padding-bottom: 1px;

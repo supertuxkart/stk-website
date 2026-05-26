@@ -1,0 +1,20 @@
+<td class="presentation_small_with_flow">
+<table class="presentation_container">
+<caption>{{ include.name }}</caption>
+<tr>
+{%- if include.type == "odd" -%}
+<td>
+{% gallery mode=sidebar, widths={{ include.icon_width }}, picture_side=flow-left, text={{ include.description }}, icon_only=true
+{{ include.icon }},,,{{ include.alt_text }}
+%}
+</td>
+{%- else -%}
+<td>
+{% gallery mode=sidebar, widths={{ include.icon_width }}, picture_side=flow-right, text={{ include.description }}, icon_only=true
+{{ include.icon }},,,{{ include.alt_text }}
+%}
+</td>
+{%- endif -%}
+</tr>
+</table>
+</td>

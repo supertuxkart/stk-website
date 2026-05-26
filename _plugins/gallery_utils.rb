@@ -76,6 +76,10 @@ module GalleryUtils
             # Sidebar flow pictures stack up above the text in narrow
             # screens while normal sidebar pictures stack below.
             @sidebar_flow = false
+            # Disables the generation of a link to see the full picture
+            # and keep flows on even on narrow screens, as icons aren't
+            # particularly wide.
+            @icon_only = false
             param_exists = false
             if @images.length > 0
                 # The first line contains gallery parameters such as width
@@ -100,9 +104,13 @@ module GalleryUtils
                         @sidebar_text = value
                         @gallery_type = :sidebar
                         param_exists = true
+                    when :icon_only
+                        @icon_only = (value == "true")
+                        param_exists = true
                     end
                 end
             end
+
             if param_exists then
                 @images.delete(@images[0])
             end
@@ -135,10 +143,15 @@ module GalleryUtils
             end
             alt_text = c_alt_text.empty? ? File.basename(image, File.extname(image)) : c_alt_text
             @raw_params = image + ' --alt ' + alt_text
-            result = '<a href="' + href + '" target="_blank">' +
-                method(:render).super_method.call(context) + '</a>'
-            preset['link_source'] = orig_val
-            return result
+            if @icon_only
+                result = method(:render).super_method.call(context)
+                return result
+            else
+                result = '<a href="' + href + '" target="_blank">' +
+                    method(:render).super_method.call(context) + '</a>'
+                preset['link_source'] = orig_val
+                return result
+            end
         end
 
         # Used to parse a single line of gallery image data
@@ -200,11 +213,12 @@ module GalleryUtils
                 # Render the components (Liquid/Kramdown)
                 components = render_components(context, raw_data)
                 
-                img_html = get_img_content(context, components[:image], components[:caption], components[:href], components[:alt])
+                img_path = Liquid::Template.parse(components[:image]).render(context)
+                img_html = get_img_content(context, img_path, components[:caption], components[:href], components[:alt])
                 
                 if @gallery_type == :sidebar
                     img_order = (@sidebar_picture_location == 'left') ? '1' : '2'
-                    img_width = @widths == '0' ? 'auto' : @widths
+                    img_width = @widths == '0' ? 'auto' : Liquid::Template.parse(@widths).render(context)
                     # We use a variable to be able to override the value when wrapping is needed on small screens
                     img_style = 'style="order: ' + img_order + '; --sidebar-width: ' + img_width
                     if @sidebar_flow == false
@@ -215,7 +229,12 @@ module GalleryUtils
                         else
                             img_style += "; float: right; margin-left: 20px"
                         end
-                        result += '<div class="gallery-sidebar-flow-img" ' + img_style + ';">' + img_html
+                        if @icon_only
+                            result += '<div class="gallery-sidebar-flow-icon" ' + img_style + ';">' + img_html
+                        else
+                            result += '<div class="gallery-sidebar-flow-img" ' + img_style + ';">' + img_html
+                        end
+
                     end
                     if components[:caption].length > 0
                         result += components[:caption]
@@ -316,13 +335,13 @@ module GalleryUtils
     max-width: var(--sidebar-width, 50%);
 }
 
-.gallery-sidebar-flow-img {
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
     width: var(--sidebar-width, 50%);
     max-width: 100%;
     margin-bottom: 15px;
 }
 
-.gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -360,6 +379,7 @@ module GalleryUtils
         order: 3 !important;
     }
 
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
     .gallery-sidebar-flow-img {
         float: none !important;
         --sidebar-width: 100% !important;
