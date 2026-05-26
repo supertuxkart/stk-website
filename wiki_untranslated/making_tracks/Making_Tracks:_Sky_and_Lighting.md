@@ -78,7 +78,7 @@ Thanks to the support for dynamic shadows added in SuperTuxKart 0.9, most (if no
 /assets/wiki/STK_dynamicshadows.jpg
 %}
 
-## {% include_relative _Point_Lights.md %}
+## {% include _Point_Lights.md %}
 ## Ambient Light Map
 
 Ambient light maps, also known as image-based lighting or spherical harmonics lighting can be used in conjunction with the the color of the sun to affect the lighting of a track by simulating light bouncing off the image. An ambient light map, however, unlike changing sun color, allows for variable lighting across the scene.
@@ -104,5 +104,5 @@ With fog enabled, you can have volumetric lights. This creates a halo-like effec
 * **Fog End:** This is the distance from the camera at which objects are no longer visible through the fog.
 * **Fog Max:** This is the maximum density the fog can reach. This is useful to stop the fog from getting thicker even as objects get farther away.
 
-### {% include_relative _Volumetric_Lights.md %}
+### {% include _Volumetric_Lights.md %}
 {% include art_portal %}
