@@ -1631,6 +1631,42 @@ msgstr ""
 msgid "Distribution"
 msgstr ""
 
+# Powerups page - table header
+msgid "Game Mode"
+msgstr ""
+
+# Powerups page - table header
+msgid "Available"
+msgstr ""
+
+# Powerups page - table entry
+msgid "Normal Race"
+msgstr ""
+
+# Powerups page - table entry
+msgid "Soccer"
+msgstr ""
+
+# Powerups page - table entry
+msgid "Follow-the-Leader"
+msgstr ""
+
+# Powerups page - table entry
+msgid "Egg Hunt"
+msgstr ""
+
+# Powerups page - table entry
+msgid "Battle"
+msgstr ""
+
+# Powerups page - availability of a powerup in a game mode
+msgid "Yes"
+msgstr ""
+
+# Powerups page - availability of a powerup in a game mode
+msgid "No"
+msgstr ""
+
 # Powerups page - introduction
 msgid "**SuperTuxKart 1.5 features 9 distinct powerups** with varied effects. They can be obtained by collecting the gift boxes located on the track."
 msgstr ""

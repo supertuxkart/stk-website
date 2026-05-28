@@ -55,6 +55,42 @@ title: Powerups
 {%translate "Distribution","Powerups page - subsection title"%}
 {%- endcapture -%}
 
+{%- capture game_mode -%}
+{%translate "Game Mode","Powerups page - table header"%}
+{%- endcapture -%}
+
+{%- capture availability -%}
+{%translate "Available","Powerups page - table header"%}
+{%- endcapture -%}
+
+{%- capture race_name -%}
+{%translate "Normal Race","Powerups page - table entry"%}
+{%- endcapture -%}
+
+{%- capture soccer_name -%}
+{%translate "Soccer","Powerups page - table entry"%}
+{%- endcapture -%}
+
+{%- capture ftl_name -%}
+{%translate "Follow-the-Leader","Powerups page - table entry"%}
+{%- endcapture -%}
+
+{%- capture egg_name -%}
+{%translate "Egg Hunt","Powerups page - table entry"%}
+{%- endcapture -%}
+
+{%- capture battle_name -%}
+{%translate "Battle","Powerups page - table entry"%}
+{%- endcapture -%}
+
+{%- capture available_yes -%}
+{%translate "Yes","Powerups page - availability of a powerup in a game mode"%}
+{%- endcapture -%}
+
+{%- capture available_no -%}
+{%translate "No","Powerups page - availability of a powerup in a game mode"%}
+{%- endcapture -%}
+
 
 {%translate "**SuperTuxKart 1.5 features 9 distinct powerups** with varied effects. They can be obtained by collecting the gift boxes located on the track.","Powerups page - introduction"%}
 
@@ -97,6 +133,8 @@ title: Powerups
 {%translate "The bubblegum is relatively common for all positions in the race. It is most common for karts in bad positions.","Powerups page"%}
 
 {%translate "The karts that are furthest behind can also obtain the bubblegum in groups of 3.","Powerups page"%}
+
+{%include _Powerup_Table.md race="yes" ftl="yes" soccer="no" egg="no" battle="yes" %}
 {%- endcapture -%}
 
 {%- capture bubblegum_desc -%}
@@ -161,6 +199,8 @@ title: Powerups
 {%translate "The zipper can be obtained in any position, but it is much more common for bad positions than for good positions. It is the second most common powerup overall, and the most common for karts in bad positions.","Powerups page"%}
 
 {%translate "The karts that are furthest behind can also obtain the zippers in groups of 3.","Powerups page"%}
+
+{%include _Powerup_Table.md race="yes" ftl="yes" soccer="no" egg="no" battle="no" %}
 {%- endcapture -%}
 
 {%- capture zipper_desc -%}
@@ -219,6 +259,8 @@ title: Powerups
 
 {%- capture swatter_distribution -%}
 {%translate "The swatter is available for most positions in the race, but is more common in better positions, where it is particularly appreciated for its help against the threat of parachutes.","Powerups page"%}
+
+{%include _Powerup_Table.md race="yes" ftl="yes" soccer="yes" egg="yes" battle="yes" %}
 {%- endcapture -%}
 
 {%- capture swatter_desc -%}
@@ -284,6 +326,8 @@ title: Powerups
 {%translate "The bowling ball is SuperTuxKart's most common powerup. It is found in all positions, but is more common for karts in good positions.","Powerups page"%}
 
 {%translate "The bowling ball can be found in groups of 3. This is possible in most positions, but happens much more frequently for karts in bad positions.","Powerups page"%}
+
+{%include _Powerup_Table.md race="yes" ftl="yes" soccer="yes" egg="yes" battle="yes" %}
 {%- endcapture -%}
 
 {%- capture bowling_ball_desc -%}
@@ -351,6 +395,8 @@ title: Powerups
 
 {%- capture cake_distribution -%}
 {%translate "The cake is somewhat common for karts in relatively good positions, but rare for karts in bad positions or really near first place.","Powerups page"%}
+
+{%include _Powerup_Table.md race="yes" ftl="no" soccer="yes" egg="yes" battle="yes" %}
 {%- endcapture -%}
 
 {%- capture cake_desc -%}
@@ -412,6 +458,8 @@ title: Powerups
 {%translate "The plunger is a fairly common powerup. It is available for most positions in the race, but as it is a weaker powerup, it is much more common in good positions than in bad positions.","Powerups page"%}
 
 {%translate "It is also possible for karts in bad positions to get a set of 3 plungers, although that's fairly rare.","Powerups page"%}
+
+{%include _Powerup_Table.md race="yes" ftl="yes" soccer="no" egg="no" battle="no" %}
 {%- endcapture -%}
 
 {%- capture plunger_desc -%}
@@ -467,6 +515,8 @@ title: Powerups
 {%translate "The parachute is only available to karts in bad positions, being most common for the kart in last place.","Powerups page"%}
 
 {%translate "As a global item, the parachute is fairly rare. Races with many karts and races with few karts have a similar global occurrence.","Powerups page"%}
+
+{%include _Powerup_Table.md race="yes" ftl="yes" soccer="no" egg="no" battle="no" %}
 {%- endcapture -%}
 
 {%- capture parachute_desc -%}
@@ -537,6 +587,8 @@ title: Powerups
 {%translate "The basket ball is only available to karts in middle to bad positions. It becomes rarer as the parachute becomes more common.","Powerups page"%}
 
 {%translate "As a global item, the basket ball is fairly rare. Races with many karts and races with few karts have a similar global occurrence.","Powerups page"%}
+
+{%include _Powerup_Table.md race="yes" ftl="yes" soccer="no" egg="no" battle="no" %}
 {%- endcapture -%}
 
 {%- capture basket_ball_desc -%}
@@ -594,6 +646,8 @@ title: Powerups
 {%translate "The swapper is more common for karts in good positions and rarer for karts in bad positions.","Powerups page"%}
 
 {%translate "As a global powerup that affects all karts, the swapper is fairly rare. Races with many karts and races with few karts have a similar global occurrence.","Powerups page"%}
+
+{%include _Powerup_Table.md race="yes" ftl="yes" soccer="yes" egg="yes" battle="yes" %}
 {%- endcapture -%}
 
 {%- capture swapper_desc -%}
