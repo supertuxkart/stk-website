@@ -197,6 +197,46 @@ span[id="markdown-closing-bracket"]:before {
     -ms-user-select: none;
 }
 
+input[id^="qa"]:not(:checked) ~ .qa-answer table {
+    display: none !important;
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.qa-answer table {
+    margin-bottom: 1rem;
+    border-collapse: collapse; 
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.75);
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qa-answer table th, 
+.qa-answer table td {
+    padding: 8px 8px;
+    text-align: center;
+}
+
+.qa-answer table th {
+    background-color: #cccccc;
+    font-weight: bold;
+}
+
+.qa-answer table tr td {
+    border-top: 1px solid #444;
+}
+
+.qa-answer table th:not(:first-child),
+.qa-answer table td:not(:first-child) {
+    border-left: 1px solid #444;
+}
+
 /* css for unroll-boxes (same general principle as qa boxes but different styling) */
 .ubox-title {
     display: inline-block;
