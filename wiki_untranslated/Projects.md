@@ -76,13 +76,29 @@ toc: true
 
 ## {%translate "Academic Research and Teaching","Projects page - section title"%}
 
+### {%translate "Python SuperTuxKart","Projects page - section title"%}
+
+{%translate "[Python SuperTuxKart](https://github.com/philkr/pystk) is a project started in 2019 by Philipp Krähenbühl for use in machine-learning projects.","Projects page"%}
+
+{%translate "A heavily modified and specialized derivative, based on what is now an old version of the game, it adds a python interface to make it easy for ML projects to experiment and get access to game internals, while removing much of what human players would find essential.","Projects page"%}
+
+{%translate "Python SuperTuxKart has been used in some of the papers mentioned below.","Projects page"%}
+
 ### {%translate "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning","Projects page - section title"%}
 
 {%translate "**A landmark paper from 2010 by Stéphane Ross & al introducing the 'DAgger' method for machine learning**, improving the methods of imitation learning. This paper is [still referenced](https://arstechnica.com/ai/2025/07/how-a-big-shift-in-training-llms-led-to-a-capability-explosion/) well over a decade later. **It used SuperTuxKart as a core part of its experiments.**","Projects page"%}
 
 {%translate "The [full paper](https://arxiv.org/pdf/1011.0686) is available as well as an [old video](https://www.youtube.com/watch?v=V00npNnWzSU) showing the simple machine learning models attempting to drive.","Projects page"%}
 
-### {%translate "Other Machine Learning Projects","Projects page - section title"%}
+### {%translate "Using Reinforcement Learning for Load Testing of Video Games","Projects page - section title"%}
+
+{%translate "An [Italo-Swiss paper from 2022](https://sscalabrino.github.io/files/2022/ICSE2022UsingReinforcementLearning.pdf) exploring the use of an automated agent to find low FPS areas within a game, which used [PySuperTuxKart](Projects#python-supertuxkart).","Projects page"%}
+
+{%translate "While the authors are optimistic about their results, a more sober assessment is that the entire approach is extraordinarily inefficient and impractical.","Projects page"%}
+
+{%translate "It requires a lot of work to set up and a massive use of compute, all to produce a hyper-specialized model that just drives around one track and is trained for one graphical preset, and which is completely unable to handle most scenarios that would actually be relevant for performance (such as many karts driving on the road, collisions, purposefully going off-road, networking)...","Projects page"%}
+
+### {%translate "Miscellaneous Machine Learning Projects","Projects page - section title"%}
 
 {%translate "SuperTuxKart is used regularly by people learning machine learning at universities. Here are some example of such projects:","Projects page"%}
 * {%translate "A 2022 project combining reinforcement learning with a transformer model to play STK races on Around the Lighthouse ([Github repository](https://github.com/vibalcam/deep-rl-supertux-race) and [full paper](https://github.com/vibalcam/deep-rl-supertux-race/blob/master/deep_rl_supertux_race_report.pdf))","Projects page"%}

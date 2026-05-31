@@ -2399,6 +2399,22 @@ msgid "Academic Research and Teaching"
 msgstr ""
 
 # Projects page - section title
+msgid "Python SuperTuxKart"
+msgstr ""
+
+# Projects page
+msgid "[Python SuperTuxKart](https://github.com/philkr/pystk) is a project started in 2019 by Philipp Krähenbühl for use in machine-learning projects."
+msgstr ""
+
+# Projects page
+msgid "A heavily modified and specialized derivative, based on what is now an old version of the game, it adds a python interface to make it easy for ML projects to experiment and get access to game internals, while removing much of what human players would find essential."
+msgstr ""
+
+# Projects page
+msgid "Python SuperTuxKart has been used in some of the papers mentioned below."
+msgstr ""
+
+# Projects page - section title
 msgid "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning"
 msgstr ""
 
@@ -2411,7 +2427,23 @@ msgid "The [full paper](https://arxiv.org/pdf/1011.0686) is available as well as
 msgstr ""
 
 # Projects page - section title
-msgid "Other Machine Learning Projects"
+msgid "Using Reinforcement Learning for Load Testing of Video Games"
+msgstr ""
+
+# Projects page
+msgid "An [Italo-Swiss paper from 2022](https://sscalabrino.github.io/files/2022/ICSE2022UsingReinforcementLearning.pdf) exploring the use of an automated agent to find low FPS areas within a game, which used [PySuperTuxKart](Projects#python-supertuxkart)."
+msgstr ""
+
+# Projects page
+msgid "While the authors are optimistic about their results, a more sober assessment is that the entire approach is extraordinarily inefficient and impractical."
+msgstr ""
+
+# Projects page
+msgid "It requires a lot of work to set up and a massive use of compute, all to produce a hyper-specialized model that just drives around one track and is trained for one graphical preset, and which is completely unable to handle most scenarios that would actually be relevant for performance (such as many karts driving on the road, collisions, purposefully going off-road, networking)..."
+msgstr ""
+
+# Projects page - section title
+msgid "Miscellaneous Machine Learning Projects"
 msgstr ""
 
 # Projects page
