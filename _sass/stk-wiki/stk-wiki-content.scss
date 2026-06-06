@@ -304,7 +304,7 @@ input:checked + .ubox-title h2::after {
     -ms-user-select: none;
 }
 
-#art_portal_nav
+#art_portal_nav, #code_portal_nav, #discover_portal_nav
 {
     background-color: rgba(0, 0, 0, 0.9);
     display: flex;
@@ -315,7 +315,7 @@ input:checked + .ubox-title h2::after {
     padding-left: 15px;
 }
 
-.art_portal_nav_item
+.art_portal_nav_item, .code_portal_nav_item, .discover_portal_nav_item
 {
     display: flex;
     flex-grow: 1;
@@ -326,60 +326,19 @@ input:checked + .ubox-title h2::after {
     padding: 10px;
 }
 
-.art_portal_nav_text a
+.art_portal_nav_text a, .code_portal_nav_text a, .discover_portal_nav_text a
 {
     color: white;
     font-weight: bold;
     transition: color .15s;
 }
 
-.art_portal_nav_text a:hover
+.art_portal_nav_text a:hover, .code_portal_nav_text a:hover, .discover_portal_nav_text a:hover
 {
     color: orange;
 }
 
-#special_return_to_art_portal
-{
-    background-color: #16a085;
-    padding-right: 20px;
-    margin-right: 5px;
-}
-
-#code_portal_nav
-{
-    background-color: rgba(0, 0, 0, 0.9);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 15px;
-    padding-left: 15px;
-}
-
-.code_portal_nav_item
-{
-    display: flex;
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: auto;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-}
-
-.code_portal_nav_text a
-{
-    color: white;
-    font-weight: bold;
-    transition: color .15s;
-}
-
-.code_portal_nav_text a:hover
-{
-    color: orange;
-}
-
-#special_return_to_code_portal
+#special_return_to_art_portal, #special_return_to_code_portal, #special_return_to_discover_portal
 {
     background-color: #16a085;
     padding-right: 20px;

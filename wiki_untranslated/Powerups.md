@@ -741,3 +741,5 @@ title: Powerups
 {{ past_versions_content }}
 
 {% end_liquid %}
+
+{% include discover_portal %}
