@@ -31,7 +31,6 @@ Other team members
 
 * ALBatross: Composer
 * LLS: Blender scripts
-* Typhon: Artist
 * Vollstock: GUI designer
 
 {% start_liquid main_title %}

@@ -370,7 +370,7 @@ title: FAQ
 {% capture answer_powerup %}
 {%translate "SuperTuxKart 1.5 features 9 different powerups: zipper, bubblegum, plunger, bowling-ball, cake, swatter, parachute, basket-ball, and swapper (also known as switch).","FAQ page"%}
 
-{%translate "Check the in-game help menu for more details.","FAQ page"%}
+{%translate "Check our [Powerups page](Powerups) or the in-game help menu for more details.","FAQ page"%}
 {% endcapture %}
 
 {% start_liquid qa %}

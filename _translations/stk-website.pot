@@ -1008,7 +1008,7 @@ msgid "SuperTuxKart 1.5 features 9 different powerups: zipper, bubblegum, plunge
 msgstr ""
 
 # FAQ page
-msgid "Check the in-game help menu for more details."
+msgid "Check our [Powerups page](Powerups) or the in-game help menu for more details."
 msgstr ""
 
 # FAQ page - question
