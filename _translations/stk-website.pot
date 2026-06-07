@@ -131,6 +131,9 @@ msgstr ""
 msgid "About SuperTuxKart"
 msgstr ""
 
+msgid "Terms and conditions"
+msgstr ""
+
 # Title of info popup which describes extra info
 msgid "Info"
 msgstr ""
@@ -393,9 +396,6 @@ msgid "Reporting Problems"
 msgstr ""
 
 msgid "Voice Acting"
-msgstr ""
-
-msgid "Terms and conditions"
 msgstr ""
 
 msgid "Privacy policy"
