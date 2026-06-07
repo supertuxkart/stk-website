@@ -442,14 +442,152 @@ msgstr ""
 msgid "Creating"
 msgstr ""
 
-# Page title of discover page
+# Discover page - page title
 msgid "Welcome to the Mascot Kingdom!"
 msgstr ""
 
+# Discover page
 msgid "Karts. Nitro. Action! SuperTuxKart is a 3D open-source arcade racer with a variety of characters, tracks, and modes to play. Our aim is to create a game that is more fun than realistic, and provide an enjoyable experience for all ages."
 msgstr ""
 
+# Discover page
 msgid "In Story mode, you must face the evil Nolok, and defeat him in order to make the Mascot Kingdom safe once again! You can race by yourself against the computer, compete in several Grand Prix cups, or try to beat your fastest time in Time Trial mode. You can also race, battle or play soccer with up to eight friends on a single computer, play on a local network or play online with other players all over the world."
+msgstr ""
+
+# Discover page - section title
+msgid "Exciting tracks"
+msgstr ""
+
+# Discover page
+msgid "**SuperTuxKart 1.5 features 21 official tracks**, as well as two gift package tracks that will become part of the base game with STK Evolution."
+msgstr ""
+
+# Discover page
+msgid "SuperTuxKart's tracks offer many environments, from snowy mountains to tropical jungles, from underground tunnels to spaceships."
+msgstr ""
+
+# Discover page
+msgid "There is also a wide variety in gameplay, including alternative paths and secret paths just waiting to be discovered."
+msgstr ""
+
+# Discover page
+msgid "**Dozens of fun addon tracks can also be installed** within the game to keep the experience fresh."
+msgstr ""
+
+# Discover page - section title
+msgid "Endearing characters"
+msgstr ""
+
+# Discover page
+msgid "SuperTuxKart 1.5 offers 18 official karts, within three different kart classes."
+msgstr ""
+
+# Discover page
+msgid "Many of SuperTuxKart's characters are mascots of open-source projects, including Tux the penguin. Get to know them better by visiting our [Characters page](Characters)!"
+msgstr ""
+
+# Discover page
+msgid "Hundreds of additional karts are also available as addons."
+msgstr ""
+
+# Discover page - section title
+msgid "Varied powerups"
+msgstr ""
+
+# Discover page
+msgid "There are 9 different powerups available in SuperTuxKart 1.5, which players can collect in gift boxes."
+msgstr ""
+
+# Discover page
+msgid "Players in worse positions get better powerups to help them catch up, but there is also a lot of skill involved to get the most out of the powerups you receive."
+msgstr ""
+
+# Discover page
+msgid "Visit our [Powerups page](Powerups) for more details: from quick overviews to detailed explanations about how each powerup work and usage tips, it is a treasure trove of information."
+msgstr ""
+
+# Discover page - section title
+msgid "Many game modes"
+msgstr ""
+
+# Discover page
+msgid "**Racing with powerups is SuperTuxKart's core game mode**, with Story Mode offering challenges centered around racing to unlock all the game's content."
+msgstr ""
+
+# Discover page
+msgid "Some additional game modes are based on racing: **Time-Trial** allows players to test their raw driving skills without powerups; Follow-the-Leader is an elimination race."
+msgstr ""
+
+# Discover page
+msgid "Other game modes bring a twist to the concept of a kart game: in **Egg Hunt**, players have to explore tracks to find the hidden eggs; in **Soccer**, a team-based mode with a dedicated online community, each team tries to score more goals; while Battle mode focuses on using powerups to attack other karts."
+msgstr ""
+
+# Discover page - section title
+msgid "Millions of downloads"
+msgstr ""
+
+# Discover page
+msgid "SuperTuxKart has a worldwide community, with **over 6 million downloads and installations** across [Google Play](https://play.google.com/store/apps/details?id=org.supertuxkart.stk), [SourceForge](https://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/stats/timeline?dates=2007-03-09%20to%202026-06-07), [GitHub](https://api.github.com/repos/supertuxkart/stk-code/releases) and [Flathub](https://flathub.org/en/apps/net.supertuxkart.SuperTuxKart). This figure doesn't include numerous installations through sources such as Linux package managers and website mirrors."
+msgstr ""
+
+# Discover page
+msgid "**Every day, over 100 players create a new SuperTuxKart online account.**"
+msgstr ""
+
+# Discover page - section title
+msgid "Twenty years of history"
+msgstr ""
+
+# Discover page
+msgid "Powered by the passion of its contributors, **SuperTuxKart as a project has been in development for over 20 years.**"
+msgstr ""
+
+# Discover page
+msgid "During this time period, SuperTuxKart has improved tremendously, with considerable changes in every aspect of the game, allowing it to remain the foremost reference for libre and open-source games."
+msgstr ""
+
+# Discover page
+msgid "Check out [our illustrated history of SuperTuxKart](History_of_SuperTuxKart) to discover more."
+msgstr ""
+
+# Discover page - section title
+msgid "The team behind the game"
+msgstr ""
+
+# Discover page
+msgid "The SuperTuxKart project is currently led by **Alayan** and **Sven**. BcfWorld, Samuncle and LLS are also part of the team. For many years, the project was led by **Hiker** and **Auria**."
+msgstr ""
+
+# Discover page
+msgid "Thanks to the libre and open-source nature of SuperTuxKart, hundreds of people have contributed over the years, ensuring the project always stays alive."
+msgstr ""
+
+# Discover page
+msgid "You can find more information about the people behind SuperTuxKart on our [Team](Team) page!"
+msgstr ""
+
+# Discover page - section title
+msgid "SuperTuxKart Evolution"
+msgstr ""
+
+# Discover page
+msgid "**SuperTuxKart Evolution is our project's next major release, designed as a new game within the same game series.**"
+msgstr ""
+
+# Discover page
+msgid "It will bring major updates to all aspects of the game, with new tracks, new karts, improved game mechanics, new powerups, improve graphical quality, and more. A [general overview](https://blog.supertuxkart.net/2025/09/supertuxkart-evolution-roadmap.html) is available on our blog."
+msgstr ""
+
+# Discover page
+msgid "You can find more information about the project and how to stay informed about it in [our FAQ](FAQ#supertuxkart-evolution)."
+msgstr ""
+
+# Discover page - section title
+msgid "Start racing now!"
+msgstr ""
+
+# Discover page
+msgid "Head to [our Download page](Download) to get the latest SuperTuxKart version for your device!"
 msgstr ""
 
 # Section title in the Donate page
@@ -915,10 +1053,6 @@ msgstr ""
 
 # FAQ page
 msgid "Simply participating in the community, and promoting SuperTuxKart through word-of-mouth, are also small ways to help!"
-msgstr ""
-
-# FAQ page - section title
-msgid "SuperTuxKart Evolution"
 msgstr ""
 
 # FAQ page - question
