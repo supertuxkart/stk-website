@@ -27,6 +27,9 @@ msgstr ""
 msgid "Performance Testing"
 msgstr ""
 
+msgid "News"
+msgstr ""
+
 msgid "Making Tracks: Advanced Gameplay Design"
 msgstr ""
 
@@ -73,13 +76,7 @@ msgstr ""
 msgid "Menu"
 msgstr ""
 
-msgid "Team"
-msgstr ""
-
 msgid "Get Involved"
-msgstr ""
-
-msgid "Blog"
 msgstr ""
 
 # Dropdown menu which shows language selection, etc.
@@ -93,6 +90,9 @@ msgid "Visit the main page"
 msgstr ""
 
 msgid "Forum"
+msgstr ""
+
+msgid "Blog"
 msgstr ""
 
 msgid "Twitter / X"
@@ -1638,6 +1638,25 @@ msgid "A banked curve"
 msgstr ""
 
 msgid "A long slope"
+msgstr ""
+
+# News page - introduction
+msgid "**News about SuperTuxKart's development are posted on [our blog](https://blog.supertuxkart.net/)** for major announcements and in-depth articles, **as well as on [our patreon page](https://members.supertuxkart.net/)** for frequent small articles about the game's development."
+msgstr ""
+
+# News page - introduction
+msgid "You can also follow our [official YouTube channel](https://www.youtube.com/@SuperTuxKartOfficial?sub_confirmation=1) to be notified of new videos, or check out recent development activity on [GitHub](https://github.com/supertuxkart/stk-code/activity)."
+msgstr ""
+
+# News page - introduction
+msgid "You can find below excerpts and links to the latest news about SuperTuxKart."
+msgstr ""
+
+msgid "Latest Patreon Posts"
+msgstr ""
+
+# News page - end of the patreon subsection
+msgid "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. They are available for everybody."
 msgstr ""
 
 msgid "When to measure performance?"

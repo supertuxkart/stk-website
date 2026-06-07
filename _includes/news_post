@@ -1,0 +1,15 @@
+<tr class="small_news_row">
+<td class="small_news_picture" markdown="3">
+{% gallery heights=80px
+{{ include.image }},,{{ include.link }}
+%}
+</td>
+<td class="small_news_title" markdown="3">
+<a href="{{ include.link }}" target="_blank">
+<strong>{{ include.title }}</strong>
+</a>
+</td>
+<td class="small_news_date" markdown="1">
+{{ include.date }}
+</td>
+</tr>
