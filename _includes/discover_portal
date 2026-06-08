@@ -15,4 +15,9 @@
         <a href="Characters">{%translate_span Characters%}</a>
     </span>
     </li>
+    <li class="discover_portal_nav_item">
+    <span class="discover_portal_nav_text">
+        <a href="History_of_SuperTuxKart">{%translate_span The History of SuperTuxKart%}</a>
+    </span>
+    </li>
 </ul>
