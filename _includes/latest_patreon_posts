@@ -1,4 +1,7 @@
 <table>
+
+{% include news_post title="Refining Zen Garden (#1)" link="https://members.supertuxkart.net/posts/refining-zen-1-160546265/" date="2026-06-08" image="assets/blog/ZenGarden_1_thumb.jpg" %}
+
 {% include news_post title="Hot Cocoa Temple (#2)" link="https://members.supertuxkart.net/posts/hot-cocoa-temple-160272298/" date="2026-06-05" image="assets/blog/hotCocoa2_thumb.jpg" %}
 
 {% include news_post title="A nicer Black Forest (#3)" link="https://members.supertuxkart.net/posts/nicer-black-3-159855877" date="2026-06-01" image="assets/blog/nicerBlackForest3_thumb.jpg" %}
