@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="A brighter Candela City (#2)" link="https://members.supertuxkart.net/posts/brighter-candela-160920308" date="2026-06-12" image="assets/blog/brighterCandela2_thumb.jpg" %}
+
 {% include news_post title="Refining Zen Garden (#1)" link="https://members.supertuxkart.net/posts/refining-zen-1-160546265/" date="2026-06-08" image="assets/blog/ZenGarden_1_thumb.jpg" %}
 
 {% include news_post title="Hot Cocoa Temple (#2)" link="https://members.supertuxkart.net/posts/hot-cocoa-temple-160272298/" date="2026-06-05" image="assets/blog/hotCocoa2_thumb.jpg" %}
@@ -9,8 +11,6 @@
 {% include news_post title="New Powerups page" link="https://members.supertuxkart.net/posts/new-powerups-159497279" date="2026-05-28" image="assets/blog/powerupsPage_thumb.png" %}
 
 {% include news_post title="Firing backwards with a single button" link="https://members.supertuxkart.net/posts/firing-backwards-159224307" date="2026-05-25" image="assets/blog/fireBack_thumb.jpg" %}
-
-{% include news_post title="A brighter Candela City (#1)" link="https://members.supertuxkart.net/posts/brighter-candela-158643328" date="2026-05-21" image="assets/blog/brighterCandela1_thumb.jpg" %}
 </table>
 
 {%translate "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. They are available for everybody.","News page - end of the patreon subsection"%}
