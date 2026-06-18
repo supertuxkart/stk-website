@@ -110,6 +110,7 @@ title: FAQ
 
 {%translate "**Optional**","FAQ page"%}
 
+* {%translate "A display with a refresh rate of 120Hz or higher. SuperTuxKart is perfectly playable and fun on ordinary 60Hz displays, but the smoother motion and reduced input latency from high refresh rate displays further enhances the playing experience.","FAQ page"%}
 * {%translate "(If you prefer playing with a gamepad) A gamepad with at least 6 buttons.","FAQ page"%}
 
 {% endcapture %}
