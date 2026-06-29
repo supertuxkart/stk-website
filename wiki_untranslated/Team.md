@@ -32,6 +32,8 @@ Other team members
 * ALBatross: Composer
 * LLS: Blender scripts
 * Vollstock: GUI designer
+* Mish7913: Kart making and 3D animations
+* ZAQraven: Kart making
 
 {% start_liquid main_title %}
 
