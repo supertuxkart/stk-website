@@ -1659,7 +1659,7 @@ msgstr ""
 msgid "Latest Patreon Posts"
 msgstr ""
 
-# News page - end of the patreon subsection
+# News page - patreon subsection
 msgid "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. They are available for everybody."
 msgstr ""
 

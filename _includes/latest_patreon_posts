@@ -1,5 +1,9 @@
 <table>
 
+{% include news_post title="New Fort Magma (#3)" link="https://members.supertuxkart.net/posts/new-fort-magma-3-161435443" date="2026-07-03" image="assets/blog/newFortMagma3_thumb.jpg" %}
+
+{% include news_post title="Hot Cocoa Temple (#3)" link="https://members.supertuxkart.net/posts/hot-cocoa-temple-162253107" date="2026-07-01" image="assets/blog/hotCocoa3_thumb.jpg" %}
+
 {% include news_post title="New Fort Magma (#2)" link="https://members.supertuxkart.net/posts/new-fort-magma-2-161435354" date="2026-06-29" image="assets/blog/newFortMagma2_thumb.jpg" %}
 
 {% include news_post title="What do you most like in SuperTuxKart?" link="https://members.supertuxkart.net/posts/what-do-you-most-162166791" date="2026-06-26" image="assets/blog/Poll_thumb.jpg" %}
@@ -7,10 +11,6 @@
 {% include news_post title="All headlights on!" link="https://members.supertuxkart.net/posts/all-headlights-161799060" date="2026-06-22" image="assets/blog/Headlights_thumb.jpg" %}
 
 {% include news_post title="New Fort Magma (#1)" link="https://members.supertuxkart.net/posts/new-fort-magma-1-161432383" date="2026-06-18" image="assets/blog/newFortMagma1_thumb.jpg" %}
-
-{% include news_post title="Sweet sweet swatter" link="https://members.supertuxkart.net/posts/sweet-sweet-161180001" date="2026-06-15" image="assets/blog/swatterMotion_thumb.jpg" %}
-
-{% include news_post title="A brighter Candela City (#2)" link="https://members.supertuxkart.net/posts/brighter-candela-160920308" date="2026-06-12" image="assets/blog/brighterCandela2_thumb.jpg" %}
 </table>
 
-{%translate "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. They are available for everybody.","News page - end of the patreon subsection"%}
+{%translate "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. They are available for everybody.","News page - patreon subsection"%}
