@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="A nicer Black Forest (#5)" link="https://members.supertuxkart.net/posts/nicer-black-5-163592252" date="2026-07-16" image="assets/blog/nicerBlackForest5_thumb.jpg" %}
+
 {% include news_post title="New Fort Magma (#4)" link="https://members.supertuxkart.net/posts/new-fort-magma-4-162171024/" date="2026-07-13" image="assets/blog/newFortMagma4_thumb.jpg" %}
 
 {% include news_post title="A brighter Candela City (#3)" link="https://members.supertuxkart.net/posts/brighter-candela-162364623" date="2026-07-09" image="assets/blog/brighterCandela3_thumb.jpg" %}
@@ -10,7 +12,6 @@
 
 {% include news_post title="Hot Cocoa Temple (#3)" link="https://members.supertuxkart.net/posts/hot-cocoa-temple-162253107" date="2026-07-01" image="assets/blog/hotCocoa3_thumb.jpg" %}
 
-{% include news_post title="New Fort Magma (#2)" link="https://members.supertuxkart.net/posts/new-fort-magma-2-161435354" date="2026-06-29" image="assets/blog/newFortMagma2_thumb.jpg" %}
 </table>
 
 {%translate "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. They are available for everybody.","News page - patreon subsection"%}
