@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="Hot Cocoa Temple (#4)" link="https://members.supertuxkart.net/posts/hot-cocoa-temple-163598874" date="2026-07-20" image="assets/blog/hotCocoa4_thumb.jpg" %}
+
 {% include news_post title="A nicer Black Forest (#5)" link="https://members.supertuxkart.net/posts/nicer-black-5-163592252" date="2026-07-16" image="assets/blog/nicerBlackForest5_thumb.jpg" %}
 
 {% include news_post title="New Fort Magma (#4)" link="https://members.supertuxkart.net/posts/new-fort-magma-4-162171024/" date="2026-07-13" image="assets/blog/newFortMagma4_thumb.jpg" %}
@@ -10,7 +12,6 @@
 
 {% include news_post title="New Fort Magma (#3)" link="https://members.supertuxkart.net/posts/new-fort-magma-3-161435443" date="2026-07-03" image="assets/blog/newFortMagma3_thumb.jpg" %}
 
-{% include news_post title="Hot Cocoa Temple (#3)" link="https://members.supertuxkart.net/posts/hot-cocoa-temple-162253107" date="2026-07-01" image="assets/blog/hotCocoa3_thumb.jpg" %}
 
 </table>
 
