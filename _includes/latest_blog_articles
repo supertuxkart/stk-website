@@ -1,4 +1,18 @@
 {% blog_article
+The Electro-Shield, a new powerup for SuperTuxKart Evolution
+
+One of the great novelties that will come with SuperTuxKart Evolution is an expanded powerup set, to increase the fun of new and experienced players alike.
+
+In this blog post, [we take a deep dive into the electro-shield](https://blog.supertuxkart.net/2026/07/the-electro-shield-new-powerup-for.html), the first of the new powerups, looking at how we designed it and how it works.
+
+July 12, 2026 by Alayan
+%}
+
+{% gallery widths=90%
+/assets/blog/Blog_electro-shield_thumb.jpg,,https://blog.supertuxkart.net/2026/07/the-electro-shield-new-powerup-for.html,A picture featuring the SuperTuxKart Evolution logo and showcasing a new powerup called the electro-shield
+%}
+
+{% blog_article
 SuperTuxKart Evolution's new logo
 
 With a new game comes the need for a new logo. Thanks to a new contributor, we now have a beautiful one.
