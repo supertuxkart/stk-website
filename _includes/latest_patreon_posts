@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="A nicer Black Forest (#6)" link="https://members.supertuxkart.net/posts/nicer-black-6-163600108" date="2026-07-27" image="assets/blog/nicerBlackForest6_thumb.jpg" %}
+
 {% include news_post title="New Fort Magma (#5)" link="https://members.supertuxkart.net/posts/new-fort-magma-5-163594188" date="2026-07-23" image="assets/blog/newFortMagma5_thumb.jpg
 " %}
 
@@ -10,10 +12,6 @@
 {% include news_post title="New Fort Magma (#4)" link="https://members.supertuxkart.net/posts/new-fort-magma-4-162171024/" date="2026-07-13" image="assets/blog/newFortMagma4_thumb.jpg" %}
 
 {% include news_post title="A brighter Candela City (#3)" link="https://members.supertuxkart.net/posts/brighter-candela-162364623" date="2026-07-09" image="assets/blog/brighterCandela3_thumb.jpg" %}
-
-{% include news_post title="A nicer Black Forest (#4)" link="https://members.supertuxkart.net/posts/nicer-black-4-162361229" date="2026-07-06" image="assets/blog/nicerBlackForest4_thumb.jpg" %}
-
-
 
 </table>
 
