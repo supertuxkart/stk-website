@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="Rendering more lights" link="https://members.supertuxkart.net/posts/rendering-more-165353846" date="2026-08-03" image="assets/blog/moreLights_thumb.jpg" %}
+
 {% include news_post title="A new cow for SuperTuxKart Evolution" link="https://members.supertuxkart.net/posts/new-cow-for-165285335" date="2026-07-30" image="assets/blog/newCow_thumb.jpg" %}
 
 {% include news_post title="A nicer Black Forest (#6)" link="https://members.supertuxkart.net/posts/nicer-black-6-163600108" date="2026-07-27" image="assets/blog/nicerBlackForest6_thumb.jpg" %}
@@ -9,8 +11,6 @@
 {% include news_post title="Hot Cocoa Temple (#4)" link="https://members.supertuxkart.net/posts/hot-cocoa-temple-163598874" date="2026-07-20" image="assets/blog/hotCocoa4_thumb.jpg" %}
 
 {% include news_post title="A nicer Black Forest (#5)" link="https://members.supertuxkart.net/posts/nicer-black-5-163592252" date="2026-07-16" image="assets/blog/nicerBlackForest5_thumb.jpg" %}
-
-{% include news_post title="New Fort Magma (#4)" link="https://members.supertuxkart.net/posts/new-fort-magma-4-162171024/" date="2026-07-13" image="assets/blog/newFortMagma4_thumb.jpg" %}
 
 </table>
 
