@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="A crop of changes for Cornfield Crossing (#1)" link="https://members.supertuxkart.net/posts/crop-of-changes-166306643" date="2026-08-10" image="assets/blog/cropChangesCornfield1_thumb.jpg" %}
+
 {% include news_post title="New Fort Magma (#6)" link="https://members.supertuxkart.net/posts/new-fort-magma-6-163596344" date="2026-08-06" image="assets/blog/newFortMagma6_thumb.jpg" %}
 
 {% include news_post title="Rendering more lights" link="https://members.supertuxkart.net/posts/rendering-more-165353846" date="2026-08-03" image="assets/blog/moreLights_thumb.jpg" %}
@@ -9,8 +11,6 @@
 {% include news_post title="A nicer Black Forest (#6)" link="https://members.supertuxkart.net/posts/nicer-black-6-163600108" date="2026-07-27" image="assets/blog/nicerBlackForest6_thumb.jpg" %}
 
 {% include news_post title="New Fort Magma (#5)" link="https://members.supertuxkart.net/posts/new-fort-magma-5-163594188" date="2026-07-23" image="assets/blog/newFortMagma5_thumb.jpg" %}
-
-{% include news_post title="Hot Cocoa Temple (#4)" link="https://members.supertuxkart.net/posts/hot-cocoa-temple-163598874" date="2026-07-20" image="assets/blog/hotCocoa4_thumb.jpg" %}
 
 </table>
 
