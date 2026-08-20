@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  stk-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+     - 4000:4000
+     - 35729:35729
+    environment: 
+     - BUNDLE_GEMFILE=Gemfile
+    volumes:
+     - .:/srv/jekyll
+     - website:/srv/jekyll/_site
+    command: bundle exec jekyll serve --host 0.0.0.0 --force_polling --livereload
+volumes:
+  website:

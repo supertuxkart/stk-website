@@ -1,0 +1,2719 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="es" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Powerups - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Powerups">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="SuperTuxKart 1.5&#39;s Powerups SuperTuxKart 1.5 features 9 distinct powerups with varied effects. They can be obtained by collecting the gift boxes located on the track.">
+<meta property="og:locale" content="es">
+<meta property="og:image" content="/generated/assets/wiki/Powerup_bubblegum_icon-128-8ee10e3ba.png"/>
+<style>
+
+input[id="qa0-callback"] {
+    display: none;
+}
+
+input[id="qa0-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa1-callback"] {
+    display: none;
+}
+
+input[id="qa1-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa2-callback"] {
+    display: none;
+}
+
+input[id="qa2-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.sidebar__0 {
+    padding: 3px;
+    width: ;
+    height: auto;
+}
+
+.sidebar__0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+input[id="qa3-callback"] {
+    display: none;
+}
+
+input[id="qa3-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa4-callback"] {
+    display: none;
+}
+
+input[id="qa4-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa5-callback"] {
+    display: none;
+}
+
+input[id="qa5-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.sidebar__0 {
+    padding: 3px;
+    width: ;
+    height: auto;
+}
+
+.sidebar__0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+input[id="qa6-callback"] {
+    display: none;
+}
+
+input[id="qa6-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa7-callback"] {
+    display: none;
+}
+
+input[id="qa7-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa8-callback"] {
+    display: none;
+}
+
+input[id="qa8-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.sidebar__0 {
+    padding: 3px;
+    width: ;
+    height: auto;
+}
+
+.sidebar__0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+input[id="qa9-callback"] {
+    display: none;
+}
+
+input[id="qa9-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa10-callback"] {
+    display: none;
+}
+
+input[id="qa10-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa11-callback"] {
+    display: none;
+}
+
+input[id="qa11-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.sidebar__0 {
+    padding: 3px;
+    width: ;
+    height: auto;
+}
+
+.sidebar__0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+input[id="qa12-callback"] {
+    display: none;
+}
+
+input[id="qa12-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa13-callback"] {
+    display: none;
+}
+
+input[id="qa13-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa14-callback"] {
+    display: none;
+}
+
+input[id="qa14-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.sidebar__0 {
+    padding: 3px;
+    width: ;
+    height: auto;
+}
+
+.sidebar__0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+input[id="qa15-callback"] {
+    display: none;
+}
+
+input[id="qa15-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa16-callback"] {
+    display: none;
+}
+
+input[id="qa16-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa17-callback"] {
+    display: none;
+}
+
+input[id="qa17-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.sidebar__0 {
+    padding: 3px;
+    width: ;
+    height: auto;
+}
+
+.sidebar__0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+input[id="qa18-callback"] {
+    display: none;
+}
+
+input[id="qa18-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa19-callback"] {
+    display: none;
+}
+
+input[id="qa19-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa20-callback"] {
+    display: none;
+}
+
+input[id="qa20-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.sidebar__0 {
+    padding: 3px;
+    width: ;
+    height: auto;
+}
+
+.sidebar__0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+input[id="qa21-callback"] {
+    display: none;
+}
+
+input[id="qa21-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa22-callback"] {
+    display: none;
+}
+
+input[id="qa22-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa23-callback"] {
+    display: none;
+}
+
+input[id="qa23-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.sidebar__0 {
+    padding: 3px;
+    width: ;
+    height: auto;
+}
+
+.sidebar__0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+input[id="qa24-callback"] {
+    display: none;
+}
+
+input[id="qa24-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa25-callback"] {
+    display: none;
+}
+
+input[id="qa25-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+input[id="qa26-callback"] {
+    display: none;
+}
+
+input[id="qa26-callback"]:checked + .qa-question + .qa-answer {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 15px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.25s, padding 0.25s, font-size 0.25s, opacity 0.25s 0.25s;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.sidebar__0 {
+    padding: 3px;
+    width: ;
+    height: auto;
+}
+
+.sidebar__0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.packed_100per_0 {
+    padding: 3px;
+    width: 100%;
+    height: auto;
+}
+
+.packed_100per_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+input[id="ubox0-callback"] {
+    display: none;
+}
+
+input[id="ubox0-callback"]:checked + .ubox-title + .ubox-boxcontent {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 1rem;
+    opacity: 1.0;
+    transition: margin 0.35s, padding 0.35s, font-size 0.35s, opacity 0.35s 0.35s;
+    /* This has to be a value larger than the max possible height of the box content */
+    max-height: 8000px; 
+    transition: max-height 0.35s ease-in;
+    user-select: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Menú</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/es/Discover'><span class="translate">Descubrir</span></a></li>
+            <li><a href='/es/News'><span class="translate">News</span></a></li>
+            <li><a href='/es/Download'><span class="translate">Descargar</span></a></li>
+            <li><a href='/es/FAQ'><span class="translate">FAQ</span></a></li>
+            <li><a href='/es/Community'><span class="translate">Participa</span></a></li>
+            <li><a class="donate-top-menu-link" href='/es/Donate'><span class="translate">Dona</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Herramientas</span></p>
+        <div class="toolbox-section"><p><span class="translate">Idioma</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Powerups'>български</a></li><li id="language-selector-ca"><a href='/ca/Powerups'>Català</a></li><li id="language-selector-cs"><a href='/cs/Powerups'>Čeština</a></li><li id="language-selector-da"><a href='/da/Powerups'>Dansk</a></li><li id="language-selector-de"><a href='/de/Powerups'>Deutsch</a></li><li id="language-selector-en"><a href='/Powerups'>English</a></li><li id="language-selector-es"><a href='/es/Powerups'>Español</a></li><li id="language-selector-et"><a href='/et/Powerups'>Eesti keel</a></li><li id="language-selector-eu"><a href='/eu/Powerups'>Euskara</a></li><li id="language-selector-fi"><a href='/fi/Powerups'>Suomi</a></li><li id="language-selector-fil"><a href='/fil/Powerups'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/Powerups'>Français</a></li><li id="language-selector-gl"><a href='/gl/Powerups'>Galego</a></li><li id="language-selector-it"><a href='/it/Powerups'>Italiano</a></li><li id="language-selector-ko"><a href='/ko/Powerups'>한국어</a></li><li id="language-selector-nl"><a href='/nl/Powerups'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Powerups'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Powerups'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Powerups'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Powerups'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Powerups'>Slovenščina</a></li><li id="language-selector-sr"><a href='/sr/Powerups'>Српски</a></li><li id="language-selector-tr"><a href='/tr/Powerups'>Türkçe</a></li><li id="language-selector-uk"><a href='/uk/Powerups'>Українська</a></li><li id="language-selector-zh_CN"><a href='/zh_CN/Powerups'>中文（简体）</a></li><li id="language-selector-zh_TW"><a href='/zh_TW/Powerups'>中文（繁體）</a></li></ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/es/Main_Page' title="Visita la página principal">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper">
+<article>
+<ul id="results-container"></ul><br/><!-- es -->
+<h2 id="supertuxkart-15s-powerups-" class="article_main_title">SuperTuxKart 1.5's Powerups </h2>
+<p><strong>SuperTuxKart 1.5 features 9 distinct powerups</strong> with varied effects. They can be obtained by collecting the gift boxes located on the track.</p>
+
+<p>The distribution of powerups in SuperTuxKart depends on kart position and on the total number of karts, with karts further back getting better powerups to help them catch up. The strength of this catch up effect is moderate compared to typical kart-racing games. In modes without positions, all karts share the same distribution.</p>
+
+<p>If a new gift box is collected, the new randomly selected powerup replaces the previously held powerup, unless it happens to be a powerup of the same type, in which case the amount held increases (for example, a kart holding one cake and collecting another cake will hold two cakes).</p>
+
+<p>When collecting a powerup with a gift box, <strong>it is also possible to get some powerups in groups of 3</strong>.</p>
+
+<p><strong>Several powerups produce a different effect or are launched in a different direction if used while looking towards the back.</strong></p>
+
+<p>Finally, it should be noted that if a kart is hit by one of the exploding powerups (basket ball, bowling ball, or cake), it will receive a temporary immunity lasting 7 seconds, protecting against all attacking powerups. This is meant to limit situations where a kart is hit again while vulnerable because of a previous attack.</p>
+
+<table>
+<tr><td class="presentation_small_with_flow">
+<table class="presentation_container">
+<caption>Bubblegum</caption>
+<tr><td>
+<div class="gallery-sidebar-flow"><div class="gallery-sidebar-flow-icon" style="order: 1; --sidebar-width: 128px; float: left; margin-right: 20px;"><img src="/generated/assets/wiki/Powerup_bubblegum_icon-128-8ee10e3ba.png" alt="The bubblegum powerup's icon" srcset="/generated/assets/wiki/Powerup_bubblegum_icon-128-8ee10e3ba.png 128w" sizes="(min-width: 768px) 800px, 400px" />
+</div>
+<p>The bubblegum is SuperTuxKart’s main defensive powerup. Its two different usage modes give it additional flexibility.</p>
+
+<p>When used normally, it activates a defensive gum shield protecting the kart. When used towards the back, it drops a gum on the ground that will slow any kart driving on it.</p>
+
+<div>
+<input type="checkbox" id="qa0-callback" /><label class="qa-question" for="qa0-callback">Details</label>
+<div class="qa-answer">
+    <p>The protective gum shield lasts up to 10 seconds. It protects from all threats except basket-ball squashing, but it is destroyed in the process. The shield also allows to safely drive over gums on the ground.</p>
+
+    <p>If a new gum shield is used while one is already active, the duration of the current shield is extended by another 10 seconds.</p>
+
+    <p>When the gum shield is about to expire, it starts flashing. As it expires, a gum is dropped on the ground, with the same effects as the one that can be dropped by using it towards the back.</p>
+
+    <p>Gums laying on the ground are fairly wide and slow down massively karts that drive on them. Gums on the ground disappear after a kart drives on them.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa1-callback" /><label class="qa-question" for="qa1-callback">Usage Tips</label>
+<div class="qa-answer">
+    <p>Most of the time the shield is the better choice, but directly dropping the gum on the ground is useful in a few situations:</p>
+    <ul>
+      <li>To block a narrow path.</li>
+      <li>To lay a trap in the location of a nitro can. Big nitro cans work especially well for such traps, as they are very tempting to get and help partially conceal the gum on the ground. Even if your rivals avoid your trap, this can still make them lose time by denying them nitro. Just avoid driving on your own trap in a later lap!</li>
+      <li>If a rival kart is closely following you. Looking back a little bit before using the powerup can be a good idea to ensure the other kart won’t just drive around it.</li>
+    </ul>
+
+    <p>Use the shield immediately if you are threatened by other karts or are slowed down by penalties such as parachutes. If there is no immediate threat, delay the shield activation, but don’t forget to activate it before taking a new gift box.</p>
+
+    <p>If you have a bomb, it can be a good idea to delay the use of the gum shield until the bomb’s timer enters the red zone or until you are about to get a new powerup from a gift box: you may have an opportunity to pass the bomb to another kart, or you may receive a parachute from a kart behind you. In this last case, the parachute will remove the bomb and keeping the bubblegum allows you to get rid of the parachute by activating the shield.</p>
+
+    <p>Finally, if you get a group of 3, you should use one immediately as a shield for safety, as the opportunity cost is very low. With the remaining two gums, you can decide if it’s better to lay out traps on the road for your rivals or to refresh your shield before the next gift box.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa2-callback" /><label class="qa-question" for="qa2-callback">Distribution</label>
+<div class="qa-answer">
+    <p>The bubblegum is relatively common for all positions in the race. It is most common for karts in bad positions.</p>
+
+    <p>The karts that are furthest behind can also obtain the bubblegum in groups of 3.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: center">Game Mode</th>
+          <th style="text-align: center">Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">Normal Race</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Follow-the-Leader</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Soccer</td>
+          <td style="text-align: center">No</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Egg Hunt</td>
+          <td style="text-align: center">No</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Battle</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</div>
+
+</td></tr>
+</table>
+</td>
+<td class="presentation_small_with_flow">
+<table class="presentation_container">
+<caption>Zipper</caption>
+<tr><td>
+<div class="gallery-sidebar-flow"><div class="gallery-sidebar-flow-icon" style="order: 2; --sidebar-width: 128px; float: right; margin-left: 20px;"><img src="/generated/assets/wiki/Powerup_zipper_icon-128-3a9066c08.png" alt="The zipper powerup's icon" srcset="/generated/assets/wiki/Powerup_zipper_icon-128-3a9066c08.png 128w" sizes="(min-width: 768px) 800px, 400px" />
+</div>
+<p>The zipper gives a very powerful speed increase, helping karts in the back to catch up.</p>
+
+<p>The bonus is made of three parts: an instantaneous boost, a huge increase to the kart’s maximum speed, and a significant boost to acceleration.</p>
+
+<div>
+<input type="checkbox" id="qa3-callback" /><label class="qa-question" for="qa3-callback">Details</label>
+<div class="qa-answer">
+    <p>The zipper gives an immediate speed boost of 4.5 and a max speed increase of 15 (equivalent to 60% of the base max speed in SuperTux difficulty), lasting for 3.5 seconds with a fade-out time of 1 second.</p>
+
+    <p>It also gives an engine boost of 250 (equivalent to 26% of a heavy kart’s base engine power in SuperTux difficulty), increasing acceleration to help take advantage of the increased max speed.</p>
+
+    <p>The start boost and ground zippers also provide speed boosts of the ‘zipper’ type: they do not stack up, only the latest one is active.</p>
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa4-callback" /><label class="qa-question" for="qa4-callback">Usage Tips</label>
+<div class="qa-answer">
+    <p>On a surface level, the zipper is very simple: use it and go faster. However, there are several mistakes that can reduce its usefulness.</p>
+
+    <p><strong>The first mistake to avoid is using the zipper when the extra speed would make the kart too difficult to control</strong>, for example before tight curves or an area with hazards. What exactly qualifies as a spot where it would make the kart too difficult to control depends on the player’s skill level, but it is much better to wait for a more suitable area (such as a long straight or gentle curve) than to crash.</p>
+
+    <p><strong>If a gift box is coming soon, it often makes sense to avoid the gift box entirely to keep your zipper</strong> if you cannot use it safely before the box, as you are unlikely to find a better powerup in there. If you are in the last positions, taking the gift box is more of a gamble as you may get an additional zipper.</p>
+
+    <p><strong>Another common mistake is using multiple zippers in close succession or too close from a ground zipper.</strong> While the instant speed boosts compound (up to the increased max speed), the overall boost duration is shorter than otherwise possible. A rapid speed change can also make it more difficult to control the kart.</p>
+
+    <p>By using additional zippers only when the effect of a previous zipper or ground zipper starts fading out, the time spent with extra speed can be greatly increased</p>
+
+    <p>Finally, to make the most of a zipper’s increased max speed, you need to accelerate as much as possible. Drift bonuses provide a small instant speed increase, and nitro multiplies engine power: coordinating nitro and drift timings with your zipper saves time.</p>
+
+    <p>Note that drifting and nitro provide their own increase to max speed. Therefore, ideally, you should already have your speed increased from drifting and nitro when you activate the zipper, with additional drifts and nitro usage during the zipper’s boost period.</p>
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa5-callback" /><label class="qa-question" for="qa5-callback">Distribution</label>
+<div class="qa-answer">
+    <p>The zipper can be obtained in any position, but it is much more common for bad positions than for good positions. It is the second most common powerup overall, and the most common for karts in bad positions.</p>
+
+    <p>The karts that are furthest behind can also obtain the zippers in groups of 3.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: center">Game Mode</th>
+          <th style="text-align: center">Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">Normal Race</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Follow-the-Leader</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Soccer</td>
+          <td style="text-align: center">No</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Egg Hunt</td>
+          <td style="text-align: center">No</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Battle</td>
+          <td style="text-align: center">No</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</div>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+<tr><td class="presentation_small_with_flow">
+<table class="presentation_container">
+<caption>Swatter</caption>
+<tr><td>
+<div class="gallery-sidebar-flow"><div class="gallery-sidebar-flow-icon" style="order: 1; --sidebar-width: 128px; float: left; margin-right: 20px;"><img src="/generated/assets/wiki/Powerup_swatter_icon-128-a2454921e.png" alt="The swatter powerup's icon" srcset="/generated/assets/wiki/Powerup_swatter_icon-128-a2454921e.png 128w" sizes="(min-width: 768px) 800px, 400px" />
+</div>
+<p>The swatter is a versatile powerup, combining powerful short-range attacks and significant utility.</p>
+
+<p>When active, the swatter will flatten any kart that drives too close, slowing them down significantly. It can also be used to remove harmful attachments such as bombs and parachutes.</p>
+
+<div>
+<input type="checkbox" id="qa6-callback" /><label class="qa-question" for="qa6-callback">Details</label>
+<div class="qa-answer">
+    <p><strong>If the swatter is activated while an attachment is active, it will remove the existing attachment.</strong> If the removed attachment is a bomb, the swatter will be used and removed, in other cases the swatter will remain fully active.</p>
+
+    <p>The swatter remains active for 10 seconds. During this period, the swatter arm rotates towards the closest kart, and squashes it if it gets close enough (provided the target kart is not invulnerable). Squashed karts lose 50% of their speed for 5 seconds.</p>
+
+    <p>In racing modes, the swatter can squash multiple targets before it expires. In Battle and Soccer, the swatter is removed after squashing one target.</p>
+
+    <p>The swatter is also removed by events that give the kart a new attachment (using a gum shield, hitting a banana, etc.).</p>
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa7-callback" /><label class="qa-question" for="qa7-callback">Usage Tips</label>
+<div class="qa-answer">
+    <p>The swatter is a powerful powerup, but proper timing and tactics are important to make the most out of it.</p>
+
+    <p><strong>When the swatter is active, it is very effective at preventing other karts from overtaking.</strong> Although it is a short-range weapon, it still covers a significant chunk of the track’s width and proper positioning makes it difficult for other karts to safely go around.</p>
+
+    <p>The swatter needs 0.5s after use before it is ready to squash targets, and it also requires a bit of time to aim and attack. It is therefore better to anticipate than to use it at the last second.</p>
+
+    <p>If a rival kart is close behind you, slowing down can be an effective tactic: you might lose a bit of time, but you force the other kart to either brake or be squashed and lose even more time. In this situation, it is important to consider the general race situation to see if losing a bit of time compared to most karts is worth gaining a lot of time compared to the kart close behind.</p>
+
+    <p>If your kart is already slowed down by a parachute, using the swatter immediately is usually the best choice.</p>
+
+    <p>If your kart has a bomb, it is often a good idea to delay the use of the swatter until the bomb’s timer enters the red zone or until you are about to get a new powerup from a gift box: you may have an opportunity to pass the bomb to another kart, or you may receive a parachute from a kart behind you. In this last case, the parachute will remove the bomb and keeping the swatter allows you to get rid of the parachute.</p>
+
+    <p>If there is no rival kart close by or if you already have a bubble gum shield active, it is often best to delay the use of the swatter. This allows to keep it active longer to threaten other karts when you get closer to them, but more importantly it keeps it available to remove potential parachutes and bombs.</p>
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa8-callback" /><label class="qa-question" for="qa8-callback">Distribution</label>
+<div class="qa-answer">
+    <p>The swatter is available for most positions in the race, but is more common in better positions, where it is particularly appreciated for its help against the threat of parachutes.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: center">Game Mode</th>
+          <th style="text-align: center">Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">Normal Race</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Follow-the-Leader</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Soccer</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Egg Hunt</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Battle</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</div>
+
+</td></tr>
+</table>
+</td>
+<td class="presentation_small_with_flow">
+<table class="presentation_container">
+<caption>Bowling Ball</caption>
+<tr><td>
+<div class="gallery-sidebar-flow"><div class="gallery-sidebar-flow-icon" style="order: 2; --sidebar-width: 128px; float: right; margin-left: 20px;"><img src="/generated/assets/wiki/Powerup_bowling_icon-128-a113bde30.png" alt="The bowling ball powerup's icon" srcset="/generated/assets/wiki/Powerup_bowling_icon-128-a113bde30.png 128w" sizes="(min-width: 768px) 800px, 400px" />
+</div>
+<p>The bowling ball is SuperTuxKart’s most common powerup.</p>
+
+<p>A medium-range attacking powerup, it sends a ball rolling in a straight line, which will explode if it touches a kart. It can be used both forward and backward.</p>
+
+<div>
+<input type="checkbox" id="qa9-callback" /><label class="qa-question" for="qa9-callback">Details</label>
+<div class="qa-answer">
+    <p>The bowling ball triggers a standard explosion (1.5 seconds) if it touches a kart. It can rebound on walls and other obstacles, which can sometimes be taken advantage of.</p>
+
+    <p>If two bowling balls touch each other, they will both disappear.</p>
+
+    <p>If the bowling ball fails to hit a target, it expires after 20 seconds.</p>
+
+    <p>There are some quirks in how the bowling ball’s speed is computed:</p>
+    <ul>
+      <li>At typical kart speeds, when thrown forward, the bowling ball will move (relatively to the track) at twice the kart’s speed plus 8, but it has a minimum speed of 32 (about the speed of a heavy kart using nitro in SuperTux difficulty).</li>
+      <li>When thrown backward, it moves at a speed of 16 relatively to the track, in the direction opposite to which the kart is pointing. In this case, the bowling ball’s speed is completely independent of the kart’s speed.</li>
+    </ul>
+
+    <p>The bowling ball slows down over time. Its path and speed are influenced by changes in elevation, as it will naturally tend to roll down slopes.</p>
+
+    <p>The kart firing the bowling ball is immune to it for the first two seconds, however, past this delay, the kart that fired the bowling ball will also exploed touching it.</p>
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa10-callback" /><label class="qa-question" for="qa10-callback">Usage Tips</label>
+<div class="qa-answer">
+    <p>The bowling ball requires careful aiming to maximize your odds of touching your target, by aligning the direction your kart is going towards with the direction you want to fire the ball towards.</p>
+
+    <p>As the bowling ball is not very fast, anticipating what your target is likely to do and firing the ball from a closer distance increase your success rate.</p>
+
+    <p>If you have three balls, you can be a little less accurate with your aiming: if you fire your balls in relatively close succession in a line that the target kart will have to cross (to take a curve for example), you have good chances to score a hit.</p>
+
+    <p><strong>If you don’t have any rival kart nearby, it is often a good idea to fire the ball towards the back</strong>, as other karts arriving a few seconds later will still have to dodge them.</p>
+
+    <p>The bowling ball can also be used to defend against basket balls by firing it backwards, however getting the timing right is very difficult, so it is rarely successful.</p>
+
+    <p>Finally, avoid mindlessly firing bowling balls when there is no target, as this sometimes leads to the ball rebounding on an obstacle towards your path and exploding you.</p>
+
+    <p>The bowling ball is also commonly used in Soccer mode to push the puck or the ball from a distance.</p>
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa11-callback" /><label class="qa-question" for="qa11-callback">Distribution</label>
+<div class="qa-answer">
+    <p>The bowling ball is SuperTuxKart’s most common powerup. It is found in all positions, but is more common for karts in good positions.</p>
+
+    <p>The bowling ball can be found in groups of 3. This is possible in most positions, but happens much more frequently for karts in bad positions.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: center">Game Mode</th>
+          <th style="text-align: center">Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">Normal Race</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Follow-the-Leader</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Soccer</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Egg Hunt</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Battle</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</div>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+<tr><td class="presentation_small_with_flow">
+<table class="presentation_container">
+<caption>Cake</caption>
+<tr><td>
+<div class="gallery-sidebar-flow"><div class="gallery-sidebar-flow-icon" style="order: 1; --sidebar-width: 128px; float: left; margin-right: 20px;"><img src="/generated/assets/wiki/Powerup_cake_icon-128-da98f0314.png" alt="The cake powerup's icon" srcset="/generated/assets/wiki/Powerup_cake_icon-128-da98f0314.png 128w" sizes="(min-width: 768px) 800px, 400px" />
+</div>
+<p>The cake is SuperTuxKart’s most feared attacking powerup. It can be used towards the front as well as towards the back.</p>
+
+<p>Unlike the bowling ball, the cake automatically aims at its target. It explodes upon contact, with an area-of-effect that also hit other karts too close to the explosion.</p>
+
+<div>
+<input type="checkbox" id="qa12-callback" /><label class="qa-question" for="qa12-callback">Details</label>
+<div class="qa-answer">
+    <p><strong>The cake is a medium-range attacking powerup and requires line-of-sight with the target to work.</strong> If there is no adequate target within the max aiming distance of 90, it is thrown straight ahead without aiming at anything.</p>
+
+    <p><strong>Although the cake’s automatic aiming makes it quite dangerous, it is possible for it to miss sometimes</strong>, particularly if the target is farther away and changes speed or direction, as the cake’s trajectory does not change after it has been thrown.</p>
+
+    <p>There are some peculiarities with regard to the speed at which the cake is thrown:</p>
+    <ul>
+      <li>The cake’s speed is applied relatively to the track instead of the kart. This unintuitive quirk makes cakes thrown backwards near unavoidable, as the target kart is driving towards the cake (rather than away from it when the cake is thrown forward).</li>
+      <li>The cake’s base speed is multiplied by a ratio based on the kart’s speed, then an extra 16 speed is added. See the table below for details (30 is the speed of a medium kart using nitro in SuperTux difficulty). As a consequence, cakes thrown by karts that don’t move or move slowly nearly always miss.</li>
+    </ul>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: center">Kart speed</th>
+          <th style="text-align: center">Cake speed</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">0</td>
+          <td style="text-align: center">16</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">10</td>
+          <td style="text-align: center">~38</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">20</td>
+          <td style="text-align: center">~59</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">30</td>
+          <td style="text-align: center">~81</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">40</td>
+          <td style="text-align: center">~103</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>The area-of-effect around the explosion within which other karts are hit depends on kart class: light karts are vulnerable at a distance of up to 6, medium karts at a distance of up to 4.8 and heavy karts at a distance of up to 3.6.</p>
+
+    <p>Direct hits by the cake cause a standard explosion (1.5 seconds), while the duration of the explosion animation is halved for indirect hits. In both cases, much time is also lost because the target kart needs to accelerate back to a high speed.</p>
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa13-callback" /><label class="qa-question" for="qa13-callback">Usage Tips</label>
+<div class="qa-answer">
+    <p>The cake’s automatic aiming makes it easier to use than bowling balls, but some attention can still improve your success rate.</p>
+
+    <p>First, make sure that the kart you want to target is not currently invulnerable or protected by a shield.</p>
+
+    <p>Second, avoid using the cake when your kart is moving slowly. Due to the peculiar way the cake’s speed is computed, your cake will move slowly and is unlikely to hit its target.</p>
+
+    <p>Finally, try to get closer to your target before firing. This reduces the likelihood that the other kart will change its trajectory or speed quickly enough to dodge your attack.</p>
+
+    <p>The cake can also be used as a defensive tool against basket balls by throwing it backwards when one gets close, after carefully orienting your kart so that the basket ball is right behind you. The natural upwards curve of the cake’s trajectory makes it the most effective of the three powerups that can be used for this purpose.</p>
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa14-callback" /><label class="qa-question" for="qa14-callback">Distribution</label>
+<div class="qa-answer">
+    <p>The cake is somewhat common for karts in relatively good positions, but rare for karts in bad positions or really near first place.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: center">Game Mode</th>
+          <th style="text-align: center">Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">Normal Race</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Follow-the-Leader</td>
+          <td style="text-align: center">No</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Soccer</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Egg Hunt</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Battle</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</div>
+
+</td></tr>
+</table>
+</td>
+<td class="presentation_small_with_flow">
+<table class="presentation_container">
+<caption>Plunger</caption>
+<tr><td>
+<div class="gallery-sidebar-flow"><div class="gallery-sidebar-flow-icon" style="order: 2; --sidebar-width: 128px; float: right; margin-left: 20px;"><img src="/generated/assets/wiki/Powerup_plunger_icon-128-22b299a94.png" alt="The plunger powerup's icon" srcset="/generated/assets/wiki/Powerup_plunger_icon-128-22b299a94.png 128w" sizes="(min-width: 768px) 800px, 400px" />
+</div>
+<p>The plunger is a relatively common powerup with two very different uses.</p>
+
+<p>Thrown forward, it tries to grab on another kart or on terrain to pull its user forward, giving it some extra speed. When used towards the back, it partially covers the screen of the targeted kart for a few seconds.</p>
+
+<div>
+<input type="checkbox" id="qa15-callback" /><label class="qa-question" for="qa15-callback">Details</label>
+<div class="qa-answer">
+    <p>When used towards the front, the plunger will try to target a kart if one is close enough. Otherwise, it will attach to the first obstacle it touches.</p>
+
+    <p>The rubber-band attached by the plunger gives a maximum speed increase of 7, however it gives no engine boost and the pulling force is modest, so accelerating to the full speed it offers is unlikely during the 1 second the band stays active.</p>
+
+    <p>While the rubber band has a relatively short duration, the fade-out time of its max-speed increase lasts 3 seconds, which is quite long and contributes significantly to the time savings provided by the plunger.</p>
+
+    <p>If attached to another kart, the target kart will be slowed down by a pulling force equivalent to the one accelerating the plunger’s user.</p>
+
+    <p>If attached to terrain, the rubber-band will snap if the kart gets closer than a distance of 10 to the attachment point.</p>
+
+    <p>When used towards the back, it partially covers the player’s view with a large dark red texture with Tux in the middle, for a duration of 4.5 seconds. This makes it much more difficult to drive well and avoid hazards.</p>
+
+    <p>Of course, AI karts don’t use a screen to drive, instead they slow down and stop avoiding hazards, with the slowdown depending on difficulty.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa16-callback" /><label class="qa-question" for="qa16-callback">Usage Tips</label>
+<div class="qa-answer">
+    <p>The most useful use of the plunger is firing it forward towards another kart, if one is close enough. The aiming is automatic, and the combination of gained speed for your kart and lost speed for the rival kart is appreciable.</p>
+
+    <p>If a kart follows you at a short to moderate distance, firing the plunger backwards to slow it down and potentially cause it to crash is also useful.</p>
+
+    <p>If neither of those is possible, the best use is to fire it on the terrain surrounding the track to get some extra speed. It is unfortunately not always obvious if the plunger will succeed attaching to terrain or not.</p>
+
+    <p>Finally, the plunger can be used to defend against basket balls by firing it backwards. This has to be done during the final approach of the basket ball and timing is important.</p>
+
+    <p>As the plunger is fired at some height above the ground, it is easier to be successful than with the bowling ball, although a bit more difficult than with the cake.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa17-callback" /><label class="qa-question" for="qa17-callback">Distribution</label>
+<div class="qa-answer">
+    <p>The plunger is a fairly common powerup. It is available for most positions in the race, but as it is a weaker powerup, it is much more common in good positions than in bad positions.</p>
+
+    <p>It is also possible for karts in bad positions to get a set of 3 plungers, although that’s fairly rare.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: center">Game Mode</th>
+          <th style="text-align: center">Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">Normal Race</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Follow-the-Leader</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Soccer</td>
+          <td style="text-align: center">No</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Egg Hunt</td>
+          <td style="text-align: center">No</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Battle</td>
+          <td style="text-align: center">No</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</div>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+<tr><td class="presentation_small_with_flow">
+<table class="presentation_container">
+<caption>Parachute</caption>
+<tr><td>
+<div class="gallery-sidebar-flow"><div class="gallery-sidebar-flow-icon" style="order: 1; --sidebar-width: 128px; float: left; margin-right: 20px;"><img src="/generated/assets/wiki/Powerup_parachute_icon-128-b769a7a00.png" alt="The parachute powerup's icon" srcset="/generated/assets/wiki/Powerup_parachute_icon-128-b769a7a00.png 128w" sizes="(min-width: 768px) 800px, 400px" />
+</div>
+<p>The parachute powerup attaches a parachute to all karts in front of the user. Shielded karts are protected, but lose their shield.</p>
+
+<p>This powerful powerup’s main purpose is to help reduce the gap between karts in the front and karts in the back, but counterplay is available to limit lost time.</p>
+
+<div>
+<input type="checkbox" id="qa18-callback" /><label class="qa-question" for="qa18-callback">Details</label>
+<div class="qa-answer">
+    <p>Since SuperTuxKart 1.0, kart engine power has to overcome a pseudo-friction that depends on speed. Parachutes considerably increase this friction, slowing down karts significantly over time and limiting their maximum speed.</p>
+
+    <p>The duration a parachute attached by the parachute powerups remains depends on the position of the receiving kart: it stays longest for the kart in first place (3.75 seconds), and is removed quicker the worse the position of the receiving kart at the time it was targeted (down to 2.5 seconds for the last targeted kart).</p>
+
+    <p>However, just as with parachutes received from bananas, it is possible for the targeted karts to drop the parachute sooner by braking sufficiently.</p>
+
+    <p>Karts that benefit from a temporary invulnerability do not receive a parachute from the parachute powerup.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa19-callback" /><label class="qa-question" for="qa19-callback">Usage Tips</label>
+<div class="qa-answer">
+    <p>Using the parachute immediately is generally fine, and you should always use it before taking a new gift box.</p>
+
+    <p>However, it can sometimes be worth delaying its use for a few seconds, for example if you notice that a rival’s bomb is about to explode (the parachute would remove the bomb), that a rival’s shield is about to expire, or that a rival’s temporary immunity is about to end.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa20-callback" /><label class="qa-question" for="qa20-callback">Distribution</label>
+<div class="qa-answer">
+    <p>The parachute is only available to karts in bad positions, being most common for the kart in last place.</p>
+
+    <p>As a global item, the parachute is fairly rare. Races with many karts and races with few karts have a similar global occurrence.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: center">Game Mode</th>
+          <th style="text-align: center">Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">Normal Race</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Follow-the-Leader</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Soccer</td>
+          <td style="text-align: center">No</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Egg Hunt</td>
+          <td style="text-align: center">No</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Battle</td>
+          <td style="text-align: center">No</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</div>
+
+</td></tr>
+</table>
+</td>
+<td class="presentation_small_with_flow">
+<table class="presentation_container">
+<caption>Basket Ball</caption>
+<tr><td>
+<div class="gallery-sidebar-flow"><div class="gallery-sidebar-flow-icon" style="order: 2; --sidebar-width: 128px; float: right; margin-left: 20px;"><img src="/generated/assets/wiki/Powerup_basketball_icon-128-69a6bbdb8.png" alt="The basket-ball powerup's icon" srcset="/generated/assets/wiki/Powerup_basketball_icon-128-69a6bbdb8.png 128w" sizes="(min-width: 768px) 800px, 400px" />
+</div>
+<p>The basket ball is SuperTuxKart’s way of counterbalancing the advantage the first kart gets by not having anyone in front to take away positive items or attack it.</p>
+
+<p>It bounces on the track towards its target at a fast speed. When it reaches the first kart, it explodes. It can also squash other karts on its path.</p>
+
+<div>
+<input type="checkbox" id="qa21-callback" /><label class="qa-question" for="qa21-callback">Details</label>
+<div class="qa-answer">
+    <p><strong>The basket ball’s speed is dynamic, depending on its distance to the first kart.</strong> When far away it goes faster to catch up in a reasonable time, when closer it slows down to leave defensive opportunities.</p>
+
+    <p>Like the cake, it has an area-of-effect that hits other karts too close to the explosion. Please refer back to the cake section for details on the area-of-effect’s size and the explosion’s duration.</p>
+
+    <p>Below a distance of 50 (about the same distance as between Hacienda’s starting line and the arch to enter its courtyard, taking about 2 seconds to cover without speed boosts) it goes at a speed of 9 above a medium kart’s max speed without boost in the current difficulty. This is about the same speed as a medium kart with active nitro and a yellow drift boost.</p>
+
+    <p>Above a distance of 50, the basket ball speeds increases, up to a speed of 29 above a medium kart’s max speed at distances of 250 or greater (a distance of 250 takes about 10 seconds to cover for a kart in SuperTux without speed boosts).</p>
+
+    <p>The basket ball normally follows the middle of the road, but when it gets close enough to its target, it will track it and follow it off-road if necessary.</p>
+
+    <p>The bouncing frequency of the basket ball increases significantly when it is closer than a distance of 50.</p>
+
+    <p>The basket ball can explode prematurely in several situations:</p>
+    <ul>
+      <li>If it touches another item with physics. This can be a moveable item from the track (such as the balls on Gran Paradiso’s beach), but it can also be a bowling ball, a cake, or a plunger.</li>
+      <li>If it unexpectedly collides with terrain outside of its normal bouncing. The basket ball has some logic to detect tunnels and reduce the height of its bounces if needed, but it doesn’t detect all possible obstacles.</li>
+      <li>If there is a long and deep gap where the basket ball cannot bounce.</li>
+    </ul>
+
+    <p>If the basket ball happens to touch a kart different than its target during one of its bounces, it will squash it (unless it is invulnerable). The bubblegum shield doesn’t protect against this squashing.</p>
+
+    <p>Like with the swatter, the flattened kart loses 50% of its speed. The duration is much shorter however, at 2 seconds instead of 5 seconds.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa22-callback" /><label class="qa-question" for="qa22-callback">Usage Tips</label>
+<div class="qa-answer">
+    <p>Unlike most powerups, using the basket ball well is fairly simple: fire and forget.</p>
+
+    <p>In some tracks, experienced players will want to wait having passed specific obstacles before using it: the basket ball cannot safely cross some of them (for example, STK Enterprise’s jump).</p>
+
+    <p><strong>There are some ways to defend against the basket ball for the kart in first place</strong>: driving fast with nitro and drifting will delay the attack, while a bubblegum shield can be used to protect against the explosion. It is also possible to make the ball explode by touching it with a powerup thrown backwards, but this is a difficult technique that requires precise timing and aiming.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa23-callback" /><label class="qa-question" for="qa23-callback">Distribution</label>
+<div class="qa-answer">
+    <p>The basket ball is only available to karts in middle to bad positions. It becomes rarer as the parachute becomes more common.</p>
+
+    <p>As a global item, the basket ball is fairly rare. Races with many karts and races with few karts have a similar global occurrence.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: center">Game Mode</th>
+          <th style="text-align: center">Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">Normal Race</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Follow-the-Leader</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Soccer</td>
+          <td style="text-align: center">No</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Egg Hunt</td>
+          <td style="text-align: center">No</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Battle</td>
+          <td style="text-align: center">No</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</div>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+<tr><td class="presentation_small_with_flow">
+<table class="presentation_container">
+<caption>Swapper</caption>
+<tr><td>
+<div class="gallery-sidebar-flow"><div class="gallery-sidebar-flow-icon" style="order: 1; --sidebar-width: 128px; float: left; margin-right: 20px;"><img src="/generated/assets/wiki/Powerup_switch_icon-128-31cbd6117.png" alt="The swapper powerup's icon" srcset="/generated/assets/wiki/Powerup_switch_icon-128-31cbd6117.png 128w" sizes="(min-width: 768px) 800px, 400px" />
+</div>
+<p>The swapper (also known as the switch) is a global powerup which lies outside traditional powerup categories.</p>
+
+<p>It temporarily swaps all gift boxes with bananas, all nitro cans with ground gums, and vice-versa: bananas become gift boxes and ground gums become nitro cans.</p>
+
+<div>
+<input type="checkbox" id="qa24-callback" /><label class="qa-question" for="qa24-callback">Details</label>
+<div class="qa-answer">
+    <p>The swapper’s effect activates immediately upon use, swapping items with their counterparts: gift boxes with bananas, nitro cans with ground gums. After 5 seconds, items revert to their normal form.</p>
+
+    <p>If a second swapper is used while one is still active, items switch back to their normal form.</p>
+
+    <p>Both small nitro cans and big nitro cans are transformed into ground gums, but ground gums always become big nitro cans when the swapper is activated. Ground gums swapped into nitro cans disappear after being collected, just as if someone had driven on their normal form.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa25-callback" /><label class="qa-question" for="qa25-callback">Usage Tips</label>
+<div class="qa-answer">
+    <p><strong>Unlike other powerups, using the swapper without thinking can be worse than not using it at all</strong>, as you may be transforming positive items (gift boxes and nitro cans) that you were in position to take into threats you have to avoid.</p>
+
+    <p>The first main tactic with the swapper is to use it to transform negative items into positive ones. The biggest advantage is obtained when ground gums can be transformed into big nitro cans, but it is still worthwhile to transform bananas into gift boxes, as you know exactly what is happening while other karts have to deal with the chaos of the change. There are also usually much more positive items than harmful items around tracks.</p>
+
+    <p>The second main tactic is to pay attention to when a rival kart is about to take a positive item (by watching it directly or on the minimap) and to activate the swapper right when it’s too late for the other kart to react. This is slightly more advanced, as it takes some attention away from driving, but it can be extremely effective when done right.</p>
+
+    <p>Finally, experienced players will often notice when another kart is holding a swapper. In high-level races, this can be used for mindgames: by holding the swapper without using it, other karts are forced to guess if they should take the positive items on their path or if they should avoid them to avoid driving on a gum or into a banana. The less predictable the timing of the swapper use, the more effective it becomes in this situation.</p>
+
+  </div>
+</div>
+
+<div>
+<input type="checkbox" id="qa26-callback" /><label class="qa-question" for="qa26-callback">Distribution</label>
+<div class="qa-answer">
+    <p>The swapper is more common for karts in good positions and rarer for karts in bad positions.</p>
+
+    <p>As a global powerup that affects all karts, the swapper is fairly rare. Races with many karts and races with few karts have a similar global occurrence.</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th style="text-align: center">Game Mode</th>
+          <th style="text-align: center">Available</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: center">Normal Race</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Follow-the-Leader</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Soccer</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Egg Hunt</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+        <tr>
+          <td style="text-align: center">Battle</td>
+          <td style="text-align: center">Yes</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>
+</div>
+
+</td></tr>
+</table>
+</td>
+
+</tr>
+</table>
+<div class="popup-warning popup">
+<div class="popup-info"><b><span class="translate">Información</span></b></div>
+<div class="popup-content">
+    <p>The set of available powerups, as well as their effects and distribution, is identical across all SuperTuxKart 1.x versions, from SuperTuxKart 1.0 to SuperTuxKart 1.5.1, with one tiny exception: prior to SuperTuxKart 1.4, the parachute powerup removed shields from all other karts, instead of only the shields of karts in a better position than the parachute powerup’s user.</p>
+
+  </div>
+</div>
+
+<h3 id="powerup-distribution-charts" class="article_minor_title">
+Powerup distribution charts
+</h3>
+
+<div class="gallery-container">
+<div class="packed_100per_0"><a href="/assets/wiki/Powerup_SuperTuxKart_1x_powerup_distribution.png" target="_blank"><img src="/generated/assets/wiki/Powerup_SuperTuxKart_1x_powerup_distribution-800-b9459e0c0.png" alt="The powerup distribution rates for SuperTuxKart 1.x versions - in racing mode and with 9 karts - giving a general idea of how powerup probabilities vary with kart position." srcset="/generated/assets/wiki/Powerup_SuperTuxKart_1x_powerup_distribution-400-b9459e0c0.png 400w, /generated/assets/wiki/Powerup_SuperTuxKart_1x_powerup_distribution-800-b9459e0c0.png 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<div>
+<input type="checkbox" id="ubox0-callback" /><label class="ubox-title" for="ubox0-callback">
+    <h2 id="powerups-in-older-supertuxkart-versions" class="article_main_title">
+Powerups in older SuperTuxKart versions
+</h2>
+    </label>
+<div class="ubox-boxcontent">
+
+    <h3 id="changes-brought-by-supertuxkart-10" class="article_minor_title">
+Changes brought by SuperTuxKart 1.0
+</h3>
+
+    <p>The set of available powerups did not change for SuperTuxKart 1.0, however the effect of some powerups was adjusted, and powerup distribution was massively improved.</p>
+
+    <p>Here is a list of powerup-related changes present in 1.0:</p>
+    <ul>
+      <li>Major improvements to powerup distribution with unique weights for each position in the race. A good overview is available in a <a href="https://blog.supertuxkart.net/2019/03/bringing-balance-to-karts.html">blog post covering gameplay changes for 1.0</a>. The main points beyond per-position weights are: different weights based on the total number of karts in a race, a reduction in the frequency of cakes, an increase in bubblegum and swatter availability, more common zippers and rarer plungers in bad positions, a complete revision of the handling of global items, and separate weights for Follow-the-Leader mode.</li>
+      <li>Dynamic speeds for basket balls based on their distance to the first kart, making them much more likely to catch up to the first kart while still leaving room for defensive maneuvers.</li>
+      <li>A complete rework of how the parachute penalty affects karts, with a pseudo-friction that scales with speed, as well as tweaks to some parachute-related parameters.</li>
+      <li>A reduction of explosion duration, reducing the time loss caused by cakes, bowling balls and basket balls.</li>
+      <li>The introduction of an early time-out making cakes and basket balls unavailable during the first 15 seconds of a race.</li>
+      <li>Use of Soccer powerup weights for Egg Hunt instead of standard weights, to ensure powerup randomness doesn’t matter when trying to get the best time.</li>
+    </ul>
+
+    <h3 id="supertuxkart-093" class="article_minor_title">
+SuperTuxKart 0.9.3
+</h3>
+
+    <p>SuperTuxKart 0.9.3 made the duration of parachutes attached by the parachute powerup depend on the kart position, lasting longer for karts in good positions compared to karts in bad positions.</p>
+
+    <p>The parachute powerup was also affected by other general changes to parachutes, making parachutes less penalizing for karts driving slowly and more penalizing for karts going fast, as well as making removal by braking a little more difficult.</p>
+
+  </div>
+</div>
+
+<ul id="discover_portal_nav">
+    <li class="discover_portal_nav_item" id="special_return_to_discover_portal">
+    <a href="/es/Community"><i style="color: grey; font-size: 30px; margin: 0px; margin-right: 15px;" class="fas fa-undo"></i></a>
+    <span class="discover_portal_nav_text">
+        <a href="/es/Discover"><span class="translate">Return to Discover</span></a>
+    </span>
+    </li>
+    <li class="discover_portal_nav_item">
+    <span class="discover_portal_nav_text">
+        <a href="/es/Powerups"><span class="translate">Powerups</span></a>
+    </span>
+    </li>
+    <li class="discover_portal_nav_item">
+    <span class="discover_portal_nav_text">
+        <a href="/es/Characters"><span class="translate">Characters</span></a>
+    </span>
+    </li>
+    <li class="discover_portal_nav_item">
+    <span class="discover_portal_nav_text">
+        <a href="/es/History_of_SuperTuxKart"><span class="translate">The History of SuperTuxKart</span></a>
+    </span>
+    </li>
+</ul>
+
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div style="width: 30%"><p><span class="translate">Comunidad</span></p>
+    <ul>
+        <li><a href='https://forum.supertuxkart.net/'><span class="translate">Foro</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blog</span></a></li>
+        <li><a href='https://x.com/supertuxkart'><span class="translate">Twitter / X</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Complementos</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div style="width: 20%"><p><span class="translate">Medios</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/@SuperTuxKartOfficial?sub_confirmation=1'><span class="translate">YouTube</span></a></li>
+        <li><a href='/es/Gallery'><span class="translate">Galería</span></a></li>
+        <li><a href='/es/Posters'><span class="translate">Pósters</span></a></li>
+    </ul>
+    </div>
+    <div style="width: 20%"><p><span class="translate">Desarrollo</span></p>
+    <ul>
+        <li><a href='/es/Community'><span class="translate">Modding</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://sourceforge.net/p/supertuxkart/code/HEAD/tree/'><span class="translate">SVN</span></a></li>
+    </ul>
+    </div>
+    <div style="width: 30%"><p><span class="translate">Acerca de nosotros</span></p>
+    <ul>
+        <li><a href='/es/FAQ'><span class="translate">FAQ</span></a></li>
+        <li><a href='/Team'><span class="translate">Acerca del equipo</span></a></li>
+        <li><a href='/es/Discover'><span class="translate">Acerca del SuperTuxKart</span></a></li>
+        <li><a href='/es/Projects'><span class="translate">Proyectes que utilizan el SuperTuxKart</span></a></li>
+        <li><a href='/Terms'><span class="translate">Términos y condiciones</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2026
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script></body>
+</html>
