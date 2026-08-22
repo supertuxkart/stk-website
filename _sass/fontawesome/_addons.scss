@@ -1,0 +1,162 @@
+.addons-hero {
+    text-align: center;
+    padding: 48px 0 32px;
+  
+    .addons-hero-title {
+      font-size: 42px;
+      font-weight: 700;
+      margin-bottom: 12px;
+  
+      @media (max-width: 600px) {
+        font-size: 32px;
+      }
+    }
+  
+    .addons-hero-subtitle {
+      font-size: 20px;
+      color: #999;
+    }
+  }
+  
+.addon-grid {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  
+.addon-card {
+    background: #fff;
+    border: 1px solid #a2a9b1;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+  
+    &:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+    }
+  }
+  
+.addon-thumbnail {
+    position: relative;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  
+    .addon-initials {
+      font-size: 48px;
+      font-weight: 700;
+      color: rgba(32, 160, 211, 0.85);
+      text-transform: uppercase;
+      user-select: none;
+    }
+  
+    .addon-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      backdrop-filter: blur(4px);
+    }
+  }
+  
+.addon-card-content {
+    padding: 16px 20px 20px;
+  }
+  
+.addon-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #222;
+  }
+  
+.addon-tagline {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  
+.addon-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  
+.addon-tag {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 10px;
+    background: #eff0f1;
+    color: #3d3d3d;
+    border-radius: 6px;
+    transition: background 0.2s, color 0.2s;
+  
+    &:hover {
+      background: #2d9f00;
+      color: #fff;
+    }
+  }
+  
+.addon-meta {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 0;
+  
+    .addon-author {
+      font-weight: 500;
+      color: #222;
+    }
+  }
+  
+.addon-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid #a2a9b1;
+  }
+  
+.addon-version {
+    font-size: 12px;
+    color: #999;
+    font-weight: 500;
+  }
+  
+.addon-download {
+    display: inline-block;
+    padding: 7px 16px;
+    background: #2d9f00;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.2s;
+  
+    &:hover {
+      background: #1f7a00;
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  
+.addons-build-date {
+    margin-top: 32px;
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+  }
+  
