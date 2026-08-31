@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="Smarter light-rendering" link="https://members.supertuxkart.net/posts/smarter-light-165361714" date="2026-08-31" image="assets/blog/smarterLights_thumb.jpg" %}
+
 {% include news_post title="Karts & Explosions" link="https://members.supertuxkart.net/posts/karts-explosions-167869097" date="2026-08-27" image="assets/blog/kartsExplosions_thumb.jpg" %}
 
 {% include news_post title="A brighter Candela City (#5)" link="https://members.supertuxkart.net/posts/brighter-candela-167573866" date="2026-08-24" image="assets/blog/brighterCandela5_thumb.jpg" %}
@@ -9,8 +11,6 @@
 {% include news_post title="A brighter Candela City (#4)" link="https://members.supertuxkart.net/posts/brighter-candela-166951076" date="2026-08-17" image="assets/blog/brighterCandela4_thumb.jpg" %}
 
 {% include news_post title="New Fort Magma (#7)" link="https://members.supertuxkart.net/posts/new-fort-magma-7-163598277" date="2026-08-13" image="assets/blog/newFortMagma7_thumb.jpg" %}
-
-{% include news_post title="A crop of changes for Cornfield Crossing (#1)" link="https://members.supertuxkart.net/posts/crop-of-changes-166306643" date="2026-08-10" image="assets/blog/cropChangesCornfield1_thumb.jpg" %}
 
 </table>
 
