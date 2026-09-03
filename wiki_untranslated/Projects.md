@@ -98,6 +98,26 @@ toc: true
 
 {%translate "It requires a lot of work to set up and a massive use of compute, all to produce a hyper-specialized model that just drives around one track and is trained for one graphical preset, and which is completely unable to handle most scenarios that would actually be relevant for performance (such as many karts driving on the road, collisions, purposefully going off-road, networking)...","Projects page"%}
 
+### {%translate "Generative World Renderer at the Speed of Play","Projects page - section title"%}
+
+{% capture alayarenderer_text -%}
+{%translate "A [paper from 2026](https://arxiv.org/html/2607.18703v1) by a Chinese team from AlayaLab (no link to our developer Alayan) explaining and demonstrating real-time rendering of a game through a neural network that is fed structured data from the game engine.","Projects page"%}
+
+{%translate "SuperTuxKart is used as the main demonstration of the concept, with an [online demo](https://alaya-renderer-flash.alayalab.ai/play) running on a H200 GPU, with any visitor able to pick the track, and to give styling instructions that affect brightness and dominant colors.","Projects page"%}
+
+{%translate "Because the game engine is still running under the hood, this approach offers a level of consistency that fully hallucinating 'world models' cannot hope to ever match. The ability to change the mood in real-time based on a new prompt is also fairly impressive.","Projects page"%}
+
+{%translate "Still, it comes with visual artifacts, an immense performance cost (30 FPS at a resolution of 832x448 on a H200 GPU), and muddies the artistic vision of people creating the game. As such, it is still firmly in the domain of experimental research.","Projects page"%}
+{%- endcapture -%}
+
+{% capture alayarenderer_caption -%}
+{%translate "Black Forest rendered with a deep-night theming by AlayaLab's model"%}
+{%- endcapture -%}
+
+{% gallery mode=sidebar, widths=400px, picture_side=right, text={{ alayarenderer_text }}
+/assets/wiki/Projects_Alayarenderer.jpg, {{ alayarenderer_caption }},,A picture showing a scene in Black Forest rendered with AlayaRendererFlash and a deep-night prompt instead of SuperTuxKart's renderer
+%}
+
 ### {%translate "Miscellaneous Machine Learning Projects","Projects page - section title"%}
 
 {%translate "SuperTuxKart is used regularly by people learning machine learning at universities. Here are some example of such projects:","Projects page"%}
@@ -173,3 +193,11 @@ toc: true
 {%translate "What about driving on the streets you know in SuperTuxKart? This is what a project from 2013 wanted to make possible, with a method using OpenStreetMap data and importing real world data explained [on the project's page](https://wiki.openstreetmap.org/wiki/SuperTuxKart).","Projects page"%}
 
 {%translate "As it requires the use of the now very old SuperTuxKart 0.7.3 and also a fair amount of manual work for good results, it is not very practical, but it shows how SuperTuxKart is a game uniquely suited for cool experiments.","Projects page"%}
+
+### {%translate "Neural Drive","Projects page - section title"%}
+
+{%translate "[Neural Drive](https://huggingface.co/spaces/codelion/neural-drive) is a machine-learning technical demonstration that came out in July 2026, with a model trained on SuperTuxKart gameplay footage hallucinating gameplay and responding to basic inputs.","Projects page"%}
+
+{%translate "It is funny to look at, and its ability to run in-browser (albeit with abysmal performance) is a novelty for a world model.","Projects page"%}
+
+{%translate "At the same time, it has no practical utility and this entire approach is a dead-end, which is why it is put here among the fun projects.","Projects page"%}
