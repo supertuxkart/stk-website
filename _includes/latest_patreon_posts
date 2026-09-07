@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="Invisible walls out, Egg Hunt in" link="https://members.supertuxkart.net/posts/invisible-walls-168886971" date="2026-09-07" image="assets/blog/cropChangesCornfield2_thumb.jpg" %}
+
 {% include news_post title="Running SuperTuxKart on a Pixel Folding Phone" link="https://members.supertuxkart.net/posts/running-on-pixel-166700165" date="2026-09-03" image="assets/blog/pixelFold_thumb.jpg" %}
 
 {% include news_post title="Smarter light rendering" link="https://members.supertuxkart.net/posts/smarter-light-165361714" date="2026-08-31" image="assets/blog/smarterLights_thumb.jpg" %}
@@ -9,8 +11,6 @@
 {% include news_post title="A brighter Candela City (#5)" link="https://members.supertuxkart.net/posts/brighter-candela-167573866" date="2026-08-24" image="assets/blog/brighterCandela5_thumb.jpg" %}
 
 {% include news_post title="Animated cow" link="https://members.supertuxkart.net/posts/animated-cow-167229401" date="2026-08-20" image="assets/blog/cowAnimation_thumb.jpg" %}
-
-{% include news_post title="A brighter Candela City (#4)" link="https://members.supertuxkart.net/posts/brighter-candela-166951076" date="2026-08-17" image="assets/blog/brighterCandela4_thumb.jpg" %}
 
 </table>
 
