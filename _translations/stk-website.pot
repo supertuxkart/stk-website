@@ -1660,7 +1660,7 @@ msgid "Latest Patreon Posts"
 msgstr ""
 
 # News page - patreon subsection
-msgid "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. They are available for everybody."
+msgid "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. Most of them are available for free without the need for an account."
 msgstr ""
 
 msgid "When to measure performance?"

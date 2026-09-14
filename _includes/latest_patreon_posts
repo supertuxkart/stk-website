@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="New flowers for Candela" link="https://members.supertuxkart.net/posts/new-flowers-for-169504655" date="2026-09-14" image="assets/blog/brighterCandela6_thumb.jpg" %}
+
 {% include news_post title="Nicer road and grassier grass" link="https://members.supertuxkart.net/posts/nicer-road-and-169234839" date="2026-09-11" image="assets/blog/nicerBlackForest7_thumb.jpg" %}
 
 {% include news_post title="Codename Oil Rush" link="https://members.supertuxkart.net/posts/codename-oil-167832043" date="2026-09-09" image="assets/blog/oilRush1_thumb.jpg" %}
@@ -12,8 +14,6 @@
 
 {% include news_post title="Karts & Explosions" link="https://members.supertuxkart.net/posts/karts-explosions-167869097" date="2026-08-27" image="assets/blog/kartsExplosions_thumb.jpg" %}
 
-{% include news_post title="A brighter Candela City (#5)" link="https://members.supertuxkart.net/posts/brighter-candela-167573866" date="2026-08-24" image="assets/blog/brighterCandela5_thumb.jpg" %}
-
 </table>
 
-{%translate "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. They are available for everybody.","News page - patreon subsection"%}
+{%translate "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. Most of them are available for free without the need for an account.","News page - patreon subsection"%}
