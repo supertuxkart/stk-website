@@ -66,8 +66,10 @@ The premiere open-source 3D modeling software. Blender has a large and loyal use
 
 The SuperTuxKart Blender scripts allow you to export your Blender work to the SuperTuxKart formats. Where to get them depends on what Blender version is installed (an older version may be used to open old track files that haven't been upgraded).
 
-* For Blender 2.80 and later: 
-    * Go to <https://github.com/supertuxkart/stk-blender> and download the files. This can be done by clicking the green Code button then selecting 'Download ZIP'.
+* For Blender 3.0 and later:
+    * [Check tools](/stk_tools)
+* For Blender 2.80, 2.9: 
+    * Go to <https://github.com/supertuxkart/stk-blender/tree/183e7bb4355d3d1268e0126418ed643e4544f718> and download the files. This can be done by clicking the green Code button then selecting 'Download ZIP'.
     * Open the downloaded ZIP file, select the two folders `io_antarctica_scene` and `io_scene_spm` and copy them to the clipboard using Ctrl-C or Cmd-C.
 * For Blender 2.77, 2.78, and 2.79:
     * Go to <https://sourceforge.net/p/supertuxkart/code/HEAD/tree/media/trunk/blender_26/> and click the Download Snapshot button
