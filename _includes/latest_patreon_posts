@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="What improvements do you want for STK Online?" link="https://members.supertuxkart.net/posts/what-do-you-want-170469633" date="2026-09-24" image="assets/blog/Poll_thumb.jpg" %}
+
 {% include news_post title="Wooden gates and catenary curves" link="https://members.supertuxkart.net/posts/wooden-gates-and-170061311" date="2026-09-21" image="assets/blog/cropChangesCornfield3_thumb.jpg" %}
 
 {% include news_post title="A companion for the new cow" link="https://members.supertuxkart.net/posts/companion-for-169797733" date="2026-09-17" image="assets/blog/cowCompanion_thumb.jpg" %}
@@ -11,8 +13,6 @@
 {% include news_post title="Codename Oil Rush" link="https://members.supertuxkart.net/posts/codename-oil-167832043" date="2026-09-09" image="assets/blog/oilRush1_thumb.jpg" %}
 
 {% include news_post title="Invisible walls out, Egg Hunt in" link="https://members.supertuxkart.net/posts/invisible-walls-168886971" date="2026-09-07" image="assets/blog/cropChangesCornfield2_thumb.jpg" %}
-
-{% include news_post title="Running SuperTuxKart on a Pixel Folding Phone" link="https://members.supertuxkart.net/posts/running-on-pixel-166700165" date="2026-09-03" image="assets/blog/pixelFold_thumb.jpg" %}
 
 </table>
 
