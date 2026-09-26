@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="The transformation of Candela's park" link="https://members.supertuxkart.net/posts/transformation-170652697" date="2026-09-26" image="assets/blog/brighterCandela7_thumb.jpg" %}
+
 {% include news_post title="What improvements do you want for STK Online?" link="https://members.supertuxkart.net/posts/what-do-you-want-170469633" date="2026-09-24" image="assets/blog/Poll_thumb.jpg" %}
 
 {% include news_post title="Wooden gates and catenary curves" link="https://members.supertuxkart.net/posts/wooden-gates-and-170061311" date="2026-09-21" image="assets/blog/cropChangesCornfield3_thumb.jpg" %}
@@ -11,8 +13,6 @@
 {% include news_post title="Nicer road and grassier grass" link="https://members.supertuxkart.net/posts/nicer-road-and-169234839" date="2026-09-11" image="assets/blog/nicerBlackForest7_thumb.jpg" %}
 
 {% include news_post title="Codename Oil Rush" link="https://members.supertuxkart.net/posts/codename-oil-167832043" date="2026-09-09" image="assets/blog/oilRush1_thumb.jpg" %}
-
-{% include news_post title="Invisible walls out, Egg Hunt in" link="https://members.supertuxkart.net/posts/invisible-walls-168886971" date="2026-09-07" image="assets/blog/cropChangesCornfield2_thumb.jpg" %}
 
 </table>
 
