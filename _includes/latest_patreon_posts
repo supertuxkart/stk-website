@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="Fixing the Depth-of-Field shader" link="https://members.supertuxkart.net/posts/fixing-depth-of-170061322" date="2026-09-28" image="assets/blog/DoF_thumb.jpg" %}
+
 {% include news_post title="The transformation of Candela's park" link="https://members.supertuxkart.net/posts/transformation-170652697" date="2026-09-26" image="assets/blog/brighterCandela7_thumb.jpg" %}
 
 {% include news_post title="What improvements do you want for STK Online?" link="https://members.supertuxkart.net/posts/what-do-you-want-170469633" date="2026-09-24" image="assets/blog/Poll_thumb.jpg" %}
@@ -11,8 +13,6 @@
 {% include news_post title="New flowers for Candela" link="https://members.supertuxkart.net/posts/new-flowers-for-169504655" date="2026-09-14" image="assets/blog/brighterCandela6_thumb.jpg" %}
 
 {% include news_post title="Nicer road and grassier grass" link="https://members.supertuxkart.net/posts/nicer-road-and-169234839" date="2026-09-11" image="assets/blog/nicerBlackForest7_thumb.jpg" %}
-
-{% include news_post title="Codename Oil Rush" link="https://members.supertuxkart.net/posts/codename-oil-167832043" date="2026-09-09" image="assets/blog/oilRush1_thumb.jpg" %}
 
 </table>
 
