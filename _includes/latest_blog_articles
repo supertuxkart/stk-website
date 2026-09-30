@@ -1,4 +1,20 @@
 {% blog_article
+Transforming Candela City into our best track
+
+Candela City is receiving a total overhaul for SuperTuxKart Evolution. Gameplay, models, textures - everything has been overhauled to produce a fantastic track.
+
+You can [watch our video](https://www.youtube.com/watch?v=9TxEQnkoI9U) to see the new Candela in motion, or [read our blog post](https://blog.supertuxkart.net/2026/09/evolving-candela-city.html) for plenty of extra details and pictures about the improvements we made and why we made them.
+
+Or even better, you can do both! We have spared no effort when making them, and if you like SuperTuxKart, we guarantee you'll enjoy them.
+
+September 30, 2026 by Alayan
+%}
+
+{% gallery widths=90%
+/assets/blog/Blog_Candela_thumb.jpg,,https://blog.supertuxkart.net/2026/09/evolving-candela-city.html,A picture featuring the SuperTuxKart Evolution logo and showcasing the new Candela City
+%}
+
+{% blog_article
 The Electro-Shield, a new powerup for SuperTuxKart Evolution
 
 One of the great novelties that will come with SuperTuxKart Evolution is an expanded powerup set, to increase the fun of new and experienced players alike.
