@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="Once upon a time" link="https://members.supertuxkart.net/posts/once-upon-time-170790128" date="2026-10-03" image="assets/blog/supertuxzero_thumb.jpg" %}
+
 {% include news_post title="Fixing the Depth-of-Field shader" link="https://members.supertuxkart.net/posts/fixing-depth-of-170061322" date="2026-09-28" image="assets/blog/DoF_thumb.jpg" %}
 
 {% include news_post title="The transformation of Candela's park" link="https://members.supertuxkart.net/posts/transformation-170652697" date="2026-09-26" image="assets/blog/brighterCandela7_thumb.jpg" %}
@@ -11,8 +13,6 @@
 {% include news_post title="A companion for the new cow" link="https://members.supertuxkart.net/posts/companion-for-169797733" date="2026-09-17" image="assets/blog/cowCompanion_thumb.jpg" %}
 
 {% include news_post title="New flowers for Candela" link="https://members.supertuxkart.net/posts/new-flowers-for-169504655" date="2026-09-14" image="assets/blog/brighterCandela6_thumb.jpg" %}
-
-{% include news_post title="Nicer road and grassier grass" link="https://members.supertuxkart.net/posts/nicer-road-and-169234839" date="2026-09-11" image="assets/blog/nicerBlackForest7_thumb.jpg" %}
 
 </table>
 
