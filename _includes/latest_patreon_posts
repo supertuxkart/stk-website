@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="From Green Valley to Alpine Valley" link="https://members.supertuxkart.net/posts/from-green-to-171517771" date="2026-10-05" image="assets/blog/peacefulAlpineValley_thumb.jpg" %}
+
 {% include news_post title="Once upon a time" link="https://members.supertuxkart.net/posts/once-upon-time-170790128" date="2026-10-03" image="assets/blog/supertuxzero_thumb.jpg" %}
 
 {% include news_post title="Fixing the Depth-of-Field shader" link="https://members.supertuxkart.net/posts/fixing-depth-of-170061322" date="2026-09-28" image="assets/blog/DoF_thumb.jpg" %}
@@ -11,8 +13,6 @@
 {% include news_post title="Wooden gates and catenary curves" link="https://members.supertuxkart.net/posts/wooden-gates-and-170061311" date="2026-09-21" image="assets/blog/cropChangesCornfield3_thumb.jpg" %}
 
 {% include news_post title="A companion for the new cow" link="https://members.supertuxkart.net/posts/companion-for-169797733" date="2026-09-17" image="assets/blog/cowCompanion_thumb.jpg" %}
-
-{% include news_post title="New flowers for Candela" link="https://members.supertuxkart.net/posts/new-flowers-for-169504655" date="2026-09-14" image="assets/blog/brighterCandela6_thumb.jpg" %}
 
 </table>
 
