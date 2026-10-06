@@ -11,11 +11,29 @@ title: Donate
 
 {% end_liquid %}
 
-{%translate "If you enjoyed SuperTuxKart and would like to help the project, or just to say thank you, you may donate to help us! SuperTuxKart now uses itch.io to receive donations. Click on the 'Download Now' button and you will be able to select your donation amount.","Donate page - avoid double-quotes to not break the layout!"%}
+{%translate "If you enjoyed SuperTuxKart and would like to help the project, or just to say thank you, you may donate to help us!","Donate page"%}
+
+{%translate "Donators also receive a gift package, no matter the chosen donation method.","Donate page"%}
+
+**{%translate "The best way to make development sustainable is to join our Patreon. It also gives you access to exclusive articles about the game's development.","Donate page"%}**
+
+<div style="text-align: center; max-width: 100%;">
+<a href="https://members.supertuxkart.net/join" class="patreon-btn">{%translate "Become a member","Donate page"%}</a>
+</div>
 
 {%translate "Donations help us improve the game, as they may be used for purchasing hardware, file hosting and distribution services, servers to host websites, paying artists to produce improved artwork, and more. You can learn more about our policy [here](Donation_Policy).","Donate page"%}
 
-**{%translate "Do not hesitate to contact us if you have any questions or problems!","Donate page"%}**
+{% capture itch_heading -%}
+{%translate "One time donations","Section title in the Donate page"%}
+{%- endcapture %}
+
+{% start_liquid main_title %}
+
+{{ itch_heading }}
+
+{% end_liquid %}
+
+{%translate "If you prefer to make a one-time donation to SuperTuxKart, you can do so through itch.io. Click on the 'Download Now' button and you will be able to select your donation amount.","Donate page - avoid double-quotes to not break the layout!"%}
 
 {% include donation_frame %}
 
@@ -54,8 +72,6 @@ title: Donate
 {% end_liquid %}
 
 {%translate "Several community members have requested other methods to help fund SuperTuxKart.","Donate page"%}
-
-{%translate "We are looking into ways to make recurrent donations possible.","Donate page"%}
 
 {%translate "As a response to the request for more anonymous methods, we have established a way to donate using cryptocurrencies. Simply follow the instruction below. Everything is handled on supertuxkart.net! At the end of the process, you will also be able to retrieve the gift package.","Donate page"%}
 

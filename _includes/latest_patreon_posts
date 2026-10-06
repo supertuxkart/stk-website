@@ -1,17 +1,19 @@
 <table>
 
-{% include news_post title="Smarter light rendering" link="https://members.supertuxkart.net/posts/smarter-light-165361714" date="2026-08-31" image="assets/blog/smarterLights_thumb.jpg" %}
+{% include news_post title="From Green Valley to Alpine Valley" link="https://members.supertuxkart.net/posts/from-green-to-171517771" date="2026-10-05" image="assets/blog/peacefulAlpineValley_thumb.jpg" %}
 
-{% include news_post title="Karts & Explosions" link="https://members.supertuxkart.net/posts/karts-explosions-167869097" date="2026-08-27" image="assets/blog/kartsExplosions_thumb.jpg" %}
+{% include news_post title="Once upon a time" link="https://members.supertuxkart.net/posts/once-upon-time-170790128" date="2026-10-03" image="assets/blog/supertuxzero_thumb.jpg" %}
 
-{% include news_post title="A brighter Candela City (#5)" link="https://members.supertuxkart.net/posts/brighter-candela-167573866" date="2026-08-24" image="assets/blog/brighterCandela5_thumb.jpg" %}
+{% include news_post title="Fixing the Depth-of-Field shader" link="https://members.supertuxkart.net/posts/fixing-depth-of-170061322" date="2026-09-28" image="assets/blog/DoF_thumb.jpg" %}
 
-{% include news_post title="Animated cow" link="https://members.supertuxkart.net/posts/animated-cow-167229401" date="2026-08-20" image="assets/blog/cowAnimation_thumb.jpg" %}
+{% include news_post title="The transformation of Candela's park" link="https://members.supertuxkart.net/posts/transformation-170652697" date="2026-09-26" image="assets/blog/brighterCandela7_thumb.jpg" %}
 
-{% include news_post title="A brighter Candela City (#4)" link="https://members.supertuxkart.net/posts/brighter-candela-166951076" date="2026-08-17" image="assets/blog/brighterCandela4_thumb.jpg" %}
+{% include news_post title="What improvements do you want for STK Online?" link="https://members.supertuxkart.net/posts/what-do-you-want-170469633" date="2026-09-24" image="assets/blog/Poll_thumb.jpg" %}
 
-{% include news_post title="New Fort Magma (#7)" link="https://members.supertuxkart.net/posts/new-fort-magma-7-163598277" date="2026-08-13" image="assets/blog/newFortMagma7_thumb.jpg" %}
+{% include news_post title="Wooden gates and catenary curves" link="https://members.supertuxkart.net/posts/wooden-gates-and-170061311" date="2026-09-21" image="assets/blog/cropChangesCornfield3_thumb.jpg" %}
+
+{% include news_post title="A companion for the new cow" link="https://members.supertuxkart.net/posts/companion-for-169797733" date="2026-09-17" image="assets/blog/cowCompanion_thumb.jpg" %}
 
 </table>
 
-{%translate "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. They are available for everybody.","News page - patreon subsection"%}
+{%translate "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. Most of them are available for free without the need for an account.","News page - patreon subsection"%}
