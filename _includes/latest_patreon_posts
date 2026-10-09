@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="Paving the way to Ravenbridge" link="https://members.supertuxkart.net/posts/paving-way-to-171914497" date="2026-10-09" image="assets/blog/renovatingRavenbridge1_thumb.jpg" %}
+
 {% include news_post title="The creation of Candela's arch roundabout" link="https://members.supertuxkart.net/posts/transformation-170652697" date="2026-10-07" image="assets/blog/brighterCandela8_thumb.jpg" %}
 
 {% include news_post title="From Green Valley to Alpine Valley" link="https://members.supertuxkart.net/posts/from-green-to-171517771" date="2026-10-05" image="assets/blog/peacefulAlpineValley_thumb.jpg" %}
@@ -11,8 +13,6 @@
 {% include news_post title="The transformation of Candela's park" link="https://members.supertuxkart.net/posts/transformation-170652697" date="2026-09-26" image="assets/blog/brighterCandela7_thumb.jpg" %}
 
 {% include news_post title="What improvements do you want for STK Online?" link="https://members.supertuxkart.net/posts/what-do-you-want-170469633" date="2026-09-24" image="assets/blog/Poll_thumb.jpg" %}
-
-{% include news_post title="Wooden gates and catenary curves" link="https://members.supertuxkart.net/posts/wooden-gates-and-170061311" date="2026-09-21" image="assets/blog/cropChangesCornfield3_thumb.jpg" %}
 
 </table>
 
