@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="Refocusing Depth-of-Field: a major optimization" link="https://members.supertuxkart.net/posts/refocusing-depth-172180940" date="2026-10-12" image="assets/blog/DoFOptimization_thumb.jpg" %}
+
 {% include news_post title="Paving the way to Ravenbridge" link="https://members.supertuxkart.net/posts/paving-way-to-171914497" date="2026-10-09" image="assets/blog/renovatingRavenbridge1_thumb.jpg" %}
 
 {% include news_post title="The creation of Candela's arch roundabout" link="https://members.supertuxkart.net/posts/transformation-170652697" date="2026-10-07" image="assets/blog/brighterCandela8_thumb.jpg" %}
@@ -11,8 +13,6 @@
 {% include news_post title="Fixing the Depth-of-Field shader" link="https://members.supertuxkart.net/posts/fixing-depth-of-170061322" date="2026-09-28" image="assets/blog/DoF_thumb.jpg" %}
 
 {% include news_post title="The transformation of Candela's park" link="https://members.supertuxkart.net/posts/transformation-170652697" date="2026-09-26" image="assets/blog/brighterCandela7_thumb.jpg" %}
-
-{% include news_post title="What improvements do you want for STK Online?" link="https://members.supertuxkart.net/posts/what-do-you-want-170469633" date="2026-09-24" image="assets/blog/Poll_thumb.jpg" %}
 
 </table>
 
