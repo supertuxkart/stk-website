@@ -188,6 +188,12 @@ toc: true
 /assets/wiki/Projects_Gaming_chair_controller.jpg,,,A SuperTuxKart window and a camera feed where gestures are analyzed to drive a kart.
 %}
 
+### {%translate "Using a conference badge as STK controller","Projects page - section title"%}
+
+{%translate "The Hack the North conference decided to integrate a mini-computer in the badges of their 2026 edition. This was enough for some of the attendees to [turn it into a wired STK controller](https://devpost.com/software/rocky-z5yp2v) as their submission for the event's 'hackathon'.","Projects page"%}
+
+{%translate "The badge sends debug outputs that a script on the main computer translates into commands for SuperTuxkart. To go around the limited number of buttons, the authors turned imaginative and used the badge's built-in accelerometer to turn shaking into nitro inputs.","Projects page"%}
+
 ### {%translate "Open Street Map","Projects page - section title"%}
 
 {%translate "What about driving on the streets you know in SuperTuxKart? This is what a project from 2013 wanted to make possible, with a method using OpenStreetMap data and importing real world data explained [on the project's page](https://wiki.openstreetmap.org/wiki/SuperTuxKart).","Projects page"%}
