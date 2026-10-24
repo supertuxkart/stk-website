@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="SuperTuxKart Online has gone dark" link="https://members.supertuxkart.net/posts/supertuxkart-has-173200716" date="2026-10-24" image="assets/blog/stkonline_candle_thumb.jpg" %}
+
 {% include news_post title="Prospecting for ideas" link="https://members.supertuxkart.net/posts/prospecting-for-169480960" date="2026-10-21" image="assets/blog/oilRush2_thumb.jpg" %}
 
 {% include news_post title="Nitro-infused Cocoa" link="https://members.supertuxkart.net/posts/nitro-infused-172838421" date="2026-10-19" image="assets/blog/hotCocoa5_thumb.jpg" %}
