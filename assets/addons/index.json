@@ -1,0 +1,82 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "io_scene_spm",
+      "name": "SPM (Space partitioned mesh) format",
+      "tagline": "Import-Export SPM format objects of SuperTuxKart",
+      "version": "2.0.0",
+      "type": "add-on",
+      "maintainer": "Richard Qian, LLS, Alayan",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://supertuxkart.net/Main_Page.html",
+      "copyright": [
+        "2009-2025 SuperTuxKart-Team",
+        "2009-2025 Benau"
+      ],
+      "permissions": {
+        "files": "Import/export SPM files from/to disk"
+      },
+      "tags": [
+        "Import-Export"
+      ],
+      "archive_url": "/assets/addons/io_scene_spm-2.0.0.zip",
+      "archive_size": 14031,
+      "archive_hash": "sha256:f61816a4cadc8e55d42e3197510fce11358a5cc273102b67a566ed8873e8f67b"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "io_artiste",
+      "name": "STK Runner",
+      "tagline": "nodal editor test SuperTuxKart Project",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "Richard Qian, LLS, Alayan",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://supertuxkart.net/Main_Page.html",
+      "copyright": [
+        "2009-2025 SuperTuxKart-Team"
+      ],
+      "tags": [
+        "Node"
+      ],
+      "archive_url": "/assets/addons/io_artiste-1.0.0.zip",
+      "archive_size": 7153,
+      "archive_hash": "sha256:a0fa22d610c9319fff99e9ef5393776fa11db4c4ec67debecbcbacce661b9386"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "io_antarctica_scene",
+      "name": "SuperTuxKart Exporter Tools",
+      "tagline": "Export items to SuperTuxKart (karts/tracks/materials)",
+      "version": "4.0.0",
+      "type": "add-on",
+      "maintainer": "Richard Qian, LLS, Alayan",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://supertuxkart.net/Main_Page.html",
+      "copyright": [
+        "2009-2025 SuperTuxKart-Team, Jean-Manuel Clemencon, Joerg Henrichs, Marianne Gagnon"
+      ],
+      "permissions": {
+        "files": "Import/export STK objects from/to disk"
+      },
+      "tags": [
+        "Import-Export"
+      ],
+      "archive_url": "/assets/addons/io_antarctica_scene-4.0.0.zip",
+      "archive_size": 186745,
+      "archive_hash": "sha256:2bbb762a6d9c49cfd78cda327fa8f1e73c5c8ffc6d4dcca2640bf80e04b60bc0"
+    }
+  ]
+}
