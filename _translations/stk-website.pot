@@ -2793,6 +2793,18 @@ msgid "The driving level possible with this control method is surprisingly good 
 msgstr ""
 
 # Projects page - section title
+msgid "Using a conference badge as STK controller"
+msgstr ""
+
+# Projects page
+msgid "The Hack the North conference decided to integrate a mini-computer in the badges of their 2026 edition. This was enough for some of the attendees to [turn it into a wired STK controller](https://devpost.com/software/rocky-z5yp2v) as their submission for the event's 'hackathon'."
+msgstr ""
+
+# Projects page
+msgid "The badge sends debug outputs that a script on the main computer translates into commands for SuperTuxkart. To go around the limited number of buttons, the authors turned imaginative and used the badge's built-in accelerometer to turn shaking into nitro inputs."
+msgstr ""
+
+# Projects page - section title
 msgid "Open Street Map"
 msgstr ""
 

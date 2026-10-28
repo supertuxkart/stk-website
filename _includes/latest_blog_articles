@@ -1,3 +1,19 @@
+ {% blog_article
+SuperTuxKart Online has gone dark
+
+We were forced to take the addons website offline due to security risks. Work is ongoing on a rewrite, and we need your support.
+
+Join the fundraiser at [fund.supertuxkart.net](https://fund.supertuxkart.net) ; every dollar counts.
+
+Full details [in our blog post](https://blog.supertuxkart.net/2026/10/supertuxkart-online-has-gone-dark.html).
+
+October 24, 2026 by SuperTuxKart Team
+%}
+
+{% gallery widths=90%
+/assets/blog/Blog_darkcandle_thumb.jpg,,https://fund.supertuxkart.net,A black and white picture of a candle symbolizing the offline service
+%}
+
 {% blog_article
 Transforming Candela City into our best track
 
