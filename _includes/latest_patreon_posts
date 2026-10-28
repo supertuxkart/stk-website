@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="Building a Cyberpunk Font" link="https://members.supertuxkart.net/posts/building-font-170364680" date="2026-10-28" image="assets/blog/cyberpunkFont_thumb.jpg" %}
+
 {% include news_post title="Smooth jungle racing" link="https://members.supertuxkart.net/posts/smooth-jungle-173484833" date="2026-10-26" image="assets/blog/hotCocoa6_thumb.jpg" %}
 
 {% include news_post title="SuperTuxKart Online has gone dark" link="https://members.supertuxkart.net/posts/supertuxkart-has-173200716" date="2026-10-24" image="assets/blog/stkonline_candle_thumb.jpg" %}
@@ -13,8 +15,6 @@
 {% include news_post title="Refocusing Depth-of-Field: a major optimization" link="https://members.supertuxkart.net/posts/refocusing-depth-172180940" date="2026-10-12" image="assets/blog/DoFOptimization_thumb.jpg" %}
 
 {% include news_post title="Paving the way to Ravenbridge" link="https://members.supertuxkart.net/posts/paving-way-to-171914497" date="2026-10-09" image="assets/blog/renovatingRavenbridge1_thumb.jpg" %}
-
-{% include news_post title="The creation of Candela's arch roundabout" link="https://members.supertuxkart.net/posts/transformation-170652697" date="2026-10-07" image="assets/blog/brighterCandela8_thumb.jpg" %}
 
 </table>
 
