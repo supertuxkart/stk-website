@@ -1,5 +1,8 @@
 <table>
 
+{% include news_post title="Explaining each Patreon tier" link="https://members.supertuxkart.net/posts/explaining-each-167863356
+" date="2026-10-30" image="assets/blog/tiers_thumb.jpg" %}
+
 {% include news_post title="Building a Cyberpunk Font" link="https://members.supertuxkart.net/posts/building-font-170364680" date="2026-10-28" image="assets/blog/cyberpunkFont_thumb.jpg" %}
 
 {% include news_post title="Smooth jungle racing" link="https://members.supertuxkart.net/posts/smooth-jungle-173484833" date="2026-10-26" image="assets/blog/hotCocoa6_thumb.jpg" %}
@@ -13,8 +16,6 @@
 {% include news_post title="Driving into the volcano" link="https://members.supertuxkart.net/posts/driving-into-172471872" date="2026-10-15" image="assets/blog/newFortMagma8_thumb.jpg" %}
 
 {% include news_post title="Refocusing Depth-of-Field: a major optimization" link="https://members.supertuxkart.net/posts/refocusing-depth-172180940" date="2026-10-12" image="assets/blog/DoFOptimization_thumb.jpg" %}
-
-{% include news_post title="Paving the way to Ravenbridge" link="https://members.supertuxkart.net/posts/paving-way-to-171914497" date="2026-10-09" image="assets/blog/renovatingRavenbridge1_thumb.jpg" %}
 
 </table>
 
