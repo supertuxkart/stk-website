@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="fi" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Löydä - SuperTuxKart</title>
+<link rel="stylesheet" href="/assets/css/supertuxkart.css?v=">
+<link rel="stylesheet" href="/assets/css/fontawesome.css?v=">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
+<meta name="viewport" content="user-scalable = yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Löydä">
+<meta property="og:site_name" content="SuperTuxKart">
+<meta property="og:description" content="Tervetuloa Maskottivaltakuntaan! Autot, nitrot, toimintaa! SuperTuxKart on avoimen lähdekoodin arcade-tyylinen 3D-ajopeli, joka sisältää lukuisia hahmoja, ratoja ja pelitiloja. Tavoitteemme on luoda peli, joka on enemmän hauska kuin realistinen, ja tarjota nautittava pelikokemus kaikenikäisille pelaajille.">
+<meta property="og:locale" content="fi">
+<meta property="og:image" content="/generated/assets/gallery/STK1.3_1-800-a45abd9dd.jpg"/>
+<style>
+
+.gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-caption {
+    display: block;
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-style: italic;
+}
+
+.gallery-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.gallery-sidebar-flow {
+    display: block;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.gallery-sidebar-img {
+    flex: 0 0 auto;
+    max-width: 100%;
+    flex-basis: var(--sidebar-width, 50%); 
+    max-width: var(--sidebar-width, 50%);
+}
+
+.gallery-sidebar-flow-img, .gallery-sidebar-flow-icon {
+    width: var(--sidebar-width, 50%);
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+
+.gallery-sidebar-img img, .gallery-sidebar-flow-img a img, .gallery-sidebar-flow-icon img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.gallery-sidebar-text {
+    flex: 1 1 0%;
+    min-width: 250px;
+}
+
+/* No paragraph margin at the top of the sidebar gallery text
+   for better alignement */
+.gallery-sidebar-text p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p {
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+.gallery-sidebar-flow p.gallery-caption {
+    margin: 0px
+}
+
+/* On narrow screens where we want to wrap around,
+   we avoid applying the width limits and also center the picture
+   The limit is 767 because at 767 or less the sizes parameter
+   from elsewhere tells the browser to use the 400px pictures. */
+@media (max-width: 767px) {
+    .gallery-sidebar-img {
+        --sidebar-width: 100% !important;
+        text-align: center;
+        order: 3 !important;
+    }
+
+    /* Flow icons keep flowing even on narrow screens so they are not changed here */
+    .gallery-sidebar-flow-img {
+        float: none !important;
+        --sidebar-width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .gallery-sidebar-img img, .gallery-sidebar-flow-img a img {
+        margin: 0 auto;
+    }
+    
+    .gallery-sidebar-text {
+        flex: 0 0 100% !important;
+        min-width: 0;
+    }
+}
+
+
+.packed_32per_0 {
+    padding: 3px;
+    width: 32%;
+    height: auto;
+}
+
+.packed_32per_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+.sidebar_360px_0 {
+    padding: 3px;
+    width: 360px;
+    height: auto;
+}
+
+.sidebar_360px_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+.sidebar_217px_0 {
+    padding: 3px;
+    width: 217px;
+    height: auto;
+}
+
+.sidebar_217px_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+.sidebar_320px_0 {
+    padding: 3px;
+    width: 320px;
+    height: auto;
+}
+
+.sidebar_320px_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+.sidebar_256px_0 {
+    padding: 3px;
+    width: 256px;
+    height: auto;
+}
+
+.sidebar_256px_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+
+.sidebar_240px_0 {
+    padding: 3px;
+    width: 240px;
+    height: auto;
+}
+
+.sidebar_240px_0 img {
+    display: inline-block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    max-height: none;
+    max-width: 100%;
+}
+</style>
+</head>
+
+<body>
+<div class="header_wrapper">
+<div class="header_color_wrapper_outer">
+<div class="header_color_wrapper_inner size-dependend-margin">
+<div class="navigation-tools">
+<nav>
+    <label for="toggle-mobile-navbar" class="toggle-mobile-navbar"><i class="fa fa-bars" style="margin-right: 5px"></i><span class="translate">Valikko</span></label>
+    <input type="checkbox" role="button" id="toggle-mobile-navbar" class="dropdown-trigger" aria-pressed="true">
+    <div class="nav-menu noselect">
+    <div class="left-nav">
+        <ul>
+            <li><a href='/fi/Discover'><span class="translate">Löydä</span></a></li>
+            <li><a href='/fi/News'><span class="translate">News</span></a></li>
+            <li><a href='/fi/Download'><span class="translate">Lataa</span></a></li>
+            <li><a href='/fi/FAQ'><span class="translate">UKK</span></a></li>
+            <li><a href='/fi/Community'><span class="translate">Liity mukaan</span></a></li>
+            <li><a class="donate-top-menu-link" href='/fi/Donate'><span class="translate">Lahjoita</span> <i class="fa fa-heart"></i></a></li>
+        </ul>
+    </div>
+    <div class="right-nav">
+        <div class="toolbox-container">
+        <label for="toolbox-gear" class="toolbox-gear-label"><i class="fa fa-cog fa-lg"></i></label>
+        <input type="checkbox" role="button" id="toolbox-gear" class="dropdown-trigger" aria-pressed="true"/>
+        <div class="toolbox">
+        <p class="toolbox-title"><span class="translate">Työkalut</span></p>
+        <div class="toolbox-section"><p><span class="translate">Kieli</span></p>
+        <ul id="language-selector" style="overflow-y: auto; max-height: 10rem;"><li id="language-selector-bg"><a href='/bg/Discover'>български</a></li><li id="language-selector-ca"><a href='/ca/Discover'>Català</a></li><li id="language-selector-cs"><a href='/cs/Discover'>Čeština</a></li><li id="language-selector-da"><a href='/da/Discover'>Dansk</a></li><li id="language-selector-de"><a href='/de/Discover'>Deutsch</a></li><li id="language-selector-en"><a href='/Discover'>English</a></li><li id="language-selector-es"><a href='/es/Discover'>Español</a></li><li id="language-selector-et"><a href='/et/Discover'>Eesti keel</a></li><li id="language-selector-eu"><a href='/eu/Discover'>Euskara</a></li><li id="language-selector-fi"><a href='/fi/Discover'>Suomi</a></li><li id="language-selector-fil"><a href='/fil/Discover'>Filipino</a></li><li id="language-selector-fr"><a href='/fr/Discover'>Français</a></li><li id="language-selector-gl"><a href='/gl/Discover'>Galego</a></li><li id="language-selector-it"><a href='/it/Discover'>Italiano</a></li><li id="language-selector-ko"><a href='/ko/Discover'>한국어</a></li><li id="language-selector-nl"><a href='/nl/Discover'>Nederlands</a></li><li id="language-selector-pl"><a href='/pl/Discover'>Polski</a></li><li id="language-selector-pt"><a href='/pt/Discover'>Português</a></li><li id="language-selector-pt_BR"><a href='/pt_BR/Discover'>Português Brasileiro</a></li><li id="language-selector-ru"><a href='/ru/Discover'>Русский</a></li><li id="language-selector-sl"><a href='/sl/Discover'>Slovenščina</a></li><li id="language-selector-sr"><a href='/sr/Discover'>Српски</a></li><li id="language-selector-tr"><a href='/tr/Discover'>Türkçe</a></li><li id="language-selector-uk"><a href='/uk/Discover'>Українська</a></li><li id="language-selector-zh_CN"><a href='/zh_CN/Discover'>中文（简体）</a></li><li id="language-selector-zh_TW"><a href='/zh_TW/Discover'>中文（繁體）</a></li></ul>
+        </div>
+        </div>
+        </div>
+        <div class="searchform">
+            <input type="text" id="search-input" accesskey="f"><button class="fa fa-search"></button>
+        </div>
+    </div>
+    </div>
+</nav>
+
+<a class="logo noselect" href='/fi/Main_Page' title="Käy pääsivulla">
+    <img src="/assets/images/logo.png" alt="SuperTuxKart"/>
+</a>
+
+</div>
+</div>
+</div>
+</div>
+
+<div class="main-content-wrapper size-dependend-margin">
+<div class="content_wrapper">
+<article>
+<ul id="results-container"></ul><br/><!-- fi -->
+<h2 id="tervetuloa-maskottivaltakuntaan" class="article_main_title">Tervetuloa Maskottivaltakuntaan!</h2>
+
+<div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_1.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_1-800-a45abd9dd.jpg" alt="STK1.3_1" srcset="/generated/assets/gallery/STK1.3_1-400-a45abd9dd.jpg 400w, /generated/assets/gallery/STK1.3_1-800-a45abd9dd.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_2-800-08bbf5c0c.jpg" alt="STK1.3_2" srcset="/generated/assets/gallery/STK1.3_2-400-08bbf5c0c.jpg 400w, /generated/assets/gallery/STK1.3_2-800-08bbf5c0c.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_3.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_3-800-0ac38fe5a.jpg" alt="STK1.3_3" srcset="/generated/assets/gallery/STK1.3_3-400-0ac38fe5a.jpg 400w, /generated/assets/gallery/STK1.3_3-800-0ac38fe5a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<p>Autot, nitrot, toimintaa! SuperTuxKart on avoimen lähdekoodin arcade-tyylinen 3D-ajopeli, joka sisältää lukuisia hahmoja, ratoja ja pelitiloja. Tavoitteemme on luoda peli, joka on enemmän hauska kuin realistinen, ja tarjota nautittava pelikokemus kaikenikäisille pelaajille.</p>
+
+<p>Tarinatilassa kohtaat pahan Nolokin, ja tehtäväsi on päihittää hänet ja tehdä Maskottivaltakunnasta jälleen turvallinen. Voit ajaa itseksesi tietokonetta vastaan, kilpailla useissa eri Grand Prix -kilpailuissa tai yrittää päihittää aika-ajossa aiemman rataennätyksesi. Voit myös kilpailla radalla, kamppailussa tai jalkapallo-ottelussa kahdeksan kaverin kanssa yksittäisellä tietokoneella, pelata lähiverkossa tai internetissä.</p>
+
+<div class="gallery-container">
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_4.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_4-800-2af6c383a.jpg" alt="STK1.3_4" srcset="/generated/assets/gallery/STK1.3_4-400-2af6c383a.jpg 400w, /generated/assets/gallery/STK1.3_4-800-2af6c383a.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_5.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_5-800-59815c9d9.jpg" alt="STK1.3_5" srcset="/generated/assets/gallery/STK1.3_5-400-59815c9d9.jpg 400w, /generated/assets/gallery/STK1.3_5-800-59815c9d9.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+<div class="packed_32per_0"><a href="/assets/gallery/STK1.3_6.jpg" target="_blank"><img src="/generated/assets/gallery/STK1.3_6-800-b585c4962.jpg" alt="STK1.3_6" srcset="/generated/assets/gallery/STK1.3_6-400-b585c4962.jpg 400w, /generated/assets/gallery/STK1.3_6-800-b585c4962.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 2"><h2 id="exciting-tracks" class="article_main_title">Exciting tracks</h2>
+
+<p><strong>SuperTuxKart 1.5 features 21 official tracks</strong>, as well as two gift package tracks that will become part of the base game with STK Evolution.</p>
+
+<p>SuperTuxKart’s tracks offer many environments, from snowy mountains to tropical jungles, from underground tunnels to spaceships.</p>
+
+<p>There is also a wide variety in gameplay, including alternative paths and secret paths just waiting to be discovered.</p>
+
+<p><strong>Dozens of fun addon tracks can also be installed</strong> within the game to keep the experience fresh.</p>
+</div><div class="gallery-sidebar-img" style="order: 1; --sidebar-width: 360px;"><a href="/assets/gallery/STK0.9.3_2.jpg" target="_blank"><img src="/generated/assets/gallery/STK0.9.3_2-800-76bc4ddb1.jpg" alt="SuperTuxKart: Suzanne heading towards Cornfield Crossing's barn" srcset="/generated/assets/gallery/STK0.9.3_2-400-76bc4ddb1.jpg 400w, /generated/assets/gallery/STK0.9.3_2-800-76bc4ddb1.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 1"><h2 id="endearing-characters" class="article_main_title">Endearing characters</h2>
+
+<p>SuperTuxKart 1.5 offers 18 official karts, within three different kart classes.</p>
+
+<p>Many of SuperTuxKart’s characters are mascots of open-source projects, including Tux the penguin. Get to know them better by visiting our <a href="/fi/Characters">Characters page</a>!</p>
+
+<p>Hundreds of additional karts are also available as addons.</p>
+</div><div class="gallery-sidebar-img" style="order: 2; --sidebar-width: 217px;"><a href="/fi/Characters" target="_blank"><img src="/generated/assets/wiki/FourCharacters-217-a7029ab41.png" alt="Icons for four characters of SuperTuxKart: Tux; Sara; Kiki; and Konqi" srcset="/generated/assets/wiki/FourCharacters-217-a7029ab41.png 217w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 2"><h2 id="varied-powerups" class="article_main_title">Varied powerups</h2>
+
+<p>There are 9 different powerups available in SuperTuxKart 1.5, which players can collect in gift boxes.</p>
+
+<p>Players in worse positions get better powerups to help them catch up, but there is also a lot of skill involved to get the most out of the powerups you receive.</p>
+
+<p>Visit our <a href="/fi/Powerups">Powerups page</a> for more details: from quick overviews to detailed explanations about how each powerup work and usage tips, it is a treasure trove of information.</p>
+</div><div class="gallery-sidebar-img" style="order: 1; --sidebar-width: 217px;"><a href="/fi/Powerups" target="_blank"><img src="/generated/assets/wiki/FourPowerups-272-beccf56da.png" alt="Icons for four powerups of SuperTuxKart: Bubblegum; Bowling Ball; Swatter; and Zipper" srcset="/generated/assets/wiki/FourPowerups-272-beccf56da.png 272w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 1"><h2 id="many-game-modes" class="article_main_title">Many game modes</h2>
+
+<p><strong>Racing with powerups is SuperTuxKart’s core game mode</strong>, with Story Mode offering challenges centered around racing to unlock all the game’s content.</p>
+
+<p>Some additional game modes are based on racing: <strong>Time-Trial</strong> allows players to test their raw driving skills without powerups; Follow-the-Leader is an elimination race.</p>
+
+<p>Other game modes bring a twist to the concept of a kart game: in <strong>Egg Hunt</strong>, players have to explore tracks to find the hidden eggs; in <strong>Soccer</strong>, a team-based mode with a dedicated online community, each team tries to score more goals; while Battle mode focuses on using powerups to attack other karts.</p>
+</div><div class="gallery-sidebar-img" style="order: 2; --sidebar-width: 320px;"><a href="/assets/wiki/GameModes.jpg" target="_blank"><img src="/generated/assets/wiki/GameModes-800-fd20dcb80.jpg" alt="A collage of SuperTuxKart Egg Hunt on top and SuperTuxKart Soccer at the bottom" srcset="/generated/assets/wiki/GameModes-400-fd20dcb80.jpg 400w, /generated/assets/wiki/GameModes-800-fd20dcb80.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 2"><h2 id="millions-of-downloads" class="article_main_title">Millions of downloads</h2>
+
+<p>SuperTuxKart has a worldwide community, with <strong>over 6 million downloads and installations</strong> across <a href="https://play.google.com/store/apps/details?id=org.supertuxkart.stk">Google Play</a>, <a href="https://sourceforge.net/projects/supertuxkart/files/SuperTuxKart/stats/timeline?dates=2007-03-09%20to%202026-06-07">SourceForge</a>, <a href="https://api.github.com/repos/supertuxkart/stk-code/releases">GitHub</a> and <a href="https://flathub.org/en/apps/net.supertuxkart.SuperTuxKart">Flathub</a>. This figure doesn’t include numerous installations through sources such as Linux package managers and website mirrors.</p>
+
+<p><strong>Every day, over 100 players create a new SuperTuxKart online account.</strong></p>
+</div><div class="gallery-sidebar-img" style="order: 1; --sidebar-width: 256px;"><a href="/assets/wiki/globe_icon.png" target="_blank"><img src="/generated/assets/wiki/globe_icon-256-3d9799049.png" alt="A globe icon from SuperTuxKart's menu" srcset="/generated/assets/wiki/globe_icon-256-3d9799049.png 256w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 1"><h2 id="twenty-years-of-history" class="article_main_title">Twenty years of history</h2>
+
+<p>Powered by the passion of its contributors, <strong>SuperTuxKart as a project has been in development for over 20 years.</strong></p>
+
+<p>During this time period, SuperTuxKart has improved tremendously, with considerable changes in every aspect of the game, allowing it to remain the foremost reference for libre and open-source games.</p>
+
+<p>Check out <a href="/fi/History_of_SuperTuxKart">our illustrated history of SuperTuxKart</a> to discover more.</p>
+</div><div class="gallery-sidebar-img" style="order: 2; --sidebar-width: 320px;"><a href="/fi/History_of_SuperTuxKart" target="_blank"><img src="/generated/assets/gallery/STK0.0.0_2-800-4c224342b.jpg" alt="A screenshot showing the main menu of SuperTuxKart 0.0.0" srcset="/generated/assets/gallery/STK0.0.0_2-400-4c224342b.jpg 400w, /generated/assets/gallery/STK0.0.0_2-800-4c224342b.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 2"><h2 id="the-team-behind-the-game" class="article_main_title">The team behind the game</h2>
+
+<p>The SuperTuxKart project is currently led by <strong>Alayan</strong> and <strong>Sven</strong>. BcfWorld, Samuncle and LLS are also part of the team. For many years, the project was led by <strong>Hiker</strong> and <strong>Auria</strong>.</p>
+
+<p>Thanks to the libre and open-source nature of SuperTuxKart, hundreds of people have contributed over the years, ensuring the project always stays alive.</p>
+
+<p>You can find more information about the people behind SuperTuxKart on our <a href="/Team">Team</a> page!</p>
+</div><div class="gallery-sidebar-img" style="order: 1; --sidebar-width: 240px;"><a href="/Team" target="_blank"><img src="/generated/assets/images/blog_logo-200-6491aa49f.png" alt="SuperTuxKart's logo" srcset="/generated/assets/images/blog_logo-200-6491aa49f.png 200w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<div class="gallery-sidebar"><div class="gallery-sidebar-text" style="order: 1"><h2 id="supertuxkart-evolution" class="article_main_title">SuperTuxKart Evolution</h2>
+
+<p><strong>SuperTuxKart Evolution is our project’s next major release, designed as a new game within the same game series.</strong></p>
+
+<p>It will bring major updates to all aspects of the game, with new tracks, new karts, improved game mechanics, new powerups, improve graphical quality, and more. A <a href="https://blog.supertuxkart.net/2025/09/supertuxkart-evolution-roadmap.html">general overview</a> is available on our blog.</p>
+
+<p>You can find more information about the project and how to stay informed about it in <a href="/FAQ#supertuxkart-evolution">our FAQ</a>.</p>
+</div><div class="gallery-sidebar-img" style="order: 2; --sidebar-width: 360px;"><a href="/assets/gallery/STKEvolution_1.jpg" target="_blank"><img src="/generated/assets/gallery/STKEvolution_1-800-17bc58c4e.jpg" alt="SuperTuxKart Evolution preview: A view from Freytra Peak's hamlet with a beautiful brick and wood building on the left and electric lines crossing the road farther back" srcset="/generated/assets/gallery/STKEvolution_1-400-17bc58c4e.jpg 400w, /generated/assets/gallery/STKEvolution_1-800-17bc58c4e.jpg 800w" sizes="(min-width: 768px) 800px, 400px" />
+</a></div>
+</div>
+
+<h2 id="start-racing-now" class="article_main_title">Start racing now!</h2>
+
+<p><strong>Head to <a href="/fi/Download">our Download page</a> to get the latest SuperTuxKart version for your device!</strong></p>
+
+</article>
+</div>
+</div>
+
+<footer class="size-dependend-margin ">
+<div class="footer-links">
+    <div style="width: 30%"><p><span class="translate">Yhteisö</span></p>
+    <ul>
+        <li><a href='https://forum.supertuxkart.net/'><span class="translate">Keskustelupalsta</span></a></li>
+        <li><a href='https://blog.supertuxkart.net/'><span class="translate">Blogi</span></a></li>
+        <li><a href='https://x.com/supertuxkart'><span class="translate">Twitter / X</span></a></li>
+        <li><a href='https://online.supertuxkart.net/'><span class="translate">Lisäosat</span></a></li>
+        <li><a href='https://web.libera.chat/?channels=#supertuxkart'>irc: #supertuxkart@libera</a></li>
+    </ul>
+    </div>
+    <div style="width: 20%"><p><span class="translate">Media</span></p>
+    <ul>
+        <li><a href='https://www.youtube.com/@SuperTuxKartOfficial?sub_confirmation=1'><span class="translate">YouTube</span></a></li>
+        <li><a href='/fi/Gallery'><span class="translate">Galleria</span></a></li>
+        <li><a href='/fi/Posters'><span class="translate">Julisteet</span></a></li>
+    </ul>
+    </div>
+    <div style="width: 20%"><p><span class="translate">Kehitys</span></p>
+    <ul>
+        <li><a href='/fi/Community'><span class="translate">Modaus</span></a></li>
+        <li><a href='https://github.com/supertuxkart/stk-code'><span class="translate">GitHub</span></a></li>
+        <li><a href='https://sourceforge.net/p/supertuxkart/code/HEAD/tree/'><span class="translate">SVN</span></a></li>
+    </ul>
+    </div>
+    <div style="width: 30%"><p><span class="translate">Tietoa meistä</span></p>
+    <ul>
+        <li><a href='/fi/FAQ'><span class="translate">UKK</span></a></li>
+        <li><a href='/Team'><span class="translate">Tietoa tiimistä</span></a></li>
+        <li><a href='/fi/Discover'><span class="translate">Tietoa SuperTuxKartista</span></a></li>
+        <li><a href='/fi/Projects'><span class="translate">SuperTuxKartia käyttävät projektit</span></a></li>
+        <li><a href='/Terms'><span class="translate">Käyttöehdot</span></a></li>
+    </ul>
+    </div>
+</div>
+
+<div class="footer-copyright">
+Site designed by Jean-Manuel Cl&eacute;men&ccedil;on & Konstin<br />
+Powered by <a href="https://jekyllrb.com">Jekyll</a><br /><br />
+SuperTuxKart Team © 2026
+</div>
+
+</footer>
+
+<script src="/assets/js/lang_redirect.js"></script>
+<script src="/assets/js/simple-jekyll-search.min.js"></script>
+<script src="/assets/js/searchdata.js" async></script></body>
+</html>
