@@ -1,0 +1,29 @@
+- id: io_scene_spm
+  name: "SPM (Space partitioned mesh) format"
+  tagline: "Import-Export SPM format objects of SuperTuxKart"
+  version: "2.0.0"
+  maintainer: "Richard Qian, LLS, Alayan"
+  tags: ["Import-Export"]
+  archive: "/assets/addons/io_scene_spm-2.0.0.zip"
+  size: 14031
+  color: "#4361ee"
+
+- id: io_artiste
+  name: "STK Runner"
+  tagline: "nodal editor test SuperTuxKart Project"
+  version: "1.0.0"
+  maintainer: "Richard Qian, LLS, Alayan"
+  tags: ["Node"]
+  archive: "/assets/addons/io_artiste-1.0.0.zip"
+  size: 7153
+  color: "#3f37c9"
+
+- id: io_antarctica_scene
+  name: "SuperTuxKart Exporter Tools"
+  tagline: "Export items to SuperTuxKart (karts/tracks/materials)"
+  version: "4.0.0"
+  maintainer: "Richard Qian, LLS, Alayan"
+  tags: ["Import-Export"]
+  archive: "/assets/addons/io_antarctica_scene-4.0.0.zip"
+  size: 186745
+  color: "#4cc9f0"
