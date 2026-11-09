@@ -1,12 +1,12 @@
 <table>
 
-{% include news_post title="The genesis of Las Dunas Circuit" link="https://members.supertuxkart.net/posts/genesis-of-las-174497473
-" date="2026-11-05" image="assets/blog/fabulousLasDunas1_thumb.jpg" %}
+{% include news_post title="240 frames per second" link="https://members.supertuxkart.net/posts/240-frames-per-174867737" date="2026-11-09" image="assets/blog/240fps_thumb.jpg" %}
+
+{% include news_post title="The genesis of Las Dunas Circuit" link="https://members.supertuxkart.net/posts/genesis-of-las-174497473" date="2026-11-05" image="assets/blog/fabulousLasDunas1_thumb.jpg" %}
 
 {% include news_post title="Dirt in the swamp" link="https://members.supertuxkart.net/posts/dirt-in-swamp-172491792" date="2026-11-02" image="assets/blog/renovatingRavenbridge2_thumb.jpg" %}
 
-{% include news_post title="Explaining each Patreon tier" link="https://members.supertuxkart.net/posts/explaining-each-167863356
-" date="2026-10-30" image="assets/blog/tiers_thumb.jpg" %}
+{% include news_post title="Explaining each Patreon tier" link="https://members.supertuxkart.net/posts/explaining-each-167863356" date="2026-10-30" image="assets/blog/tiers_thumb.jpg" %}
 
 {% include news_post title="Building a Cyberpunk Font" link="https://members.supertuxkart.net/posts/building-font-170364680" date="2026-10-28" image="assets/blog/cyberpunkFont_thumb.jpg" %}
 
@@ -15,8 +15,6 @@
 {% include news_post title="SuperTuxKart Online has gone dark" link="https://members.supertuxkart.net/posts/supertuxkart-has-173200716" date="2026-10-24" image="assets/blog/stkonline_candle_thumb.jpg" %}
 
 {% include news_post title="Prospecting for ideas" link="https://members.supertuxkart.net/posts/prospecting-for-169480960" date="2026-10-21" image="assets/blog/oilRush2_thumb.jpg" %}
-
-{% include news_post title="Nitro-infused Cocoa" link="https://members.supertuxkart.net/posts/nitro-infused-172838421" date="2026-10-19" image="assets/blog/hotCocoa5_thumb.jpg" %}
 
 </table>
 
