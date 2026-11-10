@@ -599,7 +599,11 @@ msgid "If you enjoyed SuperTuxKart and would like to help the project, or just t
 msgstr ""
 
 # Donate page
-msgid "Donators also receive a gift package, no matter the chosen donation method."
+msgid "Donations help us improve the game, as they may be used for purchasing hardware, file hosting and distribution services, servers to host websites, paying artists to produce improved artwork, and more. You can learn more about our policy [here](Donation_Policy)."
+msgstr ""
+
+# Donate page
+msgid "We currently offer three main donation methods, with options for one-time donations and recurring donations. Donors also receive a gift package, no matter the chosen donation method."
 msgstr ""
 
 # Donate page
@@ -607,19 +611,35 @@ msgid "The best way to make development sustainable is to join our Patreon. It a
 msgstr ""
 
 # Donate page
+msgid "Recurring support. Lets us plan beyond this month. Includes the Evolution preview gift tracks and more."
+msgstr ""
+
+# Donate page
 msgid "Become a member"
 msgstr ""
 
 # Donate page
-msgid "Donations help us improve the game, as they may be used for purchasing hardware, file hosting and distribution services, servers to host websites, paying artists to produce improved artwork, and more. You can learn more about our policy [here](Donation_Policy)."
+msgid "Pay what you want. Includes the Evolution preview gift tracks."
+msgstr ""
+
+# Donate page
+msgid "Donate on itch.io"
+msgstr ""
+
+# Donate page
+msgid "Self-hosted BTCPay. No intermediary, no fees to a platform. Includes the Evolution preview gift tracks."
+msgstr ""
+
+# Donate page
+msgid "Donate with crypto"
 msgstr ""
 
 # Section title in the Donate page
-msgid "One time donations"
+msgid "Major supporters"
 msgstr ""
 
-# Donate page - avoid double-quotes to not break the layout!
-msgid "If you prefer to make a one-time donation to SuperTuxKart, you can do so through itch.io. Click on the 'Download Now' button and you will be able to select your donation amount."
+# Donate page
+msgid "Patreon supporters at the 'Give Tux a nitro boost' tier or higher get their name on this page as a thank you."
 msgstr ""
 
 # Section title in the Donate page
@@ -631,27 +651,15 @@ msgid "Alongside SuperTuxKart 1.5, a donation package including two tracks devel
 msgstr ""
 
 # Donate page - avoid double-quotes to not break the layout!
-msgid "To install the package, first retrieve the '1.5 Gift Package' on itch.io, unzip the file, and follow the instructions in the included README. The procedure follows the [manual addons installation](Installing_Add-Ons) procedure."
+msgid "To install the package, first retrieve the '1.5 Gift Package' on itch.io or [on Patreon](https://members.supertuxkart.net/posts/get-early-access-167770438)."
+msgstr ""
+
+# Donate page
+msgid "Then unzip the file, and follow the instructions in the included README. The procedure follows the [manual addons installation](Installing_Add-Ons) procedure."
 msgstr ""
 
 # Donate page
 msgid "Unfortunately as of now, we are not able to offer an in-game installation procedure or a simple installation procedure for Android users. We are aware of this limitation, but we didn't want to delay 1.5's release to all users to solve it."
-msgstr ""
-
-# Section title in the Donate page
-msgid "Other donation methods"
-msgstr ""
-
-# Donate page
-msgid "Several community members have requested other methods to help fund SuperTuxKart."
-msgstr ""
-
-# Donate page
-msgid "As a response to the request for more anonymous methods, we have established a way to donate using cryptocurrencies. Simply follow the instruction below. Everything is handled on supertuxkart.net! At the end of the process, you will also be able to retrieve the gift package."
-msgstr ""
-
-# Donate page
-msgid "Please note that the minimum donation with this method is higher to avoid overhead from tiny transactions."
 msgstr ""
 
 # Donation Policy page
