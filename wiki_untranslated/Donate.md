@@ -54,6 +54,8 @@ title: Donate
 </div>
 </div>
 
+{%translate "We were recently [forced to preventively take our old PHP servers offline](https://members.supertuxkart.net/posts/supertuxkart-has-173200716). Most of the in-game online functionality has been restored thanks to our ongoing Python reimplementation, but there is still a lot of work to do before we can restore the addons website to service. **All donations until the end of November contribute to [our fundraiser](https://fund.supertuxkart.net/) to help restore full service.**","Donate page"%}
+
 {% capture credits_heading -%}
 {%translate "Major supporters","Section title in the Donate page"%}
 {%- endcapture %}
