@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="Simple yet challenging" link="https://members.supertuxkart.net/posts/simple-yet-175059664" date="2026-11-11" image="assets/blog/fabulousLasDunas2_thumb.jpg" %}
+
 {% include news_post title="240 frames per second" link="https://members.supertuxkart.net/posts/240-frames-per-174867737" date="2026-11-09" image="assets/blog/240fps_thumb.jpg" %}
 
 {% include news_post title="The genesis of Las Dunas Circuit" link="https://members.supertuxkart.net/posts/genesis-of-las-174497473" date="2026-11-05" image="assets/blog/fabulousLasDunas1_thumb.jpg" %}
@@ -13,8 +15,6 @@
 {% include news_post title="Smooth jungle racing" link="https://members.supertuxkart.net/posts/smooth-jungle-173484833" date="2026-10-26" image="assets/blog/hotCocoa6_thumb.jpg" %}
 
 {% include news_post title="SuperTuxKart Online has gone dark" link="https://members.supertuxkart.net/posts/supertuxkart-has-173200716" date="2026-10-24" image="assets/blog/stkonline_candle_thumb.jpg" %}
-
-{% include news_post title="Prospecting for ideas" link="https://members.supertuxkart.net/posts/prospecting-for-169480960" date="2026-10-21" image="assets/blog/oilRush2_thumb.jpg" %}
 
 </table>
 
