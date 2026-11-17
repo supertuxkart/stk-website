@@ -5,7 +5,7 @@
   align-items: center;
   gap: 10px;
   padding: 12px 24px;
-  background-color: #27499b;
+  background-color: #27994b;
   color: #fff;
   font-size: 21px;
   border-radius: 8px;
@@ -13,7 +13,7 @@
 }
 
 .patreon-btn:hover {
-  background-color: #173e76;
+  background-color: #178e26;
   color: #ff8;
   box-shadow: 0 3px 8px rgba(60, 188, 222, 0.4);
 }
@@ -28,4 +28,51 @@
 .patreon-btn:focus-visible {
   outline: 2px solid #052d49;
   outline-offset: 2px;
+}
+
+.cols {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(242,248,242,0.92);
+  border: 3px solid #999;
+  padding: 16px;
+  margin-bottom: 14px;
+  flex: 1 1 210px;
+  min-width: 0;
+}
+
+.preferred-card{
+  background: rgba(238,250,240,0.92);
+  border: 3px solid #2d9f00;
+}
+
+.card h3 {
+  margin: 0 0 6px;
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+.card-main-content{
+  height: 150px;
+}
+
+.top-supporter{
+  text-align: center;
+  font-size: 21px;
+}
+
+.major-supporters{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 18px;
 }
