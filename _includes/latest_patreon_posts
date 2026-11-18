@@ -1,5 +1,7 @@
 <table>
 
+{% include news_post title="Uphill curve" link="https://members.supertuxkart.net/posts/uphill-curve-175540202" date="2026-11-16" image="assets/blog/cropChangesCornfield4_thumb.jpg" %}
+
 {% include news_post title="Installing new plumbing" link="https://members.supertuxkart.net/posts/installing-new-175260578" date="2026-11-13" image="assets/blog/renovatingRavenbridge3_thumb.jpg" %}
 
 {% include news_post title="Simple yet challenging" link="https://members.supertuxkart.net/posts/simple-yet-175059664" date="2026-11-11" image="assets/blog/fabulousLasDunas2_thumb.jpg" %}
@@ -13,9 +15,6 @@
 {% include news_post title="Explaining each Patreon tier" link="https://members.supertuxkart.net/posts/explaining-each-167863356" date="2026-10-30" image="assets/blog/tiers_thumb.jpg" %}
 
 {% include news_post title="Building a Cyberpunk Font" link="https://members.supertuxkart.net/posts/building-font-170364680" date="2026-10-28" image="assets/blog/cyberpunkFont_thumb.jpg" %}
-
-{% include news_post title="Smooth jungle racing" link="https://members.supertuxkart.net/posts/smooth-jungle-173484833" date="2026-10-26" image="assets/blog/hotCocoa6_thumb.jpg" %}
-
 </table>
 
 {%translate "Visit [our patreon page](https://members.supertuxkart.net/) to find older entries. Most of them are available for free without the need for an account.","News page - patreon subsection"%}
